@@ -1,0 +1,177 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>ROLL SPLR INBD HYD</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 27-60-00-810-803</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+			<div>The CAWP ROLL SPOILER INBD HYD caution light comes on when the inboard spoiler hydraulic system pressure is low.</div>
+
+			<br>
+			<div><strong>Spoiler Cable Sensor:</strong> 
+			<br>If the tension of the fuselage spoiler cables decreases to zero, the tension spring will pull the roller arm against a stop. In this position, the end of the roller arm will operate the switches. The normally−open switches are closed. <br> This gives a signal to the inboard and outboard unload valves to close. The spoiler PCU extend pressure is removed and the hold - down pressure moves all the spoilers to the retracted position. Also, the <clp-text-orange>ROLL SPLR INBD HYD</clp-text-orange> and <clp-text-orange>ROLL SPLR OUTBD HYD</clp-text-orange> caution lights will come on. 
+			<br>	
+			The latch spring will latch the roller arm and keep the spoiler sensor switches in the closed position until it is released by maintenance personnel on the ground.</div>
+			<br>
+			<div><strong><clp-text-red>Maintenance Practies:</clp-text-red></strong></div>
+			<div> Prior closing Fuselage Panel 121BL check that “SPOILER CABLE SENSOR” is not inadvertently activated! => If yes reset SENSOR according <clp-link-pdf>AMM TASK 27-61-00-710-805</clp-link-pdf> <clp-link-tr >(TR-AMM)</clp-link-tr> prior next flight!</div>
+			<br>
+			<br>
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the rudder control system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-20-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>General Visual Inspection of the Spoiler Cable Disconnect Sensor (MRB#276000−207)</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-61-00-210-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Operational Check of the Roll Spoiler Cable Sensor Assembly (CMR#276000−106)</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-61-00-710-805</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>M3</strong> FCS ECU 1</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>L6</strong> FCS ECU 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+			<br>
+
+			<clp-table border="" hover="" nowrap="1">
+
+			
+				<clp-tr>
+					<clp-td><strong>SELECT FLIGHT/TAXI</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>to "taxi"</clp-td>
+				</clp-tr>
+				
+				<clp-tr>
+					<clp-td><strong>RESET</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>
+						 FCS ECU 1 and 2 CB’s  <br>
+						<strong><clp-text-red>M3</clp-text-red></strong> - Left Essential and <br>
+						<strong><clp-text-red>L6</clp-text-red></strong> - Right Essential 
+						<clp-text-blue> - "SIMULTANEOUSLY"</clp-text-blue> </clp-td>
+				</clp-tr>
+				
+				<clp-tr>
+						<clp-td><strong>NOTE:</strong></clp-td>
+						<clp-td> - </clp-td>
+						<clp-td><clp-text-blue>Wait 90 seconds until self-test sequence is complete before moving flight controls</clp-text-blue></clp-td>
+				</clp-tr>
+				
+				<clp-tr>
+					<clp-td><strong>FLIGHT CONTROLS</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>check/full travel</clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+		
+			<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+			<br>
+			<br>
+			<br>
+			<div><clp-text-blue><strong>NOTE:</strong></clp-text-blue></div>
+			<clp-img src="./apps/main/config/dashboard/pic/cl_splr.svg"></clp-img>
+			<br>
+			<div><clp-text-blue>The spoiler cable sensor will automatically retract the spoilers if there is a failure of fuselage spoiler cable or by activation during maintenance and will  also activate both caution lights the <strong><clp-text-orange>ROLL SPLR INBD HYD</clp-text-orange></strong> and <strong><clp-text-orange>ROLL SPLR OUTBD HYD</clp-text-orange></strong> when No.1 and No. 2 hydraulic system is pressurized.</clp-text-blue></div>
+			<br>
+			<br>
+			<div>Release/Reset the “SPOILER CABLE SENSOR” roller arm from its latched condition as follows:</div>
+
+			<ul>
+				<li>Lightly push the roller arm down to decrease the pressure of the roller arm against the spring.</li>
+				<li>Push the spring up and let the cable tension move the roller arm counterclockwise to the usual serviceable position.</li>
+				<li>Make sure that the roller is on the top spoiler cable.</li>
+				<li>Make sure that the grommet has a clearance of 0.10 to 0.30 in. (2.54 to 7.62 mm) around the bottom spoiler cable</li>
+				<li>Pressurize the No. 1 hydraulic system and 2 hydraulic system</li>
+				<li>In the flight compartment, make sure that the ROLL SPLR INBD HYD and the ROLL SPLR OUTBD HYD caution lights go out</li>
+			</ul>
+			<br>
+			<br>
+			
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

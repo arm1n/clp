@@ -1,0 +1,103 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+// Root
+.top {
+  margin: 0 0 3rem;
+
+  @include min-width(md) {
+    display: flex;
+  }
+}
+
+.intro {
+  margin: 0 0 2rem;
+
+  @include min-width(md) {
+    order: 2;
+    margin: 0 0 0 2rem;
+  }
+}
+
+// Overview
+
+// Details
+.detail {
+  margin: 0 0 3rem;
+}
+
+.complete {
+  @include min-width(md) {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: 2fr 3fr;
+
+    .sidebar {
+      flex-direction: column;
+    }
+
+    .access {
+      width: auto;
+      margin: 0 0 2rem;
+    }
+
+    .unit {
+      width: auto;
+      flex-grow: 1;
+    }
+
+    .content {
+      margin: 0;
+    }
+  }
+
+  @include min-width(lg) {
+    grid-template-columns: 1.5fr 3fr;
+  }
+}
+
+.sidebar {
+  @include min-width(md) {
+    display: flex;
+  }
+}
+
+.access {
+  width: 100%;
+  margin: 0 0 2rem;
+
+  @include min-width(md) {
+    width: 30rem;
+    margin: 0 2rem 0 0;
+  }
+}
+
+.unit {
+  @include min-width(md) {
+    width: 30rem;
+  }
+}
+
+.content {
+  margin: 2rem 0 3rem;
+
+  @include min-width(md) {
+    margin: 0 0 3rem;
+  }
+}
+
+.main {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.refs {
+  flex-grow: 1;
+  max-width: 75%;
+}
+
+.back {
+  @include link();
+  @include button-reset();
+}

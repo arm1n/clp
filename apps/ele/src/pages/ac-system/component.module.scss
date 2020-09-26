@@ -1,0 +1,26 @@
+@import "../../styles/_variables.scss";
+@import "../../styles/_mixins.scss";
+
+.svg {
+	margin: 0 0 3rem;
+}
+
+.content {
+	@include min-width(lg) {
+	    display: grid;
+	    grid-column-gap: 1rem;
+	    grid-template-columns: 1.5fr 1fr;
+	}
+}
+
+.card {
+	margin-bottom: 1.5rem;
+
+	@include min-width(lg) {
+		margin: 0;
+	}
+}
+
+.card:last-child {
+	margin: 0;
+}

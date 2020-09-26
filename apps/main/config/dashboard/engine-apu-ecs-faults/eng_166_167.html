@@ -1,0 +1,67 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>NQb inconsistent with NP and NQa - (Engine Fault Code 166/167)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-823</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent difference between torque shaft speed signal Qb, and propeller Np MPU speed signal and torque shaft speed signal Qa. This fault results in the loss of autofeather function.</p><!-- !!!! -->
+	
+	<p>The fault accommodation logic has determined that Qb differs by more than 25 prpm from Np and Qa.</p><!-- !!!! -->
+	
+	<p>This fault code will inhibit the autofeather advisory when the PLA goes into the take−off range. This fault code is designated as no dispatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Harness security at Torque Probe Qb </li><!-- !!!! -->
+		<li>Connector cleanliness at Torque Probe Qb </li>
+		<li>Torque Probe Qb adjustment </li>
+        <li>Torque Probe Qb </li>
+        <li>Fuel control electrical wiring harness (Torque probe to PEC) </li>
+		<li>PEC </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/tq_sensor.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+    
+<br>
+</clp-card>

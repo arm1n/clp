@@ -1,0 +1,72 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> High pressure rotor speed (Nh) related faults - (Engine Fault Code 716, 732, 782, 919 and/or 920)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-804</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault codes are 716, 732, 782, 919 and/or 920.</p><!-- !!!! -->
+
+    <p>Refer to <clp-link-pdf>FIM TASK 73-20-00-810-801</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr> for a description of the type of fault codes and possible deferral opportunities.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>NH Sensor (Ch. A or B) </li>
+        <li>Control Wiring Harness (FADEC to NH sensor lead Ch. A or B) </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/nh_sensor.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

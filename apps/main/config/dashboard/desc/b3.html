@@ -1,0 +1,170 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+
+			<h2>
+				<clp-text-orange>DC BUS</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 24-30-00-810-809</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The DC BUS caution light on the CAWP comes on when the DC generator overcurrent (700A) condition is sensed by the #1 DC Generator Control Unit (GCU) or #2 DC GCU or #3 DC GCU [Auxiliary Power Unit (APU)] for more than seven seconds.</div>
+
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> <br>When this occurs, the GCU will send a signal to the EPCU, which opens (or inhibits closing of) the bus tie. If the fault is not cleared, the EPCU will send a command to the GCU to open the applicable channel. But, if the GCU does not receive a trip signal in five seconds and still senses the overcurrent in its related generator, it will disconnect the generator from the bus. All this occurs in less than seven seconds.</clp-text-blue>
+			</div>
+
+			<br>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> Other related caution lights can also come on as follows:</clp-text-blue>
+			</div>
+
+			<ul>
+				<li>#1 DC GEN</li>
+				<li>#2 DC GEN</li>
+				<li>APU</li>
+				<li>STBY BATTERY</li>
+				<li>MAIN BATTERY</li>
+				<li>AUX BATTERY</li>
+
+			</ul>
+
+
+
+		</clp-card>
+
+		<br>
+
+		<clp-card title="Quick links">
+
+			<div>Operational test of the main 28V DC generation system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 24-31-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+
+
+		</clp-card>
+
+		<br>
+
+		<clp-card title="Associated CBs">
+
+
+
+		</clp-card>
+	</clp-grid-column>
+
+	<!-- RIGHT -->
+	<clp-grid-column>
+
+		<clp-card title="Quick reference reset guide">
+
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+
+			<div>
+				<clp-text-blue>NOTE: Engines running and make sure that engines are at flight idle and the propellers in unfeathered.</clp-text-blue>
+			</div>
+
+			<br>
+
+
+
+
+
+			<p><b>Nuisance Caution Light or Advisory Message DH8-400-SL-31-001R14</b></p>
+			<br>
+			<clp-table  fullwidth="" border="" hover="" nowrap="1">
+				<clp-tr>
+					<clp-td> BUS FAULT RESET SWITCH </clp-td>
+					
+					<clp-td> - <clp-text-blue><b>"RESET"</b></clp-text-blue> (Bus Fault Reset SWITCH) </clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+				<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> Further APU starts attempts may only be performed using an External DC power source. </clp-text-blue>
+			</div>
+			<br>
+
+			<clp-info-blue>
+				<p><b>Nuisance Caution Light or Advisory Message DH8-400-SL-31-001R14</b></p>
+				<div><clp-text-blue><strong>NOTE:</strong> MAIN DC BUS FAULT (Associated with selection of APU generator) (“APU”, “DC BUS”, “MAIN BATTERY” or “STBY BATTERY”, and “AUX BATTERY” Caution Lights and APU GEN WARN advisory)</clp-text-blue></div>
+			</clp-info-blue>
+			<br>
+
+			<clp-table fullwidth="" border="" hover="" nowrap="1">
+				<clp-tr>
+					<clp-td> APU GEN </clp-td>
+					
+					<clp-td> - to <clp-text-blue><b>"OFF"</b></clp-text-blue> </clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td> RECIRC FAN</clp-td>
+					
+					<clp-td> - to <clp-text-blue><b>"OFF"</b></clp-text-blue> </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td> MAIN, AUX & STBY BATTERIES</clp-td>
+					
+					<clp-td> - to <clp-text-blue><b>"OFF"</b></clp-text-blue> </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td> BUS FAULT RESET SWITCH</clp-td>
+					
+					<clp-td> - <clp-text-blue><b>"RESET"</b></clp-text-blue> </clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+			<clp-text-blue><strong>IF DC BUS CAUTION LIGHT GOES OUT</strong></clp-text-blue>
+			<br>
+			<br>
+				<br>
+			<clp-table fullwidth="" border="" hover="" nowrap="1">
+				<clp-tr>
+					<clp-td> APU GEN </clp-td>
+					
+					<clp-td> - to <clp-text-blue><b>"ON"</b></clp-text-blue> </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td> MAIN, AUX & STBY BATTERIES</clp-td>
+					
+					<clp-td> <clp-text-blue><b>- "ON"</b></clp-text-blue> one at a time </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td> RECIRC FAN</clp-td>
+					
+					<clp-td> - as required</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+
+		</clp-card>
+	</clp-grid-column>
+</clp-grid>

@@ -1,0 +1,44 @@
+<p><strong>Cabin Pressure Controller</strong></p>
+
+<br>
+<clp-link-popup path="./units/cockpit/desc/cabin_pc_cot_panel_scem.html" title="SCEMATIC">Show Pressurization Control Synoptic →</clp-link-popup>
+<br>
+
+<p>Controls the cabin pressure schedule according to the aircraft flight profile.</p>
+
+<div><b>The cabin pressure controller is a microprocessor based unit located in the avionics rack 
+(top shelf). The CPC performs the following functions:</b></div>
+
+
+<ul>
+	<li>Provides the calculation of the cabin pressurization schedules according to aircraft flight profile</li>
+	<li>Provides the calculation of the control logic according to aircraft flight profile</li>
+	<li>Provides the control of the cabin pressure by driving the speed of the normal/auto mode channel of the electrical aft outflow valve actuator</li>
+	<li>Provides excessive cabin altitude warning at 10000 feet (3048 m) in auto or manual modes. For take-off or landing altitudes above 8000 ft. (2438.4 m) the warning light will come on in the conditions that follow: The aircraft take-off altitude +1000 ft. (304.8 m) Landing altitude +1000 ft. (304.8 m).</li>
+	<li>Exchanges information on an ARINC 429 data bus with the cabin indication module to increase monitoring efficiency</li>
+	<li>Initiates a POST at every power up on the ground</li>
+	<li>Provides continuous monitoring of bleed air</li>
+	<li>Provides an interface to the CDS</li>
+</ul>
+
+<br>
+<div><b>Post test (Max 60 sec.)</b> Requires: </div>
+<ul>
+	<li>Controller in AUTO mode</li>
+	<li>RAM data not lost</li>
+	<li>No shop demand</li>
+	<li>Aircraft on GRD</li>
+</ul>
+
+<br>
+<div>Then:</div>
+<ul>
+	<li>Controller processor checked</li>
+	<li>Disc. output checked</li>
+	<li>RS422 to outflow valve checked</li>
+	<li>Outflow valve operation checked</li>
+</ul>
+
+<br>
+
+

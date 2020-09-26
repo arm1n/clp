@@ -1,0 +1,83 @@
+/* ----------------------------------------------------------------------------------------------------
+ * FONTS
+ *
+ * All web-fonts used troughout the application.
+ * ---------------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family:'Arial';
+    src: url('../fonts/arial.eot');
+	src: url('../fonts/arial.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/arial.woff2') format('woff2'),
+		url('../fonts/arial.woff') format('woff'),
+		url('../fonts/arial.svg#Arial') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Arial';
+    src: url('../fonts/arial-bold.eot');
+    src: url('../fonts/arial-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/arial-bold.woff2') format('woff2'),
+        url('../fonts/arial-bold.woff') format('woff'),
+        url('../fonts/arial-bold.svg#../fonts/arial-bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Tahoma';
+    src: url('../fonts/tahoma.eot');
+    src: url('../fonts/tahoma.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tahoma.woff2') format('woff2'),
+        url('../fonts/tahoma.woff') format('woff'),
+        url('../fonts/tahoma.svg#Tahoma') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Tahoma';
+    src: url('../fonts/tahoma-bold.eot');
+    src: url('../fonts/tahoma-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/tahoma-bold.woff2') format('woff2'),
+        url('../fonts/tahoma-bold.woff') format('woff'),
+        url('../fonts/tahoma-bold.svg#../fonts/tahoma-bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Helvetica';
+    src: url('../fonts/helvetica.eot');
+    src: url('../fonts/helvetica.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helvetica.woff2') format('woff2'),
+        url('../fonts/helvetica.woff') format('woff'),
+        url('../fonts/helvetica.svg#../fonts/helvetica') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Helvetica';
+    src: url('../fonts/helvetica-bold.eot');
+    src: url('../fonts/helvetica-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helvetica-bold.woff2') format('woff2'),
+        url('../fonts/helvetica-bold.woff') format('woff'),
+        url('../fonts/helvetica-bold.svg#../fonts/helvetica-bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}

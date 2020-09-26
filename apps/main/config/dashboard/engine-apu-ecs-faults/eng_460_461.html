@@ -1,0 +1,94 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Invalid FADEC CAS - (Engine Fault Code 460/461)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-10-810-832</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is generated as a result of an apparent out of range/invalid value of airspeed, as supplied to the PEC by the FADEC. The data has apparently been declared invalid by the FADEC. For Post Modsum 4W113558, the fault code will only be annunciated when the propeller is rotating</p><!-- !!!! -->
+
+    <p>The fault detection logic has determined that FADEC CAS is invalid as supplied via the R422 databus.</p><!-- !!!! -->
+
+    <p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited dispatch for TLD purposes.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Flight data processing system (FDPS) </li>
+        <li>Fuel control electrical wiring harness </li>
+        <li>FADEC </li>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fdps.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <clp-card title="UNIT">
+
+
+        <clp-grid>
+            <clp-grid-column>
+                <clp-file path="./units/eng/units/fadec.html"></clp-file><!-- !!!! -->
+            </clp-grid-column>
+
+            <clp-grid-column>
+                <clp-file path="./units/eng/units/pec.html"></clp-file><!-- !!!! -->
+            </clp-grid-column>
+
+            
+        </clp-grid>
+
+
+
+
+    </clp-card>
+    <br>
+
+    <br>
+</clp-card>

@@ -1,0 +1,52 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.wrapper {
+  display: grid;
+  text-align: center;
+  grid-gap: 0.0625rem;
+  grid-template-columns: 25px repeat(14, minmax(25px, 1fr));
+}
+
+.col {
+  display: flex;
+  padding: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--system-main-caution-lights-text-color-column);
+  background-color: var(--system-main-caution-lights-bg-color-column);
+
+  &:nth-last-child(-n+14) {
+    margin: 0.25rem 0 0;
+
+    &:hover {
+      color: var(--system-main-caution-lights-text-color-hover-special);
+    }
+  }
+
+  &:hover {
+    color: var(--system-main-caution-lights-text-color-hover-default);
+  }
+
+  &:not(.link) {
+    pointer-events: none;
+  }
+}
+
+.label {
+  @extend .col;
+
+  &,
+  &:hover {
+    color: var(--system-main-caution-lights-text-color-label);
+  }
+
+  font-size: 1.25rem;
+  align-self: center;
+  background-color: transparent;
+}
+
+.highlighted {
+	background-color: var(--system-main-caution-lights-text-color-label);
+}

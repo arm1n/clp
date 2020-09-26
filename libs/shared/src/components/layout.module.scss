@@ -1,0 +1,16 @@
+@import "../styles/_mixins.scss";
+
+.wrapper {
+	margin: 0 auto;
+	max-width: map-get($breakpoints, lg);
+}
+
+.navbar {}
+
+.view {
+	padding: 1.5rem 1rem;
+	@include min-width(lg) {
+
+		padding: 1.5rem 0 5rem;
+	}
+}

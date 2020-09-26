@@ -1,0 +1,63 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>PLA BETA stuck closed - (Engine Fault Code 198/199)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-815</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent indication of a mismatch between the power lever position indicators. In this case the PLA beta microswitch indication is on (i.e. the PLA beta should be in the beta range) but the PLA is actually in the flight range.</p><!-- !!!! -->
+	
+	<p>The fault detection logic has determined that PLA BETA = 1 and PLA > 40° for a period of more than 11 seconds (Pre Modsum 4W113558) or 15 seconds (Post Modsum 4W113558).</p><!-- !!!! -->
+	
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. The fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PLA beta microswitch </li><!-- !!!! -->
+		<li>PEC </li>
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+    
+<br>
+</clp-card>

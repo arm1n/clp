@@ -1,0 +1,72 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> P2.2 Bleed Valve LVDT Fault (Status) - (Engine Fault Code 725)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-892</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault codes is 725.</p><!-- !!!! -->
+
+    <p>Fault code 725 indicates a metering valve LVDT system intermittent fault.</p><!-- !!!! -->
+
+    <p>NOTE: Due to the fact that this is an intermittent fault, identifying the defective component may rely on replacing suspect LRUs and monitoring the results. If this fault code is accompanied with fault code 741 or 778, please refer to either FIM task for more detailed troubleshooting.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>P2.2 Bleed Valve </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li>
+        <li>Control Wiring Harness </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/p22_intbleed_vlv.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

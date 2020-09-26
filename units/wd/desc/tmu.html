@@ -1,0 +1,28 @@
+<p><strong>Timer and Monitor Unit (TMU) </strong></p>
+
+<p>Failure of one Ice Detection Probe (IDP) is reported to the Timer Monitor Unit 
+(TMU). The TMU stores the failure as a maintenance message that will be 
+displayed on the Engine Systems Integrated Display (ESID) when the 
+Centralized Diagnostic System (CDS) is interrogated.</p>
+
+
+<p>The displayed message is <clp-text-orange><b>“LEFT IDP FAIL”</b></clp-text-orange> or <clp-text-orange><b>“RIGHT IDP FAIL”</b></clp-text-orange> for the related left or right Ice Detection Probe (IDP) failure.The TMU sequences the Dual Distributing Valves (DDV) operation according to a pre-defined cycle.</p>
+
+<p>It commands the DDV to distribute air supply through one of its outputs. After the inflation cycle time, it commands the DDV to let air flow back and exhaust overboard through the ejector. During this cycle, the timer monitors the operation of the low pressure switches incorporated in each DDV output to confirm the operation of the DDV. </p>
+
+<p>The timer controls the deicing cycles according to the selected operating mode, 
+<b>SLOW</b> or <b>FAST</b>, and also controls the heaters of all heated equipment of the deicing system.</p>
+
+<p>The Static Air Temperature (SAT) information is used to activate 
+the heaters. When SAT falls below a pre-set value, the heaters are activated. 
+When SAT rises above this value, the heaters are deactivated.</p>
+
+<p>The TMU also monitors the left and right Engine Intake Adapter Heaters and automatically activates the spare heater when a main heater has failed.</p>
+
+<div>The TMU monitors these Air Data Sensor Heaters:</div> 
+<ul>
+	<li>Two 115 Vac Pitot/Static Probes</li>
+	<li>One 28 Vdc Pitot/Static Probe (Standby) </li>
+	<li>Two 115 Vac Angle of Attack (AOA) Sensors</li>
+	
+</ul>

@@ -1,0 +1,71 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Beta out of range on active lane - (Engine Fault Code 120/121)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-03-810-817</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent error in the input or output voltage levels from the PCU beta feedback transducer (BFT), on the active PEC control lane. This fault will only be detected when the propeller is rotating.</p><!-- !!!! -->
+	
+	<p>The fault accommodation logic has determined that either the excitation voltages supplied to the BFT by the PEC are outside of the normal range, or that the BFT output voltages supplied to the PEC by the BFT are outside of the normal range.</p><!-- !!!! -->
+	
+	<p>This fault code is designated as No Despatch for time limited despatch (TLD) purposes and therefore will also illuminate the POWERPLANT advisory message on the engine display. If this fault is present on both channels or if the other channel of the PEC has fault code 122/123, 124/125, 126/127 or 130/131, the PEC caution light will be illuminated on the CWAS.</p><!-- !!!! -->
+	
+	<p>NOTE: If any combination of faults 120/121, 124/125, 126/127 or 130/131 are present on both PEC channels at the same time, the propeller will automatically feather on the ground if the PLA is moved below FLIGHT IDLE.</p><!-- !!!! -->
+	
+	<p>If a hard (non−intermittent) fault of the BFT signal is present when the propeller is not rotating, the affected PEC channel will also indicate fault code 134. Code 134 provides a real time status of the BFT signal validity and will clear by itself as soon as valid blade angle is detected by the affected PEC channel.</p><!-- !!!! -->
+    
+	<p>If a line replaceable unit (LRU) has to be replaced to correct this fault, make a record of all the PEC and FADEC fault codes that have been shown before its removal. Send this complete list of fault codes, indicating aircraft side (LH and RH), channel (A and B) and code number(s) to the repair shop with the returned LRU.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Loose or dirty connectors on BFT or PEC </li><!-- !!!! -->
+		<li>Worn BFT connector pin and sockets </li>
+		<li>PEC wiring harness (wiring fault) </li>
+		<li>PCU (BFT fault) </li>
+        <li>PEC (internal fault) </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+    
+<br>
+</clp-card>

@@ -1,0 +1,69 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Beta unreasonable - (Engine Fault Code 126/127)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-03-810-814</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent blade angle, that can only occur on the ground, being indicated during flight. This fault will only be detected when the propeller is rotating.</p><!-- !!!! -->
+	
+	<p>The fault accommodation logic has determined that the PCU beta feedback transducer (BFT) voltage output is indicating a propeller blade angle of less than 10 degrees in flight. This could be caused by electrical faults causing an offset in the measured blade angle (an in−range fault).</p><!-- !!!! -->
+	
+	<p>This fault code is designated as No Dispatch for time limited despatch (TLD) purposes and therefore will also illuminate the POWERPLANT advisory message on the engine display. If this fault is present on both channels or if the other PEC channel has fault code 120/121, 122/123, 126/127 or 130/131, the PEC caution light will be illuminated on the CWAS.</p><!-- !!!! -->
+	
+	<p>NOTE: If any combination of faults 120/121, 124/125, 126/127 or 130/131 are present on both PEC channels at the same time, the propeller will automatically feather on the ground if the PLA is moved below FLIGHT IDLE.</p><!-- !!!! -->
+	
+    <p>If a hard (non−intermittent) fault of the BFT signal is present when the propeller is not rotating, the affected PEC channel will also indicate fault code 134. Code 134 provides a real time status of the BFT signal validity and will clear by itself as soon as valid blade angle is detected by the affected PEC channel.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Loose or dirty connectors on BFT or PEC </li><!-- !!!! -->
+		<li>Worn BFT connector pin and sockets </li>
+		<li>PEC wiring harness (wiring fault) </li>
+        <li>PCU (BFT fault) </li>
+		<li>PEC (internal fault) </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+    
+<br>
+</clp-card>

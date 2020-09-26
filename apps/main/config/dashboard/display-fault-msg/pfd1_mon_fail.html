@@ -1,0 +1,125 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>PFD1 LINK FAIL</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>PFD1 MON FAIL on ED</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-811</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>PFD1 MON FAIL on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-848</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>PFD1 MON FAIL on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-849</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+
+	
+	
+	<p>The PFD1 MON FAIL message is usually out of view and comes into view when conditions are as follows:</p>
+	<ul>
+		<li>The set ED senses that the primary flight display 1 (PFD1) feedback output bus has malfunctioned for more than 30 seconds</li>
+		<li>The PFD1 is set to show PFD1 indications</li>
+	</ul>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong>  The PFD1 indication is monitored by Multi−Function Display 1 (MFD1), and PFD2, or by MFD1 and MFD2 if PFD2 has failed or is set off.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> Each display unit (DU) has a feedback output bus that supplies the status of its monitoring function to the set ED as follows:</clp-text-blue>
+	</p>
+	<ul>
+		<li> Operating correctly or fail</li>
+		<li> Indication format (PFD1, PFD2, or ED)</li>
+	</ul>
+
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>A2</strong> PFD 1</div>
+				<div><strong>A5</strong> PFD 2</div>
+				<br>
+				<div><strong>B7</strong> MFD 1</div>
+				<div><strong>B6</strong> MFD 2</div>
+				<br>
+				<div><strong>B5</strong> ESID</div>
+				<div><strong>B11</strong> ESID</div>
+			</clp-td>
+
+
+		</clp-tr>
+	</clp-table>
+
+
+	<br>
+
+
+</clp-card>

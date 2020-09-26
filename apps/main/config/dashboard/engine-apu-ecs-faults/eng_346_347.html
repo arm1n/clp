@@ -1,0 +1,73 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> PROP CAUTION lamp drive fault - (Engine Fault Code 346/347)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-07-810-816</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is generated as a result of the propeller caution lamp driver circuit within the PEC having current apparently flowing, when there is no actual requirement being identified to indicate a fault.</p><!-- !!!! -->
+
+    <p>The fault detection logic has determined that there is apparent current in the caution lamp circuit when the propeller caution demand is off.</p><!-- !!!! -->
+
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Low battery voltage to the PEC </li>
+        <li>PEC </li>
+        <li>Wiring: PEC or airframe harness </li>
+        <li>CWP </li>
+        <li>PEC internal fault </li>
+        <li>CWP C/B pull </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    
+
+    <br>
+</clp-card>

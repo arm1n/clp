@@ -1,0 +1,63 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>OSG 1−Bit failure (Status) - (Engine Fault Code 210/211)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-830</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This task is for fault code 210 − OSG I−Bit failure (On aircraft without Modsum 4−113264) or OSG governing fault (On aircraft with Modsum 4−113264). This fault code is generated as a result of the propeller Np increasing above 940 rpm during the OSG test. This is an indication of a hydro−mechanical problem with the OSG.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that during the OSG test the propeller Np speed has increased above 940 rpm.</p><!-- !!!! -->
+	
+	<p>This fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+	
+	<p>During fault isolation for overspeed governor (OSG) test faults, the tests must be completed again after corrective action has been taken. If the tests pass then a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Overspeed governor </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/prop_osg.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+<br>
+</clp-card>

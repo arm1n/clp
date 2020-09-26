@@ -1,0 +1,278 @@
+<svg id="undrfloor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 978 375.6">
+  <style>
+    .st0{fill:#ccc}.st1{fill:none}.st2{fill:#717271}.st3{fill:none;stroke:#1d1d1b;stroke-miterlimit:10}.st4{fill:#e6e6e6}.st5{fill:#0cf;fill-opacity:.6}.st6{fill:#09f}.st7{fill:#00a0c6}.st8{font-family:&apos;MyriadPro-Regular&apos;}.st9{font-size:19.4841px}.st10{font-family:&apos;ArialMT&apos;}.st11{font-size:13px}.st12{font-size:12px}.st13{font-size:24px}.st14{font-size:10px}
+  </style>
+  <path class="st0" d="M245.4 168.4h-23.9v14h23.9v-14zm195.7-15h-23.9v8.3h23.9v-8.3zm0 22.7h-23.9v5.1h23.9v-5.1zm12.5-21.7h-4v27.3h4v-27.3zm27 22.7v-18h-23.8v18h23.8zm61.2-23.2H518v9.8h23.8v-9.8zm-.5 16.5h-23.8v9.8h23.8v-9.8zm-28.3-7.7h-6.4v9.8h6.4v-9.8zm116-12.3h-23.8v14.4H629v-14.4zm19.3 12v10.2h11.2v-10.2h-11.2zm12.2.3v15.5h8.3v-15.5h-8.3zm82.7-9.3v23.7h8.1v-23.7h-8.1zm24.7 1.5v18.6h5.9v-18.6h-5.9zm-6.8 0c-2.1 0-3.2 1.2-3.2 3.6 0 2.4 1.1 3.6 3.2 3.6s3.2-1.2 3.2-3.6c0-2.3-1.1-3.6-3.2-3.6zm22.5 11.4v11.3h10.8v-11.3h-10.8zm12.6-15.5v10.8h10.4v-10.8h-10.4zm-10.3.1v7.2h6.2v-7.2h-6.2zm12.1 18v7.2h6.3v-7.2H798zm10.9-14.5v23.2h8v-23.2h-8zm12 .5v23.2h8.2v-23.2h-8.2zm-458.2-4.8v9.8h7.4v-9.8h-7.4m20.4 9.8v-9.8h-7.4v9.8h7.4m-121.9 15.3h-7.3v9.9h7.3v-9.9zm132.2-21.8v16H415v-16h-21.6zm276.5 9.2v15.5h8.3v-15.5h-8.3zm-380.8 2v-14h-23.9v14h23.9zm1.5-14.5v6.8h23.8v-6.8h-23.8zm23.9 19.5h-23.9v12h23.9v-12m-25.4-1.5h-23.9V182h23.9v-13.9zm1.5-9.7v7.1h23.8v-7.1h-23.8zm348.7 8.8h-21.1v14.4h21.1v-14.4zm-313.8-2.1v3.1h23.8v-3.1h-23.8zm60.1-2.5h-24.8v11.3h24.8v-11.3zm-62.2 18.5h11.9v-10h-11.9v10zm14.6 0h11.9v-10H338v10zm40-4h-11.9v5.8H378v-5.8zm174.6-12.9v6.5h15.9v-6.5h-15.9zm162.3-7.2v7.1h22V157h-22zm-3.1 16.2h12.1v-6.5h-12.1v6.5zm15.5 0h12.1v-6.4h-12.1v6.4z" id="clp-hintergrund"/>
+  <g id="clp-ahru">
+    <path id="clp-ahru-hl" class="st1" d="M808.9 154.4v23.2h8v-23.2h-8zm12 .5v23.2h8.2v-23.2h-8.2z"/>
+  </g>
+  <g id="clp-prop-isol-cont">
+    <path id="clp-prop-isol-cont-hl" class="st1" d="M785.9 150.9v7.2h6.2v-7.2h-6.2zm12.1 18v7.2h6.3v-7.2H798z"/>
+  </g>
+  <g id="clp-tmcu">
+    <path id="clp-tmcu-hl" class="st1" d="M783.6 166.3v11.3h10.8v-11.3h-10.8zm12.6-15.5v10.8h10.4v-10.8h-10.4z"/>
+  </g>
+  <g id="clp-fuel-qty-comp">
+    <path id="clp-fuel-qty-comp-hl" class="st1" d="M767.9 154.9v18.6h5.9v-18.6h-5.9z"/>
+  </g>
+  <g id="clp-high-level-cont-unit">
+    <path id="clp-high-level-cont-unit-hl" class="st1" d="M761.1 154.9c-2.1 0-3.2 1.2-3.2 3.6 0 2.4 1.1 3.6 3.2 3.6s3.2-1.2 3.2-3.6c0-2.3-1.1-3.6-3.2-3.6z"/>
+  </g>
+  <g id="clp-anti-skid-unit">
+    <path id="clp-anti-skid-unit-hl" class="st1" d="M743.2 153.4v23.7h8.1v-23.7h-8.1z"/>
+  </g>
+  <g id="clp-satphone-transc">
+    <path id="clp-satphone-transc-hl" class="st1" d="M714.9 157v7.1h22V157h-22z"/>
+  </g>
+  <g id="clp-modem">
+    <path id="clp-modem-hl" class="st1" d="M727.3 173.2h12.1v-6.4h-12.1v6.4z"/>
+  </g>
+  <g id="clp-tx-filter">
+    <path id="clp-tx-filter-hl" class="st1" d="M711.8 173.2h12.1v-6.5h-12.1v6.5z"/>
+  </g>
+  <g id="clp-ac-gcu">
+    <path id="clp-ac-gcu-hl" class="st1" d="M660.5 162.7v15.5h16.9v-15.5h-16.9z"/>
+  </g>
+  <g id="clp-apu-gcu">
+    <path id="clp-apu-gcu-hl" class="st1" d="M648.3 162.4v10.2h11.2v-10.2h-11.2z"/>
+  </g>
+  <g id="clp-ancu">
+    <path id="clp-ancu-hl" class="st1" d="M629 150.4h-23.8v14.4H629v-14.4z"/>
+  </g>
+  <g id="clp-nvs-cb-box">
+    <path id="clp-nvs-cb-box-hl" class="st1" d="M639.3 167.2h-21.1v14.4h21.1v-14.4z"/>
+  </g>
+  <g id="clp-vhf3">
+    <path id="clp-vhf3-hl" class="st1" d="M552.6 164.2v6.5h15.9v-6.5h-15.9z"/>
+  </g>
+  <g id="clp-rad-alt-units">
+    <path id="clp-rad-alt-units-hl" class="st1" d="M541.8 153.9H518v9.8h23.8v-9.8zm-.5 16.5h-23.8v9.8h23.8v-9.8z"/>
+  </g>
+  <g id="clp-imp-switch">
+    <path id="clp-imp-switch-hl" class="st1" d="M513 162.7h-6.4v9.8h6.4v-9.8z"/>
+  </g>
+  <g id="clp-ecsecu">
+    <path id="clp-ecsecu-hl" class="st1" d="M480.6 177.1v-18h-23.8v18h23.8z"/>
+  </g>
+  <g id="clp-fpiu">
+    <path id="clp-fpiu-hl" class="st1" d="M453.6 154.4h-4v27.3h4v-27.3z"/>
+  </g>
+  <g id="clp-fcecu">
+    <path id="clp-fcecu-hl" class="st1" d="M441.1 153.4h-23.9v8.3h23.9v-8.3z"/>
+  </g>
+  <g id="clp-flap-cont-unit">
+    <path id="clp-flap-cont-unit-hl" class="st1" d="M441.1 176.1h-23.9v5.1h23.9v-5.1z"/>
+  </g>
+  <g id="clp-hgs-comp">
+    <path id="clp-hgs-comp-hl" class="st1" d="M393.4 153.4v16H415v-16h-21.6z"/>
+  </g>
+  <g id="clp-feath-pump-cont">
+    <path id="clp-feath-pump-cont-hl" class="st1" d="M362.7 150.1v9.8h7.4v-9.8h-7.4m20.4 9.8v-9.8h-7.4v9.8h7.4"/>
+  </g>
+  <g id="clp-vhf-com3">
+    <path id="clp-vhf-com3-hl" class="st1" d="M385.6 162.6h-24.8v11.3h24.8v-11.3z"/>
+  </g>
+  <g id="clp-diplexer">
+    <path id="clp-diplexer-hl" class="st1" d="M378 177.1h-11.9v5.8H378v-5.8z"/>
+  </g>
+  <g id="clp-ptu-relay">
+    <path id="clp-ptu-relay-hl" class="st1" d="M325.5 165.1v3.1h23.8v-3.1h-23.8z"/>
+  </g>
+  <g id="clp-cargo-fire-unit">
+    <path id="clp-cargo-fire-unit-hl" class="st1" d="M323.4 181.1h11.9v-10h-11.9v10zm14.6 0h11.9v-10H338v10z"/>
+  </g>
+  <g id="clp-atc-units">
+    <path id="clp-atc-units-hl" class="st1" d="M290.6 150.1v6.8h23.8v-6.8h-23.8zm0 8.3v7.1h23.8v-7.1h-23.8z"/>
+  </g>
+  <g id="clp-tcas-units">
+    <path id="clp-tcas-units-hl" class="st1" d="M314.5 169.6h-23.9v12h23.9v-12"/>
+  </g>
+  <g id="clp-relay-oil-px">
+    <path id="clp-relay-oil-px-hl" class="st1" d="M253.9 175.2h7.3v9.9h-7.3z"/>
+  </g>
+  <g id="clp-rjb-3">
+    <path id="clp-rjb-3-hl" class="st1" d="M245.4 168.4h-23.9v14h23.9v-14z"/>
+  </g>
+  <g id="clp-rjb-2">
+    <path id="clp-rjb-2-hl" class="st1" d="M289.1 164.6v-14h-23.9v14h23.9z"/>
+  </g>
+  <g id="clp-rjb-1">
+    <path id="clp-rjb-1-hl" class="st1" d="M289.1 168.1h-23.9V182h23.9v-13.9z"/>
+  </g>
+  <g id="clp-system">
+    <path class="st2" d="M156.5 77.7H318v68H156.5z"/>
+    <path class="st3" d="M245.4 168.4h-23.9v14h23.9v-14zm195.7-15h-23.9v8.3h23.9v-8.3zm0 22.7h-23.9v5.1h23.9v-5.1zm12.5-21.7h-4v27.3h4v-27.3zm27 22.7v-18h-23.8v18h23.8zm61.2-23.2H518v9.8h23.8v-9.8zm-.5 16.5h-23.8v9.8h23.8v-9.8zm-28.3-7.7h-6.4v9.8h6.4v-9.8zm116-12.3h-23.8v14.4H629v-14.4zm19.3 12v10.2h11.2v-10.2h-11.2zm12.2.3v15.5h8.3v-15.5h-8.3zm82.7-9.3v23.7h8.1v-23.7h-8.1zm24.7 1.5v18.6h5.9v-18.6h-5.9zm-6.8 0c-2.1 0-3.2 1.2-3.2 3.6 0 2.4 1.1 3.6 3.2 3.6s3.2-1.2 3.2-3.6c0-2.3-1.1-3.6-3.2-3.6zm22.5 11.4v11.3h10.8v-11.3h-10.8zm12.6-15.5v10.8h10.4v-10.8h-10.4zm-10.3.1v7.2h6.2v-7.2h-6.2zm12.1 18v7.2h6.3v-7.2H798zm10.9-14.5v23.2h8v-23.2h-8zm12 .5v23.2h8.2v-23.2h-8.2zm-458.2-4.8v9.8h7.4v-9.8h-7.4m20.4 9.8v-9.8h-7.4v9.8h7.4m-121.9 15.3h-7.3v9.9h7.3v-9.9zm132.2-21.8v16H415v-16h-21.6zm276.5 9.2v15.5h8.3v-15.5h-8.3zm-380.8 2v-14h-23.9v14h23.9zm1.5-14.5v6.8h23.8v-6.8h-23.8zm23.9 19.5h-23.9v12h23.9v-12m-25.4-1.5h-23.9V182h23.9v-13.9zm1.5-9.7v7.1h23.8v-7.1h-23.8zm348.7 8.8h-21.1v14.4h21.1v-14.4zm-313.8-2.1v3.1h23.8v-3.1h-23.8zm60.1-2.5h-24.8v11.3h24.8v-11.3zm-62.2 18.5h11.9v-10h-11.9v10zm14.6 0h11.9v-10H338v10zm40-4h-11.9v5.8H378v-5.8zm174.6-12.9v6.5h15.9v-6.5h-15.9zm162.3-7.2v7.1h22V157h-22zm-3.1 16.2h12.1v-6.5h-12.1v6.5zm15.5 0h12.1v-6.4h-12.1v6.4z" id="units_1_"/>
+    <path class="st0" d="M51.1 224.2v6c30.4 11.4 63.3 21 98.7 28.8l783.7 3.1.5-7.2-782.8-4.1c-34.1-6-67.4-14.9-100.1-26.6M157.2 77.7v-6.2h-3.9C118 76.8 84 85.3 51.1 97.2v8.3c29.8-10.4 63.8-19.7 102.2-27.8h3.9zm1.7 2.8v65.2h55V80.5h-55zm57.8 64.7l98.3.5V80.1h-98.3v65.1z"/>
+    <path class="st0" d="M155.5 183.9v74.7h61.6v-74.7h-61.6zm105.8 67.4h8.5v-61.2h-8.5v61.2z"/>
+    <path class="st4" d="M892.9 188.4v64.5h35.5c1.5-12.1 1-22.7-1.4-32 3.3-8.6 4.3-15.3 3.1-20.1-1.5-6.9-2.1-11-1.8-12.4h-35.4z"/>
+    <path class="st0" d="M896.9 250.9v4.1h31.5v-4.1h-31.5zm.4-32v3.6l31.1.6v-4.2h-31.1zm0-32.5v4.2h31.1v-4.2h-31.1z"/>
+    <path class="st4" d="M878.1 220.9c3-8.6 3.9-15.3 2.7-20.1-1.5-6.9-2.1-11-1.8-12.4h-35.5v64.5H879c1.5-12.1 1.2-22.7-.9-32z"/>
+    <path class="st0" d="M847.9 250.9v3.5l31 .5v-4.1l-31 .1zm31-28.4v-3.6h-31v3.6h31zm-31-36.1v4.2h31v-4.2h-31z"/>
+    <path class="st4" d="M794 188.4v64l35.4.5c1.5-13 1.3-23.7-.8-32 3-8.6 3.9-15.5 2.7-20.6-1.5-6.5-2.1-10.5-1.9-11.9H794z"/>
+    <path class="st0" d="M798.5 250.9v3.5h30.9v-3.6l-30.9.1zm0-32.6v4.2h30.9v-4.2h-30.9zm0-32.4v4.2l30.9.5v-4.7h-30.9z"/>
+    <path class="st4" d="M779.1 220.9c3-8.6 3.9-15.5 2.7-20.6-1.5-6.5-2.1-10.5-1.8-11.9l-35.5-.5v64.5h35.6c1.7-11.8 1.4-22.2-1-31.5z"/>
+    <path class="st0" d="M749 250.4v4h31v-4.1l-31 .1zm0-27.9h31v-4.2h-31v4.2zm.4-36.6v4.2h30.7v-4.2h-30.7z"/>
+    <path class="st4" d="M695.6 187.9l-.5 64.5h35.5c1.8-12 1.5-22.5-.9-31.4 3-8.6 3.9-15.5 2.8-20.6-1.2-6.5-1.7-10.7-1.3-12.4l-35.6-.1z"/>
+    <path class="st0" d="M700.1 250.4l-.5 4.1h31v-4.1h-30.5zm0-32.1v3.7h31v-3.7h-31zm0-32.4v4.2h31v-4.2h-31z"/>
+    <path class="st4" d="M680.3 220.4c3.3-8.6 4.3-15.3 3.1-20-1.5-6.9-2-11-1.8-12.4h-35.5v64.4h35.5c1.5-12.4 1-23-1.3-32z"/>
+    <path class="st0" d="M650.6 250.4v4h31v-4.1l-31 .1zm0-28.4h31v-3.7l-31-.4v4.1zm0-36.1v3.6l31 .6v-4.2h-31z"/>
+    <path class="st4" d="M596.6 187.9v64.5h35.5c1.5-12 1.2-22.7-1-32 3-8.6 3.9-15.3 2.8-20-1.5-6.9-2.1-11-1.8-12.4l-35.5-.1z"/>
+    <path class="st0" d="M601.1 250.4v3.5h31v-3.5h-31zm0-32.5v4.1h31v-4.1h-31zm0-32.5v4.1h31v-3.6l-31-.5z"/>
+    <path class="st4" d="M581.8 220.4c3-8.6 4-15.5 2.8-20.6-1.5-6.5-2.2-10.5-1.9-11.9l-35-.5-.5 64.5h35.5c1.5-12.7 1.2-23.2-.9-31.5z"/>
+    <path class="st0" d="M551.6 249.8v4.1h31v-3.5l-31-.6zm31-27.8v-4.1h-31v4.1h31zm-31-36.6v4.1h31v-4.1h-31z"/>
+    <path class="st4" d="M498.1 187.4v64.5h35.1c1.8-12 1.5-22.7-.9-32 3-8.6 4-15.3 3.1-20.1-1.5-6.5-2-10.6-1.8-12.4h-35.5z"/>
+    <path class="st0" d="M502.2 249.8v4.1h31.1v-4.1h-31.1zm0-31.9v3.5l31.1.5v-4.1l-31.1.1zm.4-32.5v4.1h31v-4.1h-31z"/>
+    <path class="st4" d="M482.9 219.9c3-8.6 4.1-15.3 3.2-20.1-1.5-6.9-2.1-11-1.9-12.4h-35.6v64.5h35.6c1.5-12.4 1.1-23-1.3-32z"/>
+    <path class="st0" d="M453.1 249.8v3.6l31.1.5v-4.1h-31.1zm0-32.4v4h31.1v-4.1l-31.1.1zm0-32v3.6l31.1.5v-4.1h-31.1z"/>
+    <path class="st4" d="M399.7 187.4l-.5 63.9 35.5.5c1.8-12 1.5-22.7-.9-32 3-8.6 3.9-15.4 2.7-20.6-1.5-6.5-2.1-10.5-1.8-11.9l-35 .1z"/>
+    <path class="st0" d="M403.7 249.8v3.6h31v-3.6h-31zm0-32.4v4h31v-4.1l-31 .1zm0-32.5v4.1h31v-4.1h-31z"/>
+    <path class="st4" d="M384.4 219.9c3-8.6 3.9-15.4 2.7-20.6-1.2-6.2-1.6-10.1-1.2-11.9l-35.6-.5-.5 64.4h35.6c1.7-11.6 1.4-22.1-1-31.4z"/>
+    <path class="st0" d="M354.2 249.3v4.1h31.1v-3.6l-31.1-.5zm0-31.9v4h31.6v-4.1l-31.6.1zm31.6-32.5h-31.1l-.5 4.1h31.6v-4.1z"/>
+    <path class="st4" d="M301.6 186.9v62.4h35.6c1.5-12.4 1.2-22.5-.9-30.5 3-8.6 3.9-15.3 2.6-20.1-1.5-6.5-2-10.5-1.8-11.8h-35.5z"/>
+    <path class="st0" d="M337.2 251.3v-4.1h-31.1v4.1h31.1zm0-31.4v-3.6h-31.1v3.6h31.1zm0-30.9v-4.1h-31.1v4.1h31.1z"/>
+    <path class="st5" d="M147.5 242.1l.5-17.6c-17.4-2.4-28.2-5.6-32.5-9.8l-23.8 1.6c12 17.5 30.6 26.1 55.8 25.8m-32-126.9c4.2-3.8 15.2-6.9 32.9-9.2l-.9-18c-25.2-.7-43.8 7.8-55.8 25.3l23.8 1.9m-59.3 45.4l29.7.5 27.4-40.8-25.6-3-31.5 43.3m30.1 8.3H56.2l31.5 44.2 25.2-3.5-26.6-40.7z"/>
+    <path class="st6" d="M291.3 254.2l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5H307c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm36.2 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm34.2.5l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7zm33.8 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7zm30.9 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7zm31.7 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.9c-1.3-.1-2 .5-2 1.7zm31.6.4l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm32.5 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm34 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm34.4.4l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm31.1 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm33.3 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm30.8 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7H688c-1.5 0-2.2.6-2.2 1.7zm32.3.4l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.9c-1.3 0-2 .6-2 1.7zm33.6-.4l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5 0-2.2.6-2.2 1.7zm50.2.9l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7zm31.2 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7zm31.3 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7zm31.7 0l1 3.6c.3.7.5 1.1.7 1.3.3.3.7.5 1.3.5h12.7c.6 0 1-.1 1.3-.4.1-.1.4-.5.8-1.4l1.1-3.6c0-1.2-.7-1.7-2-1.7h-14.7c-1.5-.1-2.2.5-2.2 1.7z"/>
+    <path class="st7" d="M154.5 185.8h765.3v-39.7H154.5v39.7zm763.8-37.7v36h-73.7v-36h73.7zm-75.5 0v36H780v-36h62.8zm-64.5 0v36h-96.5v-36h96.5zm-98.3 0v36h-96.3v-36H680zm-98 0v36h-96.3v-36H582zm-98 0v36h-92.4v-36H484zm-94.1 0v36H319v-36h70.9zm-72.6 0v36h-55.1v-36h55.1zm-56.9 0v36h-75.2v-36h75.2zm-76.8 0v36H156v-36h27.6z"/>
+    <path class="st7" d="M259.2 249.9h-40.3v-64.3H217v65.8h43.9v-65.8h-1.7z"/>
+    <text transform="rotate(-90 239.985 -4.328)" class="st8 st9">
+      EXIT
+    </text>
+    <path d="M246.9 236.1l-9 9.1-9.1-9.1"/>
+    <text transform="translate(297.526 274.07)" class="st10 st11">
+      1
+    </text>
+    <text transform="translate(333.683 274.07)" class="st10 st11">
+      2
+    </text>
+    <text transform="translate(368.443 274.07)" class="st10 st11">
+      3
+    </text>
+    <text transform="translate(401.06 274.07)" class="st10 st11">
+      4
+    </text>
+    <text transform="translate(432.083 274.07)" class="st10 st11">
+      5
+    </text>
+    <text transform="translate(463.795 274.07)" class="st10 st11">
+      6
+    </text>
+    <text transform="translate(496.148 273.212)" class="st10 st12">
+      7
+    </text>
+    <text transform="translate(528.443 274.07)" class="st10 st11">
+      8
+    </text>
+    <text transform="translate(562.452 273.212)" class="st10 st12">
+      9
+    </text>
+    <text transform="translate(592.306 274.07)" class="st10 st11">
+      10
+    </text>
+    <text transform="translate(624.274 274.07)" class="st10 st11">
+      11
+    </text>
+    <text transform="translate(656.755 274.07)" class="st10 st11">
+      12
+    </text>
+    <text transform="translate(687.682 274.07)" class="st10 st11">
+      13
+    </text>
+    <text transform="translate(719.913 274.07)" class="st10 st11">
+      14
+    </text>
+    <text transform="translate(753.756 274.07)" class="st10 st11">
+      15
+    </text>
+    <text transform="translate(804.243 274.07)" class="st10 st11">
+      16
+    </text>
+    <text transform="translate(836.274 274.07)" class="st10 st11">
+      17
+    </text>
+    <text transform="translate(865.976 274.07)" class="st10 st11">
+      18
+    </text>
+    <text transform="translate(896.943 274.07)" class="st10 st11">
+      19
+    </text>
+    <text transform="translate(314.227 212.145)" class="st10 st13">
+      1
+    </text>
+    <text transform="translate(364.115 212.144)" class="st10 st13">
+      2
+    </text>
+    <text transform="translate(412 212.144)" class="st10 st13">
+      3
+    </text>
+    <text transform="translate(460.547 212.145)" class="st10 st13">
+      4
+    </text>
+    <text transform="translate(510.983 212.145)" class="st10 st13">
+      5
+    </text>
+    <text transform="translate(561.643 212.144)" class="st10 st13">
+      6
+    </text>
+    <text transform="translate(611.192 212.144)" class="st10 st13">
+      7
+    </text>
+    <text transform="translate(659.523 212.144)" class="st10 st13">
+      8
+    </text>
+    <text transform="translate(708.403 212.145)" class="st10 st13">
+      9
+    </text>
+    <text transform="translate(750.163 212.144)" class="st10 st13">
+      10
+    </text>
+    <text transform="translate(800.158 213.035)" class="st10 st13">
+      11
+    </text>
+    <text transform="translate(848.373 212.145)" class="st10 st13">
+      12
+    </text>
+    <text transform="translate(164.487 172.666)" class="st10 st13">
+      1
+    </text>
+    <text transform="translate(197.742 171.337)" class="st10 st13">
+      2
+    </text>
+    <text transform="translate(284.531 134.729)" class="st10 st13">
+      3
+    </text>
+    <text transform="translate(344.467 134.729)" class="st10 st13">
+      4
+    </text>
+    <text transform="translate(428.405 134.73)" class="st10 st13">
+      5
+    </text>
+    <text transform="translate(524.291 134.73)" class="st10 st13">
+      6
+    </text>
+    <text transform="translate(625.362 134.729)" class="st10 st13">
+      7
+    </text>
+    <text transform="translate(723.488 134.729)" class="st10 st13">
+      8
+    </text>
+    <text transform="translate(806.21 134.73)" class="st10 st13">
+      9
+    </text>
+    <text transform="translate(867.115 135.055)" class="st10 st13">
+      10
+    </text>
+    <path class="st7" d="M444.3 146.9l-9-9.1-9.1 9.1zm-84 0l-9-9.1-9.1 9.1zm-60 0l-9-9.1-9.1 9.1zm239 0l-9-9.1-9.1 9.1zm101 0l-9-9.1-9.1 9.1zm99 0l-9-9.1-9.1 9.1zm83 0l-9-9.1-9.1 9.1zm67 0l-9-9.1-9.1 9.1z"/>
+    <text transform="rotate(-90 168.535 -25.438)" class="st10 st12">
+      LAVATORY
+    </text>
+    <text transform="rotate(-90 185.105 -53.206)" class="st10 st11">
+      BAGG
+    </text>
+    <text transform="rotate(-90 192.905 -61.006)" class="st10 st11">
+      COMP
+    </text>
+    <text transform="rotate(-90 223.237 28.378)" class="st10 st14">
+      WARDROBE
+    </text>
+  </g>
+</svg>

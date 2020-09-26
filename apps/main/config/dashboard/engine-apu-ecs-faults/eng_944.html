@@ -1,0 +1,77 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> ECIU Low Oil Pressure Lamp - (Engine Fault Code 944)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-886</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the Full Authority Digital Electronic Control (FADEC) fault codes. The registered fault code is 944.
+</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Airframe Wiring Harness </li>
+        <li>Caution and Warning Panel (CAWP) </li>
+        <li>Engine Cockpit Interface Unit (ECIU) </li>
+        <li>FADEC </li>
+        <li>Circuit breaker H7 on the left essential DC circuit breaker panel is open </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/cockpit/units/cawlp.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/cockpit/units/eciu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

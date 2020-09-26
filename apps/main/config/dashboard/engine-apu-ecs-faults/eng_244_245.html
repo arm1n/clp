@@ -1,0 +1,68 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Qa and Qb inconsistent - (Engine Fault Code 244/245)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-825</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent difference of more than 20% between the two torque probe signals supplied to the PEC.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that QA and QB differ by more than 20% when the propeller speed is greater than 400 rpm. There is a lag of up to 10 seconds before any comparison test is completed.</p><!-- !!!! -->
+	
+	<p>This fault code will inhibit the autofeather advisory when PLA goes into the take−off range. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Loose/Dirty connectors </li><!-- !!!! -->
+		<li>Torque probes A or B </li>
+		<li>Fuel control electrical wiring harness </li>
+		<li>PEC </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/tq_sensor.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+    
+
+	
+	
+<br>
+</clp-card>

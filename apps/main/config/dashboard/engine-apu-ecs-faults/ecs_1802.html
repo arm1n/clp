@@ -1,0 +1,96 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>LEFT or Right AFT DUCT LEAK SWITCH - (ECS Fault Code 1802)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b> CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 36-10-00-810-868</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b> CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 36-10-00-810-867</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>The CDS shows this message when the left or right aft duct leak overtemperature switch circuit has high resistance .</li>
+		<li>The caution and warning panel (CAWP) #1 or #2 BLEED HOT caution light can also come on.</li>
+		<li>Faulty Wiring Harness between the Electronic Control Unit (ECU) and Left or Right Aft Duct Overtemperature Leak Switch</li>
+		<li>Faulty Left or Right Aft Duct Overtemperature Leak Switch</li>
+		<li>Faulty Environmental Control System (ECS) Electronic Control Unit (ECU)</li>
+		
+
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Environmental Control System Electronic Control Unit (ECU)</li>
+		<li>Aft Duct Leak Switch</li>
+		
+
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/uf/units/ecsecu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/bleed/units/nac_duct_leak_sw.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

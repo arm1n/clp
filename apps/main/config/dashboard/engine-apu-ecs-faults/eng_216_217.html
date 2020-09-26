@@ -1,0 +1,71 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>AUPC arming fault - (Engine Fault Code 216/217)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-05-810-840</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+    
+
+    <p>This fault code is generated as a result of an apparent failure of the PEC to correctly set the AUPC armed state. This is an indication of an internal PEC fault.</p><!-- !!!! -->
+    <br>
+    <p>The fault isolation logic has determined that either of the following has occurred:
+        AUPC ARM MONITOR = not active (not armed) when the arming conditions are true, or AUPC ARM MONITOR = active (armed) when the arming conditions are false.
+    </p><!-- !!!! -->
+   
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+    
+    <p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+   
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+    
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+        <li>Autofeather Select Switch </li>
+        
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>

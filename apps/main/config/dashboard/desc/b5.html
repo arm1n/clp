@@ -1,0 +1,102 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+
+			<h2>
+				<clp-text-orange>R TRU </clp-text-orange>
+			</h2>
+			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+			<br>
+			<div>
+				<clp-link-pdf>FIM TASK 24-30-00-810-818</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The CAWP R TRU caution light comes on when the left (R) transformer rectifier unit
+				(TRU) is not energizing the left or right secondary feeder buses because of a source
+				or bus fault condition (output is less than 15 Vdc) or the AC Generator toggle
+				switches are set to the off psoition.</div>
+			<br>
+			<div>There are no related Central Diagnostic System (CDS) or Electrical Power Control Unit (EPCU) fault code status messages.
+			</div>
+			<br>
+			<div>Each TRU energizes its own secondary feeder bus. The EPCU (Elec- trical Power Control Unit) checks the voltage on each secondary feeder bus. If the voltage is less than 15 Vdc for more than 7 seconds, the EPCU considers this to be a TRU malfunction. </div>
+			<br>
+			<div>The EPCU will close the secondary bus tie contactor K22 to connect the right and left secondary buses. In this reconfigured condition, all aircraft loads stay energized.</div>
+			<br>
+
+
+		</clp-card>
+
+		<br>
+
+		<clp-card title="Quick links">
+
+			<div>Operational test of the left TRU</div>
+			<div>
+				<clp-link-pdf>AMM TASK 24-31-21-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+
+			<!-- Left CB LOCATION -->
+		</clp-card>
+
+		<br>
+
+		<clp-card title="Associated CBs">
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<clp-text-blue><strong>115V AC CB Panel </strong></clp-text-blue>
+					</clp-td>
+
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td>
+						<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+					</clp-td>
+
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td>
+						<div><strong>L TRU</strong> </div>
+						<div><strong>R TRU</strong> </div>
+
+					</clp-td>
+
+				</clp-tr>
+
+			</clp-table>
+
+		</clp-card>
+	</clp-grid-column>
+
+	<!-- RIGHT -->
+	<clp-grid-column>
+		<!-- Start -->
+
+		<clp-card title="Quick reference reset guide">
+
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/ele/units/tru.html"></clp-file>
+
+			</clp-card>
+
+
+
+
+		</clp-card>
+	</clp-grid-column>
+</clp-grid><!-- Ende -->

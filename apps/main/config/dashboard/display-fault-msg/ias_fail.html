@@ -1,0 +1,173 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>IAS FAIL</b>
+
+		</div>
+	</clp-info-red>
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>IAS FAIL on PFD</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-10-00-810-801</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>IAS FAIL on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-847</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>IAS FAIL on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-848</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>IAS FAIL on PFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-844</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>IAS FAIL on PFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-845</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>IAS FAIL FLAG on ISI</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-12-16-810-804</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+
+	<p><b>IAS FAIL ON PFD</b></p>
+
+	<p>The PFD shows the IAS mismatch flag when the flight data processing system (FDPS) senses and air data unit 1 (ADU1) and ADU2 indicated airspeed (IAS) difference that is more than 10 KIAS). The PFD flight mode annunciator (FMA) will also show an IAS MISMATCH message.</p>
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The FMAs will show only the most important mismatch message and this is the primary mismatch indication.</clp-text-blue>
+	</p>
+	<br>
+	<br>
+	<p><b>IAS FAIL ON MFD1/2</b></p>
+	<p>MFD1/2 shows an IAS FAIL message when it is set to show a Primary Flight Display (PFD) reversion and does not receive valid airspeed data from the set Air Data Unit (ADU).</p>
+	
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The MFD1/2 will also show the IAS FAIL message if the ADU does not receive valid Weight-On-Wheels (WOW) data from the Proximity Sensor Electronics Unit (PSEU) while the airspeed is less than 35 KIAS.</clp-text-blue>
+	</p>
+	
+	<br>
+	<br>
+	<p><b>IAS FAIL ON PFD1/2</b></p>
+	<p>PFD1/2 shows an IAS FAIL message when it does not receive valid airspeed data from the set Air Data Unit (ADU).</p>
+	
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The PFD1/2 will also show the IAS FAIL message if the ADU does not receive valid Weight-On-Wheels (WOW) data from the Proximity Sensor Electronics Unit (PSEU) while the airspeed is less than 35 KIAS.</clp-text-blue>
+	</p>
+	
+	<br>
+	<br>
+	<p><b>IAS FAIL FLAG ON Integrated Standby Instrument</b></p>
+	<p>The ISI shows the IAS message when the ISI senses an internal malfunction of the indicated air speed (IAS) function.</p>
+	
+
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			<br>
+			<p><b>IAS FAIL FLAG on ground</b></p>
+
+			<p>Aircraft is in AIR mode (check if nose wheel is WOW) - Check NG WOW sensors</p>
+
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>A6</strong> ADU2</div>
+				<div><strong>A7</strong> ADU1</div>
+
+			</clp-td>
+
+
+		</clp-tr>
+	</clp-table>
+
+
+	<br />
+
+
+</clp-card>

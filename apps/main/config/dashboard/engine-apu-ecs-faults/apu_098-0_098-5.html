@@ -1,0 +1,66 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>SPEED 2 OPEN ( Status ) - (APU Fault Code )</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-70-00-810-802</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>This task is for the centralized diagnostic system (CDS) fault message 098–1/2/3/4/5 SPEED 2 OPEN. This fault is set when the full authority digital electronic controller (FADEC) senses an open circuit in the speed 2 sensor circuit. <strong>This fault will not stop auxiliary power unit (APU) operation.</strong></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Speed Sensor </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/apu/units/apu_speed_sensor.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

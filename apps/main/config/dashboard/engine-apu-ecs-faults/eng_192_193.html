@@ -1,0 +1,63 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>CLA out of calibration - (Engine Fault Code 192/193)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-821</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent error in the CLA trim check, undertaken by the PEC as part of the FADEC PLA trim check. This fault code will be retained by the PEC until a satisfactory test pass is obtained.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that the CLA is not reading between 50 and 60 degrees for more than 1 second during the CLA trim check.</p><!-- !!!! -->
+	
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>CLA incorrectly positioned </li><!-- !!!! -->
+		<li>PEC </li>
+		<li>Condition quadrant </li>
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/cla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+  
+<br>
+</clp-card>

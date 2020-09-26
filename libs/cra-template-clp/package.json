@@ -1,0 +1,7 @@
+{
+  "name": "@clp/cra-template-clp",	
+  "version": "1.0.0",
+  "private": true,
+  "main": "template.json",
+  "description": "A generic template for usage with create-react-app script."
+}

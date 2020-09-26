@@ -1,0 +1,76 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Maximum Climb Rating Signal - (Engine Fault Code 817 and/or 818)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-858</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>Fault code 817 is registered when the MCL switch on the engine control panel is pressed for more than 10 seconds.</p><!-- !!!! -->
+
+    <p>Fault code 818 is registered when the FADEC receives a different switch position on channel A and on channel B, coming from the same MCL switch in the cockpit.</p><!-- !!!! -->
+    
+    <p>The switch is located on the fuel/ engine/ propeller control panel.</p><!-- !!!! -->
+    
+    <p>The switch transmits its signal to the Engine Cockpit Interface Unit (ECIU). Then, the ECIU relays the information to the FADEC using ARINC 429.</p><!-- !!!! -->
+
+    <p>If fault code 817 is registered, it is possible that it was triggered because the switch was pressed for more than 10 seconds and there are no malfunctioning components.</p><!-- !!!! -->
+
+    <p>NOTE: In maintenance mode, the fault is triggered if the switch is pressed for more than 15 seconds.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Engine Cockpit Interface Unit (ECIU) </li>
+        <li>Engine Control Panel </li>
+        <li>Airframe Wiring Harness </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/eciu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/eng_cont_panel.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

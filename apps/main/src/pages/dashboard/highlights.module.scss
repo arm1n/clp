@@ -1,0 +1,84 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.wrapper {
+  color: var(--system-main-highlights-text-color);
+  background-color: var(--system-main-highlights-bg-color);
+}
+
+.container {
+  position: relative;
+}
+
+.header {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.highlights {
+  z-index: 1;
+  position: relative;
+}
+
+.configuration {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: var(--system-main-highlights-text-color-configuration);
+  background-color: var(--system-main-highlights-bg-color-configuration);
+
+  .header {
+    background-color: var(--system-main-highlights-bg-color-configuration-header);
+  }
+
+  .button {
+    font-size: 0.8rem;
+    pointer-events: none;
+  }
+}
+
+.buttons {
+}
+
+.button {
+  @include button-reset();
+
+  width: 100%;
+  display: flex;
+  font-size: 0.9rem;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+
+  &:first-child {
+    padding-top: 0.5rem;
+  }
+
+  &:last-child {
+    padding-bottom: 0.5rem;
+  }
+
+  &:hover {
+    .icon {
+      fill: var(--system-main-highlights-bg-color-hover);
+    }
+  }
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+  margin: 0 0 0 -0.25rem;
+}
+
+.engine {
+  @extend .button;
+  padding: 0.5rem;
+
+  &,
+  &:hover {
+    background-color: var(--system-main-highlights-bg-color-gnd-eng-stopped);
+  }
+}

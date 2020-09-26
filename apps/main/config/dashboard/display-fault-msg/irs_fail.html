@@ -1,0 +1,74 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>IRS FAIL message on FMS</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			<br>
+			
+			
+			<ul>
+				<li>Switch off IRS.</li>
+				<br>
+				<li>Reset <b>IRS 1 (L2)</b> circuit breaker on avionics CB panel</li>
+				<br>
+				<li>Perform extended alignment of IRS:</li>
+				<ul>Initialize one FMS to current position and wait until FMS and GNSS position match (page DATA 3/4).</ul>
+				<ul>Switch IRS to NAV and push UPDATE SENSORS on FMS page NAV 3/3 (ignore IRS ALIGN FAULT on FMS)</ul>
+				<br>
+				<li>After 7 minutes alignment of IRS will be stuck at ALIGN (1) on IRS page -> push UPDATE SENSORS on FMS page NAV 3/3 again.</li>
+				<ul>After 1 to 3 minutes IRS shall be in NAV mode.</ul>
+				<br>
+				
+			</ul>
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+
+
+
+	<br />
+
+
+</clp-card>

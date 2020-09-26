@@ -1,0 +1,9 @@
+export { default as ArrowDownIcon } from "./arrow-down.svg";
+export { default as ArrowLeftIcon } from "./arrow-left.svg";
+export { default as ArrowRightIcon } from "./arrow-right.svg";
+export { default as ArrowUpIcon } from "./arrow-up.svg";
+export { default as CloseIcon } from "./close.svg";
+export { default as HomeIcon } from "./home.svg";
+export { default as InfoIcon } from "./info.svg";
+export { default as MenuIcon } from "./menu.svg";
+export { default as WrenchIcon } from "./wrench.svg";

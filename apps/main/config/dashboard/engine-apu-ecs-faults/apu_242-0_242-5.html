@@ -1,0 +1,66 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>FUEL SERVO SHORT ( Status ) - (APU Fault Code 242-0 to 242-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-30-00-810-806</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>This task is for the centralized diagnostic system (CDS) fault message 242–2/3/5 FUEL SERVO SHORT. This fault is set when the full authority digital electronic controller (FADEC) senses a short in the fuel control assembly servo circuit. <strong>This fault will not stop auxiliary power unit (APU) operation.</strong></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Fuel Control Assembly </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/apu/units/apu_fuel_cont_unit.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

@@ -1,0 +1,10 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.wrapper {
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.button {
+  @include button();
+}

@@ -1,0 +1,72 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Engine Trim Mismatch Between the EEPROM and the Characterization Plug Values - (Engine Fault Code 796 and 797)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-889</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the Full Authority Digital Electronic Control (FADEC) fault codes. The registered fault code are 796 and 797. Code 796 is Torque Gain. Code 797 is Torque Bias. These faults will be set when the trim values that are stored in the FADEC memory are not the same as the values transmitted by the trim resistors.</p><!-- !!!! -->
+
+    <p>The following are a list of possible malfunctioned systems and/or Line Replaceable Units (LRU):
+        - FADEC Replacement
+        - Characterization Plug</p><!-- !!!! -->
+
+    <p>NOTE: Unwanted contamination in the Characterization Plug can cause a POWERPLANT message and the related 796 and 797 fault codes to come in view. Thus, it is important to keep the Characterization Plug clean.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>FADEC </li>
+        <li>Characterization Plug </li>
+        <!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+
+        <clp-grid-column>
+            <clp-card title="UNIT">
+                <clp-file path="./units/eng/units/fadec.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            
+        </clp-grid-column>
+
+        <clp-grid-column>
+            
+        </clp-grid-column>
+    </clp-grid>
+
+
+
+    <br>
+
+    <br>
+</clp-card>

@@ -1,0 +1,211 @@
+
+
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+
+			<h2><clp-text-orange>Pitch Trim</clp-text-orange></h2>
+			<div>
+				<clp-link-pdf>FIM TASK 27-30-00-810-803</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>One of the FCECU channels is not able to control is related pitch trim actuator or pilot and copilot pitch trim input commands are different.</div>
+
+			<br>
+
+			<div><clp-text-blue>Note: Airspeed 1 and 2 mismatch (RUD PRESS, SPLR OUTBD, and ELEVATOR FEEL caution lights will also come on)</clp-text-blue></div>
+
+			<br>
+
+			<div><clp-text-blue>Note: Airspeed 1 and 2 mismatch (RUD PRESS, SPLR OUTBD, and ELEVATOR FEEL caution lights will also come on)</clp-text-blue></div>
+
+			<br>
+
+			<div>The CAWP PITCH TRIM caution light comes on when the flight control electronic control unit (FCECU) has sensed the conditions that follow:</div>
+
+			<ul>
+				<li>Internal failure of the FCECU</li>
+				<li>Left pitch trim actuator malfunction</li>
+				<li>Right pitch trim actuator malfunction</li>
+				<li>ADC1 or ADC2 malfunction or mismatch</li>
+				<li>Pilot and co-pilot commands are different</li>
+				<li>Pitch trim "runaway" is sensed</li>
+			</ul>
+
+			<div>The Elevator Feel and Trim unit provides artificial feel and trimming to counter the effects of longitudinal pitch control changes during all phases of flight. Trimming counters the effects of changes to the aircraft centre of gravity, airspeed and lift during flap extension or retraction.</div>
+
+			<br>
+
+			<div>
+				The system includes two pitch trim actuators installed on top of the pitch feel and trim units supply elevator trim. The elevator trim actuator is controlled automatically by the autopilot or manually by the trim switches on the pilot's and copilot's control hand wheels.
+			</div>
+		</clp-card>
+
+		<br>
+
+		<clp-card title="Quick links">
+
+			<div>Operational Test of the Elevator Control System</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-30-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>Operational Test of the Elevator Pitch Trim System</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-32-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>Operational Test the Flight Control Electronic Control Unit (FCECU)</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-00-01-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			
+		</clp-card>
+
+		<br>
+
+		<clp-card title="Associated CBs">
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+						
+						<div><strong>M3</strong> FCS ECU 1</div>
+						<div><strong>F4</strong> PITCH-TRM IND</div>
+						<div><strong>G4</strong> PITCH-TRM ACT 1</div>
+						<div><strong>H4</strong> PITCH-FEEL ACT 1</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>L6</strong> FCS ECU 2</div>
+						<div><strong>G4</strong> PITCH-TRM ACT 2</div>
+						<div><strong>H4</strong> PITCH-FEEL ACT 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			
+		</clp-card>
+	</clp-grid-column>
+
+	<!-- RIGHT -->
+	<clp-grid-column>
+
+		<clp-card title="Quick reference reset guide">
+
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+				
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+
+			<div><clp-text-red>Note: This procedure shall not be used if other caution lights are observed!</clp-text-red></div>
+
+			<br>
+
+			<div><clp-info-grey>Start engine #2 and un-feather propeller</clp-info-grey></div>
+
+			<br>
+
+			<clp-table border="" hover="" nowrap="1">
+				<clp-tr>
+					<clp-td><strong>SPU</strong></clp-td>
+					<clp-td>></clp-td>
+					<clp-td>to <clp-text-blue><strong>"On"</strong></clp-text-blue></clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td><strong>RESET</strong></clp-td>
+					<clp-td>></clp-td>
+					<clp-td>FCS <strong>ECU 1 and 2</strong> CBs (<strong><clp-text-red>M3</clp-text-red>-Left</strong> Essential and <strong><clp-text-red>L6-</clp-text-red> Right</strong> Essential) "reset" simultaneously <clp-text-blue>Note: Wait 90 sec (self test in progress)</clp-text-blue></clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Elevator Trim</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Set to neutral position Note: Forward end of takeoff range (<span class="text-primary font-weight-bold">ND</span>)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Elevator Control</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Hands-free (check PFCS)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Elevator Control</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Slowly move the column through two full cycles and check indication</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Pilot`s Pitch Trim Switch</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Without exerting force on the control column, operate trim switch full ND and NU(check indication)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Elevator Trim</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Set to neutral position</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Pilot`s Pitch Trim Switch</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Without exerting force on the control column, toggle switch at approximately 1 puls per sec. to attain the full ND and NU trim Position (check indication)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Elevator Trim</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Set to neutral position</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Co-Pilot`s Pitch Trim  Switch</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Without exerting force on the control column, operate switch continuously to attain the full ND and NU trim position (check indication)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Elevator Trim</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Set to neutral position</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>Co-Pilot`s Pitch <br> Trim Switch</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Without exerting force on the control column, toggle switch at approximately 1 puls per sec. to attain the full ND and NU trim Position(check indication).</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td> Elevator Trim</clp-td>
+				   <clp-td>></clp-td>
+				   <clp-td>Set as required</clp-td>
+				</clp-tr>
+			</clp-table>
+
+			<br>
+
+			<div><clp-text-blue>Note: Procedure can only be used if AUTO PILOT was not engaged during the event.</clp-text-blue></div>
+
+			<br>
+
+			<div><strong><clp-text-red>IF Caution Light still on maintenance action is required prior first flight!</clp-text-red></strong></div>
+
+		</clp-card>
+	</clp-grid-column>
+</clp-grid>

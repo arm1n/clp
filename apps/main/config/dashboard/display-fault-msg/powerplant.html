@@ -1,0 +1,192 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>POWERPLANT</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 77-31-00-810-835</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+	<br>
+
+	<p> The set ED shows this message when the Full Authority Digital Engine Control 1 (FADEC1) or FADEC 2 calculates a FADEC or Propeller Electronic Controller (PEC) Time Limited Dispatch (TLD), No Dispatch (ND) condition.</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The ED is monitored by Multi-Function Display 1 (MFD1) and MFD2.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> TLD is used to calculate and manage a loss of control system redundancy to meet the Loss of Thrust Control (LOTC) guidelines. The TLD is divided into the categories that follow:</clp-text-blue>
+	</p>
+
+	<ul>
+		<li> <b>Unlimited (UNL)</b></li>
+		<ul> The current powerplant malfunctions do not affect system redundancy, and do not affect dispatch</ul>
+		<br>
+		<li><b>Long Term Dispatch (LTD)</b></li>
+		<ul>The calculation of current malfunctions that affect system redundancy allows dispatch for up to 500 hours from when the discrepancy was sensed.</ul>
+		<br>
+		<li><b>Short Term Dispatch (STD)</b></li>
+		<ul>The calculation of current malfunctions that affect system redundancy allows dispatch for up to 150 hours from when the discrepancy was sensed.</ul>
+		<br>
+		<li><b>No Dispatch (ND)</b></li>
+		<ul>The loss of control system redundancy to meet LOTC guidelines is not acceptable and dispatch is not allowed after the end of the present flight.</ul>
+	</ul>
+
+	<br>
+	<br>
+
+
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+
+
+
+			<clp-grid>
+				<clp-grid-column>
+
+					<p><b>Do a FADEC Fault Code Clear of <clp-text-red>both</clp-text-red> Engines as follows:</b></p>
+
+					<ul>
+						<li>1. Move <clp-text-blue><b>BOTH</b></clp-text-blue> <b>POWER LEVER</b> to the <clp-text-blue><b>DISC</b></clp-text-blue> detent.</li>
+						<br>
+						<li>2. Move <clp-text-blue><b>BOTH</b></clp-text-blue> <b>CONDITION LEVER</b> to <clp-text-blue><b>MAX/1020</b></clp-text-blue> detent.</li>
+						<br>
+						<li>3. On the Central Maintenance Panel, set <b>MAINT DISC</b> to <clp-text-red><b>ON</b></clp-text-red>.</li>
+						<br>
+						<li>4. Push the <b>RIG TRIM</b> switch for at least <clp-text-blue><b>5 seconds</b></clp-text-blue>
+						</li>
+						<br>
+						<li>5. Set <b>MAINT DISC</b> to <clp-text-red><b>OFF</b></clp-text-red>
+						</li>
+					</ul>
+					<p>Move both <b>POWER LEVERS</b> and <b>CONDITION LEVERS</b> to the normal position</p>
+
+
+				</clp-grid-column>
+
+
+				<clp-grid-column>
+					<clp-img src="./apps/main/config/dashboard/desc/pic/fadec_clear.svg"></clp-img>
+				</clp-grid-column>
+			</clp-grid>
+			<div>
+
+				<br>
+			</div>
+
+			<clp-table>
+				<clp-tr>
+					<clp-td>FADEC Fault Code Clear</clp-td>
+					<clp-td>
+						<clp-link-pdf>AMM TASK 73-21-00-070-801</clp-link-pdf>
+					</clp-td>
+					<clp-td>
+						<clp-link-tr>(TR-AMM)</clp-link-tr>
+					</clp-td>
+				</clp-tr>
+
+			</clp-table>
+		</div>
+		<br>
+	</clp-info-blue>
+	<br>
+	
+	
+	<clp-info-blue>
+		<br>
+		<div>
+
+			<clp-grid>
+				<clp-grid-column>
+
+
+
+					<p><b>Do a PEC Fault Code Clear of <clp-text-red>both</clp-text-red> Engines as follows:</b></p>
+					<br>
+
+					<ul>
+						<li>1. Set <clp-text-blue><b>BOTH</b></clp-text-blue> <b>POWER LEVER</b> to the <clp-text-blue><b>DISC</b></clp-text-blue> detent.</li>
+						<br>
+						<li>2. Move <clp-text-blue><b>BOTH</b></clp-text-blue> <b>CONDITION LEVER</b> to <clp-text-blue><b>FUEL OFF</b></clp-text-blue> position.</li>
+						<br>
+						<li>3. On the Central Maintenance Panel, set <b>MAINT DISC</b> to <clp-text-red><b>ON</b></clp-text-red>.</li>
+						<br>
+						<li>4. Push the <b>RIG TRIM</b> switch for at least <clp-text-blue><b>15 seconds</b></clp-text-blue>
+						</li>
+						<br>
+						<li>5. Set <b>MAINT DISC</b> switch to <clp-text-red><b>OFF</b></clp-text-red>
+						</li>
+					</ul>
+
+					<p>Move both <b>POWER LEVERS</b> and <b>CONDITION LEVERS</b> to the normal position</p>
+
+
+				</clp-grid-column>
+				<clp-grid-column>
+					<clp-img src="./apps/main/config/dashboard/desc/pic/pec_clear.svg"></clp-img>
+				</clp-grid-column>
+			</clp-grid>
+			<br>
+			<clp-table>
+				<clp-tr>
+					<clp-td>PEC Fault Code Clear</clp-td>
+					<clp-td>
+						<clp-link-pdf>AMM TASK 61-20-36-070-801</clp-link-pdf>
+					</clp-td>
+					<clp-td>
+						<clp-link-tr>(TR-AMM)</clp-link-tr>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+
+		</div>
+	</clp-info-blue>
+	<br>
+
+
+</clp-card>

@@ -1,0 +1,72 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>PLABETA stuck open - (Engine Fault Code 200/201)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-817</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of of a mismatch between the power lever position inputs to the PEC. In this case the PLA beta microswitch indication is off (i.e. the PLA beta microswitch indicates flight range) but the PLA is actually in the ground range.</p><!-- !!!! -->
+	
+	<p>The fault detection logic has determined that the PLA beta microswitch is off (open) while PLA smaller 29° for a period of more than 11 seconds.</p><!-- !!!! -->
+	
+	<p>This fault code, if present on both PEC channels will be annunciated as a PEC caution on the ACWS. This fault code is designated as No Despatch for TLD (Time Limit Delay ) purposes and therefore will also illuminate the POWERPLANT message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PLA Quadrant (smaller 33° switch ) </li><!-- !!!! -->
+		<li>Relay Junction box 1 (Refer to CMM 24−50−61) </li>
+		<li>Relay 6100−3−K2 </li>
+		<li>Relay 6100−3−K3 </li>
+        <li>Timing resistors DB (daughter board) No. 3, R2 ( Relay 6100−K2) </li>
+        <li>Timing resistors DB (daughter board) No. 3, R3 ( Relay 6100−K3) </li>
+        <li>PEC </li>
+        <li>PCU Ground Beta Enable Solenoid </li>
+        <li>Local essential bus or CB </li>
+        <li>Aircraft/Nacelle wiring </li>
+	</ul>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+	
+<br>
+</clp-card>

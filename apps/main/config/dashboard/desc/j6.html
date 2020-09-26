@@ -1,0 +1,115 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>#2 FUEL FLTR BYPASS</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 73-10-00-810-802</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The CAWP #2 FUEL FLTR BYPASS caution light comes on when the full authority digital electronic control 2 (FADEC 2) senses a condition that follows:</div>
+			<ul>
+				<li> Fuel filter fuel pressure is more than 19 psi</li>
+				<li>Fuel pressure crosscheck latched failed for more than 15 seconds</li>
+			</ul>
+			<br>
+			<div>A fuel filter bypass switch fault code is set when a condition is as follows:</div>
+			<ul>
+				<li>NH is more than 64% and the fuel filter fuel pressure is more than 19 psi</li>
+				<li>NH is 0% and the fuel filter fuel pressure is more than 19 psi for more than 15 seconds</li>
+			</ul>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> The FADEC supplies discrete data through the engine cockpit interface unit (ECIU) to the CAWP for the #1 FUEL FLTR BYPASS caution indication.</clp-text-blue>
+			</div>
+			<br>
+			<div>The engine display (ED) can show the related fault codes that follow:</div>
+			<ul>
+				<li>766, Fuel filter bypass discrete mismatch fault latched</li>
+				<li>905, Fuel filter bypass switch fault</li>
+				<li>906, Fuel filter maintenance request.</li>
+			</ul>
+			<br>
+			<br>
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Engine operational test</div>
+			<div>
+				<clp-link-pdf>AMM TASK 71-00-00-868-805</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Engine Leak Check</div>
+			<div>
+				<clp-link-pdf>AMM TASK 71-00-00-790-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/eng/units/fuel_filter.html"></clp-file>
+			</clp-card>
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/eng/units/fuel_filter_switch.html"></clp-file>
+
+			</clp-card>
+			<br>
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

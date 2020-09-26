@@ -1,0 +1,23 @@
+@import "./_mixins.scss";
+
+/* ----------------------------------------------------------------------------------------------------
+ * EXTENDS
+ *
+ * Reusable classes to be used in conjunction with @extend .selector in .scss files.
+ * ---------------------------------------------------------------------------------------------------- */
+
+.field {
+	@include field();
+}
+
+.button {
+	@include button();
+}
+
+.button-reset {
+	@include button-reset();
+}
+
+.link {
+	@include link();
+}

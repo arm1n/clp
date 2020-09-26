@@ -1,0 +1,132 @@
+@import './_variables.scss';
+
+/* ----------------------------------------------------------------------------------------------------
+ * MIXINS
+ *
+ * Reusable functions to be used in conjunction with @include mixin() in .scss files.
+ * ---------------------------------------------------------------------------------------------------- */
+
+@mixin min-width($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $min-width: map-get($breakpoints, $breakpoint);
+
+    @media only screen and (min-width: $min-width) {
+      @content;
+    }
+  } @else {
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+@mixin truncate() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin field() {
+  outline: none;
+  font-size: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: var(--form-padding);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--form-border-color);
+
+  &:focus {
+    border: 1px solid var(--form-focus-border-color);
+  }
+}
+
+@mixin button-reset() {
+  padding: 0;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 100%;
+  background: none;
+  box-sizing: border-box;
+}
+
+@mixin button() {
+  @include button-reset();
+  
+  color: var(--button-color);
+  padding: var(--form-padding);
+  border-radius: var(--border-radius);
+  background-color: var(--button-bg-color);
+  border: 1px solid var(--button-border-color);
+
+  &[disabled] {
+    &:hover,
+    &:active,
+    &.active {
+      box-shadow: none;
+      cursor: not-allowed;
+      pointer-events: none;
+      background-color: var(--button-disabled-bg-color);
+    }
+  }
+
+  &:hover {
+    background-color: var(--button-hover-bg-color);
+  }
+
+  &.active,
+  &:active {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05) inset;
+    background-color: var(--button-active-bg-color);
+  }
+}
+
+@mixin link() {
+  color: var(--text-color-link);
+
+  &[disabled] {
+    &:hover,
+    &:active,
+    &.active {
+      opacity: 0.75;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+
+  &:hover {
+    color: var(--text-color-link-hover);
+  }
+
+  &.active,
+  &:active {
+    color: var(--text-color-link-active);
+  }
+}
+
+@mixin arrow-down($color: black, $size: 5px) {
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+  border-top-color: $color;
+}
+
+@mixin arrow-up($color: black, $size: 5px) {
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+  border-bottom-color: $color;
+}
+
+@mixin arrow-left($color: black, $size: 5px) {
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+  border-right-color: $color;
+}
+
+@mixin arrow-right($color: black, $size: 5px) {
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+  border-left-color: $color;
+}

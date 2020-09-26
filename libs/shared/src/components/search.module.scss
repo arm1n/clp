@@ -1,0 +1,39 @@
+@import "../styles/_mixins.scss";
+
+.wrapper {
+	display: flex;
+	position: relative;
+}
+
+.input{
+	@include field();
+
+	flex-grow: 1;
+	margin: 0;
+	padding-right: 2rem;
+}
+
+.clear {
+	@include button-reset();
+
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 2rem;
+	position: absolute;
+
+	&:hover {
+		&:before {
+			opacity: 0.5;
+		}
+	}
+
+	&:before {
+		content: "";
+		width: 2rem;
+		height: 1rem;
+		opacity: 0.25;
+		display: block;
+		background: url(../img/close.svg) no-repeat;
+	}
+}

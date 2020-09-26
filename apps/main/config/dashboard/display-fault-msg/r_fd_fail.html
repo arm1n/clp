@@ -1,0 +1,131 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>R FD FAIL</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>R FD FAIL on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-856</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>R FD FAIL on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-857</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>R FD FAIL on PFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-841</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>R FD FAIL on PFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-855</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<p><b>R FD FAIL, MFD 1/2 (Caution) </b></p>
+	<p> The Flight Mode Annunciator (FMA) shows the R FD FAIL message in the MFD1/2 for one of the conditions that follow:</p>
+	<ul>
+		<li>The MFD1/2 does not receive a valid Flight Director (FD) data from the Flight Guidance Module 2 (FGM2) when it is set to the PFD.</li>
+		<li>The Input/Output Processor 1 (IOP1) does not receive a valid status from the FGM2.</li>
+		
+	</ul>
+
+<br>
+	<br>
+
+	<p><b>R FD FAIL, PFD 1/2 (Caution) </b></p>
+	<p> The FMA shows the R FD FAIL message for one of the conditions that follow:</p>
+	<ul>
+		<li> PFD1/2 does not receive a valid Flight Director (FD) data from the Flight Guidance Module 2 (FGM2)</li>
+		<li> Input/Output Processor module 1 (IOP1) does not receive a valid status from FGM2.</li>
+		
+	</ul>
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<p>Reset FGM 1 and FGM 2 on Avionics CB Panel</p>
+
+			<ul>
+				<li><b>(A4)</b> Reset FGM 1 <b>(F7)</b> circuit breaker on Avionics CB panel</li>
+				<li><b>(A4)</b> Reset FGM 2 <b>(F6)</b> circuit breaker on Avionics CB panel</li>
+				
+
+			</ul>
+
+		</div>
+	</clp-info-blue>
+
+
+	<br>
+
+
+	<br>
+
+
+
+
+
+
+</clp-card>

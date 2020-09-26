@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1194.5 530.7" style="enable-background:new 0 0 1194.5 530.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:10.4225px;}
+	.st3{fill:#333333;}
+	.st4{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:#FF9933;}
+	.st6{font-family:'Arial-BoldMT';}
+	.st7{font-size:9.8301px;}
+	.st8{font-size:10.5033px;}
+</style>
+<g transform="matrix( 12.09637451171875, 0, 0, 1.15594482421875, 642.95,53) ">
+</g>
+<path id="Layer2_0_MEMBER_0_1_STROKES" class="st0" d="M358.6,116.4v276.6H204.3V116.4H358.6z"/>
+<path id="Layer2_0_MEMBER_1_1_STROKES" class="st0" d="M102.8,188.7H37.6v-31.8h65.2V188.7z"/>
+<path id="Layer2_0_MEMBER_2_1_STROKES" class="st0" d="M37.6,200.5h65.2v31.8H37.6V200.5z"/>
+<path id="Layer2_0_MEMBER_3_1_STROKES" class="st0" d="M37.6,246h65.2v31.8H37.6V246z"/>
+<path id="Layer2_0_MEMBER_4_1_STROKES" class="st0" d="M102.6,289.1v31.8H37.3v-31.8H102.6z"/>
+<path id="Layer2_0_MEMBER_5_1_STROKES" class="st0" d="M211.4,429.4v37.5H123v-37.5H211.4z"/>
+<path id="Layer2_0_MEMBER_6_1_STROKES" class="st0" d="M400.9,430.3v36.6h-73.5v-36.6H400.9z"/>
+<g>
+	<text transform="matrix(0.9888 0 0 1 44.7011 169.7406)" class="st1 st2">Flap Posn</text>
+</g>
+<g>
+	<text transform="matrix(0.9851 0 0 1 45.8515 181.6917)" class="st1 st2">Left FPIU</text>
+</g>
+<path id="Layer2_0_MEMBER_9_1_STROKES" class="st0" d="M560.1,183.6h-91.8v-42h91.8V183.6z"/>
+<path id="Layer2_0_MEMBER_10_1_STROKES" class="st0" d="M560.3,260h-92v-28h92V260z"/>
+<path id="Layer2_0_MEMBER_11_1_STROKES" class="st0" d="M560.3,219.1h-92v-28.8h92V219.1z"/>
+<path id="Layer2_0_MEMBER_12_1_STROKES" class="st0" d="M560.1,123.6v17.7h-91.8v-17.7H560.1z"/>
+<path id="Layer2_0_MEMBER_13_1_STROKES" class="st0" d="M468.3,358.7h92.1v31.3h-92.1V358.7z"/>
+<path id="Layer2_0_MEMBER_14_1_STROKES" class="st0" d="M10.4,371.1h92.1v31.3H10.4V371.1z"/>
+<path id="Layer2_0_MEMBER_15_1_STROKES" class="st0" d="M468.3,321h92.1v31.3h-92.1V321z"/>
+<path id="Layer2_0_MEMBER_16_1_STROKES" class="st0" d="M444.9,371.7h-36.1V340h36.1V371.7z"/>
+<g>
+	<text transform="matrix(0.9528 0 0 1 53.5517 213.9417)" class="st1 st2">ADU #1</text>
+</g>
+<g>
+	<text transform="matrix(0.9599 0 0 1 50.0517 225.891)" class="st1 st2">AHRS #1</text>
+</g>
+<g>
+	<text transform="matrix(0.9432 0 0 1 54.602 258.9906)" class="st1 st2">IFC #1</text>
+</g>
+<g>
+	<text transform="matrix(0.988 0 0 1 50.852 270.9417)" class="st1 st2">A/P Trim</text>
+</g>
+<g>
+	<text transform="matrix(0.9893 0 0 1 48.5522 301.4906)" class="st1 st2">Pilot Trim</text>
+</g>
+<g>
+	<text transform="matrix(0.9958 0 0 1 48.5517 313.4417)" class="st1 st2">Switches</text>
+</g>
+<g>
+	<text transform="matrix(1.002 0 0 1 504.0512 135.8412)" class="st1 st2">SOV</text>
+</g>
+<g>
+	<text transform="matrix(0.9985 0 0 1 483.2524 153.891)" class="st1 st2">Rudder Hinge</text>
+</g>
+<g>
+	<text transform="matrix(1.0066 0 0 1 478.601 165.891)" class="st1 st2">Moment Limiter</text>
+</g>
+<g>
+	<text transform="matrix(0.989 0 0 1 488.8012 177.891)" class="st1 st2">Lower PCU</text>
+</g>
+<g>
+	<text transform="matrix(1.0064 0 0 1 479.5522 202.3412)" class="st1 st2">P Feel Actuator</text>
+</g>
+<g>
+	<text transform="matrix(0.9984 0 0 1 505.602 214.2914)" class="st1 st2">Left</text>
+</g>
+<g>
+	<text transform="matrix(0.9663 0 0 1 478.602 244.3412)" class="st1 st2">P Trim Actuator </text>
+</g>
+<g>
+	<text transform="matrix(1.0001 0 0 1 266.8012 214.141)" class="st1 st2">FLIGHT</text>
+</g>
+<g>
+	<text transform="matrix(0.9971 0 0 1 260.0024 226.0912)" class="st1 st2">CONTROL</text>
+</g>
+<g>
+	<text transform="matrix(0.9986 0 0 1 251.9516 238.141)" class="st1 st2">ELECTRONIC</text>
+</g>
+<g>
+	<text transform="matrix(0.9971 0 0 1 260.0024 250.0912)" class="st1 st2">CONTROL</text>
+</g>
+<g>
+	<text transform="matrix(0.9965 0 0 1 273.1518 262.0414)" class="st1 st2">UNIT</text>
+</g>
+<g>
+	<text transform="matrix(0.9747 0 0 1 253.2524 273.9906)" class="st1 st2">CHANNEL #1</text>
+</g>
+<g>
+	<text transform="matrix(0.9929 0 0 1 269.102 286.0912)" class="st1 st2">(LEFT)</text>
+</g>
+<g>
+	<text transform="matrix(0.9936 0 0 1 63.8012 123.3412)" class="st1 st2">28 VDC</text>
+</g>
+<g>
+	<text transform="matrix(1.0001 0 0 1 413.2524 353.6917)" class="st1 st2">WOW</text>
+</g>
+<g>
+	<text transform="matrix(0.672 0 0 1 424.0024 365.641)" class="st1 st2">1</text>
+</g>
+<g>
+	<text transform="matrix(1.0065 0 0 1 479.2016 334.6917)" class="st1 st2">Inboard Spoiler</text>
+</g>
+<g>
+	<text transform="matrix(1.0038 0 0 1 479.2016 346.641)" class="st1 st2">Lift Dump SOV</text>
+</g>
+<g>
+	<text transform="matrix(1.0065 0 0 1 477.0014 371.2914)" class="st1 st2">Inboard Spoiler</text>
+</g>
+<g>
+	<text transform="matrix(1.0038 0 0 1 477.0014 383.2406)" class="st1 st2">Lift Dump SOV</text>
+</g>
+<g>
+	<text transform="matrix(1.0036 0 0 1 18.2514 385.0414)" class="st1 st2">Pitch Disconnect</text>
+</g>
+<g>
+	<text transform="matrix(1.0018 0 0 1 43.7519 396.2914)" class="st1 st2">Relay</text>
+</g>
+<g>
+	<text transform="matrix(0.9749 0 0 1 412.602 336.9417)" class="st1 st2">PSEU</text>
+</g>
+<g>
+	<text transform="matrix(0.9979 0 0 1 480.4516 275.891)" class="st1 st2">I/B Spoiler L</text>
+</g>
+<g>
+	<text transform="matrix(1.0026 0 0 1 479.1508 287.891)" class="st1 st2">I/B Spoiler R</text>
+</g>
+<g>
+	<text transform="matrix(0.9973 0 0 1 485.6508 299.8412)" class="st1 st2">Elevator L</text>
+</g>
+<g>
+	<text transform="matrix(1.0023 0 0 1 487.9516 311.7914)" class="st1 st2">Aileron R</text>
+</g>
+<g>
+	<text transform="matrix(0.9247 0 0 1 550.101 293.0912)" class="st1 st2">- LVDTS </text>
+</g>
+<g>
+	<text transform="matrix(0.9941 0 0 1 34.6015 344.641)" class="st1 st2">Flap in Motion</text>
+</g>
+<g>
+	<text transform="matrix(0.9654 0 0 1 56.5512 356.5912)" class="st1 st2">FCU</text>
+</g>
+<g>
+	<text transform="matrix(1.0033 0 0 1 45.1518 143.4417)" class="st1 st2">Throttle Left</text>
+</g>
+<g>
+	<text transform="matrix(0.999 0 0 1 246.7016 22.391)" class="st1 st2">Caution Lights</text>
+</g>
+<path id="Layer2_0_MEMBER_57_1_STROKES" class="st0" d="M396.6,97.5h-234V10.4h234V97.5z"/>
+<g>
+	<text transform="matrix(0.9434 0 0 1 153.5517 450.9417)" class="st1 st2">RUD 1</text>
+</g>
+<g>
+	<text transform="matrix(1.0005 0 0 1 176.4521 477.4906)" class="st1 st2">Pushoff Switchlights</text>
+</g>
+<g>
+	<text transform="matrix(0.9994 0 0 1 328.3012 477.8412)" class="st1 st2">Advisory Lights</text>
+</g>
+<g>
+	<text transform="matrix(0.9544 0 0 1 338.6518 451.891)" class="st1 st2">ROLL INBD </text>
+</g>
+<g>
+	<text transform="matrix(0.9714 0 0 1 226.2016 441.3412)" class="st1 st2">ELEVATOR TRIM </text>
+</g>
+<g>
+	<text transform="matrix(0.9941 0 0 1 242.2016 450.641)" class="st1 st2">SHUTOFF</text>
+</g>
+<g>
+	<text transform="matrix(0.9993 0 0 1 235.5517 462.641)" class="st1 st2">(Pilot/Co-Pilot)</text>
+</g>
+<path id="Layer2_0_MEMBER_65_1_STROKES" class="st0" d="M318.5,421.3v61.5H115.4l-0.1-61.5H318.5z"/>
+<path d="M189.6,122.5l14.6-2.6l-14.6-2.6V122.5z"/>
+<path id="Layer2_0_MEMBER_67_1_STROKES" class="st0" d="M191,120h-87.6"/>
+<path d="M189.6,142.8l14.6-2.6l-14.6-2.6V142.8z"/>
+<path id="Layer2_0_MEMBER_69_1_STROKES" class="st0" d="M191,140.3h-87.6"/>
+<path d="M189.6,176.4l14.6-2.6l-14.6-2.6V176.4z"/>
+<path id="Layer2_0_MEMBER_71_1_STROKES" class="st0" d="M191,173.9h-87.6"/>
+<path d="M189.6,219.5l14.6-2.6l-14.6-2.6V219.5z"/>
+<path id="Layer2_0_MEMBER_73_1_STROKES" class="st0" d="M191,216.9h-87.6"/>
+<path d="M189.6,306.8l14.6-2.6l-14.6-2.6V306.8z"/>
+<path id="Layer2_0_MEMBER_75_1_STROKES" class="st0" d="M191,304.3h-87.6"/>
+<path d="M189.6,349.7l14.6-2.6l-14.6-2.7V349.7z"/>
+<path id="Layer2_0_MEMBER_77_1_STROKES" class="st0" d="M191,347.1h-87.6"/>
+<path d="M118.1,251.4l-14.7,2.6l14.7,2.6V251.4z"/>
+<path id="Layer2_0_MEMBER_79_1_STROKES" class="st0" d="M204.2,254h-87.5"/>
+<path d="M118.1,266.4l-14.7,2.6l14.7,2.6V266.4z"/>
+<path id="Layer2_0_MEMBER_81_1_STROKES" class="st0" d="M204.2,269.1h-87.5"/>
+<path d="M189.6,389.2l14.6-2.6l-14.6-2.6V389.2z"/>
+<path d="M118.1,384.1l-14.7,2.6l14.7,2.6V384.1z"/>
+<path id="Layer2_0_MEMBER_84_1_STROKES" class="st0" d="M191,386.7h-74.3"/>
+<path d="M453.6,165.1l14.7-2.6l-14.7-2.6V165.1z"/>
+<path d="M373.7,165.1V160l-14.6,2.6L373.7,165.1z"/>
+<path id="Layer2_0_MEMBER_87_1_STROKES" class="st0" d="M455,162.6h-82.7"/>
+<path d="M453.6,207l14.7-2.6l-14.7-2.6V207z"/>
+<path d="M373.7,207v-5.2l-14.6,2.6L373.7,207z"/>
+<path id="Layer2_0_MEMBER_90_1_STROKES" class="st0" d="M455,204.4h-82.7"/>
+<path d="M453.6,248.2l14.7-2.7l-14.7-2.6V248.2z"/>
+<path d="M373.7,248.2v-5.3l-14.6,2.6L373.7,248.2z"/>
+<path id="Layer2_0_MEMBER_93_1_STROKES" class="st0" d="M455,245.5h-82.7"/>
+<path d="M453.6,293l14.7-2.6l-14.7-2.6V293z"/>
+<path d="M373.7,293v-5.2l-14.6,2.6L373.7,293z"/>
+<path id="Layer2_0_MEMBER_96_1_STROKES" class="st0" d="M455,290.5h-82.7"/>
+<path d="M453.6,135.8l14.7-2.6l-14.7-2.6V135.8z"/>
+<path id="Layer2_0_MEMBER_98_1_STROKES" class="st0" d="M455,133.2h-96"/>
+<path d="M453.6,328.6l14.7-2.6l-14.7-2.6V328.6z"/>
+<path id="Layer2_0_MEMBER_100_1_STROKES" class="st0" d="M455,326h-96"/>
+<path d="M453.6,385.4l14.7-2.6l-14.7-2.7V385.4z"/>
+<path id="Layer2_0_MEMBER_102_1_STROKES" class="st0" d="M455,382.8h-96"/>
+<path d="M453.6,367.9l14.7-2.6l-14.7-2.7V367.9z"/>
+<path id="Layer2_0_MEMBER_104_1_STROKES" class="st0" d="M456.5,365.4h-10.8"/>
+<path d="M453.6,347.9l14.7-2.6l-14.7-2.6V347.9z"/>
+<path id="Layer2_0_MEMBER_106_1_STROKES" class="st0" d="M455.8,345.3H445"/>
+<path d="M214.2,406.8l2.6,14.7l2.6-14.7H214.2z"/>
+<path id="Layer2_0_MEMBER_108_1_STROKES" class="st0" d="M216.8,408.3v-15"/>
+<path d="M344.6,415.7l2.6,14.7l2.6-14.7H344.6z"/>
+<path id="Layer2_0_MEMBER_110_1_STROKES" class="st0" d="M347.2,417.2v-24.1"/>
+<path d="M282.6,112.5L280,97.8l-2.6,14.7H282.6z"/>
+<path id="Layer2_0_MEMBER_112_1_STROKES" class="st0" d="M280,105.8v10.8"/>
+<g>
+	<text transform="matrix(1.0037 0 0 1 483.5512 255.7406)" class="st1 st2">Act/ Stby Left</text>
+</g>
+<path id="Layer2_0_MEMBER_114_1_STROKES" class="st0" d="M468.6,265v49.9h78.1V265H468.6z"/>
+<path id="Layer2_0_MEMBER_115_1_STROKES" class="st0" d="M29.2,362.9h73.4v-31.6H29.2V362.9z"/>
+<path id="Layer2_0_MEMBER_116_1_STROKES" class="st0" d="M219.3,429.4v37.7h97v-37.7H219.3z"/>
+<path class="st3" d="M388.1,57V26.7h-66.5V57H388.1z"/>
+<path id="Layer2_0_MEMBER_117_MEMBER_0_MEMBER_0_1_STROKES" class="st4" d="M388.1,57h-66.5V26.7h66.5V57z"/>
+<g>
+	<text transform="matrix(1 0 0 1 326.9008 38.5687)" class="st5 st6 st7">ROLL SPLR</text>
+	<text transform="matrix(1 0 0 1 328.1645 51.8392)" class="st5 st6 st7">INBD GND</text>
+</g>
+<path class="st3" d="M388.1,92.4V62.1h-66.5v30.3H388.1z"/>
+<path id="Layer2_0_MEMBER_117_MEMBER_1_MEMBER_0_1_STROKES" class="st4" d="M388.1,92.4h-66.5V62.1h66.5V92.4z"/>
+<g>
+	<text transform="matrix(1 0 0 1 326.9008 74.1185)" class="st5 st6 st7">ROLL SPLR</text>
+	<text transform="matrix(1 0 0 1 328.5854 87.389)" class="st5 st6 st7">INBD HYD</text>
+</g>
+<path class="st3" d="M240.3,92.4V62.1h-66.5v30.3H240.3z"/>
+<path id="Layer2_0_MEMBER_117_MEMBER_2_MEMBER_0_1_STROKES" class="st4" d="M240.3,92.4h-66.5V62.1h66.5V92.4z"/>
+<g>
+	<text transform="matrix(1 0 0 1 186.769 75.1185)" class="st5 st6 st7">#1 RUD</text>
+	<text transform="matrix(1 0 0 1 195.5107 88.389)" class="st5 st6 st7">HYD</text>
+</g>
+<path class="st3" d="M247.7,26.7V57h66.5V26.7H247.7z"/>
+<path id="Layer2_0_MEMBER_117_MEMBER_3_MEMBER_0_1_STROKES" class="st4" d="M247.7,26.7h66.5V57h-66.5V26.7z"/>
+<g>
+	<text transform="matrix(1 0 0 1 254.1645 39.6683)" class="st5 st6 st7">ELEVATOR</text>
+	<text transform="matrix(1 0 0 1 253.0063 52.9388)" class="st5 st6 st7">ASYMETRY</text>
+</g>
+<path class="st3" d="M240.3,57V26.7h-66.5V57H240.3z"/>
+<path id="Layer2_0_MEMBER_117_MEMBER_4_MEMBER_0_1_STROKES" class="st4" d="M240.3,57h-66.5V26.7h66.5V57z"/>
+<g>
+	<text transform="matrix(1 0 0 1 180.3144 39.7181)" class="st5 st6 st7">ELEVATOR</text>
+	<text transform="matrix(1 0 0 1 194.4623 52.9886)" class="st5 st6 st7">FEEL</text>
+</g>
+<path class="st3" d="M247.7,62.1v30.3h66.5V62.1H247.7z"/>
+<path id="Layer2_0_MEMBER_117_MEMBER_5_MEMBER_0_1_STROKES" class="st4" d="M247.7,62.1h66.5v30.3h-66.5V62.1z"/>
+<g>
+	<text transform="matrix(1 0 0 1 264.3803 75.0687)" class="st5 st6 st7">PITCH</text>
+	<text transform="matrix(1 0 0 1 266.6625 88.3392)" class="st5 st6 st7">TRIM</text>
+</g>
+<path id="Layer2_1_MEMBER_0_1_STROKES" class="st0" d="M954.5,429.8H799.2V120.2h155.3V429.8z"/>
+<path id="Layer2_1_MEMBER_1_1_STROKES" class="st0" d="M697.9,165.4v32h-65.6v-32H697.9z"/>
+<path id="Layer2_1_MEMBER_2_1_STROKES" class="st0" d="M697.9,241.3h-65.6v-32h65.6V241.3z"/>
+<path id="Layer2_1_MEMBER_3_1_STROKES" class="st0" d="M632.3,255h65.6v31.9h-65.6V255z"/>
+<path id="Layer2_1_MEMBER_4_1_STROKES" class="st0" d="M697.8,298.4v32.1h-65.7v-32.1H697.8z"/>
+<path id="Layer2_1_MEMBER_5_1_STROKES" class="st0" d="M698.6,386.8h-65.2v-32.1h65.2V386.8z"/>
+<path id="Layer2_1_MEMBER_6_1_STROKES" class="st0" d="M860,459v40.3h-65.6V459H860z"/>
+<path id="Layer2_1_MEMBER_7_1_STROKES" class="st0" d="M959.5,459v40.1h-65.7V459H959.5z"/>
+<g>
+	<text transform="matrix(0.9898 0 0 1 639.4516 178.3226)" class="st1 st8">Flap Posn</text>
+</g>
+<text transform="matrix(0.9894 0 0 1 637.0024 190.3226)" class="st1 st8">Right FPIU</text>
+<path id="Layer2_1_MEMBER_10_1_STROKES" class="st0" d="M1065.1,150.7h92.6v39.7h-92.6V150.7z"/>
+<path id="Layer2_1_MEMBER_11_1_STROKES" class="st0" d="M1065.1,232.5h92.6v27h-92.6V232.5z"/>
+<path id="Layer2_1_MEMBER_12_1_STROKES" class="st0" d="M1065.1,197.5h92.6v27.4h-92.6V197.5z"/>
+<path id="Layer2_1_MEMBER_13_1_STROKES" class="st0" d="M1157.6,150.6h-92.6v-17.9h92.6V150.6z"/>
+<path id="Layer2_1_MEMBER_14_1_STROKES" class="st0" d="M606.3,396.8h92.8v31.4h-92.8V396.8z"/>
+<path id="Layer2_1_MEMBER_15_1_STROKES" class="st0" d="M1065.1,399.2h92.7v31.4h-92.7V399.2z"/>
+<path id="Layer2_1_MEMBER_16_1_STROKES" class="st0" d="M1065.1,363.5h92.7V395h-92.7V363.5z"/>
+<path id="Layer2_1_MEMBER_17_1_STROKES" class="st0" d="M1041.5,382.8v32h-36.4v-32H1041.5z"/>
+<g>
+	<text transform="matrix(0.9908 0 0 1 648.9516 222.6722)" class="st1 st8">ADU #2</text>
+</g>
+<g>
+	<text transform="matrix(0.9932 0 0 1 645.4008 234.6722)" class="st1 st8">AHRS #2</text>
+</g>
+<g>
+	<text transform="matrix(0.982 0 0 1 656.2514 268.7718)" class="st1 st8">IFC</text>
+</g>
+<g>
+	<text transform="matrix(0.9562 0 0 1 658.5014 281.0726)" class="st1 st8">#2</text>
+</g>
+<g>
+	<text transform="matrix(1.0036 0 0 1 646.0512 311.9222)" class="st1 st8">Co-pilot</text>
+</g>
+<g>
+	<text transform="matrix(0.9979 0 0 1 640.4008 323.972)" class="st1 st8">Trim S/ws</text>
+</g>
+<g>
+	<text transform="matrix(1.0022 0 0 1 1100.3519 144.8714)" class="st1 st8">SOV</text>
+</g>
+<g>
+	<text transform="matrix(0.9989 0 0 1 1079.9017 161.5726)" class="st1 st8">Rudder Hinge</text>
+</g>
+<g>
+	<text transform="matrix(1.0077 0 0 1 1075.5013 173.3714)" class="st1 st8">Moment Limiter</text>
+</g>
+<g>
+	<text transform="matrix(0.99 0 0 1 1084.5013 184.6214)" class="st1 st8">Upper PCU</text>
+</g>
+<g>
+	<text transform="matrix(1.0075 0 0 1 1076.3011 208.0218)" class="st1 st8">P Feel Actuator</text>
+</g>
+<g>
+	<text transform="matrix(1.0075 0 0 1 1075.5511 243.3714)" class="st1 st8">P Trim Actuator</text>
+</g>
+<g>
+	<text transform="matrix(1.0046 0 0 1 1077.8021 255.1722)" class="st1 st8">Act/Stby Right</text>
+</g>
+<g>
+	<text transform="matrix(0.9939 0 0 1 660.4516 132.1722)" class="st1 st8">28 VDC</text>
+</g>
+<g>
+	<text transform="matrix(0.9969 0 0 1 615.2016 345.5726)" class="st1 st8">Flight/Taxi Switch</text>
+</g>
+<g>
+	<text transform="matrix(1.0007 0 0 1 1009.7016 396.2718)" class="st1 st8">WOW</text>
+</g>
+<g>
+	<text transform="matrix(0.9121 0 0 1 1020.4516 408.3714)" class="st1 st8">2</text>
+</g>
+<g>
+	<text transform="matrix(0.989 0 0 1 629.7016 409.972)" class="st1 st8">Outboard</text>
+</g>
+<g>
+	<text transform="matrix(1.0042 0 0 1 623.3012 422.0726)" class="st1 st8">Spoiler SOV</text>
+</g>
+<g>
+	<text transform="matrix(1.0072 0 0 1 1071.9515 376.222)" class="st1 st8">Outboard Spoiler</text>
+</g>
+<g>
+	<text transform="matrix(1.0044 0 0 1 1077.0023 388.3226)" class="st1 st8">Lift Dump SOV</text>
+</g>
+<g>
+	<text transform="matrix(1.0072 0 0 1 1073.101 412.8226)" class="st1 st8">Outboard Spoiler</text>
+</g>
+<g>
+	<text transform="matrix(1.0044 0 0 1 1078.5521 424.9222)" class="st1 st8">Lift Dump SOV</text>
+</g>
+<g>
+	<text transform="matrix(0.9755 0 0 1 1009.8012 379.722)" class="st1 st8">PSEU</text>
+</g>
+<g>
+	<text transform="matrix(0.9997 0 0 1 1072.6517 285.5726)" class="st1 st8">O/B Spoiler L</text>
+</g>
+<g>
+	<text transform="matrix(1.0038 0 0 1 1071.851 297.5726)" class="st1 st8">O/B Spoiler R</text>
+</g>
+<g>
+	<text transform="matrix(1.0025 0 0 1 1079.4515 309.6214)" class="st1 st8">Elevator R</text>
+</g>
+<g>
+	<text transform="matrix(1.0095 0 0 1 1086.9515 321.7718)" class="st1 st8">Rudder</text>
+</g>
+<g>
+	<text transform="matrix(0.9255 0 0 1 1145.8519 298.722)" class="st1 st8">- LVDTS </text>
+</g>
+<g>
+	<text transform="matrix(0.9983 0 0 1 636.2016 368.4222)" class="st1 st8">Maintenance</text>
+</g>
+<g>
+	<text transform="matrix(0.9789 0 0 1 652.9516 380.4222)" class="st1 st8">Panel</text>
+</g>
+<g>
+	<text transform="matrix(0.9294 0 0 1 662.0024 151.6722)" class="st1 st8">Throttle </text>
+</g>
+<g>
+	<text transform="matrix(0.9999 0 0 1 845.3022 23.8226)" class="st1 st8">Caution Lights</text>
+</g>
+<path id="Layer2_1_MEMBER_60_1_STROKES" class="st0" d="M994.6,100.5H758.2V9.7h236.4V100.5z"/>
+<g>
+	<text transform="matrix(0.9889 0 0 1 810.9516 482.8714)" class="st1 st8">RUD 2</text>
+</g>
+<g>
+	<text transform="matrix(1.0015 0 0 1 783.8012 517.6722)" class="st1 st8">Pushoff Switchlights</text>
+</g>
+<g>
+	<text transform="matrix(0.9999 0 0 1 894.6518 518.1214)" class="st1 st8">Advisory Lights</text>
+</g>
+<g>
+	<text transform="matrix(0.9097 0 0 1 914.602 470.6214)" class="st1 st8">ROLL </text>
+</g>
+<g>
+	<text transform="matrix(0.9313 0 0 1 909.9018 482.6214)" class="st1 st8">OUTBD </text>
+</g>
+<g>
+	<text transform="matrix(0.996 0 0 1 908.4516 494.6722)" class="st1 st8">(Spoiler)</text>
+</g>
+<path d="M784.8,131l14.7-2.6l-14.7-2.6V131z"/>
+<path id="Layer2_1_MEMBER_68_1_STROKES" class="st0" d="M701.7,128.4h84.6"/>
+<path d="M784.8,150.8l14.7-2.6l-14.7-2.6V150.8z"/>
+<path id="Layer2_1_MEMBER_70_1_STROKES" class="st0" d="M701.7,148.3h84.6"/>
+<path d="M784.8,183.2l14.7-2.6l-14.7-2.6V183.2z"/>
+<path id="Layer2_1_MEMBER_72_1_STROKES" class="st0" d="M697.8,180.6h88.5"/>
+<path d="M784.8,227.9l14.7-2.6l-14.7-2.7V227.9z"/>
+<path id="Layer2_1_MEMBER_74_1_STROKES" class="st0" d="M697.8,225.4h88.5"/>
+<path d="M784.8,317.4l14.7-2.6l-14.7-2.6V317.4z"/>
+<path id="Layer2_1_MEMBER_76_1_STROKES" class="st0" d="M697.8,314.8h88.5"/>
+<path d="M784.2,345l14.7-2.6l-14.7-2.6V345z"/>
+<path id="Layer2_1_MEMBER_78_1_STROKES" class="st0" d="M697.1,342.4h88.5"/>
+<path d="M784.8,373.3l14.7-2.6l-14.7-2.7V373.3z"/>
+<path id="Layer2_1_MEMBER_80_1_STROKES" class="st0" d="M698.6,370.8h87.7"/>
+<path d="M1050.1,144.1l14.7-2.6l-14.7-2.6V144.1z"/>
+<path id="Layer2_1_MEMBER_82_1_STROKES" class="st0" d="M954.4,141.6h97.1"/>
+<path d="M712.8,268.6l-14.7,2.6l14.7,2.6V268.6z"/>
+<path id="Layer2_1_MEMBER_84_1_STROKES" class="st0" d="M711.3,271.3h87.3"/>
+<path d="M698.1,412.4l14.7,2.6v-5.2L698.1,412.4z"/>
+<path id="Layer2_1_MEMBER_86_1_STROKES" class="st0" d="M711.3,412.5h87.3"/>
+<path d="M955,172.1l14.6,2.6v-5.2L955,172.1z"/>
+<path d="M1050.2,174.7l14.6-2.6l-14.6-2.6V174.7z"/>
+<path id="Layer2_1_MEMBER_89_1_STROKES" class="st0" d="M968.2,172.1h83.5"/>
+<path d="M969.6,209.1l-14.6,2.6l14.6,2.6V209.1z"/>
+<path d="M1050.2,214.3l14.6-2.6l-14.6-2.6V214.3z"/>
+<path id="Layer2_1_MEMBER_92_1_STROKES" class="st0" d="M968.2,211.7h83.5"/>
+<path d="M969.6,243.6l-14.6,2.6l14.6,2.6V243.6z"/>
+<path d="M1050.2,248.8l14.6-2.6l-14.6-2.6V248.8z"/>
+<path id="Layer2_1_MEMBER_95_1_STROKES" class="st0" d="M968.2,246.2h83.5"/>
+<path d="M969.6,293l-14.6,2.6l14.6,2.6V293z"/>
+<path d="M1050.2,298.1l14.6-2.6l-14.6-2.6V298.1z"/>
+<path id="Layer2_1_MEMBER_98_1_STROKES" class="st0" d="M968.2,295.6h83.5"/>
+<path d="M1050.1,371.2l14.7-2.6l-14.7-2.6V371.2z"/>
+<path id="Layer2_1_MEMBER_100_1_STROKES" class="st0" d="M954.4,368.6h97.1"/>
+<path d="M1050.1,424.2l14.7-2.6l-14.7-2.6V424.2z"/>
+<path id="Layer2_1_MEMBER_102_1_STROKES" class="st0" d="M954.4,421.7h97.1"/>
+<path d="M1049.8,412.5l14.7-2.6l-14.7-2.6V412.5z"/>
+<path id="Layer2_1_MEMBER_104_1_STROKES" class="st0" d="M1041.5,410h9.7"/>
+<path d="M1050.1,388l14.7-2.6l-14.7-2.6V388z"/>
+<path id="Layer2_1_MEMBER_106_1_STROKES" class="st0" d="M1041.5,385.4h9.9"/>
+<path d="M824.5,444.6l2.6,14.7l2.6-14.7H824.5z"/>
+<path id="Layer2_1_MEMBER_108_1_STROKES" class="st0" d="M827,429.7v16.5"/>
+<path d="M879.1,115l-2.6-14.7l-2.6,14.7H879.1z"/>
+<path id="Layer2_1_MEMBER_110_1_STROKES" class="st0" d="M876.5,120.2v-6.5"/>
+<path d="M924.8,444.6l2.6,14.7l2.6-14.7H924.8z"/>
+<path id="Layer2_1_MEMBER_112_1_STROKES" class="st0" d="M927.4,429.7v16.5"/>
+<g>
+	<text transform="matrix(1.0024 0 0 1 1097.4515 219.2718)" class="st1 st8">Right</text>
+</g>
+<path id="Layer2_1_MEMBER_114_1_STROKES" class="st0" d="M1065.1,270.6h76.8v58.1h-76.8V270.6z"/>
+<path class="st3" d="M843.1,59.1h66.5V28.8h-66.5V59.1z"/>
+<path id="Layer2_1_MEMBER_115_MEMBER_0_MEMBER_0_1_STROKES" class="st4" d="M909.6,59.1h-66.5V28.8h66.5V59.1z"/>
+<g>
+	<text transform="matrix(1 0 0 1 848.4506 40.8685)" class="st5 st6 st7">ROLL SPLR</text>
+	<text transform="matrix(1 0 0 1 845.4662 54.139)" class="st5 st6 st7">OUTBD GND</text>
+</g>
+<path class="st3" d="M917.7,59.1h66.5V28.8h-66.5V59.1z"/>
+<path id="Layer2_1_MEMBER_115_MEMBER_1_MEMBER_0_1_STROKES" class="st4" d="M984.2,59.1h-66.5V28.8h66.5V59.1z"/>
+<g>
+	<text transform="matrix(1 0 0 1 937.395 41.8187)" class="st5 st6 st7">SPLR</text>
+	<text transform="matrix(1 0 0 1 932.6196 55.0892)" class="st5 st6 st7">OUTBD</text>
+</g>
+<path class="st3" d="M835.1,59.1V28.8h-66.5v30.3H835.1z"/>
+<path id="Layer2_1_MEMBER_115_MEMBER_2_MEMBER_0_1_STROKES" class="st4" d="M835.1,59.1h-66.5V28.8h66.5V59.1z"/>
+<g>
+	<text transform="matrix(1 0 0 1 773.9506 40.7679)" class="st5 st6 st7">ROLL SPLR</text>
+	<text transform="matrix(1 0 0 1 771.3871 54.0394)" class="st5 st6 st7">OUTBD HYD</text>
+</g>
+<path class="st3" d="M879.7,63.6v30.3h66.5V63.6H879.7z"/>
+<path id="Layer2_1_MEMBER_115_MEMBER_3_MEMBER_0_1_STROKES" class="st4" d="M879.7,63.6h66.5v30.3h-66.5V63.6z"/>
+<g>
+	<text transform="matrix(1 0 0 1 892.6186 76.6185)" class="st5 st6 st7">#2 RUD</text>
+	<text transform="matrix(1 0 0 1 901.3608 89.889)" class="st5 st6 st7">HYD</text>
+</g>
+<path class="st3" d="M872.3,93.9V63.6h-66.5v30.3H872.3z"/>
+<path id="Layer2_1_MEMBER_115_MEMBER_4_MEMBER_0_1_STROKES" class="st4" d="M872.3,93.9h-66.5V63.6h66.5V93.9z"/>
+<g>
+	<text transform="matrix(1 0 0 1 827.3354 76.5687)" class="st5 st6 st7">RUD</text>
+	<text transform="matrix(1 0 0 1 821.8227 89.8392)" class="st5 st6 st7">CNTRL</text>
+</g>
+<g>
+	<text transform="matrix(1.0001 0 0 1 862.8012 214.141)" class="st1 st2">FLIGHT</text>
+</g>
+<g>
+	<text transform="matrix(0.9971 0 0 1 856.0024 226.0912)" class="st1 st2">CONTROL</text>
+</g>
+<g>
+	<text transform="matrix(0.9986 0 0 1 847.9516 238.141)" class="st1 st2">ELECTRONIC</text>
+</g>
+<g>
+	<text transform="matrix(0.9971 0 0 1 856.0024 250.0912)" class="st1 st2">CONTROL</text>
+</g>
+<g>
+	<text transform="matrix(0.9965 0 0 1 869.1518 262.0414)" class="st1 st2">UNIT</text>
+</g>
+<g>
+	<text transform="matrix(0.9747 0 0 1 849.2524 273.9906)" class="st1 st2">CHANNEL #2</text>
+</g>
+<g>
+	<text transform="matrix(0.9929 0 0 1 865.102 286.0912)" class="st1 st2">(LEFT)</text>
+</g>
+</svg>

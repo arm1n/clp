@@ -1,0 +1,9 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.searchbox {
+  margin: 0 0 1.5rem;
+  
+  @include min-width(lg) {
+    display: inline-block;
+  }
+}

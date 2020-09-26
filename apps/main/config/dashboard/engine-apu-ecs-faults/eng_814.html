@@ -1,0 +1,74 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Reduce Propeller Speed (Np) Selection - (Engine Fault Code 814 and/or 824)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-856</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the Full Authority Digital Electronic Control (FADEC) fault codes. The registered fault codes are 814 and/or 824.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Engine Cockpit Interface Unit (ECIU) </li>
+        <li>Engine Control Panel </li>
+        <li>Airframe Wiring Harness </li>
+        <li>Local and remote values for RDC NP are different (814) </li>
+        <li>The RDC NP switch is ON over the 10 seconds limit (824) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/eciu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/eng_cont_panel.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

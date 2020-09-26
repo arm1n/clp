@@ -1,0 +1,69 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>MAIN FUEL VALVE SHORT ( Status ) - (APU Fault Code 176-0 to 176-4)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-30-00-810-803</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>The CDS shows a 176−4 MAIN FUEL VALVE SHORT message when the auxiliary power unit (APU) full authority digital electronic controller (FADEC) senses a short in the main fuel solenoid valve circuit during the power up, start, or run modes.</p><!-- !!!! -->
+
+	<p>The caution and warning panel (CAWP) APU and APU CONTROL panel FAIL caution lights can come on.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Main Fuel Solenoid Valve </li><!-- UNIT -->
+        <li>APU FADEC </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/apu/units/apu_mfuel_vlv.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/apu/units/fadec.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

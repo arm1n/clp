@@ -1,0 +1,21 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.link {
+  display: inline-block;
+  margin: 0 0 0 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius);
+  background-color: var(--system-main-bg-color-top-menu-link);
+
+  &,
+  &:hover {
+    color: var(--system-main-text-color-top-menu-link);
+  }
+
+  @include min-width(lg) {
+    display: block;
+    margin: 0 0 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

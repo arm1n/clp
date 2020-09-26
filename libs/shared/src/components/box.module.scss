@@ -1,0 +1,17 @@
+.wrapper {
+	flex-grow: 1;
+	padding: 0.5rem;
+	border-radius: var(--border-radius);
+	border: 1px solid var(--border-color);
+
+	&.inverse {
+		color: var(--text-color-light);
+		border-color: var(--bg-color-blue);
+		background-color: var(--bg-color-blue);
+	}
+
+	> * {
+		margin: 0;
+		padding: 0;
+	}
+}

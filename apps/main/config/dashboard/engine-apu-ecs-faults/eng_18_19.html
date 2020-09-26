@@ -1,0 +1,63 @@
+<clp-card title="GENERAL">
+  
+	<clp-info-red><div>
+		<strong>Control priority discrete/serial bus mismatch - (Engine Fault Code 18/19)</strong>
+	</div></clp-info-red>
+	
+	<br>
+	
+	<div>
+  <clp-link-pdf>FIM TASK 61-20-01-810-808</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr>
+  </div>
+
+  <br />
+
+  <div>
+    This fault code is generated as a result of an apparent error in one of the control priority discretes, used to determine which PEC lane is the controlling lane. This is an internal PEC fault.<br> The fault isolation logic has determined that there is a difference between the control priority discretes supplied on the interlane bus. <br>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.
+
+  </div>
+	<br>
+	
+	<!-- Zentrale Link  -->
+  <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+  <br />
+
+  
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+  <div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+  <ul>
+	<li>PEC </li>
+	
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+	
+	
+	<br>
+	
+</clp-card>
+
+

@@ -1,0 +1,100 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>MISTRIM [TRIM L WING DN] displayed on PFD</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-875</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+	<br>
+	
+	<p>The MISTRIM [TRIM L WING DN] message is usually out of view and comes into view when conditions are as follows:</p>
+	<ul>
+		<li>Autopilot (AP) mode is set and the flight guidance module (FGM) senses that the autopilot roll actuator unit (APAU-R) torque is more than the threshold (mistrim)</li>
+		<li>Torque sensing in the APAU-R has malfunctioned.</li>
+	</ul>
+	
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The APAU-R uses current limiting to limit the maximum torque that can be supplied to the flight controls.</clp-text-blue></p>
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The MISTRIM [TRIM L WING DN] message is not shown when the AP mode is not set, or when the AP mode is set and the tactile control steering (TCS) mode is active.</clp-text-blue></p>
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The MISTRIM [TRIM L WING DN] message shows that the handwheel is mistrimmed, and that there can be much more than usual handwheel force and pitch change when the AP mode is disengaged.</clp-text-blue></p>
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The AP mode does not disengage automatically when a mistrim condition is sensed. But the AP mode will disengage if the APAU−R electrical torque limit is more than 60.4 in−lb.</clp-text-blue></p>
+
+	<br>
+	<br>
+	
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<ul>
+				<li>Problem related on possible wrong trim setting from pilot</li>
+				<br>
+				<ul>OR</ul>
+				<br>
+				<li>Aircraft aerodynamically mistrimmed. Adjust aileron trim tab necessary. </li>
+			</ul>
+
+			<p></p>
+
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+	
+
+	<br>
+
+	
+
+
+	<br />
+
+
+</clp-card>

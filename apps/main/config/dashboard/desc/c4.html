@@ -1,0 +1,223 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>WSHLD CTRL</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 30-40-00-810-805</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The WSHLD CTRL caution light comes on in the conditions that follow:</div>
+
+			<ul>
+				<li>The anti-ice controller (AIC) fails</li>
+				<li>The AIC senses the window is not heating +300 seconds</li>
+				<li>The AIC discrete signal output (DSO) fails</li>
+				<li>The AIC senses the window sensor(s) has failed</li>
+				<li>The AIC senses a control input disagreement</li>
+			</ul>
+
+			<div>The central diagnostic system (CDS) ice and rain protection system (IRPS) page canshow the related status messages that follow:</div>
+
+			<br>
+			<div><strong>LEFT WSHLD CTRL FAIL</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-41-01-810-801</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+			<div><strong>RIGHT WSHLD CTRL FAI</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-41-01-810-802</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+			<div>When the pilot's or copilot's windshield temperature is less than 34 ±2 °C or the pilot's side window temperature is less than 30 ±2 °C, the related Anti-Ice Controller activates the related activation relay that supplies 115 Vac to the heater. When the windshield temperature is above 42 ±3 °C or the pilot side window temperature is above 38 ±4 °C, the AIC deactivates the deactivation relay which opens the circuit and shuts off the power to the heater. </div>
+			<br>
+			<div>In the event the normal heating control fails, the AIC uses the overheat temperature sensor to control the heater. Temperature above 50 ±3 °C for windshield or above 52 ±3 °C for the pilot's side window deactivates both relays and shuts off the heating. </div>
+
+
+
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the pilot windshield anti-icing system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-41-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Operational test copilot windshield and pilot side window anti-icing system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-41-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Electrical Resistance Check of both Windshield</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-41-00-760-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Electrical Resistance Check of the Pilot side Window</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-41-00-760-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>R7</strong> PLT WS/HT CONT</div>
+					</clp-td>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>B6</strong> COPLT-WS PLT-WDO HT CONT</div>
+						<div><strong>N5</strong> PLT WDO HT RLY</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+
+
+			<ul>
+				<li>On the overhead panel, set the <clp-text-blue>WINDSHIELD HEAT</clp-text-blue> selector to the <clp-text-red>OFF</clp-text-red> position.</li>
+				<li>On the overhead panel, set the <clp-text-blue>PLT SIDE WDO/HT</clp-text-blue> switch to the <clp-text-red>OFF</clp-text-red> position.</li>
+			</ul>
+			<br>
+			<div>CHECK FOLLOWING C/B ON 115 VAC C/B PANEL </div>
+			<ul>
+				<li>R WSHLD HT</li>
+				<li>L WSHLD HT</li>
+				<li>L WDO HT</li>
+			</ul>
+
+			<br>
+			<div>RESET</div>
+			<ul>
+				<li>1 RIGHT DC <strong>B6</strong> COPLT-W/S PLT-WDO HT CONT</li>
+				<li>2 LEFT DC <strong>R7</strong> PLT WS/HT CONT</li>
+			</ul>
+			<br>
+			<div>On the overhead panel, set the <clp-text-blue>WINDSHIELD HEAT</clp-text-blue> selector to the <clp-text-red>ON</clp-text-red> position.
+				<br>
+				<br>
+				After 30 seconds, make sure there are <strong>no caution lights</strong>. </div>
+			<br>
+			<br>
+			<br>
+			<clp-info-blue>
+				<div>
+					<clp-text-centered><clp-text-blue>Electrical Resistance Check of the Windshield and Pilot Side Window<br></clp-text-blue></clp-text-centered>
+				</div>
+			</clp-info-blue>
+			<br>
+			
+			
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			<div>Sensor resistance range (EF,AD,BC) calculation where T = Temperature in °F:</div>
+			<ul>
+				<li>Lower Resistance (Ohms) = .67T + 267.8</li>
+				<li>Upper Resistance (Ohms) = .82T + 245.4</li>
+			</ul>
+
+			<br>
+			<br>
+			<clp-info-blue>
+				<div>
+					<clp-text-centered>
+						<clp-text-blue><strong>NOTE:</strong><br> To get accurate measurements it is maybe necessary to simulate ambient flight conditions by attaching <b>cooling packs</b> on sensor area. </clp-text-blue>
+					</clp-text-centered>
+				</div>
+			</clp-info-blue>
+			<br>
+			<br>
+
+
+
+			<clp-grid>
+				<clp-grid-column>
+					<clp-info-grey>
+						<clp-img src="./units/deice/desc/pic/windshield_sensor.svg"></clp-img>
+						<clp-text-centered>Electrical Resistance Check</clp-text-centered>
+						<clp-text-centered>
+							<clp-link-pdf>AMM TASK 30-41-00-760-801</clp-link-pdf>
+						</clp-text-centered>
+					</clp-info-grey>
+				</clp-grid-column>
+
+
+				<clp-grid-column>
+					<clp-info-grey>
+						<clp-img src="./units/deice/desc/pic/side_window_sensor.svg"></clp-img>
+						<clp-text-centered>Electrical Resistance Check</clp-text-centered>
+						<clp-text-centered>
+							<clp-link-pdf>AMM TASK 30-41-00-760-802</clp-link-pdf>
+						</clp-text-centered>
+					</clp-info-grey>
+				</clp-grid-column>
+			</clp-grid>
+			<br>
+			<br>
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

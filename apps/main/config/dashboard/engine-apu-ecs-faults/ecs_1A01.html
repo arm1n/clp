@@ -1,0 +1,96 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>L BLD TMP - (ECS Fault Code 1A01)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b> CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 36-10-00-810-869</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b> CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 36-10-00-810-869</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>This fault isolation procedure is for when the Central Diagnostic System (CDS) shows the L BLD TMP message, fault code 1A01 for the Resistance Temperature Device (RTD) sensor.</li>
+		<li>The Caution and Warning Panel (CAWP) #1 BLEED HOT caution light comes on whenever the L BLD TMP message, fault code 1A01 is active.</li>
+		<li>The CDS shows this message when the sensed temperature is outside of the operating range of the sensor or a wiring fault has been detected.</li>
+		<li>Faulty left engine bleed overtemperature switch</li>
+		<li>FaultyECU</li>
+		
+
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>ECU</li>
+		<li>Bleed Overtemperature Switch</li>
+		
+
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/uf/units/ecsecu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/bleed/units/bl_overtemp_sw.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

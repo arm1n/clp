@@ -1,0 +1,115 @@
+@import "../styles/_mixins.scss";
+
+.wrapper {
+  position: relative;
+}
+
+.bar {
+  display: flex;
+  min-height: 3.5rem;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--bg-color-blue-dark);
+
+  @include min-width(lg) {
+    display: none;
+  }
+
+  .home,
+  .toggle {
+    @include button-reset();
+
+    display: flex;
+    padding: 0.75rem;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    color: var(--text-color-light);
+    background-color: var(--bg-color-blue);
+
+    .icon {
+      width: 2rem;
+      display: block;
+      fill: currentColor;
+    }
+  }
+
+  .toggle {
+    
+  }
+}
+
+.menu {
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background-color: var(--bg-color-blue-dark);
+
+  /* Safari bugfix with <Tabs> on mobile */
+  transform: translateZ(0);
+
+  @include min-width(lg) {
+    padding: 0.25rem;
+    position: static;
+    flex-direction: row;
+  }
+}
+
+.after,
+.before {
+  padding: 1rem;
+
+  @include min-width(lg) {
+    padding: 0;
+  }
+}
+
+.item {
+  @include button-reset();
+
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color-light);
+  background-color: var(--bg-color-blue);
+
+  &:hover,
+  &.active {
+    color: var(--text-color-light);
+    background-color: var(--bg-color-blue-light);
+  }
+
+  @include min-width(lg) {
+    width: auto;
+    margin: 0 0.25rem 0 0;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius);
+  }
+}
+
+.icon {
+  width: 2rem;
+  fill: var(--text-color-light);
+}
+
+.start {
+}
+
+.stretch {
+  flex-grow: 1;
+}
+
+.close {
+  margin: 0;
+  display: none;
+
+  @include min-width(lg) {
+    display: flex;
+  }
+}

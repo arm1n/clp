@@ -1,0 +1,65 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Torque trim EEpot fault - (Engine Fault Code 384/385)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-08-810-817</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is generated as a result of a failure to satisfactorily complete a test on the gain to offset EEpots within the PEC following the start of the torque trim operation. This is an internal PEC fault.</p><!-- !!!! -->
+
+    <p>The fault isolation logic has determined that when a torque trim operation has been initiated, the answer to a series of predetermined activities within the EEpots falls outside the required limits.</p><!-- !!!! -->
+
+    <p>This fault code will inhibit the autofeather advisory when PLA goes into the take−off range. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+
+    <p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    <br>
+</clp-card>

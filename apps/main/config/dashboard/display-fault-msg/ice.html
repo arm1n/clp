@@ -1,0 +1,113 @@
+<clp-card title="GENERAL">
+	<br>
+	<clp-info-red>
+		<div>
+			<b>Intermittent Display of ICE DETECTED Advisory Message (ED)</b>
+		</div>
+	</clp-info-red>
+	<br>
+	
+	<clp-table>
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 30-80-00-810-806</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<p>This Fault Isolation procedure is applicable when the engine display (ED) ICE DETECTED advisory message comes on for less than 60 + / - 5 seconds.</p>
+	<br>
+	<br>
+	<p>The central diagnostic system (CDS) can show the related messages as follows:</p>
+	<clp-table>
+		<clp-tr>
+			<clp-td>L ICE DETECTOR FAIL</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 30-80-00-810-802</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		<clp-tr>
+			<clp-td>R ICE DETECTOR FAIL</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 30-80-00-810-803</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+
+
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>115V AC CB PANEL</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div>115V AC VARIABLE FREQUENCY,<strong> L ICE DET</strong></div>
+				<div>115V AC VARIABLE FREQUENCY,<strong> R ICE DET</strong></div>
+
+			</clp-td>
+
+
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+	
+	
+	<clp-grid>
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/deice/units/ice_det_probe.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+		</clp-grid-column>
+	</clp-grid>
+
+	
+
+
+</clp-card>

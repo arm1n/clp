@@ -1,0 +1,833 @@
+<svg id="hyd-sys-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 868 564.9">
+  <style>
+    .st0{fill:none}.st1{fill:#c00}.st2{fill:#33c}.st3{fill:#fff}.st4{fill:none;stroke:#000;stroke-width:.2;stroke-linecap:round;stroke-linejoin:round}.st5{fill:#1f1a17}.st6{fill:gray}.st7{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round}.st8{fill:#936}.st9{fill:none;stroke:#000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.st10{fill:#03c}.st11{fill:#ff0}.st12{fill:#e68383}.st13{fill:#f90}.st14{fill:#09f}.st14,.st15,.st16,.st17{fill-opacity:.2941}.st15{fill:#999}.st16{fill:#ccc}.st17{fill:#666}.st18{fill:none;stroke:#000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.st19{font-family:&apos;ArialMT&apos;}.st20{font-size:12px}.st21{font-size:13px}.st22{font-size:15px}.st23{font-size:16px}.st24{font-size:12.9px}.st25{font-size:9px}.st26{stroke:#000;stroke-miterlimit:10}.st26,.st27{fill:silver}.st28{fill:#fff;stroke:#000;stroke-linecap:round;stroke-linejoin:round}.st29{font-family:&apos;MyriadPro-Regular&apos;}.st30{font-size:11px}
+  </style>
+  <g id="clp-eng-hyd-warn-sw" transform="translate(11.55 7.7)">
+    <g id="clp-eng-hyd-warn-sw-hl">
+      <path class="st0" d="M204.2 80.1V61.6c0-4.7-2.3-7-7-7h-73c-4.7 0-7 2.3-7 7v18.5c0 4.7 2.3 7 7 7h73c4.7 0 7-2.3 7-7z" id="Layer1_11_FILL_1_"/>
+    </g>
+  </g>
+  <g id="clp-hyd-reserv-lh">
+    <path id="clp-hyd-reserv-lh-hl" class="st0" d="M543.1 389.1h-13v-58.9c0-4.7-2.3-7-7-7h-18v-10.7c0-4.7-2.3-7-7-7h-67c-4.7 0-7 2.3-7 7v27.8h-78.2c-4.7 0-7 2.3-7 7v32.5c0 4.7 2.3 7 7 7h21.2v35.9c0 4.7 2.3 7 7 7h99c4.7 0 7-2.3 7-7v-1.1h63c4.7 0 7-2.3 7-7v-18.5c0-4.6-2.4-7-7-7z"/>
+  </g>
+  <g id="clp-hyd-isol-vlv-lh">
+    <path id="clp-hyd-isol-vlv-lh-hl" class="st0" d="M808.5 18h-64c-4.7 0-7 2.3-7 7v18.5c0 4.7 2.3 7 7 7h11.7v7.4c2.7 1 4 3.3 4 7v19.9c0 3.7-1.3 6-4 7v22.1c0 4.7 2.3 7 7 7h25.5c4.7 0 7-2.3 7-7V91.2c-1.9-1.2-2.9-3.3-2.9-6.4v-20c0-3.1 1-5.2 2.9-6.4v-7.9h12.8c4.7 0 7-2.3 7-7V25c0-4.7-2.4-7-7-7z"/>
+  </g>
+  <g id="clp-hyd-isol-vlv-sw">
+    <path id="clp-hyd-isol-vlv-sw-lh" class="st0" d="M858.8 84.5V66c0-4.7-2.3-7-7-7h-51c-4.7 0-7 2.3-7 7v18.5c0 4.7 2.3 7 7 7h51c4.7 0 7-2.4 7-7zm-100 0V66c0-4.7-2.3-7-7-7h-51c-4.7 0-7 2.3-7 7v18.5c0 4.7 2.3 7 7 7h51c4.7 0 7-2.4 7-7z"/>
+  </g>
+  <g id="clp-sys-flaps">
+    <g id="clp-sys-flaps-hl">
+      <path class="st0" d="M685.1 279.7V246h-57.8v33.7h57.8z" id="Layer1_0_FILL"/>
+    </g>
+  </g>
+  <g id="clp-sys-rud-ele">
+    <g id="clp-sys-rud-ele-hl">
+      <path class="st0" d="M708 310.2v58.7h91.8v-58.7H708z" id="Layer1_1_FILL"/>
+    </g>
+  </g>
+  <g id="clp-sys-br-sp">
+    <path class="st0" d="M753.2 203v58.7h102.1V203H753.2z" id="clp-sys-br-sp-hl"/>
+  </g>
+  <g id="clp-eng-hyd-pump" transform="translate(-2.5 -267.95)">
+    <g id="clp-eng-hyd-pump-hl">
+      <path class="st0" d="M60.3 296.9H21c-4.7 0-7 2.3-7 7v39.2c0 4.7 2.3 7 7 7h39.2c4.7 0 7-2.3 7-7v-39.2c.1-4.7-2.2-7-6.9-7z" id="Layer1_3_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-firew-sov" transform="translate(-4.05 -372.7)">
+    <g id="clp-hyd-firew-sov-hl">
+      <path class="st0" d="M15.1 529.4c-4.7 0-7 2.3-7 7v36.5c0 4.7 2.3 7 7 7h94c4.7 0 7-2.3 7-7v-36.5c0-4.7-2.3-7-7-7h-94z" id="Layer1_4_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-heatexch">
+    <g id="clp-hyd-heatexch-hl">
+      <path class="st0" d="M647.2 17.9c-.2-4.3-2.5-6.5-7-6.5h-76c-4.5 0-6.8 2.2-7 6.5v11.5l-2-2c-3.3-3.3-6.6-3.3-9.9 0L520 52.6c-3.3 3.3-3.3 6.6 0 9.9l25.2 25.2c3.3 3.3 6.6 3.3 9.9 0l25.2-25.2c3.3-3.3 3.3-6.6 0-9.9l-3.7-3.7h63.5c4.7 0 7-2.3 7-7V19.6c.1-.6.1-1.1.1-1.7z" id="Layer1_5_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-heatexch-bvlv">
+    <g id="clp-hyd-heatexch-bvlv-hl">
+      <path class="st0" d="M497.3 40h19.6c4.7 0 7-2.3 7-7V15.4c0-4.7-2.3-7-7-7H438c-4.7 0-7 2.3-7 7V33c0 4.7 2.3 7 7 7h19.6c-1 1.2-1.5 2.8-1.5 5v28.7c0 4.7 2.3 7 7 7h28.7c4.7 0 7-2.3 7-7V45c0-2.2-.5-3.8-1.5-5z" id="Layer1_6_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-px-transd-spu" transform="translate(11.55 7.7)">
+    <g id="clp-hyd-px-transd-spu-hl">
+      <path class="st0" d="M204.2 123.1v-18.5c0-4.7-2.3-7-7-7h-73c-4.7 0-7 2.3-7 7v18.5c0 4.7 2.3 7 7 7h73c4.7 0 7-2.3 7-7z" id="Layer1_11_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-spu">
+    <g id="clp-hyd-spu-hl">
+      <path class="st0" d="M65.8 304.9v43c0 5.1 2.6 7.6 7.7 7.6h43c5.1 0 7.7-2.5 7.7-7.6v-5h18.2c3.2 0 4.8-1.6 4.8-4.7v-26.6c0-3.2-1.6-4.8-4.8-4.8h-18.2v-1.9c0-5.1-2.6-7.7-7.7-7.7h-43c-5.2-.1-7.7 2.5-7.7 7.7z" id="Layer1_13_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-ptu">
+    <g id="clp-hyd-ptu-hl">
+      <path class="st0" d="M539.5 367.2c0 8.4 3 15.5 8.8 21.4 5.9 5.9 13.1 8.9 21.5 8.9 5.7 0 10.8-1.4 15.3-4.1h15.8c4.8 3.1 10.2 4.7 16.3 4.7 8.4 0 15.5-3 21.4-8.9s8.9-13 8.9-21.4-3-15.5-8.9-21.4c-5.7-5.7-12.5-8.6-20.3-8.8v-6.4c0-4.7-2.3-7-7-7h-35.5c-4.7 0-7 2.3-7 7v5.8c-7.9.2-14.7 3.1-20.4 8.8-5.9 5.9-8.9 13-8.9 21.4z" id="Layer1_15_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd1-bal-relvlv">
+    <g id="clp-hyd1-bal-relvlv-hl">
+      <path class="st0" d="M654.3 113.1c0-4.7-2.3-7-7-7h-58.5c-3.3 0-5.4 1.1-6.3 3.4h-26.8c-4.7 0-7 2.3-7 7V153c0 4.7 2.3 7 7 7h26.5c.8 2.7 3 4.1 6.6 4.1h58.5c4.7 0 7-2.3 7-7v-44z" id="Layer1_16_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-ptu-sel-vlv">
+    <g id="clp-hyd-ptu-sel-vlv-hl">
+      <path class="st0" d="M549.3 195.7H529c-3.5 0-5.3 1.8-5.3 5.3v27.8c0 3.5 1.8 5.3 5.3 5.3h20.3c.3 4 2.6 6.1 7 6.1h94c4.7 0 7-2.3 7-7v-36.5c0-4.7-2.3-7-7-7h-94c-4.3-.1-6.7 1.9-7 6z" id="Layer1_17_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-filter-manif">
+    <g id="clp-hyd-filter-manif-hl">
+      <path class="st0" d="M365.5 35.3c.2-.8.4-1.7.4-2.8V14.9c0-4.7-2.3-7-7-7H260c-4.7 0-7 2.3-7 7v17.6c0 1.1.1 2 .4 2.8h-35.9v237.9h184.1V35.3h-36.1z" id="Layer1_18_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-px-transd-edp" transform="translate(12.55 6.7)">
+    <g id="clp-hyd-px-transd-edp-hl">
+      <path class="st0" d="M388.7 106.4v43.5c0 4.7 2.3 7 7 7h31.5c4.7 0 7-2.3 7-7v-43.5c0-4.7-2.3-7-7-7h-31.5c-4.7.1-7 2.4-7 7z" id="Layer1_19_FILL"/>
+    </g>
+  </g>
+  <g id="clp-hyd-ecol-bottles">
+    <path id="clp-hyd-ecol-bottles-hl" class="st0" d="M88.6 482v-17.5c0-4.7-2.3-7-7-7H34c-4.7 0-7 2.3-7 7v66c0 4.7 2.3 7 7 7h47.5c4.7 0 7-2.3 7-7V516h53c4.7 0 7-2.3 7-7v-20c0-4.7-2.3-7-7-7H88.6zm392 20.2v-17.5c0-4.7-2.3-7-7-7h-47.5c-4.7 0-7 2.3-7 7v66c0 4.7 2.3 7 7 7h47.5c4.7 0 7-2.3 7-7v-14.5h53c4.7 0 7-2.3 7-7v-20c0-4.7-2.3-7-7-7h-53z"/>
+  </g>
+  <g id="clp-system">
+    <path class="st1" d="M256.1 103.3v-7.6H242v-20h-25.6v7.6h18v12.4H55.1V76.5h-7.6v26.8h208.6m481-.8l24.4-.1v-7.5l-481.6.8v7.7h19v40.8H241v-25.8h-24.6v7.6h17v18.2H131v102.5h-25.5v60.6h7.5v-53.1h25.6V151.7h160.3v25.6h-83.5v7.6h83.5v11h7.6v-92.7l69.2-.1V126h26.4v-7.6h-18.9v-15.3l64.5-.1v173.9h-50.3v78.7h7.6v-71.2h42.7v.1h7.6V103l111-.2v248h7.6V187.7h85.4V246h7.6v-65.8h-2v-.1h-91v-77.3l155.5-.3V310h7.6l.1-207.5m79.7 100.3h7.6V94.7l-33.6.1v7.6l26-.1v100.5z" id="Layer0_1_FILL"/>
+    <path class="st2" d="M666.9 279.7h-7.6v172.7H573V385h-7.5v67.4h-259V240.3l107.2.6v106.2h22.1v-7.6h-14.5V233.3l-114.8-.6V219h-7.6v13.6l-82.5-.4v7.6l82.5.4v219.7h525.6v-7.6h-.1V259.8h-7.6v192.6h-79.7v-84h-7.6v84H667l-.1-172.7z" id="Layer0_2_FILL"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M594.5 641.2v-27.8H561v27.8h33.5z" id="Layer0_3_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M595.5 642.1v-28.8H561v28.8h34.5m-1-27.7v26.9H562v-26.9h32.5z" id="Layer0_4_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_4_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M594.5 641.2H561v.9h34.5v-28.8h-1v27.9zM562 614.4v-1l-1 1h33.6m-32.6-1h-1v27.9m1-.1v-26.9m0-.9h32.6"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M577.3 619.1l-3.8 1.9-1 .9-1 2 1.9 3.8 3.8 1 3.9-1 1.9-1.9v-3.9l-5.7-2.8z" id="Layer0_5_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M574.4 620.8v-6.7H562v14.4l12.4-7.7z" id="Layer0_6_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M594.5 613.4H582v6.7l12.5 7.6v-14.3z" id="Layer0_7_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M576.2 618.3l-1.1.4-1.1.8-.2.2-.4.4-.5.7-.1.2-.2.2-.2.5v.3l-.1.2-.2.9v1.2l.2.8.1.3v.2l.2.5.2.2.1.3.9 1.1.2.2.6.5.5.3 1.1.5h.2l.3.1h.5l.2.1h.6l.3-.1h.6l.2-.1h.4l1-.5 1.4-1 .2-.2.2-.2.5-.7.1-.3.2-.2.2-.5v-.2l.1-.3.2-.8v-1.2l-.2-.9-.1-.2v-.3l-.2-.5-.2-.2.1-.1-.5-.7-.2-.2-.2-.2-.2-.2-1.1-.8-1-.4-1.2-.2h-1.1l-1.3.1z" id="Layer0_8_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M584.8 627.9l-.4-1-15.3 5.8h-.2v.1l-.2.1v.5h.2v.1h.1l12.4 3.4-11.7 3.5.3 1 13.5-4h.1l.2-.2h.1v-.3l-.1-.1h-.1v-.1l-12.7-3.5 13.8-5.3z" id="Layer0_9_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M532.4 255.5H346.5v238.1h185.9V255.5m-185 1h184.1v236.2H347.4V256.5z" id="Layer0_10_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_10_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M346.5 256.5l.9-1h-.9v1h.9v-1h185.1v238.1h-186V256.5zm185-1v237.2h-185m185-236.2H347.4v236.2"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st6" d="M645.3 554.4h-79.7v57.8h79.7v-57.8z" id="Layer0_11_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M646.2 554.4h-80.7v58.8h80.7v-58.8m-79.7.8h78.8v57h-78.8v-57z" id="Layer0_12_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_12_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M566.5 554.4h79.8v58.8h-80.7v-58.9h.9v.9h78.8v-.9m-78.8.1l-1 .9h1v57h78.8v-57m-78.8 56.9h-1"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M515.3 576.1v16.2h51.2v-16.2h-51.2m1 15.2v-14.2h49.3v14.2h-49.3z" id="Layer0_13_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_13_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M516.3 576.1h50.3v16.2h-51.2v-16.2h.9v1h49.3v-1m-49.3 0l-1 1h1v14.2h49.3v-14.2m-49.3 14.2h-1"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M645.3 555.2H631v57h14.2l.1-57z" id="Layer0_14_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M646.2 555.2H631v57.9h15.2v-57.9z" id="Layer0_15_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_15_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M645.3 556.2v56H631v1h15.2v-57.9h-1l.1.9H632v56m0-56h-1v56m14.3-57H632v1m0-1h-1v1l1-1z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M515.3 580.9v7.6h129v-7.6h-129z" id="Layer0_16_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M515.3 579.9v8.5h130v-8.5h-130z" id="Layer0_17_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_17_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M516.3 580.7v-.8l-1 .9h129v-.9h-129v7.6h1v-6.8zm128-.8h1v8.5h-130v-1m129-6.7v6.7h-128"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M318 441.4v31.4h28.5v-31.4H318z" id="Layer0_18_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M329.4 462.3l2.9-1.9 1.9-2.9-1.9-3.8-2.9-1.9-3.8 1.9-1.9 3.8 1.9 2.9 3.8 1.9z" id="Layer0_19_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M449 437.7v-27.5h-33.2v27.5H449z" id="Layer0_20_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M428 424.4l3.8.9 3.9-.9 1.8-1.9v-3.9l-5.7-2.8-3.8 1.9-.9.9-.9 2 1.8 3.8z" id="Layer0_21_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M686 340.9v28.4h28.5v-28.4H686z" id="Layer0_22_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st1" d="M704.1 340.9h-7.6v28.4h7.6v-28.4z" id="Layer0_23_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M713.6 437.7v-8.5H686v8.5h27.6z" id="Layer0_24_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M661.1 427.3v12.3h24.7v-12.3h-24.7m23.7.8v10.5H662v-10.5h22.8z" id="Layer0_25_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_25_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M661.1 428.2v10.5h1v-10.5h-1zm.9-.9h-1v.9l1-.9h23.8v12.3h-24.7v-1m.9-11.3v.9h22.8v-.9m0 .8v10.5H662"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M684.8 428.2v-.9L661 438.7v1l23.8-11.5z" id="Layer0_26_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_26_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M684.8 428.2L661 439.6v-1l23.8-11.4v1z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M449.1 438.4v-27.8h-33.6v27.8h33.6z" id="Layer0_27_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M450.1 439.4v-28.8h-34.6v28.8h34.6m-1-27.8v26.8h-32.6v-26.8h32.6z" id="Layer0_28_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_28_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M416.5 411.6h32.6v-1h-32.6v27.8h32.6v-26.8m0-1h1v28.8h-34.6v-28.8h1l-1 1h1m-1 26.8h1"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M428 418.3l-1 .9-.9 2 1.9 3.8 3.8 1 3.9-1 1.9-1.9v-3.9l-5.8-2.8-3.8 1.9z" id="Layer0_29_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M429 418v-6.7h-12.4v14.4L429 418z" id="Layer0_30_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M449.1 425v-14.4h-12.5v6.7l12.5 7.7z" id="Layer0_31_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M435.3 416l-.3-.1-.2-.2-.2-.1-.3-.1-.2-.1-.9-.1H432l-1.4.3-.6.3-.2.1-.2.1-.2.1-.9.8-.1.2-.2.2-.4.5-.5.8-.2.5-.1.3-.1.2-.2.9v1.2l.3 1.1.1.3.2.5.8 1.2.2.2.1.2.9.8 1.2.6 1.4.3h1.2l.9-.1.2-.1.3-.1 1.3-.6.7-.5.2-.2.9-1.1.1-.2.4-.8.2-.6.1-.6v-.2l.1-.4v-.6l-.1-.2v-.4l-.1-.6-.6-1.3-.4-.7-.6-.6-.9-.8-.3-.1-.2-.2z" id="Layer0_32_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M439.4 425.2l-.4-1-15.6 5.8v.1h-.1v.1h-.1v.6l.1.1h.1v.1h.1l12.4 3.5-11.8 3.4.4 1L438 435l.1-.1h.1v-.1l.1-.1v-.5h-.1l-.1-.1h-.1v-.2h-.2l-12.4-3.5 14-5.2z" id="Layer0_33_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M543.8 621.7v13.2h18v-13.2h-18m.9.9h16.1v11.5h-16.1v-11.5z" id="Layer0_34_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_34_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M560.8 621.7h-16.1v.9h16.1v-.9h1v13.2h-18v-13.3h.9l-.9.9h.9V634h16.1v-11.5m-17 11.6h.9"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M543.8 616.9v21.8h.9v-21.8h-.9z" id="Layer0_35_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_35_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M543.8 616.9h.9v21.8h-.9v-21.8z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M717.8 583.8v8.6h12.5v-8.6h-12.5z" id="Layer0_36_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_36_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M718.8 584.7h10.5v7.7h1v-8.6h-12.5v.9h1v6.8h10.5m-.1.9h-11.5v-7.7m1.1 7.7v-.9h-1l1 .9z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M704.3 595.4h-7.6l3.8 7.7 3.8-7.7z" id="Layer0_37_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_37_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M696.7 595.4l3.8 7.7 3.8-7.7h-7.6z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M922 272.8h-30.7v60.6H922v-60.6m-29.8 1.1H921v58.3h-28.8v-58.3z" id="Layer0_38_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M917 327.7l-20-20-1 1 20 20 1-1z" id="Layer0_39_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M897 328.7l20-20-.9-1-20 20 .9 1z" id="Layer0_40_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M154.6 388.9c-3.1.7-5.7 2.3-7.7 4.8s-3.1 5.4-3.1 8.7c0 3.3 1 6.2 3.1 8.8 2 2.5 4.6 4.1 7.7 4.8v-27.1z" id="Layer0_42_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M168.5 393.7c-2-2.5-4.6-4.1-7.7-4.8v27c3.1-.7 5.7-2.3 7.7-4.8 2.1-2.6 3.1-5.6 3.1-8.8 0-3.2-1-6.1-3.1-8.6z" id="Layer0_43_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M160.9 388v1.1h10.6l.1 26.1h-10.7v1.1l11.4-.1h.2v-.1h.2v-.1h.1l-.1-27.6v-.1h-.1v-.1l-.1-.1h-.1v-.1h-11.5m-18.1.4l-.1 27.5h.1v.1h.1v.1h.2l.1.1h11.4v-1H144v-26.1h10.6V388h-11.3l-.1.1h-.1v.1h-.1v.1l-.2.1z" id="Layer0_44_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M697 341c-3.1.7-5.6 2.3-7.7 4.9-2 2.5-3 5.4-3 8.7 0 3.3 1 6.2 3 8.7s4.6 4.1 7.7 4.8V341z" id="Layer0_45_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M711 345.9c-2-2.5-4.6-4.1-7.7-4.9v27.1c3.1-.7 5.7-2.3 7.7-4.8 2.1-2.6 3.1-5.5 3.1-8.7 0-3.3-1-6.2-3.1-8.7z" id="Layer0_46_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M703.5 340.3v1.1H714v26l-10.6.1v1.1l11.4-.1h.1v-.2h.1v-27.9h-.1v-.1h-11.4m-6.7 1.1v-1.1h-11.3v.1h-.1v27.9h.1v.1h11.4v-1.1h-10.7v-26l10.6.1z" id="Layer0_47_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M713.7 430.4c-.7-3.1-2.4-5.7-4.9-7.7s-5.4-3-8.8-3c-3.2 0-6.1 1-8.6 3s-4.1 4.5-4.9 7.7h27.2z" id="Layer0_48_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M691.4 444.4c2.6 2 5.5 3 8.6 3 3.2 0 6.2-1 8.8-3 2.5-2 4.1-4.5 4.9-7.6h-27.1c.7 3 2.3 5.6 4.8 7.6z" id="Layer0_49_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M696.8 420.3v-1.1h-11.4v.1h-.1v.2l-.1.1v27.5h.1l.1.1v.1h.1l11.4.1v-1.1h-10.6v-26.1l10.5.1m17.9-1v-.1l-11.3.1v1.1l10.6-.1v26.1l-10.7.1.1 1.1 11.3-.1v-.1h.2l.1-.1v-.1h.1l-.1-27.5v-.2l-.1-.1-.2-.1z" id="Layer0_50_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M318 385.9v33.5h27.9v-33.5H318z" id="Layer0_54_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_55_MEMBER_0_1_STROKES" class="st7" d="M318 384.9h28.8v34.5H318v-34.5z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M330.5 397.4h-3.8l-2.9 5.7 1.9 3.8 1 1 1.9 1 3.8-2 1-3.8-1-3.8-1.9-1.9z" id="Layer0_56_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M318.8 406v12.9h14.4l-7.7-12.9h-6.7z" id="Layer0_57_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M324.8 398.3l7.6-12.9H318v12.9h6.8z" id="Layer0_58_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M327.6 396.7l-.6.1-1.8.8-.4.4-.2.1-.2.2-.2.1-1 1.4-.3.9-.2 1.1v.3l-.1.3.1.3v.3l.2 1.1.8 1.5.5.6.4.4.9.7.2.1.2.1.8.4 1.2.2h1.2l1.1-.2.8-.4.2-.1.2-.1.7-.5.6-.6.9-1.1.4-1 .1-.2.1-.4v-.5l.1-.3v-.6l-.1-.3v-.6l-.1-.2-.1-.2-.4-1.1-.9-1.1-.2-.1-.2-.2-.2-.1-.2-.2-2.1-1-.6-.1h-1.6v-.2z" id="Layer0_59_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M332.6 395.7l-1 .4 5.8 15.4v.2h.1v.1l.1.1h.6l.1-.2v-.2l3.5-12.4 3.4 11.6 1.1-.3-4-13.6v.1h-.1v-.1l-.1-.1h-.7v.1h-.1v.1h-.1l-3.5 12.7-5.1-13.9z" id="Layer0_60_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M318.9 440.9v33.5h27.8v-33.5h-27.8z" id="Layer0_61_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_62_MEMBER_0_1_STROKES" class="st7" d="M318.9 439.9h28.8v34.5h-28.8v-34.5z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M333.2 454.4l-1.9-1.9h-3.9l-2.9 5.7 1.9 3.9 1 .9 1.9 1 3.9-1.9 1-3.9-1-3.8z" id="Layer0_63_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M319.6 461v12.9H334l-7.7-12.9h-6.7z" id="Layer0_64_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M318.9 440.5v12.9h6.7l7.6-12.9h-14.3z" id="Layer0_65_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M323.8 455.8l-.2 1.5v.6l.2 1.4.5 1.1.3.5.5.6.2.2.2.2.2.2.6.5.3.1.2.2 1.1.4.8.1h1.2l.9-.1 1.1-.4.2-.2.2-.1.7-.5.2-.2.4-.4.8-1.1.4-1.1.2-1.4v-.6l-.2-1.5-.4-1-.8-1.1-.2-.2-.4-.3-.2-.2-.2-.1-1-.5-.2-.1-.6-.2-.6-.1h-.2l-.3-.1h-.6l-.4.1h-.2l-.5-.1-.6.2-.2.1-1 .5-.2.1-.2.2-.5.3-.7.9-.3.5-.5 1.1z" id="Layer0_66_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M346.1 465.9l1.1-.3-4-13.5v-.2h-.1v-.1h-.1v-.1h-.5l-.1.1h-.1v.3l-3.5 12.6-5.2-14-1.1.4 5.8 15.4v.3h.1v.1h.9v-.1h.1v-.2l3.5-12.4 3.2 11.7z" id="Layer0_67_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M342.4 644.6v27.8H376v-27.8h-33.6z" id="Layer0_68_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_69_MEMBER_0_1_STROKES" class="st9" d="M342.4 643.7H377v28.8h-34.6v-28.8z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M362.6 658.1l-3.9-1-3.8 1-1.9 3.8.9 1.9 1 1 3.8 1.9 5.8-2.9v-3.9l-1.9-1.8z" id="Layer0_70_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M343 671.7h12.8v-6.8l-12.8-7.7v14.5z" id="Layer0_71_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M363.5 665.7v6.8h12.9v-14.4l-12.9 7.6z" id="Layer0_72_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M359.4 655.9h-.6l-1.1.2-1.1.4-1.1.8-.5.6-.1.2-.2.2-.7 1.2v.3l-.2.5-.1.6v1.6l.1.6.2.5v.3l.7 1.2.8.8 1.1.9 1.1.4h.3l.2.2h2.3l.4-.2h.2l1-.4 1.1-.9.6-.6.5-.7.1-.2.1-.2.4-.8.2-1.2V661l-.2-1.1-.4-.8-.1-.2-.1-.2-1.1-1.3-1.1-.8-1-.4-1.1-.2h-.3l-.3-.1z" id="Layer0_73_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st8" d="M365.2 648.3l-.2-.2h-.1l-13.5-4-.2 1 11.7 3.5-12.5 3.4v.1h-.4v.6l.1.1h.2l.1.1h.1l15.3 5.8.4-1-14-5.2 12.7-3.5h.1v-.1h.1v-.1h.1v-.5z" id="Layer0_74_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M220.6 474.8h-12.5v29.8h12.5v-29.8z" id="Layer0_75_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M892.7 671.4v12.5h29.7v-12.5h-29.7z" id="Layer0_76_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M923.3 683.9v-13.5h-30.6v13.5h30.6m-29.7-12.5h28.8v11.5h-28.8v-11.5z" id="Layer0_77_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_77_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M892.7 671.4h29.7v12.5h.9v-13.5h-30.6v12.5h.9v-11.5m0 12.5l-.9-1v1h.9v-1h28.8m-28.8 1h28.8"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M901.2 679.6h19.2v-4.8h-19.2v-1.9l-5.7 4.3 5.7 4.5v-2.1z" id="Layer0_78_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M384.5 362.7v12.5h29.8v-12.5h-29.8z" id="Layer0_79_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M383.5 361.7v13.5h30.7v-13.5h-30.7m1 12.4v-11.5h28.8v11.5h-28.8z" id="Layer0_80_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_80_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M384.5 362.7h29.8v-1h-30.7v13.5h.9v-12.5zm28.7 0v11.5h1v-11.5m-29.7 12.4h28.8v-1h-28.8m28.7 1h1v-1l-1 1z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M386.4 366v4.8h19.2v2l5.7-4.4-5.7-4.4v2h-19.2z" id="Layer0_81_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M383.1 315.1v12.5h29.8v-12.5h-29.8z" id="Layer0_82_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M382.1 314.1v13.5h30.8v-13.5h-30.8m1 12.5v-11.5h28.8v11.5h-28.8z" id="Layer0_83_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_83_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M383.1 315.1h29.8v-1h-30.8v13.5h1v-12.5zm28.8 0v11.5h1v-11.5m0 12.5v-1l-1 1h1zm-29.8 0h28.8v-1h-28.8"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M404.2 323.3v2l5.7-4.4-5.7-4.4v2h-19.1v4.8h19.1z" id="Layer0_84_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M592.4 264.9v28.8h29.7v-28.8h-29.7z" id="Layer0_107_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M598.5 268.4c-2.5 2-4.1 4.6-4.8 7.7h27c-.7-3.1-2.3-5.7-4.8-7.7s-5.4-3-8.7-3c-3.2 0-6.2 1-8.7 3z" id="Layer0_108_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M593.7 282.4c.8 3.1 2.4 5.7 4.8 7.7 2.6 2 5.5 3 8.8 3 3.2 0 6.1-1 8.7-3 2.4-2 4-4.6 4.8-7.7h-27.1z" id="Layer0_109_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M594.3 282.5h-1.1v11.6h.1v.1h.1v.1l27.5-.1h.1v-.1l.1-.1v-.1h.1l-.1-11.2h-1v10.5l-26.2.1.4-10.8m-1-17.8l-.1 11.4h1.1l.1-10.6h26.1v10.4h1.1v-11.2h-.1v-.3h-27.8v.1h-.1v.2h-.3z" id="Layer0_110_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_111_MEMBER_0_1_STROKES" class="st7" d="M597.7 269c2.8-2.6 6.1-3.8 9.9-3.6 3.8.1 7 1.6 9.6 4.5 2.6 2.8 3.8 6.1 3.6 10-.1 3.8-1.6 7.1-4.5 9.6-2.8 2.5-6.1 3.7-10 3.6-3.8-.1-7-1.6-9.6-4.5-2.5-2.8-3.7-6.2-3.6-10 .1-3.8 1.7-7 4.6-9.6z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M515.8 571h-15v.1h-.1l-.1.2h-.1v.2l-.1.1v25.3l.1.1.1.1.1.1.1.1h14.7l.1-.1.1-.1v-.1h.1l.1-.1.1-.1v-25.5l-.1-.1v-.1h.1-.1l-.1-.1z" id="Layer0_148_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_148_MEMBER_0_MEMBER_1_1_STROKES" class="st7" d="M515.5 570.9h-14.7v.1h-.1l-.1.2h-.1v.2l-.1.1v25.3l.1.1.1.1.1.1.1.1h14.7l.1-.1.1-.1v-.1h.1l.1-.1.1-.1v-25.5l-.1-.1v-.1h.1-.1v-.1h-.4z"/>
+    </g>
+    <path id="Layer0_155_1_STROKES" class="st7" d="M312.8 561.2H176.9v-92h135.9v92z"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st10" d="M318.9 714.7v9.5h19.9v-9.5h-19.9z" id="Layer0_155_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M318.9 714.7v10.4h20.9v-10.4h-20.9m1 9.4v-8.5h18.9v8.5h-18.9z" id="Layer0_155_MEMBER_1_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_155_MEMBER_1_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M318.9 715.6v8.5h1v-8.5h-1v-1h20.9V725h-20.9v-.9m0-8.5l1-1v1h18.9v-1m-18.9 9.5h18.9v-8.5"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st1" d="M318.9 700.4v9.5h19.9v-9.5h-19.9z" id="Layer0_155_MEMBER_2_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M318.9 700.4v10.5h20.9v-10.5h-20.9m1 9.5v-8.5h18.9v8.5h-18.9z" id="Layer0_155_MEMBER_3_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_155_MEMBER_3_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M318.9 701.4h1v-1l-1 1v-1h20.9v10.5h-20.9v-9.5zm0 8.5h1v-8.5h18.9v-1m0 1v8.5h-18.9"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M318.9 745v10.5h20.9V745h-20.9m1 9.4v-8.5h18.9v8.5h-18.9z" id="Layer0_155_MEMBER_4_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st11" d="M319.9 745.9v8.5h18.9v-8.5h-18.9z" id="Layer0_155_MEMBER_4_MEMBER_0_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_155_MEMBER_4_MEMBER_0_MEMBER_2_1_STROKES" class="st4" d="M318.9 745.9l1-1h-1v1h1v-1h19.9v10.5h-20.9v-9.5zm19.9-.9v9.5h-19.9m1-.1v-8.5h18.9"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M318.9 760.1v10.5h20.9v-10.5h-20.9m1 9.6v-8.5h18.9v8.5h-18.9z" id="Layer0_155_MEMBER_5_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st12" d="M319.9 761.1v8.5h18.9v-8.5h-18.9z" id="Layer0_155_MEMBER_5_MEMBER_0_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_155_MEMBER_5_MEMBER_0_MEMBER_2_1_STROKES" class="st4" d="M319.9 761.1h18.9v-1h-18.9v9.5h18.9v-8.5m0-1h1v10.5h-20.9v-10.5h1l-1 1h1m-1 8.6h1"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st13" d="M318.9 729.8v9.5h19.9v-9.5h-19.9z" id="Layer0_155_MEMBER_6_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M318.9 729.8v10.4h20.9v-10.4h-20.9m1 9.5v-8.6h18.9v8.6h-18.9z" id="Layer0_155_MEMBER_7_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_155_MEMBER_7_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M319.9 730.7h18.9v-.9h-18.9v9.5h18.9v-8.6m-19.9 0l1-.9h-1v.9h1m18.9-.9h1v10.4h-20.9v-9.5m0 8.6h1"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st14" d="M594.1 706.4v5.4h1.1v-5.4h-1.1z" id="Layer0_156_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st15" d="M562 706.4v5.4h32.1v-5.4H562z" id="Layer0_156_MEMBER_0_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_156_MEMBER_0_MEMBER_2_1_STROKES" class="st7" d="M562 706.4h32.1v5.4H562v-5.4z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st16" d="M562.2 711.9c-.5 0-.8 0-1 .1-3.7.5-5.5 2.8-5.5 6.9v36h44.2v-36c0-3.8-1.6-6.1-4.8-6.8-.5-.2-1.1-.2-1.8-.2h-31.1z" id="Layer0_156_MEMBER_1_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st17" d="M555.7 754.9v9.1c0 4.5 2.2 6.8 6.5 6.9h31.1c4.4-.1 6.6-2.4 6.6-6.9v-9.1h-44.2z" id="Layer0_156_MEMBER_1_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_156_MEMBER_1_MEMBER_2_1_STROKES" class="st7" d="M555.7 718.9V764c0 4.5 2.2 6.8 6.5 6.9h31.1c4.4-.1 6.6-2.4 6.6-6.9v-45.1c0-3.8-1.6-6.1-4.8-6.8-.5-.2-1.1-.2-1.8-.2h-31.1c-.5 0-.8 0-1 .1-3.7.4-5.5 2.7-5.5 6.9z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st14" d="M204.6 687.9v5.4h1v-5.4h-1z" id="Layer0_157_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st15" d="M172.5 687.9v5.4h32.1v-5.4h-32.1z" id="Layer0_157_MEMBER_0_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_157_MEMBER_0_MEMBER_2_1_STROKES" class="st7" d="M172.5 687.9h32.1v5.4h-32.1v-5.4z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st16" d="M172.8 693.3c-.5 0-.8 0-1.1.1-3.7.5-5.5 2.8-5.5 6.9v36h44.2v-36c0-3.8-1.6-6.1-4.8-6.8-.5-.2-1.1-.2-1.8-.2h-31z" id="Layer0_157_MEMBER_1_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st17" d="M210.4 745.4v-9.1h-44.2v9.1c0 4.5 2.2 6.8 6.6 7h31.1c4.3-.2 6.5-2.5 6.5-7z" id="Layer0_157_MEMBER_1_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_157_MEMBER_1_MEMBER_2_1_STROKES" class="st7" d="M171.7 693.4c-3.7.5-5.5 2.8-5.5 6.9v45.1c0 4.5 2.2 6.8 6.6 7h31.1c4.4-.1 6.5-2.5 6.5-7v-45.1c0-3.8-1.6-6.1-4.8-6.8-.5-.2-1.1-.2-1.8-.2h-31.1c-.4 0-.8 0-1 .1z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st11" d="M205.8 559.6v-6.9h-20.9v168.7h6.9V559.6h14z" id="Layer0_158_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_158_MEMBER_0_MEMBER_1_1_STROKES" class="st7" d="M184.9 721.4V552.7h20.9v6.9h-13.9v161.8"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st11" d="M581.6 680.7h-6.9v59.5h6.9v-59.5m0-39.1h-6.9v31.1h6.9v-31.1m-6.3-22.2l1.2-.5 1.3-.2h.2l.4-.1.3.1h.3l1.4.2 1.1.4.4.3v-7.4h-7.6v7.8l1-.6z" id="Layer0_159_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_159_MEMBER_0_MEMBER_1_1_STROKES" class="st7" d="M574.7 672.7v-31.1h6.9v31.1m0 8v59.5h-6.9v-59.5"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st12" d="M436.9 601.4v6.9h129.9v-6.9H436.9M161.3 297.3h-6.9v310.8h5.8v.1h269.1v-6.9H240.5v-34.4h-6.9v34.4h-72.3v-304z" id="Layer0_160_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st12" d="M355.2 608.1v34.8h6.9v-34.8h-6.9z" id="Layer0_161_MEMBER_0_FILL"/>
+    </g>
+    <path id="Layer0_162_1_STROKES" class="st7" d="M708 310.2h91.8v58.7H708v-58.7z"/>
+    <path id="Layer0_163_1_STROKES" class="st7" d="M685.1 279.7h-57.8V246h57.8v33.7z"/>
+    <path id="Layer0_164_1_STROKES" class="st7" d="M753.2 203h102.1v58.7H753.2V203z"/>
+    <path class="st13" d="M80.7 307.2h7.6v-25.5h-7.6v25.5M57 54.9v7.5h18.9v-7.5H57m421.3 8.4l-1.6-2.4-1.9-2-.7-.6-1.6-1-3.9-1.6-5-.8-365.8-1v7.6h17.1v158.4H80.7v38h7.6v-30.4h34.1V61.6l339.4.8v.1l3 .2 1.6.3 1.4.5 1.2.7 1.4 1.1 1 1.5.7 1.5.5 2 .4 3.6h.4v217.2h-53.1v7.6H481V72.9h-.5l-.1-2.7-.9-4.2-1.2-2.7m12.8-7.5h48.4v-7.5h-48.4v7.5m0 6.7v7.6h48.4v-7.6h-48.4z" id="Layer0_165_FILL"/>
+    <path class="st13" d="M527.8 58.8l23.7 23.6L575 58.8l-23.6-23.6-23.6 23.6z" id="Layer0_166_FILL"/>
+    <path id="Layer0_166_1_STROKES" class="st18" d="M527.8 58.8l23.6-23.6L575 58.8l-23.6 23.6-23.6-23.6z"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M203.4 273.4v12.5h29.8v-12.5h-29.8z" id="Layer0_169_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M202.4 272.4v13.5h30.7v-13.4h-30.7m29.7.9v11.5h-28.8v-11.5h28.8z" id="Layer0_169_MEMBER_1_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_169_MEMBER_1_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M202.4 285.9h.9v-12.5h29.8v-1h-30.7v13.5zm29.7-12.5v11.5h1v-11.5m-29.7 12.5h28.8v-1h-28.8m29.7 1v-1l-1 1h1z"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M205.4 281.5h19.1v2l5.7-4.4-5.7-4.4v2h-19.1v4.8z" id="Layer0_169_MEMBER_2_MEMBER_0_FILL"/>
+    </g>
+    <path class="st3" d="M552.6 367.6c0 4.9 1.7 9.1 5.2 12.5 3.5 3.5 7.6 5.2 12.5 5.2s9.1-1.7 12.5-5.2c3.5-3.4 5.2-7.6 5.2-12.5s-1.7-9.1-5.2-12.6c-3.4-3.4-7.6-5.1-12.5-5.1s-9.1 1.7-12.5 5.1c-3.5 3.5-5.2 7.7-5.2 12.6z" id="Layer0_170_FILL"/>
+    <path id="Layer0_170_1_STROKES" class="st18" d="M557.8 355c3.5-3.4 7.6-5.1 12.5-5.1s9.1 1.7 12.5 5.1c3.5 3.5 5.2 7.7 5.2 12.6s-1.7 9.1-5.2 12.5c-3.4 3.5-7.6 5.2-12.5 5.2s-9.1-1.7-12.5-5.2c-3.4-3.4-5.2-7.6-5.2-12.5s1.7-9.1 5.2-12.6z"/>
+    <path class="st3" d="M599.4 367.6c0 4.9 1.7 9.1 5.1 12.5 3.5 3.5 7.7 5.2 12.5 5.2 4.9 0 9.1-1.7 12.5-5.2 3.5-3.4 5.2-7.6 5.2-12.5s-1.7-9.1-5.2-12.6c-3.4-3.4-7.6-5.1-12.5-5.1s-9.1 1.7-12.5 5.1c-3.4 3.5-5.1 7.7-5.1 12.6z" id="Layer0_171_FILL"/>
+    <path id="Layer0_171_1_STROKES" class="st18" d="M604.5 355c3.5-3.4 7.7-5.1 12.5-5.1 4.9 0 9.1 1.7 12.5 5.1 3.5 3.5 5.2 7.7 5.2 12.6s-1.7 9.1-5.2 12.5c-3.4 3.5-7.6 5.2-12.5 5.2s-9.1-1.7-12.5-5.2c-3.4-3.4-5.1-7.6-5.1-12.5s1.7-9.1 5.1-12.6z"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M743.6 602.1h7.7l-3.8-7.6-3.9 7.6z" id="Layer0_172_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_172_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M751.2 602.1l-3.8-7.6-3.8 7.6h7.6z"/>
+    </g>
+    <g transform="rotate(180 658.525 483.175)">
+      <path d="M743.6 592.3h7.7l-3.8-7.6-3.9 7.6z" id="Layer0_173_MEMBER_0_MEMBER_0_FILL"/>
+    </g>
+    <path id="Layer0_173_MEMBER_0_MEMBER_1_1_STROKES" class="st4" d="M751.3 602.1l-3.9-7.6-3.8 7.6h7.7z"/>
+    <g transform="translate(-130.15 -220.55)">
+      <g id="Layer0_174_MEMBER_0_FILL">
+        <path d="M221.6 474.8h-13.5v30.6h13.5v-30.6m-12.5 1h11.5v28.8h-11.5v-28.8z"/>
+        <path class="st3" d="M220.6 475.8h-11.5v28.8h11.5v-28.8z"/>
+      </g>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M220.6 475.8h-11.5v28.8h11.5v-28.8z" id="Layer0_174_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_174_MEMBER_1_1_STROKES" class="st4" d="M209.1 474.8h12.5v30.6h-13.5v-30.7l1 .1v.9h11.5v-1m-11.5 1.1h-1l1-1m-1 29.7h1v-28.8m0 28.8h11.5v-28.8"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st5" d="M214.8 477.7l-4.4 5.7h1.9v19.2h4.9v-19.2h2l-4.4-5.7z" id="Layer0_175_MEMBER_0_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <g id="Layer0_176_MEMBER_0_FILL">
+        <path d="M147.9 257v40.3h40.2V257h-40.2m1 39.3V258h38.4v38.3h-38.4z"/>
+        <path class="st3" d="M148.9 258v38.3h38.4V258h-38.4z"/>
+      </g>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st3" d="M148.9 258v38.3h38.4V258h-38.4z" id="Layer0_176_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path id="Layer0_176_MEMBER_1_1_STROKES" class="st4" d="M148.9 257l-.9.9h.9v-.9h39.3v40.3H148v-40.2l.9-.1zm-1 39.3h39.3V258h-38.4v38.3m38.4-39.3v.9"/>
+    </g>
+    <path class="st3" d="M37.5 36.8c-5.3 0-9.9 1.9-13.6 5.6s-5.6 8.3-5.6 13.7 1.9 9.9 5.6 13.7c3.8 3.8 8.3 5.7 13.6 5.7s9.9-1.9 13.7-5.7 5.6-8.3 5.6-13.7-1.9-9.9-5.6-13.7c-3.8-3.7-8.4-5.6-13.7-5.6z" id="Layer0_177_FILL"/>
+    <path id="Layer0_177_1_STROKES" class="st7" d="M37.5 36.8c5.3 0 9.9 1.9 13.7 5.6 3.8 3.8 5.6 8.3 5.6 13.7s-1.9 9.9-5.6 13.7c-3.8 3.8-8.3 5.7-13.7 5.7s-9.9-1.9-13.6-5.7c-3.8-3.8-5.6-8.3-5.6-13.7s1.9-9.9 5.6-13.7 8.3-5.6 13.6-5.6z"/>
+    <g transform="translate(-72.7 49.4)">
+      <g id="Layer0_178_MEMBER_0_FILL">
+        <path d="M147.9 257v40.3h40.2V257h-40.2m1 39.3V258h38.4v38.3h-38.4z"/>
+        <path class="st3" d="M148.9 258v38.3h38.4V258h-38.4z"/>
+      </g>
+    </g>
+    <g transform="translate(-72.7 49.4)">
+      <path class="st3" d="M148.9 258v38.3h38.4V258h-38.4z" id="Layer0_178_MEMBER_1_FILL"/>
+    </g>
+    <g transform="translate(-72.7 49.4)">
+      <path id="Layer0_178_MEMBER_1_1_STROKES" class="st4" d="M148.9 257l-.9.9h.9v-.9h39.3v40.3H148v-40.2l.9-.1zm-1 39.3h39.3V258h-38.4v38.3m38.4-39.3v.9"/>
+    </g>
+    <path class="st3" d="M81.3 339.8c3.8 3.8 8.3 5.6 13.6 5.6 5.3 0 9.9-1.9 13.7-5.6 3.8-3.8 5.7-8.3 5.7-13.6s-1.9-9.9-5.7-13.7c-3.8-3.8-8.3-5.6-13.7-5.6-5.3 0-9.9 1.9-13.6 5.6-3.8 3.8-5.7 8.3-5.7 13.7s1.9 9.8 5.7 13.6z" id="Layer0_179_FILL"/>
+    <path id="Layer0_179_1_STROKES" class="st7" d="M94.9 345.4c-5.3 0-9.9-1.9-13.6-5.6-3.8-3.8-5.7-8.3-5.7-13.6s1.9-9.9 5.7-13.7c3.8-3.8 8.3-5.6 13.6-5.6 5.3 0 9.9 1.9 13.7 5.6 3.8 3.8 5.7 8.3 5.7 13.7s-1.9 9.9-5.7 13.6-8.3 5.6-13.7 5.6z"/>
+    <g transform="translate(33.95 171.55) scale(.54832)">
+      <g id="Layer0_180_MEMBER_0_MEMBER_0_FILL">
+        <path d="M147.9 261.1v40.3h40.2v-40.3h-40.2m.9 39.3V262h38.4v38.3h-38.4v.1z"/>
+        <path class="st3" d="M148.8 262v38.3h38.4V262h-38.4z"/>
+      </g>
+    </g>
+    <path class="st3" d="M133.3 318c-2.1-2.1-4.6-3.1-7.5-3.1-2.9 0-5.4 1-7.5 3.1s-3.1 4.6-3.1 7.5 1 5.4 3.1 7.4c2.1 2.1 4.6 3.1 7.5 3.1 2.9 0 5.4-1 7.5-3.1s3.1-4.5 3.1-7.4c0-2.9-1-5.4-3.1-7.5z" id="Layer0_180_MEMBER_1_FILL"/>
+    <path id="Layer0_180_MEMBER_1_1_STROKES" class="st7" d="M125.8 336c-2.9 0-5.4-1-7.5-3.1s-3.1-4.5-3.1-7.4 1-5.4 3.1-7.5 4.6-3.1 7.5-3.1c2.9 0 5.4 1 7.5 3.1s3.1 4.6 3.1 7.5-1 5.4-3.1 7.4c-2.1 2.1-4.5 3.1-7.5 3.1z"/>
+    <g id="text">
+      <text transform="translate(256.56 26.936)" class="st19 st20">
+        FILTER MANIFOLD
+      </text>
+      <text transform="translate(448.28 20.616)" class="st19 st20">
+        THERMAL
+      </text>
+      <text transform="translate(431.88 35.016)" class="st19 st20">
+        BYPASS VALVE
+      </text>
+      <text transform="translate(563.475 26.797)" class="st19 st20">
+        FUEL/OIL
+      </text>
+      <text transform="translate(563.475 41.197)" class="st19 st20">
+        EXCHANGER
+      </text>
+      <text transform="translate(743.393 32.293)" class="st19 st20">
+        ISOLATION
+      </text>
+      <text transform="translate(756.093 46.693)" class="st19 st20">
+        VALVE
+      </text>
+      <text transform="translate(588.926 131.188)" class="st19 st20">
+        PRIORITY
+      </text>
+      <text transform="translate(588.926 145.588)" class="st19 st20">
+        VALVE
+      </text>
+      <text transform="translate(588.94 209.856)" class="st19 st20">
+        SELECTOR
+      </text>
+      <text transform="translate(588.94 224.256)" class="st19 st20">
+        VALVE
+      </text>
+      <text transform="translate(433.45 318.322)" class="st19 st20">
+        TEMP.
+      </text>
+      <text transform="translate(433.45 332.722)" class="st19 st20">
+        SW.
+      </text>
+      <text transform="translate(469.525 409.298)" class="st19 st21">
+        RESERVOIR
+      </text>
+      <text transform="translate(579.175 342.447)" class="st19 st22">
+        PTU
+      </text>
+      <text transform="translate(342.295 360.247)" class="st19 st20">
+        QTY
+      </text>
+      <text transform="translate(351.595 374.647)" class="st19 st20">
+        TX
+      </text>
+      <text transform="translate(322.05 189.647)" class="st19 st20">
+        PRESSURE
+      </text>
+      <text transform="translate(322.05 204.047)" class="st19 st20">
+        RELIEF
+      </text>
+      <text transform="translate(322.05 218.447)" class="st19 st20">
+        VALVE
+      </text>
+      <text transform="translate(403.985 143.364)" class="st19 st20">
+        PRESS.
+      </text>
+      <text transform="translate(403.985 157.764)" class="st19 st20">
+        TX
+      </text>
+      <text transform="translate(135.73 119.05)" class="st19 st20">
+        PRESS.
+      </text>
+      <text transform="translate(135.73 133.45)" class="st19 st20">
+        TX
+      </text>
+      <text transform="translate(148.807 235.806)" class="st19 st20">
+        FILL
+      </text>
+      <text transform="translate(148.807 250.206)" class="st19 st20">
+        CONN.
+      </text>
+      <text transform="translate(150.85 181.672)" class="st19 st20">
+        GND
+      </text>
+      <text transform="translate(150.85 196.072)" class="st19 st20">
+        CONN.
+      </text>
+      <text transform="translate(47.773 172.187)" class="st19 st20">
+        FIREWALL
+      </text>
+      <text transform="translate(47.773 186.587)" class="st19 st20">
+        SHUTOFF
+      </text>
+      <text transform="translate(47.773 200.987)" class="st19 st20">
+        VALVE
+      </text>
+      <text transform="translate(20.94 62.547)" class="st19 st23">
+        EDP
+      </text>
+      <text transform="translate(78.95 331.148)" class="st19 st22">
+        SPU
+      </text>
+      <text transform="translate(119.123 332.069)" class="st19 st23">
+        M
+      </text>
+      <text transform="translate(152.668 428.202)" class="st19 st20">
+        GROUND
+      </text>
+      <text transform="translate(155.968 442.602)" class="st19 st20">
+        RETURN
+      </text>
+      <text transform="translate(167.368 457.002)" class="st19 st20">
+        CONN.
+      </text>
+      <text transform="translate(84.256 495.78)" class="st19 st20">
+        ECOLOGY
+      </text>
+      <text transform="translate(84.256 510.18)" class="st19 st20">
+        BOTTLE
+      </text>
+      <text transform="translate(475.589 516.271)" class="st19 st20">
+        ECOLOGY
+      </text>
+      <text transform="translate(475.589 530.671)" class="st19 st20">
+        BOTTLE
+      </text>
+      <text transform="translate(134.279 75.489)" class="st19 st24">
+        PRESS.
+      </text>
+      <text transform="translate(134.279 90.989)" class="st19 st24">
+        SW.
+      </text>
+      <text transform="translate(374.715 398.147)" class="st19 st25">
+        RELIEF/
+      </text>
+      <text transform="translate(376.715 407.147)" class="st19 st25">
+        BLEED
+      </text>
+      <text transform="translate(372.215 416.147)" class="st19 st25">
+        SAMPLE
+      </text>
+      <text transform="translate(379.715 425.147)" class="st19 st25">
+        VALVE
+      </text>
+      <text transform="translate(760.993 221.597)" class="st19 st21">
+        BRAKES AND
+      </text>
+      <text transform="translate(773.993 235.597)" class="st19 st21">
+        INBD FLT
+      </text>
+      <text transform="translate(772.193 249.597)" class="st19 st21">
+        SPOILERS
+      </text>
+      <text transform="translate(635.633 267.547)" class="st19 st21">
+        FLAPS
+      </text>
+      <text transform="translate(725.419 330.387)" class="st19 st21">
+        RUDDER
+      </text>
+      <text transform="translate(739.519 344.387)" class="st19 st21">
+        AND
+      </text>
+      <text transform="translate(718.519 358.387)" class="st19 st21">
+        ELEVATOR
+      </text>
+      <text transform="translate(212.6 489.397)" class="st19 st21">
+        PRESSURE
+      </text>
+      <text transform="translate(212.6 504.397)" class="st19 st21">
+        RETURN
+      </text>
+      <text transform="translate(212.6 519.397)" class="st19 st21">
+        CASE DRAIN
+      </text>
+      <text transform="translate(212.6 534.397)" class="st19 st21">
+        DRAIN
+      </text>
+      <text transform="translate(212.6 549.397)" class="st19 st21">
+        SUCTION LINE
+      </text>
+    </g>
+    <circle class="st7" cx="776.4" cy="97.6" r="14.4"/>
+    <path class="st26" d="M351.4 232.4h4.7c3.4 0 6.1 2.8 6.1 6.1V261c0 3.4-2.8 6.1-6.1 6.1h-9c-3.4 0-6.1-2.8-6.1-6.1v-22.4c0-3.4 2.8-6.1 6.1-6.1h4.3"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st27" d="M496.6 464v-14.4h-30.7V464h30.7z" id="Layer0_51_MEMBER_0_FILL_1_"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M497.6 464.9v-15.3h-31.7v15.3h31.7m-1-14.4V464h-29.7v-13.5h29.7z" id="Layer0_52_MEMBER_0_MEMBER_0_FILL_1_"/>
+    </g>
+    <path class="st26" d="M335.6 94.9h4.7c3.4 0 6.1 2.8 6.1 6.1v22.4c0 3.4-2.8 6.1-6.1 6.1h-9c-3.4 0-6.1-2.8-6.1-6.1V101c0-3.4 2.8-6.1 6.1-6.1h4.3"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st27" d="M480.7 326.5v-14.4H450v14.4h30.7z" id="Layer0_51_MEMBER_0_FILL_2_"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M481.7 327.4v-15.3H450v15.3h31.7m-1-14.4v13.5H451V313h29.7z" id="Layer0_52_MEMBER_0_MEMBER_0_FILL_2_"/>
+    </g>
+    <path class="st26" d="M279.6 54.5h4.7c3.4 0 6.1 2.8 6.1 6.1V83c0 3.4-2.8 6.1-6.1 6.1h-9c-3.4 0-6.1-2.8-6.1-6.1V60.6c0-3.4 2.8-6.1 6.1-6.1h4.3"/>
+    <g transform="translate(-130.15 -220.55)">
+      <path class="st27" d="M424.8 286.1v-14.4h-30.7v14.4h30.7z" id="Layer0_51_MEMBER_0_FILL_3_"/>
+    </g>
+    <g transform="translate(-130.15 -220.55)">
+      <path d="M425.8 287v-15.3h-31.7V287h31.7m-1-14.4v13.5h-29.7v-13.5h29.7z" id="Layer0_52_MEMBER_0_MEMBER_0_FILL_3_"/>
+    </g>
+    <path id="Layer0_268_1_STROKES_4_" class="st28" d="M796.5 70.2l-.3.3v10.7l.1.1v.1l.1.1h.1v.1h21v-.1h.1v-.1l.2-.2v-.1h.1V70.7l-.1-.1v-.2h-.1v-.1l-.1-.1h-21.1z"/>
+    <path id="Layer0_269_1_STROKES_4_" class="st28" d="M825.6 72.2l-.1-.2h-.1l-.1-.1h-.1l-.1-.1h-5.9v.1l-.1.1-.1.1h-.1v7.2l.1.1v.1l.1.1h.1v.1h5.9v-.1h.2v-.1l.2-.1v-.1l.1-.1v-.3h.1v-6.4l-.1-.1v-.2z"/>
+    <path id="Layer0_270_1_STROKES_4_" class="st28" d="M792.5 71.8l-.2.2h-.1v.1l-.1.1v.1h-.1v6.9h.1v.1l.1.1v.1l.2.2h.1v.1h3.3v-.1h.1l.3-.3v-.1h.1v-6.9h-.1v-.3h-.1l-.1-.1-.1-.1h-.1l-3.3-.1z"/>
+    <text transform="translate(800.686 79.447)" class="st29 st30">
+      P
+    </text>
+    <path id="Layer0_268_1_STROKES_5_" class="st28" d="M757 70.2l-.3-.1h-20.8l-.1.1v.1h-.1v.2l-.1.1v10.6h.1v.1l.2.2v.1h.1v.1h21v-.1h.1l.1-.1v-.1l.1-.1V70.6l-.2-.2-.1-.2z"/>
+    <path id="Layer0_269_1_STROKES_5_" class="st28" d="M728 72.3v.3l-.1.1v6.4h.1v.3l.1.1v.1l.2.1v.1h.2v.2h5.9v-.1h.1l.1-.1v-.1l.1-.1v-7.2h-.1l-.1-.1-.1-.1v-.1h-5.9l-.1.1h-.1l-.1.1h-.2z"/>
+    <path id="Layer0_270_1_STROKES_5_" class="st28" d="M761 71.8h-3.3l-.1.1-.1.1h-.1v.3h-.1v6.9h.1v.1l.3.3h.1v.1h3.3v-.1h.1l.2-.2v-.1l.1-.1v-.1h.1v-6.9h-.1v-.1l-.1-.1v-.1h-.1l-.1-.1h-.2z"/>
+    <text transform="translate(747.836 79.447)" class="st29 st30">
+      P
+    </text>
+    <text transform="translate(831.479 72.056)" class="st19 st30">
+      PX
+    </text>
+    <text transform="translate(831.479 86.056)" class="st19 st30">
+      SW
+    </text>
+    <text transform="translate(702.436 72.056)" class="st19 st30">
+      PX
+    </text>
+    <text transform="translate(702.436 86.056)" class="st19 st30">
+      SW
+    </text>
+    <path id="Layer0_268_1_STROKES_1_" class="st28" d="M212.3 116.5l-.1-.1h-21l-.1.1v.1h-.1v.2l-.1.1v10.5h.1v.1l.2.2v.1h.1v.1h21v-.1h.1l.1-.1v-.1l.1-.1v-10.7l-.2-.2-.1-.1z"/>
+    <path id="Layer0_269_1_STROKES_1_" class="st28" d="M183.2 118.6v.3l-.1.1v6.4h.1v.3l.1.1v.1l.2.1v.1h.2v.1h5.9v-.1h.1l.1-.1v-.1l.1-.1v-7.2h-.1l-.1-.1-.1-.1v-.1h-5.9l-.1.1h-.1l-.1.1h-.1v.1h-.1z"/>
+    <path id="Layer0_270_1_STROKES_1_" class="st28" d="M216.3 118.2H213l-.1.1-.1.1h-.1v.3h-.1v6.9h.1v.1l.3.3h.1v.1h3.3v-.1h.1l.2-.2v-.1l.1-.1v-.1h.1v-6.9h-.1v-.1l-.1-.1v-.1h-.1l-.1-.1h-.2z"/>
+    <text transform="translate(203.1 125.788)" class="st29 st30">
+      P
+    </text>
+    <path id="Layer0_268_1_STROKES_3_" class="st28" d="M211.8 73.7l-.1-.1h-21l-.1.1v.1h-.1v.2l-.1.1v10.5h.1v.1l.2.2v.1h.1v.1h21V85h.1l.1-.1v-.1l.1-.1V74l-.2-.2-.1-.1z"/>
+    <path id="Layer0_269_1_STROKES_3_" class="st28" d="M182.8 75.8v.3l-.1.1v6.4h.1v.4l.1.1v.1l.2.1v.1h.2v.1h5.9v-.1h.1l.1-.1v-.1l.1-.1v-7.2h-.1l-.1-.1-.1-.1v-.1h-5.9l-.1.1h-.1l-.1.1h-.1v.1l-.1-.1z"/>
+    <path id="Layer0_270_1_STROKES_3_" class="st28" d="M215.8 75.4h-3.3l-.1.1-.1.1h-.1v.3h-.1v6.9h.1v.1l.3.3h.1v.1h3.3v-.1h.1l.2-.2v-.1l.1-.1v.2h.1v-7h-.1v-.1l-.1-.1v-.1h-.1l-.1-.1-.2-.2z"/>
+    <text transform="translate(202.675 82.997)" class="st29 st30">
+      P
+    </text>
+    <path id="Layer0_268_1_STROKES_2_" class="st28" d="M406.2 116.6l-.1.1-.2.2v10.7l.1.1v.1l.1.1h.1v.1h21v-.1h.1v.1l.2-.2v-.1h.1V117l-.1-.1v-.2h-.1v-.1l-.1-.1h-20.8l-.3.1z"/>
+    <path id="Layer0_269_1_STROKES_2_" class="st28" d="M435.3 118.6l-.1-.1v-.1h-.1l-.1-.1h-.1l-.1-.1h-5.9v.1l-.1.1-.1.1h-.1v7.2l.1.1v.1l.1.1h.1v.1h5.9v-.1h.2v-.1l.2-.1v.2l.1-.1v-.3h.1v-6.4l-.1-.1v-.5z"/>
+    <path id="Layer0_270_1_STROKES_2_" class="st28" d="M402.2 118.2l-.1.1-.1.1h-.1v.1l-.1.1v.1h-.1v6.9h.1v.1l.1.1v.1l.2.2h.1v.1h3.3v-.1h.1l.3-.3v-.1h.1v-6.8h-.1v-.3h-.1l-.1-.1-.1-.1h-.1l-3.3-.2z"/>
+    <text transform="translate(410.425 125.813)" class="st29 st30">
+      P
+    </text>
+    <path class="st28" d="M496.4 313.7v15.1c0 .7-.6 1.3-1.3 1.3h-6.8c-.7 0-1.3-.6-1.3-1.3v-15.1c0-.7.6-1.3 1.3-1.3h6.8c.7 0 1.3.6 1.3 1.3zm-1.4-6.4v3.8c0 .5-.4.9-.9.9h-4.7c-.5 0-.9-.4-.9-.9v-3.8c0-.5.4-.9.9-.9h4.7c.4-.1.9.3.9.9z"/>
+    <path class="st28" d="M493.9 330.7v2.4c0 .3-.3.6-.6.6H490c-.3 0-.6-.3-.6-.6v-2.4c0-.3.3-.6.6-.6h3.4c.3 0 .5.3.5.6z"/>
+    <text transform="translate(488.783 325.27)" class="st29 st20">
+      T
+    </text>
+    <path class="st28" d="M480.4 313.7v15.1c0 .7-.6 1.3-1.3 1.3h-6.8c-.7 0-1.3-.6-1.3-1.3v-15.1c0-.7.6-1.3 1.3-1.3h6.8c.7 0 1.3.6 1.3 1.3zm-1.4-6.4v3.8c0 .5-.4.9-.9.9h-4.7c-.5 0-.9-.4-.9-.9v-3.8c0-.5.4-.9.9-.9h4.7c.5-.1.9.3.9.9z"/>
+    <path class="st28" d="M478 330.7v2.4c0 .3-.3.6-.6.6H474c-.3 0-.6-.3-.6-.6v-2.4c0-.3.3-.6.6-.6h3.4c.3 0 .6.3.6.6z"/>
+    <text transform="translate(472.966 325.27)" class="st29 st20">
+      T
+    </text>
+  </g>
+</svg>

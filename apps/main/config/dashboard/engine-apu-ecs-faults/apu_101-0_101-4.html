@@ -1,0 +1,67 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>SPEED 1 AND 2 FAULT ( Status ) - (APU Fault Code 101-0 to 101-4)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 49-70-00-810-812</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+    <p>The CDS shows a SPEED 1 AND 2 FAULT message when the auxiliary power unit (APU) full authority digital electronic controller (FADEC) senses an internal fault or open in the speed 1 and speed 2 sensor circuits.</p><!-- !!!! -->
+
+    <p>The CDS can also show the messages that follow:</p><!-- !!!! -->
+
+    <p>91−5 FADEC FAULT/92−5 FADEC FAULT/93−5 FADEC FAULT/94−5 FADEC FAULT
+        /95−5 FADEC FAULT/96−5 FADEC FAULT/97−5 FADEC FAULT/98−5 FADEC FAULT/99−5 FADEC FAULT/100−5 FADEC FAULT</p><!-- !!!! -->
+
+    <p>The caution and warning panel (CAWP) APU and APU CONTROL panel FAIL caution lights can come on.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Speed Sensor </li><!-- UNIT -->
+
+    </ul>
+    <br>
+    <br>
+
+    <clp-grid>
+
+        <clp-grid-column>
+            <clp-card title="UNIT">
+                <clp-file path="./units/apu/units/apu_speed_sensor.html"></clp-file><!-- UNIT -->
+            </clp-card>
+        </clp-grid-column>
+
+
+        <clp-grid-column>
+            <!-- UNIT -->
+        </clp-grid-column>
+
+
+        <clp-grid-column>
+            <!-- UNIT -->
+        </clp-grid-column>
+    </clp-grid>
+
+    <br>
+</clp-card>

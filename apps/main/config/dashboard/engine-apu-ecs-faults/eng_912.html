@@ -1,0 +1,71 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> P2.2 Bleed Valve Position - (Engine Fault Code 912 and 918)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-830</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault codes are 912 and 918. These faults can only be detected by the FADEC when the engine is running.</p><!-- !!!! -->
+
+    <p>Fault code 912 indicates that the valve piston does not move to the correct position. This can be caused by a problem with the control air supply (P3) or a mechanical malfunction in the valve.</p><!-- !!!! -->
+
+    <p>Fault code 918 is a flag that indicates that the P2.7 BOV was opened by the FADEC because there was not sufficient bleed air from the P2.2 BOV.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>P2.2 Bleed Valve Screen Cartridge </li>
+        <li>P2.2 Bleed Valve </li>
+        <li>P3 Air Supply Tubes </li>
+        <li>P3 Air Separator </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/p22_intbleed_vlv.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

@@ -1,0 +1,209 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>PUSHER SYST FAIL</clp-text-orange>
+			</h2>
+			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+			<br>
+			<div>
+				<clp-link-pdf>FIM TASK 27-33-00-810-829</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>On aircraft with the V710 software configuration, the PUSHER SYST FAIL caution light can come on after 30 seconds after landing. Verify the following:</div>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> It has been observed that under certain terrain approach profiles the radio altimeter resonableness check monitoring is being tripped around 200 ft because of a discrepancy detected between the RA 200 ft discrete and the digital ARINC radio altitude value.</clp-text-blue>
+			</div>
+
+			<ul>
+				<li>Reset avionics circuit breakers F2 (SPM 1) and F5 (SPM 2) and check if the PUSHER SYST FAIL light goes off. If the light is off no maintenance action is necessary. Do the Close Out.</li>
+				<li>If the light does not go off, do the fault confirmation. Refer to Service Letter DH8-400-SL-31-001 R21 for additional information.</li>
+			</ul>
+
+
+			<br>
+			<div>The PUSHER SYST FAIL caution light on the CAWP comes on for the malfunction conditions that follow:</div>
+			<ul>
+				<li>The condition that caused the #1 STALL SYST FAIL or #2 STALL SYST FAIL caution light to come on</li>
+				<li>The stick pusher actuator is defective</li>
+				<li>Stall Protection Module 1 (SPM1) and SPM2 stick pusher calculations are different</li>
+				<li>No stick shaker calculation before the stick pusher calculation</li>
+				<li>The operational test (STALL WARN TEST 1) sensed a Weight−On−Wheels (WOW) or a Radio Altimeter (RA) inhibit discrepancy</li>
+				<li>Attitude and Heading Reference System 1 (AHRS1) and AHRS2 bank angle, pitch angle, body linear accelerations (z), body angular rates, or vertical speed input is defective</li>
+				<li>There is a difference between the Angle of Attack 1 (AOA 1) vane and AOA 2 vane</li>
+				<li>SPM1 is defective</li>
+				<li>SPM2 is defective</li>
+			</ul>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> The PUSHER SYST FAIL indication will come on for conditions that are not malfunctions as follows:</clp-text-blue>
+			</div>
+			<ul>
+				<li>A push condition is sensed while the aircraft is on the ground</li>
+				<li>One STICK PUSHER SHUT OFF annunciator switch or the other set to the OFF position</li>
+			</ul>
+			<br>
+			<br>
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Functional test of the stall warning/stick pusher</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-33-00-720-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<clp-text-blue><strong>AVIONICS CB Panel</strong></clp-text-blue>
+					</clp-td>
+					<clp-td>
+						<clp-text-blue><strong>115V AC CB Panel</strong></clp-text-blue>
+					</clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td>
+						<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+					</clp-td>
+					<clp-td>
+						<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+					</clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td>
+						<div><strong>K1</strong> STICK PUSHER</div>
+						<div><strong>K6</strong> STICK PUSHER</div>
+						<div><strong>F2</strong> SPM1</div>
+						<div><strong>F5</strong> SPM2</div>
+
+					</clp-td>
+					<clp-td>
+						<div><strong>L AOA VANE HT</strong> </div>
+						<div><strong>R AOA VANE HT</strong> </div>
+
+					</clp-td>
+				</clp-tr>
+
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<clp-info-red>
+				<div><strong>
+						<clp-text-red>FOR REFERENCE USE ONLY!</clp-text-red>
+					</strong></div>
+
+				<br>
+
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+			<br>
+
+			<clp-table border="" hover="" nowrap="1">
+
+
+
+				<clp-tr>
+					<clp-td><strong>CHECK/IN </strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>
+						<clp-text-red>L and R AOA vane HT</clp-text-red> "CB`s" (115V AC)
+					</clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td><strong>STICK PUSHER CB´s</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td> "reset" simultaneously <clp-text-red>(K1 and K6 - AVIONICs)</clp-text-red>
+					</clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td>
+						<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+					</clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>
+						<div>
+							<clp-text-blue>Wait 30 sec. for completion of self test if caution light remain on</clp-text-blue>
+						</div>
+					</clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td><strong>SPM 1 CB (F2-Avionics)</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td> "reset" </clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td><strong>SPM 2 CB (F5-Avionics)</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td> "reset" </clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> Wait 30 sec. for completion of self test.</clp-text-blue>
+			</div>
+			<br>
+			<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+			<br>
+			<ul>
+				<li>If the light does not go off, do the fault confirmation. Refer to Service Letter DH8-400-SL-31-001 R21 for additional information.</li>
+			</ul>
+			
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/fc/units/stick_pusher.html"></clp-file>
+				
+			</clp-card>
+			<br>
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

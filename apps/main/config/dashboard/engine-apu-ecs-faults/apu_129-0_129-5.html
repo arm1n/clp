@@ -1,0 +1,66 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong> EGT T/C 2 OPEN ( Status ) - (APU Fault Code 129-0 to 129-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-70-00-810-810</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>This task is for the centralized diagnostic system (CDS) fault message 129–1/2/3/4/5 EGT T/C 2 OPEN. This fault is set when the full authority digital electronic controller (FADEC) senses an open in the thermocouple 2 circuit. <strong>This fault will not stop auxiliary power unit (APU) operation.</strong></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Thermocouple </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/apu/units/apu_thermo_couple.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

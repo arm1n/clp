@@ -1,0 +1,80 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> ECIU Oil Cooler Flap Output - (Engine Fault Code 945 and/or 946)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-887</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    
+
+    <p>This fault is triggered when the feed back signal from the oil cooler flap door position is not in agreement with the command signal from the FADEC.</p><!-- !!!! -->
+
+    <p>The fault is latched when disagreement is detected for more than 5.5 seconds.</p><!-- !!!! -->
+
+    <p>NOTE: In Maintenance Mode, the fault is latched when disagreement is detected for more than 15 seconds.</p><!-- !!!! -->
+    
+    <p>The FADEC request a flap position to the engine cockpit interface unit (ECIU) using the ARINC 429 link.</p><!-- !!!! -->
+    
+    
+    <p>Then the ECIU sends a command signal to the flap actuator to move the flap door to the requested position from the FADEC.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Air Cooled Oil Cooler Flap Door Actuator </li>
+        <li>Air Cooled Oil Cooler Flap Door </li>
+        <li>Engine Cockpit Interface Unit (ECIU) </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/oilc_door_act.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/cockpit/units/eciu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

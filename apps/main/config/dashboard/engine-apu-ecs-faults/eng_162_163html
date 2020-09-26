@@ -1,0 +1,61 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>NP inconsistent with NQa and NQb speeds - (Engine Fault Code 162/163)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-04-810-814</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+    <br />
+
+    <p>This fault code is generated as a result of a difference between the propeller NP MPU speed signal and the torque shaft Qa and Qb torque probe speed signals. This fault code forces the propeller to operate at the overspeed governor setting and the AFM requires the pilot to shut down the powerplant under normal circumstances (Pre Modsum 4W113558). The fault code causes a loss of synchrophasing and results in NQa being used for speed control (Post Modsum 4W113558).</p><!-- !!!! -->
+    <br>
+    <p>The fault accommodation logic has determined that there is a difference of more than 25 rpm between the propeller MPU NP and each of the gearbox mounted torque probe Qa and Qb speeds.</p><!-- !!!! -->
+    <br>
+    <p>This fault code will be annunciated as a PEC caution on the ACWS (Pre Modsum 4W113558 only). This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+    <br>
+    <p></p><!-- !!!! -->
+    <br>
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+    <br />
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Slip ring assembly target screws </li><!-- !!!! -->
+        <li>Contact between the busbar and the MPU bracket </li>
+        <li>MPU installation </li>
+        <li>MPU adjustment </li>
+        <li>PEC wiring harness </li>
+        <li>MPU </li>
+        <li>PEC </li>
+        <li>Torque shaft </li>
+        <li>Torque probes Qa and Qb </li>
+    </ul>
+    <br>
+    <br>
+
+
+    <clp-card title="UNIT">
+        <clp-file path="./units/eng/units/pec.html"></clp-file><!-- !!!! -->
+    </clp-card>
+    <br>
+
+    <br>
+</clp-card>

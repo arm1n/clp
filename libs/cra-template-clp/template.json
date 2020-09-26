@@ -1,0 +1,17 @@
+{
+  "package": {
+    "version": "1.0.0",
+    "main": "lib/app.js",
+    "dependencies": {
+      "http-proxy-middleware": "^1.0.0",
+      "node-sass": "^4.13.1",
+      "react-app-polyfill": "^1.0.0",
+      "react-router-dom": "^5.1.2"
+    },
+    "scripts": {
+      "transpile": "clp-transpile --root-mode upward"
+    },
+    "proxy": "http://localhost:3500",
+    "homepage": "."
+  }
+}

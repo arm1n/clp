@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 349.1 161" style="enable-background:new 0 0 349.1 161;" xml:space="preserve">
+<g id="clp-prop-gnd-range-ind">
+	<rect x="19.6" y="25" style="fill:#666666;" width="140.1" height="112.2"/>
+	<path style="fill:#666666;" d="M115.4,79.3c0-4.2-2.3-6.5-6.5-6.5H69.3c-4.2,0-6.5,2.3-6.5,6.5v40c0,4.2,2.3,6.1,6.5,6.1h39.6
+		c4.2,0,6.5-2.3,6.5-6.1V79.3z"/>
+	
+		<path id="Layer1_0_MEMBER_0_MEMBER_0_MEMBER_9_MEMBER_0_MEMBER_0_1_STROKES" style="fill:none;stroke:#333333;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;" d="
+		M62.8,79.3v40c0,4.2,2.3,6.1,6.5,6.1h39.6c4.2,0,6.5-2.3,6.5-6.1V79.8c0-4.2-2.3-6.5-6.5-6.5H69.3C65.1,73.3,62.8,75.2,62.8,79.3z"
+		/>
+	<path style="fill:#CCCCCC;" d="M105.6,77.9H73c-3.3,0-5.1,1.9-5.1,5.6v32.6c0,3.3,1.9,5.1,5.1,5.1h32.6c3.3,0,5.1-1.9,5.1-5.1V83.5
+		C110.7,79.8,109.3,77.9,105.6,77.9z"/>
+	
+		<path id="Layer1_0_MEMBER_0_MEMBER_0_MEMBER_9_MEMBER_0_MEMBER_1_1_STROKES" style="fill:none;stroke:#333333;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;" d="
+		M73.5,77.9c-3.3,0-5.1,1.9-5.1,5.6v32.6c0,3.3,1.9,5.1,5.1,5.1h32.6c3.3,0,5.1-1.9,5.1-5.1V83.5c0-3.7-1.9-5.6-5.1-5.6H73.5z"/>
+	
+		<path id="Layer1_0_MEMBER_0_MEMBER_0_MEMBER_9_MEMBER_0_MEMBER_2_1_STROKES" style="fill:none;stroke:#333333;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;" d="
+		M89.8,78.9v40.5"/>
+	<text transform="matrix(1 0 0 1 25.9273 45.8829)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:15.1878px;">    PROPELLER</text>
+	<text transform="matrix(1 0 0 1 25.9273 64.2521)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:15.1878px;">GROUND RANGE</text>
+	<text transform="matrix(1 0 0 1 72.6334 109.254)" style="fill:#0099FF; font-family:'ArialMT'; font-size:25.2594px;">1</text>
+	<text transform="matrix(1 0 0 1 93.1158 109.254)" style="fill:#0099FF; font-family:'ArialMT'; font-size:25.2594px;">2</text>
+</g>
+<path id="Layer7_10_MEMBER_1_1_STROKES" style="fill:none;stroke:#FF9900;stroke-linecap:round;stroke-linejoin:round;" d="
+	M322.8,98.6H177V70.8h145.8V98.6z"/>
+<path id="Layer7_10_MEMBER_1_1_STROKES_1_" style="fill:none;stroke:#FF9900;stroke-linecap:round;stroke-linejoin:round;" d="
+	M322.8,131.6H177v-27.8h145.8V131.6z"/>
+<text transform="matrix(1 0 0 1 182 89.8829)" style="font-family:'ArialMT'; font-size:14px;">Pilot - 9811-P177</text>
+<text transform="matrix(1 0 0 1 182 121.2357)" style="font-family:'ArialMT'; font-size:14px;">Co-Pilot - 9811-P176</text>
+</svg>

@@ -1,0 +1,72 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> P3 Signal Related Faults - (Engine Fault Code 740, 789 and/or 790)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-812</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault codes are 740, 789 and/or 790.</p><!-- !!!! -->
+
+    <p>These fault codes indicate a loss or a low signal from the P3 transducer to the FADEC.</p><!-- !!!! -->
+
+    <p>Fault codes 740 and 789 indicate a disrupted signal.</p><!-- !!!! -->
+
+    <p>Fault Code 790 indicates a difference between channel A and channel B.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>P3 Pressure Transducer </li>
+        <li>Control Wiring Harness (FADEC to P3 pressure Transducer lead) </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/p3_transd.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

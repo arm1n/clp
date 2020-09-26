@@ -1,0 +1,71 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>PEC Feather Logic Fault - (Engine Fault Code 268)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>Pre SB84-61-01-A FIM TASK 61-20-06-810-833</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+    <p>
+        <clp-link-pdf>Post SB84-61-01-A FIM TASK 61-20-06-810-823</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+    <p>Pre SB84-61-01-A:
+    This fault code is generated as a result of an apparent mismatch between the feather pump demand and an indication that manual feather is not operating. This is an internal PEC fault.</p><!-- !!!! -->
+
+    <p>The fault detection logic has determined that with the autofeather switch selected in the flight compartment, AF FET MON = On (Autofeather arm selected) and MANUAL FEATHER = Off (Not operating).</p><!-- !!!! -->
+   
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+    
+    <p>Post SB84-61-01-A:
+    This task is for the Propeller Electronic Control Unit (written as the “PEC” in this procedure)fault code 268/269 − Manual Feather Input. During fault isolation if any corrective action is performed a PEC fault clear must be completed. This will make sure that the problem has been fixed and the fault code does not reappear.</p><!-- !!!! -->
+   
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+    
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+
+    <br>
+</clp-card>

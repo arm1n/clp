@@ -1,0 +1,108 @@
+<clp-card title="GENERAL">
+	<br>
+	
+
+	<clp-info-red><div>
+	
+			
+			<b>ARCDU</b>
+
+	</div></clp-info-red>
+	
+	<br>
+	
+	
+	
+	<clp-table>
+
+	<clp-tr>
+		<clp-td>ARCDU FAILED on ARCDU1</clp-td>
+		<clp-td>
+			<clp-link-pdf>FIM TASK 23-80-00-810-816</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-FIM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+
+	<clp-tr>
+		<clp-td>ARCDU FAILED on ARCDU2</clp-td>
+		<clp-td>
+			<clp-link-pdf>FIM TASK 23-80-00-810-829</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-FIM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+</clp-table>
+	
+	
+	
+	<br>
+	<br>
+
+
+	<p>ARCDU FAILED ON ARCDU1/2</p>
+	
+	<p>This fault isolation procedure is for when audio and radio control display unit 1/2 (ARCDU1/2) shows an ARCDU FAILED message.</p>	
+	
+	<p>ARCDU1/2 shows a ARCDU FAILED message when the power-on self-test (POST) senses a discrepancy and will not operate.</p>
+
+
+	<p><clp-text-blue><strong>NOTE:</strong><br> The ARCDU can operate in the operational mode if the POST is not started by a short power interruption while the aircraft is on the ground.</clp-text-blue></p>
+	
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<!-- blaues feld -->
+	<clp-info-blue>
+		<div>
+		<div><clp-text-blue><strong>NOTE:</strong></clp-text-blue></div>
+		<ul>
+			<li><b>Switch ARCDU OFF and ON again.</b></li>
+			<br>
+			<p><b>Reset all following circuit breakers</b></p>
+			<li><b>AVIONICS CB PANEL:</b></li>
+			<ul><strong>C11</strong> COPLT SPKR</ul>
+			<ul><strong>C10</strong> COPLT AUDIO</ul>
+			<ul><strong> C3</strong> COPLT AUDIO</ul>
+			<ul><strong> C9</strong> PLT SPKR</ul>
+			<ul><strong> D4</strong> PLT AUDIO</ul>
+			<ul><strong> C4</strong> OBS AUDIO</ul>
+			<br>
+			<li><b>on PILOT´s CB PANEL</b></li>
+			<ul><strong>H2</strong> PLT AUDIO</ul>
+			<br>
+			<li><b>and on COPILOT´s CB panel.</b></li>
+			<ul><strong>M1</strong> PA EMER PWR</ul>
+		</ul>
+		</div></clp-info-blue>
+<!-- blaues feld -->
+	
+
+
+	<br />
+
+
+</clp-card>
+

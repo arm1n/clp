@@ -1,0 +1,129 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>#1 AC GEN</clp-text-orange>
+			</h2>
+			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+			<br>
+			<div>
+				<clp-link-pdf>FIM TASK 24-20-00-810-801</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The #1 AC GEN caution light in the CAWP comes on when the related AC Generator Control Unit (GCU) senses a condition that follows:</div>
+			<ul>
+				<li>If a source fault is sensed, the AC generator line contactors K1 and K2 will not connect the AC GEN 1 to the 115 V AC left bus and the 115 V AC right bus.</li>
+				
+			</ul>
+			<br>
+
+			<div>The #1 AC GEN caution light will also come on for the conditions which are not malfunctions that follow:</div>
+			<ul>
+				<li>The AC generator toggle switches are set to the OFF position</li>
+				<li>External AC power is energizing the L and R AC buses.</li>
+			</ul>
+			
+			<br>
+
+			<div>The Electrical Power Control Unit (EPCU) can show the related Continuous Built-In Test (CBIT) fault review codes:</div>
+			<ul>
+				<li><strong>25</strong>, EPCU, #1 AC generator feeder (Status) </li>
+				<clp-link-pdf>FIM TASK 24-21-00-810-802</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr>
+				<br><br>
+				
+				<li><strong>27</strong>, EPCU, #1 AC Generator Control Unit (Status)</li>
+				<clp-link-pdf>FIM TASK 24-21-06-810-801</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr>
+				<br><br>
+				
+				<li><clp-link-popup path="./apps/ele/config/desc/epcu_faults.html">SHOW ALL EPCU PAULT CODES</clp-link-popup></li>
+			</ul>
+			<br>
+			<br>
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the AC variable frequency generation system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 24-21-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>D7</strong> AC GEN CONT 1</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>L3</strong> BATTERY PWR - BATTERY MASTER SWITCH</div>
+						<div><strong>K3</strong> BATTERY PWR - BATTERY MASTER SWITCH</div>
+						<div><strong>H3</strong> BATTERY PWR - BATTERY MASTER SWITCH</div>
+						<div><strong>J3</strong> BATTERY PWR - BATTERY MASTER SWITCH</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/eng/units/ac_gen_all.html"></clp-file>
+			</clp-card>
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/uf/units/ac_gcu.html"></clp-file>
+				
+			</clp-card>
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

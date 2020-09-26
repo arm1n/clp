@@ -1,0 +1,78 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>AF test aborted: loss of CLA permissive - (Engine Fault Code 66/67)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+<br>
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-02-810-822</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+
+    <br />
+
+    <div>This fault code is generated as a result of the failure of the propeller system to successfully complete an autofeather test, specifically due to :<div>Pre Modsum 4W113558, an apparent CLA signal of 850 rpm <div>or <div>greater being present during the test.or Post Modsum 4W113558, an apparent CLA movement from Start/Feather to fuel off during the test, or an apparent CLA position greater than Start/Feather.</div><!-- !!!! -->
+    <br>
+    <div>The fault detection logic has determined that the CLA is:</div><!-- !!!! -->
+    
+    <div>Pre Modsum 4W113558, greater than or equal to 850 rpm.</div><!-- !!!! -->
+
+    <div>or</div><!-- !!!! -->
+
+
+    <div>Post Modsum 4W113558, position has changed from Start/Feather to fuel/Off or is greater than Start/Feather.</div><!-- !!!! -->
+   
+    <br>
+    <div>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes. This fault code does NOT change the previous status of the autofeather test pass/fail and is a diagnostic fault code to show the AF test was aborted. This fault code only shows for 5 seconds and then self clears.</div><!-- !!!! -->
+    <br>
+    
+    <div>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken.</div><!-- !!!! -->
+    <br>
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+    <br />
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+    <ul>
+        <li>Incorrect test procedure followed </li><!-- !!!! -->
+        <li>Incorrect CLA installation </li>
+        <li>PEC </li>
+        <li>Fuel control electrical wiring harness </li>
+        <li>Aircraft wiring </li>
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/cla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+    <br>
+</clp-card>

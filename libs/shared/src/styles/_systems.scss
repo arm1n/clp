@@ -1,0 +1,31 @@
+/**
+* Dasboard
+*/
+:root {
+	--system-main-bg-color: #cecece;
+
+	--system-main-text-color-top-menu-link: var(--text-color-light);
+	--system-main-bg-color-top-menu-link: #4080C8;
+
+	--system-main-highlights-text-color: var(--text-color-light);
+	--system-main-highlights-bg-color: var(--bg-color-blue-dark);
+	--system-main-highlights-bg-color-hover: red;
+	--system-main-highlights-bg-color-configuration-header: var(--bg-color-light);
+	--system-main-highlights-text-color-configuration: var(--text-color-dark);
+  	--system-main-highlights-bg-color-configuration: #7ddede;
+	--system-main-highlights-bg-color-gnd-eng-stopped: #8CBAD8;
+
+	--system-main-caution-lights-bg-color-column: #4f4e4e;
+	--system-main-caution-lights-text-color-column: var(--text-color-light);
+	--system-main-caution-lights-text-color-hover-default: yellow;
+	--system-main-caution-lights-text-color-hover-special: red;
+
+	--system-main-caution-lights-text-color-label: #8e4242bf;
+
+	--system-main-search-box-border-color: #bbb;
+
+	--system-main-nav-block-text-color: var(--text-color-light);
+	--system-main-nav-block-bg-color: var(--bg-color-blue-dark);
+
+	--system-main-bg-color-footer: #8a9094;
+}

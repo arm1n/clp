@@ -1,0 +1,239 @@
+@import "./mixins";
+
+$arrow: 5px;
+
+[data-tooltip] {
+  &[data-tooltip-pos] {
+    position: relative;
+
+    // iOS Safari event issue:;
+    // @see https://goo.gl/w8JF4W
+    cursor: pointer;
+
+    &:after,
+    &:before {
+      opacity: 0;
+      z-index: 10;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &:after {
+      padding: 0.5rem;
+      white-space: nowrap;
+      content: attr(data-tooltip);
+      color: var(--tooltip-text-color);
+      border-radius: var(--border-radius);
+      background-color: var(--tooltip-bg-color);
+    }
+
+    &:before {
+      @include arrow-down(var(--tooltip-bg-color));
+
+      content: "";
+    }
+
+    &[data-tooltip-visible="1"],
+    &:not([data-tooltip-visible]):hover {
+      &:before,
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &[data-tooltip-break] {
+      &:after {
+        white-space: pre;
+      }
+
+      &[data-tooltip-length] {
+        &:after {
+          white-space: pre-line;
+          word-break: break-word;
+        }
+      }
+    }
+
+    &[data-tooltip-pos="TOP"] {
+      &:after {
+        
+        left: 50%;
+        bottom: 100%;
+        margin-bottom: $arrow + 5px;
+        transform: translate(-50%, 0);
+        transform-origin: top;
+      }
+      &:before {
+        left: 50%;
+        bottom: 100%;
+        transform: translate(-50%, 0);
+        transform-origin: top;
+      }
+    }
+
+    &[data-tooltip-pos="TOP_LEFT"] {
+      &:after {
+        
+        left: 0;
+        bottom: 100%;
+        margin-bottom: $arrow + 5px;
+        transform: translate(0, 0);
+        transform-origin: top;
+      }
+      &:before {
+        left: 5px;
+        bottom: 100%;
+        transform: translate(0, 0);
+        transform-origin: top;
+      }
+    }
+
+    &[data-tooltip-pos="TOP_RIGHT"] {
+      &:after {
+        right: 0;
+        bottom: 100%;
+        margin-bottom: $arrow + 5px;
+        transform: translate(0, 0);
+        transform-origin: top;
+      }
+      &:before {
+        right: 5px;
+        bottom: 100%;
+        transform: translate(0, 0);
+        transform-origin: top;
+      }
+    }
+
+    &[data-tooltip-pos="BOTTOM"] {
+      &:after {
+        left: 50%;
+        top: 100%;
+        margin-top: $arrow + 5px;
+        transform: translate(-50%, 0);
+      }
+
+      &:before {
+        @include arrow-up(var(--tooltip-bg-color));
+
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, 0);
+      }
+    }
+
+    &[data-tooltip-pos="BOTTOM_LEFT"] {
+      &:after {
+        left: 0;
+        top: 100%;
+        margin-top: $arrow + 5px;
+        transform: translate(0, 0);
+      }
+
+      &:before {
+        @include arrow-up(var(--tooltip-bg-color));
+
+        left: 5px;
+        top: 100%;
+        transform: translate(0, 0);
+      }
+    }
+
+    &[data-tooltip-pos="BOTTOM_RIGHT"] {
+      &:after {
+        right: 0;
+        margin-top: $arrow + 5px;
+        top: 100%;
+        transform: translate(0, 0);
+      }
+
+      &:before {
+        @include arrow-up(var(--tooltip-bg-color));
+
+        right: 5px;
+        top: 100%;
+        transform: translate(0, 0);
+      }
+    }
+
+    &[data-tooltip-pos="LEFT"] {
+      &:after {
+        top: 50%;
+        right: 100%;
+        margin-right: $arrow + 5px;
+        transform: translate(0, -50%);
+      }
+
+      &:before {
+        @include arrow-right(var(--tooltip-bg-color));
+
+        top: 50%;
+        right: 100%;
+        transform: translate(0, -50%);
+      }
+    }
+
+    &[data-tooltip-pos="RIGHT"] {
+      &:after {
+        top: 50%;
+        left: 100%;
+        margin-left: $arrow + 5px;
+        transform: translate(0, -50%);
+      }
+
+      &:before {
+        @include arrow-left(var(--tooltip-bg-color));
+
+        top: 50%;
+        left: 100%;
+        transform: translate(0, -50%);
+      }
+    }
+
+    &[data-tooltip-length="SM"] {
+      &:after {
+        width: 75px;
+        white-space: normal;
+      }
+    }
+
+    &[data-tooltip-length="MD"] {
+      &:after {
+        width: 150px;
+        white-space: normal;
+      }
+    }
+
+    &[data-tooltip-length="LG"] {
+      &:after {
+        width: 225px;
+        white-space: normal;
+      }
+    }
+
+    &[data-tooltip-length="XL"] {
+      &:after {
+        width: 300px;
+        white-space: normal;
+
+        @include min-width(md) {
+          width: 90vw;
+          white-space: normal;
+        }
+      }
+    }
+
+    &[data-tooltip-length="FIT"] {
+      &:after {
+        width: 100%;
+        white-space: normal;
+      }
+    }
+  }
+}
+
+// IE 11 button bugfix
+button[aria-label] {
+  &[data-tooltip-pos] {
+    overflow: visible;
+  }
+}

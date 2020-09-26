@@ -1,0 +1,66 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>Qb/QHIB/QLOB inconsistent - (Engine Fault Code 248/249)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-05-810-835</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+    <p>This fault code is generated as a result of the failure of the PEC to correctly set the autofeather and uptrim torque state inputs. This is an internal PEC fault.</p><!-- !!!! -->
+    
+    <p>The fault isolation logic has determined that, for a confirmation period of 5 seconds. one of the following conditions exist with the propeller unfeathered:
+        Qb > 30% and QLO is recorded or Qb smaller 20% and QLO is not recorded Qb > 55% and QHI is not recorded Qb smaller 45% and QHI is recorded</p><!-- !!!! -->
+    
+    <p>This fault code will inhibit the autofeather advisory when PLA goes into the flight range. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+    
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+    
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+        
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    
+
+    <br>
+</clp-card>

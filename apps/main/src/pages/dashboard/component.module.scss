@@ -1,0 +1,110 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.background {
+  background-color: var(--system-main-bg-color);
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 100vh;
+  flex-direction: column;
+  max-width: map-get($breakpoints, lg);
+}
+
+//
+// SIDE NAV
+//
+.sidenav {
+  display: flex;
+  justify-content: flex-end;
+
+  @include min-width(md) {
+    margin: 0 1rem 0 0;
+  }
+
+  @include min-width(lg) {
+    right: 0;
+    margin: 0;
+    top: 1rem;
+    position: absolute;
+  }
+}
+
+//
+// CAUTION LIGHTS
+//
+.container {
+  flex-grow: 1;
+  padding: 1rem 1rem 2.5rem;
+
+  @include min-width(lg) {
+    padding: 5rem 0 2.5rem;
+  }
+}
+
+.top {
+  @include min-width(lg) {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: auto 200px;
+  }
+}
+
+.cautionlights {
+}
+.highlights {
+  margin: 1.875rem 0 0;
+}
+
+//
+// SEARCH BOXES
+//
+.middle {
+  margin: 1.5rem 0;
+
+  @include min-width(md) {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, calc(50% - 1rem));
+  }
+
+  @include min-width(lg) {
+    margin: 3rem 0;
+    grid-template-columns: repeat(3, 300px);
+  }
+}
+
+.search {
+  margin: 0 0 1rem;
+
+  @include min-width(lg) {
+    margin: 0;
+  }
+}
+
+//
+// SUB MENUS
+//
+.bottom {
+  @include min-width(lg) {
+    margin: 0 0 5rem;
+
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: auto 250px;
+  }
+}
+
+.mainnav {
+  margin: 0 0 3rem;
+
+  @include min-width(lg) {
+    margin: 0;
+  }
+}
+
+.copyright {
+  margin: 0 auto;
+}

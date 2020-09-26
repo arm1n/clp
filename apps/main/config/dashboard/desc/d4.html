@@ -1,0 +1,276 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>PROP DEICE</clp-text-orange>
+			</h2>
+			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+			<br>
+			<div>
+				<clp-link-pdf>FIM TASK 30-60-00-810-807</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The CAWP PROP DEICE caution light comes on when timer monitor and control unit No. 1 (TMCU1) or TMCU2 senses a condition that follows:</div>
+
+			<ul>
+				<li>Built in test (BIT) senses an internal malfunction</li>
+				<li>There is a malfunction of the synchronization of the deicing heater element between TMCU1 and TMCU2</li>
+				<li>Does not receive valid total air temperature (TAT) data from air data computer No.1 (ADC1) and air data computer No. 2 (ADC2)</li>
+				<li>TAT difference that is more than 8°C between ADC1 and ADC2</li>
+				<li>Does not receive valid propeller speed (NP) data from its related full authority digital engine control (FADEC)</li>
+				<li>There is a malfunction of the isolator contactor</li>
+				<li>The ICE PROTECTION panel PROPS advisory light incorrectly comes on</li>
+				<li>Calibration failure</li>
+				<li>Input AC voltage is low</li>
+				<li>A deicing heater element AC current is low (less than 17A)</li>
+				<li>A deicing heater element AC current is high (more that 30 A)</li>
+				<li>There is an open circuit in a deicing heater element</li>
+				<li>There is an short circuit in a deicing heater element (AC current is more than 39 A)</li>
+			</ul>
+			<br>
+			<div>During DC power up, the two TMCUs will do a built-in test (BIT) that continues for 20 seconds. The two PROPS advisory lights on the IRPS panel and the PROP DEICE caution light on the CAWP will come on. The lights will go off if no discrepancies are sensed.</div>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> The PROP DEICE caution light also comes on when the maintenance PROP DEICE CAL toggle switch is set and the conditions are not correct for a calibration.</clp-text-blue>
+			</div>
+			<br>
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Do the Functional Test of the Propellers De-icing System</div>
+			<div>
+				<clp-link-pdf>AMM TASK 230-61-00-720-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Electrical Continuity Check of the Propeller Deicing Heater Element</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-61-00-760-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+			<div>
+				<clp-info-grey>On aircraft <strong>without</strong> mod 4-126268 or Pre S.B 84-30-07</clp-info-grey>
+			</div>
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>R9</strong> PROP DE-ICE CONT 1</div>
+					</clp-td>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>B9</strong> PROP DE-ICE CONT 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+			<div>
+				<clp-info-grey>On aircraft <strong>with</strong> mod 4-126268 or Post S.B 84-30-07</clp-info-grey>
+			</div>
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>L6</strong> PROP DE-ICE CONT 1</div>
+					</clp-td>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>E5</strong> PROP DE-ICE CONT 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+
+			<div><strong>Nuisance Caution Light or Advisory Message DH8-400-SL-31-001R14 </strong></div>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> If Pilot reports Prop de-ice caution light cones on without selecting prop de ice, a possible cause is the dual sat probe.</clp-text-blue>
+			</div>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> Please check indication of 1 & 2 temperature indications on Pilots eng display and Copilots eng display for mismatch, (SET MFD1 AND MFD2 TO ENG ON ESID CONTROL PANEL) a discrepancy of 8°C can cause the problem => clean connector and/or replacement SAT probe</clp-text-blue>
+			</div>
+
+			<br>
+			<br>
+
+
+			<clp-table border="" hover="" nowrap="1">
+				<clp-tr>
+					<clp-td><strong>PROP SELECTOR</strong></clp-td>
+					<clp-td>-</clp-td>
+					<clp-td>"ON" TO "OFF "AND BACK TO ON"
+					</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td><strong>RESET </strong></clp-td>
+					<clp-td>-</clp-td>
+					<clp-td>LEFT DC <clp-text-red> <strong>L6</strong> PROP DEICE CONTROL 1</clp-text-red> and
+
+						<br> RIGHT DC <clp-text-red> <strong>E5</strong> PROP DEICE CONTROL 2</clp-text-red> CBs <strong>"SIMULTANEOUSLY"</strong></clp-td>
+				</clp-tr>
+
+			</clp-table>
+			<br>
+			<br>
+
+			<clp-info-red>
+				<div>
+					<clp-text-centered><b>IF CAUTION LIGHT REMAINS ON: </b><br> <clp-text-red>MAINTENANCE ACTION IS REQUIRED PRIOR TO FLIGHT</clp-text-red></clp-text-centered>
+				</div>
+			</clp-info-red>
+
+			
+			
+			<br>
+			<br>
+			<br>
+			<clp-grid>
+				<clp-grid-column>
+					<clp-img src="./units/cockpit/units/pic/ice_prot_panel.svg"></clp-img>
+				</clp-grid-column>
+
+				<clp-grid-column>
+					<div>With the Prop Deicing selected ON the system still may be OFF.<br><br> The TMCU heater cycle times depend on the Total Air Temperature (TAT) and Prop Deicing will remain OFF with a TAT greater than 5° C even with the system selected ON.<br><br> The following table may be used to determine the TAT.</div>
+				</clp-grid-column>
+			</clp-grid>
+
+
+			<br>
+			<div>TAT (°C)=SAT (°C, acc.ED) + Temp Rise (°C, acc.table) </div>
+			<br>
+
+
+			<clp-table>
+				<clp-tr>
+					<clp-td><strong> True Airspeed </strong></clp-td>
+					<clp-td><strong> Temp Rise °C </strong></clp-td>
+
+				</clp-tr>
+				<clp-tr>
+					<clp-td>200</clp-td>
+					<clp-td>5°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>220</clp-td>
+					<clp-td>6°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>240</clp-td>
+					<clp-td>7°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>260</clp-td>
+					<clp-td>9°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>280</clp-td>
+					<clp-td>10°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>300</clp-td>
+					<clp-td>12°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>320</clp-td>
+					<clp-td>14°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>340</clp-td>
+					<clp-td>15°C</clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td>360</clp-td>
+					<clp-td>17°C</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+
+
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

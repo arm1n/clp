@@ -1,0 +1,51 @@
+$icon: 0.75rem;
+$circle: 1.5rem;
+
+.button {
+    height: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    color: inherit;
+    cursor: pointer;
+    background: none;
+    padding: 0 0.5rem;
+    position: relative;
+    align-items: center;
+    margin: 0 0.25rem 0 0;
+
+    &:before {
+    	top: 50%;
+    	left: 50%;
+    	z-index: 1;
+    	content: '';
+    	width: $circle;
+    	height: $circle;
+    	display: block;
+    	position: relative;
+    	position: absolute;
+    	border-radius: 100%;
+        box-sizing: border-box;
+    	margin-top: -$circle/2;
+    	margin-left: -$circle/2;
+        border: 1px solid var(--bg-color-light);
+    }
+
+    &.active {
+        .icon{
+            fill: var(--bg-color-dark);
+        }
+
+        &:before{
+            background: var(--bg-color-light);
+        }
+    }
+}
+
+.icon {
+	z-index: 2;
+	width: $icon;
+	height: $icon;
+	position: relative;
+    fill: var(--bg-color-light);
+}

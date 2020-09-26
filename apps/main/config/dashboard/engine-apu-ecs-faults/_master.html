@@ -1,0 +1,41 @@
+<clp-card title="Other lane. No FADEC data - (Engine Fault Code - 10/11)">
+  <div>
+    <clp-link-pdf>FIM TASK 61-20-01-810-804</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr>
+  </div>
+
+  <br />
+
+  <div>
+    This fault code is generated as a result of an apparent loss of FADEC data to the PEC lane that
+    is not in control of the propeller. For Post Modsum 4W113558, this fault will only be
+    annunciated when the propeller is rotating.
+  </div>
+
+  <br />
+
+  <div>
+    The fault isolation logic has determined that, for a period of 10 seconds, no data is being
+    received by the other lane.The fault code is advisory and will not be annunciated to the flight
+    crew. This fault code is designated as unlimited despatch for TLD purposes.
+  </div>
+
+  <br />
+
+  <!-- Zentrale Datei mit Link laden -->
+  <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+</clp-card>
+
+<br />
+
+<clp-card title="Possible LRU">
+  <div>
+    The list that follows shows the possible malfunctioned systems and/or line replaceable units
+    (LRU):
+  </div>
+
+  <ul>
+    <li>FADEC</li>
+    <li>Fuel control electrical wiring harness</li>
+    <li>PEC</li>
+  </ul>
+</clp-card>

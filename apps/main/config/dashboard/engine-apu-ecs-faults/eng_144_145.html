@@ -1,0 +1,68 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>SyntrophyseMasterMPU bad (remote sync missing) - (Engine Fault Code 144/145)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-03-810-821</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent loss of the MPU signal from the master propeller PEC (LH) to the slave propeller PEC (RH). If this fault occurs on the left hand PEC it is a PEC fault. This fault will result in the loss of synchrophase control.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that MPU 7P IN = no pulses received and SLAVE PROP = 1 for a confirmation time of 10 seconds.</p><!-- !!!! -->
+	
+	<p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>LH powerplant MPU (only with fault code 162 on the LH PEC) </li><!-- !!!! -->
+		<li>LH powerplant PEC wiring harness (only with fault code 162 on the LH PEC) </li>
+		<li>LH powerplant PEC </li>
+        <li>LH powerplant fuel control electrical wiring harness </li>
+        <li>Airframe wiring (cross wing communications) </li>
+        <li>RH powerplant fuel control electrical wiring harness </li>
+		<li>RH PEC </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	
+<br>
+</clp-card>

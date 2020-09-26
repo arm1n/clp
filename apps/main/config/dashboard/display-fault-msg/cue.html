@@ -1,0 +1,142 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>CUE</b>
+
+		</div>
+	</clp-info-red>
+
+	<br>
+
+
+
+	<clp-table>
+		<clp-tr>
+			<clp-td>CUE message on PFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 27-33-00-810-830</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>CUE message on PFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 27-33-00-810-831</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+
+	<br>
+	<br>
+
+	<p>This fault isolation procedure is for when the indicated air speed (IAS) indicator on primary flight display 1/2 (PFD1/2) shows a CUE indication. The IAS shows a CUE indication for the malfunction conditions that caused the </p>
+
+	<p>#1 STALL SYST FAIL caution light to come on as follows:</p>
+	<ul>
+		<li>Stall protection module 1/2 (SPM1/2) is defective</li>
+		<li>Difference between angle of attack transducer 1/2 (AOA1/2) and AOA 2</li>
+		<li>AOA1 is defective or not heated</li>
+		<li>AOA2 is defective or not heated</li>
+		<li>The flap position indication unit (FPIU) left and right flap position inputs are defective</li>
+	</ul>
+
+	<br>
+	<br>
+	<p>The IAS indicator also shows a CUE indication for the malfunction conditions that follow:</p>
+	<ul>
+		<li>Air data unit 1 (ADU1) calibrated airspeed (CAS), true air speed (TAS), or pitot pressure input is defective</li>
+		<li>ADU2 CAS, TAS or pitot pressure input is defective</li>
+		<li>Attitude and heading reference system 1 (AHRS1) bank angle, pitch angle, body linear accelerations (z), body angular rates, or vertical speed input is defective</li>
+		<li>Full authority digital electronic controller 1 (FADEC1) (A and B channels) engine torque input is defective</li>
+		<li>FADEC2 (A and B channels) engine torque input is defective</li>
+	</ul>
+	<br>
+	<p>
+		<clp-text-blue><strong>NOTE:</strong><br>The CUE flag is out of view when the aircraft is on the ground and the KIAS is less than 60 knots.</clp-text-blue>
+	</p>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<!-- blaues feld -->
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			<br>
+			<clp-table>
+				<clp-tr>
+					<clp-td><strong> L and R AOA VANE HT </strong> CB`s (115V AC) </clp-td>
+					<clp-td> <strong> - Check/In </strong> </clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td><strong> STICK PUSHER CB`s <strong> K1 and K6 </strong> Avionics </strong></clp-td>
+					<clp-td> <strong> - Reset simultaneously </strong></clp-td>
+				</clp-tr>
+				<br>
+				<clp-text-blue><strong>NOTE:</strong>Wait 30 sec. for completion of self test.</clp-text-blue>
+				<br>
+				<br>
+				<br>
+				<clp-text-red><strong>IF caution light remain on:</strong></clp-text-red>
+			
+				<clp-tr>
+					<clp-td> SPM 1 CB <strong> F2 </strong> Avionics</clp-td>
+					<clp-td><strong> - Reset </strong></clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td> SPM 2 CB <strong> F5 </strong>Avionics</clp-td>
+					<clp-td><strong> - Reset </strong></clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+			<br>
+			<p>
+				<clp-text-blue><strong>NOTE:</strong>Wait 30 sec. for completion of self test.</clp-text-blue>
+			</p>
+
+
+
+		</div>
+	</clp-info-blue>
+	<!-- blaues feld -->
+
+
+
+	<br />
+
+
+</clp-card>

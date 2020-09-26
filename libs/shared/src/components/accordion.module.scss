@@ -1,0 +1,52 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+$padding: 0.625rem;
+
+.wrapper {
+  .expandable {
+    margin: 0 0 0.5rem;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.expandable {}
+
+.button {
+  @include button-reset();
+
+  width: 100%;
+  display: flex;
+  text-align: left;
+  padding: $padding;
+  background: var(--button-bg-color);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+
+  &:hover {
+    background: var(--button-hover-bg-color);
+  }
+
+  &.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: var(--button-active-bg-color);
+  }
+}
+
+.label {
+  flex: 1;
+}
+
+.icon {
+  width: 1rem;
+}
+
+.content {
+  padding: $padding;
+  border: 1px solid var(--button-border-color);
+  border-top: 0;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}

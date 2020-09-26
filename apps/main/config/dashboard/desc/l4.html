@@ -1,0 +1,142 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>#2 RUD HYD</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 27-20-00-810-805</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+			
+			
+			<div>The CAWP #2 RUD HYD caution light comes on for the conditions that follow:</div>
+			<ul>
+				<li>The right channel (CHNL 2) of the Flight Control Electronic Control Unit (FCECU) has sensed that it cannot control hinge moment limiting to the upper rudder Power Control Unit (PCU)</li>
+				<br>
+				<li>The upper rudder PCU in the No. 2 hydraulic system senses that its internal pressure is less than 350 psi (2413.16kPa)</li>
+				<div><clp-text-blue><strong>NOTE:</strong> The #2 RUD HYD caution light will also come on when RUD 2 PUSH OFF annunciator switch on the center glareshield panel is set. This is not a malfunction condition.</clp-text-blue></div> 
+				<br>
+				<li>The FCECU does not receive the correct pressure data from the No. 2 hydraulic system.</li>
+				<div><clp-text-blue><strong>NOTE:</strong> The FCECU senses the pressure of the No. 2 hydraulic system after the engine is shutdown and then started again.</clp-text-blue></div>
+			</ul>
+			
+			<br>
+			<br>
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the rudder control system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-20-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>M3</strong> FCS ECU 1</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>L6</strong> FCS ECU 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+			<br>
+
+			<clp-table border="" hover="" nowrap="1">
+
+			
+				
+				<clp-tr>
+					<clp-td><strong>RESET</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>
+						 FCS ECU 1 and 2 CB’s  <br>
+						<strong><clp-text-red>M3</clp-text-red></strong> - Left Essential and <br>
+						<strong><clp-text-red>L6</clp-text-red></strong> - Right Essential 
+						<clp-text-blue> - "SIMULTANEOUSLY"</clp-text-blue> </clp-td>
+				</clp-tr>
+				
+				<clp-tr>
+						<clp-td><strong>NOTE:</strong></clp-td>
+						<clp-td> - </clp-td>
+						<clp-td><clp-text-blue>Wait 90 seconds until self-test sequence is complete before moving flight controls</clp-text-blue></clp-td>
+				</clp-tr>
+				
+				<clp-tr>
+					<clp-td><strong>FLIGHT CONTROLS</strong></clp-td>
+					<clp-td> - </clp-td>
+					<clp-td>check/full travel</clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+		
+			<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+			<br>
+			<br>
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

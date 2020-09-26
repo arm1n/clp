@@ -1,0 +1,17 @@
+{
+	"name": "@clp/util",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Shared node utils for all apps.",
+	"bin": {
+		"clp-transpile": "./bin/transpile.js"
+	},
+	"dependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.0",
+		"@babel/preset-react": "^7.9.4",
+		"babel-plugin-inline-react-svg": "^1.1.1",
+		"babel-plugin-module-resolver": "^4.0.0",
+		"babel-plugin-syntax-dynamic-import": "^6.18.0"
+	}
+}

@@ -1,0 +1,89 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>FD TSOV - (ECS Fault Code 7102)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b> CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-874</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b> CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-874</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>This fault isolation procedure is for when the central diagnostic system (CDS) shows the FD TSOV message, Fault Code 7102. This is a PACK HOT Detection Monitor Fault.NOTE: The acronyms FD (flight deck) and FLT COMPT (flight compartment) are interchangeable.</li>
+		<li>The caution and warning panel (CAWP) FLT COMPT PACK HOT caution light will also come on.NOTE: The PACK HOT lamp will remain illuminated until the condition no longer exists and the PACK Auto/Man/Off switch has been selected OFF.</li>
+		<li>The CDS shows this message when the system has determined the compressor outlet and pack outlet temperatures do not change after shutting down the ACM. This is part of the ECU controller’s fault isolation when a FD ACM PERF message, Fault Code 7103, is detected. It is assumed that the ACM was previously shutdown by a failed closed Turbine SOV. When this fault code is set the FLT COMPT PACK HOT caution lamp is illuminated.</li>
+		
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>ECU</li>
+		
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/uf/units/ecsecu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			
+		</clp-grid-column>
+
+		<clp-grid-column>
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

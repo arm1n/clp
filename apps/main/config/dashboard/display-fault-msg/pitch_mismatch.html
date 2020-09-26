@@ -1,0 +1,96 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>PITCH MISMATCH message on PFD</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-20-00-810-803</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<p>The FMA show a PITCH MISMATCH message when the flight data processing system (FDPS) senses an attitude and heading reference unit 1 (AHRU1) and AHRU2 pitch difference that is more than three degrees. The PFD electronic attitude director indicator (EADI) will show a PITCH mismatch flag.</p>
+
+	<p>The flight mode annunciator (FMA) in the primary flight display (PFD) can show a PITCH MISMATCH message</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The FMAs will show only the most important mismatch message and this is the primary mismatch indication.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The attitude and heading reference system (AHRS) data must be valid and the electronic flight instrument system (EFIS) ATT/HDG SOURCE reversion switch must be set to the NORM position.</clp-text-blue>
+	</p>
+
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<p>Reset AHRU 1 and AHRU 2 on Avionics CB Panel</p>
+			<ul>
+				<li>AHRU 1 <b>(A4) & (A9)</b></li>
+				<li>AHRU 2 <b>(A3) & (A10)</b></li>
+			
+			</ul>
+
+			<p></p>
+
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+	
+
+	<br>
+
+
+
+
+
+
+</clp-card>

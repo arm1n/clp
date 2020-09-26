@@ -1,0 +1,76 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Common Torque Motor Supply (Status) - (Engine Fault Code 967)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-893</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is triggered when there is a problem with the common power supply for the LRU torque motors.</p><!-- !!!! -->
+
+    <p>There are three LRUs that have a common power supply to their torque motors: P2.2 Interstage Bleed Valve, P2.7 Intercompressor Bleed Valve and Fuel Metering Unit (FMU).</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>P2.2 Interstage Bleed Valve </li>
+        <li>P2.7 Intercompressor Bleed Valve </li>
+        <li>Fuel Metering Unit (FMU) </li>
+        <li>Control Wiring Harness </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fmu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/p27_intbleed_vlv.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

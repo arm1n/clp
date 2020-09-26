@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 71.3" style="enable-background:new 0 0 150 71.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#343434;}
+	.st1{fill:#F49739;}
+	.st2{font-family:'Tahoma-Bold';}
+	.st3{font-size:8.5552px;}
+</style>
+<rect x="81.1" y="7.4" class="st0" width="57.8" height="26.3"/>
+<text transform="matrix(1 0 0 1 98.4416 19.2468)" class="st1 st2 st3">STBY</text>
+<text transform="matrix(1 0 0 1 89.8631 29.5468)" class="st1 st2 st3">BATTERY</text>
+<rect x="11.1" y="7.4" class="st0" width="57.8" height="26.3"/>
+<text transform="matrix(1 0 0 1 27.4791 19.2468)" class="st1 st2 st3">MAIN</text>
+<text transform="matrix(1 0 0 1 19.8436 29.5468)" class="st1 st2 st3">BATTERY</text>
+<rect x="10.7" y="40" class="st0" width="57.8" height="26.3"/>
+<text transform="matrix(1 0 0 1 29.0794 51.8358)" class="st1 st2 st3">AUX</text>
+<text transform="matrix(1 0 0 1 18.3636 62.1358)" class="st1 st2 st3">BATTERY</text>
+</svg>

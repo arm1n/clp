@@ -1,0 +1,166 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>#1 PEC</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 61-20-00-810-801</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The #1 PEC caution light comes on when the propeller blade angle cannot be controlled and the engine torque bug needs to be monitored for available torque.</div>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> When the #1 PEC caution light is on, the power lever should not be set less than the FLIGHT IDLE position. The propeller should be manually feathered before the power lever is set less than the FLIGHT IDLE position.</clp-text-blue>
+			</div>
+			<br>
+			<div>The Propeller Electronic Controller 1 (PEC 1) will make the #1 PEC caution light come on when it senses a condition that follows:</div>
+
+			<ul>
+				<li>Two Beta Feedback Transducer (BETAFB) inputs have malfunctioned</li>
+				<li>Two Magnetic Pickup Unit (MPU) inputs have malfunctioned</li>
+				<li>Two Power Lever Angle (PLA) Rotary Variable Difference Transducer (RVDT) inputs have malfunctioned</li>
+				<li>PLA ground beta enable switch has malfunctioned and cannot control the Ground Beta Enable (GBE) solenoid</li>
+				<li>GBE solenoid has malfunctioned</li>
+				<li>Torque motor has malfunctioned</li>
+				<li>Overspeed Governor (OSG) test was unsatisfactory</li>
+				<li>Full Authority Digital Electronic Control (FADEC) Permanent Magnet Alternator (PMA) does not supply good electrical power</li>
+				<li>L ESSENTIAL bus does not supply electrical power</li>
+				<li>Internal failure</li>
+			</ul>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:<br></strong> The #1 PEC caution light also comes on momentarily during the power-up testing.</clp-text-blue>
+			</div>
+			<br>
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational check for propeller fault code indications</div>
+			<div>
+				<clp-link-pdf>AMM TASK 61-20-00-710-804</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Functional Test for the Propeller Electronic Controller - Calibration Procedure</div>
+			<div>
+				<clp-link-pdf>AMM TASK 61-20-36-720-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Operational Test After a Component Change</div>
+			<div>
+				<clp-link-pdf>AMM TASK 71-00-00-868-805</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>J6</strong> PROP 1 PEC A</div>
+						<div><strong>K6</strong> PROP 2 PEC B</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>J6</strong> PROP 1 PEC B</div>
+						<div><strong>K6</strong> PROP 2 PEC A</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+
+			<br>
+			<div><strong>Nuisance Caution Light or Advisory Message DH8-400-SL-31-001R14</strong></div>
+			<br>
+			<br>
+			<div>
+				<clp-text-blue>#1 PEC and #2 PEC” Caution Lights <strong><br>(Associated with failed overspeed governor test)</strong></clp-text-blue>
+			</div>
+			<br>
+			<div>
+				<clp-text-blue><strong>Pre-Mod 4-113264</strong></clp-text-blue>
+			</div>
+
+			<ul>
+				<li>Repeat overspeed governor test to achieve pass</li>
+				<li>Maintenance action is required to clear fault codes and reset caution lights prior to flight</li>
+			</ul>
+			<br>
+			<br>
+			<div>
+				<clp-text-blue><strong>Post-Mod 4-113264</strong></clp-text-blue>
+			</div>
+			<ul>
+				<li>Repeat overspeed governor test to achieve pass</li>
+			</ul>
+			<br>
+
+			<clp-info-red>
+				<div>IF Caution Light still on maintenance action is required prior first flight!</div>
+			</clp-info-red>
+			<br>
+			<br>
+			
+			<br>
+			<br>
+			<clp-card title="Units">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+
+			</clp-card>
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

@@ -1,0 +1,24 @@
+/* ----------------------------------------------------------------------------------------------------
+ * Variables
+ *
+ * Reusable scss variables to be used in conjunction with $var in .scss files.
+ * ---------------------------------------------------------------------------------------------------- */
+
+$breakpoints: (
+  sm: 480px,
+  md: 768px,
+  lg: 1280px
+);
+
+/**
+ * EXPORTS
+ *
+ * - https://til.hashrocket.com/posts/sxbrscjuqu-share-scss-variables-with-javascript
+ * - https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+ * - https://mattferderer.com/use-sass-variables-in-typescript-and-javascript
+ */
+:export {
+  breakpoint_sm: map-get($breakpoints, sm);
+  breakpoint_md: map-get($breakpoints, md);
+  breakpoint_lg: map-get($breakpoints, lg);
+}

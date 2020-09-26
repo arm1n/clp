@@ -1,0 +1,22 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.wrapper {
+  position: relative;
+}
+
+.tree {
+  margin: 0.5rem 0 0;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color-light);
+
+  @include min-width(md) {
+    left: 0;
+    right: 0;
+    z-index: 1;
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    margin: 0.25rem 0 0;
+  }
+}

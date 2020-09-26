@@ -1,0 +1,184 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>ELEVATOR ASYMETRY</clp-text-orange>
+			</h2>
+			<div>
+				<clp-link-pdf>FIM TASK 27-30-00-810-801</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The CDS shows this message for the conditions that follow:</div>
+			<br>
+			<clp-text-blue><strong>PRE SB84-27-14</strong></clp-text-blue>
+			<ul>
+				<li>The left and right elevator control surface positions are more than 6° different from each other when the airspeed is less than 185 knots </li>
+				<li>The left and right elevator control surface positions are more than 4° different from each other when the airspeed is more than 185 knots</li>
+				<li>The FCECU senses the elevator surface position linear variable differential transformer (LVDT) has malfunctioned</li>
+				<li>A failure of the surface position LVDT has been detected and the aircraft is on ground</li>
+			</ul>
+			<br>
+
+			<clp-text-blue><strong>POST SB84-27-14</strong></clp-text-blue>
+			<ul>
+				<li>When the flight control electronic control unit (FCECU) senses that the left and right elevator control surface positions are more than 6.0 ±1° different from each other when airspeeds is less than 215 knots for 2 seconds</li>
+				<li>The FCECU senses that the left and right elevator control surface positions are more than 4.5 ±1° different from each other when airspeed is more than 215 knots for 2 seconds</li>
+				<li>The FCECU senses the elevator surface position linear variable differential transformer (LVDT) has malfunctioned</li>
+				<li>A failure of the surface position LVDT has been detected and the aircraft is on ground</li>
+			</ul>
+
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong><br>
+					The caution and warning panel (CAWP) ELEVATOR ASYMMETRY caution light can also come on.</clp-text-blue>
+			</div>
+
+			<br>
+			<br>
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational Test of the Elevator Control System</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-30-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<div>Operational Test the Flight Control Electronic Control Unit (FCECU)</div>
+			<div>
+				<clp-link-pdf>AMM TASK 27-00-01-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>M3</strong> FCS ECU 1</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>L6</strong> FCS ECU 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<clp-info-red>
+				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+
+				<br>
+				
+				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
+			</clp-info-red>
+			<br>
+			
+			<div><clp-text-red><strong>NOTE:</strong><br> 
+				This procedure shall not be used if other caution lights associated with the pitch trim/pitch feel system or abnormalities of the elevator control system are observed.</clp-text-red></div>
+			<br>
+
+			
+			<clp-table border="" hover="" nowrap="1">
+				<clp-tr>
+					<clp-td><strong>SPU</strong></clp-td>
+					<clp-td>-</clp-td>
+					<clp-td>to <clp-text-blue><strong>"On"</strong></clp-text-blue></clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td><strong>RESET</strong></clp-td>
+					<clp-td>-</clp-td>
+					<clp-td>FCS <strong>ECU 1 and 2</strong> CBs (<strong><clp-text-red>M3</clp-text-red>-Left</strong> Essential and <strong><clp-text-red>L6-</clp-text-red> Right</strong> Essential) "reset" simultaneously <clp-text-blue><br>
+					Note: Wait 90 sec (self test in progress)</clp-text-blue></clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>ENG START</clp-td>
+				   <clp-td>-</clp-td>
+				   <clp-td>Start eingine #2 and un-feather propeller</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>SPU </clp-td>
+				   <clp-td>-</clp-td>
+				   <clp-td>select SPU to "ON"</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>ELEVATOR TRIM</clp-td>
+				   <clp-td>-</clp-td>
+				   <clp-td>set to "NEUTRAL" position</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>ELEVATOR CONTROL</clp-td>
+				   <clp-td>-</clp-td>
+				   <clp-td>"hands-free" <br>(check LH & RH elevator indication on PFCS)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>ELEVATOR CONTROL  </clp-td>
+				   <clp-td>-</clp-td>
+				   <clp-td>slowly move the columm through two full cycles and check elevator PFCS indication ( full deflection)</clp-td>
+				</clp-tr>
+				<clp-tr>
+				   <clp-td>PILOT`s PITCH TRIM SWITCH </clp-td>
+				   <clp-td>-</clp-td>
+				   <clp-td>1/4 full scale ND and NU Repeat this three times</clp-td>
+				</clp-tr>
+				
+				
+			</clp-table>
+				<br>
+			
+			<div><clp-text-red><strong>NOTE:</strong><br> IF Caution Light illuminates or the elevator PFCS indications do not move smoothly and without hesitation >> Maintenance action is req.prior first flight</clp-text-red></div>
+			<br>
+			<br>
+			
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

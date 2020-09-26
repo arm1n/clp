@@ -1,0 +1,429 @@
+@import "./_mixins.scss";
+
+/* ----------------------------------------------------------------------------------------------------
+ * Web Components
+ *
+ * Styles for all web-components without shadow dom.
+ * ---------------------------------------------------------------------------------------------------- */
+
+clp-img {
+  display: block;
+
+  &,
+  img {
+    max-width: 100%;
+  }
+}
+
+clp-info-orange,
+clp-info-green,
+clp-info-grey,
+clp-info-blue,
+clp-info-red {
+  padding: 1rem;
+  display: block;
+  border-radius: var(--border-radius);
+}
+
+clp-info-grey {
+  color: var(--info-grey-text-color);
+  background-color: var(--info-grey-bg-color);
+}
+
+clp-info-red {
+  color: var(--info-red-text-color);
+  background-color: var(--info-red-bg-color);
+}
+
+clp-info-blue {
+  color: var(--info-blue-text-color);
+  background-color: var(--info-blue-bg-color);
+}
+
+clp-info-green {
+  color: var(--info-green-text-color);
+  background-color: var(--info-green-bg-color);
+}
+
+clp-info-orange {
+  color: var(--info-orange-text-color);
+  background-color: var(--info-orange-bg-color);
+}
+
+clp-grid {
+  @include min-width(md) {
+    display: grid;
+    grid-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
+
+clp-grid-column {
+  display: block;
+  margin: 0 0 1rem;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  @include min-width(md) {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    > * {
+      flex-grow: 1;
+    }
+  }
+}
+
+clp-a {
+  display: inline-block;
+
+  .clp-a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color-link);
+
+    &:hover {
+      color: var(--text-color-link-hover);
+    }
+  }
+}
+
+clp-link {
+  display: inline-block;
+
+  .clp-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color-link);
+
+    &:hover {
+      color: var(--text-color-link-hover);
+    }
+  }
+}
+
+clp-link-pdf {
+  white-space: nowrap;
+  display: inline-block;
+
+  .clp-link-pdf {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color-link);
+
+    &:hover {
+      color: var(--text-color-link-hover);
+    }
+  }
+}
+
+clp-link-tr {
+  white-space: nowrap;
+  display: inline-block;
+
+  .clp-link-tr {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color-link);
+
+    &:hover {
+      color: var(--text-color-link-hover);
+    }
+  }
+}
+
+clp-link-ref {
+  display: inline-block;
+
+  &.selected {
+    .clp-link-ref {
+      .clp-link-ref-info {
+        display: none;
+      }
+      .clp-link-ref-close {
+        display: block;
+      }
+    }
+  }
+
+  .clp-link-ref {
+    outline: 0;
+    padding: 0;
+
+    border: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+    background: none;
+    align-items: center;
+    color: var(--text-color-link);
+
+    &:hover {
+      color: var(--text-color-link-hover);
+    }
+
+    .clp-link-ref-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      padding: 0.25rem;
+      fill: currentColor;
+      border-radius: 100%;
+      box-sizing: border-box;
+      border: 2px solid currentColor;
+    }
+
+    .clp-link-ref-text {
+      margin: 0 0.25rem 0 0;
+    }
+
+    .clp-link-ref-info {
+    }
+    .clp-link-ref-close {
+      display: none;
+    }
+  }
+}
+
+/**
+ * <clp-table>
+ *  <clp-tr>
+ *    <clp-td></clp-td>
+ *    <clp-td></clp-td>
+ *  </clp-tr>
+ * </clp-table>
+ */
+clp-table {
+  display: block;
+
+  @include min-width(md) {
+    border: 0;
+    display: table;
+    border-spacing: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    img {
+      //
+      // max-width: 100% avoid if
+      // image has `width` attr!
+      //
+      max-width: none;
+    }
+  }
+}
+
+clp-table[fullwidth] {
+  @include min-width(md) {
+    width: 100%;
+  }
+}
+
+clp-table[border] {
+  clp-td {
+    border-bottom: 1px solid var(--border-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @include min-width(md) {
+    border-collapse: separate;
+
+    clp-tr {
+      &:last-child {
+        clp-td:not(last-child) {
+          border-bottom: none;
+        }
+      }
+
+      clp-td {
+        &,
+        &:last-child {
+          border-bottom: 1px solid var(--border-color);
+        }
+      }
+    }
+  }
+}
+
+clp-table:not([border]) {
+  @include min-width(md) {
+    clp-tr {
+      border: 0;
+      border-radius: 0;
+    }
+
+    clp-td {
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+clp-table[hover] {
+  clp-tr {
+    &:hover {
+      background-color: var(--bg-color-grey-dark);
+    }
+  }
+}
+
+$columns: 10;
+@for $i from 1 through $columns {
+  clp-table[nowrap="#{$i}"] {
+    clp-td:nth-child(#{$i}) {
+      white-space: nowrap;
+    }
+  }
+}
+
+$steps: 100;
+@for $i from 1 through $steps {
+  clp-td[width="#{$i}%"] {
+    @include min-width(md) {
+      width: #{$i + "%"};
+    }
+  }
+}
+
+clp-tr {
+  display: block;
+  padding: 0.5rem;
+  margin: 0 0 1rem;
+  border-radius: var(--border-radius);
+  background: var(--bg-color-grey-light);
+
+  &:last-child {
+    margin: 0;
+  }
+
+  @include min-width(md) {
+    display: table-row;
+
+    &,
+    &:first-child,
+    &:last-child {
+      margin: 0;
+      padding: 0;
+      background: none;
+      border-radius: 0;
+    }
+  }
+}
+
+clp-td {
+  display: block;
+  padding: 0.5rem 0;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  @include min-width(md) {
+    display: table-cell;
+    vertical-align: top;
+
+    &,
+    &:first-child,
+    &:last-child {
+      padding: 1rem 0.5rem;
+    }
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+clp-text-red {
+  color: var(--text-color-red);
+}
+
+clp-text-blue {
+  color: var(--text-color-blue);
+}
+
+clp-text-green {
+  color: var(--text-color-green);
+}
+
+clp-text-orange {
+  color: var(--text-color-orange);
+}
+
+clp-text-left,
+clp-text-centered,
+clp-text-right {
+  display: block;
+}
+
+clp-text-left {
+  text-align: left;
+}
+
+clp-text-centered {
+  text-align: center;
+}
+
+clp-text-right {
+  text-align: right;
+}
+
+clp-file {
+}
+
+clp-card {
+  display: flex;
+  .clp-card-wrapper {
+    flex-grow: 1;
+  }
+  .clp-card-template {
+    display: none;
+  }
+}
+
+clp-card-button {
+  display: none;
+}
+
+clp-tabs {
+  .clp-tabs-wrapper {
+  }
+  .clp-tabs-template {
+    display: none;
+  }
+}
+
+clp-accordion {
+  .clp-accordion-wrapper {
+  }
+  .clp-accordion-template {
+    display: none;
+  }
+}
+
+clp-expandable {
+  .clp-expandable-wrapper {
+  }
+  .clp-expandable-template {
+    display: none;
+  }
+}

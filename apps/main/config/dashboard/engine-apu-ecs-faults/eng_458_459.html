@@ -1,0 +1,80 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Abnormal RDC NP Exit - (Engine Fault Code 458/459)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-10-810-824</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is generated when the system exits the reduced Np function as a result of fault code 206, 454 or 456. Fault code 206 will not be recorded.</p><!-- !!!! -->
+
+    <p>The fault detection logic has determined that one of the following conditions has been detected:
+        – PLA smaller 50° and PLAHIGH = 1 for a period of less than 11 seconds during reduced Np operation.
+        – That the RS422 databus input from the FADEC, FADEC REDUCED Np REQUESTED, is invalid.
+        – That the RS422 databus input from the local FADEC is indicating a communication problem with the remote powerplant.</p><!-- !!!! -->
+
+    <p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PLA microswitch </li>
+        <li>Fuel control electrical wiring harness (local or remote) </li>
+        <li>Cross wing electrical harness </li>
+        <li>Remote PEC </li>
+        <li>Remote FADEC </li>
+        <li>Local FADEC </li>
+        <li>Local PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+
+    <br>
+</clp-card>

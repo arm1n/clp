@@ -1,0 +1,68 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> No Dispatch Annunciation Flag - (Engine Fault Code 998 and 999)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 77-31-00-810-813</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>These are EMU output flags which show that there is a NO DISPATCH condition and that the POWERPLANT caption has come into view on the Engine Display. Although there is no maintenance action necessary for these fault codes, there will be other fault codes stored in the FADEC or the PEC that have caused the NO DISPATCH condition.</p><!-- !!!! -->
+
+    <p>Fault code 998 shows that there is a NO DISPATCH condition because of fault codes in the FADEC.</p><!-- !!!! -->
+
+    <p>Fault code 999 shows that there is a NO DISPATCH condition because of fault codes in the PEC.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

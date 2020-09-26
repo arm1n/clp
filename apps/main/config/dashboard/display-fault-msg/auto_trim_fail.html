@@ -1,0 +1,98 @@
+<clp-card title="Description">
+	<div><strong>
+			<h4>AUTO TRIM FAIL</h4>
+		</strong></div>
+	<br>
+	
+	<clp-table>
+		<clp-tr>
+			<clp-td>AUTO TRIM FAIL displayed on PFD</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-828</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+
+	<div><b>AUTO TRIM FAIL</b></div>
+
+	<div>The FMA shows this message when a flight guidance module (FGM) does not receive valid data from the two flap position indication unit (FPIU) channels.</div>
+	<br>
+	<div>
+		<clp-text-blue><strong>NOTE:</strong> If a pitch trim motion invalid occurs during flight, the AUTO TRIM FAIL message is shown on ground when the AP and flap pitch trim is disengaged.</clp-text-blue>
+	</div>
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+</clp-card>
+
+<br>
+
+
+
+<clp-card title="ASSOCIATED CB's">
+
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>M7</strong> FLAP POS IND L</div>
+
+			</clp-td>
+
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>F7</strong> FLAP POS IND R</div>
+
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<clp-table fullwidth="">
+		<clp-tr>
+
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>F7</strong> IOP 1</div>
+				<div><strong>F6</strong> IOP 2</div>
+			</clp-td>
+
+		</clp-tr>
+	</clp-table>
+
+
+
+</clp-card>

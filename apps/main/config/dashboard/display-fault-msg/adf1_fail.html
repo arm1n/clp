@@ -1,0 +1,99 @@
+<clp-card title="GENERAL">
+	<br>
+	
+
+	<clp-info-red><div>
+	
+			
+			<b>ADF 1 FAIL</b>
+
+	</div></clp-info-red>
+	
+	<br>
+	
+	
+	
+	<clp-table>
+
+	<clp-tr>
+		<clp-td>ADF1 FAIL message on ARCDU1</clp-td>
+		<clp-td>
+			<clp-link-pdf>FIM TASK 22-11-00-810-805</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-FIM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+
+	<clp-tr>
+		<clp-td>ADF1 FAIL message on ARCDU2</clp-td>
+		<clp-td>
+			<clp-link-pdf>FIM TASK 22-11-00-810-805</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-FIM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+</clp-table>
+	
+	
+	
+	<br>
+	<br>
+
+
+	<p>ADF1 FAIL MESSAGE ON ARCDU 1/2</p>
+	<p>This fault isolation procedure is for when the automatic direction finder 1 (ADF1) display area of audio and radio control display unit 1 (ARCDU1) shows the FAIL message.</p>	
+	
+	<p>The ADF1 display area shows a FAIL message when ARCDU1/2 does not receive valid data from ADF1 through the flight data processing system (FDPS).</p>
+
+
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<clp-info-blue><div><div><clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+		</div>
+		<ul>
+		
+		<br>
+		<li>Reset following circuit breakers on <b>AVIONICS CB PANEL:</b></li>
+		
+		<div><strong>H3</strong> ADF 1</div>
+		<div><strong>H4</strong> ADF 1</div>
+		<br>
+		<div><strong>F7</strong> IOM/IOP/FGM1</div>
+		<div><strong>F6</strong> IOM/IOP/FGM2</div>
+		<br>
+		<li>Cycle power to ARCDUs</li>
+	</ul>
+		
+		</div></clp-info-blue>
+
+	
+
+
+	<br />
+
+
+</clp-card>
+

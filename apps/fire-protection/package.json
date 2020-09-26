@@ -1,0 +1,42 @@
+{
+  "name": "@clp/fire-protection",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@clp/prettier-config": "^1.0.0",
+    "@clp/shared": "^1.0.0",
+    "@clp/util": "^1.0.0",
+    "http-proxy-middleware": "^1.0.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "transpile": "clp-transpile --root-mode upward"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "lib/app.js",
+  "proxy": "http://localhost:3500",
+  "homepage": "."
+}

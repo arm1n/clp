@@ -1,0 +1,74 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Autofeather armed lamp failed - (Engine Fault Code 324/325)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-07-810-812</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is generated as a result of an apparent indication that the autofeather arm light has failed to illuminate upon demand</p><!-- !!!! -->
+
+    <p>The fault isolation logic has determined that (AF armed lamp = off) and (AF lamp enable) and (AF state = AFFAI or AF state = AFARM).</p><!-- !!!! -->
+
+    <p>This fault code will inhibit the autofeather advisory when PLA goes into the take−off range. There is no impact on TLD. This fault is typically annunciated during the take−off roll, which will result in a rejected take−off.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Caution and Warning panel </li>
+        <li>Fuel control wiring harness </li>
+        <li>Aircraft wiring </li>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    </clp-card>
+    <br>
+
+    <br>
+</clp-card>

@@ -1,0 +1,63 @@
+<clp-card title="GENERAL">
+  
+	<clp-info-red><div>
+		<strong>Other lane. Parity Error - (Engine Fault Code 12/13)</strong>
+	</div></clp-info-red>
+	
+	<br>
+	
+	<div>
+  <clp-link-pdf>FIM TASK 61-20-01-810-805</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr>
+  </div>
+
+  <br />
+
+  <div>
+    This fault code is generated as a result of an apparent error in the FADEC to PEC RS422 data, supplied to the PEC lane that is not in control. This is indicative of an internal PEC fault. The fault isolation logic has determined that the data on the FADEC-PEC RS422 databus may be invalid. The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.
+
+  </div>
+	<br>
+	
+	<!-- Zentrale Link  -->
+  <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+  <br />
+
+  
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+  <div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+  <ul>
+	<li>PEC </li>
+	
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+	
+	
+	<br>
+	
+</clp-card>
+
+

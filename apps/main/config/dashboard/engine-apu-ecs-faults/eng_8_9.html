@@ -1,0 +1,61 @@
+<clp-card title="GENERAL">
+  
+	<clp-info-red><div>
+		<strong>Lane Changeover Failure - (Engine Fault Code 8/9)</strong>
+	</div></clp-info-red>
+	
+	<br>
+	
+	<div>
+  <clp-link-pdf>FIM TASK 61-20-01-810-803</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr>
+  </div>
+
+  <br />
+
+  <div>
+    This fault code is generated as a result of the failure of the PEC to perform a lane change when the lane in control has a lower "health" score than the other lane. Within the PEC, there is a process to determine which lane should be in control taking into account any errors on either lane. This is an indication of an internal PEC fault.<br> The fault isolation logic has determined that a lane change should have occurred within a confirmation time of 2 seconds, but has not. The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display. 
+
+  </div>
+	<br>
+	
+	<!-- Zentrale Link  -->
+  <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+  <br />
+
+  
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+  <div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+  <ul>
+	<li>PEC </li>
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+	
+	<br>
+	
+</clp-card>
+
+

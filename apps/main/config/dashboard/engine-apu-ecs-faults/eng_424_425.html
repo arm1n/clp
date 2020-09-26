@@ -1,0 +1,73 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Uptrim B logic fault - (Engine Fault Code 424/425)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 61-20-09-810-814</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code is generated as a result of a mismatch between the UPTRIM command and the electrical state of the UPTRIM discrete from Channel A of the local PEC to the opposite side FADEC.</p><!-- !!!! -->
+
+    <p>The fault logic has determined that, for a period of 1 second either:
+        – an uptrim signal logic has been sent by PEC Channel A to the opposite powerplant when required, or
+        – an uptrim signal has not been sent by Channel B to the opposite powerplant when required.</p><!-- !!!! -->
+
+    <p>This fault code will inhibit the autofeather advisory when PLA goes into the take−off range. There is no impact on TLD. This fault is typically annunciated during the take−off roll, which will result in an aborted take−off.</p><!-- !!!! -->
+
+    <p>This fault can be triggered if the discrete wire between the PEC Channel B and the opposite side FADEC is shorted to ground or shield. The opposite side FADEC may also show fault 771.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Wiring </li>
+        <li>PEC </li>
+        <li>Opposite Engine FADEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+
+    <br>
+</clp-card>

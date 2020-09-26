@@ -1,0 +1,126 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>IAS MISMATCH on PFDS</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-864</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<p> The FMA shows an IAS MISMATCH message when the Flight Data Processing System (FDPS) senses an Air Data Unit 1 (ADU 1) and ADU 2 Indicated Airspeed (IAS) difference that is more than 10 KIAS.</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The FMAs will show only the most important mismatch message and this is the primary mismatch indication.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The Air Data Computer (ADC) data must be valid and the Electronic Flight Instrument System (EFIS) ADC SOURCE reversion selector must be set to the NORM position.</clp-text-blue>
+	</p>
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<clp-table>
+				<clp-tr>
+					<clp-td>
+						<p>1.</p>
+					</clp-td>
+					<clp-td>
+						<p>Reset ADU CB´s (A6) and (A7) on avionics circuit breaker panel </p>
+					</clp-td>
+				</clp-tr>
+				<br>
+				<clp-tr>
+					<clp-td>
+						<p>2.</p>
+					</clp-td>
+					<clp-td>
+						<p>Reset ADU, AHRS and IOP CB´s on avionics circuit breaker panel:</p>
+						<ul>
+							<li>A4 AHR1</li>
+							<li>A9 AHR1</li>
+							
+							<li>A7 ADU1</li>
+							<li>A6 ADU2</li>
+							
+							<li>A3 AHR2</li>
+							<li>A10 AHR2</li>
+							
+							<li>F7 IOP/IOM/FGM1</li>
+							<li>F6 IOP/IOM/FGM2</li>
+						</ul>
+					</clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td>
+						<p>2.</p>
+					</clp-td>
+					<clp-td>
+						<p>Check pitot/static system for water ingress, clean drain holes on pitot/static probes, drain pitot/static system</p>
+					</clp-td>
+				</clp-tr>
+
+			</clp-table>
+
+			<p></p>
+
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+
+
+
+	
+
+
+</clp-card>

@@ -1,0 +1,92 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>TEMP RED SW channel 1 - (ECS Fault Code 3301)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b>Msg CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-813</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b>Msg CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-813</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>Unserviceable Wiring Harness connector 2100-P2</li>
+		<li>Unserviceable Wiring Harness connector 2100-P11</li>
+		<li>Unserviceable Temperature Reduction Over Temperature Switch</li>
+		
+
+
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card title="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Temperature Reduction Over Temperature Switch</li>
+		
+
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/bleed/units/temp_red_sov_sw.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			
+		</clp-grid-column>
+
+		<clp-grid-column>
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

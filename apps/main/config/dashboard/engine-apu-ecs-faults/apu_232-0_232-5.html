@@ -1,0 +1,66 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>BLEED SERVO SHORT ( Status ) - (APU Fault Code 232-0 to 232-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-50-00-810-804</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>This task is for the centralized diagnostic system (CDS) fault message 232−3/5 BLEED SERVO SHORT. This fault is set when the full authority digital electronic controller (FADEC) senses that there is a short in the bleed valve servo circuit.<strong> This fault will not stop auxiliary power unit (APU) operation.</strong></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Bleed Valve </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/bleed/units/apu_bl_vlv.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

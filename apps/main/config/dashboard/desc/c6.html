@@ -1,0 +1,153 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card title="General">
+			<!-- General Start -->
+
+
+			<h2>
+				<clp-text-orange>SIDE WDO HOT</clp-text-orange>
+			</h2>
+			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+			<br>
+			<div>
+				<clp-link-pdf>FIM TASK 30-40-00-810-802</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+
+			<br>
+
+			<div>The CAWP SIDE WDO HOT caution light comes on when the anti-ice controller (AIC) senses that the side window temperature is more than 52°±2°C (126° ±4°F).</div>
+
+			<div>The central diagnostic system (CDS) can show the related RIGHT WSHLD CTRL FAIL message.</div>
+
+			
+			<br>
+			<div>When the pilot's or copilot's windshield temperature is less than 34 ±2 °C or the pilot's side window temperature is less than 30 ±2 °C, the related Anti-Ice Controller activates the related activation relay that supplies 115 Vac to the heater. When the windshield temperature is above 42 ±3 °C or the pilot side window temperature is above 38 ±4 °C, the AIC deactivates the deactivation relay which opens the circuit and shuts off the power to the heater. </div>
+			<br>
+			<div>In the event the normal heating control fails, the AIC uses the overheat temperature sensor to control the heater. Temperature above 50 ±3 °C for windshield or above 52 ±3 °C for the pilot's side window deactivates both relays and shuts off the heating. </div>
+
+
+
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card title="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the pilot side window anti-icing system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-41-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+			<div><clp-text-blue><strong>NOTE:</strong> To get accurate measurements it is maybe necessary to simulate ambient flight conditions by attaching cooling packs on sensor area.</clp-text-blue></div>
+			
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card title="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>R7</strong> PLT WS/HT CONT</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>B6</strong> COPLT-WS PLT-WDO HT CONT</div>
+						<div><strong>N5</strong> PLT WDO HT RLY</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card title="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<clp-info-blue>
+				<div>
+					<clp-text-centered><clp-text-blue>Electrical Resistance Check of the Windshield and Pilot Side Window<br></clp-text-blue></clp-text-centered>
+				</div>
+			</clp-info-blue>
+			<br>
+			
+			
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			<div>Sensor resistance range (EF,AD,BC) calculation where T = Temperature in °F:</div>
+			<ul>
+				<li>Lower Resistance (Ohms) = .67T + 267.8</li>
+				<li>Upper Resistance (Ohms) = .82T + 245.4</li>
+			</ul>
+
+			<br>
+			<br>
+			<clp-info-blue>
+				<div>
+					<clp-text-centered>
+						<clp-text-blue><strong>NOTE:</strong><br> To get accurate measurements it is maybe necessary to simulate ambient flight conditions by attaching <b>cooling packs</b> on sensor area. </clp-text-blue>
+					</clp-text-centered>
+				</div>
+			</clp-info-blue>
+			<br>
+			<br>
+
+
+
+			<clp-grid>
+				
+
+				<clp-grid-column>
+					<clp-info-grey>
+						<clp-img src="./units/deice/desc/pic/side_window_sensor.svg"></clp-img>
+						<clp-text-centered>Electrical Resistance Check</clp-text-centered>
+						<clp-text-centered>
+							<clp-link-pdf>AMM TASK 30-41-00-760-802</clp-link-pdf>
+						</clp-text-centered>
+					</clp-info-grey>
+				</clp-grid-column>
+				
+				<clp-grid-column>
+					
+				</clp-grid-column>
+
+				
+			</clp-grid>
+			<br>
+			<br>
+
+
+			
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

@@ -1,0 +1,138 @@
+<clp-card title="GENERAL">
+	<br>
+
+
+	<clp-info-red>
+		<div>
+
+
+			<b>TCAS FAIL</b>
+
+		</div>
+	</clp-info-red>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>TERRAIN FAIL on both MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-43-00-810-802</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The TCAS FAIL message is shown when the traffic alert and collision avoidance system (TCAS) processor senses a condition that follows:</clp-text-blue>
+	</p>
+	<ul>
+		<li>Internal malfunction</li>
+		<li>No continuity through the TCAS top or bottom directional antenna</li>
+		<li>Does not receive valid roll or pitch data from the attitude and heading reference systems (AHRS1 and AHRS2)</li>
+		<li>Does not receive valid heading data from AHRS1 and AHRS2</li>
+		<li>Does not receive valid radio altitude data from the radio altimeters (RA1 and RA2)</li>
+		<li>TA valid pin programming malfunction</li>
+		<li> RA valid pin programming malfunction</li>
+		<li>Does not receive valid data from the set mode S transponder (ATC1 or ATC2)</li>
+		<li>Does not receive valid control data from audio and radio control display unit 1 (ARCDU1) and ARCDU2</li>
+		<li>Does not receive valid data from the air data computer (ADC1 or ADC2) that is set for altitude reporting</li>
+		<li>Gillham compare senses an encoding altitude difference</li>
+		<li> Mode S transponder and distance measuring equipment (DME) suppression</li>
+		<li>TCAS configuration module has malfunctioned</li>
+	</ul>
+	<p>The MFD can also show a weather radar STAB FAIL message.</p>
+
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The primary fault indication for the TCAS is shown in the TCAS display area of the RCDU TCAS/ATC particular page.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong>If you set the ATC1 or ATC2 to ON before you do the test, make sure that the Flight Management System 1 (FMS1) and FMS2 is ON and initialized. If you do not do this, it is possible that the related ATC1 or ATC2 will fail and the TCAS test will also fail. This is not a malfunction condition.</clp-text-blue>
+	</p>
+
+
+
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card title="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+
+			<ul>
+				<li>Ensure that no IOP 2 messsage is displayed on ED.</li>
+				<li>Reset <b>TCAS (F1)</b> CB on Avionics CB panel - <b>Wait several minutes.</b></li>
+				<br>
+				<clp-text-blue><strong>NOTE:</strong> More than one power reset might be needed and is allowed in this special case. The system requires 2 min after each reset until power up is completed. This time shall be given to the system before further attempts may be made.</clp-text-blue> 
+				<br>
+				<br>
+				<li>If TCAS is still failed, </li>
+				<ul>check fault code on TCAS processor or via maintenance terminal for further troubleshooting.</ul>
+			</ul>
+			<br>
+			<clp-text-red><b></b>CHECK LOCAL MEL.</clp-text-red>
+			<br>
+
+		</div>
+	</clp-info-blue>
+	<br>
+	<br>
+
+
+	<br>
+
+	<clp-grid>
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/antenna/units/tcas_units.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	<br>
+
+
+
+
+
+
+</clp-card>

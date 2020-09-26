@@ -1,0 +1,78 @@
+:global {
+  svg {
+    /* refs should receive interaction */
+    .clp-ref {
+      cursor: pointer;
+      // color: transparent;
+      pointer-events: all;
+    }
+
+    /* interaction only applicable for refs */
+    #clp-system,
+    #clp-hintergrund {
+      &,
+      * {
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+.default {
+  :global {
+    svg {
+      /* for SVG without "-hl" paths */
+      .clp-ref:hover :not([id$="-hl"]),
+      .clp-ref.highlighted :not([id$="-hl"]) {
+        fill: var(--svg-highlighted-color);
+      }
+
+      .clp-ref.selected :not([id$="-hl"]) {
+        fill: var(--svg-selected-color);
+      }
+
+      /* for SVG using "-hl" paths inside */
+      .clp-ref:hover [id$="-hl"],
+      .clp-ref.highlighted [id$="-hl"] {
+        fill: var(--svg-highlighted-color);
+      }
+
+      .clp-ref.selected [id$="-hl"] {
+        fill: var(--svg-selected-color);
+      }
+
+      .clp-ref [id$="-hl"],
+      .clp-ref [id$="-hl"] > * {
+        fill: transparent;
+      }
+    }
+  }
+}
+
+$opacity: 0.5;
+
+.opacity {
+  :global {
+    svg {
+      &:hover {
+        g:not(:hover) {
+          opacity: $opacity;
+        }
+        .clp-ref:hover,
+        .clp-ref.selected {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &.selection {
+    :global {
+      svg {
+        g:not(.selected) {
+          opacity: $opacity;
+        }
+      }
+    }
+  }
+}

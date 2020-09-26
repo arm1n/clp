@@ -1,0 +1,66 @@
+<clp-card title="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong> FADEC OVERTEMP ( Status ) - (APU Fault Code 143-0 to 143-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-60-00-810-802</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>The full authority digital electronic controller (FADEC) internal sensor senses a temperature that exceeds 190 °F (88 °C).</p><!-- !!!! -->
+
+	<p>These are possible causes of this fault:</p><!-- !!!! -->
+
+	<p>The temperature in the FADEC compartment is more than 190°F (88 °C)</p><!-- !!!! -->
+
+	<p>The FADEC is unserviceable</p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>APU FADEC </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/apu/units/apu_fadec.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

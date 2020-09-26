@@ -1,0 +1,70 @@
+<clp-card title="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>AF test aborted: loss of PLA permissive - (Engine Fault Code 68/69)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	<br>
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-02-810-833</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br />
+
+	<div>This fault code is generated as a result of the failure of the propeller system to successfully complete an autofeather test, directly resulting from an apparent PLA lever position at or above flight idle during the test.</div><!-- !!!! -->
+	<br>
+	<div>Pre Modsum 4W113558, the fault isolation logic has determined that PLA HI = 1 (this signal is taken from a microswitch underneath the PLA). Post Modsum 4W113558, the logic has determined that PLA HI=1 and/or the PLA angle is outside the range of 15 degrees to 25 degrees (ground idle plus or minus 5 degrees).</div><!-- !!!! -->
+	<br>
+	<div>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes. This fault code does NOT change the previous status of the autofeather test pass/fail and is a diagnostic fault code to show the AF test was aborted. This fault code only shows for 5 seconds and then self clears.</div><!-- !!!! -->
+	<br>
+	<div>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken.</div><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	<br />
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Incorrect test procedures followed (inappropriate PLA position during the test) </li><!-- !!!! -->
+		<li>PLA microswitch </li>
+		<li>PEC </li>
+		<li>FADEC (Post Modsum 4W113558 only) </li>
+        <li>Fuel Control Electrical Wiring Harness (Post Modsum 4W113558 only) </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+	
+<br>
+</clp-card>

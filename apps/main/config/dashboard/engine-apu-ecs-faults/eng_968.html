@@ -1,0 +1,73 @@
+<clp-card title="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Derate Status Mismatch - (Engine Fault Code 968)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <p>
+        <clp-link-pdf>FIM TASK 73-20-00-810-821</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </p>
+
+
+
+    <p>This fault code indicates that both engines are not receiving the same derate message or that one of the two engines is derated and not the other.</p><!-- !!!! -->
+    <p>The FADEC receives the message through the Engine Cockpit Interface Unit (ECIU).</p><!-- !!!! -->
+    <p>The most probable cause is related to operational issues.</p><!-- !!!! -->
+    <p>If both engine are not in the correct conditions before selecting the Derate button, the engine which in the correct set−up will derate and not the other one. Then fault code 968 will be flagged.</p><!-- !!!! -->
+    
+
+    <p>If following the selection of the derate button the CLA is retarded from the 1020 position, the derate function is disabled for this engine. If the CLA of the other engine is not retarded within two seconds, fault code 968 will be flagged.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card title="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Engine Control Panel </li>
+        <li>Aircraft Wiring Harness </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card title="UNIT">
+				<clp-file path="./units/eng/units/eng_cont_panel.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>
