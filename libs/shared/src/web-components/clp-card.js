@@ -19,13 +19,13 @@ import { childrenMatches } from "utils";
 // <clp-card-button-info
 //   mode="POPUP"
 //   path="./path/to/popup.html"
-//   title="Popup title for mode 'POPUP'">
+//   name="Popup name for mode 'POPUP'">
 // </clp-card-button-info>
 //
 // icon: 'INFO' or 'WRENCH'
 // path: path to html/popup file or link.
 // mode: 'INLINE', 'POPUP' or 'LINK'.
-// title: text for popup title
+// name: text for popup name
 // ----------------------------------------------------------------------------------------------------
 class CardButton extends HTMLElement {}
 
@@ -33,11 +33,11 @@ window.customElements.define("clp-card-button", CardButton);
 export { CardButton };
 
 // ----------------------------------------------------------------------------------------------------
-// Component for creating simple cards with title.
+// Component for creating simple cards with name.
 //
 // Usage:
 //
-// <clp-card title="title">Text</clp-card>
+// <clp-card name="name">Text</clp-card>
 // ----------------------------------------------------------------------------------------------------
 class Card extends HTMLElement {
   connectedCallback() {
@@ -70,14 +70,14 @@ class Card extends HTMLElement {
       return;
     }
 
-    const title = this.getAttribute("title");
+    const name = this.getAttribute("name");
     const stretch = this.getAttribute("stretch") === "false" ? false : true;
     const buttons = this.$buttons.map((button, index) => this._createButton(button, index));
 
     ReactDOM.unmountComponentAtNode(this.$wrapper);
     ReactDOM.render(
       <Router>
-        <CardWithConfigButtons title={title} stretch={stretch} buttons={buttons}>
+        <CardWithConfigButtons title={name} stretch={stretch} buttons={buttons}>
           <HTML html={this.getTemplate()} />
         </CardWithConfigButtons>
       </Router>,
@@ -98,7 +98,7 @@ class Card extends HTMLElement {
     const config = {
       path: element.getAttribute("path"),
       mode: element.getAttribute("mode"),
-      title: element.getAttribute("title"),
+      name: element.getAttribute("name"),
     };
 
     return <Button key={index} config={config} />;
@@ -106,7 +106,7 @@ class Card extends HTMLElement {
 
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
-      case "title":
+      case "name":
         this._render();
         break;
       case "stretch":
@@ -117,7 +117,7 @@ class Card extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["title", "stretch"];
+    return ["name", "stretch"];
   }
 }
 

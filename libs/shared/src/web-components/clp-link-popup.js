@@ -31,7 +31,7 @@ class LinkPopup extends HTMLElement {
     this.$link.addEventListener("click", this._clickListener);
 
     this._connected = true;
-    this._updateTitle();
+    this._updateName();
     this._updatePath();
   }
 
@@ -49,12 +49,12 @@ class LinkPopup extends HTMLElement {
 
     let {
       currentTarget: {
-        dataset: { path, title },
+        dataset: { path, name },
       },
     } = event;
 
     ReactDOM.render(
-      <Modal title={title} onClose={this._closeListener} domNode={this.$wrapper}>
+      <Modal title={name} onClose={this._closeListener} domNode={this.$wrapper}>
         <File path={path} />
       </Modal>,
       this.$wrapper
@@ -70,13 +70,13 @@ class LinkPopup extends HTMLElement {
     this.$link.dataset.path = path;
   }
 
-  _updateTitle() {
+  _updateName() {
     if (!this._connected) {
       return;
     }
 
-    const title = this.getAttribute("title");
-    this.$link.dataset.title = typeof title === "string" ? title : "";
+    const name = this.getAttribute("name");
+    this.$link.dataset.name = typeof name === "string" ? name : "";
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
@@ -84,15 +84,15 @@ class LinkPopup extends HTMLElement {
       case "path":
         this._updatePath();
         break;
-      case "title":
-        this._updateTitle();
+      case "name":
+        this._updateName();
         break;
       default:
     }
   }
 
   static get observedAttributes() {
-    return ["path", "title"];
+    return ["path", "name"];
   }
 }
 

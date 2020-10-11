@@ -14,11 +14,11 @@ import { childrenMatches } from "utils";
 //
 // Usage:
 //
-// <clp-expandable title="My Expandable">
+// <clp-expandable name="My Expandable">
 //   Content
 // </clp-expandable>
 //
-// title: text for expandable title
+// name: text for expandable name
 // ----------------------------------------------------------------------------------------------------
 class Expandable extends HTMLElement {
   connectedCallback() {
@@ -66,7 +66,7 @@ class Expandable extends HTMLElement {
       return;
     }
 
-    const name = this.getAttribute("title");
+    const name = this.getAttribute("name");
 
     ReactDOM.unmountComponentAtNode(this.$wrapper);
     ReactDOM.render(
@@ -87,8 +87,8 @@ export { Expandable };
 // Usage:
 //
 // <clp-accordion>
-//   <clp-expandable title="Expandable #1">Expandable 1</clp-expandable>
-//   <clp-expandable title="Expandable #2">Expandable 2</clp-expandable>
+//   <clp-expandable name="Expandable #1">Expandable 1</clp-expandable>
+//   <clp-expandable name="Expandable #2">Expandable 2</clp-expandable>
 // </clp-accordion>
 // ----------------------------------------------------------------------------------------------------
 class Accordion extends HTMLElement {
@@ -131,7 +131,7 @@ class Accordion extends HTMLElement {
   }
 
   _createExpandable(element, index) {
-    let name = element.getAttribute("title");
+    let name = element.getAttribute("name");
     let html = element.getTemplate();
 
     return (

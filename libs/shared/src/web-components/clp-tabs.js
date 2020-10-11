@@ -7,18 +7,18 @@ import {
   Tabs as TabsComponent,
 } from "components";
 
-import { childrenMatches, isOverflowing } from "utils";
+import { childrenMatches } from "utils";
 
 // ----------------------------------------------------------------------------------------------------
 // Component for creating single tab with content.
 //
 // Usage:
 //
-// <clp-tab title="My Tab">
+// <clp-tab name="My Tab">
 //   Content
 // </clp-tab>
 //
-// title: text for tab title
+// name: text for tab name
 // ----------------------------------------------------------------------------------------------------
 class Tab extends HTMLElement {}
 
@@ -26,13 +26,13 @@ window.customElements.define("clp-tab", Tab);
 export { Tab };
 
 // ----------------------------------------------------------------------------------------------------
-// Component for creating simple tabs with title.
+// Component for creating simple tabs with name.
 //
 // Usage:
 //
 // <clp-tabs>
-//   <clp-tab title="Tab #1">Tab 1</clp-tab>
-//   <clp-tab title="Tab #2">Tab 2</clp-tab>
+//   <clp-tab name="Tab #1">Tab 1</clp-tab>
+//   <clp-tab name="Tab #2">Tab 2</clp-tab>
 // </clp-tabs>
 // ----------------------------------------------------------------------------------------------------
 class Tabs extends HTMLElement {
@@ -73,8 +73,10 @@ class Tabs extends HTMLElement {
   }
 
   _createTab(element, index) {
-    let name = element.getAttribute("title");
+    let name = element.getAttribute("name");
     let html = element.innerHTML;
+
+    console.log(element);
 
     return (
       <TabComponent key={index} name={name}>

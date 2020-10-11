@@ -234,17 +234,17 @@ An element to make consistent grids:
 
 ### Cards
 
-An element to make a blue card with a title:
+An element to make a blue card with a name:
 
 ```
-<clp-card title="Title">
+<clp-card name="Name">
 </clp-card>
 ```
 
 Cards can also contain buttons by placing `<clp-card-button>` elements inside `<clp-card>`:
 
 ```
-<clp-card title="Title">
+<clp-card name="Name">
   <!-- button opening another page -->
   <clp-card-button path="/ele" icon="INFO" mode="LINK"></clp-card-button>
 
@@ -259,12 +259,12 @@ Cards can also contain buttons by placing `<clp-card-button>` elements inside `<
 `path`: Path to html/popup (`INLINE`/`POPUP`) or to page (`LINK`)\
 `icon`: One of `INFO` (default) or `WRENCH`\
 `mode`: One of `INLINE`, `POPUP` or `LINK`\
-`title`: Optional title for popup
+`name`: Optional name for popup
 
 If you want a card to not automatically expand to its parent container's height use `stretch`:
 
 ```
-<clp-card title="Title" stretch="false">
+<clp-card name="Name" stretch="false">
 </clp-card>
 ```
 
@@ -274,13 +274,13 @@ An element to wrap contents into single tabs to save space.
 
 ```
 <clp-tabs>
-  <clp-tab title="Tab #1">Tab #1</clp-tab>
-  <clp-tab title="Tab #2">Tab #2</clp-tab>
-  <clp-tab title="Tab #3">Tab #3</clp-tab>
+  <clp-tab name="Tab #1">Tab #1</clp-tab>
+  <clp-tab name="Tab #2">Tab #2</clp-tab>
+  <clp-tab name="Tab #3">Tab #3</clp-tab>
 </clp-tabs>
 ```
 
-`title`: Title for tab to be shown in navbar
+`name`: Name for tab to be shown in navbar
 
 <div class="page-break"></div>
 
@@ -290,13 +290,13 @@ An element to wrap contents into expandable items to save space and toggles open
 
 ```
 <clp-accordion>
-  <clp-expandable title="Expandable #1">Expandable #1</clp-expandable>
-  <clp-expandable title="Expandable #2">Expandable #2</clp-expandable>
-  <clp-expandable title="Expandable #3">Expandable #3</clp-expandable>
+  <clp-expandable name="Expandable #1">Expandable #1</clp-expandable>
+  <clp-expandable name="Expandable #2">Expandable #2</clp-expandable>
+  <clp-expandable name="Expandable #3">Expandable #3</clp-expandable>
 </clp-accordion>
 ```
 
-`title`: Title for expandable to be shown in header
+`name`: Name for expandable to be shown in header
 
 Note: You can also use `<clp-expandable>` standalone!
 
