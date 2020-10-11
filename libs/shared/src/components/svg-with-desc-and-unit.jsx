@@ -102,6 +102,9 @@ export const SVGWithDescAndUnit = ({
     [desc, unit]
   );
 
+  const descClassName = useMemo(() => [styles.desc, styles.card].join(" "), []);
+  const unitClassName = useMemo(() => [styles.unit, styles.card].join(" "), [])
+
   return (
     <Fragment>
       <div className={styles.svg}>
@@ -119,15 +122,8 @@ export const SVGWithDescAndUnit = ({
       </div>
       {(selectedRef && (
         <div className={contentClassName}>
-          {desc && (
-            <div className={styles.card}>
-              <Card title="Description" onClose={closeHandler}>
-                <File path={desc} />
-              </Card>
-            </div>
-          )}
           {unit && (
-            <div className={styles.card}>
+            <div className={unitClassName}>
               <CardWithConfigButtons
                 title="Unit"
                 onClose={closeHandler}
@@ -137,6 +133,13 @@ export const SVGWithDescAndUnit = ({
                 ]}>
                 <File path={unit} />
               </CardWithConfigButtons>
+            </div>
+          )}
+          {desc && (
+            <div className={descClassName}>
+              <Card title="Description" onClose={closeHandler}>
+                <File path={desc} />
+              </Card>
             </div>
           )}
         </div>
