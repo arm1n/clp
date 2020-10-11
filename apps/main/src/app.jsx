@@ -17,6 +17,7 @@ import { App as Gear } from "@clp/gear";
 import { App as Hgs } from "@clp/hgs";
 import { App as Hyd } from "@clp/hyd";
 import { App as Lights } from "@clp/lights";
+import { App as NuisanceWarning } from "@clp/nuisance-warning";
 import { App as UnitLocation } from "@clp/unit-location";
 
 import { Main } from "components/main";
@@ -53,8 +54,11 @@ export const App = () => (
       <Page path="/access">
         <Access />
       </Page>
-       <Page path="/connector-finder">
+      <Page path="/connector-finder">
         <ConnectorFinder />
+      </Page>
+      <Page path="/nuisance-warning">
+        <NuisanceWarning />
       </Page>
       <Page path="/unit-location">
         <UnitLocation />

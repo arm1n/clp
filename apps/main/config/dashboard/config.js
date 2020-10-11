@@ -10518,7 +10518,7 @@ export const MAIN_NAV = [
       {
         name: "NUISANCE WARNING",
         icon: "./apps/main/config/dashboard/pic/show/nuisance_warning.svg",
-        path: null,
+        path: "/nuisance-warning",
         mode: "INTERNAL",
       },
       {

@@ -1044,16 +1044,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@clp/util@file:libs/util":
-  version "1.0.0"
-  dependencies:
-    "@babel/cli" "^7.8.4"
-    "@babel/core" "^7.9.0"
-    "@babel/preset-react" "^7.9.4"
-    babel-plugin-inline-react-svg "^1.1.1"
-    babel-plugin-module-resolver "^4.0.0"
-    babel-plugin-syntax-dynamic-import "^6.18.0"
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
