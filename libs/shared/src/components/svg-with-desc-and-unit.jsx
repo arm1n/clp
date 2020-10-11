@@ -11,7 +11,7 @@ import { CardConfigButtonInfo, CardConfigButtonWrench } from "./card-config-butt
 import styles from "./svg-with-desc-and-unit.module.scss";
 
 /**
- * Wrapper around <FileWithRefs> showing contents 
+ * Wrapper around <FileWithRefs> showing contents
  * for refs below from loaded file paths in cards.
  *
  * Usage:
@@ -50,24 +50,21 @@ export const SVGWithDescAndUnit = ({
         : defaultGetPathForRef({
             ...queryParams,
             ...{
-              [queryParam]: ref[queryParam] !== param ? ref[queryParam] : null,
+              [queryParam]: ref !== null ? ref[queryParam] : null,
             },
           }),
-    [customGetPathForRef, defaultGetPathForRef, queryParams, queryParam, param]
+    [customGetPathForRef, defaultGetPathForRef, queryParams, queryParam]
   );
 
   const selectRefHandler = useCallback(
     (ref) => {
-      customOnSelectRef(ref[queryParam] !== param ? ref : null);
+      customOnSelectRef(ref);
       navigate(getPathForRef(ref));
     },
-    [param, navigate, queryParam, customOnSelectRef, getPathForRef]
+    [navigate, customOnSelectRef, getPathForRef]
   );
 
-  const closeHandler = useCallback(() => selectRefHandler(selectedRef), [
-    selectRefHandler,
-    selectedRef,
-  ]);
+  const closeHandler = useCallback(() => selectRefHandler(null), [selectRefHandler]);
 
   const createPath = useCallback(
     (parts) => {
