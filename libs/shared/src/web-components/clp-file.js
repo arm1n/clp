@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 
 import { File as FileComponent } from "components";
 
+import { Base } from "./clp-base";
+
 // ----------------------------------------------------------------------------------------------------
 // Component for loading and displaying a HTML file in-place.
 //
@@ -10,26 +12,8 @@ import { File as FileComponent } from "components";
 //
 // <clp-file path="/path/to/html.file">Text</clp-file>
 // ----------------------------------------------------------------------------------------------------
-class File extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
-      <div class="clp-file-wrapper"></div>
-    `;
-
-    this.$wrapper = this.querySelector(".clp-file-wrapper");
-    this._connected = true;
-    this._render();
-  }
-
-  disconnectedCallback() {
-    this._connected = false;
-  }
-
-  _render() {
-    if (!this._connected) {
-      return;
-    }
-
+class File extends Base {
+  render() {
     const path = this.getAttribute("path");
 
     ReactDOM.unmountComponentAtNode(this.$wrapper);
@@ -39,7 +23,7 @@ class File extends HTMLElement {
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
       case "path":
-        this._render();
+        this.update();
         break;
       default:
     }
@@ -47,6 +31,10 @@ class File extends HTMLElement {
 
   static get observedAttributes() {
     return ["path"];
+  }
+
+  static get componentId() {
+    return "file";
   }
 }
 

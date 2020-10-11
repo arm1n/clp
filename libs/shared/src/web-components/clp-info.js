@@ -6,9 +6,7 @@
 // <clp-info-grey>
 // </clp-info-grey>
 // ----------------------------------------------------------------------------------------------------
-class InfoGrey extends HTMLElement {
-  
-}
+class InfoGrey extends HTMLElement {}
 
 window.customElements.define("clp-info-grey", InfoGrey);
 export { InfoGrey };
@@ -21,9 +19,7 @@ export { InfoGrey };
 // <clp-info-blue>
 // </clp-info-blue>
 // ----------------------------------------------------------------------------------------------------
-class InfoBlue extends HTMLElement {
-  
-}
+class InfoBlue extends HTMLElement {}
 
 window.customElements.define("clp-info-blue", InfoBlue);
 export { InfoBlue };
@@ -36,9 +32,7 @@ export { InfoBlue };
 // <clp-info-green>
 // </clp-info-green>
 // ----------------------------------------------------------------------------------------------------
-class InfoGreen extends HTMLElement {
-  
-}
+class InfoGreen extends HTMLElement {}
 
 window.customElements.define("clp-info-green", InfoGreen);
 export { InfoGreen };
@@ -51,9 +45,7 @@ export { InfoGreen };
 // <clp-info-red>
 // </clp-info-red>
 // ----------------------------------------------------------------------------------------------------
-class InfoRed extends HTMLElement {
-  
-}
+class InfoRed extends HTMLElement {}
 
 window.customElements.define("clp-info-red", InfoRed);
 export { InfoRed };
@@ -66,9 +58,7 @@ export { InfoRed };
 // <clp-info-orange>
 // </clp-info-orange>
 // ----------------------------------------------------------------------------------------------------
-class InfoOrange extends HTMLElement {
-  
-}
+class InfoOrange extends HTMLElement {}
 
 window.customElements.define("clp-info-orange", InfoOrange);
 export { InfoOrange };

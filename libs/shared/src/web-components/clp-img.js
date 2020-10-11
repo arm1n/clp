@@ -1,6 +1,8 @@
 import { BASE_PATH } from "config";
 import { joinPaths } from "utils";
 
+import { Base } from "./clp-base";
+
 // ----------------------------------------------------------------------------------------------------
 // Component for creating <img> tags relative to root.
 //
@@ -8,57 +10,29 @@ import { joinPaths } from "utils";
 //
 // <clp-img src="./relative/path/to/image.svg"></clp-img>
 // ----------------------------------------------------------------------------------------------------
-class Img extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `<img class="clp-img" />`;
-    this.$img = this.querySelector(".clp-img");
-
-    this._connected = true;
-
-    this._updateAttr('height');
-    this._updateAttr('width');
-    this._updateSrc();
-  }
-
-  disconnectedCallback() {
-    this._connected = false;
-  }
-
-  _updateSrc() {
-    if (!this._connected) {
-      return;
-    }
-
+class Img extends Base {
+  render() {
     let src = this.getAttribute("src");
     if (src === null) {
       return;
     }
 
     src = joinPaths([BASE_PATH, src]);
-    this.$img.setAttribute("src", src);
-  }
 
-  _updateAttr(key) {
-    if (!this._connected) {
-      return;
-    }
+    const width = this.getAttribute("width") || "auto";
+    const height = this.getAttribute("height") || "auto";
 
-    let value = this.getAttribute(key);
-    if (value === null) {
-      return;
-    }
-    
-    this.$img.setAttribute(key, value);
+    this.$wrapper.innerHTML = `
+      <img src="${src}" width="${width}" height="${height}" />
+    `;
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
       case "src":
-        this._updateSrc();
-        break;
       case "width":
       case "height":
-        this._updateAttr(name);
+        this.update();
         break;
       default:
     }
@@ -66,6 +40,10 @@ class Img extends HTMLElement {
 
   static get observedAttributes() {
     return ["src", "width", "height"];
+  }
+
+  static get componentId() {
+    return "img";
   }
 }
 

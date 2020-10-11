@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import {
-  HTML,
-  Link,
-  Router,
-} from "components";
+import { HTML, Link, Router } from "components";
+
+import { Base } from "./clp-base";
 
 // ----------------------------------------------------------------------------------------------------
 // Component for creating <a> tags relative to root.
@@ -14,32 +12,15 @@ import {
 //
 // <clp-a href="./path/to/file.pdf">My PDF</clp-a>
 // ----------------------------------------------------------------------------------------------------
-class LinkNav extends HTMLElement {
-  connectedCallback() {
-    this._html = this.innerHTML;
-    this.innerHTML = `<div class="clp-link-nav-wrapper"></div>`
-    this.$wrapper = this.querySelector(".clp-link-nav-wrapper");
-
-    this._connected = true;
-    this._render();
-  }
-
-  disconnectedCallback() {
-    this._connected = false;
-  }
-
-  _render() {
-    if (!this._connected) {
-      return;
-    }
-
+class LinkNav extends Base {
+  render() {
     const path = this.getAttribute("path");
 
     ReactDOM.unmountComponentAtNode(this.$wrapper);
     ReactDOM.render(
       <Router>
         <Link path={path}>
-          <HTML html={this._html} />
+          <HTML html={this.template} />
         </Link>
       </Router>,
       this.$wrapper
@@ -49,7 +30,7 @@ class LinkNav extends HTMLElement {
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
       case "path":
-        this._render();
+        this.update();
         break;
       default:
     }
@@ -57,6 +38,10 @@ class LinkNav extends HTMLElement {
 
   static get observedAttributes() {
     return ["path"];
+  }
+
+  static get componentId() {
+    return "link-nav";
   }
 }
 

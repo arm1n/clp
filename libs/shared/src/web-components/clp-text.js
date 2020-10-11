@@ -5,9 +5,7 @@
 //
 // <clp-text-blue>Blue text</clp-text-blue>
 // ----------------------------------------------------------------------------------------------------
-class TextBlue extends HTMLElement {
-  
-}
+class TextBlue extends HTMLElement {}
 
 window.customElements.define("clp-text-blue", TextBlue);
 export { TextBlue };
@@ -19,9 +17,7 @@ export { TextBlue };
 //
 // <clp-text-green>Green text</clp-text-green>
 // ----------------------------------------------------------------------------------------------------
-class TextGreen extends HTMLElement {
-  
-}
+class TextGreen extends HTMLElement {}
 
 window.customElements.define("clp-text-green", TextGreen);
 export { TextGreen };
@@ -33,9 +29,7 @@ export { TextGreen };
 //
 // <clp-text-red>Red text</clp-text-red>
 // ----------------------------------------------------------------------------------------------------
-class TextRed extends HTMLElement {
-  
-}
+class TextRed extends HTMLElement {}
 
 window.customElements.define("clp-text-red", TextRed);
 export { TextRed };
@@ -47,9 +41,7 @@ export { TextRed };
 //
 // <clp-text-orange>Red text</clp-text-orange>
 // ----------------------------------------------------------------------------------------------------
-class TextOrange extends HTMLElement {
-  
-}
+class TextOrange extends HTMLElement {}
 
 window.customElements.define("clp-text-orange", TextOrange);
 export { TextOrange };
@@ -61,9 +53,7 @@ export { TextOrange };
 //
 // <clp-text-left>Left text</clp-text-left>
 // ----------------------------------------------------------------------------------------------------
-class TextLeft extends HTMLElement {
-  
-}
+class TextLeft extends HTMLElement {}
 
 window.customElements.define("clp-text-left", TextLeft);
 export { TextLeft };
@@ -75,9 +65,7 @@ export { TextLeft };
 //
 // <clp-text-centered>Centered text</clp-text-centered>
 // ----------------------------------------------------------------------------------------------------
-class TextCentered extends HTMLElement {
-  
-}
+class TextCentered extends HTMLElement {}
 
 window.customElements.define("clp-text-centered", TextCentered);
 export { TextCentered };
@@ -89,9 +77,7 @@ export { TextCentered };
 //
 // <clp-text-right>Right aligned</clp-text-right>
 // ----------------------------------------------------------------------------------------------------
-class TextRight extends HTMLElement {
-  
-}
+class TextRight extends HTMLElement {}
 
 window.customElements.define("clp-text-right", TextRight);
 export { TextRight };

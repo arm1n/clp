@@ -9,6 +9,8 @@ import {
 
 import { childrenMatches } from "utils";
 
+import { Base } from "./clp-base";
+
 // ----------------------------------------------------------------------------------------------------
 // Component for creating single expandable with content.
 //
@@ -20,32 +22,22 @@ import { childrenMatches } from "utils";
 //
 // name: text for expandable name
 // ----------------------------------------------------------------------------------------------------
-class Expandable extends HTMLElement {
-  connectedCallback() {
+class Expandable extends Base {
+  render() {
     if (!this._isStandalone()) {
+      console.log('>>>');
       return;
     }
 
-    this.innerHTML = `
-      <div class="clp-expandable-wrapper"></div>
-      <div class="clp-expandable-template">${this.getTemplate()}</div>
-    `;
+    const name = this.getAttribute("name");
 
-    this.$wrapper = this.querySelector(".clp-expandable-wrapper");
-
-    this._connected = true;
-    this._render();
-  }
-
-  disconnectedCallback() {
-    this._connected = false;
-  }
-
-  getTemplate() {
-    var $template = this.querySelector(".clp-expandable-template");
-    var reference = $template !== null ? $template : this;
-
-    return reference.innerHTML;
+    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.render(
+      <ExpandableComponent name={name}>
+        <HTML html={this.template} />
+      </ExpandableComponent>,
+      this.$wrapper
+    );
   }
 
   _isStandalone() {
@@ -61,20 +53,8 @@ class Expandable extends HTMLElement {
     return true;
   }
 
-  _render() {
-    if (!this._connected) {
-      return;
-    }
-
-    const name = this.getAttribute("name");
-
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
-    ReactDOM.render(
-      <ExpandableComponent name={name}>
-        <HTML html={this.getTemplate()} />
-      </ExpandableComponent>,
-      this.$wrapper
-    );
+  static get componentId() {
+    return "expandable";
   }
 }
 
@@ -91,40 +71,19 @@ export { Expandable };
 //   <clp-expandable name="Expandable #2">Expandable 2</clp-expandable>
 // </clp-accordion>
 // ----------------------------------------------------------------------------------------------------
-class Accordion extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
-      <div class="clp-accordion-wrapper"></div>
-      <div class="clp-accordion-template">${this.getTemplate()}</div>
-    `;
+class Accordion extends Base {
+  constructor() {
+    super();
 
-    this.$wrapper = this.querySelector(".clp-accordion-wrapper");
-    this.$template = this.querySelector(".clp-accordion-template");
     this.$expandables = Array.from(childrenMatches(this.$template, "clp-expandable"));
-
-    this._connected = true;
-    this._render();
   }
 
-  disconnectedCallback() {
-    this._connected = false;
-  }
-
-  getTemplate() {
-    var $template = this.querySelector(".clp-accordion-template");
-    var reference = $template !== null ? $template : this;
-
-    return reference.innerHTML;
-  }
-
-  _render() {
-    if (!this._connected) {
-      return;
-    }
-
+  render() {
     const expandables = this.$expandables.map((expandable, index) =>
       this._createExpandable(expandable, index)
     );
+
+    console.log(this);
 
     ReactDOM.unmountComponentAtNode(this.$wrapper);
     ReactDOM.render(<AccordionComponent>{expandables}</AccordionComponent>, this.$wrapper);
@@ -132,13 +91,17 @@ class Accordion extends HTMLElement {
 
   _createExpandable(element, index) {
     let name = element.getAttribute("name");
-    let html = element.getTemplate();
+    let html = element.template;
 
     return (
       <ExpandableComponent key={index} name={name}>
         <HTML html={html} />
       </ExpandableComponent>
     );
+  }
+
+  static get componentId() {
+    return "accordion";
   }
 }
 

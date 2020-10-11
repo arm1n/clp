@@ -1,6 +1,8 @@
 import { BASE_PATH } from "config";
 import { joinPaths } from "utils";
 
+import { Base } from "./clp-base";
+
 // ----------------------------------------------------------------------------------------------------
 // Component for creating <a> tags relative to root.
 //
@@ -8,37 +10,25 @@ import { joinPaths } from "utils";
 //
 // <clp-a href="./path/to/file.pdf">My PDF</clp-a>
 // ----------------------------------------------------------------------------------------------------
-class A extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `<a class="clp-a" target="_blank">${this.innerHTML}</a>`;
-    this.$a = this.querySelector(".clp-a");
-
-    this._connected = true;
-    this._updateHref();
-  }
-
-  disconnectedCallback() {
-    this._connected = false;
-  }
-
-  _updateHref() {
-    if (!this._connected) {
-      return;
-    }
-
+class A extends Base {
+  render() {
     let href = this.getAttribute("href");
     if (href === null) {
       return;
     }
 
     href = joinPaths([BASE_PATH, href]);
-    this.$a.setAttribute("href", href);
+    this.$wrapper.innerHTML = `
+      <a href="${href}">
+        ${this.template}
+      </a>
+    `;
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
       case "href":
-        this._updateHref();
+        this.update();
         break;
       default:
     }
@@ -46,6 +36,10 @@ class A extends HTMLElement {
 
   static get observedAttributes() {
     return ["href"];
+  }
+
+  static get componentId() {
+    return "a";
   }
 }
 

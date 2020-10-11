@@ -8,9 +8,7 @@
 //   <clp-grid-column>Column #2</clp-grid-column>
 // </clp-grid>
 // ----------------------------------------------------------------------------------------------------
-class Grid extends HTMLElement {
-  
-}
+class Grid extends HTMLElement {}
 
 window.customElements.define("clp-grid", Grid);
 export { Grid };

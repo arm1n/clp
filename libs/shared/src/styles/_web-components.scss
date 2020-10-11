@@ -6,6 +6,14 @@
  * Styles for all web-components without shadow dom.
  * ---------------------------------------------------------------------------------------------------- */
 
+.clp-template {
+  display: none;
+}
+
+.clp-wrapper {
+  display: none;
+}
+
 clp-img {
   display: block;
 
@@ -106,26 +114,13 @@ clp-link {
   }
 }
 
-clp-link-pdf {
-  white-space: nowrap;
-  display: inline-block;
-
-  .clp-link-pdf {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--text-color-link);
-
-    &:hover {
-      color: var(--text-color-link-hover);
-    }
-  }
-}
-
+clp-link-pdf,
 clp-link-tr {
   white-space: nowrap;
   display: inline-block;
 
-  .clp-link-tr {
+  .clp-link-pdf-a,
+  .clp-link-tr-a {
     display: inline-block;
     text-decoration: none;
     color: var(--text-color-link);
@@ -135,6 +130,8 @@ clp-link-tr {
     }
   }
 }
+
+clp-link-popup {}
 
 clp-link-ref {
   display: inline-block;
@@ -395,35 +392,12 @@ clp-card {
   .clp-card-wrapper {
     flex-grow: 1;
   }
-  .clp-card-template {
-    display: none;
-  }
 }
 
 clp-card-button {
   display: none;
 }
 
-clp-tabs {
-  .clp-tabs-wrapper {
-  }
-  .clp-tabs-template {
-    display: none;
-  }
-}
-
-clp-accordion {
-  .clp-accordion-wrapper {
-  }
-  .clp-accordion-template {
-    display: none;
-  }
-}
-
-clp-expandable {
-  .clp-expandable-wrapper {
-  }
-  .clp-expandable-template {
-    display: none;
-  }
-}
+clp-tabs {}
+clp-accordion {}
+clp-expandable {}

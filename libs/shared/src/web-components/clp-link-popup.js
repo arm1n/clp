@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 
 import { File, Modal } from "components";
 
+import { Base } from "./clp-base";
+
 // ----------------------------------------------------------------------------------------------------
 // Component for creating links opening a popup with given HTML file.
 //
@@ -10,38 +12,44 @@ import { File, Modal } from "components";
 //
 // <clp-link-popup path="/path/to/html.file">Text</clp-link-popup>
 // ----------------------------------------------------------------------------------------------------
-class LinkPopup extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+class LinkPopup extends Base {
+  render() {
+    const path = this.getAttribute("path") || "";
+    const name = this.getAttribute("name") || "";
+
+    this.$wrapper.innerHTML = `
       <a 
         href="#"
         target="_blank"
-        class="clp-link-popup">
-        ${this.innerHTML}
+        data-path="${path}"
+        data-name="${name}"
+        class="clp-link-popup-a">
+        ${this.template}
       </a>
-      <div class="clp-link-popup-wrapper"></div>
+      <div class="clp-link-popup-container"></div>
     `;
+  }
 
-    this.$link = this.querySelector(".clp-link-popup");
-    this.$wrapper = this.querySelector(".clp-link-popup-wrapper");
+  connectedCallback() {
+    super.connectedCallback();
 
     this._clickListener = this._clickCallback.bind(this);
     this._closeListener = this._closeCallback.bind(this);
 
+    this.$link = this.querySelector(".clp-link-popup-a");
     this.$link.addEventListener("click", this._clickListener);
 
-    this._connected = true;
-    this._updateName();
-    this._updatePath();
+    this.$container = this.querySelector(".clp-link-popup-container");
   }
 
   disconnectedCallback() {
+    super.disconnectedCallback();
+
     this.$link.removeEventListener("click", this._clickListener);
-    this._connected = false;
   }
 
   _closeCallback() {
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this.$container);
   }
 
   _clickCallback(event) {
@@ -54,38 +62,18 @@ class LinkPopup extends HTMLElement {
     } = event;
 
     ReactDOM.render(
-      <Modal title={name} onClose={this._closeListener} domNode={this.$wrapper}>
+      <Modal title={name} onClose={this._closeListener} domNode={this.$container}>
         <File path={path} />
       </Modal>,
-      this.$wrapper
+      this.$container
     );
-  }
-
-  _updatePath() {
-    if (!this._connected) {
-      return;
-    }
-
-    const path = this.getAttribute("path");
-    this.$link.dataset.path = path;
-  }
-
-  _updateName() {
-    if (!this._connected) {
-      return;
-    }
-
-    const name = this.getAttribute("name");
-    this.$link.dataset.name = typeof name === "string" ? name : "";
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
       case "path":
-        this._updatePath();
-        break;
       case "name":
-        this._updateName();
+        this.update();
         break;
       default:
     }
@@ -93,6 +81,10 @@ class LinkPopup extends HTMLElement {
 
   static get observedAttributes() {
     return ["path", "name"];
+  }
+
+  static get componentId() {
+    return "link-popup";
   }
 }
 
