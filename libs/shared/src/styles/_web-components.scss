@@ -15,9 +15,13 @@
 clp-img {
   display: block;
 
-  &,
-  img {
+  &, img {
     max-width: 100%;
+  }
+
+  &[icon] {
+    display: inline-block;
+    vertical-align: middle;
   }
 }
 

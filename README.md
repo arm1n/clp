@@ -116,6 +116,10 @@ To link to images or svgs with relative paths use: `<clp-img src="./relative/pat
 
 Example: `<clp-img src="./units/ele/overview/unit/unit.svg"></clp-img>`
 
+`width`: Set a custom width in px.\
+`height`: Set a custom height in px.\
+`icon`: Inlines and aligns vertically centered.
+
 ### Text colors
 
 To make part of a text orange use: `<clp-text-orange>Orange</clp-text-orange>`.\
@@ -147,6 +151,8 @@ Example 1 (text only):
 <clp-info-red>Im an informative text.</clp-info-red>
 ```
 
+<div class="page-break"></div>
+
 Example 2 (with header & image):
 
 ```
@@ -160,8 +166,6 @@ Example 2 (with header & image):
 	</clp-table>
 </clp-info-red>
 ```
-
-<div class="page-break"></div>
 
 ### HTML links
 
@@ -242,6 +246,9 @@ An element to make a blue card with a name:
 
 ```
 <clp-card name="Name">
+  <p>
+    Some HTML here
+  </p>
 </clp-card>
 ```
 
@@ -272,8 +279,6 @@ If you want a card to not automatically expand to its parent container's height 
 <clp-card name="Name" stretch="false">
 </clp-card>
 ```
-
-<div class="page-break"></div>
 
 ### Tabs
 
