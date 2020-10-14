@@ -9,12 +9,14 @@
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  *   show_in_search: flag if this item is in search or only in SVG,
  * }
@@ -238,12 +240,14 @@ export const SVG_PATH_LH_SIDE = "./apps/anvs/config/atva-actuators/pic/lh-side.s
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  * }
  */

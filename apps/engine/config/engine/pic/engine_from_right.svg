@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="eng-rh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 978 513.1" style="enable-background:new 0 0 978 513.1;" xml:space="preserve">
 <style type="text/css">
@@ -10,7 +10,7 @@
 	.st4{fill:#3B3633;fill-opacity:0.7529;}
 	.st5{fill:#534C49;fill-opacity:0.7529;}
 	.st6{fill:none;}
-	.st7{display:none;fill:#999999;fill-opacity:0.502;}
+	.st7{fill:#999999;fill-opacity:0.502;}
 	.st8{fill:none;stroke:#2D2C2E;stroke-width:0.35;stroke-miterlimit:4.9998;}
 	.st9{fill:#2D2C2E;}
 	.st10{fill:none;stroke:#2D2C2E;stroke-width:0.35;stroke-miterlimit:59.9981;}
@@ -245,9 +245,9 @@
 		l-0.8-3.9l0.9-3l-5.5-3.1l-0.6-2.9l-1.1-0.9l-2.6,0.1l-0.9,0.7l-1.5-0.1L516,411L516,411z"/>
 </g>
 <g id="clp-nl-sensor">
-	<path id="clp-nl-sensor-hl" class="st7" d="M564.7,283.3l-1.5,4.1l0.5,2.2l3.1,1.8l0.9-1l2.2-1l-2.2,0.9L564.7,283.3 M597.2,293.7
+	<path id="clp-nl-sensor-hl" class="st7" d="M644.2,243.4l-1.5,4.1l0.5,2.2l3.1,1.8l0.9-1l2.2-1l-2.2,0.9L644.2,243.4 M676.7,253.8
 		l0.8-2.6l-3.4-4.2l-7.2-1.7l-1.7,1l-1.6-1.7l-4.2-1.3l-2.4,0.5l-1.1-2.4l-5.2-3.1l-1.7-0.2l-1.1,1.3l-0.8,2.5l0.3,3.1l2.1,4.6
-		l2.6-0.6l11.9,1.3l1,1.3v2.3l6,1.6L597.2,293.7L597.2,293.7z"/>
+		l2.6-0.6l11.9,1.3l1,1.3v2.3l6,1.6L676.7,253.8L676.7,253.8z"/>
 </g>
 <g id="clp-p3-transd">
 	<path id="clp-p3-transd-hl" class="st6" d="M537.6,172.5l-0.6-6.2l-2.8-2.9l-3.3,4.2l0.1,1.5l-12,7l-3.1,1L502,185l-0.9,1.1

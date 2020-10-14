@@ -28,6 +28,7 @@ import { Base } from "./clp-base";
 // path: path to html/popup file or link.
 // mode: 'INLINE', 'POPUP' or 'LINK'.
 // name: text for popup name
+// size: 'size-1', 'size-2', 'size-3', 'size-4' or '' (= auto)
 // ----------------------------------------------------------------------------------------------------
 class CardButton extends HTMLElement {}
 
@@ -42,14 +43,13 @@ export { CardButton };
 // <clp-card name="name">Text</clp-card>
 // ----------------------------------------------------------------------------------------------------
 class Card extends Base {
-  constructor() {
-    super();
-
+  setup() {
     this.$buttons = Array.from(childrenMatches(this.$template, "clp-card-button"));
   }
 
   render() {
     const name = this.getAttribute("name");
+
     const stretch = this.getAttribute("stretch") === "false" ? false : true;
     const buttons = this.$buttons.map((button, index) => this._createButton(button, index));
 
@@ -78,6 +78,7 @@ class Card extends Base {
       path: element.getAttribute("path"),
       mode: element.getAttribute("mode"),
       name: element.getAttribute("name"),
+      size: element.getAttribute("size"),
     };
 
     return <Button key={index} config={config} />;

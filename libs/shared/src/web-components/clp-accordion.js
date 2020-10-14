@@ -25,7 +25,6 @@ import { Base } from "./clp-base";
 class Expandable extends Base {
   render() {
     if (!this._isStandalone()) {
-      console.log('>>>');
       return;
     }
 
@@ -72,9 +71,7 @@ export { Expandable };
 // </clp-accordion>
 // ----------------------------------------------------------------------------------------------------
 class Accordion extends Base {
-  constructor() {
-    super();
-
+  setup() {
     this.$expandables = Array.from(childrenMatches(this.$template, "clp-expandable"));
   }
 
@@ -82,8 +79,6 @@ class Accordion extends Base {
     const expandables = this.$expandables.map((expandable, index) =>
       this._createExpandable(expandable, index)
     );
-
-    console.log(this);
 
     ReactDOM.unmountComponentAtNode(this.$wrapper);
     ReactDOM.render(<AccordionComponent>{expandables}</AccordionComponent>, this.$wrapper);

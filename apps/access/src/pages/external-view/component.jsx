@@ -150,8 +150,6 @@ const ExternalViewDetail = ({ parentRef }) => {
     queryParams: {
       [QUERY_PARAM_TAB]: paramTab,
       [QUERY_PARAM_REF]: paramNode,
-
-      [QUERY_PARAM_SUB_REF]: paramRef,
     },
   } = useRouter();
   const pathHandler = useStateToUrl();
@@ -160,19 +158,18 @@ const ExternalViewDetail = ({ parentRef }) => {
       pathHandler({
         [QUERY_PARAM_REF]: paramNode,
         [QUERY_PARAM_TAB]: tab,
-
         [QUERY_PARAM_SUB_REF]: null,
       }),
     [pathHandler, paramNode]
   );
   const getPathForRef = useCallback(
-    ({ id }) =>
+    (ref) =>
       pathHandler({
         [QUERY_PARAM_REF]: paramNode,
         [QUERY_PARAM_TAB]: paramTab,
-        [QUERY_PARAM_SUB_REF]: paramRef !== id ? id : null,
+        [QUERY_PARAM_SUB_REF]: ref ? ref.id : null
       }),
-    [pathHandler, paramNode, paramTab, paramRef]
+    [pathHandler, paramNode, paramTab]
   );
   const title = useMemo(() => getProperty(parentRef, "text"), [parentRef]);
   const content = useMemo(() => {

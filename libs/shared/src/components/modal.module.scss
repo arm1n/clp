@@ -1,6 +1,6 @@
 .wrapper {
   z-index: 99;
-  
+
   top: 0;
   left: 0;
   width: 100%;
@@ -8,11 +8,25 @@
   position: fixed;
   overflow-y: auto;
   overflow-x: hidden;
+  text-align: center;
   background-color: var(--modal-bg-color);
 }
 
-.content { 
-  max-width: 95%; 
+.content {
+  max-width: 95%;
   margin: 2rem auto;
-  width: var(--modal-min-width);
+  display: inline-block;
+
+  &.size1 {
+    width: var(--modal-width-size-1);
+  }
+  &.size2 {
+    width: var(--modal-width-size-2);
+  }
+  &.size3 {
+    width: var(--modal-width-size-3);
+  }
+  &.size4 {
+    width: var(--modal-width-size-4);
+  }
 }

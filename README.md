@@ -199,6 +199,12 @@ To create a link which opens a popup with configured HTML file use: `<clp-link-p
 
 Example: `<clp-link-popup path="./units/cockpit/units/epcu.html">EPCU</clp-link-popup>`
 
+`path`: Path to html file for popup content \
+`name`: Optional title for popup shown at the top\
+`size`: Optional predefined size: `size-1`, `size-2`, `size-3`, `size-4` (default: auto)\
+
+<div class="page-break"></div>
+
 ### Tables
 
 An element to make consistent tables with or without border:
@@ -217,8 +223,6 @@ For tables with hover effect add the following attribute: `<clp-table hover="">`
 For tables with 100% width add the following attribute: `<clp-table fullwidth="">`\
 For tables avoiding wrapping of column (one from 1-10)  use: `<clp-table nowrap="1>`\
 For specifying width of columns use (% from 1-100): `<clp-td width="50%"></clp-td>`
-
-<div class="page-break"></div>
 
 ### Grids
 
@@ -259,7 +263,8 @@ Cards can also contain buttons by placing `<clp-card-button>` elements inside `<
 `path`: Path to html/popup (`INLINE`/`POPUP`) or to page (`LINK`)\
 `icon`: One of `INFO` (default) or `WRENCH`\
 `mode`: One of `INLINE`, `POPUP` or `LINK`\
-`name`: Optional name for popup
+`name`: Optional name for popup (read more at `<clp-link-popup>`)
+`size`: Optional size for popup (read more at `<clp-link-popup>`)
 
 If you want a card to not automatically expand to its parent container's height use `stretch`:
 
@@ -267,6 +272,8 @@ If you want a card to not automatically expand to its parent container's height 
 <clp-card name="Name" stretch="false">
 </clp-card>
 ```
+
+<div class="page-break"></div>
 
 ### Tabs
 
@@ -282,7 +289,6 @@ An element to wrap contents into single tabs to save space.
 
 `name`: Name for tab to be shown in navbar
 
-<div class="page-break"></div>
 
 ### Accordion
 

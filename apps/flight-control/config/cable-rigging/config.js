@@ -8,12 +8,14 @@
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  * }
  */
@@ -86,12 +88,14 @@ export const INTRO_PATH_AILERON = "./apps/flight-control/config/cable-rigging/de
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  * }
  */
@@ -164,12 +168,14 @@ export const INTRO_PATH_SPOILER = "./apps/flight-control/config/cable-rigging/de
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  * }
  */
@@ -242,12 +248,14 @@ export const INTRO_PATH_RUDDER = "./apps/flight-control/config/cable-rigging/des
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  * }
  */

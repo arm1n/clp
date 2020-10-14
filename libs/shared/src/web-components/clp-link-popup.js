@@ -16,6 +16,7 @@ class LinkPopup extends Base {
   render() {
     const path = this.getAttribute("path") || "";
     const name = this.getAttribute("name") || "";
+    const size = this.getAttribute("size") || "";
 
     this.$wrapper.innerHTML = `
       <a 
@@ -23,6 +24,7 @@ class LinkPopup extends Base {
         target="_blank"
         data-path="${path}"
         data-name="${name}"
+        data-size="${size}"
         class="clp-link-popup-a">
         ${this.template}
       </a>
@@ -57,12 +59,12 @@ class LinkPopup extends Base {
 
     let {
       currentTarget: {
-        dataset: { path, name },
+        dataset: { path, name, size },
       },
     } = event;
 
     ReactDOM.render(
-      <Modal title={name} onClose={this._closeListener} domNode={this.$container}>
+      <Modal title={name} size={size} onClose={this._closeListener} domNode={this.$container}>
         <File path={path} />
       </Modal>,
       this.$container
@@ -73,6 +75,7 @@ class LinkPopup extends Base {
     switch (name) {
       case "path":
       case "name":
+      case "size":
         this.update();
         break;
       default:
@@ -80,7 +83,7 @@ class LinkPopup extends Base {
   }
 
   static get observedAttributes() {
-    return ["path", "name"];
+    return ["path", "name", "size"];
   }
 
   static get componentId() {

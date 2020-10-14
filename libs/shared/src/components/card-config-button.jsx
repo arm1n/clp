@@ -26,13 +26,14 @@ export const CARD_CONFIG_BUTTON_MODE_INLINE = "INLINE";
  *    path: "./path/to/html/file.html",
  *    mode: "INLINE" | "POPUP" | "LINK",
  *    title: "Title" (popup only)
+ *    size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *  }
  *  button={<CardButton icon={IconComponent}/>}
  *  {...props}>
  *  Content
  * </CardConfigButton>
  */
-export const CardConfigButton = ({ button, config: { path, mode, title }, onClick, ...props }) => {
+export const CardConfigButton = ({ button, config: { path, mode, title, size }, onClick, ...props }) => {
   const [Modal, showModal] = useModal({
     // invoke onClick (= toggle) when modal
     // closes internally to sync `isActive`
@@ -66,7 +67,7 @@ export const CardConfigButton = ({ button, config: { path, mode, title }, onClic
   return (
     <Fragment>
       <CardButton onClick={clickHandler} {...props} />
-      <Modal title={title}>
+      <Modal title={title} size={size}>
         <File path={path} />
       </Modal>
     </Fragment>

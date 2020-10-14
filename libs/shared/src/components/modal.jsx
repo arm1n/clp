@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef, useEffect, useCallback } from "react";
+import React, { forwardRef, useMemo, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 
 import { useKeyPress } from "hooks";
@@ -6,19 +6,30 @@ import { Card } from "./card";
 
 import styles from "./modal.module.scss";
 
+const SIZE_STYLES = {
+  "size-1": styles.size1,
+  "size-2": styles.size2,
+  "size-3": styles.size3,
+  "size-4": styles.size4
+};
+
 /**
  * Component to show dialogs on current page.
  *
  * Usage:
  *
- * <Modal 
+ * <Modal
  *   title="My Dialog"
+ *   size="size-3"
  *   {...props}>
  *  Content
  * </Modal>
  */
 export const Modal = forwardRef(
-  ({ title, onClose, closeOnBackdropClick, closeOnEscapeKeyPress, domNode, children }, modalRef) => {
+  (
+    { title, size, onClose, closeOnBackdropClick, closeOnEscapeKeyPress, domNode, children },
+    modalRef
+  ) => {
     const isEscapeKeyPressed = useKeyPress("Escape");
     const closeHandler = useCallback(() => {
       onClose();
@@ -54,9 +65,13 @@ export const Modal = forwardRef(
       }
     }, [isEscapeKeyPressed, closeOnEscapeKeyPress, closeHandler]);
 
+    const contentClasses = useMemo(() => {
+      return [styles.content, SIZE_STYLES[size] || ""].join(" ");
+    }, [size]);
+
     const content = (
       <div ref={wrapperRef} className={styles.wrapper} onClick={clickHandler}>
-        <div ref={modalRef} className={styles.content}>
+        <div ref={modalRef} className={contentClasses}>
           <Card title={title} onClose={closeHandler}>
             {children}
           </Card>
@@ -64,11 +79,12 @@ export const Modal = forwardRef(
       </div>
     );
 
-    return createPortal(content, domNode || document.body);
+    return createPortal(content, domNode || document.body);
   }
 );
 
 Modal.defaultProps = {
+  size: null,
   title: null,
   domNode: null,
   onClose: () => {},

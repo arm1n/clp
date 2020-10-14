@@ -9,12 +9,14 @@
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  * }
  */
@@ -399,12 +401,14 @@ export const INTRO_PATH_CENTER_CONSOLE =
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  * }
  */
@@ -726,12 +730,14 @@ export const INTRO_PATH_GLARESHIELD_MAIN_INSTRUMENT_PANEL =
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  * }
  */
@@ -981,12 +987,14 @@ export const INTRO_PATH_OVERHEAD_PANEL =
  *   info: {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
- *     title: "Title" (popup only)
+ *     title: "Title" (popup only),
+ *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
  *   }
  * }
  */
