@@ -45,7 +45,7 @@ window.WebComponents.waitFor(async () => {
   }
 
   // both potential polyfills and adapter is ready now, load all web components module path
-  for (let component of COMPONENTS) {
+  for (const component of COMPONENTS) {
     await import(
       /* webpackMode: "lazy-once" */
       /* webpackChunkName: "web-components" */

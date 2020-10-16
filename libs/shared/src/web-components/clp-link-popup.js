@@ -61,7 +61,7 @@ class LinkPopup extends Base {
   _clickCallback(event) {
     event.preventDefault();
 
-    let {
+    const {
       currentTarget: {
         dataset: { path, name, size },
       },

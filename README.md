@@ -116,56 +116,26 @@ To link to images or svgs with relative paths use: `<clp-img src="./relative/pat
 
 Example: `<clp-img src="./units/ele/overview/unit/unit.svg"></clp-img>`
 
-`width`: Set a custom width in px.\
-`height`: Set a custom height in px.\
+`width`: Set a custom width in px.  
+`height`: Set a custom height in px.  
 `icon`: Inlines and aligns vertically centered.
 
 ### Text colors
 
-To make part of a text orange use: `<clp-text-orange>Orange</clp-text-orange>`.\
-To make part of a text green use: `<clp-text-green>Green</clp-text-green>`.\
-To make part of a text blue use: `<clp-text-blue>Blue</clp-text-blue>`.\
+To make part of a text orange use: `<clp-text-orange>Orange</clp-text-orange>`.  
+To make part of a text green use: `<clp-text-green>Green</clp-text-green>`.  
+To make part of a text blue use: `<clp-text-blue>Blue</clp-text-blue>`.  
 To make part of a text red use: `<clp-text-red>Red</clp-text-red>`.
 
 Example: `I am <clp-text-red>a red text</clp-text-red>.`
 
 ### Text alignment
 
-To align text left use:  `<clp-text-left>Left text</clp-text-left>`.\
-To align text centered use:  `<clp-text-centered>Centered Text</clp-text-centered>`.\
+To align text left use:  `<clp-text-left>Left text</clp-text-left>`.  
+To align text centered use:  `<clp-text-centered>Centered Text</clp-text-centered>`.  
 To align text right use:  `<clp-text-right>Right text</clp-text-right>`.
 
 Example: `<clp-text-centered>I am centered text.</clp-text-centered>`
-
-### Info messsages
-
-To make text appear in a orange info box use: `<clp-info-orange>Orange</clp-info-orange>.`\
-To make text appear in a green info box use: `<clp-info-green>Green</clp-info-green>.`\
-To make text appear in a blue info box use: `<clp-info-blue>Blue</clp-info-blue>.`\
-To make text appear in a grey info box use: `<clp-info-grey>Grey</clp-info-grey>.`\
-To make text appear in a red info box use: `<clp-info-red>Red</clp-info-red>.`
-
-Example 1 (text only):
-
-```
-<clp-info-red>Im an informative text.</clp-info-red>
-```
-
-<div class="page-break"></div>
-
-Example 2 (with header & image):
-
-```
-<clp-info-red>
-	<strong>HEADER</strong><br>
-	<clp-table>
-		<clp-tr>
-			<clp-td>Im an informative text.</clp-td>
-			<clp-td><div><clp-img src="./path/to/an/image.svg"></clp-img></div></clp-td>
-		</clp-tr>
-	</clp-table>
-</clp-info-red>
-```
 
 ### HTML links
 
@@ -185,6 +155,8 @@ To create static links to PDF files use: `<clp-link-pdf>[SYS] TASK [NUM]</clp-li
 
 Example: `<clp-link-pdf>AMM TASK 12-10-32-210-801</clp-link-pdf>`
 
+<div class="page-break"></div>
+
 ### TR links
 
 To create static links to TR files use: `<clp-link-tr>(TR-[SYS])</clp-link-tr>`
@@ -197,15 +169,53 @@ To create interactive links for references use: `<clp-link-ref id="refId">Text</
 
 Example: `<clp-link-ref id="clp-rjb-1">Relay Junction Box 1</clp-link-ref>`
 
+### Info messsages
+
+To make text appear in a orange info box use: `<clp-info-orange>Orange</clp-info-orange>.`  
+To make text appear in a green info box use: `<clp-info-green>Green</clp-info-green>.`  
+To make text appear in a blue info box use: `<clp-info-blue>Blue</clp-info-blue>.`  
+To make text appear in a grey info box use: `<clp-info-grey>Grey</clp-info-grey>.`  
+To make text appear in a red info box use: `<clp-info-red>Red</clp-info-red>.`
+
+Example 1 (text only):
+
+```
+<clp-info-red>Im an informative text.</clp-info-red>
+```
+
+Example 2 (with header & image):
+
+```
+<clp-info-red>
+  <strong>HEADER</strong><br>
+  <clp-table>
+    <clp-tr>
+      <clp-td>Im an informative text.</clp-td>
+      <clp-td><div><clp-img src="./path/to/an/image.svg"></clp-img></div></clp-td>
+    </clp-tr>
+  </clp-table>
+</clp-info-red>
+```
+
 ### Popup links
 
 To create a link which opens a popup with configured HTML file use: `<clp-link-popup path="./path/to/html.file">Text</clp-link-popup>`
 
 Example: `<clp-link-popup path="./units/cockpit/units/epcu.html">EPCU</clp-link-popup>`
 
-`path`: Path to html file for popup content \
-`name`: Optional title for popup shown at the top\
-`size`: Optional predefined size: `size-1`, `size-2`, `size-3`, `size-4` (default: auto)\
+`path`: Path to html file for popup content   
+`name`: Optional title for popup shown at the top  
+`size`: Optional predefined size: `size-1`, `size-2`, `size-3` (default: auto)  
+
+### Files
+
+An element to load and display HTML files in-place:
+
+```
+<clp-file path="./path/to/file.html"></clp-file>
+```
+
+Example: `<clp-file path="./units/cockpit/units/epcu.html"></clp-file>`
 
 <div class="page-break"></div>
 
@@ -222,23 +232,11 @@ An element to make consistent tables with or without border:
 </clp-table>
 ```
 
-For tables with borders add the following attribute: `<clp-table border="">`\
-For tables with hover effect add the following attribute: `<clp-table hover="">`\
-For tables with 100% width add the following attribute: `<clp-table fullwidth="">`\
-For tables avoiding wrapping of column (one from 1-10)  use: `<clp-table nowrap="1>`\
+For tables with borders add the following attribute: `<clp-table border="">`  
+For tables with hover effect add the following attribute: `<clp-table hover="">`  
+For tables with 100% width add the following attribute: `<clp-table fullwidth="">`  
+For tables avoiding wrapping of column (one from 1-10)  use: `<clp-table nowrap="1>`  
 For specifying width of columns use (% from 1-100): `<clp-td width="50%"></clp-td>`
-
-### Grids
-
-An element to make consistent grids:
-
-```
-<clp-grid>
-  <clp-grid-column>Column #1</clp-grid-column>
-  <clp-grid-column>Column #2</clp-grid-column>
-  <clp-grid-column>Column #3</clp-grid-column>
-</clp-grid>
-```
 
 ### Cards
 
@@ -267,33 +265,31 @@ Cards can also contain buttons by placing `<clp-card-button>` elements inside `<
 </clp-card>
 ```
 
-`path`: Path to html/popup (`INLINE`/`POPUP`) or to page (`LINK`)\
-`icon`: One of `INFO` (default) or `WRENCH`\
-`mode`: One of `INLINE`, `POPUP` or `LINK`\
-`name`: Optional name for popup (read more at `<clp-link-popup>`)
-`size`: Optional size for popup (read more at `<clp-link-popup>`)
+`path`: Path to html/popup (`INLINE`/`POPUP`) or to page (`LINK`).  
+`icon`: One of `INFO` (default) or `WRENCH`.  
+`mode`: One of `INLINE`, `POPUP` or `LINK`.  
+`name`: Optional name for popup (read more at `<clp-link-popup>`).  
+`size`: Optional size for popup (read more at `<clp-link-popup>`).
 
 If you want a card to not automatically expand to its parent container's height use `stretch`:
 
 ```
-<clp-card name="Name" stretch="false">
-</clp-card>
+<clp-card name="Name" stretch="false"></clp-card>
 ```
 
-### Tabs
+<div class="page-break"></div>
 
-An element to wrap contents into single tabs to save space.
+### Grids
+
+An element to make consistent grids:
 
 ```
-<clp-tabs>
-  <clp-tab name="Tab #1">Tab #1</clp-tab>
-  <clp-tab name="Tab #2">Tab #2</clp-tab>
-  <clp-tab name="Tab #3">Tab #3</clp-tab>
-</clp-tabs>
+<clp-grid>
+  <clp-grid-column>Column #1</clp-grid-column>
+  <clp-grid-column>Column #2</clp-grid-column>
+  <clp-grid-column>Column #3</clp-grid-column>
+</clp-grid>
 ```
-
-`name`: Name for tab to be shown in navbar
-
 
 ### Accordion
 
@@ -311,13 +307,35 @@ An element to wrap contents into expandable items to save space and toggles open
 
 Note: You can also use `<clp-expandable>` standalone!
 
+### Tabs
 
-### Files
-
-An element to load and display HTML files in-place:
+An element to wrap contents into single tabs to save space.
 
 ```
-<clp-file path="./path/to/html.file"></clp-file>
+<clp-tabs>
+  <clp-tab name="Tab #1">Tab #1</clp-tab>
+  <clp-tab name="Tab #2">Tab #2</clp-tab>
+  <clp-tab name="Tab #3">Tab #3</clp-tab>
+</clp-tabs>
 ```
 
-Example: `<clp-file path="./units/cockpit/units/epcu.html"></clp-file>`
+`name`: Name for tab to be shown in navbar.
+
+
+### SVG
+
+An element to display interactive SVG with config options to navigate, open popup or show inline HTML.
+
+```
+<clp-svg path="./path/to/file.svg">
+  <clp-svg-config id="clp-id1" mode="LINK" path="/path/to/system"></clp-svg-config>
+  <clp-svg-config id="clp-id2" mode="POPUP" path="./path/to/file.html" name="MY POPUP"></clp-svg-config>
+  <clp-svg-config id="clp-id3" mode="INLINE" path="./path/to/file.html" name="MY HTML"></clp-svg-config>
+</clp-svg>
+```
+
+`id`: ID of the layer in the SVG.  
+`path`: path to html (`INLINE` or `POPUP`) or link (`LINK`).  
+`mode`: `INLINE`, `POPUP` or `LINK`.  
+`name`: text for box or popup (`INLINE` or `POPUP`).  
+`size`: `size-1`, `size-2`, `size-3` for `POPUP`

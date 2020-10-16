@@ -24,6 +24,7 @@ export { Page, PAGE_TYPE_POPUP, PAGE_TYPE_LINK } from "./page";
 export { Router, Link, Redirect } from "./router";
 export { Search } from "./search";
 export { SearchBox } from "./search-box";
+export { SVGWithConfig } from "./svg-with-config";
 export { SVGWithDescAndUnit } from "./svg-with-desc-and-unit";
 export { System } from "./system";
 export { Tabs, Tab } from "./tabs";

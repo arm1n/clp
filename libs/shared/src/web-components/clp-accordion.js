@@ -42,7 +42,7 @@ class Expandable extends Base {
   _isStandalone() {
     if (this.parentNode !== null) {
       const { tagName, className } = this.parentNode;
-      for (let name of [tagName, className]) {
+      for (const name of [tagName, className]) {
         if (name.match(/clp-accordion/gi)) {
           return false;
         }
@@ -85,8 +85,8 @@ class Accordion extends Base {
   }
 
   _createExpandable(element, index) {
-    let name = element.getAttribute("name");
-    let html = element.template;
+    const name = element.getAttribute("name");
+    const html = element.template;
 
     return (
       <ExpandableComponent key={index} name={name}>

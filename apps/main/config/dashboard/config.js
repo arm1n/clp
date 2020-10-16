@@ -12,7 +12,7 @@
  */
 export const SIDE_NAV = [
   { name: "Help", path: "/help", mode: "INTERNAL" },
-  { name: "v. 19-03g", path: "http://www.infotools.at", mode: "EXTERNAL" },
+  { name: "v. 20-01a", path: "http://www.infotools.at", mode: "EXTERNAL" },
   { name: "Legal Notice", path: "http://www.infotools.at/clp/clp_nn/clp.html", mode: "EXTERNAL" },
 ];
 
@@ -430,7 +430,13 @@ export const CAUTION_LIGHTS = {
       K: {
         name: "#1 STBY HYD PUMP HOT",
         file: "./apps/main/config/dashboard/desc/k2.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "HYD SYSTEM #1",
+            mode: "INTERNAL",
+            path: "/hyd/system-1",
+          },
+				],
         highlights: ["hyd_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -694,7 +700,13 @@ export const CAUTION_LIGHTS = {
       N: {
         name: "PARKING BRAKE",
         file: "./apps/main/config/dashboard/desc/n3.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "PARKING BRAKE SYSTEM",
+            mode: "INTERNAL",
+            path: "/gear/parking-brake",
+          },
+				],
         highlights: ["ldg_gear_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: true,
@@ -892,9 +904,15 @@ export const CAUTION_LIGHTS = {
         gnd_eng_stopped_tooltip_pos: null,
       },
       M: {
-        name: "INBO ANTISKID",
+        name: "INBD ANTISKID",
         file: "./apps/main/config/dashboard/desc/m4.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ANTISKID SYSTEM",
+            mode: "INTERNAL",
+            path: "/gear/anti-skid",
+          },
+				],
         highlights: ["ldg_gear_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -904,7 +922,13 @@ export const CAUTION_LIGHTS = {
       N: {
         name: "OUTB ANTISKID",
         file: "./apps/main/config/dashboard/desc/n4.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ANTISKID SYSTEM",
+            mode: "INTERNAL",
+            path: "/gear/anti-skid",
+          },
+				],
         highlights: ["ldg_gear_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -972,7 +996,13 @@ export const CAUTION_LIGHTS = {
       D: {
         name: "DEICE TIMER",
         file: "./apps/main/config/dashboard/desc/d5.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "PITOT STATIC SYSTEM",
+            mode: "INTERNAL",
+            path: "/deicing/pitot-static",
+          },
+				],
         highlights: ["deice_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -1052,9 +1082,9 @@ export const CAUTION_LIGHTS = {
         file: "./apps/main/config/dashboard/desc/j5.html",
         buttons: [
 					{
-            name: "HYD 1 SYSTEM",
+            name: "HYD 2 SYSTEM",
             mode: "INTERNAL",
-            path: "/hyd/system-1",
+            path: "/hyd/system-2",
           },
 					{
             name: "SCHEMATIC",
@@ -1114,7 +1144,13 @@ export const CAUTION_LIGHTS = {
       N: {
         name: "WT ON WHEELS",
         file: "./apps/main/config/dashboard/desc/n5.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "GEAR WNG SYSTEM",
+            mode: "INTERNAL",
+            path: "/gear/position-warning",
+          },
+				],
         highlights: ["ldg_gear_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -1289,7 +1325,13 @@ export const CAUTION_LIGHTS = {
       M: {
         name: "NOSE STEERING",
         file: "./apps/main/config/dashboard/desc/m6.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "STEERING SYSTEM",
+            mode: "INTERNAL",
+            path: "/gear/nosewheel-steering",
+          },
+				],
         highlights: ["ldg_gear_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -1472,7 +1514,13 @@ export const CAUTION_LIGHTS = {
       N: {
         name: "FUSELAGE DOORS",
         file: "./apps/main/config/dashboard/desc/n7.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "DOOR SYSTEM",
+            mode: "INTERNAL",
+            path: "/door/door-sensors",
+          },
+				],
         highlights: ["elect_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: true,

@@ -9,42 +9,42 @@
 export const DATA_SET = [
   {
     id: "clp-elevator",
-		unit: "./units/fc/units/elevator_surfaces.html",
+    unit: "./units/fc/units/elevator_surfaces.html",
     desc: "./apps/flight-control/config/elevator-system/desc/intro.html",
   },
   {
     id: "clp-rudder",
-		unit: "./units/fc/units/rudd_surfaces.html",
+    unit: "./units/fc/units/rudd_surfaces.html",
     desc: "./apps/flight-control/config/rudder-system/desc/intro.html",
   },
   {
     id: "clp-spoiler-ib",
-		unit: "./units/fc/units/spoil_panel_ib.html",
+    unit: "./units/fc/units/spoil_panel_ib.html",
     desc: "./apps/flight-control/config/spoiler-system/desc/intro.html",
   },
-	{
+  {
     id: "clp-spoiler-ob",
-		unit: "./units/fc/units/spoil_panel_ob.html",
+    unit: "./units/fc/units/spoil_panel_ob.html",
     desc: "./apps/flight-control/config/spoiler-system/desc/intro.html",
   },
   {
     id: "clp-aileron",
-		unit: "./units/fc/units/ail_surface.html",
+    unit: "./units/fc/units/ail_surface.html",
     desc: "./apps/flight-control/config/aileron-system/desc/intro.html",
   },
   {
     id: "clp-flaps-ib",
-		unit: "./units/fc/units/ib_flaps.html",
+    unit: "./units/fc/units/ib_flaps.html",
     desc: "./apps/flight-control/config/flap-system/desc/intro.html",
   },
-	{
+  {
     id: "clp-flaps-ob",
-		unit: "./units/fc/units/ob_flaps.html",
+    unit: "./units/fc/units/ob_flaps.html",
     desc: "./apps/flight-control/config/flap-system/desc/intro.html",
   },
-	{
+  {
     id: "clp-fcecu",
-		unit: "./units/uf/units/fcecu.html",
+    unit: "./units/uf/units/fcecu.html",
     desc: "./units/uf/desc/fcecu.html",
   },
 ];

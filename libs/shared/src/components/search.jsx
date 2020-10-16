@@ -12,7 +12,7 @@ import styles from "./search.module.scss";
  * <Search {...props} />
  */
 export const Search = forwardRef(({ value, focus, placeholder, onInput, onChange }, ref) => {
-  const [currentValue, setCurrentValue] = useState(value);
+  const [valueInternal, setValueInternal] = useState(value);
   const inputRef = useRef(ref);
 
   const inputHandler = useCallback(
@@ -20,7 +20,7 @@ export const Search = forwardRef(({ value, focus, placeholder, onInput, onChange
       const {
         target: { value },
       } = event;
-      setCurrentValue(value);
+      setValueInternal(value);
       onInput(value);
     },
     [onInput]
@@ -31,14 +31,14 @@ export const Search = forwardRef(({ value, focus, placeholder, onInput, onChange
       const {
         target: { value },
       } = event;
-      setCurrentValue(value);
+      setValueInternal(value);
       onChange(value);
     },
     [onChange]
   );
 
   const clearHandler = useCallback(() => {
-    setCurrentValue("");
+    setValueInternal("");
     onChange("");
     onInput("");
   }, [onChange, onInput]);
@@ -48,7 +48,7 @@ export const Search = forwardRef(({ value, focus, placeholder, onInput, onChange
   }, [focus, inputRef]);
 
   useMounted(() => {
-    setCurrentValue(value);
+    setValueInternal(value);
   }, [value]);
 
   return (
@@ -56,13 +56,13 @@ export const Search = forwardRef(({ value, focus, placeholder, onInput, onChange
       <input
         type="text"
         ref={inputRef}
-        value={currentValue}
+        value={valueInternal}
         onInput={inputHandler}
         onChange={changeHandler}
         className={styles.input}
         placeholder={placeholder}
       />
-      {currentValue && <button type="button" onClick={clearHandler} className={styles.clear} />}
+      {valueInternal && <button type="button" onClick={clearHandler} className={styles.clear} />}
     </div>
   );
 });

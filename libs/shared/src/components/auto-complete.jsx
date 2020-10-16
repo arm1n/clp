@@ -24,7 +24,7 @@ export const AutoComplete = ({
   onSelect,
   ...props
 }) => {
-  const [currentValue, setCurrentValue] = useState(value);
+  const [valueInternal, setValueInternal] = useState(value);
   const [selectedNode, setSelectedNode] = useState(null);
   const [isTreeVisible, setIsTreeVisible] = useState(false);
 
@@ -32,7 +32,7 @@ export const AutoComplete = ({
     debounce((value) => {
       setSelectedNode(value ? selectedNode : null);
       setIsTreeVisible(!!value);
-      setCurrentValue(value);
+      setValueInternal(value);
 
       onSearch(value);
     }),
@@ -41,7 +41,7 @@ export const AutoComplete = ({
 
   const selectNodeHandler = useCallback(
     (node) => {
-      setCurrentValue(node.text);
+      setValueInternal(node.text);
       setIsTreeVisible(false);
       setSelectedNode(node);
       
@@ -51,18 +51,18 @@ export const AutoComplete = ({
   );
 
   useMounted(() => {
-    setCurrentValue(value);
+    setValueInternal(value);
   }, [value]);
 
   return (
     <div className={styles.wrapper}>
-      <Search focus={focus} value={currentValue} onInput={inputHandler} placeholder={placeholder} />
+      <Search focus={focus} value={valueInternal} onInput={inputHandler} placeholder={placeholder} />
 
       {isTreeVisible && (
         <div className={styles.tree}>
           <Tree
             nodes={items}
-            query={currentValue}
+            query={valueInternal}
             autoCloseOpened={true}
             maxResults={maxResults}
             selectedNode={selectedNode}

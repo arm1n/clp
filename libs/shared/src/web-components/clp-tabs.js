@@ -46,8 +46,8 @@ class Tabs extends Base {
   }
 
   _createTab(element, index) {
-    let name = element.getAttribute("name");
-    let html = element.innerHTML;
+    const name = element.getAttribute("name");
+    const html = element.innerHTML;
 
     return (
       <TabComponent key={index} name={name}>

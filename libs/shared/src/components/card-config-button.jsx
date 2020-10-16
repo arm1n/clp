@@ -1,8 +1,9 @@
-import React, { Fragment, useCallback } from "react";
+import React, { Fragment, useState, useCallback } from "react";
 import { useRouter, useModal } from "hooks";
 import { isURL } from "utils";
 
 import { File } from "./file";
+import { Modal } from "./modal";
 import { CardButtonInfo, CardButtonWrench } from "./card-button";
 
 export const CARD_CONFIG_BUTTON_MODE_LINK = "LINK";
@@ -33,18 +34,19 @@ export const CARD_CONFIG_BUTTON_MODE_INLINE = "INLINE";
  *  Content
  * </CardConfigButton>
  */
-export const CardConfigButton = ({ button, config: { path, mode, title, size }, onClick, ...props }) => {
-  const [Modal, showModal] = useModal({
-    // invoke onClick (= toggle) when modal
-    // closes internally to sync `isActive`
-    onClose: () => onClick(),
-  });
+export const CardConfigButton = ({
+  button,
+  config: { path, mode, title, size },
+  onClick,
+  ...props
+}) => {
+  const [isModalVisible, setIsModalVisible] = useState(false);
   const { navigate } = useRouter();
 
   const clickHandler = useCallback(() => {
     switch (mode) {
       case CARD_CONFIG_BUTTON_MODE_POPUP:
-        showModal();
+        setIsModalVisible(true);
         break;
       case CARD_CONFIG_BUTTON_MODE_LINK:
         if (isURL(path)) {
@@ -53,23 +55,33 @@ export const CardConfigButton = ({ button, config: { path, mode, title, size }, 
           win.opener = null;
           break;
         }
-        
+
         navigate(path);
         break;
       default:
     }
 
     onClick();
-  }, [mode, path, navigate, showModal, onClick]);
+  }, [mode, path, navigate, onClick]);
+
+  const closeHandler = useCallback(() => {
+    setIsModalVisible(false);
+
+    // invoke onClick (= toggle) when modal
+    // closes internally to sync `isActive`
+    onClick();
+  }, [onClick]);
 
   const { type: CardButton } = button;
 
   return (
     <Fragment>
       <CardButton onClick={clickHandler} {...props} />
-      <Modal title={title} size={size}>
-        <File path={path} />
-      </Modal>
+      {isModalVisible && (
+        <Modal title={title} size={size} onClose={closeHandler}>
+          <File path={path} />
+        </Modal>
+      )}
     </Fragment>
   );
 };
