@@ -26,7 +26,7 @@ export const CARD_CONFIG_BUTTON_MODE_INLINE = "INLINE";
  *    path: "./path/to/html/file.html",
  *    mode: "INLINE" | "POPUP" | "LINK",
  *    title: "Title" (popup only)
- *    size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *    size: "size-1" | "size-2" | "size-3" (popup only)
  *  }
  *  button={<CardButton icon={IconComponent}/>}
  *  {...props}>

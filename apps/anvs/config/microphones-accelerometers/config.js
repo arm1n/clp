@@ -10,13 +10,13 @@
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  *   show_in_search: flag if this item is in search or only in SVG,
  * }
@@ -737,13 +737,13 @@ export const SVG_PATH_CEILING = "./apps/anvs/config/microphones-accelerometers/p
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  * }
  */

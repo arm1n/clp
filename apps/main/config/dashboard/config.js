@@ -370,7 +370,7 @@ export const CAUTION_LIGHTS = {
 					{
             name: "BLEED SYSTEM",
             mode: "INTERNAL",
-            path: "ele/bleed",
+            path: "/bleed",
           },
 				],
         highlights: ["bleed"],
@@ -418,7 +418,7 @@ export const CAUTION_LIGHTS = {
 					{
             name: "BLEED SYSTEM",
             mode: "INTERNAL",
-            path: "ele/bleed",
+            path: "/bleed",
           },
 				],
         highlights: ["bleed"],
@@ -582,7 +582,7 @@ export const CAUTION_LIGHTS = {
 					{
             name: "DC SYSTEM",
             mode: "INTERNAL",
-            path: "ele/dc-system",
+            path: "/ele/dc-system",
           },
 				],
         highlights: ["elect_systems"],
@@ -798,7 +798,7 @@ export const CAUTION_LIGHTS = {
 					{
             name: "DC SYSTEM",
             mode: "INTERNAL",
-            path: "ele/dc-system",
+            path: "/ele/dc-system",
           },
 				],
         highlights: ["elect_systems"],
@@ -996,7 +996,7 @@ export const CAUTION_LIGHTS = {
 					{
             name: "DC SYSTEM",
             mode: "INTERNAL",
-            path: "ele/dc-system",
+            path: "/ele/dc-system",
           },
 				],
         highlights: ["elect_systems"],

@@ -13,6 +13,28 @@ import { Base } from "./clp-base";
 // <clp-link-popup path="/path/to/html.file">Text</clp-link-popup>
 // ----------------------------------------------------------------------------------------------------
 class LinkPopup extends Base {
+  constructor() {
+    super();
+
+    this._clickListener = this._clickCallback.bind(this);
+    this._closeListener = this._closeCallback.bind(this);
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+
+    this.$link = this.querySelector(".clp-link-popup-a");
+    this.$link.addEventListener("click", this._clickListener);
+
+    this.$container = this.querySelector(".clp-link-popup-container");
+  }
+
+  disconnectedCallback() {
+    super.disconnectedCallback();
+
+    this.$link.removeEventListener("click", this._clickListener);
+  }
+
   render() {
     const path = this.getAttribute("path") || "";
     const name = this.getAttribute("name") || "";
@@ -30,24 +52,6 @@ class LinkPopup extends Base {
       </a>
       <div class="clp-link-popup-container"></div>
     `;
-  }
-
-  connectedCallback() {
-    super.connectedCallback();
-
-    this._clickListener = this._clickCallback.bind(this);
-    this._closeListener = this._closeCallback.bind(this);
-
-    this.$link = this.querySelector(".clp-link-popup-a");
-    this.$link.addEventListener("click", this._clickListener);
-
-    this.$container = this.querySelector(".clp-link-popup-container");
-  }
-
-  disconnectedCallback() {
-    super.disconnectedCallback();
-
-    this.$link.removeEventListener("click", this._clickListener);
   }
 
   _closeCallback() {

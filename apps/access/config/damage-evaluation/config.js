@@ -17,13 +17,13 @@ export const FAQ_UNIT_PATH = "./apps/access/config/damage-evaluation/desc/faq-un
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  * }
  */

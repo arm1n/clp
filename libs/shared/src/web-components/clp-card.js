@@ -28,7 +28,7 @@ import { Base } from "./clp-base";
 // path: path to html/popup file or link.
 // mode: 'INLINE', 'POPUP' or 'LINK'.
 // name: text for popup name
-// size: 'size-1', 'size-2', 'size-3', 'size-4' or '' (= auto)
+// size: 'size-1', 'size-2', 'size-3' or '' (= auto)
 // ----------------------------------------------------------------------------------------------------
 class CardButton extends HTMLElement {}
 

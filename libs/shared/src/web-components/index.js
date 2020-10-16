@@ -22,6 +22,7 @@ const COMPONENTS = [
   "./clp-link-popup",
   "./clp-link-ref",
   "./clp-link-tr",
+  "./clp-svg.js",
   "./clp-table",
   "./clp-tabs",
   "./clp-text",
@@ -36,11 +37,19 @@ window.WebComponents.waitFor(async () => {
   // lazyily load the custom-elements-es5-adapter for all browsers supporting web components
   // natively. when this file has loaded all, custom element definitions would work properly
   if (window.customElements) {
-    await import("@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js");
+    await import(
+      /* webpackMode: "lazy" */
+      /* webpackChunkName: "web-components-es5-adapter" */
+      "@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"
+    );
   }
 
   // both potential polyfills and adapter is ready now, load all web components module path
   for (let component of COMPONENTS) {
-    await import(`${component}`);
+    await import(
+      /* webpackMode: "lazy-once" */
+      /* webpackChunkName: "web-components" */
+      `${component}`
+    );
   }
 });

@@ -5,16 +5,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  position: fixed;
+  display: flex;
+  position: fixed;  
   overflow-y: auto;
   overflow-x: hidden;
-  text-align: center;
+  justify-content: center;
   background-color: var(--modal-bg-color);
 }
 
-.content {
-  max-width: 95%;
-  margin: 2rem auto;
+.container {
+  max-width: 1200px;
+  padding-bottom: 2rem;
   display: inline-block;
 
   &.size1 {
@@ -26,7 +27,8 @@
   &.size3 {
     width: var(--modal-width-size-3);
   }
-  &.size4 {
-    width: var(--modal-width-size-4);
-  }
+}
+
+.content {
+  padding: 2rem 0;
 }

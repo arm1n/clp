@@ -15,6 +15,7 @@ const PATH_BUILD_TARGET = "build";
 const PATH_CONFIG = path.join(PATH_BUILD_TARGET, "apps");
 const PATH_UNITS = path.join(PATH_BUILD_TARGET, "units");
 const PATH_APPS = "apps";
+const VALID_ASSETS = [".svg", ".html"];
 
 // transpile all apps and shared library before build
 fs.readdirSync(PATH_APPS).forEach(function(app) {
@@ -42,6 +43,7 @@ util.moveFile(PATH_BUILD_SOURCE, PATH_BUILD_TARGET);
 
 // copy all `config` folders from app workspaces to
 // final build output to be available on async calls
+// but exclude all invalid files (like .DS_Store etc)
 fs.mkdirSync(PATH_CONFIG);
 fs.readdirSync(PATH_APPS).forEach((file) => {
 	const dir = path.join(PATH_APPS, file);
@@ -56,6 +58,18 @@ fs.readdirSync(PATH_APPS).forEach((file) => {
 	const PATH_CONFIG_TARGET = path.join(PATH_CONFIG_TARGET_BASE, "config");
 
 	util.copyFile(PATH_CONFIG_SOURCE, PATH_CONFIG_TARGET);
+	util.walkRecursive(
+		PATH_CONFIG_TARGET,
+		(file) => {
+			const extension = path.extname(file);
+			if (VALID_ASSETS.includes(extension)) {
+				return;
+			}
+			
+			util.removeFile(file);
+		},
+		util.MODE_FILE
+	);
 });
 
 // copy "units" folder to the build output

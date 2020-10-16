@@ -9,8 +9,7 @@ import styles from "./modal.module.scss";
 const SIZE_STYLES = {
   "size-1": styles.size1,
   "size-2": styles.size2,
-  "size-3": styles.size3,
-  "size-4": styles.size4
+  "size-3": styles.size3
 };
 
 /**
@@ -66,15 +65,17 @@ export const Modal = forwardRef(
     }, [isEscapeKeyPressed, closeOnEscapeKeyPress, closeHandler]);
 
     const contentClasses = useMemo(() => {
-      return [styles.content, SIZE_STYLES[size] || ""].join(" ");
+      return [styles.container, SIZE_STYLES[size] || ""].join(" ");
     }, [size]);
 
     const content = (
       <div ref={wrapperRef} className={styles.wrapper} onClick={clickHandler}>
         <div ref={modalRef} className={contentClasses}>
-          <Card title={title} onClose={closeHandler}>
-            {children}
-          </Card>
+          <div className={styles.content}>
+            <Card title={title} onClose={closeHandler}>
+              {children}
+            </Card>
+          </div>
         </div>
       </div>
     );

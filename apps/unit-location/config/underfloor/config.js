@@ -10,13 +10,13 @@
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  *   show_in_menu: flag if this item is in menu or only in SVG,
  * }

@@ -10,13 +10,13 @@
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  * }
  */
@@ -402,13 +402,13 @@ export const INTRO_PATH_CENTER_CONSOLE =
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  * }
  */
@@ -731,13 +731,13 @@ export const INTRO_PATH_GLARESHIELD_MAIN_INSTRUMENT_PANEL =
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  * }
  */
@@ -988,13 +988,13 @@ export const INTRO_PATH_OVERHEAD_PANEL =
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   },
  *   access:  {
  *     path: "./path/to/file.html",
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
- *     size: "size-1" | "size-2" | "size-3" | "size-4" (popup only)
+ *     size: "size-1" | "size-2" | "size-3" (popup only)
  *   }
  * }
  */
