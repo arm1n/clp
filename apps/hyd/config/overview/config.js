@@ -36,14 +36,14 @@ export const DATA_SET = [
   },
   {
     id: "clp-main-brakes",
-    unit: "./units/hyd/units/still_open.html",
+    /** unit: "./units/hyd/units/file.html", */
     desc: "./units/gear/desc/general_norm_brake.html",
     info: {},
     access: {},
   },
   {
     id: "clp-emerg-brakes",
-    unit: "./units/hyd/units/still_open.html",
+    /** unit: "./units/hyd/units/file.html", */
     desc: "./units/gear/desc/general_emerg_brake.html",
     info: {},
     access: {},
@@ -57,14 +57,14 @@ export const DATA_SET = [
   },
   {
     id: "clp-gear",
-    unit: "./units/hyd/units/still_open.html",
+    /** unit: "./units/hyd/units/file.html", */
     desc: "./units/gear/desc/general_gear.html",
     info: {},
     access: {},
   },
   {
     id: "clp-nws",
-    unit: "./units/hyd/units/still_open.html",
+    /** unit: "./units/hyd/units/file.html", */
     desc: "./units/gear/desc/general_nws.html",
     info: {},
     access: {},
@@ -191,7 +191,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-eng-hyd-pump",
-    unit: "./units/hyd/units/eng_hyd_pump.html",
+    unit: "./units/hyd/units/eng_hyd_pump_all.html",
     desc: "./units/hyd/desc/eng_hyd_pump.html",
     info: {},
     access: {},

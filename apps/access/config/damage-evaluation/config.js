@@ -31,16 +31,16 @@ export const DATA_SET = [
   {
     id: "clp-adf",
     text: "ADF",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/adf_units.html",
+    desc: "./units/antenna/desc/adf_units.html",
     info: {},
     access: {},
   },
 	{
     id: "clp-atc",
     text: "ATC",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/atc_units.html",
+    desc: "/units/antenna/desc/atc_units.html",
     info: {},
     access: {},
     
@@ -48,8 +48,8 @@ export const DATA_SET = [
 	{
     id: "clp-dme",
     text: "DME",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/dme_units.html",
+    desc: "./units/antenna/desc/dme_units.html",
     info: {},
     access: {},
     
@@ -57,8 +57,8 @@ export const DATA_SET = [
 	{
     id: "clp-elt",
     text: "ELT",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/elt_units.html",
+    desc: "./units/antenna/desc/elt_units.html",
     info: {},
     access: {},
     
@@ -66,8 +66,8 @@ export const DATA_SET = [
   {
     id: "clp-gps",
     text: "GPS",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/gps_units.html",
+    desc: "./units/antenna/desc/gps_units.html",
     info: {},
     access: {},
     
@@ -75,8 +75,8 @@ export const DATA_SET = [
   {
     id: "clp-gs",
     text: "GS",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/glideslope_units.html",
+    desc: "./units/antenna/desc/glideslope_units.html",
     info: {},
     access: {},
     
@@ -84,8 +84,8 @@ export const DATA_SET = [
   {
     id: "clp-hf",
     text: "HF",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/hf_antenna.html",
+    desc: "./units/antenna/desc/hf_antenna.html",
     info: {},
     access: {},
     
@@ -93,8 +93,8 @@ export const DATA_SET = [
 	{
     id: "clp-mrk",
     text: "MRK",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/marker_units.html",
+    desc: "./units/antenna/desc/marker_units.html",
     info: {},
     access: {},
     
@@ -102,8 +102,8 @@ export const DATA_SET = [
 	{
     id: "clp-rad-alt",
     text: "RAD ALT",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/rad_alt_units.html",
+    desc: "./units/antenna/desc/rad_alt_units.html",
     info: {},
     access: {},
     
@@ -111,8 +111,8 @@ export const DATA_SET = [
 	{
     id: "clp-tcas",
     text: "TCAS",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/tcas_units.html",
+    desc: "./units/antenna/desc/tcas_units.html",
     info: {},
     access: {},
     
@@ -120,8 +120,8 @@ export const DATA_SET = [
 	{
     id: "clp-vhf-com",
     text: "VHF",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/vhf_com_units.html",
+    desc: "./units/antenna/desc/vhf_com_units.html",
     info: {},
     access: {},
     
@@ -130,8 +130,8 @@ export const DATA_SET = [
 	{
     id: "clp-vor-loc",
     text: "VOR / LOC",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/vor_loc_units.html",
+    desc: "./units/antenna/desc/vor_loc_units.html",
     info: {},
     access: {},
     
@@ -139,8 +139,8 @@ export const DATA_SET = [
 	{
     id: "clp-wxr",
     text: "WXR",
-    unit: "./units/access/units/unit.html",
-    desc: "./units/access/desc/desc.html",
+    unit: "./units/antenna/units/wx_antenna.html",
+    desc: "./units/antenna/desc/wx_antenna.html",
     info: {},
     access: {},
     

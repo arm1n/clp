@@ -19,6 +19,9 @@
  *   }
  * }
  */
+
+
+
 export const DATA_SET = [
   {
     id: "clp-hyd-ptu-px-sw",
@@ -71,7 +74,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-eng-hyd-pump",
-    unit: "./units/hyd/units/eng_hyd_pump.html",
+    unit: "./units/hyd/units/eng_hyd_pump_all.html",
     desc: "./units/hyd/desc/eng_hyd_pump.html",
     info: {},
     access: {},
@@ -120,29 +123,29 @@ export const DATA_SET = [
   },
   {
     id: "clp-sys-alt-ext",
-    unit: "./units/hyd/units/file.html",
-    desc: "./units/hyd/desc/file.html",
+    /** unit: "./units/hyd/units/file.html", */
+    desc: "./units/hyd/desc/general_alt_ext.html",
     info: {},
     access: {},
   },
   {
     id: "clp-sys-rudder-elev",
-    unit: "./units/hyd/units/file.html",
-    desc: "./units/hyd/desc/file.html",
+    unit: "./units/fc/desc/general_flight_control.html",
+    desc: "./units/hyd/desc/general_rud_elev.html",
     info: {},
     access: {},
   },
   {
     id: "clp-sys-spoiler-gear",
-    unit: "./units/hyd/units/file.html",
-    desc: "./units/hyd/desc/file.html",
+    /** unit: "./units/hyd/units/file.html", */
+    desc: "./units/hyd/desc/general_outb_sp_gear_steering.html",
     info: {},
     access: {},
   },
   {
     id: "clp-sys-emrg-brake",
-    unit: "./units/hyd/units/file.html",
-    desc: "./units/hyd/desc/file.html",
+    /** unit: "./units/hyd/units/file.html", */
+    desc: "./units/hyd/desc/general_emerg_brakes.html",
     info: {},
     access: {},
   },

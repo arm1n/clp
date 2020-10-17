@@ -19,9 +19,7 @@
  */
 export const DATA_SET = [
   /* Cockpit */
-	
-	
-	
+
 	{
 		id: "cockpit",
 		text: "Cockpit",
@@ -302,13 +300,18 @@ export const DATA_SET = [
       ],
 		},
   },
-
+/* Cockpit 11*/
 	{
 		id: "cockpit_11",
 		text: "Cockpit Underfloor",
 		data: {
 			path: "./apps/connector-finder/config/connector-finder/pic/cockpit_11.svg",
 			refs: [
+				{
+					id: "clp-122ar",
+					text: "",
+					path: "./access?id=clp-nose&tab=nose&subId=clp-122ar",
+        },
 				{
 					id: "clp-9811-186",
 					text: "9811-186 J(P)",
