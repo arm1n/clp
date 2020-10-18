@@ -5,7 +5,7 @@ import { arrayToObject, isObject } from "utils";
 
 import { HTML } from "./html";
 
-import styles from "./file-with-refs.module.scss";
+import "./file-with-refs.scss";
 
 export const HIGHLIGHT_TYPE_DEFAULT = "default";
 export const HIGHLIGHT_TYPE_OPACITY = "opacity";
@@ -14,7 +14,7 @@ const CLASS_NAME_DEFAULT = "clp-ref";
 const CLASS_NAME_SELECTED = "selected";
 const CLASS_NAME_HIGHLIGHTED = "highlighted";
 
-const syncElementAndData = (domRef, nodeRef, identifier, className) => {
+const syncElementAndData = (domRef, nodeRef, identifier, container, className) => {
   if (domRef.current !== null) {
     domRef.current.classList.remove(className);
   }
@@ -24,7 +24,7 @@ const syncElementAndData = (domRef, nodeRef, identifier, className) => {
     return;
   }
 
-  domRef.current = document.getElementById(nodeRef[identifier]);
+  domRef.current = container.getElementById(nodeRef[identifier]);
   if (domRef.current === null) {
     return;
   }
@@ -37,6 +37,7 @@ const FileWithRefsComponent = forwardRef(
     {
       data,
       refs,
+      container,
       identifier,
       selectedRef,
       highlightType,
@@ -57,20 +58,20 @@ const FileWithRefsComponent = forwardRef(
     const $domRefs = useRef([]);
 
     const className = useMemo(() => {
-      const selection = selectedRef ? styles.selection : "";
-      const highlight = highlightedRef ? styles.highlight : "";
+      const selection = selectedRef ? "selection" : "";
+      const highlight = highlightedRef ? "highlight" : "";
 
       switch (highlightType) {
         case HIGHLIGHT_TYPE_OPACITY:
-          return [styles.opacity, highlight, selection].join(" ");
+          return ["svg", "opacity", highlight, selection].join(" ");
         default:
-          return [styles.default, highlight, selection].join(" ");
+          return ["svg", "default", highlight, selection].join(" ");
       }
     }, [highlightType, selectedRef, highlightedRef]);
 
     const clickRefHandler = useCallback(
       (event) => {
-        const { current: callback } = onSelectRefHandler;
+        const { current: callback } = onSelectRefHandler;
         if (typeof callback !== "function") {
           return;
         }
@@ -82,7 +83,7 @@ const FileWithRefsComponent = forwardRef(
 
     const pointerEnterRefHandler = useCallback(
       (event) => {
-        const { current: callback } = onPointerEnterRefHandler;
+        const { current: callback } = onPointerEnterRefHandler;
         if (typeof callback !== "function") {
           return;
         }
@@ -94,11 +95,11 @@ const FileWithRefsComponent = forwardRef(
 
     const pointerLeaveRefHandler = useCallback(
       (event) => {
-        const { current: callback } = onPointerLeaveRefHandler;
+        const { current: callback } = onPointerLeaveRefHandler;
         if (typeof callback !== "function") {
           return;
         }
-        
+
         callback(refMap[event.currentTarget.id]);
       },
       [refMap, onPointerLeaveRefHandler]
@@ -116,7 +117,8 @@ const FileWithRefsComponent = forwardRef(
     useLayoutEffect(() => {
       $domRefs.current = refs
         .map(({ [identifier]: id }) => {
-          const $ref = document.getElementById(id);
+          const $ref = container.getElementById(id);
+
           if ($ref !== null) {
             $ref.addEventListener("click", clickRefHandler);
             $ref.addEventListener("pointerenter", pointerEnterRefHandler);
@@ -138,6 +140,7 @@ const FileWithRefsComponent = forwardRef(
     }, [
       refs,
       refMap,
+      container,
       identifier,
       clickRefHandler,
       pointerEnterRefHandler,
@@ -146,12 +149,18 @@ const FileWithRefsComponent = forwardRef(
     ]);
 
     useLayoutEffect(() => {
-      syncElementAndData($selectedRef, selectedRef, identifier, CLASS_NAME_SELECTED);
-    }, [selectedRef, identifier, data /* => html change */]);
+      syncElementAndData($selectedRef, selectedRef, identifier, container, CLASS_NAME_SELECTED);
+    }, [selectedRef, identifier, container, data /* => html change */]);
 
     useLayoutEffect(() => {
-      syncElementAndData($highlightedRef, highlightedRef, identifier, CLASS_NAME_HIGHLIGHTED);
-    }, [highlightedRef, identifier, data /* => html change */]);
+      syncElementAndData(
+        $highlightedRef,
+        highlightedRef,
+        identifier,
+        container,
+        CLASS_NAME_HIGHLIGHTED
+      );
+    }, [highlightedRef, identifier, container, data /* => html change */]);
 
     return <HTML html={data} ref={ref} className={className} />;
   }
@@ -163,6 +172,7 @@ FileWithRefsComponent.defaultProps = {
   onSelectRef: (/* ref */) => {},
   highlightType: HIGHLIGHT_TYPE_DEFAULT,
   highlightedRef: null,
+  container: document,
   selectedRef: null,
   identifier: "id",
   refs: [],
@@ -175,7 +185,7 @@ FileWithRefsComponent.defaultProps = {
  *
  * <FileWithRefs
  *   refs={[
- *     { id: "dom-id-1" }, 
+ *     { id: "dom-id-1" },
  *     { id: "dom-id-2" }
  *   ]}
  *   selectedRef={selectedRef}

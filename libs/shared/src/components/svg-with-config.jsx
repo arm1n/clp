@@ -14,7 +14,6 @@ const MODE_LINK = "LINK";
 const MODE_POPUP = "POPUP";
 const MODE_INLINE = "INLINE";
 
-
 /**
  * Wrapper around <FileWithRefs> handlingn different
  * interaction modes for configured layer ids.
@@ -23,7 +22,7 @@ const MODE_INLINE = "INLINE";
  *
  * <SVGWithConfig {...props} />
  */
-export const SVGWithConfig = ({ svgPath, svgData }) => {
+export const SVGWithConfig = ({ svgPath, svgData, container }) => {
   const [selectedRef, setSelectedRef] = useState(null);
   const { navigate } = useRouter();
 
@@ -38,9 +37,11 @@ export const SVGWithConfig = ({ svgPath, svgData }) => {
         case MODE_LINK:
           navigate(ref.path);
           break;
-          
-        case MODE_INLINE: break;
-        case MODE_POPUP: break;
+
+        case MODE_INLINE:
+          break;
+        case MODE_POPUP:
+          break;
         default:
       }
     },
@@ -62,6 +63,7 @@ export const SVGWithConfig = ({ svgPath, svgData }) => {
         <FileWithRefs
           path={svgPath}
           refs={svgData}
+          container={container}
           selectedRef={selectedRef}
           onSelectRef={selectRefHandler}
         />
@@ -85,6 +87,5 @@ export const SVGWithConfig = ({ svgPath, svgData }) => {
 SVGWithConfig.defaultProps = {
   svgData: [],
   svgPath: null,
-  selectedRef: undefined,
-  onSelectRef: () => {},
+  container: document,
 };

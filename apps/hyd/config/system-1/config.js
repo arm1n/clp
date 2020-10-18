@@ -52,7 +52,7 @@ export const DATA_SET = [
   {
     id: "clp-sys-flaps",
     unit: "./units/fc/desc/general_flight_control.html",
-    desc: "./units/hyd/desc/general_flap.html",
+    desc: "./units/hyd/desc/general_flaps.html",
     info: {},
     access: {},
   },

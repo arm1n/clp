@@ -489,11 +489,21 @@ export const DATA_SET = [
         id: "clp-info-apu-drain",
         text: "Drain Mast",
         data: {
-          view: "RIGHT",
+          view: "LEFT",
           desc: "./units/apu/desc/info_apu_drain.html",
           unit: "./units/apu/units/apu_drain_mast.html",
         },
 				show_in_menu: true,
+      },
+			{
+        id: "clp-info-apu-drain",
+        text: "Drain Mast",
+        data: {
+          view: "RIGHT",
+          desc: "./units/apu/desc/info_apu_drain.html",
+          unit: "./units/apu/units/apu_drain_mast.html",
+        },
+				show_in_menu: false,
       },
 			{
         id: "clp-apu-access-door",

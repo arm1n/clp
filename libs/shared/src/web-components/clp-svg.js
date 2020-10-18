@@ -2,10 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import { SVGWithConfig, Router } from "components";
-
 import { childrenMatches } from "utils";
 
 import { Base } from "./clp-base";
+
+// https://webpack.js.org/loaders/file-loader/
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import stylesheet from '!!file-loader!../styles/svg.css';
 
 // ----------------------------------------------------------------------------------------------------
 // Component for creating a configurable svg layer.
@@ -13,12 +16,13 @@ import { Base } from "./clp-base";
 // Usage:
 //
 // <clp-svg-config
+//   ref="clp-ref"
 //   mode="POPUP"
 //   path="./path/to/popup.html"
 //   name="Popup name for mode 'POPUP'">
 // </clp-svg-config>
 //
-// id: identifier of the layer in the SVG
+// ref: identifier of the layer in the SVG
 // path: path to html/popup file or link.
 // mode: 'INLINE', 'POPUP' or 'LINK'.
 // name: text for box or popup ('INLINE' or 'POPUP')
@@ -41,6 +45,16 @@ export { SVGConfig };
 class SVG extends Base {
   setup() {
     this.$configs = Array.from(childrenMatches(this.$template, "clp-svg-config"));
+    this.$shadow = this.$wrapper.attachShadow({ mode: "open" });
+
+    this.$shadow.innerHTML = `
+      <link rel="stylesheet" href="${stylesheet}"/>
+      <div id="container">
+        <!-- SVGWithConfig -->
+      </div>
+    `;
+
+    this.$container = this.$shadow.getElementById('container');
   }
 
   render() {
@@ -49,12 +63,12 @@ class SVG extends Base {
       .map((element) => this._createConfig(element))
       .filter((config) => config !== null);
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this.$container);
     ReactDOM.render(
       <Router>
-        <SVGWithConfig svgPath={svgPath} svgData={svgData} />
+        <SVGWithConfig svgPath={svgPath} svgData={svgData} container={this.$shadow} />
       </Router>,
-      this.$wrapper
+      this.$container
     );
   }
 
@@ -72,7 +86,7 @@ class SVG extends Base {
     const path = element.getAttribute("path");
     const name = element.getAttribute("name");
     const size = element.getAttribute("size");
-    const id = element.getAttribute("id");
+    const id = element.getAttribute("ref");
 
     switch (mode) {
       case "LINK":

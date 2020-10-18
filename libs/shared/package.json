@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "devDependencies": {
     "@clp/prettier-config": "^1.0.0",
-    "@clp/util": "^1.0.0"
+    "@clp/util": "^1.0.0",
+    "file-loader": "^6.1.1"
   },
   "peerDependencies": {
     "node-sass": "^4.13.1",

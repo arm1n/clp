@@ -95,7 +95,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-hyd-heatexch-bvlv",
-    unit: "./units/hyd/units/hyd_heatexch_bvlv.htmll",
+    unit: "./units/hyd/units/hyd_heatexch_bvlv.html",
     desc: "./units/hyd/desc/hyd_heatexch_bvlv.html",
     info: {},
     access: {},
@@ -131,14 +131,14 @@ export const DATA_SET = [
   {
     id: "clp-sys-rudder-elev",
     unit: "./units/fc/desc/general_flight_control.html",
-    desc: "./units/hyd/desc/general_rud_elev.html",
+    desc: "./units/hyd/desc/general2_rud_elev.html",
     info: {},
     access: {},
   },
   {
     id: "clp-sys-spoiler-gear",
     /** unit: "./units/hyd/units/file.html", */
-    desc: "./units/hyd/desc/general_outb_sp_gear_steering.html",
+    desc: "./units/hyd/desc/general2_outb_sp_gear_steering.html",
     info: {},
     access: {},
   },

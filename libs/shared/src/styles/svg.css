@@ -1,0 +1,64 @@
+/**
+ * Base
+ */
+
+/* refs should receive interaction */
+.svg svg .clp-ref {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+/* interaction only applicable for refs */
+.svg svg #clp-system,
+.svg svg #clp-system *,
+.svg svg #clp-hintergrund,
+.svg svg #clp-hintergrund * {
+  pointer-events: none;
+}
+
+/**
+ * Default
+ */
+
+/* for SVG without "-hl" paths */
+.svg.default svg .clp-ref:hover,
+.svg.default svg .clp-ref:hover :not([id$="-hl"]),
+.svg.default svg .clp-ref.highlighted :not([id$="-hl"]) {
+  fill: var(--svg-highlighted-color);
+}
+
+.svg.default svg .clp-ref.selected,
+.svg.default svg .clp-ref.selected :not([id$="-hl"]) {
+  fill: var(--svg-selected-color);
+}
+
+/* for SVG using "-hl" paths inside */
+.svg.default svg .clp-ref:hover [id$="-hl"],
+.svg.default svg .clp-ref.highlighted [id$="-hl"] {
+  fill: var(--svg-highlighted-color);
+}
+
+.svg.default svg .clp-ref.selected [id$="-hl"] {
+  fill: var(--svg-selected-color);
+}
+
+.svg.default svg .clp-ref [id$="-hl"],
+.svg.default svg .clp-ref [id$="-hl"] > * {
+  fill: transparent;
+}
+
+/**
+ * Opacity
+ */
+.svg.opacity svg:hover g:not(:hover) {
+	opacity: 0.5;
+}
+
+.svg.opacity svg:hover .clp-ref:hover,
+.svg.opacity svg:hover .clp-ref.selected {
+	opacity: 1;
+}
+
+.svg.opacity.selection svg g:not(.selected) {
+	opacity: 0.5;
+}

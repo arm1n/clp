@@ -186,6 +186,15 @@ export const DATA_SET = [
     access: {},
     show_in_menu: false,
   },
+	{
+    id: "clp-static-disch",
+    text: "STATIC DISCHARGERS",
+    unit: "./units/antenna/units/static_disch.html",
+    desc: "./units/antenna/desc/static_disch.html",
+    info: {},
+    access: {},
+    show_in_menu: true,
+  },
 ];
 
 /**
