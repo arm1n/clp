@@ -20,6 +20,7 @@ export const SVGWithStates = ({
   children,
   config,
   showFile,
+  svgClassName,
   onChangeState,
   currentState: customCurrentState,
 }) => {
@@ -58,6 +59,8 @@ export const SVGWithStates = ({
     return Object.keys(transitions).map((key) => ({ id: key }));
   }, [config, currentState]);
 
+  const svgClassNames = useMemo(() => [styles.svg, svgClassName].join(" "), [svgClassName]);
+
   const selectRefHandler = useCallback(
     (ref) => {
       const nextState = getProperty(config, `transitions.${currentState}.${ref.id}`);
@@ -65,7 +68,6 @@ export const SVGWithStates = ({
         return;
       }
 
-      
       setCurrentStateInternal(nextState);
       onChangeState(nextState);
     },
@@ -74,7 +76,7 @@ export const SVGWithStates = ({
 
   return (
     <Fragment>
-      <div className={styles.svg}>
+      <div className={svgClassNames}>
         <FileWithRefs
           path={svgPath}
           refs={svgData}
@@ -94,6 +96,7 @@ export const SVGWithStates = ({
 SVGWithStates.defaultProps = {
   config: {},
   showFile: true,
+  svgClassName: "",
   currentState: undefined,
   onChangeState: () => {},
 };

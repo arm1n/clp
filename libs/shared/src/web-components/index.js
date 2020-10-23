@@ -10,6 +10,7 @@ import "@webcomponents/webcomponentsjs/webcomponents-loader.js";
 
 // define all components to be loaded if polyfill/adapter ready
 const COMPONENTS = [
+  // common components
   "./clp-a",
   "./clp-accordion",
   "./clp-card",
@@ -26,6 +27,10 @@ const COMPONENTS = [
   "./clp-table",
   "./clp-tabs",
   "./clp-text",
+
+  // page components
+  "./page-components/clp-arcdu-simulator",
+  "./page-components/clp-pseu-simulator",
 ];
 
 //

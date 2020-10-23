@@ -19,6 +19,7 @@ import { App as Hgs } from "@clp/hgs";
 import { App as Hyd } from "@clp/hyd";
 import { App as Lights } from "@clp/lights";
 import { App as NuisanceWarning } from "@clp/nuisance-warning";
+import { App as PSEU } from "@clp/pseu";
 import { App as UnitLocation } from "@clp/unit-location";
 
 import { Main } from "components/main";
@@ -68,7 +69,10 @@ export const App = () => (
 
       {/* READOUT */}
       <Page path="/arcdu">
-        <ARCDU />
+        <ARCDU after={<EngineApuEcsFaultsSearch />} />
+      </Page>
+      <Page path="/pseu">
+        <PSEU />
       </Page>
 
       {/* SYSTEMS */}

@@ -20,6 +20,7 @@
     "@clp/lights": "^1.0.0",
     "@clp/nuisance-warning": "^1.0.0",
     "@clp/prettier-config": "^1.0.0",
+    "@clp/pseu": "^1.0.0",
     "@clp/shared": "^1.0.0",
     "@clp/unit-location": "^1.0.0",
     "@clp/util": "^1.0.0",

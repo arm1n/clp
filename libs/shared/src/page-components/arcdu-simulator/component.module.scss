@@ -1,0 +1,23 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
+.svg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 500px;
+  @include min-width(lg) {
+    width: 40%;
+  }
+}
+
+.arcdu {
+  width: 100%;
+  margin: 3rem 0 0;
+  @include min-width(lg) {
+    width: 60%;
+  }
+}

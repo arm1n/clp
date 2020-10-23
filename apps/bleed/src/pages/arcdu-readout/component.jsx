@@ -1,10 +1,5 @@
-import React, { Fragment } from "react";
-
-// import { SVGWithDescAndUnit } from "@clp/shared";
-// import { DATA_SET, SVG_PATH, INTRO_PATH } from "config/arcdu-readout/config";
+import React from "react";
 
 // import styles from "./component.module.scss";
 
-export const ArcduReadout = () => (
-  <Fragment>TODO</Fragment>
-);
+export const ArcduReadout = () => <clp-arcdu-simulator></clp-arcdu-simulator>

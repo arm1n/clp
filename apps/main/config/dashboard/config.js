@@ -10602,7 +10602,7 @@ export const MAIN_NAV = [
       {
         name: "PSEU SIMILATOR",
         icon: null,
-        path: null,
+        path: "/pseu",
         mode: "INTERNAL",
       },
       {

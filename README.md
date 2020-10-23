@@ -40,7 +40,7 @@ Example: `npx yarn start @clp/ele` - starts only electrical app.
 
 To optimize all SVG images within an app use: `npx yarn svgo [app]`
 
-Example: `npx yarn svgo @clp/ele`
+Example: `npx yarn svgo apps/ele`
 
 ### Creating a production build
 
