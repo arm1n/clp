@@ -12,14 +12,14 @@ const { execSync } = require("child_process");
 const [, , /* node */ /* script */ directory = ""] = process.argv;
 
 const CONFIG_SVGO = path.join(__dirname, ".svgo.yml");
-const BINARY_SVGO = path.join("node_modules", ".bin", "svgo");
+const BINARY_SVGO = path.join("node_modules", "svgo", "bin", "svgo");
 
 try {
 	util.walkRecursive(directory, (file) => {
 		switch (path.extname(file)) {
 			case ".svg":
 				console.log(`Optimizing ${file}...`);
-				execSync(`${BINARY_SVGO} ${file} --config ${CONFIG_SVGO}`, {
+				execSync(`${BINARY_SVGO} ${file} --config=${CONFIG_SVGO} --multipass`, {
 					stdio: "inherit",
 				});
 				break;

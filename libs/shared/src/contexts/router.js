@@ -1,5 +1,5 @@
 import React, { createContext, useMemo, useCallback, useEffect, useRef, useState } from "react";
-import { matchPath, useLocation, useHistory, HashRouter } from "react-router-dom";
+import { matchPath, useLocation, useHistory } from "react-router-dom";
 
 import { deserializeQueryParams } from "utils";
 
@@ -100,11 +100,7 @@ export const RouterProvider = ({ children }) => {
     return () => unlisten();
   }, [stack, observers, history]);
 
-  return (
-    <HashRouter>
-      <RouterContext.Provider value={value}>{children}</RouterContext.Provider>
-    </HashRouter>
-  );
+  return <RouterContext.Provider value={value}>{children}</RouterContext.Provider>;
 };
 
 const ROUTER_CONTEXT_DEFAULT = {

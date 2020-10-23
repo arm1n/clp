@@ -1,0 +1,751 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 1047.9 483.8" xml:space="preserve">
+  <g id="clp-hintergrund">
+    <path id="display" d="M664.6 311.9h-280c-6.6 0-12-5.4-12-12v-280c0-6.6 5.4-12 12-12h280c6.6 0 12 5.4 12 12v280c0 6.6-5.4 12-12 12z" fill="#23211d"/>
+    <g id="sch">
+      <path d="M592.3 466.9v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.9 0 3.7-2.1 5.4-6.3z" fill="#23211d"/>
+      <path d="M589.7 441.6c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#73706f"/>
+      <path d="M589.7 466.9v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M670.7 466.8v-25.3c0-2.1-1.8-4.2-5.4-6.3H618c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.8 0 3.6-2.1 5.3-6.3z" fill="#23211d"/>
+      <path d="M668.1 441.5c1.7-2.1.8-4.2-2.8-6.3H618c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.1-31.6z" fill="#73706f"/>
+      <path d="M668.1 466.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.8 0 3.6-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M518.4 466.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3H513c1.9 0 3.7-2.1 5.4-6.3z" fill="#23211d"/>
+      <path d="M515.8 441.5c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#73706f"/>
+      <path d="M515.8 466.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M440.1 466.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.9 0 3.7-2.1 5.4-6.3z" fill="#23211d"/>
+      <path d="M437.5 441.5c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#73706f"/>
+      <path d="M437.5 466.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#504c4b"/>
+      <defs>
+        <path id="SVGID_1_" d="M400 441.7h22.2v23.4H400z"/>
+      </defs>
+      <clipPath id="SVGID_2_">
+        <use xlink:href="#SVGID_1_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_2_)">
+        <text transform="matrix(.995 0 0 1 402.004 459.774)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          PA
+        </text>
+      </g>
+      <defs>
+        <path id="SVGID_3_" d="M463.5 441.7h51.8v23.4h-51.8z"/>
+      </defs>
+      <clipPath id="SVGID_4_">
+        <use xlink:href="#SVGID_3_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_4_)">
+        <text transform="matrix(.995 0 0 1 465.504 459.774)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          CHIME
+        </text>
+      </g>
+      <defs>
+        <path id="SVGID_5_" d="M543.5 441.7h39.2v23.4h-39.2z"/>
+      </defs>
+      <clipPath id="SVGID_6_">
+        <use xlink:href="#SVGID_5_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_6_)">
+        <text transform="matrix(.995 0 0 1 545.454 459.774)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          CALL
+        </text>
+      </g>
+      <defs>
+        <path id="SVGID_7_" d="M619.6 441.7h44.3v23.4h-44.3z"/>
+      </defs>
+      <clipPath id="SVGID_8_">
+        <use xlink:href="#SVGID_7_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_8_)">
+        <text transform="matrix(.995 0 0 1 621.605 459.774)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          EMER
+        </text>
+      </g>
+      <path d="M691.8 483.8v-55h-319v55h319z" fill="#fff" fill-opacity=".898"/>
+      <path d="M592.3 366.9v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.9 0 3.7-2.1 5.4-6.3z" fill="#23211d"/>
+      <path d="M589.7 341.6c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#73706f"/>
+      <path d="M589.7 366.9v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M670.7 366.8v-25.3c0-2.1-1.8-4.2-5.4-6.3H618c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.8 0 3.6-2.1 5.3-6.3z" fill="#23211d"/>
+      <path d="M668.1 341.5c1.7-2.1.8-4.2-2.8-6.3H618c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.1-31.6z" fill="#73706f"/>
+      <path d="M668.1 366.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.8 0 3.6-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M518.4 366.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3H513c1.9 0 3.7-2.1 5.4-6.3z" fill="#23211d"/>
+      <path d="M515.8 341.5c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#73706f"/>
+      <path d="M515.8 366.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M440.1 366.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.9 0 3.7-2.1 5.4-6.3z" fill="#23211d"/>
+      <path d="M437.5 341.5c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#73706f"/>
+      <path d="M437.5 366.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#504c4b"/>
+      <path d="M458.6 474.4l2.4 2.8 2.3-2.8-2.3-2.8c-1.7-.1-2.4.9-2.4 2.8z" fill="#fff"/>
+      <defs>
+        <path id="SVGID_9_" d="M396.9 337.4h27.2v34.2h-27.2z"/>
+      </defs>
+      <clipPath id="SVGID_10_">
+        <use xlink:href="#SVGID_9_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_10_)">
+        <text transform="matrix(.995 0 0 1 398.954 351.805)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          PG
+        </text>
+      </g>
+      <defs>
+        <path id="SVGID_11_" d="M396.9 337.4h27.2v34.2h-27.2z"/>
+      </defs>
+      <clipPath id="SVGID_12_">
+        <use xlink:href="#SVGID_11_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_12_)">
+        <text transform="matrix(.995 0 0 1 399.454 365.875)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          1/2
+        </text>
+      </g>
+      <defs>
+        <path id="SVGID_13_" d="M474.7 342.5h36.2v20.1h-36.2z"/>
+      </defs>
+      <clipPath id="SVGID_14_">
+        <use xlink:href="#SVGID_13_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_14_)">
+        <text transform="matrix(.995 0 0 1 476.654 356.855)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          EXP
+        </text>
+      </g>
+      <text transform="matrix(.995 0 0 1 545.605 352.805)" font-size="16.081" font-family="ArialMT" fill="#fff">
+        DME
+      </text>
+      <defs>
+        <path id="SVGID_15_" d="M539.1 338.4h48.5v34.2h-48.5z"/>
+      </defs>
+      <clipPath id="SVGID_16_">
+        <use xlink:href="#SVGID_15_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_16_)">
+        <text transform="matrix(.995 0 0 1 541.154 366.875)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          HOLD
+        </text>
+      </g>
+      <defs>
+        <path id="SVGID_17_" d="M629 345.5h27.3v20.1H629z"/>
+      </defs>
+      <clipPath id="SVGID_18_">
+        <use xlink:href="#SVGID_17_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_18_)">
+        <text transform="matrix(.995 0 0 1 630.954 359.855)" font-size="16.081" font-family="ArialMT" fill="#fff">
+          CH
+        </text>
+      </g>
+      <path d="M683.7 378.2v-55h-319v55h319z" fill="#fff" fill-opacity=".898"/>
+    </g>
+  </g>
+  <g id="clp-maint-button">
+    <path d="M670.7 416.8v-25.3c0-2.1-1.8-4.2-5.4-6.3H618c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.8 0 3.6-2.1 5.3-6.3z" fill="#24211d"/>
+    <path d="M668.1 391.5c1.7-2.1.8-4.2-2.8-6.3H618c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.1-31.6z" fill="#72706f"/>
+    <path d="M668.1 416.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.8 0 3.6-2.1 5.4-6.3z" fill="#4f4c4a"/>
+    <text transform="translate(616.854 410.643)" font-size="16" font-family="ArialMT" fill="#fff">
+      MAINT
+    </text>
+  </g>
+  <g id="clp-next-button">
+    <path d="M592.3 416.9v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.9 0 3.7-2.1 5.4-6.3z" fill="#24211d"/>
+    <path d="M589.7 391.6c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#72706f"/>
+    <path d="M589.7 416.9v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#4f4c4a"/>
+    <text transform="translate(543.854 410.643)" font-size="16" font-family="ArialMT" fill="#fff">
+      NEXT
+    </text>
+  </g>
+  <g id="clp-prev-button">
+    <path d="M518.4 416.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3H513c1.9 0 3.7-2.1 5.4-6.3z" fill="#24211d"/>
+    <path d="M515.8 391.5c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#72706f"/>
+    <path d="M515.8 416.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#4f4c4a"/>
+    <path d="M458.6 424.4l2.4 2.8 2.3-2.8-2.3-2.8c-1.7-.1-2.4.9-2.4 2.8z" fill="#fff"/>
+    <text transform="translate(468.154 410.643)" font-size="16" font-family="ArialMT" fill="#fff">
+      PREV
+    </text>
+  </g>
+  <g id="clp-dim-button">
+    <path d="M440.1 416.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3h47.4c1.9 0 3.7-2.1 5.4-6.3z" fill="#24211d"/>
+    <path d="M437.5 391.5c1.7-2.1.8-4.2-2.8-6.3h-47.4c-1.7 0-3.4 2.1-5.2 6.3v25.3c0 2.1 1.7 4.2 5.2 6.3l50.2-31.6z" fill="#72706f"/>
+    <path d="M437.5 416.8v-25.3c0-2.1-1.8-4.2-5.4-6.3h-42c-1.9 0-3.7 2.1-5.4 6.3v25.3c0 2.1 1.8 4.2 5.4 6.3h42c1.7 0 3.5-2.1 5.4-6.3z" fill="#4f4c4a"/>
+    <path d="M425.8 405.7v-2.8h-30.6v2.8h30.6z" fill="#fff"/>
+    <g font-size="13" font-family="ArialMT" fill="#fff">
+      <text transform="translate(398.954 400.643)">
+        DIM
+      </text>
+      <text transform="translate(399.304 418.343)">
+        RET
+      </text>
+    </g>
+  </g>
+  <g id="clp-key-r4">
+    <path d="M723.7 285.2V268c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M722.1 268c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3l31.9-21.5z" fill="#72706f"/>
+    <path d="M722.1 285.2V268c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M723 277.3v-2.8h-35.7v2.8H723z" fill="#fff"/>
+  </g>
+  <g id="clp-key-r3">
+    <path d="M723.7 215.2V198c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M722.1 198c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3l31.9-21.5z" fill="#72706f"/>
+    <path d="M722.1 215.2V198c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M723 207.3v-2.8h-35.7v2.8H723z" fill="#fff"/>
+  </g>
+  <g id="clp-key-r2">
+    <path d="M723.7 61.2V44c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M722.1 44c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3L722.1 44z" fill="#72706f"/>
+    <path d="M722.1 61.2V44c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M723 53.3v-2.8h-35.7v2.8H723z" fill="#fff"/>
+  </g>
+  <g id="clp-key-r1">
+    <path d="M723.7 135.2V118c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M722.1 118c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3l31.9-21.5z" fill="#72706f"/>
+    <path d="M722.1 135.2V118c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M723 127.3v-2.8h-35.7v2.8H723z" fill="#fff"/>
+  </g>
+  <g id="clp-key-l2">
+    <path d="M364.7 135.2V118c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M363.1 118c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3l31.9-21.5z" fill="#72706f"/>
+    <path d="M363.1 135.2V118c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M364 127.3v-2.8h-35.7v2.8H364z" fill="#fff"/>
+  </g>
+  <g id="clp-key-l4">
+    <path d="M364.7 285.2V268c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M363.1 268c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3l31.9-21.5z" fill="#72706f"/>
+    <path d="M363.1 285.2V268c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M364 277.3v-2.8h-35.7v2.8H364z" fill="#fff"/>
+  </g>
+  <g id="clp-key-l3">
+    <path d="M364.7 215.2V198c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M363.1 198c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3l31.9-21.5z" fill="#72706f"/>
+    <path d="M363.1 215.2V198c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M364 207.3v-2.8h-35.7v2.8H364z" fill="#fff"/>
+  </g>
+  <g id="clp-key-l1">
+    <path d="M364.7 61.2V44c0-1.4-1.1-2.9-3.4-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3h30.2c1.2 0 2.3-1.5 3.4-4.3z" fill="#24211d"/>
+    <path d="M363.1 44c1.1-1.4.5-2.9-1.7-4.3h-30.2c-1.1 0-2.2 1.4-3.3 4.3v17.2c0 1.4 1.1 2.9 3.3 4.3L363.1 44z" fill="#72706f"/>
+    <path d="M363.1 61.2V44c0-1.4-1.1-2.9-3.4-4.3h-26.8c-1.2 0-2.3 1.4-3.4 4.3v17.2c0 1.4 1.1 2.9 3.4 4.3h26.8c1.1 0 2.2-1.5 3.4-4.3z" fill="#4f4c4a"/>
+    <path d="M364 53.3v-2.8h-35.7v2.8H364z" fill="#fff"/>
+  </g>
+  <g id="clp-system">
+    <path d="M458.6 374.4l2.4 2.8 2.3-2.8-2.3-2.8c-1.7-.1-2.4.9-2.4 2.8z" fill="#fff"/>
+    <path id="Layer6_0_1_STROKES" d="M524.7 310.8v.8" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M407 271.5h-15V306h15v-34.5m0-225.7h-15v34.5h15V45.8z" fill="#67b32e"/>
+    <path d="M407 201.8h-15v34.5h15v-34.5m0-79.9h-15v34.5h15v-34.5m156.4 84.4h-15v30h15v-30m0-49.9v-24.8h-15v24.8h15m0-99.4h-15v23.2h15V57z" fill="#fff"/>
+    <path id="Layer2_0_1_STROKES" d="M563.4 57.1v-27h-15v27m15 0v23.2h0-15 0V57.1m15 74.5v-25.5h-15v25.5m15 0v24.8h-15v-24.8m15 74.7V186h-15v20.3m15 30v-30m-15 0v30M407 121.9v-15.8h-15v15.8m15 0v34.5h-15v-34.5m15 79.9V186h-15v50.3h15v-34.5z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Layer2_0_2_STROKES" d="M677 89.6H524.7V168h151.9M524.7 10.1v79.5H374.6m302 151.9H524.7v69.4m-150.1-69.4h150.2V168H374.6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Layer2_0_3_STROKES" d="M407 45.8V30.1h-15v50.3h15V45.8zm0 225.7v-15.8h-15v15.8m15 0V306h-15v-34.5" fill="none" stroke="#67b32e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs>
+      <path id="SVGID_19_" d="M374 95.2h13.1v66.2H374z"/>
+    </defs>
+    <clipPath id="SVGID_20_">
+      <use xlink:href="#SVGID_19_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_20_)">
+      <text transform="translate(377.554 113.193)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        I
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_21_" d="M374 95.2h13.1v66.2H374z"/>
+    </defs>
+    <clipPath id="SVGID_22_">
+      <use xlink:href="#SVGID_21_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_22_)">
+      <text transform="translate(376.554 127.493)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        L
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_23_" d="M374 95.2h13.1v66.2H374z"/>
+    </defs>
+    <clipPath id="SVGID_24_">
+      <use xlink:href="#SVGID_23_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_24_)">
+      <text transform="translate(376.104 141.793)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        S
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_25_" d="M374 95.2h13.1v66.2H374z"/>
+    </defs>
+    <clipPath id="SVGID_26_">
+      <use xlink:href="#SVGID_25_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_26_)">
+      <text transform="translate(376.204 156.093)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        1
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_27_" d="M373.6 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_28_">
+      <use xlink:href="#SVGID_27_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_28_)">
+      <text transform="translate(376.304 34.443)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        V
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_29_" d="M373.6 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_30_">
+      <use xlink:href="#SVGID_29_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_30_)">
+      <text transform="translate(375.654 48.743)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        H
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_31_" d="M373.6 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_32_">
+      <use xlink:href="#SVGID_31_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_32_)">
+      <text transform="translate(376.904 63.043)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        F
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_33_" d="M373.6 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_34_">
+      <use xlink:href="#SVGID_33_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_34_)">
+      <text transform="translate(376.704 77.343)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        1
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_35_" d="M373.7 170.8h15V237h-15z"/>
+    </defs>
+    <clipPath id="SVGID_36_">
+      <use xlink:href="#SVGID_35_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_36_)">
+      <text transform="translate(376.404 188.793)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        A
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_37_" d="M373.7 170.8h15V237h-15z"/>
+    </defs>
+    <clipPath id="SVGID_38_">
+      <use xlink:href="#SVGID_37_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_38_)">
+      <text transform="translate(375.754 203.093)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        D
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_39_" d="M373.7 170.8h15V237h-15z"/>
+    </defs>
+    <clipPath id="SVGID_40_">
+      <use xlink:href="#SVGID_39_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_40_)">
+      <text transform="translate(377.054 217.393)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        F
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_41_" d="M373.7 170.8h15V237h-15z"/>
+    </defs>
+    <clipPath id="SVGID_42_">
+      <use xlink:href="#SVGID_41_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_42_)">
+      <text transform="translate(376.854 231.693)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        1
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_43_" d="M373.8 250.8h14.8v51.9h-14.8z"/>
+    </defs>
+    <clipPath id="SVGID_44_">
+      <use xlink:href="#SVGID_43_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_44_)">
+      <text transform="translate(378.154 268.843)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        I
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_45_" d="M373.8 250.8h14.8v51.9h-14.8z"/>
+    </defs>
+    <clipPath id="SVGID_46_">
+      <use xlink:href="#SVGID_45_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_46_)">
+      <text transform="translate(375.804 283.143)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        N
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_47_" d="M373.8 250.8h14.8v51.9h-14.8z"/>
+    </defs>
+    <clipPath id="SVGID_48_">
+      <use xlink:href="#SVGID_47_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_48_)">
+      <text transform="translate(376.504 297.443)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        T
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_49_" d="M429.3 10.3h88.2v28.1h-88.2z"/>
+    </defs>
+    <clipPath id="SVGID_50_">
+      <use xlink:href="#SVGID_49_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_50_)">
+      <text transform="translate(431.254 32.293)" font-size="20" font-family="ArialMT" fill="#fff">
+        121 . 900
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_51_" d="M446.8 55.2h68.4v25.7h-68.4z"/>
+    </defs>
+    <clipPath id="SVGID_52_">
+      <use xlink:href="#SVGID_51_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_52_)">
+      <text transform="translate(448.804 75.193)" font-size="18" font-family="ArialMT" fill="#fff">
+        120.100
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_53_" d="M429.3 92h88.2v28.1h-88.2z"/>
+    </defs>
+    <clipPath id="SVGID_54_">
+      <use xlink:href="#SVGID_53_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_54_)">
+      <text transform="translate(431.254 114.043)" font-size="20" font-family="ArialMT" fill="#fff">
+        111 . 100
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_55_" d="M446.9 134.8h68v25.7h-68z"/>
+    </defs>
+    <clipPath id="SVGID_56_">
+      <use xlink:href="#SVGID_55_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_56_)">
+      <text transform="translate(448.904 154.793)" font-size="18" font-family="ArialMT" fill="#fff">
+        109.700
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_57_" d="M429.5 171.9h36.9V200h-36.9z"/>
+    </defs>
+    <clipPath id="SVGID_58_">
+      <use xlink:href="#SVGID_57_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_58_)">
+      <text transform="translate(431.454 193.943)" font-size="20" font-family="ArialMT" fill="#fff">
+        313
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_59_" d="M429.1 214.4h33.6v25.7h-33.6z"/>
+    </defs>
+    <clipPath id="SVGID_60_">
+      <use xlink:href="#SVGID_59_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_60_)">
+      <text transform="translate(431.054 234.443)" font-size="18" font-family="ArialMT" fill="#fff">
+        303
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_61_" d="M415.2 252.2H467v25.7h-51.8z"/>
+    </defs>
+    <clipPath id="SVGID_62_">
+      <use xlink:href="#SVGID_61_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_62_)">
+      <text transform="translate(417.204 272.193)" font-size="18" font-family="ArialMT" fill="#fff">
+        VHF 1
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_63_" d="M530.4 96.2h13.1v66.2h-13.1z"/>
+    </defs>
+    <clipPath id="SVGID_64_">
+      <use xlink:href="#SVGID_63_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_64_)">
+      <text transform="translate(533.954 114.193)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        I
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_65_" d="M530.4 96.2h13.1v66.2h-13.1z"/>
+    </defs>
+    <clipPath id="SVGID_66_">
+      <use xlink:href="#SVGID_65_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_66_)">
+      <text transform="translate(532.954 128.493)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        L
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_67_" d="M530.4 96.2h13.1v66.2h-13.1z"/>
+    </defs>
+    <clipPath id="SVGID_68_">
+      <use xlink:href="#SVGID_67_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_68_)">
+      <text transform="translate(532.504 142.793)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        S
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_69_" d="M530.4 96.2h13.1v66.2h-13.1z"/>
+    </defs>
+    <clipPath id="SVGID_70_">
+      <use xlink:href="#SVGID_69_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_70_)">
+      <text transform="translate(532.604 157.093)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        2
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_71_" d="M530 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_72_">
+      <use xlink:href="#SVGID_71_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_72_)">
+      <text transform="translate(532.704 34.443)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        V
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_73_" d="M530 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_74_">
+      <use xlink:href="#SVGID_73_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_74_)">
+      <text transform="translate(532.054 48.743)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        H
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_75_" d="M530 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_76_">
+      <use xlink:href="#SVGID_75_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_76_)">
+      <text transform="translate(533.304 63.043)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        F
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_77_" d="M530 16.4h15v66.2h-15z"/>
+    </defs>
+    <clipPath id="SVGID_78_">
+      <use xlink:href="#SVGID_77_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_78_)">
+      <text transform="translate(533.104 77.343)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        2
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_79_" d="M530.1 171.8h15V238h-15z"/>
+    </defs>
+    <clipPath id="SVGID_80_">
+      <use xlink:href="#SVGID_79_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_80_)">
+      <text transform="translate(532.804 189.793)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        A
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_81_" d="M530.1 171.8h15V238h-15z"/>
+    </defs>
+    <clipPath id="SVGID_82_">
+      <use xlink:href="#SVGID_81_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_82_)">
+      <text transform="translate(532.154 204.093)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        D
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_83_" d="M530.1 171.8h15V238h-15z"/>
+    </defs>
+    <clipPath id="SVGID_84_">
+      <use xlink:href="#SVGID_83_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_84_)">
+      <text transform="translate(533.454 218.393)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        F
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_85_" d="M530.1 171.8h15V238h-15z"/>
+    </defs>
+    <clipPath id="SVGID_86_">
+      <use xlink:href="#SVGID_85_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_86_)">
+      <text transform="translate(533.254 232.693)" fill="#67b32e" font-size="16" font-family="ArialMT">
+        2
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_87_" d="M530.7 242.8h13.8V309h-13.8z"/>
+    </defs>
+    <clipPath id="SVGID_88_">
+      <use xlink:href="#SVGID_87_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_88_)">
+      <text transform="translate(532.754 260.843)" font-size="16" font-family="ArialMT" fill="#fff">
+        A
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_89_" d="M530.7 242.8h13.8V309h-13.8z"/>
+    </defs>
+    <clipPath id="SVGID_90_">
+      <use xlink:href="#SVGID_89_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_90_)">
+      <text transform="translate(532.904 275.143)" font-size="16" font-family="ArialMT" fill="#fff">
+        T
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_91_" d="M530.7 242.8h13.8V309h-13.8z"/>
+    </defs>
+    <clipPath id="SVGID_92_">
+      <use xlink:href="#SVGID_91_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_92_)">
+      <text transform="translate(532.754 289.443)" font-size="16" font-family="ArialMT" fill="#fff">
+        C
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_93_" d="M530.7 242.8h13.8V309h-13.8z"/>
+    </defs>
+    <clipPath id="SVGID_94_">
+      <use xlink:href="#SVGID_93_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_94_)">
+      <text transform="translate(533.204 303.743)" font-size="16" font-family="ArialMT" fill="#fff">
+        1
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_95_" d="M558.6 242.4h49v25.7h-49z"/>
+    </defs>
+    <clipPath id="SVGID_96_">
+      <use xlink:href="#SVGID_95_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_96_)">
+      <text transform="translate(560.554 262.443)" font-size="18" fill="#67b32e" font-family="ArialMT">
+        15 26
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_97_" d="M560.1 267.2h35.2v25.7h-35.2z"/>
+    </defs>
+    <clipPath id="SVGID_98_">
+      <use xlink:href="#SVGID_97_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_98_)">
+      <text transform="translate(562.054 287.193)" font-size="18" fill="#67b32e" font-family="ArialMT">
+        SBY
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_99_" d="M558.6 285.9h49v25.7h-49z"/>
+    </defs>
+    <clipPath id="SVGID_100_">
+      <use xlink:href="#SVGID_99_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_100_)">
+      <text transform="translate(560.554 305.943)" fill="#2b4b9b" font-size="18" font-family="ArialMT">
+        00 00
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_101_" d="M584.4 10.6h88.2v28.1h-88.2z"/>
+    </defs>
+    <clipPath id="SVGID_102_">
+      <use xlink:href="#SVGID_101_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_102_)">
+      <text transform="translate(586.404 32.643)" font-size="20" font-family="ArialMT" fill="#fff">
+        131 . 775
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_103_" d="M602 55.5h68.4v25.7H602z"/>
+    </defs>
+    <clipPath id="SVGID_104_">
+      <use xlink:href="#SVGID_103_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_104_)">
+      <text transform="translate(603.954 75.543)" font-size="18" font-family="ArialMT" fill="#fff">
+        126.035
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_105_" d="M584.4 92.4h88.2v28.1h-88.2z"/>
+    </defs>
+    <clipPath id="SVGID_106_">
+      <use xlink:href="#SVGID_105_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_106_)">
+      <text transform="translate(586.404 114.393)" font-size="20" font-family="ArialMT" fill="#fff">
+        111 . 100
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_107_" d="M602.1 135.1h68v25.7h-68z"/>
+    </defs>
+    <clipPath id="SVGID_108_">
+      <use xlink:href="#SVGID_107_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_108_)">
+      <text transform="translate(604.054 155.143)" font-size="18" font-family="ArialMT" fill="#fff">
+        109.700
+      </text>
+    </g>
+    <defs>
+      <path id="SVGID_109_" d="M584.6 172.3h36.9v28.1h-36.9z"/>
+    </defs>
+    <clipPath id="SVGID_110_">
+      <use xlink:href="#SVGID_109_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_110_)">
+      <text transform="translate(586.604 194.293)" font-size="20" font-family="ArialMT" fill="#fff">
+        313
+      </text>
+    </g>
+    <g>
+      <defs>
+        <path id="SVGID_111_" d="M584.2 214.8h33.6v25.7h-33.6z"/>
+      </defs>
+      <clipPath id="SVGID_112_">
+        <use xlink:href="#SVGID_111_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_112_)">
+        <text transform="translate(586.204 234.793)" font-size="18" font-family="ArialMT" fill="#fff">
+          303
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

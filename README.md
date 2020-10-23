@@ -331,11 +331,18 @@ An element to display interactive SVG with config options to navigate, open popu
   <clp-svg-config ref="clp-id1" mode="LINK" path="/path/to/system"></clp-svg-config>
   <clp-svg-config ref="clp-id2" mode="POPUP" path="./path/to/file.html" name="MY POPUP"></clp-svg-config>
   <clp-svg-config ref="clp-id3" mode="INLINE" path="./path/to/file.html" name="MY HTML"></clp-svg-config>
+  <clp-svg-intro path="./path/to/intro.file"></clp-svg-intro>
 </clp-svg>
 ```
+
+Attributes for `<clp-svg-config>`:
 
 `ref`: ID of the layer in the SVG.  
 `path`: path to html (`INLINE` or `POPUP`) or link (`LINK`).  
 `mode`: `INLINE`, `POPUP` or `LINK`.  
 `name`: text for box or popup (`INLINE` or `POPUP`).  
 `size`: `size-1`, `size-2`, `size-3` for `POPUP`
+
+Attributes for `<clp-svg-intro>`:
+
+`path`: path to html file shown initially. Toggles if mode is `INLINE`.

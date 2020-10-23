@@ -35,7 +35,7 @@ export { Tab };
 // ----------------------------------------------------------------------------------------------------
 class Tabs extends Base {
   setup() {
-    this.$tabs = Array.from(childrenMatches(this.$template, "clp-tab"));
+    this.$tabs = childrenMatches(this.$template, "clp-tab");
   }
 
   render() {

@@ -35,11 +35,12 @@
  * }
  */
 export const DATA_SET = [
-  /* CHAPTER 21 */
+  /* CHAPTER 21 -1- */
   {
     id: "chapter_21",
     text: "Chapter 21 AIR CONDITIONING",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "avionics_cooling_fans",
@@ -59,15 +60,17 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 22 */
+  /* CHAPTER 22 -1- */
   {
     id: "chapter_22",
     text: "Chapter 22 Autoflight",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "autoflight",
@@ -88,15 +91,17 @@ export const DATA_SET = [
 						
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 23 */
+  /* CHAPTER 23 -6- */
   {
     id: "chapter_23",
     text: "Chapter 23 Communications",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "audio",
@@ -115,6 +120,7 @@ export const DATA_SET = [
 						},
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "cvr",
@@ -131,6 +137,7 @@ export const DATA_SET = [
             { unit: "./units/uf/units/cvr.html" },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "flt_att",
@@ -147,6 +154,7 @@ export const DATA_SET = [
             { unit: "./units/cabin/units/aft_flt_att_handset.html" },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "nvs",
@@ -171,6 +179,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "pa",
@@ -195,6 +204,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "vhf_com",
@@ -211,15 +221,17 @@ export const DATA_SET = [
             { unit: "./units/cockpit/units/stby_com_contr.html" },
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 24*/
+  /* CHAPTER 24 -6- */
   {
     id: "chapter_24",
     text: "Chapter 24 Electrical Power",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "apu_gcu",
@@ -248,6 +260,7 @@ export const DATA_SET = [
             
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "avio_feed",
@@ -261,6 +274,7 @@ export const DATA_SET = [
           },
           units: [],
         },
+				show_in_menu: true,
       },
       {
         id: "dc_gcu",
@@ -279,6 +293,7 @@ export const DATA_SET = [
             { unit: "./units/cockpit/units/dc_gcu.html" },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "ac_gcu",
@@ -300,6 +315,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "epcu",
@@ -321,6 +337,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "batt",
@@ -338,15 +355,17 @@ export const DATA_SET = [
             { unit: "./units/ele/units/batt_stby.html" },
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 26 */
+  /* CHAPTER 26 -8- */
   {
     id: "chapter_26",
     text: "Chapter 26 Fire Protection",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "aft_hrb",
@@ -360,6 +379,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fire/units/aft_highrate_firebottle.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "bagg_smoke_det",
@@ -373,6 +393,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fire/units/fwd_bagg_smoke_det.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "cargo_smoke_det",
@@ -386,6 +407,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fire/units/aft_bagg_smoke_det.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "fire_cont_amp",
@@ -406,6 +428,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "fwd-hrb",
@@ -419,6 +442,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fire/units/fwd_highrate_firebottle.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "lav_smoke_det",
@@ -432,6 +456,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fire/units/lav_smoke_det.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "lr_fire_ext_btl",
@@ -445,6 +470,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fire/units/low_rate_fire_bottle.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "aft_vent_vlv",
@@ -461,15 +487,17 @@ export const DATA_SET = [
             { unit: "./units/fire/units/aft_bagg_vent_outl.html" },
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 27 */
+  /* CHAPTER 27 -7- */
   {
     id: "chapter_27",
     text: "Chapter 27 Flight Controls",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "fcu",
@@ -489,6 +517,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "fcecu",
@@ -508,6 +537,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "rud_trim_act",
@@ -521,6 +551,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fc/units/rud_trim_act.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "stall_wng",
@@ -540,6 +571,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "stick_pusher_act",
@@ -553,6 +585,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/fc/units/stick_pusher.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "stick_shaker",
@@ -566,6 +599,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/stick_shaker.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "yaw_damper",
@@ -585,15 +619,17 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 29 */
+  /* CHAPTER 29 -2- */
   {
     id: "chapter_29",
     text: "Chapter 29 Hydraulic Power",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "no3_hyd_sys_px",
@@ -607,6 +643,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/hyd/units/hyd3_pxsw_b.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "no3_hyd_sys_motor",
@@ -620,15 +657,17 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/hyd/units/dc_motor_pump.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 30 */
+  /* CHAPTER 30 -4- */
   {
     id: "chapter_30",
     text: "Chapter 30 Ice and Rain Protection",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "aic",
@@ -648,6 +687,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "idp",
@@ -661,6 +701,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/deice/units/ice_det_probe.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "pdmt",
@@ -680,6 +721,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "tmu",
@@ -699,15 +741,17 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 31 */
+  /* CHAPTER 31 -4- */
   {
     id: "chapter_31",
     text: "Chapter 31 Indicating & Recording",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "clock",
@@ -721,6 +765,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/clock.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "fdr",
@@ -734,6 +779,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/uf/units/fdr.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "tows",
@@ -747,6 +793,7 @@ export const DATA_SET = [
           },
           units: [],
         },
+				show_in_menu: true,
       },
       {
         id: "acu",
@@ -760,15 +807,17 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/adv_cont_unit.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 32*/
+  /* CHAPTER 32  -4- */
   {
     id: "chapter_32",
     text: "Chapter 32 Landing Gear",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "anti_skid",
@@ -790,6 +839,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "nws",
@@ -806,6 +856,7 @@ export const DATA_SET = [
             { unit: "./units/gear/units/nlg_steer_manif.html" },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "pseu",
@@ -826,6 +877,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "wow",
@@ -839,15 +891,17 @@ export const DATA_SET = [
           },
           units: [],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 33 */
+  /* CHAPTER 33 -2- */
   {
     id: "chapter_33",
     text: "Chapter 33 Lights",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "emergency_light",
@@ -861,6 +915,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/lights/units/emr_power_supply.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "light",
@@ -874,15 +929,17 @@ export const DATA_SET = [
           },
           units: [],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 34 */
+  /* CHAPTER 34 -15- */
   {
     id: "chapter_34",
     text: "Chapter 34 Navigation",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "adf",
@@ -902,6 +959,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "adu",
@@ -915,6 +973,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/adc.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "ahrs",
@@ -934,6 +993,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "ahrs_cont",
@@ -947,6 +1007,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/ahrs_cont_panel.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "atc",
@@ -966,6 +1027,7 @@ export const DATA_SET = [
             },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "display",
@@ -979,6 +1041,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/display_unit.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "display_cont",
@@ -995,6 +1058,7 @@ export const DATA_SET = [
             { unit: "./units/cockpit/units/esid_cont_panel.html" },
           ],
         },
+				show_in_menu: true,
       },
       {
         id: "dme",
@@ -1008,6 +1072,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/antenna/units/dme_units.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "fms",
@@ -1021,6 +1086,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/fms.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "gwps",
@@ -1034,6 +1100,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/wd/units/egpws.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "isi",
@@ -1047,6 +1114,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/cockpit/units/isi.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "rad_alt",
@@ -1060,6 +1128,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/antenna/units/rad_alt_units.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "tcas",
@@ -1073,6 +1142,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/antenna/units/tcas_units_loc.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "vhf_nav",
@@ -1086,6 +1156,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/antenna/units/vhf_nav_resc.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "weather_radar",
@@ -1099,15 +1170,17 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/antenna/units/wx_antenna.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 49 */
+  /* CHAPTER 49 -1- */
   {
     id: "chapter_49",
     text: "Chapter 49 Auxiliary Power Unit",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "apu",
@@ -1121,15 +1194,17 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/uf/units/apu_gcu.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 61 */
+  /* CHAPTER 61 -3- */
   {
     id: "chapter_61",
     text: "Chapter 61 Propellers",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "osg",
@@ -1143,6 +1218,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/eng/units/prop_osg.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "bft",
@@ -1156,6 +1232,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/eng/units/pcu.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "pecu",
@@ -1169,15 +1246,17 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/eng/units/pec.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 73 */
+  /* CHAPTER 73 -2- */
   {
     id: "chapter_73",
     text: "Chapter 73 Engine Fuel & Control",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "fadec",
@@ -1191,6 +1270,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/eng/units/fadec.html" }],
         },
+				show_in_menu: true,
       },
       {
         id: "fmu",
@@ -1204,15 +1284,17 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/eng/units/fmu.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },
 
-  /* CHAPTER 74 */
+  /* CHAPTER 74 -1- */
   {
     id: "chapter_74",
     text: "Chapter 74 Ignition",
     data: {},
+		show_in_menu: true,
     nodes: [
       {
         id: "ignition",
@@ -1226,6 +1308,7 @@ export const DATA_SET = [
           },
           units: [{ unit: "./units/eng/units/ign_all.html" }],
         },
+				show_in_menu: true,
       },
     ],
   },

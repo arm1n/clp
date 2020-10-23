@@ -22,14 +22,14 @@
 export const DATA_SET = [
   {
     id: "clp-inbd-spoiler",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_inbd_spoiler.html",
     info: {},
     access: {},
   },
   {
     id: "clp-flap-sys",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_flaps.html",
     info: {},
     access: {},
@@ -50,7 +50,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-outb-spoiler",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_outb_spoiler.html",
     info: {},
     access: {},
@@ -71,35 +71,35 @@ export const DATA_SET = [
   },
   {
     id: "clp-lower-rud",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_rudder.html",
     info: {},
     access: {},
   },
   {
     id: "clp-upper-rud",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_rudder.html",
     info: {},
     access: {},
   },
   {
     id: "clp-elev-outb",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_elev.html",
     info: {},
     access: {},
   },
   {
     id: "clp-elev-cent",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_elev.html",
     info: {},
     access: {},
   },
   {
     id: "clp-elev-inbd",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_elev.html",
     info: {},
     access: {},

@@ -72,7 +72,7 @@ export { Expandable };
 // ----------------------------------------------------------------------------------------------------
 class Accordion extends Base {
   setup() {
-    this.$expandables = Array.from(childrenMatches(this.$template, "clp-expandable"));
+    this.$expandables = childrenMatches(this.$template, "clp-expandable");
   }
 
   render() {

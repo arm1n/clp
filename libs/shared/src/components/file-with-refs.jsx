@@ -9,6 +9,7 @@ import "./file-with-refs.scss";
 
 export const HIGHLIGHT_TYPE_DEFAULT = "default";
 export const HIGHLIGHT_TYPE_OPACITY = "opacity";
+export const HIGHLIGHT_TYPE_BUTTONS = "buttons";
 
 const CLASS_NAME_DEFAULT = "clp-ref";
 const CLASS_NAME_SELECTED = "selected";
@@ -64,6 +65,8 @@ const FileWithRefsComponent = forwardRef(
       switch (highlightType) {
         case HIGHLIGHT_TYPE_OPACITY:
           return ["svg", "opacity", highlight, selection].join(" ");
+        case HIGHLIGHT_TYPE_BUTTONS:
+          return ["svg", "buttons", highlight, selection].join(" ");
         default:
           return ["svg", "default", highlight, selection].join(" ");
       }

@@ -51,14 +51,18 @@
  * Opacity
  */
 .svg.opacity svg:hover g:not(:hover) {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .svg.opacity svg:hover .clp-ref:hover,
 .svg.opacity svg:hover .clp-ref.selected {
-	opacity: 1;
+  opacity: 1;
 }
 
 .svg.opacity.selection svg g:not(.selected) {
-	opacity: 0.5;
+  opacity: 0.5;
 }
+
+/**
+ * Buttons
+ */

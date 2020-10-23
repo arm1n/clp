@@ -35,11 +35,12 @@
  * }
  */
 export var DATA_SET = [
-/* CHAPTER 21 */
+/* CHAPTER 21 -1- */
 {
   id: "chapter_21",
   text: "Chapter 21 AIR CONDITIONING",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "avionics_cooling_fans",
     text: "Avionics Cooling Fans",
@@ -55,14 +56,16 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 22 */
+/* CHAPTER 22 -1- */
 {
   id: "chapter_22",
   text: "Chapter 22 Autoflight",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "autoflight",
     text: "AUTOFLIGHT",
@@ -78,14 +81,16 @@ export var DATA_SET = [
       }, {
         unit: "./units/cockpit/units/flight_guid_cont_panel.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 23 */
+/* CHAPTER 23 -6- */
 {
   id: "chapter_23",
   text: "Chapter 23 Communications",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "audio",
     text: "Audio",
@@ -101,7 +106,8 @@ export var DATA_SET = [
       }, {
         unit: "./units/wd/units/rcau.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "cvr",
     text: "CVR",
@@ -117,7 +123,8 @@ export var DATA_SET = [
       }, {
         unit: "./units/uf/units/cvr.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "flt_att",
     text: "FLT ATT",
@@ -133,7 +140,8 @@ export var DATA_SET = [
       }, {
         unit: "./units/cabin/units/aft_flt_att_handset.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "nvs",
     text: "NVS",
@@ -153,7 +161,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "pa",
     text: "PA/DPAS",
@@ -173,7 +182,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "vhf_com",
     text: "VHF COM",
@@ -189,14 +199,16 @@ export var DATA_SET = [
       }, {
         unit: "./units/cockpit/units/stby_com_contr.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 24*/
+/* CHAPTER 24 -6- */
 {
   id: "chapter_24",
   text: "Chapter 24 Electrical Power",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "apu_gcu",
     text: "APU DC Generator & GCU",
@@ -218,7 +230,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "avio_feed",
     text: "AVIONIC FEEDERS",
@@ -230,7 +243,8 @@ export var DATA_SET = [
         RIGHT: "./units/ele/cb-location/desc/chapter_24/avio_feed/right.html"
       },
       units: []
-    }
+    },
+    show_in_menu: true
   }, {
     id: "dc_gcu",
     text: "DC Starter/Generator/GCU",
@@ -246,7 +260,8 @@ export var DATA_SET = [
       }, {
         unit: "./units/cockpit/units/dc_gcu.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "ac_gcu",
     text: "AC Generator/GCU",
@@ -264,7 +279,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "epcu",
     text: "Electrical Power Control Unit (EPCU)",
@@ -280,7 +296,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "batt",
     text: "MAIN & STANDBY Battery",
@@ -298,14 +315,16 @@ export var DATA_SET = [
       }, {
         unit: "./units/ele/units/batt_stby.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 26 */
+/* CHAPTER 26 -8- */
 {
   id: "chapter_26",
   text: "Chapter 26 Fire Protection",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "aft_hrb",
     text: "Aft High-Rate Fire-Bottle",
@@ -319,7 +338,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fire/units/aft_highrate_firebottle.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "bagg_smoke_det",
     text: "Baggage Smoke Detector",
@@ -333,7 +353,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fire/units/fwd_bagg_smoke_det.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "cargo_smoke_det",
     text: "Cargo Smoke Detector",
@@ -347,7 +368,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fire/units/aft_bagg_smoke_det.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "fire_cont_amp",
     text: "Fire Control Amplifier",
@@ -363,7 +385,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "fwd-hrb",
     text: "Forward High-Rate Fire-Bottle",
@@ -377,7 +400,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fire/units/fwd_highrate_firebottle.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "lav_smoke_det",
     text: "Lavatory Smoke Detector",
@@ -391,7 +415,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fire/units/lav_smoke_det.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "lr_fire_ext_btl",
     text: "Low-Rate Fire-Extinguisher Bottle",
@@ -405,7 +430,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fire/units/low_rate_fire_bottle.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "aft_vent_vlv",
     text: "Aft Bagg.−Comp. Vent Shut−Off VLV",
@@ -421,14 +447,16 @@ export var DATA_SET = [
       }, {
         unit: "./units/fire/units/aft_bagg_vent_outl.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 27 */
+/* CHAPTER 27 -7- */
 {
   id: "chapter_27",
   text: "Chapter 27 Flight Controls",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "fcu",
     text: "Flap Control Unit (FCU)",
@@ -444,7 +472,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "fcecu",
     text: "Flight Control Electronic Control Unit (FCECU)",
@@ -460,7 +489,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "rud_trim_act",
     text: "RUD Trim Actuator",
@@ -474,7 +504,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fc/units/rud_trim_act.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "stall_wng",
     text: "Stall Warning",
@@ -490,7 +521,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "stick_pusher_act",
     text: "Stick Pusher Actuator",
@@ -504,7 +536,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/fc/units/stick_pusher.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "stick_shaker",
     text: "Stick Shaker",
@@ -518,7 +551,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/stick_shaker.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "yaw_damper",
     text: "Yaw Damper",
@@ -534,14 +568,16 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 29 */
+/* CHAPTER 29 -2- */
 {
   id: "chapter_29",
   text: "Chapter 29 Hydraulic Power",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "no3_hyd_sys_px",
     text: "No.3 Hydraulic System Pressure",
@@ -555,7 +591,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/hyd/units/hyd3_pxsw_b.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "no3_hyd_sys_motor",
     text: "No. 3 Hydraulic System DC Motor",
@@ -569,14 +606,16 @@ export var DATA_SET = [
       units: [{
         unit: "./units/hyd/units/dc_motor_pump.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 30 */
+/* CHAPTER 30 -4- */
 {
   id: "chapter_30",
   text: "Chapter 30 Ice and Rain Protection",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "aic",
     text: "Anti-Ice Controller (AIC)",
@@ -592,7 +631,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "idp",
     text: "Ice Detector Probe (IDP)",
@@ -606,7 +646,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/deice/units/ice_det_probe.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "pdmt",
     text: "Timer Monitor Control Unit (TMCU)",
@@ -622,7 +663,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "tmu",
     text: "Airframe Timer and Monitor Unit (TMU)",
@@ -640,14 +682,16 @@ export var DATA_SET = [
         /* access: { path: "./units/wd/units/tmu_loc.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 31 */
+/* CHAPTER 31 -4- */
 {
   id: "chapter_31",
   text: "Chapter 31 Indicating & Recording",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "clock",
     text: "Clock",
@@ -661,7 +705,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/clock.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "fdr",
     text: "FDR",
@@ -675,7 +720,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/uf/units/fdr.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "tows",
     text: "Take-off Warning System",
@@ -687,7 +733,8 @@ export var DATA_SET = [
         RIGHT: "./units/ele/cb-location/desc/chapter_31/tows/right.html"
       },
       units: []
-    }
+    },
+    show_in_menu: true
   }, {
     id: "acu",
     text: "Advisory Control Unit (ACU)",
@@ -701,14 +748,16 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/adv_cont_unit.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 32*/
+/* CHAPTER 32  -4- */
 {
   id: "chapter_32",
   text: "Chapter 32 Landing Gear",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "anti_skid",
     text: "Anti-Skid",
@@ -726,7 +775,8 @@ export var DATA_SET = [
         /* info: { path: "./units/uf/units/epcu.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "nws",
     text: "Nosewheel Steering",
@@ -742,7 +792,8 @@ export var DATA_SET = [
       }, {
         unit: "./units/gear/units/nlg_steer_manif.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "pseu",
     text: "Proximity Sensor Electronic-Unit (PSEU)",
@@ -756,7 +807,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/wd/units/pseu.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "wow",
     text: "WEIGHT ON WHEEL (WOW)",
@@ -768,14 +820,16 @@ export var DATA_SET = [
         RIGHT: "./units/ele/cb-location/desc/chapter_32/wow/right.html"
       },
       units: []
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 33 */
+/* CHAPTER 33 -2- */
 {
   id: "chapter_33",
   text: "Chapter 33 Lights",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "emergency_light",
     text: "Emergency-Light",
@@ -789,7 +843,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/lights/units/emr_power_supply.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "light",
     text: "EXTERIOR LIGHTS",
@@ -801,14 +856,16 @@ export var DATA_SET = [
         RIGHT: "./units/ele/cb-location/desc/chapter_33/light/right.html"
       },
       units: []
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 34 */
+/* CHAPTER 34 -15- */
 {
   id: "chapter_34",
   text: "Chapter 34 Navigation",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "adf",
     text: "ADF",
@@ -824,7 +881,8 @@ export var DATA_SET = [
         /* info: { path: "./units/wd/units/adf_units_info.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "adu",
     text: "ADU",
@@ -838,7 +896,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/adc.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "ahrs",
     text: "AHRS",
@@ -854,7 +913,8 @@ export var DATA_SET = [
         /* info: { path: "./units/wd/units/adf_units_info.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "ahrs_cont",
     text: "AHRS CONT",
@@ -868,7 +928,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/ahrs_cont_panel.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "atc",
     text: "ATC",
@@ -884,7 +945,8 @@ export var DATA_SET = [
         /* info: { path: "./units/wd/units/adf_units_info.html", mode: "INLINE" }, */
 
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "display",
     text: "DISPLAY",
@@ -898,7 +960,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/display_unit.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "display_cont",
     text: "DISPLAY CONT",
@@ -914,7 +977,8 @@ export var DATA_SET = [
       }, {
         unit: "./units/cockpit/units/esid_cont_panel.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "dme",
     text: "DME",
@@ -928,7 +992,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/antenna/units/dme_units.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "fms",
     text: "FMS",
@@ -942,7 +1007,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/fms.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "gwps",
     text: "GPWS",
@@ -956,7 +1022,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/wd/units/egpws.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "isi",
     text: "Integrated Standby Instrument (ISI)",
@@ -970,7 +1037,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/cockpit/units/isi.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "rad_alt",
     text: "RAD ALT",
@@ -984,7 +1052,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/antenna/units/rad_alt_units.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "tcas",
     text: "TCAS",
@@ -998,7 +1067,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/antenna/units/tcas_units_loc.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "vhf_nav",
     text: "VHF NAV",
@@ -1012,7 +1082,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/antenna/units/vhf_nav_resc.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "weather_radar",
     text: "WEATHER RADAR",
@@ -1026,14 +1097,16 @@ export var DATA_SET = [
       units: [{
         unit: "./units/antenna/units/wx_antenna.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 49 */
+/* CHAPTER 49 -1- */
 {
   id: "chapter_49",
   text: "Chapter 49 Auxiliary Power Unit",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "apu",
     text: "APU",
@@ -1047,14 +1120,16 @@ export var DATA_SET = [
       units: [{
         unit: "./units/uf/units/apu_gcu.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 61 */
+/* CHAPTER 61 -3- */
 {
   id: "chapter_61",
   text: "Chapter 61 Propellers",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "osg",
     text: "Overspeed Governor (OSG)",
@@ -1068,7 +1143,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/eng/units/prop_osg.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "bft",
     text: "Pitch-Control-Unit (PCU)",
@@ -1082,7 +1158,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/eng/units/pcu.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "pecu",
     text: "Propeller Electronic Control Unit (PEC)",
@@ -1096,14 +1173,16 @@ export var DATA_SET = [
       units: [{
         unit: "./units/eng/units/pec.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 73 */
+/* CHAPTER 73 -2- */
 {
   id: "chapter_73",
   text: "Chapter 73 Engine Fuel & Control",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "fadec",
     text: "FADEC",
@@ -1117,7 +1196,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/eng/units/fadec.html"
       }]
-    }
+    },
+    show_in_menu: true
   }, {
     id: "fmu",
     text: "Fuel Metering Unit (FMU)",
@@ -1131,14 +1211,16 @@ export var DATA_SET = [
       units: [{
         unit: "./units/eng/units/fmu.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 },
-/* CHAPTER 74 */
+/* CHAPTER 74 -1- */
 {
   id: "chapter_74",
   text: "Chapter 74 Ignition",
   data: {},
+  show_in_menu: true,
   nodes: [{
     id: "ignition",
     text: "Ignition",
@@ -1152,7 +1234,8 @@ export var DATA_SET = [
       units: [{
         unit: "./units/eng/units/ign_all.html"
       }]
-    }
+    },
+    show_in_menu: true
   }]
 }];
 /**

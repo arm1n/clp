@@ -13,7 +13,12 @@
 export const SIDE_NAV = [
   { name: "Help", path: "/help", mode: "INTERNAL" },
   { name: "v. 20-01a", path: "http://www.infotools.at", mode: "EXTERNAL" },
+	{ name: "Legal Notice", path: "/legal", mode: "INTERNAL" },
+	
+	/** 
+	
   { name: "Legal Notice", path: "http://www.infotools.at/clp/clp_nn/clp.html", mode: "EXTERNAL" },
+	*/
 ];
 
 /**
@@ -10591,7 +10596,7 @@ export const MAIN_NAV = [
       {
         name: "ARCDU SIMILATOR",
         icon: null,
-        path: null,
+        path: "/arcdu",
         mode: "INTERNAL",
       },
       {

@@ -2,7 +2,9 @@ multipass: true
 
 plugins:
   - cleanupAttrs: true
-  - inlineStyles: true
+  - inlineStyles:
+      onlyMatchedOnce: false
+      removeMatchedSelectors: true
   - removeDoctype: true
   - removeXMLProcInst: true
   - removeComments: true
@@ -29,7 +31,7 @@ plugins:
   - removeUnusedNS: true
   - prefixIds: false
   - cleanupIDs: false
-  - cleanupNumericValues: true
+  - cleanupNumericValues: false
   - cleanupListOfValues: false
   - moveElemsAttrsToGroup: true
   - moveGroupAttrsToElems: true
@@ -39,7 +41,7 @@ plugins:
   - convertShapeToPath: true
   - convertEllipseToCircle: true
   - sortAttrs: false
-  - sortDefsChildren: true
+  - sortDefsChildren: false
   - removeDimensions: false
   - removeAttrs: false
   - removeAttributesBySelector: false

@@ -44,7 +44,7 @@ export { CardButton };
 // ----------------------------------------------------------------------------------------------------
 class Card extends Base {
   setup() {
-    this.$buttons = Array.from(childrenMatches(this.$template, "clp-card-button"));
+    this.$buttons = childrenMatches(this.$template, "clp-card-button");
   }
 
   render() {

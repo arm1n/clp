@@ -122,15 +122,8 @@ export const DATA_SET = [
     access: {},
   },
   {
-    id: "clp-sys-alt-ext",
-    /** unit: "./units/hyd/units/file.html", */
-    desc: "./units/hyd/desc/general_alt_ext.html",
-    info: {},
-    access: {},
-  },
-  {
     id: "clp-sys-rudder-elev",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general2_rud_elev.html",
     info: {},
     access: {},

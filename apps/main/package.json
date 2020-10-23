@@ -5,6 +5,7 @@
   "dependencies": {
     "@clp/access": "^1.0.0",
     "@clp/anvs": "^1.0.0",
+    "@clp/arcdu": "^1.0.0",
     "@clp/bleed": "^1.0.0",
     "@clp/connector-finder": "^1.0.0",
     "@clp/deicing": "^1.0.0",

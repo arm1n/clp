@@ -4,6 +4,7 @@ import { Router, Page } from "@clp/shared";
 
 import { App as Access } from "@clp/access";
 import { App as ANVS } from "@clp/anvs";
+import { App as ARCDU } from "@clp/arcdu";
 import { App as Bleed } from "@clp/bleed";
 import { App as ConnectorFinder } from "@clp/connector-finder";
 import { App as Deicing } from "@clp/deicing";
@@ -22,6 +23,7 @@ import { App as UnitLocation } from "@clp/unit-location";
 
 import { Main } from "components/main";
 import { Help } from "pages/help/component";
+import { Legal } from "pages/legal/component";
 import { NotFound } from "pages/not-found/component";
 import { Dashboard } from "pages/dashboard/component";
 import { CautionLights } from "pages/caution-lights/component";
@@ -65,6 +67,9 @@ export const App = () => (
       </Page>
 
       {/* READOUT */}
+      <Page path="/arcdu">
+        <ARCDU />
+      </Page>
 
       {/* SYSTEMS */}
       <Page path="/anvs">
@@ -108,10 +113,14 @@ export const App = () => (
         <Lights />
       </Page>
       
-
       {/* Help */}
       <Page path="/help">
         <Help />
+      </Page>
+
+      {/* Legal */}
+      <Page path="/legal">
+        <Legal />
       </Page>
 
       {/* 404 */}

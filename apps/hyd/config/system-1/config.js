@@ -51,22 +51,22 @@ export const DATA_SET = [
   },
   {
     id: "clp-sys-flaps",
-    unit: "./units/fc/desc/general_flight_control.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
     desc: "./units/hyd/desc/general_flaps.html",
     info: {},
     access: {},
   },
   {
     id: "clp-sys-rud-ele",
-    unit: "./units/fc/desc/general_flight_control.html",
-    desc: "./units/hyd/desc/general_rud_elev.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
+    desc: "./units/hyd/desc/general1_rud_elev.html",
     info: {},
     access: {},
   },
   {
     id: "clp-sys-br-sp",
-    unit: "./units/fc/desc/general_flight_control.html",
-    desc: "./units/hyd/desc/general_brakes_inbd_sp.html",
+    /** unit: "./units/fc/desc/general_flight_control.html", */
+    desc: "./units/hyd/desc/general1_brakes_inbd_sp.html",
     info: {},
     access: {},
   },

@@ -851,6 +851,16 @@ export const DATA_SET = [
         },
 				show_in_menu: true,
       },
+			{
+        id: "clp-nac-drain-hl",
+        text: "DRAIN COLLECTOR",
+        data: {
+          view: "RIGHT",
+          desc: "./units/eng/desc/drain_collector.html",
+          unit: "./units/eng/units/drain_collector.html",
+        },
+				show_in_menu: true,
+      },
     ],
   },
 	
@@ -861,6 +871,16 @@ export const DATA_SET = [
     data: {},
 		show_in_menu: true,
     nodes: [
+			{
+        id: "clp-borescope",
+        text: "Borescope Inspection − General",
+        data: {
+          view: "LEFT",
+          desc: "./units/eng/desc/borescope_general.html",
+          /* unit: "./units/eng/units/cover_layshaft.html", */
+        },
+				show_in_menu: true,
+      },
 			{
         id: "clp-cover-layshaft",
         text: "Layshaft Cover",

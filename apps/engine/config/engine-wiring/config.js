@@ -3,6 +3,7 @@
  *
  * {
  *   id: ID matching the one in the SVG file,
+ *   text: text to be used if item is shown in menu,
  *   unit: relative path to unit file on the right,
  *   desc: relative path to desc file on the left,
  *   info: {
@@ -16,7 +17,8 @@
  *     mode: "INLINE" | "POPUP" | "LINK",
  *     title: "Title" (popup only),
  *     size: "size-1" | "size-2" | "size-3" (popup only)
- *   }
+ *   },
+ *   show_in_menu: flag if this item is in menu or only in SVG,
  * }
  */
 export const DATA_SET = [
@@ -27,6 +29,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-509",
@@ -35,6 +38,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-508",
@@ -43,6 +47,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-507",
@@ -51,6 +56,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-506",
@@ -59,6 +65,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-505",
@@ -67,6 +74,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-504",
@@ -75,6 +83,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-503",
@@ -83,6 +92,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-502",
@@ -91,6 +101,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-501",
@@ -99,6 +110,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-500",
@@ -107,6 +119,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-412et",
@@ -115,6 +128,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-412dt",
@@ -123,6 +137,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-412ct",
@@ -131,6 +146,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-422et",
@@ -139,6 +155,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-422dt",
@@ -147,6 +164,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
   {
     id: "clp-422ct",
@@ -155,6 +173,7 @@ export const DATA_SET = [
     desc: "./path/to/html/file.html",
     info: {},
     access: {},
+    show_in_menu: true,
   },
 ];
 
@@ -171,4 +190,3 @@ export const SVG_PATH = "./apps/engine/config/engine-wiring/pic/engine-wiring.sv
  * Path to engine wiring's intro HTML file shown at bottom.
  */
 export const INTRO_PATH = "./apps/engine/config/engine-wiring/desc/intro.html";
-

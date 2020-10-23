@@ -6,10 +6,6 @@ import { childrenMatches } from "utils";
 
 import { Base } from "./clp-base";
 
-// https://webpack.js.org/loaders/file-loader/
-// eslint-disable-next-line import/no-webpack-loader-syntax
-import stylesheet from '!!file-loader!../styles/svg.css';
-
 // ----------------------------------------------------------------------------------------------------
 // Component for creating a configurable svg layer.
 //
@@ -34,6 +30,22 @@ window.customElements.define("clp-svg-config", SVGConfig);
 export { SVGConfig };
 
 // ----------------------------------------------------------------------------------------------------
+// Component for creating a intro view for svg.
+//
+// Usage:
+//
+// <clp-svg-intro
+//   path="./path/to/popup.html">
+// </clp-svg-intro>
+//
+// path: path to html file to be shown.
+// ----------------------------------------------------------------------------------------------------
+class SVGIntro extends HTMLElement {}
+
+window.customElements.define("clp-svg-intro", SVGIntro);
+export { SVGIntro };
+
+// ----------------------------------------------------------------------------------------------------
 // Component for wrapping an interactive SVG with description and units.
 //
 // Usage:
@@ -44,37 +56,39 @@ export { SVGConfig };
 // ----------------------------------------------------------------------------------------------------
 class SVG extends Base {
   setup() {
-    this.$configs = Array.from(childrenMatches(this.$template, "clp-svg-config"));
-    this.$shadow = this.$wrapper.attachShadow({ mode: "open" });
-
-    this.$shadow.innerHTML = `
-      <link rel="stylesheet" href="${stylesheet}"/>
-      <div id="container">
-        <!-- SVGWithConfig -->
-      </div>
-    `;
-
-    this.$container = this.$shadow.getElementById('container');
+    this.$configs = childrenMatches(this.$template, "clp-svg-config");
+    this.$intros = childrenMatches(this.$template, "clp-svg-intro");
   }
 
   render() {
     const svgPath = this.getAttribute("path");
+    const svgWidth = this.getAttribute("width");
+    const svgHeight = this.getAttribute("height");
     const svgData = this.$configs
       .map((element) => this._createConfig(element))
       .filter((config) => config !== null);
+    const introPath = this.$intros[0] ? this.$intros[0].getAttribute("path") : null;
 
-    ReactDOM.unmountComponentAtNode(this.$container);
+    ReactDOM.unmountComponentAtNode(this.$wrapper);
     ReactDOM.render(
       <Router>
-        <SVGWithConfig svgPath={svgPath} svgData={svgData} container={this.$shadow} />
+        <SVGWithConfig
+          svgPath={svgPath}
+          svgData={svgData}
+          svgWidth={svgWidth}
+          svgHeight={svgHeight}
+          introPath={introPath}
+        />
       </Router>,
-      this.$container
+      this.$wrapper
     );
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     switch (name) {
       case "path":
+      case "width":
+      case "height":
         this.update();
         break;
       default:
@@ -106,7 +120,7 @@ class SVG extends Base {
   }
 
   static get observedAttributes() {
-    return ["path"];
+    return ["path", "width", "height"];
   }
 
   static get componentId() {

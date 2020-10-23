@@ -26,6 +26,7 @@ export { Search } from "./search";
 export { SearchBox } from "./search-box";
 export { SVGWithConfig } from "./svg-with-config";
 export { SVGWithDescAndUnit } from "./svg-with-desc-and-unit";
+export { SVGWithStates } from "./svg-with-states";
 export { System } from "./system";
 export { Tabs, Tab } from "./tabs";
 export { Accordion, Expandable } from "./accordion";

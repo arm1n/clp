@@ -76,15 +76,15 @@ fs.readdirSync(PATH_APPS).forEach((file) => {
 util.copyFile("units", PATH_UNITS);
 
 // finally, run svgo and html minifier for config and unit folders
-// execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
-// 	stdio: "inherit",
-// });
-// execSync(`yarn run html-minifier ${PATH_UNITS}`, {
-// 	stdio: "inherit",
-// });
-// execSync(`yarn run svgo ${PATH_UNITS}`, {
-// 	stdio: "inherit",
-// });
-// execSync(`yarn run svgo ${PATH_CONFIG}`, {
-// 	stdio: "inherit",
-// });
+execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
+	stdio: "inherit",
+});
+execSync(`yarn run html-minifier ${PATH_UNITS}`, {
+	stdio: "inherit",
+});
+execSync(`yarn run svgo ${PATH_UNITS}`, {
+	stdio: "inherit",
+});
+execSync(`yarn run svgo ${PATH_CONFIG}`, {
+	stdio: "inherit",
+});

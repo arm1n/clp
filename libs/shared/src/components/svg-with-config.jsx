@@ -15,14 +15,14 @@ const MODE_POPUP = "POPUP";
 const MODE_INLINE = "INLINE";
 
 /**
- * Wrapper around <FileWithRefs> handlingn different
+ * Wrapper around <FileWithRefs> handling different
  * interaction modes for configured layer ids.
  *
  * Usage:
  *
  * <SVGWithConfig {...props} />
  */
-export const SVGWithConfig = ({ svgPath, svgData, container }) => {
+export const SVGWithConfig = ({ svgPath, svgData, svgWidth, svgHeight, introPath }) => {
   const [selectedRef, setSelectedRef] = useState(null);
   const { navigate } = useRouter();
 
@@ -57,13 +57,32 @@ export const SVGWithConfig = ({ svgPath, svgData, container }) => {
   const isInline = useMemo(() => mode === MODE_INLINE, [mode]);
   const isPopup = useMemo(() => mode === MODE_POPUP, [mode]);
 
+  const showIntro = useMemo(() => {
+    if (typeof introPath !== "string") {
+      return false;
+    }
+
+    switch (mode) {
+      case MODE_INLINE:
+        return !selectedRef;
+      default:
+        return true;
+    }
+  }, [mode, selectedRef, introPath]);
+
+  const svgStyle = useMemo(() => {
+    const height = +svgHeight ? `${svgHeight}px` : "auto";
+    const width = +svgWidth ? `${svgWidth}px` : "auto";
+
+    return { width, height };
+  }, [svgWidth, svgHeight]);
+
   return (
     <Fragment>
-      <div className={styles.svg}>
+      <div className={styles.svg} style={svgStyle}>
         <FileWithRefs
           path={svgPath}
           refs={svgData}
-          container={container}
           selectedRef={selectedRef}
           onSelectRef={selectRefHandler}
         />
@@ -80,6 +99,12 @@ export const SVGWithConfig = ({ svgPath, svgData, container }) => {
           <File path={path} />
         </Card>
       )}
+
+      {showIntro && (
+        <Card>
+          <File path={introPath} />
+        </Card>
+      )}
     </Fragment>
   );
 };
@@ -87,5 +112,7 @@ export const SVGWithConfig = ({ svgPath, svgData, container }) => {
 SVGWithConfig.defaultProps = {
   svgData: [],
   svgPath: null,
-  container: document,
+  svgWidth: null,
+  svgHeight: null,
+  introPath: null,
 };
