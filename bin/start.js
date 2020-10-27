@@ -38,12 +38,11 @@ try {
 		});
 	}
 
-	execSync(`yarn workspace @clp/shared transpile`, { stdio: "inherit" });
-
 	// then start root and app servers
 	concurrently([
 		`serve -l ${PORT_SRV} .`,
 		`PORT=${PORT_APP} yarn workspace ${app} start`,
+		`yarn workspace @clp/shared transpile --watch`,
 	]);
 } catch (error) {
 	console.log(error.message);

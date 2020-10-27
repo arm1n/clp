@@ -22,7 +22,7 @@
 export const DATA_SET = [
   {
     id: "clp-door-seel-cvlv",
-    unit: "./units/doors/units/door_seal_cvlv.html",
+    unit: "./units/doors/units/door_check_vlv.html",
     desc: "./units/doors/desc/door_seal_cvlv.html",
     info: {},
     access: {},

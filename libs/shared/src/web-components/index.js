@@ -29,6 +29,7 @@ const COMPONENTS = [
   "./clp-text",
 
   // page components
+  "./page-components/clp-antenna",
   "./page-components/clp-arcdu-simulator",
   "./page-components/clp-pseu-simulator",
 ];

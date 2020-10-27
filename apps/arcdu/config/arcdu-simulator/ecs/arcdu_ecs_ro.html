@@ -1,0 +1,24 @@
+<p><strong>ECS FLIGHT DATA (ECS Pages 6 & 7)</strong></p>
+
+<ul>
+	<li>Typically used by engineering for problem aircraft</li>
+	<li>Displays component address labels and hexadecimal data words</li>
+	<li>Analysis of data requires Bombardier supplied hex decoder program</li>
+	<li>Hex codes are latched the moment the ECS menu is entered on the CDS</li>
+	<li>To refresh the hex codes, ECS screen must be exited and re-entered</li>
+</ul>
+
+<p>Primary troubleshooting of ECS should be carried out using the fault codes on the Central Diagnostic System (CDS) display with additional assistance from the information contained in the Fault Isolation Manual (FIM).</p>
+
+<p>If the above troubleshooting does not isolate the problem, the hexadecimal values that are displayed on pages 6 and 7 of the ECS CDS pages can aid in further analyzing the problem. The hexadecimal values indicate the status of the system including temperatures, pressures, valve commands as read or sent by the ECS Electronic Control Unit (ECU). These parameters can be read as a snapshot of the system status at the time the ECS pages are selected, therefore, in steady-state conditions, on the ground (CDS is not accessible in flight), this allows access to critical information about the system state while functioning.
+</p>
+
+<p>Two types of status words can be found on the ECS Flight Data pages:</p>
+
+<p><strong>Discrete:</strong><br>These words consist of packed data indicating the status of the system in a binary fashion i.e. on/off, true/false, set/not set. Mostly, these words contain the information related to the position of switches, on/off commands, etc. Since multiple data are packed in the same word, each word contains information related to (up to) 16 items. Discrete words must be converted to a 16 bit binary word. Each bit represents the status of a unique item.</p>
+
+<p><strong>Analog data:</strong><br> 
+These words represent analog values such as pressure, temperature, current etc. Analog words must be converted to a decimal value. Then a conversion factor is applied. This gives the value of the parameter directly in the relevant unit.</p>
+
+
+

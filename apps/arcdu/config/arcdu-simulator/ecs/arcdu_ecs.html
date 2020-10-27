@@ -1,0 +1,64 @@
+<p><strong>PRESENT FAULTS (ECS Page 1 - 2)</strong></p>
+
+<ul>
+	<li>Any fault that is currently stored in RAM</li>
+	<li>Present faults are also stored in NVM as soon as they occur</li>
+	<li>If a present fault happens more than once in a power cycle, only the first occurrence will be stored in NVM</li>
+	<li>Maintenance personnel has the ability to clear the present faults for troubleshooting purposes</li>
+	<li>Present fault becomes a historical fault once it has been cleared from RAM</li>
+</ul>
+
+<p><clp-text-blue><strong>NOTE:</strong> Use PRESENT faults and FIM tasks for troubleshooting</clp-text-blue></p>
+
+<p><strong>Clear PRESENT</strong> fault and perform AMM system check-out procedure If fault does not repeat, take no further action and monitor for recurrence If fault repeats, follow FIM task and replace component</p>
+
+<p>
+	<clp-text-blue><strong>Not all logged faults require a maintenance action.</strong></clp-text-blue> Some faults are set on-condition when system/engine performance may temporarily exceed established limits.
+</p>
+
+<p>Also on power-up, a valve’s position switch may be in the incorrect state due to the last system shutdown sequence.</p>
+
+<p>These type of faults typically do not repeat over subsequent flights</p>
+<br>
+<p><strong>To Erase the Data from the CDS</strong></p>
+
+<clp-table border >
+	<clp-tr>
+		<clp-td>
+			<clp-img src="./apps/arcdu/config/arcdu-simulator/ecs/ecs_clear.svg" width="300"></clp-img>
+		</clp-td>
+		<clp-td>
+			<br>
+			<p><clp-img src="./units/icons/step1.svg" width="30" icon></clp-img> Set the CDS GND MAINT to the on Position</p>	
+		
+			<p><clp-img src="./units/icons/step2.svg" width="30" icon></clp-img> Turn the rotary switch to the ECS position (Make sure the system selector LED is on)</p>
+				
+		
+	<p><clp-img src="./units/icons/step3.svg" width="30" icon></clp-img> Lift the guard for the NVM RESET switch and push the switch for at least 15 seconds</p>
+				
+			
+		</clp-td>
+	</clp-tr>
+</clp-table>
+<br>
+<clp-table>
+	<clp-tr>
+		<clp-td>Retrieval of Data from the Central Diagnostic System (CDS)</clp-td>
+		<clp-td>
+			<clp-link-pdf>AMM TASK 45-00-21-742-801</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-AMM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+
+	<clp-tr>
+		<clp-td>Erase the Data from the Central Diagnostic System (CDS)</clp-td>
+		<clp-td>
+			<clp-link-pdf>AMM TASK 45-00-21-743-801</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-AMM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+</clp-table>
