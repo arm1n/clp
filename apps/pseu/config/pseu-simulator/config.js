@@ -204,58 +204,173 @@ export const CONFIG_PSEU = {
     },
 		
 		/** SYSTEM STATUS  */
-		pseu_5system_status: {
-      svg: "./apps/pseu/config/pseu-simulator/pic/pseu_5system_status.svg",
-      file: "./apps/pseu/config/pseu-simulator/desc/pseu_5system_status.html",
+		pseu_system_status: {
+      svg: "./apps/pseu/config/pseu-simulator/pic/pseu_system_status.svg",
+      file: "./apps/pseu/config/pseu-simulator/desc/pseu_system_status.html",
     },
-		pseu_5system_status_bite: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/pseu_5system_status_bite.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_bite_status.html",
+		
+		/** SYSTEM STATUS   BITE */
+		pseu_system_bite_status: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
     },
+		bite_status_01: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_01.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_02: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_02.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_03: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_03.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_04: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_04.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_05: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_05.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_06: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_06.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_07: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_07.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_08: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_08.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		bite_status_end: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/bite/bite_status_end.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/bite/pseu_system_bite_status.html",
+    },
+		
+		
 		/** SYSTEM STATUS   A */ 
-		pseu_5system_status_a: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
+		pseu_system_status_a: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/pseu_system_status_a.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_a/pseu_system_status_a.html",
     },
-		pseu_5system_status_a01: {
+		system_status_a01: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a01.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_a/pseu_system_status_a.html",
+    },
+		system_status_a02: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a02.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_a/pseu_system_status_a.html",
+    },
+		system_status_a03: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a03.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_a/pseu_system_status_a.html",
+    },
+		system_status_a04: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a04.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help.html",
+    },
+		system_status_a05: {
       svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a05.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help2.html",
     },
-		pseu_5system_status_a02: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a05.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
-    },
-		pseu_5system_status_a03: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a05.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
-    },
-		pseu_5system_status_a04: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a05.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
-    },
-		pseu_5system_status_a05: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a05.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
-    },
-		pseu_5system_status_a_end: {
+		system_status_a_end: {
       svg: "./apps/pseu/config/pseu-simulator/system_status/psc_a/system_status_a_end.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_a.html",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_a/pseu_system_status_a.html",
     },
 		
 		
-		
-		
-		pseu_5system_status_b: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/pseu_5system_status_b.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_b.html",
+		/** SYSTEM STATUS   B */ 
+		pesu_system_status_b: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/pesu_system_status_b.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_b/pesu_system_status_b.html",
     },
-		pseu_5system_status_d: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/pseu_5system_status_d.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_d.html",
+		system_status_b01: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/system_status_b01.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_b/pesu_system_status_b.html",
     },
-		pseu_5system_status_e: {
-      svg: "./apps/pseu/config/pseu-simulator/system_status/pseu_5system_status_e.svg",
-      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_e.html",
+		system_status_b02: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/system_status_b02.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_b/pesu_system_status_b.html",
+    },
+		system_status_b03: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/system_status_b03.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_b/pesu_system_status_b.html",
+    },
+		system_status_b04: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/system_status_b04.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help.html",
+    },
+		system_status_b05: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/system_status_b05.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help2.html",
+    },
+		system_status_b_end: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_b/system_status_b_end.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_b/pesu_system_status_b.html",
+    },
+		
+		/** SYSTEM STATUS   D */ 
+		pesu_system_status_d: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/pesu_system_status_d.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_d/pesu_system_status_d.html",
+    },
+		system_status_d01: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/system_status_d01.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_d/pesu_system_status_d.html",
+    },
+		system_status_d02: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/system_status_d02.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_d/pesu_system_status_d.html",
+    },
+		system_status_d03: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/system_status_d03.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_d/pesu_system_status_d.html",
+    },
+		system_status_d04: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/system_status_d04.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help.html",
+    },
+		system_status_d05: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/system_status_d05.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help2.html",
+    },
+		system_status_d_end: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_d/system_status_d_end.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_d/pesu_system_status_d.html",
+    },
+		
+		/** SYSTEM STATUS   E */ 
+		pesu_system_status_e: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/pesu_system_status_e.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_e/pesu_system_status_e.html",
+    },
+		system_status_e01: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/system_status_e01.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_e/pesu_system_status_e.html",
+    },
+		system_status_e02: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/system_status_e02.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_e/pesu_system_status_e.html",
+    },
+		system_status_e03: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/system_status_e03.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_e/pesu_system_status_e.html",
+    },
+		system_status_e04: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/system_status_e04.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help.html",
+    },
+		system_status_e05: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/system_status_e05.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/system_status_display_help2.html",
+    },
+		system_status_e_end: {
+      svg: "./apps/pseu/config/pseu-simulator/system_status/psc_e/system_status_e_end.svg",
+      file: "./apps/pseu/config/pseu-simulator/system_status/psc_e/pesu_system_status_e.html",
     },
 		
 		
@@ -503,10 +618,10 @@ export const CONFIG_PSEU = {
 		/** RIGGING HISTORY  */
 		pseu_4rigging_history: {
 			"clp-btn-on": "pseu_off",
-			"clp-btn-no": "pseu_5system_status",
+			"clp-btn-no": "pseu_system_status",
 			"clp-btn-yes": "pseu_4rigging_history_01",
 			"clp-btn-up": "pseu_3rigging_help",
-      "clp-btn-down": "pseu_5system_status",
+      "clp-btn-down": "pseu_system_status",
     },
 		pseu_4rigging_history_01: {
 			"clp-btn-menu": "pseu_4rigging_history",
@@ -540,63 +655,297 @@ export const CONFIG_PSEU = {
     },
 		
 		/** SYSTEM STATUS  */
-		pseu_5system_status: {
+		pseu_system_status: {
 			"clp-btn-on": "pseu_off",
-			"clp-btn-yes": "pseu_5system_status_bite",
+			"clp-btn-yes": "pseu_system_bite_status",
 			"clp-btn-no": "pseu_6erase",
 			"clp-btn-up": "pseu_4rigging_history",
       "clp-btn-down": "pseu_6erase",
     },
-		pseu_5system_status_bite: {
-			"clp-btn-menu": "pseu_5system_status",
+		
+		/** SYSTEM STATUS  BITE*/
+		pseu_system_bite_status: {
+			"clp-btn-menu": "pseu_system_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "pseu_system_status_e",
+			"clp-btn-no": "",
+			"clp-btn-yes": "bite_status_01",
+      "clp-btn-down": "pseu_system_status_a",
+    },
+		bite_status_01: {
+			"clp-btn-menu": "pseu_system_bite_status",
 			"clp-btn-on": "pseu_off",
 			"clp-btn-up": "",
 			"clp-btn-no": "",
-      "clp-btn-down": "pseu_5system_status_a",
+      "clp-btn-down": "bite_status_02",
+    },
+		bite_status_02: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_01",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_03",
+    },
+		bite_status_03: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_02",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_04",
+    },
+		bite_status_04: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_03",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_05",
+    },
+		bite_status_05: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_04",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_06",
+    },
+		bite_status_06: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_05",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_07",
+    },
+		bite_status_07: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_06",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_08",
+    },
+		bite_status_08: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_07",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_end",
+    },
+		bite_status_end: {
+			"clp-btn-menu": "pseu_system_bite_status",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "bite_status_08",
+			"clp-btn-no": "",
+      "clp-btn-down": "bite_status_01",
     },
 		
+		
 		/** SYSTEM STATUS  PSC A STATUS*/
-		pseu_5system_status_a: {
+		pseu_system_status_a: {
 			"clp-btn-menu": "pseu_system_status",
 			"clp-btn-on": "pseu_off",
-			"clp-btn-up": "pseu_5system_status_bite",
-			"clp-btn-no": "pseu_5system_status_b",
-      "clp-btn-down": "pseu_5system_status_b",
+			"clp-btn-up": "pseu_system_bite_status",
+			"clp-btn-no": "pesu_system_status_b",
+			"clp-btn-yes": "system_status_a01",
+      "clp-btn-down": "pesu_system_status_b",
     },
-		pseu_5system_status_a: {
-			"clp-btn-menu": "pseu2_5system_status",
+		system_status_a01: {
+			"clp-btn-menu": "pseu_system_status_a",
 			"clp-btn-on": "pseu_off",
-			"clp-btn-up": "pseu_5system_status_bite",
-			"clp-btn-no": "pseu_5system_status_b",
-      "clp-btn-down": "pseu_5system_status_b",
+			"clp-btn-up": "",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_a02",
+    },
+		system_status_a02: {
+			"clp-btn-menu": "pseu_system_status_a",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_a01",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_a03",
+    },
+		system_status_a03: {
+			"clp-btn-menu": "pseu_system_status_a",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_a02",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_a04",
+    },
+		system_status_a04: {
+			"clp-btn-menu": "pseu_system_status_a",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_a03",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_a05",
+    },
+		system_status_a05: {
+			"clp-btn-menu": "pseu_system_status_a",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_a04",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_a_end",
+    },
+		system_status_a_end: {
+			"clp-btn-menu": "pseu_system_status_a",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_a04",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_a01",
     },
 		
 		/** SYSTEM STATUS  PSC B STATUS*/
-		pseu_5system_status_b: {
-			"clp-btn-menu": "pseu_5system_status",
+		pesu_system_status_b: {
+			"clp-btn-menu": "pesu_system_status_b",
 			"clp-btn-on": "pseu_off",
-			"clp-btn-up": "pseu_5system_status_a",
-			"clp-btn-no": "pseu_5system_status_d",
-      "clp-btn-down": "pseu_5system_status_d",
+			"clp-btn-up": "pseu_system_status_a",
+			"clp-btn-no": "pseu_system_status_d",
+			"clp-btn-yes": "system_status_b01",
+      "clp-btn-down": "pesu_system_status_d",
+    },
+		system_status_b01: {
+			"clp-btn-menu": "pesu_system_status_b",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_b_end",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_b02",
+    },
+		system_status_b02: {
+			"clp-btn-menu": "pesu_system_status_b",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_b01",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_b03",
+    },
+		system_status_b03: {
+			"clp-btn-menu": "pesu_system_status_b",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_b02",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_b04",
+    },
+		system_status_b04: {
+			"clp-btn-menu": "pesu_system_status_b",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_b03",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_b05",
+    },
+		system_status_b05: {
+			"clp-btn-menu": "pesu_system_status_b",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_b04",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_b_end",
+    },
+		system_status_b_end: {
+			"clp-btn-menu": "pesu_system_status_b",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_b05",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_b01",
     },
 		
 		/** SYSTEM STATUS  PSC D STATUS*/
-		pseu_5system_status_d: {
-			"clp-btn-menu": "pseu_5system_status",
+		pesu_system_status_d: {
+			"clp-btn-menu": "pseu_system_status",
 			"clp-btn-on": "pseu_off",
-			"clp-btn-up": "pseu_5system_status_b",
-			"clp-btn-no": "pseu_5system_status_e",
-      "clp-btn-down": "pseu_5system_status_e",
+			"clp-btn-up": "pesu_system_status_b",
+			"clp-btn-no": "pesu_system_status_e",
+			"clp-btn-yes": "system_status_d01",
+      "clp-btn-down": "pesu_system_status_e",
+    },
+		system_status_d01: {
+			"clp-btn-menu": "pesu_system_status_d",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_d_end",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_d02",
+    },
+		system_status_d02: {
+			"clp-btn-menu": "pesu_system_status_d",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_d01",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_d03",
+    },
+		system_status_d03: {
+			"clp-btn-menu": "pesu_system_status_d",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_d02",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_d04",
+    },
+		system_status_d04: {
+			"clp-btn-menu": "pesu_system_status_d",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_d03",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_d05",
+    },
+		system_status_d05: {
+			"clp-btn-menu": "pesu_system_status_d",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_d04",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_d_end",
+    },
+		system_status_d_end: {
+			"clp-btn-menu": "pesu_system_status_d",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_d05",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_d01",
     },
 		
+		
 		/** SYSTEM STATUS  PSC E STATUS*/
-		pseu_5system_status_e: {
-			"clp-btn-menu": "pseu_5system_status",
+		pesu_system_status_e: {
+			"clp-btn-menu": "pseu_system_status",
 			"clp-btn-on": "pseu_off",
-			"clp-btn-up": "pseu_5system_status_d",
-			"clp-btn-no": "pseu_5system_status_bite",
-      "clp-btn-down": "pseu_5system_status_bite",
+			"clp-btn-up": "pesu_system_status_d",
+			"clp-btn-no": "pseu_system_status_bite",
+			"clp-btn-yes": "system_status_e01",
+      "clp-btn-down": "pseu_system_bite_status",
     },
+		system_status_e01: {
+			"clp-btn-menu": "pesu_system_status_e",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_e_end",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_e02",
+    },
+		system_status_e02: {
+			"clp-btn-menu": "pesu_system_status_e",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_e01",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_e03",
+    },
+		system_status_e03: {
+			"clp-btn-menu": "pesu_system_status_e",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_e02",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_e04",
+    },
+		system_status_e04: {
+			"clp-btn-menu": "pesu_system_status_e",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_e03",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_e05",
+    },
+		system_status_e05: {
+			"clp-btn-menu": "pesu_system_status_e",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_e04",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_e_end",
+    },
+		system_status_e_end: {
+			"clp-btn-menu": "pesu_system_status_e",
+			"clp-btn-on": "pseu_off",
+			"clp-btn-up": "system_status_e05",
+			"clp-btn-no": "",
+      "clp-btn-down": "system_status_e01",
+    },
+		
 		
 		
 		/** FAULT HISTORY ERASE  */
@@ -604,7 +953,7 @@ export const CONFIG_PSEU = {
 			"clp-btn-on": "pseu_off",
 			"clp-btn-no": "pseu_present_fault",
 			"clp-btn-yes": "pseu_6erase_01",
-			"clp-btn-up": "pseu_5system_status",
+			"clp-btn-up": "pseu_system_status",
       "clp-btn-down": "pseu_present_fault",
     },
 		pseu_6erase_01: {

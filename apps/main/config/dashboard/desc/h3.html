@@ -5,21 +5,54 @@
 		<clp-card name="General">
 			<!-- General Start -->
 
-
+			<!-- General Start 
 			<h2>
-				<clp-text-orange>#1 DC GEN</clp-text-orange>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
-			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 24-30-00-810-812</clp-link-pdf>
+				<clp-text-orange>#1 DC GEN</clp-text-orange> - <clp-link-pdf>FIM TASK 24-30-00-810-812</clp-link-pdf>
 				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+			</h2>
 
+-->
+			<clp-table nowrap="1">
+				<clp-tr>
+					<clp-td>
+						<h2>
+							<clp-text-orange>#1 DC GEN</clp-text-orange>
+						</h2>
+					</clp-td>
+					
+					<clp-td>
+						<h2>
+							<clp-link-pdf>FIM TASK 24-30-00-810-812</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</h2>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+			<table>
+				<tr>
+					<th>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</th>
+					<th>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</th>
+				</tr>
+			</table>
+			<br>
 			<br>
 
-			<div>The #1 DC GEN caution light on the CAWP comes on when the #1 DC generator is not connected to the left main feeder bus because of the source fault condition.</div>
-			
+
+
+
+			<!-- General Start -->
+
+
+			<p>The #1 DC GEN caution light on the CAWP comes on when the #1 DC generator is not connected to the left main feeder bus because of the source fault condition.</p>
+
 			<div>The #1 DC GEN caution light on the CAWP will also come on for the conditions which are not malfunctions that follow:</div>
 			<ul>
 				<li>The DC generator toggle switch is set to OFF</li>
@@ -30,19 +63,24 @@
 
 			<ul>
 				<li><strong>01</strong>, #1 DC generator feeder (Status)</li>
-				<clp-link-pdf>FIM TASK 24-31-00-810-801</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr>
+				<clp-link-pdf>FIM TASK 24-31-00-810-801</clp-link-pdf>
+				<clp-link-tr> (TR-FIM)</clp-link-tr>
 				<br><br>
-				
+
 				<li><strong>05</strong>, 05, #1 DC generator (Status)</li>
-				<clp-link-pdf>FIM TASK 24-31-01-810-801</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr>
+				<clp-link-pdf>FIM TASK 24-31-01-810-801</clp-link-pdf>
+				<clp-link-tr> (TR-FIM)</clp-link-tr>
 				<br><br>
-				
+
 				<li><strong>10</strong>, K1 relay failed open (Status)</li>
-				<clp-link-pdf>FIM TASK 24-31-31-810-801</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr>
+				<clp-link-pdf>FIM TASK 24-31-31-810-801</clp-link-pdf>
+				<clp-link-tr> (TR-FIM)</clp-link-tr>
 			</ul>
-			
+
 			<br>
-			<clp-link-popup path="./units/ele/desc/epcu_faults.html" name="EPCU FAULT CODES"><clp-img src="./units/icons/info.svg" width="25" icon ></clp-img> SHOW ALL EPCU PAULT CODES</clp-link-popup>
+			<clp-link-popup path="./units/ele/desc/epcu_faults.html" name="EPCU FAULT CODES">
+				<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> SHOW ALL EPCU PAULT CODES
+			</clp-link-popup>
 			<br>
 		</clp-card> <!-- General Ende -->
 
@@ -59,7 +97,7 @@
 			</div>
 			<br>
 			<br>
-			
+
 
 		</clp-card> <!-- links Ende -->
 
@@ -109,13 +147,13 @@
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
 
-		<br>
-			<br>
+			
+			
 			<clp-card name="Units">
 				<clp-file path="./units/eng/units/dc_gen_all.html"></clp-file>
 			</clp-card>
 			<br>
-			<br>
+		
 			<clp-card name="Units">
 				<clp-file path="./units/cockpit/units/dc_gcu.html"></clp-file>
 			</clp-card>

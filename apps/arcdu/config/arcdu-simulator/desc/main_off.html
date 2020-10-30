@@ -1,83 +1,87 @@
-<strong>Description</strong>
+<p><strong>Description</strong></p>
 <clp-grid>
 	<clp-grid-column>
+		<div>
+			<p>To use the maintenance panel, the CDS must be in the maintenance mode. This is the mode where systems give their fault data. The Audio Radio Control Display Unit (ARCDU) shows the fault codes. The two ARCDUs are installed on the flight compartment center−pedestal.</p>
 
-		<p>To use the maintenance panel, the CDS must be in the maintenance mode. This is the mode where systems give their fault data. The Audio Radio Control Display Unit (ARCDU) shows the fault codes. The two ARCDUs are installed on the flight compartment center−pedestal.</p>
 
-		<p>The CDS is in the maintenance mode when the aircraft is in the conditions that follow:</p>
-
-		<ul>
-			<li>The calibrated airspeed (CAS) is less than 50 kts</li>
-			<li>The aircraft is on the ground (Weight on Wheels)</li>
-			<li>The <strong>CDS GND MAINT</strong> toggle switch on the maintenance panel is set to the “up” position</li>
-			<li>The MAINT (maintenance) key on the ARCDU is pushed</li>
-		</ul>
-		<clp-text-blue><strong>NOTE:</strong> Only one of the two ARCDUs is used at one time to show Maintenance pages. The selection of the CDS maintenance mode at one ARCDU prevents CDS operation from the other ARCDU.</clp-text-blue>
+			<p>The CDS is in the maintenance mode when the aircraft is in the conditions that follow:</p>
+			<ul>
+				<li>The calibrated airspeed (CAS) is less than 50 kts</li>
+				<li>The aircraft is on the ground (Weight on Wheels)</li>
+				<li>The <strong>CDS GND MAINT</strong> toggle switch on the maintenance panel is set to the “up” position</li>
+				<li>The MAINT (maintenance) key on the ARCDU is pushed</li>
+			</ul>
+			<clp-text-blue><strong>NOTE:</strong> Only one of the two ARCDUs is used at one time to show Maintenance pages. The selection of the CDS maintenance mode at one ARCDU prevents CDS operation from the other ARCDU.</clp-text-blue>
+		</div>
 		<br>
+		
+		<clp-table nowrap="2">
+			<clp-tr>
+				<clp-td>Operational Test for Engine Fault Code Indications</clp-td>
+				<clp-td>
+					<clp-link-pdf>AMM TASK 77-31-00-710-802</clp-link-pdf> - <clp-link-tr>(TR-FIM)</clp-link-tr>
+				</clp-td>
+				
+			</clp-tr>
 
-		The keys that follow control the CDS and the CDS displays in the maintenance mode:
-		<ul>
-			<li><strong>MAINT key</strong> − Pushed to enter the maintenance mode and display the CDS main menu page</li>
-			<li><strong>NEXT key</strong> − Pushed to view the next CDS page</li>
-			<li><strong>PREV key</strong> − Pushed to view the previous CDS page</li>
-			<li><strong>DIM/RTN key</strong> − Pushed to return to the main page (when the ARCDU is operating in the maintenance mode)</li>
-		</ul>
+			<clp-tr>
+				<clp-td>POWERPLANT, ED (Advisory) - Fault Isolation</clp-td>
+				<clp-td>
+					<clp-link-pdf>FIM TASK 77-31-00-810-835</clp-link-pdf> - <clp-link-tr>(TR-FIM)</clp-link-tr>
+				</clp-td>
+				
+			</clp-tr>
+		</clp-table>
 
+		<br>
 	</clp-grid-column>
 
 	<clp-grid-column>
-<clp-info-grey>
-		<p> Do the Retrieval of Data from the Central Diagnostic System (CDS) − Engine Monitoring (EMU)
-			as follows:</p>
+		The keys that follow control the CDS and the CDS displays in the maintenance mode:
 
-		<ul>
-			<li>1. On the system maintenance section of the maintenance panel, set the CDS GND MAINT toggle switch to the “up” position</li>
-			<li>2. Make sure the CDS GND MAINT light comes on</li>
-			<li>3. Push the MAINT key on the left ARCDU.</li>
-		</ul>
 
-		<p>The CDS main menu is shown on the left ARCDU as follows:</p>
-		<ul>
-			<li>AVIONICS</li>
-			<li>OTHER SYSTEMS</li>
-			<li>AVIONIC DATA</li>
-		</ul>
-	
-	</clp-info-grey>
-		<clp-table>
-	<clp-tr>
-		<clp-td>Operational Test for Engine Fault Code Indications</clp-td>
-		<clp-td>
-			<clp-link-pdf>AMM TASK 77-31-00-710-802</clp-link-pdf>
-		</clp-td>
-		<clp-td>
-			<clp-link-tr>(TR-AMM)</clp-link-tr>
-		</clp-td>
-	</clp-tr>
 
-	<clp-tr>
-		<clp-td>POWERPLANT, ED (Advisory) − Fault Isolation</clp-td>
-		<clp-td>
-			<clp-link-pdf>FIM TASK 77-31-00-810-835</clp-link-pdf>
-		</clp-td>
-		<clp-td>
-			<clp-link-tr>(TR-FIM)</clp-link-tr>
-		</clp-td>
-	</clp-tr>
-</clp-table>
 
+		<clp-table border >
+			<clp-tr>
+				<clp-td><strong>
+						<clp-img src="./apps/arcdu/config/arcdu-simulator/pic/arcdu_btn_maint.svg" width="40" icon></clp-img>
+					</strong></clp-td>
+				<clp-td>
+					<p> <strong> MAINT key</strong> − Pushed to enter the maintenance mode and display the CDS main menu page</p>
+				</clp-td>
+			</clp-tr>
+
+			<clp-tr>
+				<clp-td><strong>
+						<clp-img src="./apps/arcdu/config/arcdu-simulator/pic/arcdu_btn_next.svg" width="40" icon></clp-img>
+					</strong></clp-td>
+				<clp-td>
+					<p><strong>NEXT key</strong> − Pushed to view the next CDS page</p>
+				</clp-td>
+			</clp-tr>
+			<clp-tr>
+				<clp-td><strong>
+						<clp-img src="./apps/arcdu/config/arcdu-simulator/pic/arcdu_btn_prev.svg" width="40" icon></clp-img>
+					</strong></clp-td>
+				<clp-td>
+					<p><strong>PREV key</strong> − Pushed to view the previous CDS page</p>
+				</clp-td>
+			</clp-tr>
+			<clp-tr>
+				<clp-td><strong>
+						<clp-img src="./apps/arcdu/config/arcdu-simulator/pic/arcdu_btn_dim.svg" width="40" icon></clp-img>
+					</strong></clp-td>
+				<clp-td>
+					<p><strong>DIM/RTN key</strong> − Pushed to return to the main page (when the ARCDU is operating in the maintenance mode)</p>
+				</clp-td>
+			</clp-tr>
+		</clp-table>
+
+		<br>
 	</clp-grid-column>
 </clp-grid>
-
-
-
-
-
-
-
-
-
-
 
 <br>
 

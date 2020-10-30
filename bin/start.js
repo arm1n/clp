@@ -38,6 +38,11 @@ try {
 		});
 	}
 
+	// transpile shared library at least once
+	execSync(`yarn workspace @clp/shared transpile`, {
+		stdio: "inherit",
+	});
+
 	// then start root and app servers
 	concurrently([
 		`serve -l ${PORT_SRV} .`,

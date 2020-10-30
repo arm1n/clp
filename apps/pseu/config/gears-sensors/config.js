@@ -1,6 +1,6 @@
 /**
- * GEARS SENSORS CODE PAGE HTML FILE:
+ * GEARS SENSORS CODE PAGE REDIRECT URL:
  *
- * Path to Gears Sensors Page HTML file.
+ * Path to Gears Sensors Redirect Page.
  */
-export const HTML_PATH = "./apps/pseu/config/gears-sensors/desc/page.html";
+export const REDIRECT_PATH = "/gear/position-warning";

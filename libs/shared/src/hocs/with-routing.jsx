@@ -34,7 +34,6 @@ export const withRouting = (Component) => {
 
         switch (type) {
           case PAGE_TYPE_LINK:
-            url = !isURL(url) ? joinPaths([baseUrl, url]) : url;
             break;
           default:
             url = joinPaths([baseUrl, url]);
@@ -62,12 +61,17 @@ export const withRouting = (Component) => {
         let linkComponent;
         switch (type) {
           case PAGE_TYPE_LINK:
-            linkComponent = (
+            linkComponent = isURL(url) ? (
               <a href={url} target="_blank" rel="noopener noreferrer">
                 {name}
               </a>
+            ) : (
+              <NavLink key={url} exact={!partial} to={toHandler}>
+                {name}
+              </NavLink>
             );
             break;
+
           default:
             linkComponent = (
               <NavLink key={url} exact={!partial} to={toHandler} isActive={isActiveHandler}>

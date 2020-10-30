@@ -1,6 +1,6 @@
 /**
- * DOORS SENSORS CODE PAGE HTML FILE:
+ * DOORS SENSORS CODE PAGE REDIRECT URL:
  *
- * Path to Doors Sensors Page HTML file.
+ * Path to Doors Sensors Redirect Page.
  */
-export const HTML_PATH = "./apps/pseu/config/doors-sensors/desc/page.html";
+export const REDIRECT_PATH = "/door/door-sensors";

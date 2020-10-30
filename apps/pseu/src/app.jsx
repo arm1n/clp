@@ -1,10 +1,9 @@
 import React from "react";
 
-import { System, Page, PAGE_TYPE_POPUP } from "@clp/shared";
+import { System, Page, PAGE_TYPE_LINK } from "@clp/shared";
 import { PSEUSimulator } from "pages/pseu-simulator/component";
-import { GearsSensors } from "pages/gears-sensors/component";
-import { WowSensors } from "pages/wow-sensors/component";
-import { DoorsSensors } from "pages/doors-sensors/component";
+import { REDIRECT_PATH as GEARS_REDIRECT_PATH } from "config/gears-sensors/config";
+import { REDIRECT_PATH as DOORS_REDIRECT_PATH } from "config/doors-sensors/config";
 
 export const App = (props) => (
   <System {...props}>
@@ -12,14 +11,7 @@ export const App = (props) => (
       <PSEUSimulator />
     </Page>
 
-    <Page type={PAGE_TYPE_POPUP} name="Gears Sensors" path="/gears-sensors">
-      <GearsSensors />
-    </Page>
-    <Page type={PAGE_TYPE_POPUP} name="Wow Sensors" path="/wow-sensors">
-      <WowSensors />
-    </Page>
-    <Page type={PAGE_TYPE_POPUP} name="Doors Sensors" path="/doors-sensors">
-      <DoorsSensors />
-    </Page>
+    <Page type={PAGE_TYPE_LINK} name="Gears Sensors" path={GEARS_REDIRECT_PATH} />
+    <Page type={PAGE_TYPE_LINK} name="Doors Sensors" path={DOORS_REDIRECT_PATH} />
   </System>
 );

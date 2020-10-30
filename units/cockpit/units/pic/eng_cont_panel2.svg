@@ -1,93 +1,61 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 349.1 161" style="enable-background:new 0 0 349.1 161;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#676767;}
-	.st2{fill:#707173;}
-	.st3{fill:#333333;}
-	.st4{fill:#3E3E40;}
-	.st5{clip-path:url(#SVGID_2_);enable-background:new    ;}
-	.st6{fill:#FFFFFF;}
-	.st7{font-family:'ArialMT';}
-	.st8{font-size:4.4818px;}
-	.st9{fill:#23211D;}
-	.st10{fill:#DCDCDB;}
-	.st11{fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;}
-	.st12{fill:#929191;}
-	.st13{fill:#A8A7A6;}
-	.st14{fill:#989898;}
-	.st15{font-size:6.6944px;}
-	.st16{font-size:3.9145px;}
-	.st17{font-size:4.962px;}
-	.st18{font-size:4.5384px;}
-	.st19{font-size:3.4039px;}
-	.st20{font-size:5.6731px;}
-	.st21{fill:#CCCBCB;}
-	.st22{fill:#182F32;}
-	.st23{font-size:3.8577px;}
-	.st24{fill:#66B32E;}
-	.st25{font-size:4.7107px;}
-	.st26{font-size:14px;}
-	.st27{fill:none;stroke:#FF9900;stroke-linecap:round;stroke-linejoin:round;}
-	.st28{fill:none;stroke:#446483;stroke-width:0.2719;stroke-miterlimit:5.4369;}
-	.st29{fill:#446483;}
-</style>
-<path id="clp-info3" class="st0" d="M337,110.1H218.2c-2.4-2.4-5.7-3.8-9.4-3.8c-7.4,0-13.4,6-13.4,13.4c0,7.4,6,13.4,13.4,13.4
+<path id="clp-info3" style="fill:none;" d="M337,110.1H218.2c-2.4-2.4-5.7-3.8-9.4-3.8c-7.4,0-13.4,6-13.4,13.4s6,13.4,13.4,13.4
 	c3.6,0,6.9-1.4,9.3-3.7H337c1.1,0,2-0.9,2-2v-15.3C339,111,338.1,110.1,337,110.1z"/>
-<path id="clp-info2" class="st0" d="M326,62.1H218.2c-2.4-2.4-5.7-3.8-9.4-3.8c-7.4,0-13.4,6-13.4,13.4c0,7.4,6,13.4,13.4,13.4
-	c3.6,0,6.9-1.4,9.3-3.7H326c1.1,0,2-0.9,2-2V64.1C328,63,327.1,62.1,326,62.1z"/>
-<path id="clp-info1" class="st0" d="M318,12.1h-99.8c-2.4-2.4-5.7-3.8-9.4-3.8c-7.4,0-13.4,6-13.4,13.4c0,7.4,6,13.4,13.4,13.4
+<path id="clp-info2" style="fill:none;" d="M326,62.1H218.2c-2.4-2.4-5.7-3.8-9.4-3.8c-7.4,0-13.4,6-13.4,13.4
+	c0,7.4,6,13.4,13.4,13.4c3.6,0,6.9-1.4,9.3-3.7H326c1.1,0,2-0.9,2-2V64.1C328,63,327.1,62.1,326,62.1z"/>
+<path id="clp-info1" style="fill:none;" d="M318,12.1h-99.8c-2.4-2.4-5.7-3.8-9.4-3.8c-7.4,0-13.4,6-13.4,13.4s6,13.4,13.4,13.4
 	c3.6,0,6.9-1.4,9.3-3.7H318c1.1,0,2-0.9,2-2V14.1C320,13,319.1,12.1,318,12.1z"/>
 <g id="clp-system">
 	<g>
-		<path class="st1" d="M192,138.2V2.1H12.3v136L192,138.2L192,138.2z"/>
-		<path d="M171.8,80H154v16.8h17.7V80z"/>
-		<path class="st2" d="M169.2,80.7h-12.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C170.3,80.9,169.8,80.7,169.2,80.7z"/>
-		<path class="st3" d="M154.6,93.9c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+		<path style="fill:#676767;" d="M192,138.2V2.1H12.3v136L192,138.2L192,138.2z"/>
+		<path d="M171.8,80H154v16.8h17.7V80H171.8z"/>
+		<path style="fill:#707173;" d="M169.2,80.7h-12.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8
+			c0-0.7-0.3-1.4-0.6-1.9C170.3,80.9,169.8,80.7,169.2,80.7z"/>
+		<path style="fill:#333333;" d="M154.6,93.9c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
 			c0.4-0.4,0.6-1.1,0.6-1.8V83.1L154.6,93.9z"/>
-		<path class="st4" d="M170.5,83.5c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7h-11.3c-0.4,0-1,0.3-1.3,0.7
+		<path style="fill:#3E3E40;" d="M170.5,83.5c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7h-11.3c-0.4,0-1,0.3-1.3,0.7
 			c-0.4,0.4-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7c0.4-0.4,0.6-1.1,0.6-1.7
 			V83.5z"/>
-		<path d="M111.1,79.9H93.4v16.8h17.7V79.9z"/>
-		<path class="st2" d="M108.3,80.6H96c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9V94l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C109.4,80.9,109,80.6,108.3,80.6z"/>
-		<path class="st3" d="M93.7,93.8c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8c0.4-0.4,0.6-1.1,0.6-1.8
-			V83L93.7,93.8z"/>
-		<path class="st4" d="M109.7,83.4c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7H96.3c-0.4,0-1,0.3-1.3,0.7
+		<path d="M111.1,79.9H93.4v16.8h17.7C111.1,96.7,111.1,79.9,111.1,79.9z"/>
+		<path style="fill:#707173;" d="M108.3,80.6H96c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9V94l16.7-10.8
+			c0-0.7-0.3-1.4-0.6-1.9C109.4,80.9,109,80.6,108.3,80.6z"/>
+		<path style="fill:#333333;" d="M93.7,93.8c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+			c0.4-0.4,0.6-1.1,0.6-1.8V83L93.7,93.8z"/>
+		<path style="fill:#3E3E40;" d="M109.7,83.4c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7H96.3c-0.4,0-1,0.3-1.3,0.7
 			c-0.4,0.4-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7c0.4-0.4,0.6-1.1,0.6-1.7
-			V83.4z"/>
+			L109.7,83.4L109.7,83.4z"/>
 		<path d="M48.6,52.3H30.9v16.8h17.7V52.3z"/>
-		<path class="st2" d="M46,52.9H33.6c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C47,53.2,46.5,52.9,46,52.9z"/>
-		<path class="st3" d="M31.3,66.1c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8c0.4-0.4,0.6-1.1,0.6-1.8
-			V55.3L31.3,66.1z"/>
-		<path class="st4" d="M47.2,55.7c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.5-0.8-0.7-1.4-0.7H33.9c-0.4,0-1,0.3-1.3,0.7
+		<path style="fill:#707173;" d="M46,52.9H33.6c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8
+			c0-0.7-0.3-1.4-0.6-1.9C47,53.2,46.5,52.9,46,52.9z"/>
+		<path style="fill:#333333;" d="M31.3,66.1c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+			c0.4-0.4,0.6-1.1,0.6-1.8V55.3L31.3,66.1z"/>
+		<path style="fill:#3E3E40;" d="M47.2,55.7c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.5-0.8-0.7-1.4-0.7H33.9c-0.4,0-1,0.3-1.3,0.7
 			c-0.4,0.4-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7c0.4-0.4,0.6-1.1,0.6-1.7
-			L47.2,55.7L47.2,55.7z"/>
-		<path d="M48.5,79.4H30.7v16.8h17.7V79.4z"/>
-		<path class="st2" d="M45.8,80H33.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C46.9,80.3,46.4,80,45.8,80z"/>
-		<path class="st3" d="M31.2,93.2c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8c0.4-0.4,0.6-1.1,0.6-1.8
-			V82.4L31.2,93.2z"/>
-		<path class="st4" d="M47.1,82.8c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7H33.8c-0.4,0-1,0.3-1.3,0.7
+			V55.7L47.2,55.7z"/>
+		<path d="M48.5,79.4H30.7v16.8h17.7L48.5,79.4L48.5,79.4z"/>
+		<path style="fill:#707173;" d="M45.8,80H33.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8L48,82.7
+			c0-0.7-0.3-1.4-0.6-1.9C46.9,80.3,46.4,80,45.8,80z"/>
+		<path style="fill:#333333;" d="M31.2,93.2c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+			c0.4-0.4,0.6-1.1,0.6-1.8V82.4L31.2,93.2z"/>
+		<path style="fill:#3E3E40;" d="M47.1,82.8c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7H33.8c-0.4,0-1,0.3-1.3,0.7
 			c-0.4,0.4-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7c0.4-0.4,0.6-1.1,0.6-1.7
 			V82.8z"/>
-		<path d="M48.5,20.2H30.7V37h17.7V20.2z"/>
-		<path class="st2" d="M45.8,20.9H33.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C46.9,21.2,46.4,20.9,45.8,20.9z"/>
-		<path class="st3" d="M31.2,34.1c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8c0.4-0.4,0.6-1.1,0.6-1.8
-			V23.3L31.2,34.1z"/>
-		<path class="st4" d="M47.1,23.7c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7H33.8c-0.4,0-1,0.3-1.3,0.7s-0.6,1-0.6,1.7v9.9
-			c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7s0.6-1.1,0.6-1.7V23.7z"/>
-		<path d="M110.6,117.4H92.8v16.8h17.7V117.4z"/>
-		<path class="st2" d="M108,118H95.6c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C109.1,118.4,108.4,118,108,118z"/>
-		<path class="st3" d="M93.4,131.4c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+		<path d="M48.5,20.2H30.7V37h17.7L48.5,20.2L48.5,20.2z"/>
+		<path style="fill:#707173;" d="M45.8,20.9H33.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8L48,23.6
+			c0-0.7-0.3-1.4-0.6-1.9C46.9,21.2,46.4,20.9,45.8,20.9z"/>
+		<path style="fill:#333333;" d="M31.2,34.1c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+			c0.4-0.4,0.6-1.1,0.6-1.8V23.3L31.2,34.1z"/>
+		<path style="fill:#3E3E40;" d="M47.1,23.7c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7H33.8c-0.4,0-1,0.3-1.3,0.7
+			s-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7s0.6-1.1,0.6-1.7V23.7z"/>
+		<path d="M110.6,117.4H92.8v16.8h17.7L110.6,117.4L110.6,117.4z"/>
+		<path style="fill:#707173;" d="M108,118H95.6c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8
+			c0-0.7-0.3-1.4-0.6-1.9C109.1,118.4,108.4,118,108,118z"/>
+		<path style="fill:#333333;" d="M93.4,131.4c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
 			c0.4-0.4,0.6-1.1,0.6-1.8v-10.9L93.4,131.4z"/>
-		<path class="st4" d="M109.3,120.9c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.5-0.8-0.7-1.4-0.7H96c-0.4,0-1,0.3-1.3,0.7
+		<path style="fill:#3E3E40;" d="M109.3,120.9c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.5-0.8-0.7-1.4-0.7H96c-0.4,0-1,0.3-1.3,0.7
 			c-0.4,0.4-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7c0.4-0.4,0.6-1.1,0.6-1.7
 			V120.9z"/>
 		<g>
@@ -96,14 +64,16 @@
 					<g>
 						<g>
 							<g>
-								<defs>
-									<rect id="SVGID_1_" x="86.4" y="10.9" width="30.5" height="10"/>
-								</defs>
-								<clipPath id="SVGID_2_">
-									<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-								</clipPath>
-								<g class="st5">
-									<text transform="matrix(1 0 0 1 88.7773 17.6822)" class="st6 st7 st8">TRANSFER</text>
+								<g>
+									<defs>
+										<rect id="SVGID_1_" x="86.4" y="10.9" width="30.5" height="10"/>
+									</defs>
+									<clipPath id="SVGID_2_">
+										<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+									</clipPath>
+									<g style="clip-path:url(#SVGID_2_);enable-background:new    ;">
+										<text transform="matrix(1 0 0 1 88.7773 17.6822)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.4818px;">TRANSFER</text>
+									</g>
 								</g>
 							</g>
 						</g>
@@ -111,177 +81,195 @@
 				</g>
 			</g>
 		</g>
-		<path class="st9" d="M33.7,108v22.9h2.8v1.8H54v-1.3h2.8V108H33.7z"/>
-		<path class="st10" d="M43.1,136.8v-4h-6.7v4H43.1z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_1_1_STROKES" class="st11" d="M43.1,136.8v-4h-6.7v4H43.1z"/>
-		<path class="st10" d="M47.2,132.8v4.5h6.3v-4.5H47.2z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_2_1_STROKES" class="st11" d="M47.2,132.8v4.5h6.3v-4.5H47.2z"/>
-		<path class="st10" d="M43.1,133.3v3.1h4.2v-3.1H43.1z"/>
-		<path class="st12" d="M43.6,136.5v-3.1l-0.4,3.1H43.6z"/>
-		<path class="st12" d="M43.9,133.3h-0.4v3.1L43.9,133.3z"/>
-		<path class="st12" d="M44.6,136.5v-3.1l-0.4,3.1H44.6z"/>
-		<path class="st12" d="M45.4,136.5v-3.1l-0.4,3.1H45.4z"/>
-		<path class="st12" d="M46.3,133.3h-0.4v3.1L46.3,133.3z"/>
-		<path class="st12" d="M46.3,136.5v-3.1l-0.4,3.1H46.3z"/>
-		<path class="st12" d="M47.2,133.3h-0.4v3.1L47.2,133.3z"/>
-		<path class="st12" d="M47.2,136.5v-3.1l-0.4,3.1H47.2z"/>
-		<path class="st9" d="M35.5,132.8v3.7h1v-3.7H35.5z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_13_1_STROKES" class="st11" d="M35.5,136.5h1v-3.7h-1"/>
-		<path class="st9" d="M53.5,133.3v3.1h1v-3.1H53.5z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_15_1_STROKES" class="st11" d="M53.5,136.5h1v-3.1h-1"/>
-		<path class="st10" d="M34.7,133.7v2.2h1v-2.2H34.7z"/>
-		<path class="st10" d="M54.4,133.7v2.2h1v-2.2H54.4z"/>
-		<path class="st13" d="M55.3,109.4H34.7v20.8h20.7C55.3,130.1,55.3,109.4,55.3,109.4z"/>
-		<path class="st9" d="M147.8,108v22.9h2.8v1.8h17.6v-1.3h2.8V108H147.8z"/>
-		<path class="st10" d="M157.2,136.8v-4h-6.7v4H157.2z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_1_1_STROKES" class="st11" d="M157.2,136.8v-4h-6.7v4H157.2z"/>
-		<path class="st10" d="M161.4,132.8v4.5h6.3v-4.5H161.4z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_2_1_STROKES" class="st11" d="M161.4,132.8v4.5h6.3v-4.5H161.4z"/>
-		<path class="st10" d="M157.2,133.3v3.1h4.2v-3.1H157.2z"/>
-		<path class="st12" d="M157.6,136.5v-3.1l-0.4,3.1H157.6z"/>
-		<path class="st12" d="M158.1,133.3h-0.4v3.1L158.1,133.3z"/>
-		<path class="st12" d="M158.6,136.5v-3.1l-0.4,3.1H158.6z"/>
-		<path class="st12" d="M159.6,136.5v-3.1l-0.4,3.1H159.6z"/>
-		<path class="st12" d="M160.4,133.3h-0.4v3.1L160.4,133.3z"/>
-		<path class="st12" d="M160.4,136.5v-3.1l-0.4,3.1H160.4z"/>
-		<path class="st12" d="M161.4,133.3h-0.5v3.1L161.4,133.3z"/>
-		<path class="st12" d="M161.4,136.5v-3.1l-0.4,3.1H161.4z"/>
-		<path class="st9" d="M149.6,132.8v3.7h1v-3.7H149.6z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_13_1_STROKES" class="st11" d="M149.6,136.5h1v-3.7h-1"/>
-		<path class="st9" d="M167.7,133.3v3.1h1v-3.1H167.7z"/>
-		<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_15_1_STROKES" class="st11" d="M167.7,136.5h1v-3.1h-1"/>
-		<path class="st10" d="M148.7,133.7v2.2h1v-2.2H148.7z"/>
-		<path class="st10" d="M168.5,133.7v2.2h1v-2.2H168.5z"/>
-		<path class="st13" d="M169.5,109.4h-20.7v20.8h20.7V109.4z"/>
+		<path style="fill:#23211D;" d="M33.7,108v22.9h2.8v1.8H54v-1.3h2.8V108H33.7z"/>
+		<path style="fill:#DCDCDB;" d="M43.1,136.8v-4h-6.7v4H43.1z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_1_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M43.1,136.8v-4h-6.7v4H43.1z"/>
+		<path style="fill:#DCDCDB;" d="M47.2,132.8v4.5h6.3v-4.5H47.2z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_2_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M47.2,132.8v4.5h6.3v-4.5H47.2z"/>
+		<path style="fill:#DCDCDB;" d="M43.1,133.3v3.1h4.2v-3.1H43.1z"/>
+		<path style="fill:#929191;" d="M43.6,136.5v-3.1l-0.4,3.1H43.6z"/>
+		<path style="fill:#929191;" d="M43.9,133.3h-0.4v3.1L43.9,133.3z"/>
+		<path style="fill:#929191;" d="M44.6,136.5v-3.1l-0.4,3.1H44.6z"/>
+		<path style="fill:#929191;" d="M45.4,136.5v-3.1l-0.4,3.1H45.4z"/>
+		<path style="fill:#929191;" d="M46.3,133.3h-0.4v3.1L46.3,133.3z"/>
+		<path style="fill:#929191;" d="M46.3,136.5v-3.1l-0.4,3.1H46.3z"/>
+		<path style="fill:#929191;" d="M47.2,133.3h-0.4v3.1L47.2,133.3z"/>
+		<path style="fill:#929191;" d="M47.2,136.5v-3.1l-0.4,3.1H47.2z"/>
+		<path style="fill:#23211D;" d="M35.5,132.8v3.7h1v-3.7H35.5z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_13_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M35.5,136.5h1v-3.7h-1"/>
+		<path style="fill:#23211D;" d="M53.5,133.3v3.1h1v-3.1H53.5z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_27_MEMBER_15_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M53.5,136.5h1v-3.1h-1"/>
+		<path style="fill:#DCDCDB;" d="M34.7,133.7v2.2h1v-2.2H34.7z"/>
+		<path style="fill:#DCDCDB;" d="M54.4,133.7v2.2h1v-2.2H54.4z"/>
+		<path style="fill:#A8A7A6;" d="M55.3,109.4H34.7v20.8h20.7C55.3,130.1,55.3,109.4,55.3,109.4z"/>
+		<path style="fill:#23211D;" d="M147.8,108v22.9h2.8v1.8h17.6v-1.3h2.8V108H147.8z"/>
+		<path style="fill:#DCDCDB;" d="M157.2,136.8v-4h-6.7v4H157.2z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_1_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M157.2,136.8v-4h-6.7v4H157.2z"/>
+		<path style="fill:#DCDCDB;" d="M161.4,132.8v4.5h6.3v-4.5H161.4z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_2_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M161.4,132.8v4.5h6.3v-4.5H161.4z"/>
+		<path style="fill:#DCDCDB;" d="M157.2,133.3v3.1h4.2v-3.1H157.2z"/>
+		<path style="fill:#929191;" d="M157.6,136.5v-3.1l-0.4,3.1H157.6z"/>
+		<path style="fill:#929191;" d="M158.1,133.3h-0.4v3.1L158.1,133.3z"/>
+		<path style="fill:#929191;" d="M158.6,136.5v-3.1l-0.4,3.1H158.6z"/>
+		<path style="fill:#929191;" d="M159.6,136.5v-3.1l-0.4,3.1H159.6z"/>
+		<path style="fill:#929191;" d="M160.4,133.3H160v3.1L160.4,133.3z"/>
+		<path style="fill:#929191;" d="M160.4,136.5v-3.1l-0.4,3.1H160.4z"/>
+		<path style="fill:#929191;" d="M161.4,133.3h-0.5v3.1L161.4,133.3z"/>
+		<path style="fill:#929191;" d="M161.4,136.5v-3.1l-0.4,3.1H161.4z"/>
+		<path style="fill:#23211D;" d="M149.6,132.8v3.7h1v-3.7H149.6z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_13_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M149.6,136.5h1v-3.7h-1"/>
+		<path style="fill:#23211D;" d="M167.7,133.3v3.1h1v-3.1H167.7z"/>
+		
+			<path id="panel_ecp_0_Layer0_0_MEMBER_28_MEMBER_15_1_STROKES" style="fill:none;stroke:#23211D;stroke-width:0.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:16.8024;" d="
+			M167.7,136.5h1v-3.1h-1"/>
+		<path style="fill:#DCDCDB;" d="M148.7,133.7v2.2h1v-2.2H148.7z"/>
+		<path style="fill:#DCDCDB;" d="M168.5,133.7v2.2h1v-2.2H168.5z"/>
+		<path style="fill:#A8A7A6;" d="M169.5,109.4h-20.7v20.8h20.7V109.4z"/>
 		<path d="M181.2,12.5c-1,1-1.4,2.1-1.4,3.5s0.4,2.5,1.3,3.3l6.9-6.8c-1-0.8-2-1.3-3.3-1.4C183.2,11.2,182,11.6,181.2,12.5z"/>
-		<path class="st14" d="M188,12.6C188,12.6,188,12.5,188,12.6l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3c1.3,0,2.5-0.4,3.5-1.4
-			c1-1,1.4-2,1.4-3.5C189.4,14.7,188.9,13.6,188,12.6z"/>
-		<path class="st1" d="M181.6,18.9c0.8,0.8,1.8,1.3,2.9,1.3c1.2,0,2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9s-0.4-2.1-1.3-2.9
-			c-0.8-0.8-1.8-1.3-2.9-1.3c-1.2,0-2.1,0.4-2.9,1.3c-0.8,0.8-1.2,1.8-1.2,2.9S180.7,18,181.6,18.9z"/>
-		<path class="st3" d="M188.4,15.4h-7.8v1.3h7.8V15.4z"/>
+		<path style="fill:#989898;" d="M188,12.6C188,12.6,188,12.5,188,12.6l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3c1.3,0,2.5-0.4,3.5-1.4
+			s1.4-2,1.4-3.5C189.4,14.7,188.9,13.6,188,12.6z"/>
+		<path style="fill:#676767;" d="M181.6,18.9c0.8,0.8,1.8,1.3,2.9,1.3c1.2,0,2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9
+			s-0.4-2.1-1.3-2.9c-0.8-0.8-1.8-1.3-2.9-1.3c-1.2,0-2.1,0.4-2.9,1.3c-0.8,0.8-1.2,1.8-1.2,2.9C180.4,17.1,180.7,18,181.6,18.9z"/>
+		<path style="fill:#333333;" d="M188.4,15.4h-7.8v1.3h7.8V15.4z"/>
 		<path d="M16,13c-1,1-1.4,2.1-1.4,3.5s0.4,2.5,1.3,3.3l6.9-6.8c-1-0.8-2-1.3-3.3-1.4C18,11.5,16.8,12,16,13z"/>
-		<path class="st14" d="M22.7,13L22.7,13l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3c1.4,0,2.6-0.4,3.5-1.4c1-1,1.4-2,1.4-3.5
+		<path style="fill:#989898;" d="M22.7,13L22.7,13l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3c1.4,0,2.6-0.4,3.5-1.4c1-1,1.4-2,1.4-3.5
 			C24.1,15.1,23.7,13.9,22.7,13z"/>
-		<path class="st1" d="M16.3,19.3c0.8,0.8,1.8,1.3,2.9,1.3c1.2,0,2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9s-0.4-2.1-1.3-2.9
-			c-0.8-0.8-1.8-1.3-2.9-1.3c-1.2,0-2.1,0.4-2.9,1.3c-0.8,0.8-1.2,1.8-1.2,2.9S15.5,18.6,16.3,19.3z"/>
-		<path class="st3" d="M23.3,15.8h-7.8v1.3h7.8V15.8z"/>
+		<path style="fill:#676767;" d="M16.3,19.3c0.8,0.8,1.8,1.3,2.9,1.3c1.2,0,2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9
+			s-0.4-2.1-1.3-2.9c-0.8-0.8-1.8-1.3-2.9-1.3c-1.2,0-2.1,0.4-2.9,1.3c-0.8,0.8-1.2,1.8-1.2,2.9C15.1,17.5,15.5,18.6,16.3,19.3z"/>
+		<path style="fill:#333333;" d="M23.3,15.8h-7.8v1.3h7.8V15.8z"/>
 		<path d="M181.3,121.1c-1,1-1.4,2.1-1.4,3.5c0,1.3,0.4,2.5,1.3,3.3l6.9-6.8c-1-0.8-2-1.3-3.3-1.4
 			C183.4,119.7,182.1,120.1,181.3,121.1z"/>
-		<path class="st14" d="M188.1,121.1L188.1,121.1l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3c1.3,0,2.5-0.4,3.5-1.4c1-1,1.4-2,1.4-3.5
-			C189.5,123.1,189.1,122,188.1,121.1z"/>
-		<path class="st1" d="M181.7,127.5c0.8,0.8,1.8,1.3,2.9,1.3s2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9s-0.4-2.1-1.3-2.9
+		<path style="fill:#989898;" d="M188.1,121.1L188.1,121.1l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3c1.3,0,2.5-0.4,3.5-1.4
+			c1-1,1.4-2,1.4-3.5C189.5,123.1,189.1,122,188.1,121.1z"/>
+		<path style="fill:#676767;" d="M181.7,127.5c0.8,0.8,1.8,1.3,2.9,1.3s2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9s-0.4-2.1-1.3-2.9
 			c-0.8-0.8-1.8-1.3-2.9-1.3s-2.1,0.4-2.9,1.3c-0.8,0.8-1.2,1.8-1.2,2.9C180.5,125.6,180.9,126.6,181.7,127.5z"/>
-		<path class="st3" d="M188.5,123.8h-7.8v1.3h7.8V123.8z"/>
+		<path style="fill:#333333;" d="M188.5,123.8h-7.8v1.3h7.8V123.8z"/>
 		<path d="M15.8,120.9c-1,1-1.4,2.1-1.4,3.5c0,1.3,0.4,2.5,1.3,3.3l6.9-6.8c-1-0.8-2-1.3-3.3-1.4C17.7,119.5,16.6,120.1,15.8,120.9z
 			"/>
-		<path class="st14" d="M22.5,120.9C22.5,120.9,22.5,120.9,22.5,120.9l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3s2.5-0.4,3.5-1.4
-			c1-1,1.4-2,1.4-3.5C24,123,23.4,121.9,22.5,120.9z"/>
-		<path class="st1" d="M16.1,127.3c0.8,0.8,1.8,1.3,2.9,1.3s2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9s-0.4-2.1-1.3-2.9
+		<path style="fill:#989898;" d="M22.5,120.9L22.5,120.9l-7,6.8l0.1,0.1c1,1,2,1.3,3.5,1.3s2.5-0.4,3.5-1.4c1-1,1.4-2,1.4-3.5
+			C24,123,23.4,121.9,22.5,120.9z"/>
+		<path style="fill:#676767;" d="M16.1,127.3c0.8,0.8,1.8,1.3,2.9,1.3s2.1-0.4,2.9-1.3c0.8-0.8,1.3-1.8,1.3-2.9s-0.4-2.1-1.3-2.9
 			c-0.8-0.8-1.8-1.3-2.9-1.3s-2.1,0.4-2.9,1.3c-0.8,0.8-1.2,1.8-1.2,2.9C14.9,125.5,15.2,126.5,16.1,127.3z"/>
-		<path class="st3" d="M23,123.7h-7.8v1.3H23V123.7z"/>
-		<path class="st3" d="M192,42.5v-1.7H12.6v1.7H192z"/>
-		<path class="st3" d="M192,101.6v-1.7H12.6v1.7H192z"/>
+		<path style="fill:#333333;" d="M23,123.7h-7.8v1.3H23V123.7z"/>
+		<path style="fill:#333333;" d="M192,42.5v-1.7H12.6v1.7H192z"/>
+		<path style="fill:#333333;" d="M192,101.6v-1.7H12.6v1.7H192z"/>
 		<path d="M172.1,20.5h-17.7v16.8h17.7V20.5z"/>
-		<path class="st2" d="M169.5,21.2h-12.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8c0-0.7-0.3-1.4-0.6-1.9
-			C170.5,21.4,170,21.2,169.5,21.2z"/>
-		<path class="st3" d="M154.9,34.4c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
+		<path style="fill:#707173;" d="M169.5,21.2h-12.4c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.4-0.6,1.2-0.6,1.9v10.8l16.7-10.8
+			c0-0.7-0.3-1.4-0.6-1.9C170.5,21.4,170,21.2,169.5,21.2z"/>
+		<path style="fill:#333333;" d="M154.9,34.4c0,0.7,0.3,1.3,0.6,1.8c0.4,0.4,1,0.8,1.5,0.8h12.4c0.6,0,1.1-0.3,1.5-0.8
 			c0.4-0.4,0.6-1.1,0.6-1.8V23.6L154.9,34.4z"/>
-		<path class="st4" d="M170.7,24c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7h-11.3c-0.4,0-1,0.3-1.3,0.7
+		<path style="fill:#3E3E40;" d="M170.7,24c0-0.7-0.3-1.2-0.6-1.7c-0.4-0.4-0.8-0.7-1.4-0.7h-11.3c-0.4,0-1,0.3-1.3,0.7
 			c-0.4,0.4-0.6,1-0.6,1.7v9.9c0,0.7,0.3,1.3,0.6,1.7c0.4,0.4,0.8,0.7,1.3,0.7h11.3c0.6,0,1.1-0.3,1.4-0.7c0.4-0.4,0.6-1.1,0.6-1.7
 			V24z"/>
-		<path class="st3" d="M98.5,31.2c1.2,1.1,2.5,1.5,4,1.5s2.9-0.4,3.9-1.5c1.1-1.1,1.7-2.5,1.7-4c0-1.5-0.6-2.9-1.7-3.9
-			c-1.1-1.1-2.4-1.7-3.9-1.7c-1.5,0-2.9,0.6-4,1.7c-1.1,1.1-1.5,2.4-1.5,3.9C96.9,28.7,97.4,30.2,98.5,31.2z"/>
+		<path style="fill:#333333;" d="M98.5,31.2c1.2,1.1,2.5,1.5,4,1.5s2.9-0.4,3.9-1.5c1.1-1.1,1.7-2.5,1.7-4s-0.6-2.9-1.7-3.9
+			c-1.1-1.1-2.4-1.7-3.9-1.7s-2.9,0.6-4,1.7S97,25.7,97,27.2C96.9,28.7,97.4,30.2,98.5,31.2z"/>
 		<path d="M102.6,31.8c1.1,0,2.1-0.4,2.9-1.3c0.8-0.8,1.2-1.8,1.2-2.9c0-1.2-0.4-2.2-1.2-3.1c-0.8-0.9-1.9-1.2-2.9-1.2
 			c-1.2,0-2.2,0.4-2.9,1.2c-0.8,0.8-1.3,1.9-1.3,3.1c0,1.1,0.4,2.1,1.3,2.9C100.3,31.2,101.4,31.8,102.6,31.8z"/>
-		<path class="st1" d="M95.2,32.3l2.9-1c2.1-0.4,3.8-0.7,4.9-0.4c1.2,0.1,1.8-1,1.8-3.6s-0.6-3.9-1.8-3.8c-0.8,0.1-2.2-0.1-4.5-0.6
-			l-3.2-0.6L95.2,32.3L95.2,32.3z"/>
-		<path class="st14" d="M99.8,22.7c-1.1-1.1-2.5-1.7-4.2-1.7s-3.1,0.6-4.2,1.7c-1.1,1.2-1.7,2.6-1.7,4.2c0,1.7,0.6,3.1,1.7,4.2
-			c1.1,1.2,2.5,1.8,4.2,1.8c1.7,0,3.1-0.6,4.2-1.8c1.2-1.1,1.7-2.5,1.7-4.2C101.4,25.4,100.9,23.9,99.8,22.7z"/>
-		<path class="st10" d="M98.4,26.5c0-1.2-0.4-2.2-1.3-3.2c-1.3,1-1.9,2-1.9,3.2c0,1.3,0.6,2.4,1.9,3.3
+		<path style="fill:#676767;" d="M95.2,32.3l2.9-1c2.1-0.4,3.8-0.7,4.9-0.4c1.2,0.1,1.8-1,1.8-3.6s-0.6-3.9-1.8-3.8
+			c-0.8,0.1-2.2-0.1-4.5-0.6l-3.2-0.6L95.2,32.3L95.2,32.3z"/>
+		<path style="fill:#989898;" d="M99.8,22.7c-1.1-1.1-2.5-1.7-4.2-1.7s-3.1,0.6-4.2,1.7c-1.1,1.2-1.7,2.6-1.7,4.2
+			c0,1.7,0.6,3.1,1.7,4.2c1.1,1.2,2.5,1.8,4.2,1.8s3.1-0.6,4.2-1.8c1.2-1.1,1.7-2.5,1.7-4.2C101.4,25.4,100.9,23.9,99.8,22.7z"/>
+		<path style="fill:#DCDCDB;" d="M98.4,26.5c0-1.2-0.4-2.2-1.3-3.2c-1.3,1-1.9,2-1.9,3.2c0,1.3,0.6,2.4,1.9,3.3
 			C97.8,28.9,98.4,27.8,98.4,26.5z"/>
-		<text transform="matrix(1 0 0 1 73.3882 9.757)" class="st6 st7 st15">FUEL CONTROL</text>
-		<text transform="matrix(1 0 0 1 32.7197 13.4098)" class="st6 st7 st16">TANK 1</text>
-		<text transform="matrix(1 0 0 1 29.3916 18.1647)" class="st6 st7 st16">AUX PUMP</text>
-		<text transform="matrix(1 0 0 1 156.0884 13.4098)" class="st6 st7 st16">TANK 2</text>
-		<text transform="matrix(1 0 0 1 152.7603 18.1647)" class="st6 st7 st16">AUX PUMP</text>
-		<text transform="matrix(1 0 0 1 116.2246 23.5187)" class="st6 st7 st16">TO</text>
-		<text transform="matrix(1 0 0 1 113.7295 28.2726)" class="st6 st7 st16">TANK</text>
-		<text transform="matrix(1 0 0 1 117.8892 32.9088)" class="st6 st7 st16">2</text>
-		<text transform="matrix(1 0 0 1 80.25 23.5187)" class="st6 st7 st16">TO</text>
-		<text transform="matrix(1 0 0 1 77.7539 28.2726)" class="st6 st7 st16">TANK</text>
-		<text transform="matrix(1 0 0 1 81.9136 32.9088)" class="st6 st7 st16">1</text>
-		<text transform="matrix(1 0 0 1 70.5874 49.5626)" class="st6 st7 st15">ENGINE  CONTROL</text>
-		<text transform="matrix(1 0 0 1 51.9087 62.8649)" class="st6 st7 st17">EVENT MARKER</text>
-		<text transform="matrix(1 0 0 1 133.9385 58.6388)" class="st6 st7 st18">RCD TOP</text>
-		<text transform="matrix(1 0 0 1 152.0537 74.9337)" class="st6 st7 st19">DEC</text>
-		<text transform="matrix(1 0 0 1 127.5015 74.9322)" class="st6 st7 st19">RESET</text>
-		<text transform="matrix(1 0 0 1 139.7827 67.9562)" class="st6 st7 st8">TRQ</text>
-		<text transform="matrix(1 0 0 1 65.0186 108.2247)" class="st6 st7 st20">PROPELLER  CONTROL</text>
-		<text transform="matrix(1 0 0 1 82.9106 113.7931)" class="st6 st7 st8">AUTOFEATHER</text>
-		<text transform="matrix(1 0 0 1 176.293 108.2247)" class="st6 st7 st16">#2</text>
-		<text transform="matrix(1 0 0 1 174.6294 112.9796)" class="st6 st7 st16">ALT</text>
-		<text transform="matrix(1 0 0 1 172.7285 117.6144)" class="st6 st7 st16">FTHR</text>
-		<text transform="matrix(1 0 0 1 21.772 108.2247)" class="st6 st7 st16">#2</text>
-		<text transform="matrix(1 0 0 1 20.1094 112.9796)" class="st6 st7 st16">ALT</text>
-		<text transform="matrix(1 0 0 1 18.2075 117.6144)" class="st6 st7 st16">FTHR</text>
-		<path class="st6" d="M181.4,51.8h-1.2h-68.8h-1.2l0,0V53l0,0v23.8l0,0v1.2l0,0l0,0h1.2l0,0h68.8l0,0h1.2l0,0 M180.2,76.7h-68.8
-			V52.9h68.8V76.7z"/>
-		<path class="st21" d="M130.3,63.8c-0.8,0.8-1.2,1.8-1.2,2.9c0,1.1,0.4,2,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.2c1.1,0,1.9-0.4,2.8-1.2
-			c0.9-0.8,1.2-1.8,1.2-2.9c0-1.1-0.4-2-1.2-2.9c-0.8-0.7-1.7-1.1-2.8-1.1C132.1,62.8,131.2,63.2,130.3,63.8z"/>
+		<text transform="matrix(1 0 0 1 73.3882 9.757)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:6.6944px;">FUEL CONTROL</text>
+		<text transform="matrix(1 0 0 1 32.7197 13.4098)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">TANK 1</text>
+		<text transform="matrix(1 0 0 1 29.3916 18.1647)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">AUX PUMP</text>
+		<text transform="matrix(1 0 0 1 156.0884 13.4098)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">TANK 2</text>
+		<text transform="matrix(1 0 0 1 152.7603 18.1647)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">AUX PUMP</text>
+		<text transform="matrix(1 0 0 1 116.2246 23.5187)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">TO</text>
+		<text transform="matrix(1 0 0 1 113.7295 28.2726)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">TANK</text>
+		<text transform="matrix(1 0 0 1 117.8892 32.9088)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">2</text>
+		<text transform="matrix(1 0 0 1 80.25 23.5187)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">TO</text>
+		<text transform="matrix(1 0 0 1 77.7539 28.2726)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">TANK</text>
+		<text transform="matrix(1 0 0 1 81.9136 32.9088)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">1</text>
+		<text transform="matrix(1 0 0 1 70.5874 49.5626)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:6.6944px;">ENGINE  CONTROL</text>
+		<text transform="matrix(1 0 0 1 51.9087 62.8649)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.962px;">EVENT MARKER</text>
+		<text transform="matrix(1 0 0 1 133.9385 58.6388)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.5384px;">RCD TOP</text>
+		<text transform="matrix(1 0 0 1 152.0537 74.9337)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.4039px;">DEC</text>
+		<text transform="matrix(1 0 0 1 127.5015 74.9322)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.4039px;">RESET</text>
+		<text transform="matrix(1 0 0 1 139.7827 67.9562)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.4818px;">TRQ</text>
+		<text transform="matrix(1 0 0 1 65.0186 108.2247)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:5.6731px;">PROPELLER  CONTROL</text>
+		<text transform="matrix(1 0 0 1 82.9106 113.7931)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.4818px;">AUTOFEATHER</text>
+		<text transform="matrix(1 0 0 1 176.293 108.2247)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">#2</text>
+		<text transform="matrix(1 0 0 1 174.6294 112.9796)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">ALT</text>
+		<text transform="matrix(1 0 0 1 172.7285 117.6144)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">FTHR</text>
+		<text transform="matrix(1 0 0 1 21.772 108.2247)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">#2</text>
+		<text transform="matrix(1 0 0 1 20.1094 112.9796)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">ALT</text>
+		<text transform="matrix(1 0 0 1 18.2075 117.6144)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">FTHR</text>
+		<path style="fill:#FFFFFF;" d="M181.4,51.8h-1.2h-68.8h-1.2l0,0V53l0,0v23.8l0,0V78l0,0l0,0h1.2l0,0h68.8l0,0h1.2l0,0 M180.2,76.7
+			h-68.8V52.9h68.8V76.7z"/>
+		<path style="fill:#CCCBCB;" d="M130.3,63.8c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.2
+			c1.1,0,1.9-0.4,2.8-1.2c0.9-0.8,1.2-1.8,1.2-2.9s-0.4-2-1.2-2.9c-0.8-0.7-1.7-1.1-2.8-1.1C132.1,62.8,131.2,63.2,130.3,63.8z"/>
 		<path d="M131.1,64.6c-0.6,0.7-1,1.4-1,2.2c0,0.8,0.4,1.7,1,2.2c0.6,0.6,1.3,1,2.2,1c0.8,0,1.4-0.4,2.1-1c0.6-0.6,1-1.3,1-2.2
 			c0-0.8-0.4-1.5-1-2.2c-0.6-0.4-1.3-0.8-2.1-0.8C132.3,63.7,131.6,64,131.1,64.6z"/>
-		<path class="st22" d="M134.4,65.6c-0.3,0.4-0.4,0.8-0.6,1.4c-0.1,0.6-0.1,1.1-0.1,1.5c0,0.4,0.3,0.7,0.4,0.7s0.4-0.1,0.8-0.4
+		<path style="fill:#182F32;" d="M134.4,65.6c-0.3,0.4-0.4,0.8-0.6,1.4c-0.1,0.6-0.1,1.1-0.1,1.5s0.3,0.7,0.4,0.7s0.4-0.1,0.8-0.4
 			c0.3-0.4,0.4-0.8,0.6-1.4c0.1-0.4,0.1-1.1,0.1-1.5c-0.1-0.4-0.3-0.6-0.4-0.7C134.8,65.1,134.6,65.3,134.4,65.6z"/>
-		<path class="st21" d="M152.9,63.8c-0.8,0.8-1.2,1.8-1.2,2.9c0,1.1,0.4,2,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.2c1.1,0,1.9-0.4,2.8-1.2
-			c0.9-0.8,1.2-1.8,1.2-2.9c0-1.1-0.4-2-1.2-2.9c-0.8-0.7-1.7-1.1-2.8-1.1C154.7,62.8,153.7,63.2,152.9,63.8z"/>
+		<path style="fill:#CCCBCB;" d="M152.9,63.8c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.2
+			c1.1,0,1.9-0.4,2.8-1.2c0.9-0.8,1.2-1.8,1.2-2.9s-0.4-2-1.2-2.9c-0.8-0.7-1.7-1.1-2.8-1.1C154.7,62.8,153.7,63.2,152.9,63.8z"/>
 		<path d="M153.5,64.6c-0.6,0.7-1,1.4-1,2.2c0,0.8,0.4,1.7,1,2.2c0.6,0.6,1.3,1,2.2,1c0.8,0,1.4-0.4,2.1-1c0.6-0.6,1-1.3,1-2.2
 			c0-0.8-0.4-1.5-1-2.2c-0.6-0.4-1.3-0.8-2.1-0.8C154.8,63.7,154,64,153.5,64.6z"/>
-		<path class="st22" d="M156.7,65.6c-0.3,0.4-0.4,0.8-0.6,1.4c-0.1,0.6-0.1,1.1-0.1,1.5c0,0.4,0.3,0.7,0.4,0.7
+		<path style="fill:#182F32;" d="M156.7,65.6c-0.3,0.4-0.4,0.8-0.6,1.4c-0.1,0.6-0.1,1.1-0.1,1.5s0.3,0.7,0.4,0.7
 			c0.2,0,0.4-0.1,0.8-0.4c0.3-0.4,0.4-0.8,0.6-1.4c0.1-0.4,0.1-1.1,0.1-1.5c-0.1-0.4-0.3-0.6-0.4-0.7
 			C157.3,65.1,156.9,65.3,156.7,65.6z"/>
-		<path class="st21" d="M67.8,66.3c-0.8,0.8-1.2,1.8-1.2,2.9c0,1.1,0.4,2,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.2c1.1,0,1.9-0.4,2.8-1.2
-			c0.8-0.8,1.2-1.8,1.2-2.9c0-1.1-0.4-2-1.2-2.9c-0.9-0.7-1.7-1.1-2.8-1.1C69.6,65.3,68.6,65.6,67.8,66.3z"/>
+		<path style="fill:#CCCBCB;" d="M67.8,66.3c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.2s1.9-0.4,2.8-1.2
+			c0.8-0.8,1.2-1.8,1.2-2.9s-0.4-2-1.2-2.9c-0.9-0.7-1.7-1.1-2.8-1.1C69.6,65.3,68.6,65.6,67.8,66.3z"/>
 		<path d="M68.5,67c-0.6,0.7-1,1.4-1,2.2c0,0.8,0.4,1.7,1,2.2c0.6,0.6,1.3,1,2.2,1c0.8,0,1.4-0.4,2.1-1c0.6-0.6,1-1.3,1-2.2
-			c0-0.8-0.4-1.5-1-2.2c-0.6-0.4-1.3-0.8-2.1-0.8C69.9,66.2,69.1,66.4,68.5,67z"/>
-		<path class="st22" d="M71.7,68c-0.3,0.4-0.4,0.8-0.6,1.4C71,70.1,71,70.5,71,71c0,0.4,0.3,0.7,0.4,0.7c0.3,0,0.4-0.1,0.8-0.4
-			s0.4-0.8,0.6-1.4c0.1-0.4,0.1-1.1,0.1-1.5c-0.1-0.4-0.3-0.6-0.4-0.7C72.3,67.5,72.1,67.7,71.7,68z"/>
-		<text transform="matrix(1 0 0 1 33.6807 62.027)" class="st6 st7 st16">MTOP</text>
-		<text transform="matrix(1 0 0 1 32.4214 87.7931)" class="st6 st7 st23">RDC Np</text>
-		<text transform="matrix(1 0 0 1 35.6299 92.547)" class="st6 st7 st16">LDG</text>
-		<text transform="matrix(1 0 0 1 97.6753 90.2989)" class="st6 st7 st18">MCL</text>
-		<text transform="matrix(1 0 0 1 158.0752 89.6788)" class="st6 st7 st18">MCR</text>
-		<text transform="matrix(1 0 0 1 159.6582 30.7731)" class="st24 st7 st25">ON</text>
+			c0-0.8-0.4-1.5-1-2.2c-0.6-0.4-1.3-0.8-2.1-0.8S69.1,66.4,68.5,67z"/>
+		<path style="fill:#182F32;" d="M71.7,68c-0.3,0.4-0.4,0.8-0.6,1.4C71,70.1,71,70.5,71,71c0,0.4,0.3,0.7,0.4,0.7
+			c0.3,0,0.4-0.1,0.8-0.4s0.4-0.8,0.6-1.4c0.1-0.4,0.1-1.1,0.1-1.5c-0.1-0.4-0.3-0.6-0.4-0.7C72.3,67.5,72.1,67.7,71.7,68z"/>
+		<text transform="matrix(1 0 0 1 33.6807 62.027)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">MTOP</text>
+		<text transform="matrix(1 0 0 1 32.4214 87.7931)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.8577px;">RDC Np</text>
+		<text transform="matrix(1 0 0 1 35.6299 92.547)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:3.9145px;">LDG</text>
+		<text transform="matrix(1 0 0 1 97.6753 90.2989)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.5384px;">MCL</text>
+		<text transform="matrix(1 0 0 1 158.0752 89.6788)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:4.5384px;">MCR</text>
+		<text transform="matrix(1 0 0 1 159.6582 30.7731)" style="fill:#66B32E; font-family:'ArialMT'; font-size:4.7107px;">ON</text>
 	</g>
-	<text transform="matrix(1 0 0 1 37.9187 155.1467)" class="st7 st26">7600-P102 TO P103 </text>
-	<text transform="matrix(1 0 0 1 228.1182 26.9513)" class="st7 st26">Fuel Controll</text>
-	<text transform="matrix(1 0 0 1 226.123 76.8325)" class="st7 st26">Engine Controll</text>
-	<text transform="matrix(1 0 0 1 225.6713 124.0312)" class="st7 st26">Propeller Controll</text>
+	<text transform="matrix(1 0 0 1 37.9187 155.1467)" style="font-family:'ArialMT'; font-size:14px;">7600-P102 TO P103 </text>
+	<text transform="matrix(1 0 0 1 228.1182 26.9513)" style="font-family:'ArialMT'; font-size:14px;">Fuel Controll</text>
+	<text transform="matrix(1 0 0 1 226.123 76.8325)" style="font-family:'ArialMT'; font-size:14px;">Engine Controll</text>
+	<text transform="matrix(1 0 0 1 225.6713 124.0312)" style="font-family:'ArialMT'; font-size:14px;">Propeller Controll</text>
 	<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 		<g>
-			<path id="Layer0_7_MEMBER_1_1_STROKES" class="st27" d="M168.2,157.9H34.1v-16.4h134.1V157.9z"/>
+			<path id="Layer0_7_MEMBER_1_1_STROKES" style="fill:none;stroke:#FF9900;stroke-linecap:round;stroke-linejoin:round;" d="
+				M168.2,157.9H34.1v-16.4h134.1L168.2,157.9L168.2,157.9z"/>
 		</g>
 	</g>
 	<g transform="matrix( 0.7373504638671875, 0, 0, 0.7373504638671875, 348.4,19.35) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_0_MEMBER_0_FILL_1_">
-					<path class="st28" d="M-201.8,83.6c3.5,3.6,7.8,5.3,12.7,5.3s9.3-1.9,12.7-5.3c3.5-3.5,5.3-7.8,5.3-12.7c0-5-1.7-9.2-5.3-12.7
-						c-3.6-3.6-7.8-5.3-12.7-5.3s-9.2,1.7-12.7,5.3c-3.6,3.5-5.3,7.8-5.3,12.7C-207.2,75.8-205.4,80-201.8,83.6z"/>
+					<path style="fill:none;stroke:#446483;stroke-width:0.2005;stroke-miterlimit:4.0089;" d="M-201.8,83.6
+						c3.5,3.6,7.8,5.3,12.7,5.3s9.3-1.9,12.7-5.3c3.5-3.5,5.3-7.8,5.3-12.7c0-5-1.7-9.2-5.3-12.7c-3.6-3.6-7.8-5.3-12.7-5.3
+						s-9.2,1.7-12.7,5.3c-3.6,3.5-5.3,7.8-5.3,12.7C-207.2,75.8-205.4,80-201.8,83.6z"/>
 				</g>
 			</g>
 		</g>
 		<g transform="matrix( 1.76995849609375, 0, 0, 1.76995849609375, -264.8,-726.6) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_1_MEMBER_1_MEMBER_0_FILL_1_">
-					<path class="st29" d="M45.9,458v-1.7h-1.2v-8.9h-4.5v1.6h1.3v7.2h-1.3v1.7L45.9,458L45.9,458z"/>
+					<path style="fill:#446483;" d="M45.9,458v-1.7h-1.2v-8.9h-4.5v1.6h1.3v7.2h-1.3v1.7L45.9,458L45.9,458z"/>
 				</g>
 			</g>
 		</g>
 		<g transform="matrix( 1.76995849609375, 0, 0, 1.76995849609375, -938.5,-815.9) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_1_MEMBER_1_MEMBER_1_FILL_1_">
-					<path class="st29" d="M421.8,496.1c0.5,0.5,0.9,0.6,1.5,0.6s1.2-0.2,1.5-0.6c0.5-0.3,0.6-0.9,0.6-1.5s-0.2-1.2-0.6-1.5
-						c-0.5-0.5-0.9-0.6-1.5-0.6s-1,0.2-1.5,0.6s-0.7,0.9-0.7,1.5C421.2,495.3,421.3,495.7,421.8,496.1z"/>
+					<path style="fill:#446483;" d="M421.8,496.1c0.5,0.5,0.9,0.6,1.5,0.6s1.2-0.2,1.5-0.6c0.5-0.3,0.6-0.9,0.6-1.5
+						s-0.2-1.2-0.6-1.5c-0.5-0.5-0.9-0.6-1.5-0.6s-1,0.2-1.5,0.6s-0.7,0.9-0.7,1.5C421.2,495.3,421.3,495.7,421.8,496.1z"/>
 				</g>
 			</g>
 		</g>
@@ -290,23 +278,24 @@
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_0_MEMBER_0_FILL_2_">
-					<path class="st28" d="M-201.8,148.7c3.5,3.6,7.8,5.3,12.7,5.3s9.3-1.9,12.7-5.3c3.5-3.5,5.3-7.8,5.3-12.7c0-5-1.7-9.2-5.3-12.7
-						c-3.6-3.6-7.8-5.3-12.7-5.3s-9.2,1.7-12.7,5.3c-3.6,3.5-5.3,7.8-5.3,12.7C-207.2,140.9-205.4,145.1-201.8,148.7z"/>
+					<path style="fill:none;stroke:#446483;stroke-width:0.2005;stroke-miterlimit:4.0089;" d="M-201.8,148.7
+						c3.5,3.6,7.8,5.3,12.7,5.3s9.3-1.9,12.7-5.3c3.5-3.5,5.3-7.8,5.3-12.7c0-5-1.7-9.2-5.3-12.7c-3.6-3.6-7.8-5.3-12.7-5.3
+						s-9.2,1.7-12.7,5.3c-3.6,3.5-5.3,7.8-5.3,12.7C-207.2,140.9-205.4,145.1-201.8,148.7z"/>
 				</g>
 			</g>
 		</g>
 		<g transform="matrix( 1.76995849609375, 0, 0, 1.76995849609375, -264.8,-726.6) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_1_MEMBER_1_MEMBER_0_FILL_3_">
-					<path class="st29" d="M45.9,494.7V493h-1.2v-8.9h-4.5v1.6h1.3v7.2h-1.3v1.7L45.9,494.7L45.9,494.7z"/>
+					<path style="fill:#446483;" d="M45.9,494.7V493h-1.2v-8.9h-4.5v1.6h1.3v7.2h-1.3v1.7L45.9,494.7L45.9,494.7z"/>
 				</g>
 			</g>
 		</g>
 		<g transform="matrix( 1.76995849609375, 0, 0, 1.76995849609375, -938.5,-815.9) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_1_MEMBER_1_MEMBER_1_FILL_3_">
-					<path class="st29" d="M421.8,532.8c0.5,0.5,0.9,0.6,1.5,0.6s1.2-0.2,1.5-0.6c0.5-0.3,0.6-0.9,0.6-1.5s-0.2-1.2-0.6-1.5
-						c-0.5-0.5-0.9-0.6-1.5-0.6s-1,0.2-1.5,0.6s-0.7,0.9-0.7,1.5C421.2,532,421.3,532.5,421.8,532.8z"/>
+					<path style="fill:#446483;" d="M421.8,532.8c0.5,0.5,0.9,0.6,1.5,0.6s1.2-0.2,1.5-0.6c0.5-0.3,0.6-0.9,0.6-1.5
+						s-0.2-1.2-0.6-1.5c-0.5-0.5-0.9-0.6-1.5-0.6s-1,0.2-1.5,0.6s-0.7,0.9-0.7,1.5C421.2,532,421.3,532.5,421.8,532.8z"/>
 				</g>
 			</g>
 		</g>
@@ -315,23 +304,24 @@
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_0_MEMBER_0_FILL_6_">
-					<path class="st28" d="M-201.8,15.8c3.5,3.6,7.8,5.3,12.7,5.3s9.3-1.9,12.7-5.3c3.5-3.5,5.3-7.8,5.3-12.7s-1.7-9.2-5.3-12.7
-						c-3.6-3.6-7.8-5.3-12.7-5.3s-9.2,1.7-12.7,5.3c-3.6,3.5-5.3,7.8-5.3,12.7S-205.4,12.2-201.8,15.8z"/>
+					<path style="fill:none;stroke:#446483;stroke-width:0.2005;stroke-miterlimit:4.0089;" d="M-201.8,15.8
+						c3.5,3.6,7.8,5.3,12.7,5.3s9.3-1.9,12.7-5.3c3.5-3.5,5.3-7.8,5.3-12.7s-1.7-9.2-5.3-12.7c-3.6-3.6-7.8-5.3-12.7-5.3
+						s-9.2,1.7-12.7,5.3c-3.6,3.5-5.3,7.8-5.3,12.7S-205.4,12.2-201.8,15.8z"/>
 				</g>
 			</g>
 		</g>
 		<g transform="matrix( 1.76995849609375, 0, 0, 1.76995849609375, -264.8,-726.6) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_1_MEMBER_1_MEMBER_0_FILL_4_">
-					<path class="st29" d="M45.9,419.6v-1.7h-1.2V409h-4.5v1.6h1.3v7.2h-1.3v1.7L45.9,419.6L45.9,419.6z"/>
+					<path style="fill:#446483;" d="M45.9,419.6v-1.7h-1.2V409h-4.5v1.6h1.3v7.2h-1.3v1.7L45.9,419.6L45.9,419.6z"/>
 				</g>
 			</g>
 		</g>
 		<g transform="matrix( 1.76995849609375, 0, 0, 1.76995849609375, -938.5,-815.9) ">
 			<g>
 				<g id="info2_0_Layer1_0_MEMBER_1_MEMBER_1_MEMBER_1_FILL_4_">
-					<path class="st29" d="M421.8,457.8c0.5,0.5,0.9,0.6,1.5,0.6s1.2-0.2,1.5-0.6c0.5-0.3,0.6-0.9,0.6-1.5s-0.2-1.2-0.6-1.5
-						c-0.5-0.5-0.9-0.6-1.5-0.6s-1,0.2-1.5,0.6c-0.5,0.3-0.7,0.9-0.7,1.5C421.2,456.9,421.3,457.4,421.8,457.8z"/>
+					<path style="fill:#446483;" d="M421.8,457.8c0.5,0.5,0.9,0.6,1.5,0.6s1.2-0.2,1.5-0.6c0.5-0.3,0.6-0.9,0.6-1.5
+						s-0.2-1.2-0.6-1.5c-0.5-0.5-0.9-0.6-1.5-0.6s-1,0.2-1.5,0.6c-0.5,0.3-0.7,0.9-0.7,1.5C421.2,456.9,421.3,457.4,421.8,457.8z"/>
 				</g>
 			</g>
 		</g>

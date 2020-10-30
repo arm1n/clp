@@ -1,12 +1,45 @@
-
-
 <clp-grid>
 
 	<!-- LEFT -->
 	<clp-grid-column>
 		<clp-card name="General">
+			<!-- anfang test
+			<h2>
+				<clp-text-orange>Pitch Trim <clp-img src="./units/icons/eng_stopped.svg" width="150" icon></clp-img>
+				</clp-text-orange>
+			</h2>
+-->
+			
+	
+			<h2><clp-text-orange>Pitch Trim </clp-text-orange></h2>
+							<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2" >
+								<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img >  </clp-link-popup>
+						
+			
 
-			<h2><clp-text-orange>Pitch Trim</clp-text-orange></h2>
+			<div>
+			<h2><clp-text-orange>Pitch Trim </clp-text-orange></h2>&#8209;
+							<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2" >
+								<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img >  </clp-link-popup>
+					</div>	
+
+			
+	<!--
+			<br>
+			<br>
+			<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2">
+				<clp-img src="./units/icons/eng_stopped.svg" width="150" icon></clp-img>
+			</clp-link-popup>
+
+
+
+			
+
+
+
+		 ende test -->
+
+
 			<div>
 				<clp-link-pdf>FIM TASK 27-30-00-810-803</clp-link-pdf>
 				<clp-link-tr>(TR-FIM)</clp-link-tr>
@@ -18,11 +51,15 @@
 
 			<br>
 
-			<div><clp-text-blue>Note: Airspeed 1 and 2 mismatch (RUD PRESS, SPLR OUTBD, and ELEVATOR FEEL caution lights will also come on)</clp-text-blue></div>
+			<div>
+				<clp-text-blue>Note: Airspeed 1 and 2 mismatch (RUD PRESS, SPLR OUTBD, and ELEVATOR FEEL caution lights will also come on)</clp-text-blue>
+			</div>
 
 			<br>
 
-			<div><clp-text-blue>Note: Airspeed 1 and 2 mismatch (RUD PRESS, SPLR OUTBD, and ELEVATOR FEEL caution lights will also come on)</clp-text-blue></div>
+			<div>
+				<clp-text-blue>Note: Airspeed 1 and 2 mismatch (RUD PRESS, SPLR OUTBD, and ELEVATOR FEEL caution lights will also come on)</clp-text-blue>
+			</div>
 
 			<br>
 
@@ -71,7 +108,7 @@
 				<clp-link-pdf>AMM TASK 27-00-01-710-802</clp-link-pdf>
 				<clp-link-tr>(TR-AMM)</clp-link-tr>
 			</div>
-			
+
 		</clp-card>
 
 		<br>
@@ -81,21 +118,29 @@
 			<clp-table fullwidth="">
 				<clp-tr>
 					<clp-td>
-						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
-						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
-						
-						<br/>
-						
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
 						<div><strong>M3</strong> FCS ECU 1</div>
 						<div><strong>F4</strong> PITCH-TRM IND</div>
 						<div><strong>G4</strong> PITCH-TRM ACT 1</div>
 						<div><strong>H4</strong> PITCH-FEEL ACT 1</div>
 					</clp-td>
 					<clp-td>
-						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
-						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
 
-						<br/>
+						<br />
 
 						<div><strong>L6</strong> FCS ECU 2</div>
 						<div><strong>G4</strong> PITCH-TRM ACT 2</div>
@@ -103,7 +148,7 @@
 					</clp-td>
 				</clp-tr>
 			</clp-table>
-			
+
 		</clp-card>
 	</clp-grid-column>
 
@@ -116,17 +161,21 @@
 				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
 
 				<br>
-				
+
 				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
 			</clp-info-red>
 
 			<br>
 
-			<div><clp-text-red>Note: This procedure shall not be used if other caution lights are observed!</clp-text-red></div>
+			<div>
+				<clp-text-red>Note: This procedure shall not be used if other caution lights are observed!</clp-text-red>
+			</div>
 
 			<br>
 
-			<div><clp-info-grey>Start engine #2 and un-feather propeller</clp-info-grey></div>
+			<div>
+				<clp-info-grey>Start engine #2 and un-feather propeller</clp-info-grey>
+			</div>
 
 			<br>
 
@@ -134,77 +183,87 @@
 				<clp-tr>
 					<clp-td><strong>SPU</strong></clp-td>
 					<clp-td>></clp-td>
-					<clp-td>to <clp-text-blue><strong>"On"</strong></clp-text-blue></clp-td>
+					<clp-td>to <clp-text-blue><strong>"On"</strong></clp-text-blue>
+					</clp-td>
 				</clp-tr>
 				<clp-tr>
 					<clp-td><strong>RESET</strong></clp-td>
 					<clp-td>></clp-td>
-					<clp-td>FCS <strong>ECU 1 and 2</strong> CBs (<strong><clp-text-red>M3</clp-text-red>-Left</strong> Essential and <strong><clp-text-red>L6-</clp-text-red> Right</strong> Essential) "reset" simultaneously <clp-text-blue>Note: Wait 90 sec (self test in progress)</clp-text-blue></clp-td>
+					<clp-td>FCS <strong>ECU 1 and 2</strong> CBs (<strong>
+							<clp-text-red>M3</clp-text-red>-Left
+						</strong> Essential and <strong>
+							<clp-text-red>L6-</clp-text-red> Right
+						</strong> Essential) "reset" simultaneously <clp-text-blue>Note: Wait 90 sec (self test in progress)</clp-text-blue>
+					</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Elevator Trim</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Set to neutral position Note: Forward end of takeoff range (<span class="text-primary font-weight-bold">ND</span>)</clp-td>
+					<clp-td>Elevator Trim</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Set to neutral position Note: Forward end of takeoff range (<span class="text-primary font-weight-bold">ND</span>)</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Elevator Control</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Hands-free (check PFCS)</clp-td>
+					<clp-td>Elevator Control</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Hands-free (check PFCS)</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Elevator Control</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Slowly move the column through two full cycles and check indication</clp-td>
+					<clp-td>Elevator Control</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Slowly move the column through two full cycles and check indication</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Pilot`s Pitch Trim Switch</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Without exerting force on the control column, operate trim switch full ND and NU(check indication)</clp-td>
+					<clp-td>Pilot`s Pitch Trim Switch</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Without exerting force on the control column, operate trim switch full ND and NU(check indication)</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Elevator Trim</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Set to neutral position</clp-td>
+					<clp-td>Elevator Trim</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Set to neutral position</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Pilot`s Pitch Trim Switch</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Without exerting force on the control column, toggle switch at approximately 1 puls per sec. to attain the full ND and NU trim Position (check indication)</clp-td>
+					<clp-td>Pilot`s Pitch Trim Switch</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Without exerting force on the control column, toggle switch at approximately 1 puls per sec. to attain the full ND and NU trim Position (check indication)</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Elevator Trim</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Set to neutral position</clp-td>
+					<clp-td>Elevator Trim</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Set to neutral position</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Co-Pilot`s Pitch Trim  Switch</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Without exerting force on the control column, operate switch continuously to attain the full ND and NU trim position (check indication)</clp-td>
+					<clp-td>Co-Pilot`s Pitch Trim Switch</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Without exerting force on the control column, operate switch continuously to attain the full ND and NU trim position (check indication)</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Elevator Trim</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Set to neutral position</clp-td>
+					<clp-td>Elevator Trim</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Set to neutral position</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td>Co-Pilot`s Pitch <br> Trim Switch</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Without exerting force on the control column, toggle switch at approximately 1 puls per sec. to attain the full ND and NU trim Position(check indication).</clp-td>
+					<clp-td>Co-Pilot`s Pitch <br> Trim Switch</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Without exerting force on the control column, toggle switch at approximately 1 puls per sec. to attain the full ND and NU trim Position(check indication).</clp-td>
 				</clp-tr>
 				<clp-tr>
-				   <clp-td> Elevator Trim</clp-td>
-				   <clp-td>></clp-td>
-				   <clp-td>Set as required</clp-td>
+					<clp-td> Elevator Trim</clp-td>
+					<clp-td>></clp-td>
+					<clp-td>Set as required</clp-td>
 				</clp-tr>
 			</clp-table>
 
 			<br>
 
-			<div><clp-text-blue>Note: Procedure can only be used if AUTO PILOT was not engaged during the event.</clp-text-blue></div>
+			<div>
+				<clp-text-blue>Note: Procedure can only be used if AUTO PILOT was not engaged during the event.</clp-text-blue>
+			</div>
 
 			<br>
 
-			<div><strong><clp-text-red>IF Caution Light still on maintenance action is required prior first flight!</clp-text-red></strong></div>
+			<div><strong>
+					<clp-text-red>IF Caution Light still on maintenance action is required prior first flight!</clp-text-red>
+				</strong></div>
 
 		</clp-card>
 	</clp-grid-column>

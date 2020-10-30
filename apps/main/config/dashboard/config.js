@@ -167,7 +167,13 @@ export const CAUTION_LIGHTS = {
       G: {
         name: "#1 PEC",
         file: "./apps/main/config/dashboard/desc/g1.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ARCDU",
+            mode: "INTERNAL",
+            path: "/arcdu",
+          },
+				],
         highlights: ["engine"],
         show_eng_apu_ecs_search: true,
         gnd_eng_stopped: false,
@@ -197,7 +203,13 @@ export const CAUTION_LIGHTS = {
       J: {
         name: "#2 PEC",
         file: "./apps/main/config/dashboard/desc/j1.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ARCDU",
+            mode: "INTERNAL",
+            path: "/arcdu",
+          },
+				],
         highlights: ["engine"],
         show_eng_apu_ecs_search: true,
         gnd_eng_stopped: false,
@@ -1065,7 +1077,13 @@ export const CAUTION_LIGHTS = {
       H: {
         name: "#1 ENG FADEC",
         file: "./apps/main/config/dashboard/desc/h5.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ARCDU",
+            mode: "INTERNAL",
+            path: "/arcdu",
+          },
+				],
         highlights: ["engine"],
         show_eng_apu_ecs_search: true,
         gnd_eng_stopped: false,
@@ -1075,7 +1093,13 @@ export const CAUTION_LIGHTS = {
       I: {
         name: "#2 ENG FADEC",
         file: "./apps/main/config/dashboard/desc/i5.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ARCDU",
+            mode: "INTERNAL",
+            path: "/arcdu",
+          },
+				],
         highlights: ["engine"],
         show_eng_apu_ecs_search: true,
         gnd_eng_stopped: false,
@@ -1441,7 +1465,13 @@ export const CAUTION_LIGHTS = {
       H: {
         name: "#1 ENG FADEC FAIL",
         file: "./apps/main/config/dashboard/desc/h7.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ARCDU",
+            mode: "INTERNAL",
+            path: "/arcdu",
+          },
+				],
         highlights: ["engine"],
         show_eng_apu_ecs_search: true,
         gnd_eng_stopped: false,
@@ -1451,7 +1481,13 @@ export const CAUTION_LIGHTS = {
       I: {
         name: "#2 ENG FADEC FAIL",
         file: "./apps/main/config/dashboard/desc/i7.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "ARCDU",
+            mode: "INTERNAL",
+            path: "/arcdu",
+          },	
+				],
         highlights: ["engine"],
         show_eng_apu_ecs_search: true,
         gnd_eng_stopped: false,
