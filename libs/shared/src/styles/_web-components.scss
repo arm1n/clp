@@ -218,6 +218,24 @@ clp-table {
   }
 }
 
+clp-table[bg-transparent] {
+  clp-tr {
+    background: none;
+  }
+}
+
+clp-table[vertical-align="middle"] {
+  clp-td {
+    vertical-align: middle;
+  }
+}
+
+clp-table[vertical-align="bottom"] {
+  clp-td {
+    vertical-align: bottom;
+  }
+}
+
 clp-table[fullwidth] {
   @include min-width(md) {
     width: 100%;
@@ -303,7 +321,7 @@ clp-tr {
   padding: 0.5rem;
   margin: 0 0 1rem;
   border-radius: var(--border-radius);
-  background: var(--bg-color-grey-light);
+  background-color: var(--bg-color-grey-light);
 
   &:last-child {
     margin: 0;
@@ -317,8 +335,8 @@ clp-tr {
     &:last-child {
       margin: 0;
       padding: 0;
-      background: none;
       border-radius: 0;
+      background: none;
     }
   }
 }

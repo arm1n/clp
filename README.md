@@ -125,27 +125,27 @@ Example: `<clp-img src="./units/ele/overview/unit/unit.svg"></clp-img>`
 To make part of a text orange use: `<clp-text-orange>Orange</clp-text-orange>`  
 To make part of a text green use: `<clp-text-green>Green</clp-text-green>`  
 To make part of a text blue use: `<clp-text-blue>Blue</clp-text-blue>`  
-To make part of a text red use: `<clp-text-red>Red</clp-text-red>`  
+To make part of a text red use: `<clp-text-red>Red</clp-text-red>`
 
 Example: `I am <clp-text-red>a red text</clp-text-red>.`
 
 ### Text alignment
 
-To align text left use:  `<clp-text-left>Left text</clp-text-left>`  
-To align text centered use:  `<clp-text-centered>Centered Text</clp-text-centered>`  
-To align text right use:  `<clp-text-right>Right text</clp-text-right>`
+To align text left use: `<clp-text-left>Left text</clp-text-left>`  
+To align text centered use: `<clp-text-centered>Centered Text</clp-text-centered>`  
+To align text right use: `<clp-text-right>Right text</clp-text-right>`
 
 Example: `<clp-text-centered>I am centered text.</clp-text-centered>`
 
 ### Text size
 
-To make text xx-large use:  `<clp-text-xx-large>XX-Large text</clp-text-xx-large>`  
-To make text x-large use:  `<clp-text-x-large>X-Large text</clp-text-x-large>`  
-To make text large use:  `<clp-text-large>Large text</clp-text-large>`  
-To make text medium use:  `<clp-text-medium>Medium text</clp-text-medium>`  
-To make text small use:  `<clp-text-small>Small text</clp-text-small>`  
-To make text x-small use:  `<clp-text-x-small>X-Small text</clp-text-x-small>`  
-To make text xx-small use:  `<clp-text-xx-small>XX-Small text</clp-text-xx-small>`
+To make text xx-large use: `<clp-text-xx-large>XX-Large text</clp-text-xx-large>`  
+To make text x-large use: `<clp-text-x-large>X-Large text</clp-text-x-large>`  
+To make text large use: `<clp-text-large>Large text</clp-text-large>`  
+To make text medium use: `<clp-text-medium>Medium text</clp-text-medium>`  
+To make text small use: `<clp-text-small>Small text</clp-text-small>`  
+To make text x-small use: `<clp-text-x-small>X-Small text</clp-text-x-small>`  
+To make text xx-small use: `<clp-text-xx-small>XX-Small text</clp-text-xx-small>`
 
 ### HTML links
 
@@ -215,9 +215,9 @@ To create a link which opens a popup with configured HTML file use: `<clp-link-p
 
 Example: `<clp-link-popup path="./units/cockpit/units/epcu.html">EPCU</clp-link-popup>`
 
-`path`: Path to html file for popup content   
+`path`: Path to html file for popup content  
 `name`: Optional title for popup shown at the top  
-`size`: Optional predefined size: `size-1`, `size-2`, `size-3` (default: auto)  
+`size`: Optional predefined size: `size-1`, `size-2`, `size-3` (default: auto)
 
 ### Files
 
@@ -242,10 +242,13 @@ An element to make consistent tables with or without border:
 </clp-table>
 ```
 
+For tables with transparent background: `<clp-table bg-transparent="">`  
 For tables with borders add the following attribute: `<clp-table border="">`  
 For tables with hover effect add the following attribute: `<clp-table hover="">`  
 For tables with 100% width add the following attribute: `<clp-table fullwidth="">`  
-For tables avoiding wrapping of column (one from 1-10)  use: `<clp-table nowrap="1>`  
+For tables avoiding wrapping of column (one from 1-10) use: `<clp-table nowrap="1>`  
+For tables with vertically centered columns: `<clp-table vertical-align="middle">`  
+For tables with vertically bottomed columns: `<clp-table vertical-align="bottom">`  
 For specifying width of columns use (% from 1-100): `<clp-td width="50%"></clp-td>`
 
 ### Cards
@@ -332,7 +335,6 @@ An element to wrap contents into single tabs to save space.
 ```
 
 `name`: Name for tab to be shown in navbar.
-
 
 ### SVG
 

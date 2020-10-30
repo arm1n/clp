@@ -38,17 +38,18 @@ try {
 		});
 	}
 
-	// transpile shared library at least once
-	execSync(`yarn workspace @clp/shared transpile`, {
-		stdio: "inherit",
-	});
-
 	// then start root and app servers
-	concurrently([
-		`serve -l ${PORT_SRV} .`,
-		`PORT=${PORT_APP} yarn workspace ${app} start`,
-		`yarn workspace @clp/shared transpile --watch`,
-	]);
+	concurrently(
+		[
+			`serve -l ${PORT_SRV} .`,
+			`PORT=${PORT_APP} yarn workspace ${app} start`,
+			`wait-on http://localhost:${PORT_APP} && yarn workspace @clp/shared transpile --watch`,
+		],
+		{
+			restartTries: 3,
+			restartDelay: 3000,
+		}
+	);
 } catch (error) {
 	console.log(error.message);
 }
