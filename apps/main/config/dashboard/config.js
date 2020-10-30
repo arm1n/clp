@@ -10640,13 +10640,7 @@ export const MAIN_NAV = [
         icon: null,
         path: "/pseu",
         mode: "INTERNAL",
-      },
-      {
-        name: "ECS READOUT",
-        icon: null,
-        path: null,
-        mode: "INTERNAL",
-      },
+      }
     ],
   },
 
