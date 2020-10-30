@@ -1,4 +1,30 @@
 // ----------------------------------------------------------------------------------------------------
+// Component for making a bordered info box.
+//
+// Usage:
+//
+// <clp-info-border>
+// </clp-info-border>
+// ----------------------------------------------------------------------------------------------------
+class InfoBorder extends HTMLElement {}
+
+window.customElements.define("clp-info-border", InfoBorder);
+export { InfoBorder };
+
+// ----------------------------------------------------------------------------------------------------
+// Component for making a white info box.
+//
+// Usage:
+//
+// <clp-info-white>
+// </clp-info-white>
+// ----------------------------------------------------------------------------------------------------
+class InfoWhite extends HTMLElement {}
+
+window.customElements.define("clp-info-white", InfoWhite);
+export { InfoWhite };
+
+// ----------------------------------------------------------------------------------------------------
 // Component for making a grey info box.
 //
 // Usage:

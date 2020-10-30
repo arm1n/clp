@@ -185,7 +185,11 @@ To make text appear in a orange info box use: `<clp-info-orange>Orange</clp-info
 To make text appear in a green info box use: `<clp-info-green>Green</clp-info-green>`  
 To make text appear in a blue info box use: `<clp-info-blue>Blue</clp-info-blue>`  
 To make text appear in a grey info box use: `<clp-info-grey>Grey</clp-info-grey>`  
-To make text appear in a red info box use: `<clp-info-red>Red</clp-info-red>`
+To make text appear in a red info box use: `<clp-info-red>Red</clp-info-red>`  
+To make text appear in a white info box use: `<clp-info-white>White</clp-info-white>`  
+To make text appear in a bordered box use: `<clp-info-border>Border</clp-info-border>`
+
+To make info box auto-size to content use: `<clp-info-white inline="">White</clp-info-white>`
 
 Example 1 (text only):
 

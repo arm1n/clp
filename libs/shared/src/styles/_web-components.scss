@@ -31,10 +31,25 @@ clp-info-orange,
 clp-info-green,
 clp-info-grey,
 clp-info-blue,
-clp-info-red {
+clp-info-red,
+clp-info-white,
+clp-info-border {
   padding: 1rem;
   display: block;
   border-radius: var(--border-radius);
+
+  &[inline] {
+    display: inline-block;
+  }
+}
+
+clp-info-border {
+  border: 1px solid var(--info-border-color);
+}
+
+clp-info-white {
+  color: var(--info-grey-white-color);
+  background-color: var(--info-white-bg-color);
 }
 
 clp-info-grey {
