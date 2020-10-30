@@ -116,7 +116,7 @@ export const withRouting = (Component) => {
           })}
         </Switch>
         {modalPage && (
-          <Modal onClose={closeModalHandler} title={modalTitle}>
+          <Modal onClose={closeModalHandler} title={modalTitle} size="size-3">
             {modalPage}
           </Modal>
         )}
