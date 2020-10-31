@@ -78,30 +78,19 @@ clp-info-orange {
 }
 
 clp-grid {
-  @include min-width(md) {
-    display: grid;
-    grid-gap: 2.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  }
+  display: grid;
+  grid-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 clp-grid-column {
-  display: block;
-  margin: 0 0 1rem;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
 
-  &:last-child {
-    margin: 0;
-  }
-
-  @include min-width(md) {
-    margin: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-
-    > * {
-      flex-grow: 1;
-    }
+  > * {
+    flex-grow: 1;
   }
 }
 
@@ -135,7 +124,6 @@ clp-link {
 
 clp-link-pdf,
 clp-link-tr {
-  white-space: nowrap;
   display: inline-block;
 
   .clp-link-pdf-a,
