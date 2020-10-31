@@ -5,7 +5,7 @@ import { arrayToObject, isObject } from "utils";
 
 import { HTML } from "./html";
 
-import "./file-with-refs.scss";
+import "./file-with-refs.module.scss";
 
 export const HIGHLIGHT_TYPE_DEFAULT = "default";
 export const HIGHLIGHT_TYPE_OPACITY = "opacity";
