@@ -15,18 +15,24 @@ const CONFIG_SVGO = path.join(__dirname, ".svgo.yml");
 const BINARY_SVGO = path.join("node_modules", "svgo", "bin", "svgo");
 
 try {
-	util.walkRecursive(directory, (file) => {
-		switch (path.extname(file)) {
-			case ".svg":
-				console.log(`Optimizing ${file}...`);
-				execSync(`${BINARY_SVGO} ${file} --config=${CONFIG_SVGO} --multipass`, {
-					stdio: "inherit",
-				});
-				break;
-
-			default:
+	execSync(
+		`${BINARY_SVGO} --folder ${directory} --config=${CONFIG_SVGO} --multipass --recursive`,
+		{
+			stdio: "inherit",
 		}
-	}, util.MODE_FILE);
+	);
+	// util.walkRecursive(directory, (file) => {
+	// 	switch (path.extname(file)) {
+	// 		case ".svg":
+	// 			console.log(`Optimizing ${file}...`);
+	// 			execSync(`${BINARY_SVGO} ${file} --config=${CONFIG_SVGO} --multipass`, {
+	// 				stdio: "inherit",
+	// 			});
+	// 			break;
+
+	// 		default:
+	// 	}
+	// }, util.MODE_FILE);
 } catch(e) {
 	console.log(e.message);
 }

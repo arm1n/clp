@@ -18,7 +18,7 @@ plugins:
   - removeHiddenElems: true
   - removeEmptyText: true
   - removeEmptyContainers: true
-  - removeViewBox: true
+  - removeViewBox: false
   - cleanupEnableBackground: true
   - minifyStyles: true
   - convertStyleToAttrs: true
@@ -31,8 +31,8 @@ plugins:
   - removeUnusedNS: true
   - prefixIds: false
   - cleanupIDs: false
-  - cleanupNumericValues: false
-  - cleanupListOfValues: false
+  - cleanupNumericValues: true
+  - cleanupListOfValues: true
   - moveElemsAttrsToGroup: true
   - moveGroupAttrsToElems: true
   - collapseGroups: true
@@ -40,8 +40,8 @@ plugins:
   - mergePaths: true
   - convertShapeToPath: true
   - convertEllipseToCircle: true
-  - sortAttrs: false
-  - sortDefsChildren: false
+  - sortAttrs: true
+  - sortDefsChildren: true
   - removeDimensions: false
   - removeAttrs: false
   - removeAttributesBySelector: false

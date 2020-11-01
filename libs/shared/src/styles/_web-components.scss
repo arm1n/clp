@@ -78,19 +78,27 @@ clp-info-orange {
 }
 
 clp-grid {
-  display: grid;
-  grid-gap: 2.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  @include min-width(md) {
+    display: grid;
+    grid-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+
+  @include min-width(lg) {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
 }
 
 clp-grid-column {
-  margin: 0;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
+  @include min-width(md) {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
 
-  > * {
-    flex-grow: 1;
+    > * {
+      flex-grow: 1;
+    }
   }
 }
 
@@ -210,14 +218,6 @@ clp-table {
     border-spacing: 0;
     table-layout: fixed;
     border-collapse: collapse;
-
-    img {
-      //
-      // max-width: 100% avoid if
-      // image has `width` attr!
-      //
-      max-width: none;
-    }
   }
 }
 
