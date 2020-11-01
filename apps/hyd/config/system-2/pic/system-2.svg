@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="hyd-sys-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="879.6px" height="575.4px" viewBox="0 0 879.6 575.4" style="enable-background:new 0 0 879.6 575.4;" xml:space="preserve"
+	 width="883.6px" height="575.4px" viewBox="0 0 883.6 575.4" style="enable-background:new 0 0 883.6 575.4;" xml:space="preserve"
 	>
 <g id="clp-hyd-ptu-px-sw" transform="matrix( 1, 0, 0, 1, 11.55,7.7) ">
 	<g id="clp-hyd-ptu-px-sw-hl">
@@ -109,9 +109,9 @@
 	<rect id="clp-sys-emrg-brake-hl" x="787.4" y="366.1" style="fill:none;" width="85.5" height="40.8"/>
 </g>
 <g id="clp-hyd-brake-accu">
-	<path id="clp-hyd-brake-accu-hl" style="fill:none;" d="M877.2,257.8h-17.1V208c0-13.5-11.1-24.6-24.6-24.6h-3.3
-		c-13.5,0-24.6,11.1-24.6,24.6v56c0,0.2,0,0.3,0,0.5c0,0.1,0,0.1,0,0.2v16.5c0,4.7,2.3,7,7,7h62.5c4.7,0,7-2.3,7-7v-16.5
-		C884.2,260,881.9,257.8,877.2,257.8z"/>
+	<path id="clp-hyd-brake-accu-hl" style="fill:none;" d="M874.2,257.8h-14.1V208c0-13.5-11.1-24.6-24.6-24.6h-3.3
+		c-13.5,0-24.6,11.1-24.6,24.6v56c0,0.2,0,0.3,0,0.5c0,0.1,0,0.1,0,0.2v16.5c0,4.7,2.3,7,7,7h59.5c4.7,0,7-2.3,7-7v-16.5
+		C881.2,260,878.9,257.8,874.2,257.8z"/>
 </g>
 <g id="clp-hyd-ptu">
 	<path id="clp-hyd-ptu-hl" style="fill:none;" d="M725.1,263.8h-43h-24.4h-35.2c-13.8,0-25,11.3-25,25l0,0c0,0.1,0,0.3,0,0.4h-5.3
@@ -127,7 +127,7 @@
 	<path style="fill:#1F1A17;" d="M432.4,93.9h-1v9.9h-24.3l-0.1-9.9h-1v10.7h0.1v0.1l0,0l0,0h0.1v0.1l0,0v0.1h0.1l0,0h25.6v-0.1h0.1
 		v-0.1h0.1l0,0l0,0v-0.1l0,0v-0.1l0.1-0.1V93.9 M407,87.8v-9.9h24.3v9.8h1V77.2h-0.1v-0.1l0,0V77l0,0l0,0h-0.1l0,0l0,0l-0.1-0.1
 		h-25.6V77h-0.1v0.1l0,0l0,0h-0.1v0.1l0,0v0.1h-0.1v10.5C406.1,87.8,407,87.8,407,87.8z"/>
-	<path style="fill:#CC0000;" d="M398.2,129.2H391v168.9h-46.4v72.4h7.1v-65.2h46.5L398.2,129.2L398.2,129.2z"/>
+	<path style="fill:#CC0000;" d="M398.2,129.2H391v168.9h-46.4v72.4h7.1v-65.2h46.5V129.2L398.2,129.2z"/>
 	<path style="fill:#0033CC;" d="M635.8,306.2h-7.1v157.2h7.1V306.2z"/>
 	<path id="Layer0_0_1_STROKES" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;" d="M118.9,473v92H6
 		v-92H118.9z"/>
@@ -197,12 +197,12 @@
 		M333,370.5h46.5h0.9v15.2H332v-0.9v-13.4v-0.9L333,370.5v0.9h46.5v-0.9 M333,371.4v13.4h46.5v-13.4 M333,384.8h-1 M333,370.5
 		l-1,0.9h1"/>
 	<path d="M454.5,350h-13.4v53.6h13.4V350z"/>
-	<path d="M454.5,350.9H442v52.7h12.5V350.9 M455.4,350h-0.9v0.9v52.7H442h-0.9v0.9h14.3L455.4,350 M441.1,350.9l0.9-0.9h-0.9V350.9
+	<path d="M454.5,350.9H442v52.7h12.5V350.9 M455.4,350h-0.9v0.9v52.7H442h-0.9v0.9h14.3V350 M441.1,350.9l0.9-0.9h-0.9V350.9
 		 M442,350v0.9h12.5V350H442 M442,350.9h-0.9v52.7h0.9V350.9 M441.1,350.9h0.9V350L441.1,350.9z"/>
 	
 		<path id="Layer0_47_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
-		M441.1,350.9h0.9V350L441.1,350.9V350h0.9h12.5h0.9v54.5h-14.3v-0.9L441.1,350.9L441.1,350.9z M442,350.9h12.5V350 M441.1,403.5
-		h0.9v-52.7 M442,403.5h12.5v-52.7"/>
+		M441.1,350.9h0.9V350L441.1,350.9V350h0.9h12.5h0.9v54.5h-14.3v-0.9V350.9L441.1,350.9z M442,350.9h12.5V350 M441.1,403.5h0.9
+		v-52.7 M442,403.5h12.5v-52.7"/>
 	<path d="M332,375v7.1h121.6V375H332z"/>
 	<path d="M333,375v6.2h120.6V375H333 M333,381.2h-1v0.9h122.5v-8h-0.9v0.9v6.2H333 M333,374.1v0.9h120.6v-0.9H333 M333,375h-1v6.2h1
 		V375 M333,374.1l-1,0.9h1V374.1 M333,374.1h-1v0.9L333,374.1z"/>
@@ -388,7 +388,7 @@
 		<path id="Layer0_269_1_STROKES" style="fill:#FFFFFF;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;" d="M852,347.5
 			l-0.1-0.1v-0.1h-0.1l0,0l-0.1-0.1h-0.1l-0.1-0.1h-5.8h-0.1l0,0v0.1l0,0l-0.1,0.1l0,0l-0.1,0.1l0,0h-0.1v0.1l0,0l0,0v0.1v0.1l0,0
 			v6.7l0,0v0.1v0.1l0,0l0,0l0,0l0.1,0.1l0,0l0,0v0.1l0,0l0,0l0.1,0.1l0,0l0,0h0.1v0.1h0.1l0,0h5.6h0.1h0.1v-0.1h0.1h0.1l0,0v-0.1
-			l0,0l0,0l0.2-0.1v-0.1l0.1-0.1v-0.1l0,0v-0.2h0.1V348l-0.1-0.1v-0.2l0,0L852,347.5L852,347.5L852,347.5z"/>
+			l0,0l0,0l0.2-0.1v-0.1l0.1-0.1v-0.1l0,0v-0.2h0.1V348l-0.1-0.1v-0.2l0,0V347.5L852,347.5L852,347.5z"/>
 		<path id="Layer0_270_1_STROKES" style="fill:#FFFFFF;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;" d="M818.9,347
 			L818.9,347l-0.1,0.1l-0.1,0.1l0,0l0,0h-0.1l0,0v0.1l-0.1,0.1l0,0l0,0v0.1h-0.1v0.1l0,0v6.7l0,0v0.1h0.1v0.1l0.1,0.1v0.1l0.2,0.2
 			l0,0l0,0h0.1v0.1h0.1l0,0h3h0.1h0.1v-0.1h0.1l0,0l0,0l0.3-0.3l0,0l0,0v-0.1h0.1v-0.1l0,0v-6.7l0,0v-0.1h-0.1v-0.1l0,0v-0.1l0,0
@@ -427,8 +427,8 @@
 	<path style="fill:#999999;fill-opacity:0.298;" d="M405.2,494.9h-32.1v5.4h32.1V494.9z"/>
 	<path id="Layer0_279_1_STROKES" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;" d="M405.2,500.3
 		h-32.1v-5.4h32.1V500.3z"/>
-	<path style="fill:#666666;fill-opacity:0.298;" d="M366.8,552.5c0,4.5,2.2,6.8,6.6,7h31.1c4.4-0.2,6.5-2.5,6.5-7v-9.2h-44.2
-		L366.8,552.5L366.8,552.5z"/>
+	<path style="fill:#666666;fill-opacity:0.298;" d="M366.8,552.5c0,4.5,2.2,6.8,6.6,7h31.1c4.4-0.2,6.5-2.5,6.5-7v-9.2h-44.2V552.5
+		L366.8,552.5z"/>
 	<path style="fill:#CCCCCC;fill-opacity:0.298;" d="M366.8,507.3v36H411v-36c0-3.8-1.6-6.1-4.8-6.8c-0.6-0.2-1.2-0.3-1.8-0.2h-31.1
 		c-0.4,0-0.7,0-1.1,0.1C368.7,500.9,366.8,503.2,366.8,507.3z"/>
 	<path id="Layer0_279_MEMBER_0_1_STROKES" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;" d="
@@ -579,7 +579,7 @@
 		 M73,552.4c-0.4-0.4-0.5-1-0.5-1.8s0.2-1.4,0.5-1.8c0.4-0.4,0.9-0.6,1.4-0.6c0.6,0,1,0.2,1.4,0.7c0.3,0.3,0.5,0.9,0.5,1.8
 		c0,0.9-0.2,1.5-0.5,1.9s-0.8,0.6-1.4,0.6C73.8,553,73.4,552.8,73,552.4 M65.8,547.4H65v0.8h0.8v4.1l0.1,0.3v0.3v0.2
 		c0.2,0.3,0.4,0.4,0.5,0.5c0.3,0.1,0.6,0.2,0.9,0.2h0.6h0.2l-0.1-1h-0.2h-0.1h-0.1l-0.4-0.1c-0.1-0.1-0.1-0.2-0.1-0.2H67v-4.2h1
-		v-0.8h-1.1v-2.2l-1.1,0.6L65.8,547.4 M70.1,547.4H69v6.4h1.1V547.4 M70.1,546.2V545H69v1.2H70.1 M83.8,548.9L83.8,548.9
+		v-0.8h-1.1v-2.2l-1.1,0.6V547.4 M70.1,547.4H69v6.4h1.1V547.4 M70.1,546.2V545H69v1.2H70.1 M83.8,548.9L83.8,548.9
 		c0-0.3-0.1-0.6-0.4-0.9c-0.1-0.3-0.4-0.5-0.7-0.5c-0.2-0.2-0.6-0.2-1.1-0.2c-0.9,0-1.5,0.3-2,1v-0.9h-1v6.4h1.1v-3.5
 		c0-0.8,0.2-1.3,0.5-1.7c0.4-0.3,0.8-0.5,1.2-0.5s0.6,0.1,0.8,0.2c0.2,0.1,0.4,0.2,0.5,0.5v0.5l0.1,0.2v4.2h1.1L83.8,548.9
 		 M62,547.2c-0.6,0-1.1,0.1-1.5,0.4c-0.4,0.2-0.7,0.6-1.1,1.2c-0.2,0.5-0.3,1.1-0.3,1.8c0,1.1,0.3,1.9,0.8,2.5
@@ -652,18 +652,18 @@
 	<text transform="matrix(1 0 0 1 325.5303 438.2126)" style="font-family:'ArialMT'; font-size:9px;">VALVE</text>
 	<text transform="matrix(1 0 0 1 417.1999 525.775)" style="font-family:'ArialMT'; font-size:12px;">ECOLOGY</text>
 	<text transform="matrix(1 0 0 1 417.1999 540.175)" style="font-family:'ArialMT'; font-size:12px;">BOTTLE</text>
-	<text transform="matrix(1 0 0 1 811.3002 269.5751)" style="font-family:'ArialMT'; font-size:9px;">BRAKE</text>
-	<text transform="matrix(1 0 0 1 811.3002 280.3751)" style="font-family:'ArialMT'; font-size:9px;">ACCUMULATOR</text>
-	<text transform="matrix(1 0 0 1 816.05 324.9)" style="font-family:'MyriadPro-Regular'; font-size:12px;">PRESS.</text>
-	<text transform="matrix(1 0 0 1 816.05 339.3)" style="font-family:'MyriadPro-Regular'; font-size:12px;">TX</text>
-	<text transform="matrix(1 0 0 1 662.9551 373.3121)" style="font-family:'MyriadPro-Regular'; font-size:12px;">OUTB. FLIGHT SPOILE</text>
-	<text transform="matrix(1 0 0 1 677.7551 387.7121)" style="font-family:'MyriadPro-Regular'; font-size:12px;">LANDING GEAR</text>
-	<text transform="matrix(1 0 0 1 664.1551 402.1121)" style="font-family:'MyriadPro-Regular'; font-size:12px;">STEERING ASSEMBLY</text>
-	<text transform="matrix(1 0 0 1 488.002 357.7499)" style="font-family:'MyriadPro-Regular'; font-size:12px;">UPPER RUDDER &amp; </text>
-	<text transform="matrix(1 0 0 1 503.002 372.1499)" style="font-family:'MyriadPro-Regular'; font-size:12px;">L/R CENTER </text>
-	<text transform="matrix(1 0 0 1 491.602 386.5499)" style="font-family:'MyriadPro-Regular'; font-size:12px;">ELEVATOR PCU&#x2019;s</text>
-	<text transform="matrix(1 0 0 1 799.243 382.4962)" style="font-family:'MyriadPro-Regular'; font-size:12px;">EMERGENCY</text>
-	<text transform="matrix(1 0 0 1 814.343 396.8962)" style="font-family:'MyriadPro-Regular'; font-size:12px;">BRAKE</text>
+	<text transform="matrix(1 0 0 1 810.3002 269.5751)" style="font-family:'ArialMT'; font-size:9px;">BRAKE</text>
+	<text transform="matrix(1 0 0 1 810.3002 280.3751)" style="font-family:'ArialMT'; font-size:9px;">ACCUMULATOR</text>
+	<text transform="matrix(1 0 0 1 816.05 324.9)" style="font-family:'ArialMT'; font-size:10px;">PRESS.</text>
+	<text transform="matrix(1 0 0 1 816.05 339.3)" style="font-family:'ArialMT'; font-size:10px;">TX</text>
+	<text transform="matrix(1 0 0 1 661.9551 373.3121)" style="font-family:'ArialMT'; font-size:10px;">OUTB. FLIGHT SPOILE</text>
+	<text transform="matrix(1 0 0 1 676.7551 387.7121)" style="font-family:'ArialMT'; font-size:10px;">LANDING GEAR</text>
+	<text transform="matrix(1 0 0 1 663.1551 402.1121)" style="font-family:'ArialMT'; font-size:10px;">STEERING ASSEMBLY</text>
+	<text transform="matrix(1 0 0 1 486.002 356.7499)" style="font-family:'ArialMT'; font-size:10px;">UPPER RUDDER &amp; </text>
+	<text transform="matrix(1 0 0 1 501.002 371.1499)" style="font-family:'ArialMT'; font-size:10px;">L/R CENTER </text>
+	<text transform="matrix(1 0 0 1 489.602 385.5499)" style="font-family:'ArialMT'; font-size:10px;">ELEVATOR PCU&#x2019;s</text>
+	<text transform="matrix(1 0 0 1 795.243 382.4962)" style="font-family:'ArialMT'; font-size:11px;">EMERGENCY</text>
+	<text transform="matrix(1 0 0 1 810.343 396.8962)" style="font-family:'ArialMT'; font-size:11px;">BRAKE</text>
 	<text transform="matrix(1 0 0 1 43.4501 310.0749)" style="font-family:'ArialMT'; font-size:12px;">FIREWALL</text>
 	<text transform="matrix(1 0 0 1 43.4501 324.4748)" style="font-family:'ArialMT'; font-size:12px;">SHUTOFF</text>
 	<text transform="matrix(1 0 0 1 43.4501 338.8748)" style="font-family:'ArialMT'; font-size:12px;">VALVE</text>
@@ -684,7 +684,7 @@
 		M764,47.4l-10.9,5.4V41.9L764,47.4z"/>
 	<rect x="762.2" y="23.9" width="1" height="9.6"/>
 	<rect x="765.5" y="26.2" width="1" height="7.6"/>
-	<rect x="762.3" y="11" transform="matrix(0.5436 -0.8394 0.8394 0.5436 328.158 651.1819)" width="1" height="25.7"/>
+	<rect x="762.3" y="11" transform="matrix(0.5436 -0.8394 0.8394 0.5436 328.1568 651.1813)" width="1" height="25.7"/>
 	<circle cx="752.2" cy="17" r="4"/>
 	<text transform="matrix(1 0 0 1 135.7599 440.2)" style="font-family:'ArialMT'; font-size:12px;">GROUND</text>
 	<text transform="matrix(1 0 0 1 135.7599 454.2)" style="font-family:'ArialMT'; font-size:12px;">RETURN</text>

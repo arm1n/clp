@@ -1,3 +1,5 @@
+@import "~@clp/shared/lib/styles/_mixins.scss";
+
 .wrapper {
   z-index: 99;
 
@@ -14,9 +16,13 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 90%;
   padding-bottom: 2rem;
   display: inline-block;
+
+  @include min-width(lg) {
+    max-width: 1200px;
+  }
 
   &.size1 {
     width: var(--modal-width-size-1);

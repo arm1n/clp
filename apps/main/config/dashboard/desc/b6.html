@@ -4,18 +4,42 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
-			<h2>
-				<clp-text-orange>INTERNAL DOORS</clp-text-orange>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
-			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 25-51-11-810-801</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+						<clp-text-x-large>
+							<clp-text-orange><strong>INTERNAL DOORS</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 25-51-11-810-801</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<!-- note -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
+			<!-- General Start -->
 
 			<div>The CAWP INTERNAL BAGG DOOR caution light comes on when the forward baggage compartment door is open and/or <strong>Switch target is broken or missaligned</strong> .</div>
 			<br>
@@ -46,15 +70,14 @@
 
 
 		</clp-card> <!-- Ende -->
-
+		
+		<!-- Associated CBs
 		<br>
-
 		<clp-card name="Associated CBs">
-			<!-- Start -->
 
 
-
-		</clp-card> <!-- Ende -->
+		</clp-card> 
+		-->
 	</clp-grid-column><!-- Ende Left Cards -->
 
 	<!-- RIGHT -->

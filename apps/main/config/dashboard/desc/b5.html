@@ -3,18 +3,42 @@
 	<!-- LEFT -->
 	<clp-grid-column>
 		<clp-card name="General">
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
-			<h2>
-				<clp-text-orange>R TRU </clp-text-orange>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
-			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 24-30-00-810-818</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+						<clp-text-x-large>
+							<clp-text-orange><strong>R TRU</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 24-30-00-810-818</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<!-- note -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
+			<!-- General Start -->
 
 			<div>The CAWP R TRU caution light comes on when the left (R) transformer rectifier unit
 				(TRU) is not energizing the left or right secondary feeder buses because of a source

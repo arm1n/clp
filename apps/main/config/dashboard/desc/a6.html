@@ -5,15 +5,47 @@
 		<clp-card name="General">
 			<!-- General Start -->
 
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						
+						<clp-text-x-large>
+							<clp-text-orange><strong>EMER LTS DISARMED</strong></clp-text-orange>
+							</clp-text-x-large>
+					</clp-td>
+					
+					<clp-td>
+						<clp-text-large> 
+							<clp-link-pdf>FIM TASK 33-50-00-810-802</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+						<!-- note -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
-			<h2>
-				<clp-text-orange>EMER LTS DISARMED</clp-text-orange>
-			</h2>
-			<div>
-				<clp-link-pdf>FIM TASK 33-50-00-810-802</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+						
+					</clp-td>
 
+					<clp-td>
+						<clp-info-border inline="">
+						<clp-text-small> 
+						
+								 ON WHEN ENGINE STOPPED<br>EMERG LT DISARMED
+						</clp-text-small>
+							</clp-info-border>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
 
 			<div>The CAWP EMER LTS DISARMED caution light comes on when the emergency power supplies are not armed. Thus, the EMER LTS DISARMED caution light should not come on when the EMER LIGHTS toggle switch is set to the <b>ARM</b> position.</div>
