@@ -4,19 +4,49 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-red><strong>FUSELAGE DOORS</strong></clp-text-red>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-red>FUSELAGE DOORS</clp-text-red>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 52-70-00-810-801</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/n7_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+					<clp-td>
+						<clp-text-blue>
+
+						</clp-text-blue>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 52-70-00-810-801</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+			<!-- General Start -->
 
-			<br>
 			<div>The FUSELAGE DOORS warning light comes on for conditions that follow:</div>
 
 			<ul>
@@ -25,9 +55,9 @@
 				<li>A proximity sensor for the fuselage doors has malfunctioned</li>
 			</ul>
 			<br>
-			
+
 			<div>The FUSELAGE DOORS warning light comes on for conditions that follow:</div>
-			
+
 			<ul>
 				<li>FORWARD PAX</li>
 				<li>AFT PAX</li>
@@ -91,15 +121,13 @@
 
 		</clp-card> <!-- links Ende -->
 
+		<!-- Associated CBs
 		<br>
-
 		<clp-card name="Associated CBs">
-			<!-- CB Start -->
-
 			
 
+		</clp-card> -->
 
-		</clp-card> <!-- CB Ende -->
 	</clp-grid-column><!-- Ende Left Cards -->
 
 	<!--Start  RIGHT -->
@@ -109,7 +137,12 @@
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
 
-			
+			<br>
+
+
+			<clp-img src="./units/doors/desc/pic/door_sys_page_ind.svg"></clp-img>
+			<br>
+
 
 
 

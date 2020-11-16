@@ -4,20 +4,42 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-orange><strong>ENG ADPT HEAT 2</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-orange>ENG ADPT HEAT 2</clp-text-orange>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 30-20-00-810-803</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/c3_d3_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<!-- General Start -->
 			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 30-20-00-810-803</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
-
-			<br>
-
 			<div>The CAWP ENG ADPT HEAT 2 caution light comes on when the timer and monitor unit (TMU) senses that the right engine intake adapter main and back-up heater elements have failed.</div>
 			<br>
 			<div>
@@ -59,7 +81,7 @@
 				<li>ENGINE INTAKE switchlight has been pushed</li>
 				<li>115 Vac power is available</li>
 			</ul>
-			
+
 			<br>
 
 		</clp-card> <!-- General Ende -->
@@ -171,12 +193,14 @@
 
 			<br>
 			<br>
-			<div>The thermostat is a thermal and mechanical switch which is:</div>
-			<ul>
-				<li>energized <b>CLOSED</b> when the Outside Air Temp. (OAT) is <clp-text-red>60 ±4 °F (15 ±2 °C)</clp-text-red>
-				</li><br>
-				<li>and <b>OPENS</b> when the Outside Air Temp. (OAT) is <clp-text-red>2 to 5 °F (1 to 3 °C) above 60 ±4 °F (15 ±2 °C)</clp-text-red>. </li>
-			</ul>
+			<clp-info-border>
+				<div>The thermostat is a thermal and mechanical switch which is:</div>
+				<ul>
+					<li>energized <b>CLOSED</b> when the Outside Air Temp. (OAT) is <clp-text-red>60 ±4 °F (15 ±2 °C)</clp-text-red>
+					</li><br>
+					<li>and <b>OPENS</b> when the Outside Air Temp. (OAT) is <clp-text-red>2 to 5 °F (1 to 3 °C) above 60 ±4 °F (15 ±2 °C)</clp-text-red>. </li>
+				</ul>
+			</clp-info-border>
 			<br>
 
 
@@ -191,7 +215,8 @@
 				</clp-grid-column>
 			</clp-grid>
 
-			<div>SEE ALSO System Description ENGINE AIR INTAKE ANTI−ICING <clp-link-pdf>SDS TASK 30-21-00-001-001</clp-link-pdf></div>
+			<div>SEE ALSO System Description ENGINE AIR INTAKE ANTI−ICING <clp-link-pdf>SDS TASK 30-21-00-001-001</clp-link-pdf>
+			</div>
 			<br>
 		</clp-card><!-- RefEnde -->
 	</clp-grid-column>

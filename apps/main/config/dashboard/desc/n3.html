@@ -4,17 +4,43 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-orange><strong>PARKING BRAKE</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-orange>PARKING BRAKE</clp-text-orange>
-			</h2>
-			<div>
-				<clp-link-pdf>FIM TASK 32-40-00-810-803</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 32-40-00-810-803</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
 
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/n3_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+					
+					<clp-td>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
+			<!-- General Start -->
 
 			<div>The CAWP usually shows the PARKING BRAKE light on when the EMERG BRAKE lever is in the PARK position.</div>
 			<br>
@@ -47,23 +73,13 @@
 
 		</clp-card> <!-- links Ende -->
 
+		<!-- CB Start 
 		<br>
-
 		<clp-card name="Associated CBs">
-			<!-- CB Start -->
-			N/N
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+			
+			
 
-		</clp-card> <!-- CB Ende -->
+		</clp-card> -->
 	</clp-grid-column><!-- Ende Left Cards -->
 
 	<!--Start  RIGHT -->

@@ -135,7 +135,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-hyd-filter-manif",
-    unit: "./units/hyd/units/hyd_filter_manif.html",
+    unit: "./units/hyd/units/hyd_filter_all.html",
     desc: "./units/hyd/desc/hyd_filter_manif.html",
     info: {},
     access: {},

@@ -1262,6 +1262,7 @@ export const CAUTION_LIGHTS = {
         file: "./apps/main/config/dashboard/desc/f6.html",
         buttons: [],
         highlights: ["elect_systems"],
+				show_display_fault_msg: true,
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
         gnd_eng_stopped_tooltip: null,
@@ -10089,7 +10090,7 @@ export const DISPLAY_FAULT_MSG = [
   },
   {
     name: "FD ATT DATA INVLD",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/fd_att_data_invld.html",
     buttons: [],
   },
   {
@@ -10165,28 +10166,14 @@ export const DISPLAY_FAULT_MSG = [
     file: "./apps/main/config/dashboard/display-fault-msg/hc06_fault.html",
     buttons: [],
   },
+  
   {
-    name: "IOP 1 FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/iop1_fail.html",
-    buttons: [],
-  },
-  {
-    name: "IOP 2 FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/iop2_fail.html",
-    buttons: [],
-  },
-  {
-    name: "IOPS FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/iops_fail.html",
-    buttons: [],
-  },
-  {
-    name: "IOM 1 FAIL",
+    name: "IOM1 FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/iom1_fail.html",
     buttons: [],
   },
   {
-    name: "IOM 2 FAIL",
+    name: "IOM2 FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/iom2_fail.html",
     buttons: [],
   },
@@ -10206,6 +10193,21 @@ export const DISPLAY_FAULT_MSG = [
   {
     name: "IOP BAD CONF",
     file: "./apps/main/config/dashboard/display-fault-msg/iop_bad_conf.html",
+    buttons: [],
+  },
+	{
+    name: "IOP1 FAIL",
+    file: "./apps/main/config/dashboard/display-fault-msg/iop1_fail.html",
+    buttons: [],
+  },
+	{
+    name: "IOP2 FAIL",
+    file: "./apps/main/config/dashboard/display-fault-msg/iop2_fail.html",
+    buttons: [],
+  },
+	{
+    name: "IOPS FAIL",
+    file: "./apps/main/config/dashboard/display-fault-msg/iops_fail.html",
     buttons: [],
   },
   {
@@ -10455,12 +10457,12 @@ export const DISPLAY_FAULT_MSG = [
   },
   {
     name: "Turn & Slip indicator on ISI",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/turn_and_slip.html",
     buttons: [],
   },
   {
     name: "VHF COM FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/vhf_com_fail.html",
     buttons: [],
   },
   {
@@ -10480,32 +10482,32 @@ export const DISPLAY_FAULT_MSG = [
   },
   {
     name: "WOW/IOP1 FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/wow_iop1_fail.html",
     buttons: [],
   },
   {
     name: "WOW/IOP2 FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/wow_iop2_fail.html",
     buttons: [],
   },
   {
     name: "WOW/IOPS FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/wow_iops_fail.html",
     buttons: [],
   },
   {
     name: "WX FAIL",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/wx_fail.html",
     buttons: [],
   },
   {
     name: "YD INHIBIT",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/yd_inhibit.html",
     buttons: [],
   },
   {
     name: "YD NOT CENTER",
-    file: "./apps/main/config/dashboard/display-fault-msg/master.html",
+    file: "./apps/main/config/dashboard/display-fault-msg/yd_not_center.html",
     buttons: [],
   },
 	{
@@ -10735,20 +10737,14 @@ export const MAIN_NAV = [
     ],
   },
 
-  /* LINKS */
+  /* LINKS   { name: "Help", path: "/help", mode: "INTERNAL" }, */
   {
     name: "LINKS",
     nodes: [
       {
-        name: "DHC 8/400 NAVIGATOR browser version",
-        icon: null,
-        path: "http://www.google.com",
-        mode: "EXTERNAL",
-      },
-      {
         name: "MEL",
         icon: null,
-        path: "http://www.google.com",
+        path: "http://www.infotools.at/clp/Standalone/MEL_test_document.pdf",
         mode: "EXTERNAL",
       },
       {
@@ -10757,6 +10753,12 @@ export const MAIN_NAV = [
         path: "http://www.google.com",
         mode: "EXTERNAL",
       },
+			{
+        name: "CONTACTS2",
+        icon: null,
+        path: "/contacts",
+        mode: "INTERNAL",
+      },
     ],
   },
 ];
@@ -10764,7 +10766,7 @@ export const MAIN_NAV = [
 /**
  * DASHBOARD CUSTOMER LOGO:
  */
-export const CUSTOMER_LOGO = "./apps/main/config/dashboard/pic/logo.svg";
+export const CUSTOMER_LOGO = "./apps/main/config/dashboard/pic/logo_it.svg";
 
 /**
  * DASHBOARD FOOTER LOGOS:
@@ -10777,24 +10779,24 @@ export const CUSTOMER_LOGO = "./apps/main/config/dashboard/pic/logo.svg";
  * ]
  */
 export const FOOTER_LOGOS = [
-  { logo: "./apps/main/config/dashboard/pic/air_cote.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/air_iceland.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/aurora.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/austrian.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/croatia.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/conair.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/jazz.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/lgw.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/lufthansa.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/luxair.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/olympic.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/pal.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/qantas_full.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/porter.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/sabena.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/qantas.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/sata.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/tassili.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/westjet.svg", path: "http://www.google.com" },
-  { logo: "./apps/main/config/dashboard/pic/wideroe.svg", path: "http://www.google.com" },
+  { logo: "./apps/main/config/dashboard/pic/air_cote.svg", path: "https://www.aircotedivoire.com" },
+  { logo: "./apps/main/config/dashboard/pic/air_iceland.svg", path: "https://www.icelandair.com/is/" },
+  { logo: "./apps/main/config/dashboard/pic/aurora.svg", path: "https://www.flyaurora.ru/en/" },
+  { logo: "./apps/main/config/dashboard/pic/austrian.svg", path: "http://www.austrian.com" },
+  { logo: "./apps/main/config/dashboard/pic/croatia.svg", path: "https://www.croatiaairlines.com" },
+  { logo: "./apps/main/config/dashboard/pic/conair.svg", path: "http://conair.ca/" },
+  { logo: "./apps/main/config/dashboard/pic/jazz.svg", path: "http://www.flyjazz.ca/en/home/default.aspx" },
+  
+  { logo: "./apps/main/config/dashboard/pic/lufthansa.svg", path: "https://www.lufthansacityline.com/de/home.html" },
+  { logo: "./apps/main/config/dashboard/pic/luxair.svg", path: "http://www.luxair.lu" },
+  { logo: "./apps/main/config/dashboard/pic/olympic.svg", path: "https://www.olympicair.com" },
+  { logo: "./apps/main/config/dashboard/pic/pal.svg", path: "http://www.philippineairlines.com" },
+  
+  { logo: "./apps/main/config/dashboard/pic/porter.svg", path: "http://www.flyporter.com" },
+  { logo: "./apps/main/config/dashboard/pic/sabena.svg", path: "https://www.sabenatechnics.com" },
+  { logo: "./apps/main/config/dashboard/pic/qantas.svg", path: "https://www.qantas.com/at/en/qantas-experience/network-and-partner-airlines/qantaslink.html" },
+  { logo: "./apps/main/config/dashboard/pic/sata.svg", path: "https://www.sata.pt/en/content/home-page" },
+  { logo: "./apps/main/config/dashboard/pic/tassili.svg", path: "http://www.tassiliairlines.dz/web/" },
+  { logo: "./apps/main/config/dashboard/pic/westjet.svg", path: "http://www.westjet.com" },
+  { logo: "./apps/main/config/dashboard/pic/wideroe.svg", path: "https://www.wideroe.no" },
 ];

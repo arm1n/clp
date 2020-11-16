@@ -4,20 +4,43 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-orange><strong>ROLL SPLR OUTBD GND</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-orange>ROLL SPLR OUTBD GND</clp-text-orange>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 27-60-00-810-802</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/l1_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 27-60-00-810-802</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
-
-			<br>
-
+			<!-- General Start -->
 
 			<div>The CAWP ROLL SPLR OUTBD GND caution light comes on when the Flight Control Electronic Control Unit (FCECU) senses a condition that follows:</div>
 			<ul>
@@ -49,16 +72,13 @@
 
 		</clp-card> <!-- General Ende -->
 
+		<!-- links Start
 		<br>
 
 		<clp-card name="Quick links">
-			<!-- links Start -->
+			
 
-
-
-
-
-		</clp-card> <!-- links Ende -->
+		</clp-card> -->
 
 		<br>
 
@@ -149,21 +169,33 @@
 			</clp-table>
 			<br>
 			<br>
-			<p><clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red></p>
-			
-			<br>
-			<hr>
-			<br>
-			<p><b>Spoiler lift Dump Valve Location:</b></p>
-			
-			<br>
-			<clp-img src="./units/fc/desc/pic/spoil_liftdump_vlv_ob_info.svg" width="600"></clp-img>
+			<p>
+				<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+			</p>
 
 			<br>
-			<clp-link-nav path="/access?id=clp-fus-to-wing&subId=clp-262ht"><clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 262HT Wing Fairing Panel →</clp-link-nav>
 			<br>
 
-			<clp-link-nav path="/access?id=clp-fuselage&tab=right-fuselage&subId=clp-264cr"><clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 264CR Center Fuselage Panel →</clp-link-nav>
+			<clp-info-border>
+
+				<clp-info-blue>
+					<clp-text-centered><b>Spoiler lift Dump Valve Location:</b></clp-text-centered>
+				</clp-info-blue>
+
+				<br>
+				<clp-img src="./units/fc/desc/pic/spoil_liftdump_vlv_ob_info.svg" width="600"></clp-img>
+
+				<br>
+				<clp-link-nav path="/access?id=clp-fus-to-wing&subId=clp-262ht">
+					<clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 262HT Wing Fairing Panel →
+				</clp-link-nav>
+				<br>
+
+				<clp-link-nav path="/access?id=clp-fuselage&tab=right-fuselage&subId=clp-264cr">
+					<clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 264CR Center Fuselage Panel →
+				</clp-link-nav>
+
+			</clp-info-border>
 			<br>
 
 

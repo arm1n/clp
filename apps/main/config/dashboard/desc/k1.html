@@ -4,19 +4,43 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-orange><strong>ROLL SPLR INBD GND</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-orange>ROLL SPLR INBD GND</clp-text-orange>
-			</h2>
-			<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					<clp-td>
+						<clp-text-large>
+								<clp-link-pdf>FIM TASK 27-60-00-810-801</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/k1_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
-			<div>
-				<clp-link-pdf>FIM TASK 27-60-00-810-801</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
-
-			<br>
+			<!-- General Start -->
 
 			<div>The CAWP ROLL SPLR INBD GND caution light comes on when the flight control electronic control unit (FCECU) senses a condition that follows:</div>
 			<ul>
@@ -139,9 +163,12 @@
 			<p><clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red></p>
 			
 			<br>
-			<hr>
 			<br>
-			<p><b>Spoiler Lift Dump Valve Location:</b></p>
+			
+			<clp-info-border>
+			<clp-info-blue>
+					<clp-text-centered><b>Spoiler lift Dump Valve Location:</b></clp-text-centered>
+				</clp-info-blue>
 			
 			<br>
 			<clp-img src="./units/fc/desc/pic/spoil_liftdump_vlv_ib_info.svg" width="600"></clp-img>
@@ -152,7 +179,7 @@
 
 			<clp-link-nav path="/access?id=clp-fuselage&subId=clp-263cl"><clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 263CL Center Fuselage Panel →</clp-link-nav>
 			
-			
+			</clp-info-border>
 			
 			
 			<br>

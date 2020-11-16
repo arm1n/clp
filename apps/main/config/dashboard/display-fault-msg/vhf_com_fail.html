@@ -1,0 +1,93 @@
+<clp-card name="Description">
+	<br>
+
+	<clp-info-red>
+		<div>
+			<b>
+				<h4>VHF COM FAIL message on ARCDU</h4>
+			</b>
+		</div>
+	</clp-info-red>
+
+	<br>
+	<clp-table>
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 23-11-00-810-804</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+	<p>This fault isolation procedure is for when the very high frequency transceiver 1 (VHF1) display area of the audio and radio control display unit 1 (ARCDU1) shows a FAIL message.</p>
+
+	<p>The VHF1 display area of ARCDU1 shows a FAIL message when ARCDU1 does not receive valid data from VHF1.</p>
+
+	<p>There are no related central diagnostic system messages.</p>
+
+	<p>The VHF1 front panel can show one or more of the fault indications that follow:</p>
+	<ul>
+		<li>FAIL IN</li>
+		<li>FAIL LRU</li>
+	</ul>
+
+	<br>
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> A voltage standing wave ratio (VSWR) LED indication is only shown while the VHF transceiver is transmitting and the VSWR is more than 2:1.</clp-text-blue>
+	</p>
+
+	<p>The ARCDU will not show a VHF1 FAIL message for this condition.</p>
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+
+</clp-card>
+
+<br>
+<clp-card name="ASSOCIATED CB's">
+	<br>
+
+	<clp-table bg-transparent="">
+		<clp-tr>
+			<clp-td>
+				 <clp-info-border>
+				<p>
+					<clp-text-blue><strong>VHF COM #1</strong></clp-text-blue>
+				</p>
+				<div><strong>LEFT CB PANEL</strong></div>
+				<br>
+				<div><b>J1</b> - VHF COM #1</div>
+				<div><b>K1</b> - VHF COM STBY</div>
+					 </clp-info-border>
+				<br>
+			</clp-td>
+			
+			<clp-td>
+				<clp-info-border>
+				<p>
+					<clp-text-blue><strong>VHF COM #2</strong></clp-text-blue>
+				</p>
+				<div><strong>AVIONICS CB PANEL</strong></div>
+				<br>
+				<div><b>D6</b> - VHF COM #2</div>
+				<br>
+			</clp-info-border>
+				<br>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+</clp-card>

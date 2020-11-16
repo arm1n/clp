@@ -4,17 +4,43 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-orange><strong>#2 ENG FUEL PRESS</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-orange>#2 ENG FUEL PRESS</clp-text-orange>
-			</h2>
-			<div>
-				<clp-link-pdf>FIM TASK 73-30-00-810-802</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 73-30-00-810-802</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
 
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/h1_i1_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+
+					<clp-td>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
 			<br>
+			<!-- General Start -->
 
 			<div>The CAWP #2 ENG FUEL PRESS caution light comes on when the full authority digital electronic control 1 (FADEC1) senses a condition that follows:</div>
 			<ul>
@@ -56,16 +82,12 @@
 
 
 		</clp-card> <!-- links Ende -->
-
+		
+		<!-- Associated CBs 
 		<br>
-
 		<clp-card name="Associated CBs">
-			<!-- CB Start -->
-
 			
-
-
-		</clp-card> <!-- CB Ende -->
+		</clp-card> -->
 	</clp-grid-column><!-- Ende Left Cards -->
 
 	<!--Start  RIGHT -->

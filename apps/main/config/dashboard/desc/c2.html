@@ -25,14 +25,14 @@
 			<!-- header end-->
 
 			<!-- note -->
-			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+			<clp-table bg-transparent="" vertical-align="middle">
 				<clp-tr>
 					<clp-td>
 						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
 					</clp-td>
 
 					<clp-td>
-						<clp-link-popup path="./apps/main/config/dashboard/desc/eng_stopped.html" name="GND ENG STOPPED" size="size-2">
+						<clp-link-popup path="./apps/main/config/dashboard/desc/c2_d2_info.html" name="GND ENG STOPPED" size="size-2">
 							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
 						</clp-link-popup>
 					</clp-td>
@@ -61,9 +61,9 @@
 			<br>
 
 
-			<div>
+			<clp-info-border>
 				<clp-text-blue>NOTE: The CDS can also show a PITOT STATIC HEATER (ADU1) message.</clp-text-blue>
-			</div>
+			</clp-info-border>
 			<br>
 			<div>The heaters of the Pitot-Static probes and the angle of attack trans- ducer are monitored by the TMU. This function is performed by the three independent modules of the TMU for each of the left, right and standby Pitot-Static probes, and two different modules for the left and right angle of attack vanes.</div>
 			<br>
@@ -103,28 +103,40 @@
 			<clp-table fullwidth="">
 				<clp-tr>
 					<clp-td>
-						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
-						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
-						
-						<br/>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
 
 						<div><strong>A7</strong> DE−ICE CONT</div>
 						<div><strong>M5</strong> DE−ICE CONT</div>
 					</clp-td>
 					<clp-td>
-						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
-						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
 
-						<br/>
+						<br />
 
 						<div><strong>S5</strong> DE−ICE CONT</div>
 						<div><strong>L7</strong> PITOT HTR STBY</div>
 					</clp-td>
 					<clp-td>
-						<div><clp-text-blue><strong>115V AC CB Panel</strong></clp-text-blue></div>
-						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<div>
+							<clp-text-blue><strong>115V AC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
 
-						<br/>
+						<br />
 
 						<div><strong>PITOT HEAT 1</strong> </div>
 						<div><strong>PITOT HEAT 2</strong> </div>

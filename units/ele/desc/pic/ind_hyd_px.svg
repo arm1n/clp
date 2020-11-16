@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 129.4 98" style="enable-background:new 0 0 129.4 98;" xml:space="preserve">
+<path style="stroke:#000000;stroke-miterlimit:10;" d="M2.6,2.2H127v93.7H2.6V2.2z"/>
+<g>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" points="9.4,22.3 9.4,13.2 32.6,13.2 	
+		"/>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" points="118.5,22.4 118.5,13.2 
+		93.7,13.2 	"/>
+	<text transform="matrix(1 0 0 1 8.561 31.6652)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:8.0027px;">PK</text>
+	<text transform="matrix(1 0 0 1 8.561 38.7648)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:8.0027px;">BRK</text>
+	<text transform="matrix(1 0 0 1 30.0083 40.0802)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:8.0027px;">STBY</text>
+	<text transform="matrix(1 0 0 1 113.0781 45.9142)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0999px;">4</text>
+	<text transform="matrix(1 0 0 1 113.0781 69.258)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0999px;">2</text>
+	<text transform="matrix(1 0 0 1 113.0781 92.7179)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0999px;">0</text>
+	<text transform="matrix(1 0 0 1 40.9204 12.6183)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0999px;">HYD PRESS</text>
+	<text transform="matrix(1 0 0 1 42.4048 21.009)" style="fill:#438CCB; font-family:'ArialMT'; font-size:9.0999px;">PSI x 1000</text>
+	<text transform="matrix(1 0 0 1 59.7563 37.9113)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0354px;">1</text>
+	<text transform="matrix(1 0 0 1 82.3906 37.9113)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0354px;">2</text>
+	<text transform="matrix(1 0 0 1 104.7852 37.9113)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0354px;">3</text>
+	
+		<path id="display_eng_0_Layer1_0_MEMBER_1_MEMBER_19_1_STROKES_3_" style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" d="
+		M21.8,42.4h-3.1V54h3.1 M21.8,65.8h-3.1v11.6h3.1 M18.8,65.8V54.1 M21.8,89.5h-3.1V77.4"/>
+	
+		<path id="display_eng_0_Layer1_0_MEMBER_1_MEMBER_20_1_STROKES_3_" style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" d="
+		M43.3,42.2h-3.1v11.6h3.1 M40.2,53.8v11.7h3.1 M40.2,65.5v11.6h3.1 M43.3,89.2h-3.1V77.1"/>
+	
+		<path id="display_eng_0_Layer1_0_MEMBER_1_MEMBER_21_1_STROKES_3_" style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" d="
+		M65.3,42.2h-3.1v11.6h3.1 M62.2,53.8v11.7h3.1 M62.2,65.5v11.6h3.1 M65.3,89.2h-3.1V77.1"/>
+	
+		<path id="display_eng_0_Layer1_0_MEMBER_1_MEMBER_22_1_STROKES_3_" style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" d="
+		M88,42.4h-3.1V54H88 M84.9,54v11.7H88 M84.9,65.8v11.6H88 M88,89.5h-3.1V77.4"/>
+	
+		<path id="display_eng_0_Layer1_0_MEMBER_1_MEMBER_23_1_STROKES_3_" style="fill:none;stroke:#FFFFFF;stroke-width:1.1827;stroke-miterlimit:11.8267;" d="
+		M110.2,42.4h-3.1V54h3.1 M107.2,54v11.7h3.1 M107.2,65.8v11.6h3.1 M110.2,89.5h-3.1V77.4"/>
+	<path style="fill:#FFFFFF;" d="M97.9,86.6v5.3h5.2l4-2.8l-4-2.5H97.9z"/>
+	<path style="fill:#FFFFFF;" d="M80.8,51.3h-5.2v5.3h5.2l4-2.8L80.8,51.3z"/>
+	<path style="fill:#FFFFFF;" d="M53,51.3v5.3h5.2l4-2.8l-4-2.5H53z"/>
+	<path style="fill:#FFFFFF;" d="M31.1,51.3v5.3h5.2l4-2.8l-4-2.5H31.1z"/>
+	<path style="fill:#FFFFFF;" d="M9,51.3v5.3h5.2l4-2.8l-4-2.5H9z"/>
+</g>
+</svg>

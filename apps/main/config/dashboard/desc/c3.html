@@ -25,14 +25,16 @@
 			<!-- header end-->
 
 			<!-- note -->
-			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+			<clp-table bg-transparent="" vertical-align="middle">
 				<clp-tr>
 					<clp-td>
 						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
 					</clp-td>
 
 					<clp-td>
-						
+						<clp-link-popup path="./apps/main/config/dashboard/desc/c3_d3_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
 					</clp-td>
 				</clp-tr>
 			</clp-table>
@@ -83,7 +85,7 @@
 				<li>ENGINE INTAKE switchlight has been pushed</li>
 				<li>115 Vac power is available</li>
 			</ul>
-			
+
 			<br>
 
 
@@ -195,11 +197,14 @@
 
 			<br>
 			<br>
-			<div>The thermostat is a thermal and mechanical switch which is energized closed:</div>
-			<ul>
-				<li>energized <b>CLOSED</b> when the Outside Air Temp. (OAT) is <clp-text-red>60 ±4 °F (15 ±2 °C)</clp-text-red> </li><br>
-				<li>and <b>OPENS</b> when the Outside Air Temp. (OAT) is <clp-text-red>2 to 5 °F (1 to 3 °C) above 60 ±4 °F (15 ±2 °C)</clp-text-red>. </li>
-			</ul>
+			<clp-info-border>
+				<div>The thermostat is a thermal and mechanical switch which is energized closed:</div>
+				<ul>
+					<li>energized <b>CLOSED</b> when the Outside Air Temp. (OAT) is <clp-text-red>60 ±4 °F (15 ±2 °C)</clp-text-red>
+					</li><br>
+					<li>and <b>OPENS</b> when the Outside Air Temp. (OAT) is <clp-text-red>2 to 5 °F (1 to 3 °C) above 60 ±4 °F (15 ±2 °C)</clp-text-red>. </li>
+				</ul>
+			</clp-info-border>
 			<br>
 
 
@@ -214,9 +219,10 @@
 				</clp-grid-column>
 			</clp-grid>
 
-			<div>SEE ALSO System Description ENGINE AIR INTAKE ANTI−ICING <clp-link-pdf>SDS TASK 30-21-00-001-001</clp-link-pdf></div>
+			<div>SEE ALSO System Description ENGINE AIR INTAKE ANTI−ICING <clp-link-pdf>SDS TASK 30-21-00-001-001</clp-link-pdf>
+			</div>
 			<br>
-			
+
 		</clp-card><!-- RefEnde -->
 	</clp-grid-column>
 </clp-grid>

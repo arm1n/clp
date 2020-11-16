@@ -4,23 +4,35 @@
 	<clp-grid-column>
 		<clp-card name="General">
 			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
 
+						<clp-text-x-large>
+							<clp-text-orange><strong>AVIONICS</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
 
-			<h2>
-				<clp-text-orange>AVIONICS</clp-text-orange>
-			</h2>
-			<div>
-				<clp-link-pdf>FIM TASK 31-51-00-810-801</clp-link-pdf>
-				<clp-link-tr>(TR-FIM)</clp-link-tr>
-			</div>
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 31-51-00-810-801</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
 
 			<br>
+			<!-- General Start -->
 
-			<div>The CAWP AVIONICS caution light comes on when there is an avionics no dispatch condition.</div>
 
-			<div>The bottom part of the engine display (ED) can show an advisory message. Type in in search window.</div>
+			<p>The CAWP AVIONICS caution light comes on when there is an avionics no dispatch condition.</p>
+
+			<p>The bottom part of the engine display (ED) can show an advisory message. Enter the advisory message in the DISPLAY FAULT MSG search window on the home page.</p>
 			<br>
-			<br>
+
 
 
 		</clp-card> <!-- General Ende -->
@@ -38,20 +50,19 @@
 			</div>
 			<br>
 			<br>
-
+			<p>The bottom part of the engine display (ED) can show an advisory message as follows:</p>
+			<clp-link-popup path="./apps/main/config/dashboard/desc/f6_info.html" name="ADVISORY MESSAGE" size="size-2" ><clp-img src="./units/icons/info.svg" width="25" icon ></clp-img> SHOW POSSIBLE ADVISORY MESSAGE → </clp-link-popup>
+			
+			 
 
 
 		</clp-card> <!-- links Ende -->
-
+		<!-- CB Start 
 		<br>
-
 		<clp-card name="Associated CBs">
-			<!-- CB Start -->
 
-			
-
-
-		</clp-card> <!-- CB Ende -->
+		</clp-card> -->
+		
 	</clp-grid-column><!-- Ende Left Cards -->
 
 	<!--Start  RIGHT -->
@@ -60,9 +71,86 @@
 
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
-
 			
+			
+			
+			
+			
+			<clp-info-border>
+				<clp-text-blue><strong>NOTE:</strong> The CAWP AVIONICS caution light <strong>does not come on</strong> for the malfunction conditions
+					that caused the avionics advisory message dispatch allowed to come into view as follows:</clp-text-blue>
+				<br>
+				<br>
+				<clp-table>
+					<clp-tr>
+						<clp-td>RA1 FAIL</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 34-44-00-810-809</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>RA2 FAIL</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 34-44-00-810-810</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>RAS FAIL</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 34-44-00-810-811</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>FADEC1/DU</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 77-31-00-810-814</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>FADEC2/DU</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 77-31-00-810-815</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>GPWS I/F FAIL</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 31-41-00-810-870</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>LINK FAIL</clp-td>
+						<clp-td>
+							<clp-link-pdf>FIM TASK 31-61-01-810-809</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-td>
+					</clp-tr>
+				</clp-table>
 
+			</clp-info-border>
+
+
+			<br>
+			<clp-info-border>
+				<clp-text-blue><strong>NOTE:</strong> The CAWP AVIONICS caution light <strong>does not come on</strong> for the malfunction conditions
+					that caused the general advisory message to come into view as follows:</clp-text-blue>
+				<br>
+				<br>
+				<ul>
+					<li>BALANCE</li>
+					<li>ICE DETECTED</li>
+					<li>INCR REF SPEED</li>
+					<li>POWERPLANT - <clp-link-pdf>FIM TASK 77-31-00-810-835</clp-link-pdf>
+						<clp-link-tr>(TR-FIM)</clp-link-tr>
+					</li>
+				</ul>
+			</clp-info-border>
 
 
 
