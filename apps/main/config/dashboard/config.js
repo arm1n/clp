@@ -10747,14 +10747,8 @@ export const MAIN_NAV = [
         path: "http://www.infotools.at/clp/Standalone/MEL_test_document.pdf",
         mode: "EXTERNAL",
       },
-      {
-        name: "CONTACTS",
-        icon: null,
-        path: "http://www.google.com",
-        mode: "EXTERNAL",
-      },
 			{
-        name: "CONTACTS2",
+        name: "CONTACTS",
         icon: null,
         path: "/contacts",
         mode: "INTERNAL",

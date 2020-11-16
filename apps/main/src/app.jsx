@@ -25,6 +25,7 @@ import { App as UnitLocation } from "@clp/unit-location";
 import { Main } from "components/main";
 import { Help } from "pages/help/component";
 import { Legal } from "pages/legal/component";
+import { Contacts } from "pages/contacts/component";
 import { NotFound } from "pages/not-found/component";
 import { Dashboard } from "pages/dashboard/component";
 import { CautionLights } from "pages/caution-lights/component";
@@ -127,12 +128,15 @@ export const App = () => (
         <Legal />
       </Page>
 
+      {/* LINKS */}
+      <Page path="/contacts">
+        <Contacts />
+      </Page>
+
       {/* 404 */}
       <Page>
         <NotFound />
       </Page>
-
-      {/* LINKS */}
     </Main>
   </Router>
 );
