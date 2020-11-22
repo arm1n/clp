@@ -69,7 +69,7 @@ export const Search = forwardRef(({ value, focus, placeholder, onInput, onChange
 
 Search.defaultProps = {
   value: "",
-  autoFocus: false,
+  focus: false,
   onInput: () => {},
   onChange: () => {},
   placeholder: "Search...",
