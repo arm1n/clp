@@ -163,7 +163,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-display-unit",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_ele.html",
     desc: "./units/fc/desc/display_unit_elevator.html",
     info: {},
     access: {},

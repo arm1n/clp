@@ -25,7 +25,7 @@ export const DATA_SET = [
   {
     id: "clp-ed-display-unit",
     text: "clp-ed-display-unit",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_ed.html",
     desc: "./units/fuel/desc/indication_ed.html",
     info: {},
     access: {},
@@ -43,7 +43,7 @@ export const DATA_SET = [
   {
     id: "clp-mf-display-unit",
     text: "clp-mf-display-unit",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_fuel.html",
     desc: "./units/fuel/desc/indication_mfd.html",
     info: {},
     access: {},
@@ -116,7 +116,7 @@ export const DATA_SET = [
     id: "clp-fuel-highlevel-sensor",
     text: "clp-fuel-highlevel-sensor",
     unit: "./units/fuel/units/fuel_ref_vent_vlv.html",
-    desc: "./units/fuel/units/fuel_ref_vent_vlv.html",
+    desc: "./units/fuel/desc/fuel_ref_vent_vlv.html",
     info: {},
     access: {},
     show_in_menu: true,

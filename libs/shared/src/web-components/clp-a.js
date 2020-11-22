@@ -1,4 +1,4 @@
-import { joinPaths, isUrl } from "utils";
+import { joinPaths, isURL } from "utils";
 import { BASE_PATH } from "config";
 
 import { Base } from "./clp-base";
@@ -17,7 +17,7 @@ class A extends Base {
       return;
     }
 
-    href = !isUrl(href) ? joinPaths([BASE_PATH, href]) : href;
+    href = !isURL(href) ? joinPaths([BASE_PATH, href]) : href;
     this.$wrapper.innerHTML = `
       <a href="${href}" target="_blank">
         ${this.template}

@@ -7,12 +7,13 @@
  *     path: relative path to page ('INTERNAL' or 'POPUP') or URL ('EXTERNAL'),
  *     mode: setting how to handle button: 'POPUP', 'INTERNAL' or 'EXTERNAL'
  *     file: relative path to html (only for 'POPUP')
+ 			{ name: "v. 20-01a", path: "http://www.infotools.at", mode: "EXTERNAL" },
  *   }
  * ]
  */
 export const SIDE_NAV = [
   { name: "Help", path: "/help", mode: "INTERNAL" },
-  { name: "v. 20-01a", path: "http://www.infotools.at", mode: "EXTERNAL" },
+  { name: "v. 20-01a" },
 	{ name: "Legal Notice", path: "/legal", mode: "INTERNAL" },
 	
 	/** 
@@ -10789,7 +10790,7 @@ export const FOOTER_LOGOS = [
   { logo: "./apps/main/config/dashboard/pic/porter.svg", path: "http://www.flyporter.com" },
   { logo: "./apps/main/config/dashboard/pic/sabena.svg", path: "https://www.sabenatechnics.com" },
   { logo: "./apps/main/config/dashboard/pic/qantas.svg", path: "https://www.qantas.com/at/en/qantas-experience/network-and-partner-airlines/qantaslink.html" },
-  { logo: "./apps/main/config/dashboard/pic/sata.svg", path: "https://www.sata.pt/en/content/home-page" },
+  { logo: "./apps/main/config/dashboard/pic/sata.svg", path: "https://www.azoresairlines.pt/en" },
   { logo: "./apps/main/config/dashboard/pic/tassili.svg", path: "http://www.tassiliairlines.dz/web/" },
   { logo: "./apps/main/config/dashboard/pic/westjet.svg", path: "http://www.westjet.com" },
   { logo: "./apps/main/config/dashboard/pic/wideroe.svg", path: "https://www.wideroe.no" },

@@ -1,4 +1,4 @@
-import { joinPaths, isUrl } from "utils";
+import { joinPaths, isURL } from "utils";
 import { BASE_PATH } from "config";
 
 import { Base } from "./clp-base";
@@ -17,7 +17,7 @@ class Img extends Base {
       return;
     }
 
-    src = !isUrl(src) ? joinPaths([BASE_PATH, src]) : src;
+    src = !isURL(src) ? joinPaths([BASE_PATH, src]) : src;
 
     const width = this.getAttribute("width") || "auto";
     const height = this.getAttribute("height") || "auto";

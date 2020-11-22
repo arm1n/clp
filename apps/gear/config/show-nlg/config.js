@@ -206,9 +206,18 @@ export const DATA_SET = [
   },
 	{
     id: "clp-nlg-lock-sensors",
-    text: "GEAR Proximity Sensors",
-    unit: "./units/gear/units/nlg_gear_sensors.html",
-    desc: "./units/gear/desc/nlg_gear_sensors.html",
+    text: "GEAR LOCK Proximity Sensors",
+    unit: "./units/gear/units/nlg_lock_sensors.html",
+    desc: "./units/gear/desc/nlg_lock_sensors.html",
+    info: {},
+    access: {},
+    show_in_menu: true,
+  },
+	{
+    id: "clp-nlg-down-sensors",
+    text: "GEAR DOWN Proximity Sensors",
+    unit: "./units/gear/units/nlg_down_sensors.html",
+    desc: "./units/gear/desc/nlg_down_sensors.html",
     info: {},
     access: {},
     show_in_menu: true,
@@ -222,6 +231,7 @@ export const DATA_SET = [
     access: {},
     show_in_menu: true,
   },
+	
 	{
     id: "clp-nlg-wow-sensors",
     text: "WOW Proximity Sensors",

@@ -497,7 +497,7 @@ export const DATA_SET_GLARESHIELD_MAIN_INSTRUMENT_PANEL = [
   {
     id: "clp-eng-display",
     text: "clp-eng-display",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_ed.html",
     desc: "./units/cockpit/desc/eng_display.html",
     info: {},
     access: {},
@@ -506,7 +506,7 @@ export const DATA_SET_GLARESHIELD_MAIN_INSTRUMENT_PANEL = [
   {
     id: "clp-mfd2",
     text: "clp-mfd2",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_fuel.html",
     desc: "./units/cockpit/desc/mfd.html",
     info: {},
     access: {},
@@ -515,7 +515,7 @@ export const DATA_SET_GLARESHIELD_MAIN_INSTRUMENT_PANEL = [
   {
     id: "clp-mfd1",
     text: "clp-mfd1",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_ele.html",
     desc: "./units/cockpit/desc/mfd.html",
     info: {},
     access: {},

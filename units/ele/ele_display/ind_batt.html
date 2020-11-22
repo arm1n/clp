@@ -1,0 +1,38 @@
+<clp-table width="25%">
+	<clp-tr>
+		<clp-td>
+			<clp-img src="./units/ele/ele_display/pic/ind_batt.svg" width="200"></clp-img>
+		</clp-td>
+		<clp-td width="75%">
+			<p><strong><strong>BATTERY LOAD AND TEMPERATURE ANNUNCIATION AREA</strong></strong></p>
+
+			<ul>
+				<li>BATT (white)</li>
+				<li>LOAD, °C (cyan)</li>
+				<li>MAIN, AUX, STBY (white)</li>
+			</ul>
+
+			<br>
+			<p><strong><clp-img src="./units/icons/step1.svg" width="25" icon></clp-img> DIGITAL DISPLAY OF BATTERY LOAD (white)</strong></p>
+			<ul>
+				<li>displays the load of the battery</li>
+				<li>+ or - sign on the left of the lead digit, whether the battery is in overcharge ("+" displayed) or in discharge ("-" displayed)</li>
+				<li>nothing is displayed when the battery is in charge within the expected range</li>
+				<li>leading zero is suppressed in the lead digit position</li>
+				<li>digital number gives the rate of the load, with 1.00 equal to 100% of load examples:</li>
+				<ul>"+1.30" indicates that the battery is in overcharge at 30% over the maximum rate of the charge</ul>
+				<ul>".60" indicates that the battery is in charge at 60% of its maximum rate of charge</ul>
+				<ul>"-0.30 " indicates that the battery is discharging at 30% over the maximum rate of discharge</ul>
+			</ul>
+			<br><p><strong><clp-img src="./units/icons/step2.svg" width="25" icon></clp-img> DIGITAL DISPLAY OF BATTERY TEMPERATURE</strong></p>
+			<ul>
+				<li>battery temperature digits are displayed in white with a + or - sign on the left of the lead digit,
+					when the temperature is within normal limits</li>
+				<li>when the temperature is in the range (+50°C to +65°C) the digits turn yellow</li>
+				<li>when the temperature exceeds 65°C the digits are displayed in red</li>
+			</ul>
+			<br>
+		</clp-td>
+	</clp-tr>
+</clp-table>
+<br><br>

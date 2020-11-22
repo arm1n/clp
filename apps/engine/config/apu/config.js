@@ -108,19 +108,20 @@ export const DATA_SET = [
         text: "Fuel Solenoid Valve (Start)",
         data: {
           view: "LEFT",
-          desc: "./units/apu/desc/apu_mainf_vlv.html",
-          unit: "./units/apu/units/apu_mainf_vlv.html",
+          desc: "./units/apu/desc/apu_start_fuel_vlv.html",
+          unit: "./units/apu/units/apu_start_fuel_vlv.html",
         },
 				show_in_menu: true,
       },
+			
 			/* apu start vlv */
 			{
         id: "clp-apu_mainf_vlv",
         text: "Fuel Solenoid Valve (Main)",
         data: {
           view: "LEFT",
-          desc: "./units/apu/desc/apu_mainf_vlv.html",
-          unit: "./units/apu/units/apu_mainf_vlv.html",
+          desc: "./units/apu/desc/apu_main_fuel_vlv.html",
+          unit: "./units/apu/units/apu_main_fuel_vlv.html",
         },
 				show_in_menu: true,
       },
@@ -129,8 +130,8 @@ export const DATA_SET = [
         text: "Fuel Solenoid Valve (Main)",
         data: {
           view: "RIGHT",
-          desc: "./units/apu/desc/apu_mainf_vlv.html",
-          unit: "./units/apu/units/apu_mainf_vlv.html",
+          desc: "./units/apu/desc/apu_main_fuel_vlv.html",
+          unit: "./units/apu/units/apu_main_fuel_vlv.html",
         },
 				show_in_menu: false,
       },
@@ -144,7 +145,16 @@ export const DATA_SET = [
         },
 				show_in_menu: true,
       },
-			
+			{
+        id: "clp-apu-start-fuel-cvlv",
+        text: "Start Fuel Check Valve",
+        data: {
+          view: "RIGHT",
+          desc: "./units/apu/desc/apu_start_fuel_cvlv.html",
+          unit: "./units/apu/units/apu_start_fuel_cvlv.html",
+        },
+				show_in_menu: false,
+      },
 			{
         id: "clp-apu_flow_div",
         text: "Flow Divider",
@@ -161,15 +171,15 @@ export const DATA_SET = [
         text: "Start Fuel Solenoid Valve",
         data: {
           view: "LEFT",
-          desc: "./units/apu/desc/apu_start_vlv.html",
-          unit: "./units/apu/units/apu_start_vlv.html",
+          desc: "./units/apu/desc/apu_start_fuel_vlv.html",
+          unit: "./units/apu/units/apu_start_fuel_vlv.html",
         },
 				show_in_menu: true,
       },
 			/* apu start vlv */
 			{
         id: "clp-apu-fuel-cont-unit",
-        text: "Fuel Control Unit",
+        text: "Fuel Control Unit (FCU)",
         data: {
           view: "LEFT",
           desc: "./units/apu/desc/apu_fuel_cont_unit.html",
@@ -179,7 +189,7 @@ export const DATA_SET = [
       },
 			{
         id: "clp-apu-fuel-cont-unit",
-        text: "Fuel Control Unit",
+        text: "Fuel Control Unit (FCU)",
         data: {
           view: "RIGHT",
           desc: "./units/apu/desc/apu_fuel_cont_unit.html",
@@ -189,7 +199,7 @@ export const DATA_SET = [
       },
 			{
         id: "clp-apu-fuel-cont-unit",
-        text: "Fuel Control Unit",
+        text: "Fuel Control Unit (FCU)",
         data: {
           view: "TOP",
           desc: "./units/apu/desc/apu_fuel_cont_unit.html",
