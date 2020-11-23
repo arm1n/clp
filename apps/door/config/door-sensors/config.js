@@ -85,7 +85,7 @@ export const DATA_SET = [
   },
 	{
     id: "clp-door-sys-page",
-    unit: "./units/cockpit/units/display_unit.html",
+    unit: "./units/cockpit/units/display_unit_door.html",
     desc: "./units/doors/desc/door_sys_page_info.html",
     info: {},
     access: {},

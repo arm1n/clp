@@ -1385,14 +1385,7 @@ export const DATA_SET = [
         main: "./apps/access/config/external-view/pic/nacelle-rh-right.svg",
         intro: "./apps/access/config/external-view/desc/nacelle-rh.html",
         refs: [
-          {
-            id: "clp-425br-hl_1_",
-            text: "425BR",
-            unit: "./units/access/units/425br.html",
-            desc: "./units/access/desc/425br.html",
-            info: {},
-            access: {},
-          },
+          
           {
             id: "clp-423cr",
             text: "423CR",
