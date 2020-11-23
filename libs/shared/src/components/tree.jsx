@@ -92,7 +92,7 @@ export const Tree = ({
         closeParentOnHighlighted,
       },
     });
-  }, [highlightedNode]);
+  }, [highlightedNode, closeParentOnHighlighted]);
 
   useMounted(
     () => {
@@ -107,7 +107,7 @@ export const Tree = ({
         },
       });
     },
-    [query, matchWholeBranch, matchLeavesOnly],
+    [query, matchWholeBranch, matchLeavesOnly, openedLevels, maxResults],
     {
       shouldRunInitially: typeof query === "string" && query !== "",
     }
@@ -123,9 +123,9 @@ export const Tree = ({
   useMounted(() => {
     dispatch({
       type: "reset",
-      payload: { nodes, openedLevels },
+      payload: { nodes, openedLevels, acceptNode },
     });
-  }, [nodes]);
+  }, [nodes, openedLevels, acceptNode]);
 
   const selectNodeHandler = useCallback(
     (node) => {
