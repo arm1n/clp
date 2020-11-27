@@ -40,7 +40,7 @@ class LinkPopup extends Base {
     const name = this.getAttribute("name") || "";
     const size = this.getAttribute("size") || "";
 
-    this.$wrapper.innerHTML = `
+    this.innerHTML = `
       <a 
         href="#"
         target="_blank"

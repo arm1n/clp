@@ -16,14 +16,14 @@ class LinkNav extends Base {
   render() {
     const path = this.getAttribute("path");
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <Router>
         <Link path={path}>
           <HTML html={this.template} />
         </Link>
       </Router>,
-      this.$wrapper
+      this
     );
   }
 

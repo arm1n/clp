@@ -14,8 +14,8 @@ import { Base } from "../clp-base";
 // ----------------------------------------------------------------------------------------------------
 class ARCDUSimulator extends Base {
   render() {
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
-    ReactDOM.render(<ARCDUSimulatorComponent />, this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
+    ReactDOM.render(<ARCDUSimulatorComponent />, this);
   }
 
   static get componentId() {

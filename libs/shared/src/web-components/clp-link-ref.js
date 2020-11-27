@@ -16,7 +16,7 @@ import { Base } from "./clp-base";
 // ----------------------------------------------------------------------------------------------------
 class LinkRef extends Base {
   render() {
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <button className="clp-link-ref">
         <span className="clp-link-ref-text">
@@ -25,7 +25,7 @@ class LinkRef extends Base {
         <InfoIcon className="clp-link-ref-icon clp-link-ref-info" />
         <CloseIcon className="clp-link-ref-icon clp-link-ref-close" />
       </button>,
-      this.$wrapper
+      this
     );
   }
 

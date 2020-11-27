@@ -14,8 +14,8 @@ import { Base } from "../clp-base";
 // ----------------------------------------------------------------------------------------------------
 class PSEUSimulator extends Base {
   render() {
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
-    ReactDOM.render(<PSEUSimulatorComponent />, this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
+    ReactDOM.render(<PSEUSimulatorComponent />, this);
   }
 
   static get componentId() {

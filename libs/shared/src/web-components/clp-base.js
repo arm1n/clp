@@ -4,14 +4,7 @@
 class Base extends HTMLElement {
   connectedCallback() {
     this._connected = true;
-
-    this.innerHTML = `
-      <div class="clp-${this.componentId}-wrapper clp-wrapper"></div>
-      <div class="clp-${this.componentId}-template clp-template">${this.template}</div>
-    `;
-
-    this.$wrapper = this.querySelector(`.clp-${this.componentId}-wrapper`);
-    this.$template = this.querySelector(`.clp-${this.componentId}-template`);
+    this._templateNode = this.cloneNode(true);
 
     this.setup();
     this.update();
@@ -30,11 +23,20 @@ class Base extends HTMLElement {
     return Child.componentId;
   }
 
-  get template() {
-    const $template = this.querySelector(`.clp-${this.componentId}-template`);
-    const reference = $template !== null ? $template : this;
+  get $template() {
+    if (!this._templateNode) {
+      return null;
+    }
 
-    return reference.innerHTML;
+    return this._templateNode;
+  }
+
+  get template() {
+    if (!this._templateNode) {
+      return '';
+    }
+    
+    return this._templateNode.innerHTML;
   }
 
   get isConnected() {

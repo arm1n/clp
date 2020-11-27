@@ -21,7 +21,7 @@ class LinkTR extends Base {
   render() {
     const href = this._parseHrefFromText(this.template);
 
-    this.$wrapper.innerHTML = `
+    this.innerHTML = `
       <a href="${href}" target="_blank" class="clp-link-tr-a">
         ${this.template}
       </a>

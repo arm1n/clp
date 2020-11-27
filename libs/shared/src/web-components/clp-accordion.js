@@ -30,12 +30,12 @@ class Expandable extends Base {
 
     const name = this.getAttribute("name");
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <ExpandableComponent name={name}>
         <HTML html={this.template} />
       </ExpandableComponent>,
-      this.$wrapper
+      this
     );
   }
 
@@ -80,8 +80,8 @@ class Accordion extends Base {
       this._createExpandable(expandable, index)
     );
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
-    ReactDOM.render(<AccordionComponent>{expandables}</AccordionComponent>, this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
+    ReactDOM.render(<AccordionComponent>{expandables}</AccordionComponent>, this);
   }
 
   _createExpandable(element, index) {

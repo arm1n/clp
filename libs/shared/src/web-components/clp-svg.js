@@ -69,7 +69,7 @@ class SVG extends Base {
       .filter((config) => config !== null);
     const introPath = this.$intros[0] ? this.$intros[0].getAttribute("path") : null;
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <Router>
         <SVGWithConfig
@@ -80,7 +80,7 @@ class SVG extends Base {
           introPath={introPath}
         />
       </Router>,
-      this.$wrapper
+      this
     );
   }
 

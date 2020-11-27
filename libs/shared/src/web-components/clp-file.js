@@ -16,8 +16,8 @@ class File extends Base {
   render() {
     const path = this.getAttribute("path");
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
-    ReactDOM.render(<FileComponent path={path} />, this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
+    ReactDOM.render(<FileComponent path={path} />, this);
   }
 
   attributeChangedCallback(name, oldValue, newValue) {

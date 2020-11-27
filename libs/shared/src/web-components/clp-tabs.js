@@ -41,8 +41,8 @@ class Tabs extends Base {
   render() {
     const tabs = this.$tabs.map((tab, index) => this._createTab(tab, index));
 
-    ReactDOM.unmountComponentAtNode(this.$wrapper);
-    ReactDOM.render(<TabsComponent>{tabs}</TabsComponent>, this.$wrapper);
+    ReactDOM.unmountComponentAtNode(this);
+    ReactDOM.render(<TabsComponent>{tabs}</TabsComponent>, this);
   }
 
   _createTab(element, index) {

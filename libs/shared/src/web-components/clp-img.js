@@ -22,7 +22,7 @@ class Img extends Base {
     const width = this.getAttribute("width") || "auto";
     const height = this.getAttribute("height") || "auto";
 
-    this.$wrapper.innerHTML = `
+    this.innerHTML = `
       <img src="${src}" width="${width}" height="${height}" />
     `;
   }

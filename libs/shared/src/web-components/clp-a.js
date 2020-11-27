@@ -18,7 +18,7 @@ class A extends Base {
     }
 
     href = !isURL(href) ? joinPaths([BASE_PATH, href]) : href;
-    this.$wrapper.innerHTML = `
+    this.innerHTML = `
       <a href="${href}" target="_blank">
         ${this.template}
       </a>
