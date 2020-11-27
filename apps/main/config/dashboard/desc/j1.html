@@ -123,21 +123,23 @@
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
 
-			<clp-info-red>
-				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
-
-				<br>
-
-				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
-			</clp-info-red>
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
 
 			<br>
 			<div><strong>Nuisance Caution Light or Advisory Message DH8-400-SL-31-001R14</strong></div>
 			<br>
 			<br>
+			
+			 <clp-info-border>
+				 <clp-text-centered>
 			<div>
-				<clp-text-blue>#1 PEC and #2 PEC” Caution Lights <strong><br>(Associated with failed overspeed governor test)</strong></clp-text-blue>
+				<clp-img src="./units/icons/caution.svg" width="25" icon > </clp-img> <clp-text-blue><strong>NOTE:</strong></clp-text-blue></div>
+				<br>
+				 <div>
+				<clp-text-blue><strong>#1 PEC and #2 PEC” Caution Lights<br> (Associated with failed overspeed governor test)</strong> </clp-text-blue>
 			</div>
+					 </clp-text-centered>
 			<br>
 			<div>
 				<clp-text-blue><strong>Pre-Mod 4-113264</strong></clp-text-blue>
@@ -148,7 +150,7 @@
 				<li>Maintenance action is required to clear fault codes and reset caution lights prior to flight</li>
 			</ul>
 			<br>
-			<br>
+		
 			<div>
 				<clp-text-blue><strong>Post-Mod 4-113264</strong></clp-text-blue>
 			</div>
@@ -160,6 +162,7 @@
 			<clp-info-red>
 				<div>IF Caution Light still on maintenance action is required prior first flight!</div>
 			</clp-info-red>
+				 </clp-info-border>
 			<br>
 			<br>
 

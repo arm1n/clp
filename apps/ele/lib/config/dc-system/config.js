@@ -20,6 +20,14 @@
  * }
  */
 export var DATA_SET = [{
+  id: "clp-dc-cont-panel",
+  unit: "./units/cockpit/units/dc_cont_panel.html",
+  desc: "./units/cockpit/desc/dc_cont_panel.html"
+}, {
+  id: "clp-ac-cont-panel",
+  unit: "./units/cockpit/units/ac_cont_panel.html",
+  desc: "./units/cockpit/desc/ac_cont_panel.html"
+}, {
   id: "clp-dc-stby-cont-box",
   unit: "./units/ele/units/cont_box_dc_stby.html",
   desc: "./units/ele/desc/cont_box_dc_stby.html"

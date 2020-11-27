@@ -32,7 +32,7 @@
 					</clp-td>
 
 					<clp-td>
-						
+
 					</clp-td>
 				</clp-tr>
 			</clp-table>
@@ -171,123 +171,137 @@
 
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
-			<clp-info-red>
-				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
-
-				<br>
-
-				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
-			</clp-info-red>
+			
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
 
 			<br>
 
 			<div><strong>Nuisance Caution Light or Advisory Message DH8-400-SL-31-001R14 </strong></div>
 			<br>
+			 <clp-info-border>
 			<div>
-				<clp-text-blue><strong>NOTE:</strong> If Pilot reports Prop de-ice caution light cones on without selecting prop de ice, a possible cause is the dual sat probe.</clp-text-blue>
+				
+				<div><clp-img src="./units/icons/caution.svg" width="25" icon > </clp-img><clp-text-blue><strong> NOTE:</strong></clp-text-blue></div><br>
+				<clp-text-blue>If Pilot reports PROP DEICE caution light comes on <strong>without</strong> selecting prop de ice, a possible cause is the DUAL SAT PROBE.</clp-text-blue>
 			</div>
 			<br>
 			<div>
-				<clp-text-blue><strong>NOTE:</strong> Please check indication of 1 & 2 temperature indications on Pilots eng display and Copilots eng display for mismatch, (SET MFD1 AND MFD2 TO ENG ON ESID CONTROL PANEL) a discrepancy of 8°C can cause the problem => clean connector and/or replacement SAT probe</clp-text-blue>
+				<clp-text-blue>Please check indication of 1 and 2 temperature indications on <strong>Pilots ENG Display</strong> and <strong>Copilots ENG Display</strong> for mismatch → <br><br>
+					<strong>- SET MFD1 and MFD2 TO ENG (Indication) on ESID CONTROL PANEL</strong><br> <br>
+					<strong>a discrepancy of 8°C</strong> can cause the problem, <strong>clean connector and/or replace SAT probe</strong></clp-text-blue>
 			</div>
-
+			</clp-info-border>
 			<br>
 			<br>
 
+			<clp-info-border>
+				<clp-table border="" hover="" nowrap="1">
+					<clp-tr>
+						<clp-td><strong>PROP SELECTOR</strong></clp-td>
+						<clp-td>-</clp-td>
+						<clp-td>"ON" TO "OFF "AND BACK TO ON"
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td><strong>RESET </strong></clp-td>
+						<clp-td>-</clp-td>
+						<clp-td>LEFT DC <clp-text-red> <strong>L6</strong> PROP DEICE CONTROL 1</clp-text-red> and
 
-			<clp-table border="" hover="" nowrap="1">
-				<clp-tr>
-					<clp-td><strong>PROP SELECTOR</strong></clp-td>
-					<clp-td>-</clp-td>
-					<clp-td>"ON" TO "OFF "AND BACK TO ON"
-					</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td><strong>RESET </strong></clp-td>
-					<clp-td>-</clp-td>
-					<clp-td>LEFT DC <clp-text-red> <strong>L6</strong> PROP DEICE CONTROL 1</clp-text-red> and
+							<br> RIGHT DC <clp-text-red> <strong>E5</strong> PROP DEICE CONTROL 2</clp-text-red> CBs <strong>"SIMULTANEOUSLY"</strong></clp-td>
+					</clp-tr>
 
-						<br> RIGHT DC <clp-text-red> <strong>E5</strong> PROP DEICE CONTROL 2</clp-text-red> CBs <strong>"SIMULTANEOUSLY"</strong></clp-td>
-				</clp-tr>
-
-			</clp-table>
+				</clp-table>
+			</clp-info-border>
 			<br>
 			<br>
 
 			<clp-info-red>
 				<div>
-					<clp-text-centered><b>IF CAUTION LIGHT REMAINS ON: </b><br> <clp-text-red>MAINTENANCE ACTION IS REQUIRED PRIOR TO FLIGHT</clp-text-red></clp-text-centered>
+					<clp-text-centered><b>IF CAUTION LIGHT REMAINS ON: </b><br>
+						<clp-text-red>MAINTENANCE ACTION IS REQUIRED PRIOR TO FLIGHT</clp-text-red>
+					</clp-text-centered>
 				</div>
 			</clp-info-red>
 
-			
-			
 			<br>
 			<br>
-			<br>
-			<clp-grid>
-				<clp-grid-column>
-					<clp-img src="./units/cockpit/units/pic/ice_prot_panel.svg"></clp-img>
-				</clp-grid-column>
+			<clp-img src="./units/cockpit/units/pic/ice_prot_panel.svg" width="300"></clp-img>
 
-				<clp-grid-column>
-					<div>With the Prop Deicing selected ON the system still may be OFF.<br><br> The TMCU heater cycle times depend on the Total Air Temperature (TAT) and Prop Deicing will remain OFF with a TAT greater than 5° C even with the system selected ON.<br><br> The following table may be used to determine the TAT.</div>
-				</clp-grid-column>
-			</clp-grid>
 
 
 			<br>
-			<div>TAT (°C)=SAT (°C, acc.ED) + Temp Rise (°C, acc.table) </div>
+
+			<p>With the Prop Deicing selected ON the system still may be OFF.<br><br> The TMCU heater cycle times depend on the Total Air Temperature (TAT) and Prop Deicing will remain OFF with a TAT greater than 5° C even with the system selected ON.</p>
+
+			<div>The following table may be used to determine the TAT.</div>
 			<br>
+			<clp-info-border>
+
+				<div><strong>TAT (°C)=SAT (°C, acc.ED) + Temp Rise (°C, acc.table)</strong></div>
 
 
-			<clp-table>
-				<clp-tr>
-					<clp-td><strong> True Airspeed </strong></clp-td>
-					<clp-td><strong> Temp Rise °C </strong></clp-td>
+				<clp-table hover="">
+					<clp-tr>
 
-				</clp-tr>
-				<clp-tr>
-					<clp-td>200</clp-td>
-					<clp-td>5°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>220</clp-td>
-					<clp-td>6°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>240</clp-td>
-					<clp-td>7°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>260</clp-td>
-					<clp-td>9°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>280</clp-td>
-					<clp-td>10°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>300</clp-td>
-					<clp-td>12°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>320</clp-td>
-					<clp-td>14°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>340</clp-td>
-					<clp-td>15°C</clp-td>
-				</clp-tr>
-				<clp-tr>
-					<clp-td>360</clp-td>
-					<clp-td>17°C</clp-td>
-				</clp-tr>
-			</clp-table>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 200</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 5°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 220</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 6°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 240</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 7°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 260</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 9°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 280</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 10°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 300</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 12°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 320</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 14°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 340</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 15°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+					<clp-tr>
+						<clp-td>True Airspeed - 360</clp-td>
+						<clp-td>
+							<clp-text-blue><strong>Temp Rise - 17°C</strong></clp-text-blue>
+						</clp-td>
+					</clp-tr>
+				</clp-table>
 
-
-
-
+			</clp-info-border>
 
 
 

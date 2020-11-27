@@ -1164,7 +1164,13 @@ export const CAUTION_LIGHTS = {
       M: {
         name: "LDG GEAR INOP",
         file: "./apps/main/config/dashboard/desc/m5.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "PSEU",
+            mode: "INTERNAL",
+            path: "/pseu",
+          },
+				],
         highlights: ["ldg_gear_systems"],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -1179,6 +1185,11 @@ export const CAUTION_LIGHTS = {
             name: "GEAR WNG SYSTEM",
             mode: "INTERNAL",
             path: "/gear/position-warning",
+          },
+					{
+            name: "PSEU",
+            mode: "INTERNAL",
+            path: "/pseu",
           },
 				],
         highlights: ["ldg_gear_systems"],
@@ -1407,7 +1418,13 @@ export const CAUTION_LIGHTS = {
       B: {
         name: "CHECK FIRE DET",
         file: "./apps/main/config/dashboard/desc/b7.html",
-        buttons: [],
+        buttons: [
+					{
+            name: "FIRE PROT. SYS",
+            mode: "INTERNAL",
+            path: "/fire-protection",
+          },
+				],
         highlights: [],
         show_eng_apu_ecs_search: false,
         gnd_eng_stopped: false,
@@ -1562,6 +1579,11 @@ export const CAUTION_LIGHTS = {
             name: "DOOR SYSTEM",
             mode: "INTERNAL",
             path: "/door/door-sensors",
+          },
+					{
+            name: "PSEU",
+            mode: "INTERNAL",
+            path: "/pseu",
           },
 				],
         highlights: ["elect_systems"],
@@ -3950,12 +3972,12 @@ export const ENGINE_APU_ECS_FAULTS = [
   },
   {
     name: "80",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_80_81html.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_80_81.html",
     buttons: [],
   },
   {
     name: "81",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_80_81html.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_80_81.html",
     buttons: [],
   },
   {
@@ -4070,12 +4092,12 @@ export const ENGINE_APU_ECS_FAULTS = [
   },
   {
     name: "104",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_104_105.html.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_104_105.html",
     buttons: [],
   },
   {
     name: "105",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_104_105.html.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_104_105.html",
     buttons: [],
   },
   {
@@ -4240,12 +4262,12 @@ export const ENGINE_APU_ECS_FAULTS = [
   },
   {
     name: "162",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_162_163html.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_162_163.html",
     buttons: [],
   },
   {
     name: "163",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_162_163html.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_162_163.html",
     buttons: [],
   },
   {

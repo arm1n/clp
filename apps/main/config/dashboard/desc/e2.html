@@ -29,7 +29,34 @@
 			<div>The caution light comes on when a cabin zone supply over temperature event is detected. Refer to the general sections of the fault messages shown below for a more detailed description of the conditions that set the applicable CDS message.</div>
 
 			<div>The audio and radio control display unit (ARCDU) can show one or more of the related central diagnostic system (CDS) messages that follow:</div>
-
+			<br>	<br>
+			<ul>
+			<clp-link-nav path="/engine-apu-ecs-faults/1210">
+					<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> 7115 - CAB OVR TMP1 →
+				</clp-link-nav>
+			<br>
+			<clp-link-nav path="/engine-apu-ecs-faults/1211">
+					<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> 7116 - CAB OVR TMP2 →
+				</clp-link-nav>
+				<br>
+			<clp-link-nav path="/engine-apu-ecs-faults/1212">
+					<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> 7117 - CAB OVR TMP3 →
+				</clp-link-nav>
+				<br>
+			<clp-link-nav path="/engine-apu-ecs-faults/1213">
+					<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> 7118 - CAB OVR TMP4 →
+				</clp-link-nav>
+				<br>
+			<clp-link-nav path="/engine-apu-ecs-faults/1069">
+					<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> 3605 - CAB BYP VLV →
+				</clp-link-nav>
+				<br>
+			<clp-link-nav path="/engine-apu-ecs-faults/1138">
+					<clp-img src="./units/icons/info.svg" width="25" icon></clp-img> 4404 - ECU DIG CH 2 →
+				</clp-link-nav>
+			</ul>
+			<!-- Links zm FIM
+			<div>
 			<div><strong>7115 - CAB OVR TMP1 </strong></div>
 			<div>
 				<clp-link-pdf>FIM TASK 21-60-00-810-862</clp-link-pdf>
@@ -65,6 +92,8 @@
 				<clp-link-pdf>FIM TASK 21-60-00-810-856</clp-link-pdf>
 				<clp-link-tr>(TR-FIM)</clp-link-tr>
 			</div>
+				</div>			
+			<!-- Links zm FIM -->
 			<br>
 			<br>
 
@@ -130,17 +159,12 @@
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
 
-			<clp-info-red>
-				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
-
-				<br>
-
-				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
-			</clp-info-red>
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
 
 			<br>
 			<br>
-
+			 <clp-info-border>
 			<clp-table border="" hover="" nowrap="1">
 				<clp-tr>
 					<clp-td><strong>MAIN PANEL selector</strong></clp-td>
@@ -165,6 +189,7 @@
 			<br>
 			<br>
 			<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+				 </clp-info-border>
 			<br>
 
 

@@ -30,8 +30,9 @@
 			<ul>
 				<li>Hydraulic pressure is sensed in the FPU with no flap selection (the shut−off valve stays open after the flap movement is completed).</li>
 				<li>The flap panels have stopped moving (stalled) before reaching the set position (a difference between the Flap Selected Position and the actual Flap Position feedback signal).
-				<br>
-				<clp-text-blue><strong>NOTE:</strong> In this case, the <clp-text-orange><strong>FLAP DRIVE</strong></clp-text-orange> caution light will extinguish while the flaps are in motion.</clp-text-blue></li>
+					<br>
+					<clp-text-blue><strong>NOTE:</strong> In this case, the <clp-text-orange><strong>FLAP DRIVE</strong></clp-text-orange> caution light will extinguish while the flaps are in motion.</clp-text-blue>
+				</li>
 			</ul>
 			<br>
 			<div>The FCU can malfunction if:</div>
@@ -80,17 +81,25 @@
 			<clp-table fullwidth="">
 				<clp-tr>
 					<clp-td>
-						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
-						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
-						
-						<br/>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
 
 						<div><strong>L7</strong> FLAPS CONT</div>
-						
+
 					</clp-td>
 					<clp-td>
-						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
-						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
 					</clp-td>
 				</clp-tr>
 			</clp-table>
@@ -106,46 +115,38 @@
 
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
+			
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
 
-			<clp-info-red>
-				<div><strong>
-						<clp-text-red>FOR REFERENCE USE ONLY!</clp-text-red>
-					</strong></div>
+			<br>
+			<clp-info-border>
+				<clp-table border="" hover="" nowrap="1">
 
+
+
+					<clp-tr>
+						<clp-td><strong>Flap Lever </strong></clp-td>
+						<clp-td> - </clp-td>
+						<clp-td> select to match flap indication </clp-td>
+					</clp-tr>
+
+					<clp-tr>
+						<clp-td><strong>RESET</strong></clp-td>
+						<clp-td> - </clp-td>
+						<clp-td> Flap NVM on Maint Panel</clp-td>
+					</clp-tr>
+				</clp-table>
 				<br>
-
-				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
-			</clp-info-red>
-
-			<br>
-			<br>
-
-			<clp-table border="" hover="" nowrap="1">
-
-
-
-				<clp-tr>
-					<clp-td><strong>Flap Lever </strong></clp-td>
-					<clp-td> - </clp-td>
-					<clp-td> select to match flap indication </clp-td>
-				</clp-tr>
-
-				<clp-tr>
-					<clp-td><strong>RESET</strong></clp-td>
-					<clp-td> - </clp-td>
-					<clp-td> Flap NVM on Maint Panel</clp-td>
-				</clp-tr>
-			</clp-table>
-			<br>
-			<br>
-			<div>
-				<clp-text-blue><strong>NOTE:</strong> Wait for 10 sec. for self test complete</clp-text-blue>
-			</div>
-			<br>
-			<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
-			<br>
-			<br>
-
+				<br>
+				<div>
+					<clp-text-blue><strong>NOTE:</strong> Wait for 10 sec. for self test complete</clp-text-blue>
+				</div>
+				<br>
+				<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+				<br>
+				<br>
+			</clp-info-border>
 
 
 

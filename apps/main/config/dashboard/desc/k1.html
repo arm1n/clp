@@ -16,7 +16,7 @@
 
 					<clp-td>
 						<clp-text-large>
-								<clp-link-pdf>FIM TASK 27-60-00-810-801</clp-link-pdf>
+							<clp-link-pdf>FIM TASK 27-60-00-810-801</clp-link-pdf>
 							<clp-link-tr>(TR-FIM)</clp-link-tr>
 						</clp-text-large>
 					</clp-td>
@@ -50,9 +50,9 @@
 			</ul>
 			<br>
 			<div>
-				<clp-text-blue><strong>NOTE:</strong> The roll spoilers system has a glareshield panel SPOILERS FLIGHT TAXI toggle switch to give manual override of the spoilers lift dump function (spoilers extend) after the aircraft lands. After the aircraft lands and the spoilers extend, the SPOILERS FLIGHT TAXI toggle switch is set to the TAXI position to retract the spoilers. 
-				<br>	<br>
-				Also, after the spoilers are retracted for more than 6.5 seconds, the FCECU does and EBIT. This makes sure that a spoiler lift-dump valve does not stay in the open position.</clp-text-blue>
+				<clp-text-blue><strong>NOTE:</strong> The roll spoilers system has a glareshield panel SPOILERS FLIGHT TAXI toggle switch to give manual override of the spoilers lift dump function (spoilers extend) after the aircraft lands. After the aircraft lands and the spoilers extend, the SPOILERS FLIGHT TAXI toggle switch is set to the TAXI position to retract the spoilers.
+					<br> <br>
+					Also, after the spoilers are retracted for more than 6.5 seconds, the FCECU does and EBIT. This makes sure that a spoiler lift-dump valve does not stay in the open position.</clp-text-blue>
 			</div>
 			<br>
 			<div>The roll spoilers system operates in the modes that follow:</div>
@@ -71,16 +71,16 @@
 
 		</clp-card> <!-- General Ende -->
 
+		<!-- Quick links 
 		<br>
-
 		<clp-card name="Quick links">
-			<!-- links Start -->
+	
 
 
 
 
 
-		</clp-card> <!-- links Ende -->
+		</clp-card>  links Ende -->
 
 		<br>
 
@@ -90,18 +90,26 @@
 			<clp-table fullwidth="">
 				<clp-tr>
 					<clp-td>
-						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
-						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
-						
-						<br/>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
 
 						<div><strong>M3</strong> FCS ECU 1</div>
 					</clp-td>
 					<clp-td>
-						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
-						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
 
-						<br/>
+						<br />
 
 						<div><strong>L6</strong> FCS ECU 2</div>
 					</clp-td>
@@ -119,69 +127,76 @@
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
 
-			
-			<clp-info-red>
-				<div><strong>FOR REFERENCE USE ONLY!</strong></div>
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
 
+			<br>
+			<br>
+			<clp-info-border>
+				<clp-table border="" hover="" nowrap="1">
+
+
+
+					<clp-tr>
+						<clp-td><strong>RESET</strong></clp-td>
+
+						<clp-td>
+							FCS ECU 1 and 2 CB’s <br>
+							<strong>
+								<clp-text-red>M3</clp-text-red>
+							</strong> - Left Essential and <br>
+							<strong>
+								<clp-text-red>L6</clp-text-red>
+							</strong> - Right Essential
+							<clp-text-blue> - "SIMULTANEOUSLY"</clp-text-blue>
+						</clp-td>
+					</clp-tr>
+
+					<clp-tr>
+						<clp-td><strong>NOTE:</strong></clp-td>
+
+						<clp-td>
+							<clp-text-blue>Wait 90 seconds until self-test sequence is complete before moving flight controls</clp-text-blue>
+						</clp-td>
+					</clp-tr>
+
+					<clp-tr>
+						<clp-td><strong>FLIGHT CONTROLS</strong></clp-td>
+
+						<clp-td>check/full travel</clp-td>
+					</clp-tr>
+				</clp-table>
+				<br>
 				<br>
 
-				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
-			</clp-info-red>
-
-			<br>
-			<br>
-
-			<clp-table border="" hover="" nowrap="1">
-
-			
-				
-				<clp-tr>
-					<clp-td><strong>RESET</strong></clp-td>
-					
-					<clp-td>
-						 FCS ECU 1 and 2 CB’s  <br>
-						<strong><clp-text-red>M3</clp-text-red></strong> - Left Essential and <br>
-						<strong><clp-text-red>L6</clp-text-red></strong> - Right Essential 
-						<clp-text-blue> - "SIMULTANEOUSLY"</clp-text-blue> </clp-td>
-				</clp-tr>
-				
-				<clp-tr>
-						<clp-td><strong>NOTE:</strong></clp-td>
-						
-						<clp-td><clp-text-blue>Wait 90 seconds until self-test sequence is complete before moving flight controls</clp-text-blue></clp-td>
-				</clp-tr>
-				
-				<clp-tr>
-					<clp-td><strong>FLIGHT CONTROLS</strong></clp-td>
-					
-					<clp-td>check/full travel</clp-td>
-				</clp-tr>
-			</clp-table>
-			<br>
-			<br>
-		
-			<p><clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red></p>
-			
-			<br>
-			<br>
-			
-			<clp-info-border>
-			<clp-info-blue>
-					<clp-text-centered><b>Spoiler lift Dump Valve Location:</b></clp-text-centered>
-				</clp-info-blue>
-			
-			<br>
-			<clp-img src="./units/fc/desc/pic/spoil_liftdump_vlv_ib_info.svg" width="600"></clp-img>
-
-			<br>
-			<clp-link-nav path="/access?id=clp-fus-to-wing&subId=clp-262at"><clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 262AT Wing Fairing Panel →</clp-link-nav>
-			<br>
-
-			<clp-link-nav path="/access?id=clp-fuselage&subId=clp-263cl"><clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 263CL Center Fuselage Panel →</clp-link-nav>
-			
+				<p>
+					<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
+				</p>
 			</clp-info-border>
-			
-			
+			<br>
+			<br>
+
+			<clp-info-border>
+				<clp-info-blue>
+					<clp-text-centered><clp-img src="./units/icons/caution.svg" width="25" icon > </clp-img> <b>Spoiler lift Dump Valve Location:</b></clp-text-centered>
+				</clp-info-blue>
+
+				<br>
+				<clp-img src="./units/fc/desc/pic/spoil_liftdump_vlv_ib_info.svg" width="600"></clp-img>
+
+				<br>
+				<clp-link-nav path="/access?id=clp-fus-to-wing&subId=clp-262at">
+					<clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 262AT Wing Fairing Panel →
+				</clp-link-nav>
+				<br>
+
+				<clp-link-nav path="/access?id=clp-fuselage&subId=clp-263cl">
+					<clp-img src="./units/icons/access.svg" width="25" icon></clp-img> ACCESS 263CL Center Fuselage Panel →
+				</clp-link-nav>
+
+			</clp-info-border>
+
+
 			<br>
 
 		</clp-card><!-- RefEnde -->

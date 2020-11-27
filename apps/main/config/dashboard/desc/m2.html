@@ -75,39 +75,24 @@
 			<clp-table fullwidth="">
 				<clp-tr>
 					<clp-td>
-						<clp-text-blue><strong>AVIONICS CB Panel</strong></clp-text-blue>
-					</clp-td>
-					<clp-td>
-						<clp-text-blue><strong>115V AC CB Panel</strong></clp-text-blue>
-					</clp-td>
-				</clp-tr>
-
-				<clp-tr>
-					<clp-td>
-						<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
-					</clp-td>
-					<clp-td>
-						<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
-					</clp-td>
-				</clp-tr>
-
-				<clp-tr>
-					<clp-td>
+						<div><clp-text-blue><strong>AVIONICS CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						<br>
 						<div><strong>K1</strong> STICK PUSHER</div>
 						<div><strong>K6</strong> STICK PUSHER</div>
 						<div><strong>F2</strong> SPM1</div>
 						<div><strong>F5</strong> SPM2</div>
-
 					</clp-td>
 					<clp-td>
+						<div><clp-text-blue><strong>115V AC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<br>
 						<div><strong>L AOA VANE HT</strong> </div>
 						<div><strong>R AOA VANE HT</strong> </div>
-
 					</clp-td>
 				</clp-tr>
-
 			</clp-table>
-
+			
 
 		</clp-card> <!-- CB Ende -->
 	</clp-grid-column><!-- Ende Left Cards -->
@@ -119,23 +104,12 @@
 		<clp-card name="Quick reference reset guide">
 			<!-- Ref Start -->
 
-			<clp-info-red>
-				<div><strong>
-						<clp-text-red>FOR REFERENCE USE ONLY!</clp-text-red>
-					</strong></div>
-
-				<br>
-
-				<div>The data contained herein is intended to assist troubleshooting only and is not a substitute for Bombardier and/or operator’s manuals. Fault correcting maintenance and the aircraft’s “return to service” testing shall be accomplished in full accordance with proper Bombardier and/or operator’s manuals only.</div>
-			</clp-info-red>
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
 
 			<br>
-			<br>
-
+			 <clp-info-border>
 			<clp-table border="" hover="" nowrap="1">
-
-
-
 				<clp-tr>
 					<clp-td><strong>CHECK/IN </strong></clp-td>
 					<clp-td> - </clp-td>
@@ -181,7 +155,7 @@
 			</div>
 			<br>
 			<clp-text-red><strong>IF Caution Light still on maintenance action is required prior first flight!</strong></clp-text-red>
-			
+			</clp-info-border>
 			<br>
 			<br>
 			<clp-card name="Units">
