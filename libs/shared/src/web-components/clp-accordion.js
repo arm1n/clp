@@ -86,7 +86,7 @@ class Accordion extends Base {
 
   _createExpandable(element, index) {
     const name = element.getAttribute("name");
-    const html = element.template;
+    const html = element.innerHTML;
 
     return (
       <ExpandableComponent key={index} name={name}>
