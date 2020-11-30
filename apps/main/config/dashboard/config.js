@@ -13,7 +13,7 @@
  */
 export const SIDE_NAV = [
   { name: "Help", path: "/help", mode: "INTERNAL" },
-  { name: "v. 20-01a" },
+  { name: "v. 20-01a7" },
 	{ name: "Legal Notice", path: "/legal", mode: "INTERNAL" },
 	
 	/** 
@@ -10028,12 +10028,12 @@ export const DISPLAY_FAULT_MSG = [
     buttons: [],
   },
   {
-    name: "CHECK PFD 1",
+    name: "CHECK PFD1",
     file: "./apps/main/config/dashboard/display-fault-msg/check_pfd1.html",
     buttons: [],
   },
   {
-    name: "CHECK PFD 2",
+    name: "CHECK PFD2",
     file: "./apps/main/config/dashboard/display-fault-msg/check_pfd2.html",
     buttons: [],
   },
@@ -10155,22 +10155,22 @@ export const DISPLAY_FAULT_MSG = [
     buttons: [],
   },
   {
-    name: "HOT PFD 1",
+    name: "HOT PFD1",
     file: "./apps/main/config/dashboard/display-fault-msg/hot_pdf1.html",
     buttons: [],
   },
   {
-    name: "HOT PFD 2",
+    name: "HOT PFD2",
     file: "./apps/main/config/dashboard/display-fault-msg/hot_pdf2.html",
     buttons: [],
   },
   {
-    name: "HOT MFD 1",
+    name: "HOT MFD1",
     file: "./apps/main/config/dashboard/display-fault-msg/hot_mfd1.html",
     buttons: [],
   },
   {
-    name: "HOT MFD 2",
+    name: "HOT MFD2",
     file: "./apps/main/config/dashboard/display-fault-msg/hot_mfd2.html",
     buttons: [],
   },
@@ -10289,22 +10289,22 @@ export const DISPLAY_FAULT_MSG = [
     buttons: [],
   },
   {
-    name: "MFD 1 LINK FAIL",
+    name: "MFD1 LINK FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/mfd1_link_fail.html",
     buttons: [],
   },
   {
-    name: "MFD 2 LINK FAIL",
+    name: "MFD2 LINK FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/mfd2_link_fail.html",
     buttons: [],
   },
   {
-    name: "MFD 1 MON FAIL",
+    name: "MFD1 MON FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/mfd1_mon_fail.html",
     buttons: [],
   },
   {
-    name: "MFD 2 MON FAIL",
+    name: "MFD2 MON FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/mfd2_mon_fail.html",
     buttons: [],
   },
@@ -10379,22 +10379,22 @@ export const DISPLAY_FAULT_MSG = [
     buttons: [],
   },
   {
-    name: "PFD 1 LINK FAIL",
+    name: "PFD1 LINK FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/pfd1_link_fail.html",
     buttons: [],
   },
   {
-    name: "PFD 2 LINK FAIL",
+    name: "PFD2 LINK FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/pfd2_link_fail.html",
     buttons: [],
   },
   {
-    name: "PFD 1 MON FAIL",
+    name: "PFD1 MON FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/pfd1_mon_fail.html",
     buttons: [],
   },
   {
-    name: "PFD 2 MON FAIL",
+    name: "PFD2 MON FAIL",
     file: "./apps/main/config/dashboard/display-fault-msg/pfd2_mon_fail.html",
     buttons: [],
   },

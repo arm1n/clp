@@ -226,7 +226,7 @@ export const DATA_SET = [
 				id: "disconnect-the-electrical-connectors",
 				text: "Disconnect the electrical connectors",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-electrical-connectors.html",
+					file: "./apps/engine/config/engine-change/desc/menu-rem-electrical-connectors.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -334,7 +334,7 @@ export const DATA_SET = [
 				id: "disconnect-or-remove-the-pneumatic-ducts",
 				text: "Disconnect or remove the pneumatic ducts",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-pneumatic-ducts.html",
+					file: "./apps/engine/config/engine-change/desc/menu-rem-pneumatic-ducts.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -378,7 +378,7 @@ export const DATA_SET = [
 				id: "remove-or-disconnect-the-electrical-equipment",
 				text: "Remove or disconnect the electrical equipment",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-electrical-equipment.html",
+					file: "./apps/engine/config/engine-change/desc/menu-rem-electrical-equipment.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -416,7 +416,7 @@ export const DATA_SET = [
 				id: "disconnect-the-oil-fuel-and-hydraulic-systems",
 				text: "Disconnect the oil, fuel and hydraulic systems",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-oil-fuel-hyd.html",
+					file: "./apps/engine/config/engine-change/desc/menu-rem-oil-fuel-hyd.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -709,7 +709,7 @@ export const DATA_SET = [
 				id: "install-or-connect-the-electrical-equipment",
 				text: "Install or connect the electrical equipment",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-electrical-equipment.html",
+					file: "./apps/engine/config/engine-change/desc/menu-inst-electrical-equipment.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -747,7 +747,7 @@ export const DATA_SET = [
 				id: "Connect-the-electrical-connectors",
 				text: "Connect the electrical connectors",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-electrical-connectors.html",
+					file: "./apps/engine/config/engine-change/desc/menu-inst-electrical-connectors.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -855,7 +855,7 @@ export const DATA_SET = [
 				id: "connect-the-electrical-connectors",
 				text: "Connect or install the pneumatic ducts",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-pneumatic-ducts.html",
+					file: "./apps/engine/config/engine-change/desc/menu-inst-pneumatic-ducts.html",
 				},
 				show_in_menu: true,
 				nodes: [
@@ -899,7 +899,7 @@ export const DATA_SET = [
 				id: "connect-the-oil-fuel-and-hydraulic-systems",
 				text: "Connect the oil, fuel and hydraulic systems",
 				data: {
-					file: "./apps/engine/config/engine-change/desc/menu-oil-fuel-hyd.html",
+					file: "./apps/engine/config/engine-change/desc/menu-inst-oil-fuel-hyd.html",
 				},
 				show_in_menu: true,
 				nodes: [
