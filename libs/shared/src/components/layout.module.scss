@@ -5,9 +5,12 @@
 	max-width: map-get($breakpoints, lg);
 }
 
-.navbar {}
+.navbar {
+	position: relative;
+}
 
 .view {
+	position: relative;
 	padding: 1.5rem 1rem;
 	@include min-width(lg) {
 

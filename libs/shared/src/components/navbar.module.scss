@@ -1,6 +1,7 @@
 @import "../styles/_mixins.scss";
 
 .wrapper {
+  z-index: 1;
   position: relative;
 }
 
