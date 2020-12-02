@@ -5362,7 +5362,7 @@ export const ENGINE_APU_ECS_FAULTS = [
   },
   {
     name: "736",
-    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_7326.html",
+    file: "./apps/main/config/dashboard/engine-apu-ecs-faults/eng_736.html",
     buttons: [],
   },
   {

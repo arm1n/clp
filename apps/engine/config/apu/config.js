@@ -166,16 +166,7 @@ export const DATA_SET = [
 				show_in_menu: true,
       },
 			
-			{
-        id: "apu_start_vlv",
-        text: "Start Fuel Solenoid Valve",
-        data: {
-          view: "LEFT",
-          desc: "./units/apu/desc/apu_start_fuel_vlv.html",
-          unit: "./units/apu/units/apu_start_fuel_vlv.html",
-        },
-				show_in_menu: true,
-      },
+			
 			/* apu start vlv */
 			{
         id: "clp-apu-fuel-cont-unit",

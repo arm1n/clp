@@ -3433,9 +3433,9 @@ export const DATA_SET = [
           },
           {
             id: "clp-321ft",
-            text: "321FT",
+            text: "",
             unit: "./units/deice/units/321ft.html",
-            desc: "./units/deice/desc/boot_repair_info.html",
+            desc: "./units/deice/desc/321ft.html",
             info: {},
             access: {},
           },
