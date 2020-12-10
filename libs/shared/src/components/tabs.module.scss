@@ -1,6 +1,7 @@
 @import "../styles/_mixins.scss";
 
 .scrollframe {
+	z-index: 0;
 	position: relative;
 
 	&:after,
