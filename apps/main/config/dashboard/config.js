@@ -10783,7 +10783,7 @@ export const MAIN_NAV = [
 /**
  * DASHBOARD CUSTOMER LOGO:
  */
-export const CUSTOMER_LOGO = "./apps/main/config/dashboard/pic/logo_westjet.svg";
+export const CUSTOMER_LOGO = "./apps/main/config/dashboard/pic/main_logo.svg";
 
 /**
  * DASHBOARD FOOTER LOGOS:

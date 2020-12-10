@@ -148,8 +148,8 @@ export const DATA_SET = [
 	{
     id: "clp-panel1",
     text: "Skin Panel Identification<br>(X −155.000 to X −19.850)",
-    unit: "./apps/access/config/damage-evaluation/desc/lightning_info.html",
-    desc: "./apps/access/config/damage-evaluation/desc/panel1.html",
+    unit: "./units/damage/desc/lightning_info.html",
+    desc: "./units/damage/desc/skin_panel1.html",
     info: {},
     access: {},
     
@@ -157,8 +157,8 @@ export const DATA_SET = [
 	{
     id: "clp-panel2",
     text: "Skin Panel Identification<br>(X -19.775 to X 234.475)",
-    unit: "./apps/access/config/damage-evaluation/desc/lightning_info.html",
-    desc: "./apps/access/config/damage-evaluation/desc/panel2.html",
+    unit: "./units/damage/desc/lightning_info.html",
+    desc: "./units/damage/desc/skin_panel2.html",
     info: {},
     access: {},
     
@@ -166,8 +166,8 @@ export const DATA_SET = [
 	{
     id: "clp-panel3",
     text: "Skin Panel Identification<br> (X234.475 to X566.025)",
-    unit: "./apps/access/config/damage-evaluation/desc/lightning_info.html",
-    desc: "./apps/access/config/damage-evaluation/desc/panel3.html",
+    unit: "./units/damage/desc/lightning_info.html",
+    desc: "./units/damage/desc/skin_panel3.html",
     info: {},
     access: {},
     
@@ -175,8 +175,8 @@ export const DATA_SET = [
 	{
     id: "clp-panel4",
     text: "Skin Panel Identification<br> (X566.025 to X829.548/836.452)",
-    unit: "./apps/access/config/damage-evaluation/desc/lightning_info.html",
-    desc: "./apps/access/config/damage-evaluation/desc/panel4.html",
+    unit: "./units/damage/desc/lightning_info.html",
+    desc: "./units/damage/desc/skin_panel4.html",
     info: {},
     access: {},
     
@@ -184,8 +184,8 @@ export const DATA_SET = [
 	{
     id: "clp-panel5",
     text: "Skin Panel Identification<br> (X 829.548/836.452 to X 980.178)",
-    unit: "./apps/access/config/damage-evaluation/desc/lightning_info.html",
-    desc: "./apps/access/config/damage-evaluation/desc/panel5.html",
+    unit: "./units/damage/desc/lightning_info.html",
+    desc: "./units/damage/desc/skin_panel5.html",
     info: {},
     access: {},
     
