@@ -1,0 +1,85 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Last OSG Test Aborted (Status) - (Engine Fault Code 496/497)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-10-810-829</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault code is generated as a result of the PEC indicating that the overspeed governor test has been aborted. This can occur for any of the three reasons listed below:
+        - The test has taken longer than 62 seconds
+        - The right conditions were not present for the test to start
+        - The right conditions were not maintained during the test.</p><!-- !!!! -->
+
+    <p>The fault isolation logic has determined that either the duration of the test has been longer than
+        62 seconds, or the following conditions have not been established or maintained:
+        - Weight on wheels = on ground
+        - PLA is greater than flight idle (Pre Modsum 4W113558)
+        - PLA is at flight idle plus or minus 5 degrees (Post Modsum 4W113558)
+        - CLA is at 1020 rpm
+        - Np is greater than 600 rpm
+        - Test request is selected
+        - PLA Beta status is zero within 15 seconds of starting the test (Post Modsum 4W113558)</p><!-- !!!! -->
+
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no dispatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display (Pre Modsum 4W113558), and unlimited dispatch for Post Modsum 4W113558.</p><!-- !!!! -->
+
+    <p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question (Pre Modsum 4W113558).</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>The TEST switch has been released prior to the test being completed </li>
+        <li>The PLA has been moved the wrong way during the test </li>
+        <li>The CLA has been moved during the test </li>
+        <li>The test select button has failed </li>
+        <li>The weight on wheels signal has failed </li>
+        <li>The test has taken too long </li>
+        <li>The PLA beta relay has failed to operate (Post Modsum 4W113558) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/pla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/cla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>

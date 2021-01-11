@@ -1,0 +1,22 @@
+<p><strong>P2.2 interstage Bleed Valve</strong></p>
+
+
+<p>The HBOVs bleed engine air from the main gas path to provide increased surge margin for engine handling during starting, steady state and transient operation. <br>
+The engine has two shut off valves, one at the engine station 2.2, to bleed low pressure compressor inlet air and the other located at engine station 2.7, to bleed high pressure compressor inlet air. </p>
+
+
+<p>Each FADEC channel commands an independent coil of a torque motor mounted inside the HBOVs.</p>
+
+<p><b>During engine start</b> the valve is positioned to maximum bleed. During normal engine operation, 
+the valve is modulated toward the closing position (according to a FADEC schedule).
+The valve is positioned by a command signal from the FADEC to the valve's torque motor.</p>
+
+<p>When the FADEC receives the LVDT position feedback signal, it commands the torque motor back to the null flapper rod position.This balances the forces on the valve and it remains stationary in its new position until the next FADEC command 
+is received.</p>
+
+<p><b>During engine shutdown,</b> the valve is commanded back to the full open position.
+The P2.2 valve provides redundancy in the event of a failure.</p>
+
+<p>The torque motor and LVDT each have 2 coils connected to 2 separately wired channels.
+In the event of a power loss to the torque motor, its null bias will cause the valve to open to its 
+full bleed position.</p>

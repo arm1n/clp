@@ -1,0 +1,65 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Last AUPC test failed - (Engine Fault Code 220/221)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-831</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of a failure of the propeller system to complete an AUPC test (during the autofeather/uptrim test).</p><!-- !!!! -->
+	
+	<p>Pre Modsum 4W113558, the fault isolation logic has determined that either AUPC TEST STATUS = 0 (test failed) or AUPC TEST ABORT = 1 (test aborted). Post Modsum 4W113558, the logic has determined that AUPC TEST STATUS = 0 (last test failed) and AUPC TEST ABORT = 0 (test not aborted).</p><!-- !!!! -->
+	
+	<p>The fault code is advisory and will not be annunciated to the flight crew. For Pre Modsum 4W113558, this fault code is designated as no dispatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display. For Post Modsum 4W113558, this fault code is designated as unlimited dispatch for TLD purposes, provided that repairs to correct and clear the fault are completed within 10 days of fault detection or within 150 flight hours of fault occurrence, whichever occurs later. Refer to the Continued Airworthiness Maintenance Tasks section of PMM 1096 Part 1. This fault code will not inhibit the autofeather advisory when PLA goes into the take−off range.</p><!-- !!!! -->
+	
+	<p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Test procedure incorrectly followed </li><!-- !!!! -->
+		<li>PEC </li>
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+	
+<br>
+</clp-card>

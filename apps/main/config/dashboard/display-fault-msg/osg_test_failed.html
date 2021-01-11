@@ -1,0 +1,59 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>OSG TEST FAILED</h4></strong></clp-info-red></div>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td>OSG TEST FAILED on ENG 1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 61-41-00-810-819</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>OSG TEST FAILED on ENG 2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 61-41-00-810-820</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<p> The OSG TEST FAILED message will have ND fault code latched in the Propeller Electronic Controller 1/2 (PEC1/PEC2). If the OSG test is not completed, a OSG TEST ABORT message will come.</p>
+	
+	<p>The OSG TEST FAILED message comes into view when a fault condition is sensed during an overspeed governor test. The ED POWERPLANT message will come into view.</p>
+	
+	<p>The OSG TEST FAILED message comes into view when the PEC1 senses a condition that follows during an overspeed governor test :</p>
+	
+	<ul>
+	<li>Blade angle is more than flight fine stop tolerance (between 13 and 19 degrees).</li>
+	<li>NP is more than 940 RPM.</li>
+</ul>
+	
+	<br>
+	<p>The OSG TEST FAILED message goes out of view after the PROP O’SPEED GOVERNOR toggle switch is released at the end of the test.</p>
+	
+	<p><clp-text-red>You can reset the OSG TEST FAILED message only after the fault is corrected, the fault code is cleared, and a successful test is completed.</clp-text-red></p>
+	
+	
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+

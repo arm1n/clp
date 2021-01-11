@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>SPEED 1 OPEN ( Status ) - (APU Fault Code 093-0 to 093-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-70-00-810-801</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>This task is for the centralized diagnostic system (CDS) fault message 093–1/2/3/4/5 SPEED 1 OPEN. This fault is set when thefull authority digital electronic controller (FADEC) senses an open circuit in the speed 1 sensor circuit. <strong>This fault will not stop auxiliary power unit (APU) operation.</strong></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Speed Sensor </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_speed_sensor.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

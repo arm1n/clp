@@ -1,0 +1,73 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> P2.2 Bleed Valve Torque Motor - (Engine Fault Code 779 and/or 913)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-831</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault codes are 779 and/or 913. These fault codes indicate disrupted signal from the P2.2 interstage bleed valve (written as "valve" in this procedure) torque motor.</p><!-- !!!! -->
+
+    <p>NOTE:
+        There are three LRUs that have a common power supply to their torque motors. A problem in the torque motor circuit of either LRU can generate fault codes for the other LRUs. When this occurs, a fault in the common circuit is detected by the FADEC and fault code 967 will be registered also. If this is the case, perform the FIM task for fault code 967 before the FIM task for fault code 779 and/or 913.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>P2.2 Interstage Bleed Valve </li>
+        <li>Control Wiring Harness </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/fadec.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/p22_intbleed_vlv.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            
+        </clp-grid-column>
+    </clp-grid>
+
+
+
+    <br>
+
+    <br>
+</clp-card>

@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong> Illegal overlay parameter - (Engine Fault Code 96/97)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-02-810-830</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+<br>
+
+
+	<p>This fault code is generated as a result of an illegal overlay parameter being used by the PEC software. This is an internal PEC fault.</p><!-- !!!! -->
+
+	<p>The fault isolation logic has determined that when overlaying is not enabled, the software has found that the overlayable parameter values are not the same as the default values.</p><!-- !!!! -->
+
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	<br>
+</clp-card>

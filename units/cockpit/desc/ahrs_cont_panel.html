@@ -1,0 +1,24 @@
+<p><strong>ATTITUDE AND HEADING REFERENCE UNIT CONTROL PANELS  (AHRS)</strong></p>
+
+
+<clp-tabs>
+  <clp-tab name="Descr.">
+		<p>The <b>ATT/HDG ALIGN</b> annunciator switch located on the AHRS Control Panel (AHCP) is pushed to make an Alignment Mode selection. An amber bar in the ATT/HDG ALIGN annunciator switch comes to show the alignment mode and the two Electronic Attitude Direction Indicators (EADI1, EADI2) show an ALIGNING message.
+</p>
+
+<div><b>Slaved Mode</b></div>
+<p>When functioning in the slaved mode for heading, the AHRU slaves its inertial heading with analog magnetic heading information calculated from analog signals from the flux valve. It uses data from the FDU to calculate the magnetic heading and compensate for heading error caused by directional gyro drift.</p>
+
+<div><b>Basic Mode</b></div>
+<p>In the normal mode, if the TAS parameter is not available, the basic mode is automatically started. Operation in BASIC mode will cause decreased attitude accuracy, and the EADI will behave like a conventional mechanical gimbaled gyro.<br> 
+A green light on the AHRS Control Panel will come on to indicate the Basic mode.</p>
+
+<div><b>DG Mode</b></div>
+<p>The AHRU is set to the DG mode, when the flux valve malfunctions or during degrade performance when flying close to the magnetic poles.</p>
+<br>
+	</clp-tab>
+	
+  <clp-tab name="Faults">
+	<clp-file path="./units/cockpit/desc/ahrs_cont_panel_faults.html"></clp-file>
+	</clp-tab>
+</clp-tabs>

@@ -1,0 +1,50 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>MISTRIM [TRIM NOSE DN] displayed on PFD</h4></strong></clp-info-red></div>
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-873</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+	<br>
+	
+	<p>The MISTRIM [TRIM NOSE DN] message is usually out of view and comes into view when conditions are as follows:</p>
+	<ul>
+		<li>Autopilot (AP) mode is set and the flight guidance module (FGM) senses that the autopilot pitch actuator unit (APAU-P) torque is more than the threshold (mistrim)</li>
+		<li>Torque sensing in the APAU-P has malfunctioned.</li>
+	</ul>
+	
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The APAU-P uses current limiting to limit the maximum torque that can be supplied to the flight controls.</clp-text-blue></p>
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The MISTRIM [NOSE DN] message is not shown when the AP mode is not set, or when the AP mode is set and the tactile control steering (TCS) mode is active.</clp-text-blue></p>
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The MISTRIM [NOSE DN] message shows that the control column is mistrimmed, and that there can be much more than usual control column force and pitch change when the AP mode is disengaged.</clp-text-blue></p>
+	
+	<p><clp-text-blue><strong>NOTE:</strong> The AP mode does not disengage automatically when a mistrim condition is sensed. But the AP mode will disengage if the APAU−P electrical torque limit is more than 96.5 in-lb.</clp-text-blue></p>
+
+	<br>
+	<br>
+	
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+

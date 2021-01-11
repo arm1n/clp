@@ -1,0 +1,60 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>IRS ALIGN FAULT message on FMS</h4></strong></clp-info-red></div>
+
+	<br>
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<ul>
+				<li>Perform extended alignment of IRS: </li>
+				<ul>Switch IRS to OFF, initialize one FMS to current position and wait until FMS and GNSS position match (page DATA 3/4).</ul>
+				<br>
+				<li>Switch IRS to NAV and push UPDATE SENSORS on FMS page NAV 3/3 (ignore IRS ALIGN FAULT on FMS).</li>
+				<ul>After 7 minutes alignment of IRS will be stuck at ALIGN (1) on IRS page -> push UPDATE SENSORS</ul>
+				<br>
+				<li>On FMS page NAV 3/3 again. After 1 to 3 minutes IRS shall be in NAV mode.</li>
+				<br>
+				<li>If IRS FAIL is displayed on FMS page DATA 2/4:</li>
+				<ul>reset circuit breaker <b>IRS 1 (L2)</b> -AVIONICS CB Panel</ul>
+				<ul>and perform IRS alignment as per Action 1</ul>
+			</ul>
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+
+
+
+	<br />
+
+
+</clp-card>

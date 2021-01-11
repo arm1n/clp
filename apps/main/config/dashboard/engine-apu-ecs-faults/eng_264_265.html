@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Torquemotor current - (Engine Fault Code 264/265)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-06-810-829</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	<p>This fault code is generated as a result of an apparent error in the drive current to the pitch control unit servo valve, detected during power up checks. This fault could be on either the active or standby lane.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that the current output varies by more than 2 mA from the test demand.</p><!-- !!!! -->
+	
+	<p>This fault code will be annuciated as a PEC caution on the ACWS. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Loose/dirty connectors </li><!-- !!!! -->
+		<li>PEC </li>
+		<li>Pitch control unit servo valve </li>
+		<li>PEC wiring harness </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+	
+<br>
+</clp-card>

@@ -1,0 +1,22 @@
+<p><strong>UPTRIM MESSAGE</strong></p>
+
+<div>The uptrim function is implemented in the PEC hardware, with cross-wing communication from the local PEC to the remote FADEC. Uptrim is armed by moving both PLAs to the rating detent. Uptrim is disarmed by moving either PLA below the detent.When the system is armed an uptrim will occur if:</div>
+
+<ul>
+	<li>Both torque signals drop below 25%</li>
+	<ul>or</ul>
+	<li>Both torque sensors show a speed of less than 80%</li>
+</ul>
+
+<p>An uptrim will cause the PEC to command the FADEC to change from the Normal Take-Off Power (NTOP) schedule, to the Maximum Take-Off Power schedule. An UPTRIM message will appear on the ED.</p>
+
+<br><br>
+
+
+<p><strong>UPTRIM ANNUNCIATION (white)</strong></p>
+<ul>
+	<li>displayed as soon as the increased uptrim power is request from the Fadec (MTOP engine mode is set by the FADEC).</li>
+	<li>MTOP is displayed by the rating annunciator if RDC TOP is not selected, else RDC TOP will remain</li>
+	<li>the message is presented in reverse video for the first 5 seconds of display to annunci- ate the status change</li>
+	<li>otherwise or if the data is invalid, nothing will be shown</li>
+</ul>

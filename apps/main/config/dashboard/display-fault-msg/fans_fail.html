@@ -1,0 +1,124 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>FANS FAIL</h4></strong></clp-info-red></div>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>FANS FAIL (Advisory)</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-25-00-810-805</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>FANS (Status)</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-25-00-810-801</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		<clp-tr>
+			<clp-td>O/C of the Avionics Cooling Fans</clp-td>
+			<clp-td>
+				<clp-link-pdf>AMM TASK 21-25-00-710-801</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+	<p>The ED shows the <b>FANS FAIL</b> message when one of the input/output modules (IOMs) senses that two or more cooling fans do not operate in the conditions that follow:</p>
+	<ul>
+		<li>Aircraft is airborne</li>
+		<li>Aircraft is on the ground and the flight compartment temperature is more than 10°C.</li>
+		<ul>
+			<clp-text-blue><strong>NOTE:</strong> The AVIONICS caution light will also come on.</clp-text-blue>
+		</ul>
+
+	</ul>
+	<br>
+	<br>
+	<p> The <b>FANS</b> message shows on the CDS in the conditions that follow:</p>
+	<ul>
+		<li>Defective right - hand zone temperature switch/sensor</li>
+		<li>Defective interface wiring between the cooling fan circuit breaker and the right - hand zone temperature switch/sensor</li>
+		<li> Defective interface wiring between the right - hand zone temperature switch/sensor and relay K5</li>
+		<li>Defective interface wiring between relay K5 and the fans.</li>
+
+	</ul>
+	<br>
+
+
+
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>A6</strong> FAN 1 PWR PRI</div>
+				<div><strong>M6</strong> FAN 1 PWR SEC</div>
+				<div><strong>B6</strong> FAN 3 PWR SEC </div>
+
+			</clp-td>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>R4</strong> FAN 2 PWR PRI </div>
+				<div><strong>L9</strong> FAN 2 PWR SEC </div>
+				<div><strong>S4</strong> FAN 3 PWR PRI </div>
+				<div><strong>K9</strong> KCOOLING FAN CONT   </div>
+
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+	<br />
+
+
+</clp-card>

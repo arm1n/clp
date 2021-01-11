@@ -1,0 +1,74 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> WoW A invalid - (Engine Fault Code 336/337)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-07-810-814</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault code is generated as a result of an apparent contradiction between the weight on wheels lane A signal and airspeed, either indicating that the aircraft is in flight at an unrealistic low airspeed or on the ground at an unrealistic high airspeed. This fault will be annunciated when the propeller is rotating.</p><!-- !!!! -->
+
+    <p>The fault isolation logic is indicating that weight on wheels A is present above 160 kts Cailibrated Air Speed ( CAS ) or that weight on wheels A is not present below 75 kts CAS or a discrepancy exists between the No. 1 radio altimeter and the No. 2 radio altimeter.</p><!-- !!!! -->
+
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. For Pre Modsum 4W113558, this fault code is designated as no dispatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display. For Post Modsum 4W113558, this fault code is designated as unlimited dispatch for TLD purposes, provided that repairs to correct and clear the fault are completed within 10 days of fault detection or within 150 flight hours of fault occurrence, whichever occurs later. Refer to the Continued Airworthiness Maintenance Tasks section of PMM 1096 Part 1.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PSEU (including proximity sensing devices) </li>
+        <li>Fuel control electrical wiring harness </li>
+        <li>Fuel control electrical wiring harness cleanliness/tightness </li>
+        <li>PEC </li>
+        <li>Radio altimeter and or diodes </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/wd/units/pseu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/antenna/units/rad_alt_units.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>

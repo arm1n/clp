@@ -1,0 +1,95 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>CAB OVR TMP 3 - (ECS Fault Code 7117)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b> CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-864</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b> CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-864</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>This fault isolation procedure is for when the central diagnostic system (CDS) shows the CAB OVR TMP3 message, Fault Code 7117. This is a DUCT HOT Detection Monitor Fault.NOTE: The acronym CAB is interchangeable with the term CABIN.</li>
+		
+		<li>The caution and warning panel (CAWP) CABIN DUCT HOT caution light also comes on.NOTE: The PACK HOT lamp stays on until the condition no longer exists and the PACK Auto/Man/Off switch has been set to OFF.</li>
+		
+		<li>The CDS shows this message when the system has determined that both sensing elements of the dual CABIN pack outlet temperature sensor are above 210.0 °F (98.9 °C) for 5 seconds. When this fault sets, the CABIN duct hot caution lamp comes on and the CABIN turbine SOV is commanded closed which shuts down the CABIN ACM.</li>
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>ECU</li>
+		<li>Pack Bypass Valve Filter</li>
+		<li>Pack Flow Control and Shut−off Valve Filter</li>
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/uf/units/ecsecu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/bleed/units/pack_byp_vlv.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+            <clp-card name="UNIT">
+				<clp-file path="./units/bleed/units/pack_flowcont_sov.html"></clp-file>
+			</clp-card>
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

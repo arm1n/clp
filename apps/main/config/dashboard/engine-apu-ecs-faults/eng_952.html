@@ -1,0 +1,89 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong> No Engine Light Up - (Engine Fault Code 952)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+	<br>
+	<br>
+	<div>
+		<strong>No Engine Light Up - </strong>
+		<clp-link-pdf>FIM TASK 73-20-00-810-818</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+	<br>
+
+	<div>
+		<strong>Engine #1 (#2), Slow Acceleration - </strong>
+		<clp-link-pdf>FIM TASK 71-00-00-810-807</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+<br>
+	<p>The fault isolation procedure that follows is for engines that do not ignite after 10 seconds with the fuel supply on.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Igniter Plugs </li>
+		<li>Ignition Exciter </li>
+		<li>Ignition Cables </li>
+		<li>Fuel Supply </li>
+		<li>Fuel Metering Unit </li>
+		<li>Fuel Flowmeter </li>
+		<li>Flow Divider </li>
+		<li>Starter System </li>
+		<li>Fuel Boost Pump System </li><!-- !!!! -->
+		<li>Fuel Nozzles </li>
+		<li>Low Pressure Fuel Shut−off Valve </li>
+		<li>Fuel Heater </li>
+		<li>Fuel Filter </li>
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fmu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/ign_exciter.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fuel_nozz.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	<br>
+
+	<br>
+</clp-card>

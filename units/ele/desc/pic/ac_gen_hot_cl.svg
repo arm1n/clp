@@ -1,0 +1,16 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 150 43.6" xml:space="preserve">
+  <path fill="#343434" d="M81.1 7.4h57.8v26.3H81.1z"/>
+  <text transform="translate(86.37 19.247)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    #2 AC GEN
+  </text>
+  <text transform="translate(100.77 29.547)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    HOT
+  </text>
+  <path fill="#343434" d="M11.1 7.4h57.8v26.3H11.1z"/>
+  <text transform="translate(16.37 19.247)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    #1 AC GEN
+  </text>
+  <text transform="translate(30.77 29.547)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    HOT
+  </text>
+</svg>

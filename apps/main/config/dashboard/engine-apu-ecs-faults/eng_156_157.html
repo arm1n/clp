@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>MPU 7P IN extra/missing pulses - (Engine Fault Code 156/157)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-809</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent loss of some of the MPU pulses from the master (LH) PEC to the slave (RH) PEC. This fault will result in the loss of synchrophase control, and should only be generated on the RH PEC.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that there is a lack of phase signals on the MPU 7P IN signal.</p><!-- !!!! -->
+	
+	<p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>LH powerplant MPU (with fault code 160) </li><!-- !!!! -->
+		<li>LH powerplant PEC </li>
+		<li>RH powerplant PEC </li>
+		<li>Electrical Wiring </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+    
+
+
+	
+	
+<br>
+</clp-card>

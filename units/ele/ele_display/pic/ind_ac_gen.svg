@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 107.7 92.9" style="enable-background:new 0 0 107.7 92.9;" xml:space="preserve">
+<rect x="2.3" y="0.9" style="fill:#1D1D1B;" width="103.1" height="68.2"/>
+<g>
+	
+		<path id="Layer2_0_MEMBER_0_MEMBER_4_MEMBER_1_MEMBER_0_MEMBER_7_1_STROKES_2_" style="fill:none;stroke:#FFFFFF;stroke-width:0.4;stroke-miterlimit:5;" d="
+		M91.6,22.9H50v41.2h41.6V22.9z M50,22.9H23.5v41.2h26.9"/>
+	<text transform="matrix(1 0 0 1 28.0927 13.107)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">AC GEN 1</text>
+	<text transform="matrix(1 0 0 1 27.871 20.8931)" style="fill:#438CCB; font-family:'ArialMT'; font-size:7.8687px;">VOL</text>
+	<text transform="matrix(1 0 0 1 64.0829 20.8931)" style="fill:#438CCB; font-family:'ArialMT'; font-size:7.8687px;">LOAD</text>
+	<text transform="matrix(1 0 0 1 24.5146 36.0318)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:10.1972px;">1 1 5</text>
+	<text transform="matrix(1 0 0 1 24.5146 48.3912)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:10.1972px;">1 1 5</text>
+	<text transform="matrix(1 0 0 1 24.5146 61.8453)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:10.1972px;">1 1 5</text>
+	<text transform="matrix(1 0 0 1 12.9101 36.231)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0733px;">A</text>
+	<text transform="matrix(1 0 0 1 12.9101 48.5933)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0733px;">B</text>
+	<text transform="matrix(1 0 0 1 12.9101 61.607)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0733px;">C</text>
+	<text transform="matrix(1 0 0 1 66.5527 35.9254)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">. 06</text>
+	<text transform="matrix(1 0 0 1 66.5527 48.5113)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">. 06</text>
+	<text transform="matrix(1 0 0 1 66.5527 61.524)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">. 06</text>
+</g>
+<polygon style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" points="41.9,77.7 31.7,77.7 32,71.9 28.1,71.9 36.9,63.5 
+	45.8,71.9 41.9,71.9 "/>
+<g>
+	<circle style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" cx="36.9" cy="82.7" r="7.9"/>
+	<text transform="matrix(1 0 0 1 33.6943 86.1407)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:9.9417px;">1.</text>
+</g>
+<polygon style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" points="77.9,77.7 67.7,77.7 68,71.9 64.1,71.9 72.9,63.5 
+	81.8,71.9 77.9,71.9 "/>
+<g>
+	<circle style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" cx="72.9" cy="82.7" r="7.9"/>
+	<text transform="matrix(1 0 0 1 69.6943 86.1407)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:9.9417px;">2.</text>
+</g>
+</svg>

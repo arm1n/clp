@@ -1,0 +1,72 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> P3 SIGNAL RELATED FAULT (STATUS) - (Engine Fault Code 724)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-894</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>The fault isolation procedure that follows is to address the Full Authority Digital Electronic Control (FADEC) fault codes. The registered fault code is 724.</p><!-- !!!! -->
+
+    <p>This fault code indicates a P3 signal intermittent fault.</p><!-- !!!! -->
+
+    <p>Refer to <clp-link-pdf>FIM TASK 73-20-00-810-801</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr> for a description of the type of fault codes and possible deferral opportunities.</p><!-- !!!! -->
+
+    <p>Because this is an intermittent fault, identification of the defective component can rely to the replacement of the suspect Line Replaceable Units (LRU) and monitoring the results. If this fault code is accompanied with fault codes 740, 789 and/or 790, please refer to <clp-link-pdf>FIM TASK 73-20-00-810-812</clp-link-pdf> <clp-link-tr> (TR-FIM)</clp-link-tr> for more detailed troubleshooting.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>P3 transducer </li>
+        <li>Control wiring harness (FADEC to P3 transducer) </li>
+        <li>FADEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/p3_transd.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

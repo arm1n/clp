@@ -1,0 +1,67 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> LOW BETA lamp drive fault - (Engine Fault Code LOW BETA lamp drive fault)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-07-810-817</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault code is generated as a result of an apparent indication for the Low BETA lamp to be illuminated without being commanded. This is an internal PEC fault.</p><!-- !!!! -->
+
+    <p>The fault isolation logic has determined that LOW PITCH (demand) is off and (LOW PITCH VMON = ON).</p><!-- !!!! -->
+
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+
+    <br>
+</clp-card>

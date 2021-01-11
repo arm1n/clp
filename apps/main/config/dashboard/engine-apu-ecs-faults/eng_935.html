@@ -1,0 +1,72 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Fuel Metering Unit (FMU) Metering Valve - (Engine Fault Code 825,935,949,954 and 976)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-803</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault codes are 825 (metering valve NULL position check), 935 (metering valve tracking check), 949 (failed to start due to closed metering valve), 954 (shut off valve seal leak) and 976 (metering valve failure during shutdown).</p><!-- !!!! -->
+
+    <p>Fault code 976 will also illuminate the FADEC FAIL light to indicate that the engine should not be started until the FMU is changed, due to a possibility of a hot start.</p><!-- !!!! -->
+    
+    <p>These fault codes indicate a mechanical problem within the fuel metering unit (FMU).</p><!-- !!!! -->
+    
+    <p>Fault code 976 will also illuminate the FADEC FAIL light to indicate that the engine should not be started until the FMU is changed, due to a possibility of a hot start.</p><!-- !!!! -->
+
+    <p>Refer to FIM TASK 73−20−00−810−801 for a description of the type of fault codes and possible deferral opportunities.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>FMU </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fmu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

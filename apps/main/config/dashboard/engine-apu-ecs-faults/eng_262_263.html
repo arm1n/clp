@@ -1,0 +1,63 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Dummy load fault - (Engine Fault Code 262/263)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-06-810-819</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of the apparent inability of the standby lane to output the required current to the Pitch Control Unit servo valve when using a dummy load within the PEC. This is an internal PEC fault.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that the standby lane drive current to the PCU servo valve is not within 3mA of the required value when using a dummy load within the PEC.</p><!-- !!!! -->
+	
+	<p>This fault code will be annunciated as a PEC caution on the ACWS. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+<br>
+</clp-card>

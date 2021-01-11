@@ -1,0 +1,51 @@
+<p><strong>Fault History Menu Item</strong></p>
+
+<p>The “Rigging Help” sub-menu provides assistance during the installation and maintenance of individual Proximity Sensors installed on the aircraft.</p>
+
+
+<clp-table border>
+	<clp-tr>
+		<clp-td>
+
+			<clp-img src="./apps/pseu/config/pseu-simulator/fault_history/fault_history_help_display.svg" width="400"></clp-img>
+
+		</clp-td>
+		<hr>
+		
+		<clp-td>
+			<clp-img src="./units/icons/step1.svg" width="25" icon></clp-img> <strong> PROXIMITY SENSOR ABBREVIATION</strong>
+					<ul>
+						<li><strong>NGDRCL</strong> (NOSE GEAR DOORS CLOSED)</li>
+						
+					</ul>
+			
+			<hr>
+			<div><clp-img src="./units/icons/step2.svg" width="25" icon></clp-img><strong> FLIGHT LEG</strong></div>
+					<ul>
+						<li><strong>The number of the flight leg in which the fault occurred</strong> </li>
+						<p>Leg #0 is the current flight leg....up to #31.</p>
+					</ul>
+			<hr>
+			<div><clp-img src="./units/icons/step3.svg" width="25" icon></clp-img><strong> TARGET CONDITION</strong></div>
+					<ul>
+						<li><strong>UNREASONABLE FAR</strong> (Valid Target Near condition)</li>
+						<p>If one proximity sensor does not match the aircraft mode, it is flagged as an “Unreasonableness” fault. For example, if the aircraft is in normal cruise and an uplock sensor becomes target “far”, a fault is logged. This is because a target far is not a “reasonable” condition for this sensor.</p>
+					</ul>
+		</clp-td>
+	</clp-tr>
+</clp-table>
+
+<br>
+
+
+<clp-table>
+	<clp-tr>
+		<clp-td>Rigging of the Proximity Sensors</clp-td>
+		<clp-td>
+			<clp-link-pdf>AMM TASK 32-61-06-830-801</clp-link-pdf>
+		</clp-td>
+		<clp-td>
+			<clp-link-tr>(TR-AMM)</clp-link-tr>
+		</clp-td>
+	</clp-tr>
+</clp-table>

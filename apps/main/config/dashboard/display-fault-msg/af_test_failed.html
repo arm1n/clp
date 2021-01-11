@@ -1,0 +1,119 @@
+<clp-card name="Description">
+
+	
+	<div>
+		<clp-info-red><strong><h4>A/F TEST FAILED</h4></strong></clp-info-red>
+	</div>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td>A/F TEST FAILED - ENG 1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 61-41-00-810-807</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>A/F TEST FAILED - ENG 2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 61-41-00-810-808</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>Propeller #1 (#2),<br>Autofeather test fails</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 61-20-00-810-805</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>O/C of the Propeller <br>Autofeather and Uptrim System</clp-td>
+			<clp-td>
+				<clp-link-pdf>AMM TASK 61-20-00-710-810</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+
+	</clp-table>
+	<br>
+	<br>
+
+	<clp-info-blue>
+		<p><b>NOTE:</b></p>
+		<p> During fault isolation for OSG and AF test faults, the tests must be <b>done again</b> after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p>
+	</clp-info-blue>
+	<br>
+	<br>
+	<div>
+		The A/F TEST FAILED powerplant message comes into view when a fault condition is sensed during an autofeather test. It also prevents the A/F SELECT and A/F ARM powerplant messages from coming into view again until the discrepancy is repaired.
+	</div>
+
+	<div>The A/F TEST FAILED powerplant message comes into view when the propeller electronic control 1 (PEC1) senses a condition that follows:</div>
+
+	<ul>
+		<li>The condition that caused the A/F SELECT powerplant message to incorrectly not come into view</li>
+		<li>The condition that caused the A/F ARM powerplant message to incorrectly not come into view</li>
+		<li>Internal PEC automatic underspeed protection circuit (AUPC) ARM MONITOR is not armed when the arming conditions are set</li>
+		<li> Internal PEC AUPC ARM MONITOR armed when the arming conditions are not set</li>
+		<li>Internal PEC AUPC THRESHOLD MONITOR is inactive (no AUPC drive signal) with NQA/NQB more than 83% (845 rpm)</li>
+		<li>Internal PEC AUPC TEST STATUS is test not passed</li>
+		<li>Internal PEC AUPC TEST ABORT is test aborted</li>
+		<li>AUPC is activated (possibly by flight deck mishandling)</li>
+		<br>
+	</ul>
+	<div>The ED POWERPLANT message will not come into view.</div>
+	<div>The A/F TEST ABORT powerplant message comes into view during an autofeather test.</div>
+	<br>
+	<div> The autofeather system will do an autofeather test, an uptrim test, and an AUPC test when conditions are as follows:</div>
+	<ul>
+		<li>Aircraft is on the ground</li>
+		<li> No. 1 and No. 2 CONDITION lever position is at FUEL OFF or START/FEATHER</li>
+		<li> No. 1 and No. 2 POWER lever position is at DISC</li>
+		<li>The FUEL/ENGINE CONTROL panel AUTOFEATHER SELECT annunciator switch is pushed.</li>
+	</ul>
+	<br>
+	<div>
+		<clp-text-blue><strong>NOTE:</strong><br> The aircraft on the ground condition is sensed with the proximity sensor electronics unit (PSEU) or the radio altimeter (RA) system.</clp-text-blue>
+	</div>
+	<br>
+	<div>An A/F TEST IN PROG and then an A/F TEST ABORT, A/F TEST PASSED, or A/F TEST FAIL powerplant message is also shown. If the A/F TEST FAIL powerplant message comes into view, the A/F SELECT and A/F ARM powerplant messages will not come into view.</div>
+
+	<br>
+
+	<div>
+		<clp-text-blue><b>NOTE:</b><br> If the AP switch is stuck, it continues to set the mode. If
+			any other switch is stuck, its operation is prevented.</clp-text-blue>
+	</div>
+
+	<div>The ED UPTRIM powerplant message also comes into view and then goes out of view. The engine mode message changes from NTOP to MTOP while the UPTRIM powerplant is in view. Also, the torque bug changes from 90% to 100% while the UPTRIM powerplant message is in view.</div>
+	<br>
+	<div>
+		<clp-text-blue><strong>NOTE:</strong><br> The AUTOFEATHER SELECT annunciator switch selection is supplied through the two PECs, PEC1 and PEC2, to their related full authority digital electronic control (FADEC), FADEC1 and FADEC2.<br><br>The A/F TEST ABORT powerplant message comes into view when the FADEC supplies valid data to the ED. The A/F TEST ABORT message goes out of view if the data is invalid.</clp-text-blue>
+	</div>
+	<br>
+	<div>
+		<clp-text-blue><strong>NOTE:</strong><br> The autofeather test is manually set for take−off only. It will automatically feather the propeller after an engine failure and give power uptrim of the operating engine.</clp-text-blue>
+	</div>
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+</clp-card>

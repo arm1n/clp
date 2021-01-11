@@ -1,0 +1,114 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>FADEC2</h4></strong></clp-info-red></div>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>FADEC2/DU on ED</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 77-31-00-810-815</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>FADEC2/DU on MFD1 </clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 77-31-00-810-822</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		<clp-tr>
+			<clp-td>FADEC2/DU on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 77-31-00-810-825</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+	<p><b>FADEC2/DU FAIL, ED (Advisory)</b></p>
+	<p>The ED shows this indication when it senses that a Full Authority Digital Electronic Control 2 (FADEC 2) output channel has malfunctioned for more than 10 seconds while the aircraft is less than 50 KIAS and the engines are not operating.</p>
+	
+	<br>
+	<br>
+	<p><b>FADEC2/DU FAIL, MFD1 (Advisory)</b></p>
+	<p> The MFD1 shows this indication when it is set to show an engine display (ED) reversion and senses that a full authority digital electronic control 2 (FADEC 2) output channel has malfunctioned for more than 10 seconds while the aircraft is less than 50 KIAS and the engines are not operating.</p>
+	
+	<br>
+	<br>
+	<p><b>FADEC2/DU FAIL, MFD2 (Advisory)</b></p>
+	<p>The MFD2 shows this indication when it is set to show an engine display (ED) reversion and senses that a full authority digital electronic control 2 (FADEC 2) output channel has malfunctioned for more than 10 seconds while the aircraft is less than 50 KIAS and the engines are not operating.</p>
+	<br>
+
+
+
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>K4</strong> ENG2 FADEC A</div>
+				
+
+			</clp-td>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>K4</strong> ENG2 FADEC B</div>
+				
+
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+	<br />
+
+
+</clp-card>

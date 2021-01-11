@@ -1,0 +1,15 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 483 35" xml:space="preserve">
+  <style>
+    .st0{fill:#333}.st1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round}.st2{fill:#f93}.st3{font-family:&apos;Tahoma-Bold&apos;}.st4{font-size:8.6162px}
+  </style>
+  <path class="st0" d="M63.8 31.5V4.4H4.3v27.1h59.5z" id="Layer0_0_MEMBER_5_MEMBER_0_FILL"/>
+  <path id="Layer0_0_MEMBER_5_MEMBER_0_1_STROKES" class="st1" d="M63.8 31.5H4.3V4.4h59.5v27.1z"/>
+  <path class="st0" d="M127.8 31.7V4.6H68.3v27.1h59.5z" id="Layer0_0_MEMBER_7_MEMBER_0_FILL"/>
+  <path id="Layer0_0_MEMBER_7_MEMBER_0_1_STROKES" class="st1" d="M127.8 31.7H68.3V4.6h59.5v27.1z"/>
+  <text transform="translate(9.13 16.5)">
+    <tspan x="0" y="0" class="st2 st3 st4">ROLL SPLR</tspan><tspan x="1.5" y="10.3" class="st2 st3 st4">INBD HYD</tspan>
+  </text>
+  <text transform="translate(72.764 16.5)">
+    <tspan x="0" y="0" class="st2 st3 st4">ROLL SPLR</tspan><tspan x="-2.3" y="10.3" class="st2 st3 st4">OUTBD HYD</tspan>
+  </text>
+</svg>

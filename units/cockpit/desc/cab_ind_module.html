@@ -1,0 +1,47 @@
+<p><strong>Cabin Indication Module (CIM)</strong></p>
+
+<clp-table>
+	<clp-tr>
+		<clp-td width="35%"><clp-img src="./units/bleed/desc/pic/cabin_press.svg" width="200" ></clp-img></clp-td>
+		<clp-td width="65%"><p>will come on if the cabin Cabin altitude is more than 9,800 feet.</p></clp-td>
+	</clp-tr>
+</clp-table>
+
+<br>
+<p>The cabin indication module is located in the flight compartment on the overhead panel and displays differential pressure, cabin altitude and cabin altitude rate of change.<br> The cabin indication module is interfaced with the CPC and ADU's for differential, altitude and rate indications. The differential pressure indicator gives a differential pressure from 0.5 to 5.8 ± 0.15 psi (-3.45 to 40 ±1.03 kPa) between the cabin pressure and the outside static pressure.</p>
+<p>An internal absolute cabin pressure sensor performs cabin altitude indication. This sensor's information is 
+transmitted on an ARINC 429 data bus to the CPC. This pressure sensor also gives the excessive altitude warning to the Cabin Pressure Controller and the CABIN PRESS warning light. </p>
+
+<p><clp-text-blue><strong>NOTE:</strong> The CABIN PRESS warning light on the Caution and Warning panel 
+comes on when the cabin altitude reaches 10,000 ft.</clp-text-blue></p>
+
+<ul>
+	<li><b>1. Manual cabin Aft/Differential pressure schedule</b></li>
+	<ul>Used as a guide to set cabin differential pressure when using the MAN DIFF switch in MAN mode.</ul>
+	<br>
+	<li><b>2. DIFF PRESSURE Indicator</b></li>
+	<ul>Shows the differential pressure between cabin and aircraft flight al- titude pressure in pounds per square inch.</ul>
+	<br>
+	<li><b>3. CABIN ALT Indicator</b></li>
+	<ul>Shows the cabin altitude in thousands of feet.</ul>
+	<br>
+	<li><b>4. CABIN ALTITUDE RATE OF CLIMB Indicator</b></li>
+	<ul>Used as a guide to set cabin differential pressure when using the MAN DIFF switch in MAN mode.</ul>
+</ul>
+<br>
+
+<div><b>The interfaces for the pressurization system are:</b></div>
+<ul>
+	<li>Power Lever Angle (60 Micro Switch) right lever only. </li>
+	<li>PSEU (WOW)</li>
+	<li>ESC Controller</li>
+	<li>IFC 1 (CDS)</li>
+	<li>ADU1 and ADU2</li>
+	<li>Caution and Warning System (CABIN PRESS)</li>
+	<li>28Vdc Left Main Bus( Cabin Press Auto Cont circuit breaker).</li>
+
+</ul>
+
+
+
+<br>

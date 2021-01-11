@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="938.3px" height="749px" viewBox="0 0 938.3 749" style="enable-background:new 0 0 938.3 749;" xml:space="preserve">
+<g id="clp-inbd-spoiler">
+	<rect id="clp-inbd-spoiler-hl" x="11.3" y="352.9" style="fill:none;" width="126.1" height="47.6"/>
+</g>
+<g id="clp-flap-sys">
+	<rect id="clp-flap-sys-hl" x="222.7" y="273.2" style="fill:none;" width="104.4" height="35.3"/>
+</g>
+<g id="clp-main-brakes">
+	<rect id="clp-main-brakes-hl" x="11" y="415.6" style="fill:none;" width="126.1" height="68.9"/>
+</g>
+<g id="clp-emerg-brakes">
+	<rect id="clp-emerg-brakes-hl" x="770.7" y="480.6" style="fill:none;" width="158.2" height="47.4"/>
+</g>
+<g id="clp-outb-spoiler">
+	<rect id="clp-outb-spoiler-hl" x="770.7" y="402.8" style="fill:none;" width="158.2" height="47.4"/>
+</g>
+<g id="clp-gear">
+	<rect id="clp-gear-hl" x="771" y="345.3" style="fill:none;" width="158.2" height="47.4"/>
+</g>
+<g id="clp-nws">
+	<rect id="clp-nws-hl" x="771" y="287.8" style="fill:none;" width="158.2" height="47.4"/>
+</g>
+<g id="clp-lower-rud">
+	<rect id="clp-lower-rud-hl" x="145.2" y="668.5" style="fill:none;" width="88.5" height="47.4"/>
+</g>
+<g id="clp-upper-rud">
+	<rect id="clp-upper-rud-hl" x="672.6" y="668.5" style="fill:none;" width="88.1" height="47.4"/>
+</g>
+<g id="clp-elev-outb">
+	<path id="clp-elev-outb-hl" style="fill:none;" d="M20.6,591.4h145.5v47.4H20.6V591.4z M214,591.1v47.4h145.5v-47.4H214z"/>
+</g>
+<g id="clp-elev-cent">
+	<path id="clp-elev-cent-hl" style="fill:none;" d="M547.2,590.9h146.1v47.4H547.2V590.9z M740.1,591.4v47.4h146.1v-47.4H740.1z"/>
+</g>
+<g id="clp-elev-inbd">
+	<path id="clp-elev-inbd-hl" style="fill:none;" d="M297.8,514.4h139.8v44.5H297.8V514.4z M474.9,514.6v44.5h139.8v-44.5H474.9z"/>
+</g>
+<g id="clp-hyd3-accu">
+	<rect id="clp-hyd3-accu-hl" x="297.8" y="428.4" style="fill:none;" width="139.8" height="44.5"/>
+</g>
+<g id="clp-hyd3-bootst-accu">
+	<rect id="clp-hyd3-bootst-accu-hl" x="474.9" y="428.6" style="fill:none;" width="139.8" height="44.5"/>
+</g>
+<g id="clp-alt-ext">
+	<rect id="clp-alt-ext-hl" x="403" y="670.5" style="fill:none;" width="158.7" height="63.3"/>
+</g>
+<g id="clp-hyd-ptu">
+	<path id="clp-hyd-ptu-hl" style="fill:none;" d="M555.6,190.2H357c-1.8,0-3.4,1-3.4,2.2v24.1c0,1.2,1.5,2.2,3.4,2.2h41.5
+		c-13,4.1-22.5,16.3-22.5,30.6c0,17.7,14.4,32.1,32.1,32.1c9.6,0,18.2-4.2,24.1-10.8h48.5c5.9,6.4,14.3,10.4,23.7,10.4
+		c17.7,0,32.1-14.4,32.1-32.1c0-13.9-8.8-25.7-21.1-30.2h40.3c1.8,0,3.2-0.9,3.2-2.2v-24.1C558.9,191.2,557.4,190.2,555.6,190.2z"/>
+</g>
+<g id="clp-alt-ext-handpump">
+	<ellipse id="clp-alt-ext-handpump-hl" style="fill:none;" cx="337.4" cy="702.3" rx="34.5" ry="34.5"/>
+</g>
+<g id="clp-hyd-isol-vlv-lh">
+	<path id="clp-hyd-isol-vlv-lh-hl" style="fill:none;" d="M159.1,275.8c-4.6,0-8.8,1.8-12,4.7H17.7c-1.8,0-3.4,1-3.4,2.2v22.1
+		c0,1.2,1.5,2.2,3.4,2.2h129.4c3.2,2.9,7.4,4.7,12,4.7c9.9,0,17.9-8,17.9-17.9C177,283.8,168.9,275.8,159.1,275.8z"/>
+</g>
+<g id="clp-hyd-isol-vlv-rh">
+	<path id="clp-hyd-isol-vlv-rh-hl" style="fill:none;" d="M886.6,256.9H758.3c-3.2-2.9-7.4-4.7-12-4.7c-9.9,0-17.9,8-17.9,17.9
+		s8,17.9,17.9,17.9c4.6,0,8.8-1.8,12-4.7h128.5c1.8,0,3.2-0.9,3.2-2.2V259C889.9,257.9,888.4,256.9,886.6,256.9z"/>
+</g>
+<g id="clp-hyd-ptu-sel-vlv">
+	<path id="clp-hyd-ptu-sel-vlv-hl" style="fill:none;" d="M347.4,185.5h-48.2c-0.6,0-1.2,0.5-1.2,1.2v43.5c0,0.6,0.5,1.2,1.2,1.2h2
+		V249c0,11.9,9.6,21.5,21.5,21.5s21.5-9.6,21.5-21.5c0-0.6,0-1.2-0.1-1.8v-15.8h3.3c0.6,0,1.1-0.5,1.1-1.2v-43.5
+		C348.6,186.1,348.1,185.5,347.4,185.5z"/>
+</g>
+<g id="clp-hyd1-bal-relvlv">
+	<path id="clp-hyd1-bal-relvlv-hl" style="fill:none;" d="M258.2,196.1H202c-0.6,0-1.2,0.5-1.2,1.2v32.5c0,0.6,0.5,1.2,1.2,1.2h6
+		v17.6c0,11.9,9.6,21.5,21.5,21.5s21.5-9.6,21.5-21.5c0-0.6,0-1.2-0.1-1.8V231h7.3c0.6,0,1.1-0.5,1.1-1.2v-32.5
+		C259.4,196.7,258.8,196.1,258.2,196.1z"/>
+</g>
+<g id="clp-dc-motor-pump">
+	<path id="clp-dc-motor-pump-hl" style="fill:none;" d="M618.8,361.7H488.1c-5.5-12.2-17.7-20.7-32-20.7c-19.3,0-35,15.7-35,35
+		s15.7,35,35,35c14.2,0,26.5-8.5,32-20.7h130.8c1.2,0,2.1-0.9,2.1-2.2V364C621,362.7,620,361.7,618.8,361.7z"/>
+</g>
+<g id="clp-hyd-spu">
+	<path id="clp-hyd-spu-hl" style="fill:none;" d="M332.6,55.4H194.4c-1.2,0-2.2,1-2.2,2.2v52.1c0,1.2,1,2.2,2.2,2.2h41.5
+		c-6.3,6.8-10.2,15.9-10.2,25.9c0,20.9,17,37.9,37.9,37.9c20.9,0,37.9-17,37.9-37.9c0-10-3.9-19.1-10.2-25.9h41.6
+		c1.2,0,2.1-0.9,2.1-2.2V57.6C334.8,56.4,333.8,55.4,332.6,55.4z"/>
+</g>
+<g id="clp-eng-hyd-pump">
+	<path id="clp-eng-hyd-pump-hl" style="fill:none;" d="M787.8,57.6v52.1c0,1.3-0.9,2.2-2.1,2.2h-41.6c6.3,6.8,10.2,15.9,10.2,25.9
+		c0,20.9-17,37.9-37.9,37.9s-37.9-17-37.9-37.9c0-10,3.9-19.1,10.2-25.9h-41.5c-1.2,0-2.2-1-2.2-2.2V57.6c0-1.2,1-2.2,2.2-2.2h138.2
+		C786.8,55.4,787.8,56.4,787.8,57.6z M175,55.4H36.8c-1.2,0-2.2,1-2.2,2.2v52.1c0,1.2,1,2.2,2.2,2.2h41.5
+		c-6.3,6.8-10.2,15.9-10.2,25.9c0,20.9,17,37.9,37.9,37.9s37.9-17,37.9-37.9c0-10-3.9-19.1-10.2-25.9h41.6c1.2,0,2.1-0.9,2.1-2.2
+		V57.6C177.2,56.4,176.2,55.4,175,55.4z"/>
+</g>
+<g id="clp-hyd-brake-accu">
+	<path id="clp-hyd-brake-accu-hl" style="fill:none;" d="M869.7,538.4h-99.1v-26.8c0-1.2-1-2.2-2.2-2.2h-42.2c-1.2,0-2.2,1-2.2,2.2
+		v62.1c0,1.2,1,2.2,2.2,2.2h31.3h11h101.3c1.2,0,2.1-0.9,2.1-2.2v-33.1C871.9,539.4,870.9,538.4,869.7,538.4z"/>
+</g>
+<g id="clp-hyd3-isol-vlv">
+	<circle id="clp-hyd3-isol-vlv-hl" style="fill:none;" cx="456.6" cy="486.1" r="19.3"/>
+</g>
+<g id="clp-system">
+	<path d="M133.5,291.7c0.3,0,0.5,0,0.8,0.1l0.7,0.2l0.9,0.5h0.2v-1.9c-0.3-0.1-0.7-0.2-1.2-0.4c-0.4-0.1-0.9-0.2-1.5-0.2
+		s-1.1,0.1-1.5,0.2s-0.8,0.3-1.1,0.5c-0.3,0.3-0.5,0.6-0.6,0.9c-0.2,0.3-0.2,0.6-0.2,1c0,0.6,0.1,1.1,0.4,1.4s0.7,0.6,1.3,0.8
+		l1.5,0.4c0.3,0.1,0.5,0.2,0.6,0.2c0.1,0.1,0.2,0.2,0.2,0.4c0,0.2-0.1,0.4-0.4,0.5s-0.6,0.1-0.9,0.1s-0.6,0-0.9-0.1l-0.8-0.2
+		l-0.6-0.4l-0.4-0.3h-0.2v2c0.3,0.2,0.8,0.3,1.2,0.5c0.5,0.1,1,0.1,1.6,0.1s1.2-0.1,1.6-0.2s0.8-0.3,1.1-0.6
+		c0.3-0.2,0.5-0.5,0.8-0.8c0.2-0.3,0.2-0.7,0.2-1.1c0-0.6-0.1-1-0.4-1.3c-0.3-0.4-0.7-0.6-1.2-0.8l-1.5-0.4
+		c-0.4-0.1-0.6-0.2-0.8-0.3c-0.1-0.1-0.2-0.2-0.2-0.4c0-0.2,0.1-0.4,0.4-0.5C132.9,291.8,133.2,291.7,133.5,291.7 M122.6,291.1
+		c-0.7,0.8-1.1,1.8-1.1,3c0,1.3,0.4,2.3,1.2,3c0.8,0.7,1.9,1,3.3,1h1l1.5-0.4l0.5-0.2v-2h-0.2l-0.9,0.6l-0.8,0.2
+		c-0.3,0.1-0.5,0.1-0.8,0.1s-0.6,0-0.9-0.1s-0.5-0.2-0.7-0.3c-0.2-0.2-0.4-0.4-0.5-0.6s-0.2-0.5-0.2-0.9h5.2v-0.8
+		c0-1.2-0.3-2.1-0.9-2.7s-1.5-1-2.6-1C124.2,290,123.2,290.4,122.6,291.1 M123.9,293.1c0-0.5,0.2-0.8,0.4-1.1
+		c0.3-0.3,0.6-0.5,1.1-0.5s0.8,0.1,1,0.4s0.3,0.6,0.4,1.1h-2.9 M98,287.8l-2.2,6.9l-2.2-6.9h-2.7l3.5,10.2h2.7l3.5-10.2H98
+		 M102.8,291.9c0.4-0.1,0.7-0.1,1-0.1c0.6,0,1.1,0.1,1.4,0.2c0.3,0.2,0.5,0.4,0.5,0.9l0,0l-2,0.2c-0.6,0.1-1.1,0.2-1.5,0.4
+		c-0.4,0.2-0.7,0.5-1,0.8c-0.2,0.4-0.3,0.8-0.3,1.4c0,0.7,0.2,1.3,0.6,1.7c0.5,0.5,1,0.7,1.7,0.7c0.4,0,0.6,0,0.9-0.1l0.6-0.2l1-0.7
+		v0.8h2.4v-5.2c0-0.9-0.3-1.6-0.9-2s-1.6-0.7-2.9-0.7c-0.5,0-1.1,0.1-1.6,0.2l-1.2,0.2v1.8h0.2C102,292.1,102.4,292,102.8,291.9
+		 M103.4,295c0.1-0.1,0.2-0.2,0.5-0.3c0.3-0.1,0.5-0.2,0.8-0.2l1-0.1v1.6c-0.2,0.2-0.4,0.3-0.6,0.4s-0.5,0.1-0.6,0.1
+		c-0.4,0-0.6-0.1-0.9-0.2s-0.3-0.4-0.3-0.8C103.2,295.3,103.3,295.1,103.4,295 M112.1,287.3h-2.4V298h2.4V287.3 M115.5,290.2H113
+		l2.8,7.7h2.6l2.8-7.7h-2.5l-1.5,5.1L115.5,290.2 M50.2,298v-10.7h-2.4V298H50.2 M51.8,294.4c-0.2,0.4-0.3,0.8-0.3,1.4
+		c0,0.7,0.2,1.3,0.7,1.7c0.5,0.5,1,0.7,1.7,0.7c0.4,0,0.6,0,0.8-0.1l0.7-0.2l0.9-0.7v0.8h2.4v-5.2c0-0.9-0.3-1.6-0.9-2
+		s-1.5-0.7-2.8-0.7c-0.5,0-1.1,0.1-1.6,0.2l-1.1,0.2v1.8h0.2c0.4-0.2,0.7-0.3,1.1-0.4s0.7-0.1,1-0.1c0.6,0,1.1,0.1,1.4,0.2
+		c0.3,0.2,0.4,0.4,0.4,0.9l0,0l-1.9,0.2c-0.6,0.1-1.1,0.2-1.6,0.4C52.3,293.8,52,294,51.8,294.4 M54.4,294.6
+		c0.3-0.1,0.5-0.2,0.8-0.2l1-0.1v1.6c-0.2,0.2-0.4,0.3-0.6,0.4s-0.5,0.1-0.7,0.1c-0.4,0-0.6-0.1-0.8-0.2c-0.2-0.1-0.3-0.4-0.3-0.8
+		c0-0.2,0.1-0.4,0.2-0.6C54.1,294.8,54.2,294.7,54.4,294.6 M68.5,290.2h-2.4v7.7h2.4V290.2 M62.8,288.1h-2.4v2.1h-0.9v1.7h0.9v3.6
+		c0,0.9,0.2,1.6,0.7,2c0.4,0.4,1.1,0.6,2.1,0.6l1.1-0.1l0.8-0.1v-1.7h-0.2l-0.4,0.1l-0.5,0.1c-0.3,0-0.5-0.1-0.7-0.2
+		s-0.3-0.2-0.4-0.4c-0.1-0.2-0.1-0.3-0.1-0.5V292h2.3v-1.7h-2.3V288.1 M68.6,287.3h-2.5v1.9h2.5V287.3 M70.8,291.1
+		c-0.7,0.7-1.1,1.7-1.1,3s0.4,2.3,1.1,3s1.7,1.1,2.9,1.1c1.3,0,2.3-0.4,3-1.1s1-1.7,1-3s-0.3-2.2-1-3c-0.7-0.7-1.7-1.1-3-1.1
+		C72.5,290,71.5,290.4,70.8,291.1 M72.3,295.2c-0.1-0.3-0.2-0.6-0.2-1.1s0.1-0.9,0.2-1.2c0.1-0.3,0.2-0.5,0.3-0.7
+		c0.2-0.2,0.3-0.3,0.5-0.4s0.3-0.1,0.5-0.1s0.5,0,0.7,0.1s0.3,0.2,0.5,0.4c0.1,0.2,0.2,0.4,0.3,0.8c0.1,0.3,0.2,0.7,0.2,1.1
+		c0,0.5,0,0.9-0.2,1.1c-0.1,0.3-0.2,0.5-0.3,0.7c-0.1,0.2-0.3,0.3-0.5,0.4s-0.4,0.1-0.6,0.1s-0.5,0-0.7-0.1s-0.3-0.2-0.4-0.4
+		C72.5,295.8,72.4,295.6,72.3,295.2 M82.6,292c0.3,0,0.5,0,0.6,0.1c0.2,0.1,0.3,0.2,0.3,0.4c0.1,0.1,0.2,0.4,0.2,0.7v4.8h2.4v-5
+		c0-0.9-0.2-1.7-0.6-2.2s-1-0.8-1.8-0.8c-0.5,0-0.9,0.1-1.2,0.3c-0.4,0.2-0.7,0.4-1.1,0.8v-0.9H79v7.7h2.4v-5.5
+		c0.2-0.2,0.4-0.3,0.6-0.4C82.2,292.1,82.3,292,82.6,292 M39.7,291.1c-0.7,0.7-1.1,1.7-1.1,3s0.3,2.3,1.1,3c0.8,0.7,1.7,1.1,2.9,1.1
+		c1.3,0,2.2-0.4,2.9-1.1c0.7-0.7,1.1-1.7,1.1-3s-0.4-2.2-1.1-3c-0.7-0.7-1.7-1.1-2.9-1.1C41.3,290,40.4,290.4,39.7,291.1 M41.2,293
+		c0.1-0.3,0.2-0.5,0.3-0.7c0.2-0.2,0.3-0.3,0.5-0.4s0.4-0.1,0.6-0.1s0.4,0,0.6,0.1s0.3,0.2,0.5,0.4c0.1,0.2,0.2,0.4,0.3,0.8
+		c0.1,0.3,0.2,0.7,0.2,1.1c0,0.5,0,0.9-0.2,1.1c-0.1,0.3-0.2,0.5-0.3,0.7s-0.3,0.3-0.5,0.4s-0.4,0.1-0.6,0.1s-0.5,0-0.7-0.1
+		s-0.3-0.2-0.4-0.4c-0.1-0.2-0.2-0.4-0.3-0.7c-0.1-0.3-0.1-0.6-0.1-1.1C41.1,293.6,41.1,293.2,41.2,293 M32.4,290.8
+		c-0.3,0.3-0.5,0.6-0.7,0.9s-0.2,0.6-0.2,1c0,0.6,0.2,1.1,0.5,1.4s0.7,0.6,1.3,0.8l1.5,0.4c0.3,0.1,0.6,0.2,0.7,0.2
+		c0.1,0.1,0.2,0.2,0.2,0.4c0,0.2-0.1,0.4-0.4,0.5s-0.6,0.1-0.9,0.1s-0.6,0-0.9-0.1l-0.8-0.2l-0.6-0.4l-0.4-0.3h-0.2v2
+		c0.3,0.2,0.8,0.3,1.2,0.5c0.5,0.1,1,0.1,1.6,0.1s1.2-0.1,1.6-0.2s0.8-0.3,1.2-0.6c0.3-0.2,0.5-0.5,0.8-0.8c0.2-0.3,0.2-0.7,0.2-1.1
+		c0-0.6-0.2-1-0.5-1.3c-0.3-0.4-0.7-0.6-1.2-0.8l-1.5-0.4c-0.4-0.1-0.6-0.2-0.8-0.3c-0.2-0.1-0.2-0.2-0.2-0.4c0-0.2,0.1-0.4,0.4-0.5
+		c0.2-0.1,0.5-0.2,0.9-0.2c0.3,0,0.5,0,0.8,0.1l0.7,0.2l0.9,0.5h0.2v-1.9c-0.3-0.1-0.7-0.2-1.1-0.4c-0.4-0.1-0.9-0.2-1.5-0.2
+		s-1.1,0.1-1.5,0.2C33.3,290.1,32.7,290.6,32.4,290.8 M30.5,298v-1.8H29v-6.6h1.5v-1.8H25v1.8h1.5v6.6H25v1.8H30.5 M877.3,266.2
+		c-0.4-0.1-0.9-0.2-1.5-0.2s-1.1,0.1-1.5,0.2s-0.8,0.3-1.1,0.5c-0.3,0.3-0.5,0.6-0.7,0.9s-0.2,0.6-0.2,1c0,0.6,0.2,1.1,0.5,1.4
+		s0.8,0.6,1.3,0.8l1.5,0.4c0.3,0.1,0.6,0.2,0.7,0.2c0.1,0.1,0.2,0.2,0.2,0.4c0,0.2-0.1,0.4-0.4,0.5s-0.6,0.1-0.9,0.1s-0.6,0-0.9-0.1
+		l-0.8-0.2l-0.6-0.4l-0.4-0.3h-0.2v2c0.3,0.2,0.8,0.3,1.2,0.5c0.5,0.1,1,0.1,1.6,0.1s1.2-0.1,1.6-0.2s0.8-0.3,1.1-0.6
+		c0.3-0.2,0.5-0.5,0.8-0.8c0.2-0.3,0.2-0.7,0.2-1.1c0-0.6-0.1-1-0.4-1.3c-0.3-0.4-0.7-0.6-1.2-0.8l-1.5-0.4
+		c-0.4-0.1-0.6-0.2-0.8-0.3c-0.2-0.1-0.2-0.2-0.2-0.4c0-0.2,0.1-0.4,0.4-0.5c0.2-0.1,0.5-0.2,0.9-0.2c0.3,0,0.5,0,0.8,0.1l0.7,0.2
+		l0.9,0.5h0.2v-1.9C878.2,266.5,877.8,266.4,877.3,266.2 M871.5,269.7c0-1.2-0.3-2.1-0.9-2.7s-1.5-1-2.7-1c-1.3,0-2.3,0.4-3,1.1
+		c-0.7,0.8-1.1,1.8-1.1,3c0,1.3,0.4,2.3,1.1,3c0.8,0.7,1.9,1,3.4,1h1l1.5-0.4l0.5-0.2v-2h-0.2l-1,0.6l-0.8,0.2
+		c-0.3,0.1-0.5,0.1-0.8,0.1s-0.6,0-0.9-0.1s-0.5-0.2-0.7-0.3c-0.2-0.2-0.4-0.4-0.5-0.6s-0.2-0.5-0.2-0.9h5.2L871.5,269.7 M868.8,268
+		c0.2,0.3,0.3,0.6,0.4,1.1h-2.9c0-0.5,0.2-0.8,0.5-1.1c0.3-0.3,0.6-0.5,1-0.5C868.3,267.5,868.6,267.7,868.8,268 M843.6,270.4
+		c-0.2,0.4-0.3,0.8-0.3,1.4c0,0.7,0.2,1.3,0.7,1.7c0.5,0.5,1,0.7,1.7,0.7c0.4,0,0.7,0,0.9-0.1l0.6-0.2l1-0.7v0.8h2.4v-5.2
+		c0-0.9-0.3-1.6-1-2c-0.6-0.4-1.5-0.7-2.8-0.7c-0.5,0-1.1,0.1-1.6,0.2l-1.1,0.2v1.8h0.2c0.4-0.2,0.7-0.3,1.1-0.4s0.7-0.1,1-0.1
+		c0.6,0,1.1,0.1,1.4,0.2c0.3,0.2,0.5,0.4,0.5,0.9l0,0l-2,0.2c-0.6,0.1-1.1,0.2-1.5,0.4C844.1,269.8,843.8,270,843.6,270.4
+		 M845.8,271c0.1-0.1,0.3-0.2,0.5-0.3c0.3-0.1,0.5-0.2,0.8-0.2l1-0.1v1.6c-0.2,0.2-0.4,0.3-0.6,0.4s-0.5,0.1-0.7,0.1
+		c-0.4,0-0.7-0.1-0.8-0.2c-0.2-0.1-0.3-0.4-0.3-0.8C845.7,271.3,845.7,271.1,845.8,271 M854.5,263.3h-2.4V274h2.4V263.3 M858,266.2
+		h-2.5l2.8,7.7h2.6l2.8-7.7h-2.5l-1.5,5.1L858,266.2 M823.8,266.2h-2.4v7.7h2.4v-5.5c0.2-0.2,0.5-0.3,0.7-0.4s0.4-0.1,0.6-0.1
+		c0.3,0,0.5,0,0.6,0.1c0.2,0.1,0.3,0.2,0.4,0.4c0.1,0.1,0.1,0.4,0.1,0.7l0.1,4.8h2.4v-5c0-0.9-0.2-1.7-0.6-2.2s-1-0.8-1.8-0.8
+		c-0.5,0-0.9,0.1-1.2,0.3c-0.4,0.2-0.8,0.4-1.2,0.8L823.8,266.2 M838.2,270.6l-2.2-6.9h-2.6l3.5,10.2h2.6l3.5-10.2h-2.6L838.2,270.6
+		 M811,266.2h-2.4v7.7h2.4V266.2 M807.6,266.2h-2.3v-2.1h-2.4v2.1H802v1.7h0.9v3.6c0,0.9,0.2,1.6,0.7,2c0.4,0.4,1.1,0.6,2.1,0.6
+		l1.1-0.1l0.8-0.1v-1.7h-0.2l-0.5,0.1l-0.5,0.1c-0.3,0-0.5-0.1-0.7-0.2s-0.3-0.2-0.3-0.4c-0.1-0.2-0.1-0.3-0.1-0.5V268h2.3V266.2
+		 M813.2,267.1c-0.7,0.7-1,1.7-1,3s0.3,2.3,1,3s1.7,1.1,2.9,1.1c1.3,0,2.2-0.4,2.9-1.1c0.7-0.7,1.1-1.7,1.1-3s-0.4-2.2-1.1-3
+		c-0.7-0.7-1.7-1.1-2.9-1.1C814.9,266,814,266.4,813.2,267.1 M814.8,271.2c-0.1-0.3-0.1-0.6-0.1-1.1s0-0.9,0.1-1.2
+		c0.1-0.3,0.2-0.5,0.3-0.7c0.2-0.2,0.3-0.3,0.5-0.4s0.4-0.1,0.6-0.1s0.5,0,0.6,0.1c0.2,0.1,0.3,0.2,0.5,0.4c0.1,0.2,0.2,0.4,0.3,0.8
+		c0.1,0.3,0.2,0.7,0.2,1.1c0,0.5-0.1,0.9-0.2,1.1c-0.1,0.3-0.2,0.5-0.3,0.7s-0.3,0.3-0.5,0.4s-0.4,0.1-0.6,0.1s-0.5,0-0.7-0.1
+		s-0.3-0.2-0.5-0.4C815,271.8,814.9,271.6,814.8,271.2 M811,265.2v-1.9h-2.5v1.9H811 M792.6,263.3h-2.4V274h2.4V263.3 M797.2,266
+		c-0.5,0-1.1,0.1-1.6,0.2l-1.2,0.2v1.8h0.2c0.4-0.2,0.7-0.3,1.1-0.4s0.7-0.1,1-0.1c0.6,0,1.1,0.1,1.4,0.2c0.3,0.2,0.5,0.4,0.5,0.9
+		l0,0l-2,0.2c-0.6,0.1-1.1,0.2-1.5,0.4c-0.4,0.2-0.7,0.5-1,0.8c-0.2,0.4-0.4,0.8-0.4,1.4c0,0.7,0.2,1.3,0.7,1.7
+		c0.5,0.5,1,0.7,1.7,0.7c0.4,0,0.7,0,0.8-0.1l0.7-0.2l1-0.7v0.8h2.4v-5.2c0-0.9-0.3-1.6-1-2C799.5,266.3,798.5,266,797.2,266
+		 M796.2,271.5c0-0.2,0.1-0.4,0.2-0.6c0.1-0.1,0.2-0.2,0.5-0.3c0.3-0.1,0.5-0.2,0.8-0.2l1-0.1v1.6c-0.2,0.2-0.4,0.3-0.6,0.4
+		s-0.4,0.1-0.6,0.1c-0.4,0-0.7-0.1-0.9-0.2C796.4,272.2,796.2,271.9,796.2,271.5 M782.1,267.1c-0.7,0.7-1,1.7-1,3s0.3,2.3,1,3
+		s1.7,1.1,2.9,1.1c1.3,0,2.2-0.4,3-1.1c0.7-0.7,1-1.7,1-3s-0.4-2.2-1-3c-0.7-0.7-1.7-1.1-3-1.1C783.8,266,782.8,266.4,782.1,267.1
+		 M783.7,269c0.1-0.3,0.2-0.5,0.3-0.7c0.2-0.2,0.3-0.3,0.5-0.4s0.3-0.1,0.5-0.1s0.5,0,0.7,0.1s0.3,0.2,0.4,0.4
+		c0.1,0.2,0.2,0.4,0.3,0.8c0.1,0.3,0.1,0.7,0.1,1.1c0,0.5,0,0.9-0.1,1.1c-0.1,0.3-0.2,0.5-0.3,0.7c-0.1,0.2-0.3,0.3-0.4,0.4
+		c-0.2,0.1-0.4,0.1-0.6,0.1s-0.4,0-0.6-0.1s-0.4-0.2-0.5-0.4c-0.1-0.2-0.2-0.4-0.3-0.7c-0.1-0.3-0.2-0.6-0.2-1.1
+		C783.5,269.6,783.5,269.2,783.7,269 M777.5,266c-0.6,0-1.1,0.1-1.5,0.2s-0.8,0.3-1.2,0.5c-0.3,0.3-0.5,0.6-0.6,0.9
+		c-0.2,0.3-0.2,0.6-0.2,1c0,0.6,0.2,1.1,0.5,1.4s0.7,0.6,1.3,0.8l1.5,0.4c0.3,0.1,0.5,0.2,0.6,0.2c0.1,0.1,0.2,0.2,0.2,0.4
+		c0,0.2-0.1,0.4-0.4,0.5c-0.3,0.1-0.6,0.1-0.9,0.1c-0.3,0-0.6,0-0.9-0.1l-0.8-0.2l-0.6-0.4l-0.4-0.3h-0.2v2c0.3,0.2,0.8,0.3,1.2,0.5
+		c0.5,0.1,1,0.1,1.6,0.1s1.2-0.1,1.6-0.2c0.4-0.1,0.8-0.3,1.2-0.6c0.3-0.2,0.5-0.5,0.8-0.8c0.2-0.3,0.2-0.7,0.2-1.1
+		c0-0.6-0.1-1-0.5-1.3c-0.3-0.4-0.7-0.6-1.2-0.8l-1.5-0.4c-0.4-0.1-0.6-0.2-0.8-0.3c-0.1-0.1-0.2-0.2-0.2-0.4c0-0.2,0.1-0.4,0.4-0.5
+		c0.2-0.1,0.5-0.2,0.8-0.2s0.5,0,0.8,0.1l0.7,0.2l0.9,0.5h0.2v-1.9c-0.3-0.1-0.7-0.2-1.2-0.4C778.6,266.1,778.1,266,777.5,266
+		 M772.9,272.1h-1.5v-6.6h1.5v-1.8h-5.5v1.8h1.4v6.6h-1.4v1.8h5.5V272.1 M721.4,15.3h5.3V13h-8.4v12.3h8.4V23h-5.3v-3.2h4.8v-2.3
+		h-4.8V15.3 M717,12.9h-10.4v2.3h3.6v10h3.1v-10h3.6v-2.3 M741.4,25.3V12.9h-3.6L735,19l-2.8-6.1h-3.5v12.3h2.9V17l2.2,5.3h2.1
+		l2.2-5.3v8.2L741.4,25.3 M756.2,13.7c-0.7-0.7-1.8-1-3.3-1c-0.7,0-1.4,0.1-2.2,0.2c-0.7,0.2-1.3,0.3-1.6,0.5v2.7h0.2l0.4-0.3
+		l0.7-0.4l0.9-0.3c0.3-0.1,0.6-0.2,0.9-0.2c0.6,0,1.1,0.2,1.5,0.5c0.3,0.3,0.5,0.7,0.5,1.3c0,0.5-0.1,1-0.4,1.5
+		c-0.3,0.5-0.7,1-1.3,1.6l-3.7,3.3v2h9.1v-2.3h-5.2l2.5-2.1c0.8-0.8,1.4-1.5,1.8-2.2c0.3-0.7,0.5-1.4,0.5-2.1
+		C757.4,15.2,757,14.3,756.2,13.7 M703.9,12.9c-0.7-0.2-1.5-0.2-2.2-0.2c-1.5,0-2.7,0.4-3.7,1.1s-1.5,1.6-1.5,2.8
+		c0,0.9,0.2,1.6,0.6,2.1c0.4,0.6,1.1,1,2,1.4l2.7,0.7c0.3,0.1,0.6,0.2,0.8,0.4c0.3,0.2,0.4,0.4,0.4,0.8c0,0.3-0.1,0.5-0.2,0.7
+		c-0.1,0.2-0.3,0.3-0.5,0.4s-0.4,0.1-0.7,0.2h-0.7c-0.7,0-1.4-0.1-2.2-0.4s-1.5-0.7-2-1.2h-0.3v2.9c0.6,0.3,1.3,0.5,2,0.7
+		s1.6,0.2,2.5,0.2c1.6,0,2.9-0.4,3.9-1.1s1.4-1.7,1.4-3c0-0.9-0.2-1.6-0.6-2.1c-0.4-0.5-1.1-0.9-2-1.2l-2.4-0.6
+		c-0.7-0.2-1.1-0.3-1.3-0.5s-0.3-0.4-0.3-0.8c0-0.2,0.1-0.4,0.2-0.6c0.1-0.2,0.3-0.3,0.5-0.4L701,15h0.8c0.7,0,1.3,0.1,2,0.4
+		s1.2,0.6,1.7,1h0.2v-2.8C705.3,13.3,704.6,13.1,703.9,12.9 M696.1,12.9h-3.4l-2.4,4.4l-2.4-4.4h-3.5l4.3,7.3v5h3.1v-5.1L696.1,12.9
+		 M681.8,12.9c-0.7-0.2-1.5-0.2-2.2-0.2c-1.5,0-2.7,0.4-3.6,1.1c-1,0.7-1.5,1.6-1.5,2.8c0,0.9,0.2,1.6,0.6,2.1
+		c0.4,0.6,1.1,1,2.1,1.4l2.7,0.7c0.3,0.1,0.6,0.2,0.9,0.4c0.3,0.2,0.4,0.4,0.4,0.8c0,0.3-0.1,0.5-0.2,0.7c-0.1,0.2-0.3,0.3-0.5,0.4
+		s-0.4,0.1-0.7,0.2h-0.7c-0.7,0-1.4-0.1-2.2-0.4s-1.5-0.7-2-1.2h-0.3v2.9c0.6,0.3,1.3,0.5,2,0.7s1.6,0.2,2.5,0.2
+		c1.6,0,2.9-0.4,3.9-1.1s1.5-1.7,1.5-3c0-0.9-0.2-1.6-0.6-2.1c-0.4-0.5-1.1-0.9-2-1.2l-2.4-0.6c-0.7-0.2-1.1-0.3-1.3-0.5
+		s-0.3-0.4-0.3-0.8c0-0.2,0.1-0.4,0.2-0.6c0.1-0.2,0.3-0.3,0.5-0.4L679,15h0.8c0.7,0,1.3,0.1,2,0.4s1.2,0.6,1.7,1h0.2v-2.8
+		C683.2,13.3,682.5,13.1,681.8,12.9 M225.9,14.4c0,0.3-0.1,0.6-0.2,0.9c-0.2,0.2-0.4,0.4-0.6,0.5s-0.5,0.2-0.9,0.2l-1.2,0.1v2h2.7
+		v6.6H223v2.1h8.2v-2.1h-2.5V14.4H225.9 M215.1,26.8V14.4h-3.5l-2.8,6.1l-2.8-6.1h-3.6v12.3h2.9v-8.2l2.2,5.3h2.1l2.2-5.3v8.2
+		L215.1,26.8 M192.1,14.4v12.3h8.3v-2.3h-5.3v-3.2h4.9v-2.3h-4.9v-2.2h5.3v-2.3L192.1,14.4 M190.8,16.8v-2.3h-10.4v2.3h3.7v10h3.1
+		v-10H190.8 M179.6,15c-0.6-0.3-1.2-0.5-2-0.6c-0.7-0.2-1.5-0.2-2.2-0.2c-1.5,0-2.7,0.4-3.6,1.1c-1,0.7-1.4,1.6-1.4,2.8
+		c0,0.9,0.2,1.6,0.6,2.1c0.4,0.6,1.1,1,2.1,1.3l2.7,0.7c0.3,0.1,0.6,0.2,0.9,0.4s0.4,0.4,0.4,0.8c0,0.3-0.1,0.5-0.2,0.7
+		s-0.3,0.3-0.6,0.4c-0.2,0.1-0.4,0.1-0.7,0.2h-0.7c-0.7,0-1.4-0.1-2.1-0.4c-0.8-0.3-1.4-0.7-2.1-1.2h-0.3V26c0.6,0.3,1.3,0.5,2,0.7
+		s1.6,0.2,2.5,0.2c1.6,0,2.9-0.4,3.9-1.1s1.5-1.7,1.5-3c0-0.9-0.2-1.6-0.6-2.1s-1.1-0.9-1.9-1.2l-2.4-0.6c-0.7-0.2-1.1-0.3-1.3-0.5
+		c-0.2-0.2-0.4-0.4-0.4-0.8c0-0.2,0.1-0.4,0.2-0.6s0.3-0.3,0.5-0.4l0.7-0.2h0.8c0.7,0,1.3,0.1,2,0.4s1.2,0.6,1.7,1h0.2V15
+		 M169.9,14.4h-3.4l-2.3,4.4l-2.4-4.4h-3.6l4.4,7.3v5h3.1v-5.1L169.9,14.4 M148.1,26c0.6,0.3,1.3,0.5,2,0.7s1.6,0.2,2.5,0.2
+		c1.6,0,2.9-0.4,3.9-1.1s1.4-1.7,1.4-3c0-0.9-0.2-1.6-0.6-2.1s-1.1-0.9-1.9-1.2l-2.4-0.6c-0.7-0.2-1.1-0.3-1.3-0.5
+		c-0.2-0.2-0.4-0.4-0.4-0.8c0-0.2,0.1-0.4,0.2-0.6s0.3-0.3,0.5-0.4l0.7-0.2h0.8c0.7,0,1.3,0.1,2,0.4s1.2,0.6,1.7,1h0.2V15
+		c-0.6-0.3-1.2-0.5-1.9-0.6c-0.7-0.2-1.5-0.2-2.2-0.2c-1.5,0-2.7,0.4-3.7,1.1c-1,0.7-1.4,1.6-1.4,2.8c0,0.9,0.2,1.6,0.6,2.1
+		c0.4,0.6,1.1,1,2,1.3l2.7,0.7c0.3,0.1,0.6,0.2,0.8,0.4c0.3,0.2,0.4,0.4,0.4,0.8c0,0.3-0.1,0.5-0.2,0.7s-0.3,0.3-0.6,0.4
+		c-0.2,0.1-0.4,0.1-0.7,0.2h-0.7c-0.7,0-1.4-0.1-2.1-0.4c-0.8-0.3-1.4-0.7-2.1-1.2H148V26H148.1z"/>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_1_" x="360.5" y="191.8" width="190.4" height="24.5"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_2_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 362.45 210.75)" style="font-family:'Tahoma'; font-size:17px;">POWER TRANSFER UNIT</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_3_" x="251" y="277.9" width="50.1" height="24.5"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_4_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 253 296.85)" style="font-family:'Tahoma'; font-size:17px;">FLAPS</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_5_" x="44.1" y="58.1" width="127.9" height="47"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_6_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 46.1 77.1)" style="font-family:'Tahoma'; font-size:17px;">ENGINE DRIVEN</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_7_" x="44.1" y="58.1" width="127.9" height="47"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_8_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 86.55 99.6)" style="font-family:'Tahoma'; font-size:17px;">PUMP</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_9_" x="212.6" y="58.1" width="104.8" height="47"/>
+					</defs>
+					<clipPath id="SVGID_10_">
+						<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_10_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 229.5 77.1)" style="font-family:'Tahoma'; font-size:17px;">STANDBY</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_11_" x="212.6" y="58.1" width="104.8" height="47"/>
+					</defs>
+					<clipPath id="SVGID_12_">
+						<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_12_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 214.75 99.6)" style="font-family:'Tahoma'; font-size:17px;">POWER UNIT</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_13_" x="148.8" y="125.5" width="71.6" height="24.5"/>
+					</defs>
+					<clipPath id="SVGID_14_">
+						<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_14_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 150.75 144.5)" style="font-family:'Tahoma'; font-size:17px;">3000 PSI</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_15_" x="85.2" y="127.1" width="41.2" height="20.9"/>
+					</defs>
+					<clipPath id="SVGID_16_">
+						<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_16_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 87.15 143.1333)" style="font-family:'Tahoma'; font-size:14px;">EDP 1</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_17_" x="248.6" y="127.1" width="28.8" height="20.9"/>
+					</defs>
+					<clipPath id="SVGID_18_">
+						<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_18_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 250.6 143.1333)" style="font-family:'Tahoma'; font-size:14px;">SPU</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_19_" x="652" y="59.3" width="127.9" height="47"/>
+					</defs>
+					<clipPath id="SVGID_20_">
+						<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_20_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 654.05 78.3)" style="font-family:'Tahoma'; font-size:17px;">ENGINE DRIVEN</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_21_" x="652" y="59.3" width="127.9" height="47"/>
+					</defs>
+					<clipPath id="SVGID_22_">
+						<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_22_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 694.5 100.8)" style="font-family:'Tahoma'; font-size:17px;">PUMP</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_23_" x="696.8" y="127.1" width="41.2" height="20.9"/>
+					</defs>
+					<clipPath id="SVGID_24_">
+						<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_24_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 698.8 143.1333)" style="font-family:'Tahoma'; font-size:14px;">EDP 2</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_25_" x="750.1" y="127.1" width="71.6" height="24.5"/>
+					</defs>
+					<clipPath id="SVGID_26_">
+						<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_26_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 752.1 146.05)" style="font-family:'Tahoma'; font-size:17px;">3000 PSI</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_27_" x="801.3" y="289.9" width="100" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_28_">
+						<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_28_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 803.35 307.85)" style="font-family:'Tahoma'; font-size:16px;">NOSE WHEEL</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_29_" x="801.3" y="289.9" width="100" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_30_">
+						<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_30_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 814.65 329.15)" style="font-family:'Tahoma'; font-size:16px;">STEERING</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_31_" x="794" y="356.3" width="114.2" height="23.3"/>
+					</defs>
+					<clipPath id="SVGID_32_">
+						<use xlink:href="#SVGID_31_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_32_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 796 374.3)" style="font-family:'Tahoma'; font-size:16px;">LANDING GEAR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_33_" x="798" y="405" width="106.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_34_">
+						<use xlink:href="#SVGID_33_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_34_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 810.2 423)" style="font-family:'Tahoma'; font-size:16px;">OUTBOARD</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_35_" x="798" y="405" width="106.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_36_">
+						<use xlink:href="#SVGID_35_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_36_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 800 444.3)" style="font-family:'Tahoma'; font-size:16px;">FLT. SPOILERS</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_37_" x="780.3" y="482.1" width="142" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_38_">
+						<use xlink:href="#SVGID_37_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_38_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 806.7 500.15)" style="font-family:'Tahoma'; font-size:16px;">EMERGENCY</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_39_" x="780.3" y="482.1" width="142" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_40_">
+						<use xlink:href="#SVGID_39_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_40_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 782.35 521.45)" style="font-family:'Tahoma'; font-size:16px;">(PARKING) BRAKES</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_41_" x="19.9" y="354" width="106.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_42_">
+						<use xlink:href="#SVGID_41_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_42_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 39.4 371.95)" style="font-family:'Tahoma'; font-size:16px;">INBOARD</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_43_" x="19.9" y="354" width="106.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_44_">
+						<use xlink:href="#SVGID_43_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_44_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 21.95 393.25)" style="font-family:'Tahoma'; font-size:16px;">FLT. SPOILERS</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_45_" x="24.2" y="417.1" width="98.7" height="65.9"/>
+					</defs>
+					<clipPath id="SVGID_46_">
+						<use xlink:href="#SVGID_45_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_46_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 26.3 435.1)" style="font-family:'Tahoma'; font-size:16px;">MAIN WHEEL</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_47_" x="24.2" y="417.1" width="98.7" height="65.9"/>
+					</defs>
+					<clipPath id="SVGID_48_">
+						<use xlink:href="#SVGID_47_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_48_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 45.5 456.4)" style="font-family:'Tahoma'; font-size:16px;">BRAKES</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_49_" x="24.2" y="417.1" width="98.7" height="65.9"/>
+					</defs>
+					<clipPath id="SVGID_50_">
+						<use xlink:href="#SVGID_49_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_50_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 29.45 477.7)" style="font-family:'Tahoma'; font-size:16px;">(ANTI-SKID)</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_51_" x="32.8" y="592.2" width="117.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_52_">
+						<use xlink:href="#SVGID_51_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_52_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 34.95 610.25)" style="font-family:'Tahoma'; font-size:16px;">LEFT ELEVATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_53_" x="32.8" y="592.2" width="117.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_54_">
+						<use xlink:href="#SVGID_53_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_54_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 50.6 631.55)" style="font-family:'Tahoma'; font-size:16px;">OUTBOARD</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_55_" x="221.8" y="592.7" width="129.5" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_56_">
+						<use xlink:href="#SVGID_55_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_56_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 223.85 610.7)" style="font-family:'Tahoma'; font-size:16px;">RIGHT ELEVATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_57_" x="221.8" y="592.7" width="129.5" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_58_">
+						<use xlink:href="#SVGID_57_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_58_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 245.45 632)" style="font-family:'Tahoma'; font-size:16px;">OUTBOARD</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_59_" x="156.4" y="669.7" width="65.1" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_60_">
+						<use xlink:href="#SVGID_59_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_60_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 162.75 687.7)" style="font-family:'Tahoma'; font-size:16px;">LOWER</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_61_" x="156.4" y="669.7" width="65.1" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_62_">
+						<use xlink:href="#SVGID_61_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_62_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 158.5 709)" style="font-family:'Tahoma'; font-size:16px;">RUDDER</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_63_" x="417.9" y="668.5" width="129.5" height="65.9"/>
+					</defs>
+					<clipPath id="SVGID_64_">
+						<use xlink:href="#SVGID_63_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_64_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 419.95 686.45)" style="font-family:'Tahoma'; font-size:16px;">ALTERNATE MAIN</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_65_" x="417.9" y="668.5" width="129.5" height="65.9"/>
+					</defs>
+					<clipPath id="SVGID_66_">
+						<use xlink:href="#SVGID_65_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_66_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 427.65 707.75)" style="font-family:'Tahoma'; font-size:16px;">LANDING GEAR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_67_" x="417.9" y="668.5" width="129.5" height="65.9"/>
+					</defs>
+					<clipPath id="SVGID_68_">
+						<use xlink:href="#SVGID_67_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_68_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 440.7 729.05)" style="font-family:'Tahoma'; font-size:16px;">EXTENSION</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_69_" x="317.4" y="683" width="40.7" height="39.8"/>
+					</defs>
+					<clipPath id="SVGID_70_">
+						<use xlink:href="#SVGID_69_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_70_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 319.45 699.05)" style="font-family:'Tahoma'; font-size:14px;">HAND</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_71_" x="317.4" y="683" width="40.7" height="39.8"/>
+					</defs>
+					<clipPath id="SVGID_72_">
+						<use xlink:href="#SVGID_71_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_72_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 320.1 717.95)" style="font-family:'Tahoma'; font-size:14px;">PUMP</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_73_" x="683.9" y="668.5" width="65.1" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_74_">
+						<use xlink:href="#SVGID_73_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_74_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 693 686.55)" style="font-family:'Tahoma'; font-size:16px;">UPPER</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_75_" x="683.9" y="668.5" width="65.1" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_76_">
+						<use xlink:href="#SVGID_75_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_76_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 686 707.85)" style="font-family:'Tahoma'; font-size:16px;">RUDDER</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_77_" x="749.8" y="592.5" width="129.5" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_78_">
+						<use xlink:href="#SVGID_77_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_78_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 751.85 610.45)" style="font-family:'Tahoma'; font-size:16px;">RIGHT ELEVATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_79_" x="749.8" y="592.5" width="129.5" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_80_">
+						<use xlink:href="#SVGID_79_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_80_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 785.85 631.75)" style="font-family:'Tahoma'; font-size:16px;">CENTER</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_81_" x="559.2" y="592.5" width="117.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_82_">
+						<use xlink:href="#SVGID_81_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_82_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 561.3 610.45)" style="font-family:'Tahoma'; font-size:16px;">LEFT ELEVATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_83_" x="559.2" y="592.5" width="117.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_84_">
+						<use xlink:href="#SVGID_83_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_84_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 589.35 631.75)" style="font-family:'Tahoma'; font-size:16px;">CENTER</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_85_" x="418.4" y="319.5" width="83.7" height="23.3"/>
+					</defs>
+					<clipPath id="SVGID_86_">
+						<use xlink:href="#SVGID_85_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_86_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 420.35 337.55)" style="font-family:'Tahoma-Bold'; font-size:16px;">SYSTEM 3</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_87_" x="488.7" y="364.1" width="128.4" height="23.3"/>
+					</defs>
+					<clipPath id="SVGID_88_">
+						<use xlink:href="#SVGID_87_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_88_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 490.7 382.1333)" style="font-family:'Tahoma'; font-size:16px;">DC MOTOR PUMP</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_89_" x="311.5" y="364.1" width="108.2" height="23.3"/>
+					</defs>
+					<clipPath id="SVGID_90_">
+						<use xlink:href="#SVGID_89_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_90_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 313.45 382.1333)" style="font-family:'Tahoma'; font-size:16px;">2600-3250 PSI</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_91_" x="488.7" y="428.6" width="112.6" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_92_">
+						<use xlink:href="#SVGID_91_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_92_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 490.7 446.6)" style="font-family:'Tahoma'; font-size:16px;">ACCUMULATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_93_" x="488.7" y="428.6" width="112.6" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_94_">
+						<use xlink:href="#SVGID_93_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_94_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 490.7 467.9)" style="font-family:'Tahoma'; font-size:16px;">25 cu.  in.</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_95_" x="483.8" y="514.8" width="129.5" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_96_">
+						<use xlink:href="#SVGID_95_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_96_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 485.85 532.8)" style="font-family:'Tahoma'; font-size:16px;">RIGHT ELEVATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_97_" x="483.8" y="514.8" width="129.5" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_98_">
+						<use xlink:href="#SVGID_97_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_98_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 514.7 554.1)" style="font-family:'Tahoma'; font-size:16px;">INBOARD</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_99_" x="310" y="428.6" width="112.6" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_100_">
+						<use xlink:href="#SVGID_99_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_100_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 312.05 446.6)" style="font-family:'Tahoma'; font-size:16px;">ACCUMULATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_101_" x="310" y="428.6" width="112.6" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_102_">
+						<use xlink:href="#SVGID_101_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_102_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 312.05 467.9)" style="font-family:'Tahoma'; font-size:16px;">50 cu. in.</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_103_" x="304.5" y="514.8" width="117.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_104_">
+						<use xlink:href="#SVGID_103_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_104_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 306.55 532.8)" style="font-family:'Tahoma'; font-size:16px;">LEFT ELEVATOR</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_105_" x="304.5" y="514.8" width="117.7" height="44.6"/>
+					</defs>
+					<clipPath id="SVGID_106_">
+						<use xlink:href="#SVGID_105_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_106_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 329.45 554.1)" style="font-family:'Tahoma'; font-size:16px;">INBOARD</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_107_" x="436.1" y="365.3" width="40.5" height="20.9"/>
+					</defs>
+					<clipPath id="SVGID_108_">
+						<use xlink:href="#SVGID_107_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_108_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 438.15 381.3333)" style="font-family:'Tahoma'; font-size:14px;">DCMP</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_109_" x="223.8" y="235.7" width="13" height="23.3"/>
+					</defs>
+					<clipPath id="SVGID_110_">
+						<use xlink:href="#SVGID_109_"  style="overflow:visible;"/>
+					</clipPath>
+					<path style="clip-path:url(#SVGID_110_);" d="M234.3,245.6c0,0.5-0.1,1-0.3,1.4s-0.4,0.8-0.7,1.2c-0.4,0.4-0.9,0.7-1.4,0.9
+						s-1.2,0.3-2.1,0.3h-1.3v4.3H227v-11.6h2.9c0.7,0,1.3,0.1,1.8,0.2s0.9,0.3,1.3,0.6s0.8,0.7,1,1.1
+						C234.2,244.4,234.3,244.9,234.3,245.6z M232.7,245.6c0-0.4-0.1-0.8-0.2-1c-0.1-0.3-0.3-0.5-0.6-0.7c-0.2-0.2-0.5-0.3-0.9-0.3
+						c-0.3-0.1-0.7-0.1-1.2-0.1h-1.3v4.6h1.1c0.6,0,1.1-0.1,1.5-0.2s0.7-0.3,1-0.5c0.2-0.2,0.4-0.5,0.5-0.8S232.7,246,232.7,245.6z"
+						/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path style="fill:#FFCC00;" d="M265.5,187.3v-23.2h-4v23.2H265.5z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_0_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M265.5,187.3h-4v-23.2h4V187.3z"/>
+	<path style="fill:#FFCC00;" d="M107.9,187.3v-23.2h-4v23.2H107.9z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_1_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M107.9,164.1v23.2h-4v-23.2H107.9z"/>
+	<path style="fill:#FFCC00;" d="M103.9,187.3v4h161.6v-4H103.9z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_2_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M103.9,187.3h161.6v4H103.9V187.3z"/>
+	<path style="fill:#FFCC00;" d="M191.8,188.3h-4v479.6h4V188.3z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_3_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M191.8,188.3v479.6h-4V188.3H191.8z"/>
+	<path style="fill:#FFCC00;" d="M190.8,246.8v4h23.3v-4H190.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_4_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M190.8,246.8h23.3v4h-23.3V246.8z"/>
+	<path style="fill:#FFCC00;" d="M307.7,250.8v-4h-63.2v4H307.7z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_5_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M307.7,250.8h-63.2v-4h63.2V250.8z"/>
+	<path style="fill:#0000FF;" d="M513.7,246.8h-5v4h5V246.8 M515.7,246.8h-2v4h2V246.8 M513.7,242.8v4h2v4h-2v4.1l12.1-6.1
+		L513.7,242.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_7_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M513.7,246.8v-4l12.1,6l-12.1,6.1v-4.1h-5v-4H513.7h2v4h-2V246.8z"/>
+	<path style="fill:#0000FF;" d="M717.8,250.8v-4H520.2v4H717.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_8_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M717.8,250.8H520.2v-4h197.6L717.8,250.8L717.8,250.8z"/>
+	<path style="fill:#0000FF;" d="M718.9,165.1h-4.1V668h4.1V165.1z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_9_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M718.9,165.1V668h-4.1V165.1H718.9z"/>
+	<path style="fill:#FFCC00;" d="M160.4,379.1v-4h-22.2v4H160.4z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_10_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M160.4,379.1h-22.2v-4h22.2V379.1z"/>
+	<path style="fill:#FFCC00;" d="M159.4,451.8v-4h-22.2v4H159.4z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_13_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M159.4,451.8h-22.2v-4h22.2V451.8z"/>
+	<path style="fill:#FFCC00;" d="M166.1,613.3v4h47.4v-4H166.1z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_15_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M166.1,613.3h47.4v4h-47.4V613.3z"/>
+	<path style="fill:#0000FF;" d="M692.6,611.3v4H741v-4H692.6z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_18_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M692.6,611.3H741v4h-48.4V611.3z"/>
+	<path style="fill:#FF0000;" d="M458.3,403.3h-4V471h4V403.3z"/>
+	<path style="fill:#FF0000;" d="M476.5,452.8v-4h-38.4v4H476.5z"/>
+	<path style="fill:#FF0000;" d="M437.1,534.6v4h37.3v-4H437.1z"/>
+	<path style="fill:#FF0000;" d="M284.6,567.9h-1v1.1h1V567.9 M284.6,567.9v-7h-2v8.1h1v-1.1H284.6 M285.6,570v-2.1h-1v1.1h-1v1
+		H285.6 M291.7,570h8.1v-2.1h-8.1V570 M284.6,532.6h-2v8.1h2V532.6 M284.6,546.8h-2v8h2V546.8 M284.6,518.5h-2v8h2V518.5
+		 M284.6,504.3h-2v8h2V504.3 M284.6,490.1h-2v8.2h2V490.1 M284.6,476h-2v8h2V476 M284.6,470v-8h-2v8H284.6 M282.6,447.8v8.1h2v-8.1
+		H282.6 M284.6,433.6h-2v8.1h2V433.6 M282.6,419.5v8h2v-8H282.6 M284.6,405.3h-2v8.1h2V405.3 M284.6,391.2h-2v8h2V391.2
+		 M284.6,377.1h-2v8.1h2V377.1 M284.6,362.9h-2v8.1h2V362.9 M282.6,348.8v8.1h2v-8.1H282.6 M284.6,342.8v-8.1h-2v8.1H284.6
+		 M284.6,328.6v-8.1h-2v8.1H284.6 M287.6,319.5h8.2v-2h-8.2V319.5 M634,567.9v1.1l1-1.1H634 M634,565v2.9h1l-1,1.1v-1.1h-3v2.1h5v-5
+		H634 M636,536.6h-2v8.1h2V536.6 M636,550.8h-2v8.1h2V550.8 M636,530.6v-8h-2v8H636 M636,508.3h-2v8.1h2V508.3 M636,494.2h-2v8h2
+		V494.2 M636,474v-8h-2v8.1h2 M636,480.1h-2v8h2V480.1 M636,451.8h-2v8.1h2V451.8 M636,437.7h-2v8h2V437.7 M636,409.4h-2v8.1h2
+		V409.4 M636,423.5h-2v8.1h2V423.5 M636,395.3h-2v8h2V395.3 M636,381.1h-2v8.2h2V381.1 M636,367h-2v8h2V367 M636,352.9h-2v8h2V352.9
+		 M634,338.7v8.1h2v-8.1H634 M636,324.6h-2v8.1h2V324.6 M568.3,567.9h-8v2.1h8V567.9 M574.4,567.9v2.1h8.2v-2.1H574.4 M596.6,570
+		v-2.1h-8v2.1H596.6 M610.8,570v-2.1h-8v2.1H610.8 M616.8,570h8.1v-2.1h-8.1V570 M475.5,567.9v2.1h8v-2.1H475.5 M489.6,570h8.1v-2.1
+		h-8.1V570 M511.8,570v-2.1h-8v2.1H511.8 M526,567.9h-8.1v2.1h8.1V567.9 M546.2,567.9v2.1h8v-2.1H546.2 M540.1,570v-2.1H532v2.1
+		H540.1 M390.6,570h8.1v-2.1h-8.1V570 M412.9,570v-2.1h-8.1v2.1H412.9 M427,567.9h-8v2.1h8V567.9 M433,570h8.1v-2.1H433V570
+		 M461.3,567.9v2.1h8v-2.1H461.3 M455.3,570v-2.1h-8.1v2.1H455.3 M305.8,567.9v2.1h8.1v-2.1H305.8 M342.2,570v-2.1h-8.1v2.1H342.2
+		 M328.1,570v-2.1H320v2.1H328.1 M356.3,567.9h-8v2.1h8V567.9 M370.5,570v-2.1h-8.2v2.1H370.5 M384.6,570v-2.1h-8v2.1H384.6
+		 M366.5,319.5v-2h-8.1v2H366.5 M380.5,319.5v-2h-8v2H380.5 M309.9,319.5v-2h-8v2H309.9 M316,317.5v2h8v-2H316 M338.2,319.5v-2H330
+		v2H338.2 M344.2,317.5v2h8v-2H344.2 M437.1,317.5H429v2h8.1V317.5 M451.2,319.5v-2h-8v2H451.2 M465.3,319.5v-2h-8v2H465.3
+		 M394.7,319.5v-2h-8.1v2H394.7 M423,317.5h-8.1v2h8.1V317.5 M408.8,319.5v-2h-8v2H408.8 M522,317.5h-8.1v2h8.1V317.5 M536,319.5v-2
+		h-8v2H536 M479.5,319.5v-2h-8.2v2H479.5 M493.6,319.5v-2h-8v2H493.6 M507.8,319.5v-2h-8v2H507.8 M606.8,319.5v-2h-8.1v2H606.8
+		 M627,317.5v2h8l-1-1h2v-1H627 M620.9,317.5h-8v2h8V317.5 M550.2,319.5v-2h-8.1v2H550.2 M564.3,319.5v-2h-8.1v2H564.3 M578.5,317.5
+		h-8.1v2h8.1V317.5 M584.5,317.5v2h8v-2H584.5z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_26_1_STROKES" style="fill:none;stroke:#FF0000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M584.5,317.5h8v2h-8V317.5z M570.4,317.5h8.1v2h-8.1V317.5z M564.3,319.5h-8.1v-2h8.1V319.5z M550.2,319.5h-8.1v-2h8.1V319.5z
+		 M612.8,317.5h8v2h-8V317.5z M627,317.5h9.1v1h-2l1,1h-8L627,317.5L627,317.5z M598.6,319.5v-2h8.1v2H598.6z M507.8,317.5v2h-8v-2
+		H507.8z M493.6,319.5h-8v-2h8V319.5z M479.5,317.5v2h-8.2v-2H479.5z M536,319.5h-8v-2h8V319.5z M513.8,317.5h8.1v2h-8.1V317.5z
+		 M408.8,319.5h-8v-2h8V319.5z M414.9,317.5h8.1v2h-8.1V317.5z M394.7,319.5h-8.1v-2h8.1V319.5z M465.3,317.5v2h-8v-2H465.3z
+		 M451.2,319.5h-8v-2h8V319.5z M429,317.5h8.1v2H429V317.5z M344.2,317.5h8v2h-8V317.5z M338.2,317.5v2H330v-2H338.2z M316,317.5h8
+		v2h-8V317.5z M309.9,319.5h-8v-2h8V319.5z M380.5,317.5v2h-8v-2H380.5z M358.3,319.5v-2h8.1v2H358.3z M384.6,567.9v2.1h-8v-2.1
+		H384.6z M370.5,570h-8.2v-2.1h8.2V570z M348.2,567.9h8v2.1h-8V567.9z M328.1,570H320v-2.1h8.1V570z M342.2,567.9v2.1h-8.1v-2.1
+		H342.2z M305.8,570v-2.1h8.1v2.1H305.8z M455.3,570h-8.1v-2.1h8.1V570z M461.3,567.9h8v2.1h-8V567.9z M441.1,570H433v-2.1h8.1V570z
+		 M419,567.9h8v2.1h-8V567.9z M412.9,570h-8.1v-2.1h8.1V570z M398.7,570h-8.1v-2.1h8.1V570z M540.1,567.9v2.1H532v-2.1H540.1z
+		 M546.2,567.9h8v2.1h-8V567.9z M526,567.9v2.1h-8.1v-2.1H526z M511.8,570h-8v-2.1h8V570z M497.7,570h-8.1v-2.1h8.1V570z
+		 M483.5,567.9v2.1h-8v-2.1H483.5z M625,570h-8.1v-2.1h8.1V570z M610.8,570h-8v-2.1h8V570z M596.6,570h-8v-2.1h8V570z M574.4,570
+		v-2.1h8.2v2.1H574.4z M568.3,570h-8v-2.1h8V570z M634,324.6h2v8.1h-2V324.6z M636,346.8h-2v-8.1h2V346.8z M636,352.9v8h-2v-8H636z
+		 M634,367h2v8h-2V367z M636,381.1v8.2h-2v-8.2H636z M634,395.3h2v8h-2V395.3z M634,423.5h2v8.1h-2V423.5z M634,409.4h2v8.1h-2
+		V409.4z M634,437.7h2v8h-2V437.7z M636,451.8v8.1h-2v-8.1H636z M636,480.1v8h-2v-8H636z M636,466v8.1h-2V466H636z M634,494.2h2v8
+		h-2V494.2z M634,508.3h2v8.1h-2V508.3z M636,522.5v8h-2v-8H636z M636,550.8v8.1h-2v-8.1H636z M634,536.6h2v8.1h-2V536.6z
+		 M634,567.9V565h2v5h-5v-2.1H634h1l-1,1.1V567.9z M295.8,319.5h-8.2v-2h8.2V319.5z M284.6,320.5v8.1h-2v-8.1H284.6z M284.6,334.7
+		v8.1h-2v-8.1H284.6z M282.6,356.9v-8.1h2v8.1H282.6z M282.6,362.9h2v8.1h-2V362.9z M284.6,377.1v8.1h-2v-8.1H284.6z M282.6,391.2h2
+		v8h-2V391.2z M284.6,405.3v8.1h-2v-8.1H284.6z M282.6,427.6v-8h2v8H282.6z M284.6,433.6v8.1h-2v-8.1H284.6z M282.6,447.8h2v8.1h-2
+		V447.8z M284.6,462v8h-2v-8H284.6z M284.6,476v8h-2v-8H284.6z M282.6,490.1h2v8.2h-2V490.1z M284.6,504.3v8h-2v-8H284.6z
+		 M282.6,518.5h2v8h-2V518.5z M284.6,546.8v8h-2v-8H284.6z M284.6,532.6v8.1h-2v-8.1H284.6z M299.8,570h-8.1v-2.1h8.1V570z
+		 M284.6,567.9h1v2.1h-2v-1h-1v-8.1h2V567.9v1.1h-1v-1.1H284.6z"/>
+	<path style="fill:#0000FF;" d="M770.4,506.3v-4H744v4H770.4z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_28_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M770.4,506.3H744v-4h26.3v4H770.4z"/>
+	<path style="fill:#0000FF;" d="M745.1,424.5v4h26.2v-4H745.1z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_29_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M745.1,424.5h26.2v4h-26.2V424.5z"/>
+	<path style="fill:#0000FF;" d="M771.3,309.4h-25.2v4h25.2V309.4z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_30_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M746.1,309.4h25.2v4h-25.2V309.4z"/>
+	<path style="fill:#993366;" d="M402.8,704.2v-4.1h-38.3v4.1H402.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_32_1_STROKES" style="fill:none;stroke:#993366;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M402.8,704.2h-38.3v-4.1h38.3V704.2z"/>
+	<path style="fill:#FFCC00;" d="M189.8,295.3v-4.1h-15.6v4.1H189.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_33_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M189.8,295.3h-15.6v-4.1h15.6V295.3z"/>
+	<path style="fill:#FFCC00;" d="M276.6,248.8h-4.1V272h4.1V248.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_34_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M276.6,248.8V272h-4.1v-23.2H276.6z"/>
+	<path style="fill:#FFCC00;" d="M161.4,308.2h-4v143.6h4V308.2z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_36_1_STROKES" style="fill:none;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M161.4,308.2v143.6h-4V308.2H161.4z"/>
+	<path style="fill:#0000FF;" d="M731.4,268h-14.6v4h14.6V268z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_37_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M716.8,268h14.6v4h-14.6V268z"/>
+	<path style="fill:#0000FF;" d="M748.1,284.8H744v238.3h4.1V284.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_38_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M748.1,284.8v238.3H744V284.8H748.1z"/>
+	<path d="M434.6,241.3v16.2H478v-16.2H434.6 M436.6,255.4v1l-1-1H436.6v-12.1h-1l1-1v1H476v-1l1,1h-1v12.1h1l-1,1v-1H436.6z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_42_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M436.6,255.4v1l-1-1H436.6v-12.1h-1l1-1v1H476v-1l1,1h-1v12.1h1l-1,1v-1H436.6z M434.6,241.3H478v16.2h-43.4V241.3z"/>
+	<path style="fill:#1F1A17;" d="M449.5,233.6l-0.3,0.2l-2.2,2.1l-0.8,1.1l-0.2,0.3l-0.3,0.4l2.2,1.4l0.6-0.9l0.2-0.2l0.4-0.5
+		l0.2-0.2l0.2-0.3l0.2-0.1l0.2-0.3l2.2-1.6h0.2l0.8-0.4l1.3-0.3h0.2l0.4-0.1h1.1l1,0.1l1.5,0.5l1.9,1.2l1.3,1.2l1.2,1.5l1.6,3
+		l0.6,1.4l0.8,2.9l0.3,3.3l-0.2,4.1l-0.9,3.8l-1.9,3.9L462,263l-0.9,0.9l-1.3,1l-2,0.9l-1,0.2h-2h-0.3h-0.7l-0.3-0.1h-0.7l-2-0.4
+		l-0.2-0.2h-0.2L450,265l-0.2-0.1l-0.2-0.1l-0.2-0.2l-0.5-0.3l-0.2-0.2l-0.8-1l-0.4-0.6l-2.2,1.3l1.8,2.4l2,1.4l1.8,0.6l2.1,0.4h0.4
+		l0.3,0.1h1.1l0.3,0.1h0.7l2.1-0.2l1.4-0.4l1.9-0.9l0.6-0.4l1.7-1.4l0.5-0.5l1.8-2.5l1.5-2.8l0.8-2.4l0.8-4.3l0.1-3.8l-1-6.2
+		l-0.8-2.3l-1.5-2.9l-1.3-1.9l-1-1.1l-1.7-1.4l-1.2-0.8l-1.3-0.6l-2.8-0.5H455l-1.8,0.3l-1.8,0.6l-1.6,1L449.5,233.6z"/>
+	<path style="fill:#1F1A17;" d="M443.6,260.7l1,9.1l5.2-10.6L443.6,260.7z"/>
+	<path style="fill:#1F1A17;" d="M745.5,454.8L745.5,454.8l-7.8,6.2l1.6,2l7-5.6l6.9,5.6l1.7-2l-7.8-6.2H747l0,0l0,0l-0.1-0.1l0,0
+		l-0.1-0.1h-0.1h-0.1H746l0,0h-0.2l-0.1,0.1h-0.1L745.5,454.8L745.5,454.8z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_65_1_STROKES" style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;" d="
+		M736.1,522L736.1,522h-0.2v0.1v0.1h-0.1h-0.1v0.1h-0.1l0,0v0.1v0.1h-0.1l0,0h-0.1v0.2h-0.1v33.2l0.1,0.1v0.2l0.2,0.1l0,0v0.1l0,0
+		h0.1l0,0l0.2,0.2l0,0l0,0h0.1h0.1h0.1l0.1,0.2h0.2h0.1h21.1h0.1h0.2l0.1-0.1h0.1l0.1-0.1h0.1l0.2-0.2l0,0h0.1h0.1v-0.1h0.1l0,0l0,0
+		v-0.2h0.1v-33.4h-0.1v-0.2l0,0v-0.1l-0.1-0.1v-0.1h-0.1h-0.1v-0.1l0,0h-0.1V522l-0.1-0.1h-0.1l-0.1-0.1H758l-0.1-0.1h-0.2l-0.1-0.1
+		h-21v0.1h-0.2l-0.1,0.1L736.1,522L736.1,522L736.1,522z"/>
+	<path style="fill:#1F1A17;" d="M736.7,538.9v1.3h20.8v-1.3H736.7z"/>
+	<path style="fill:#0000FF;" d="M736.2,523.2v15.6h22.2v-15.6H736.2z"/>
+	<path style="fill:#1F1A17;" d="M746.9,540.2l-4,7.7h7.9L746.9,540.2z"/>
+	<path style="fill:#0000FF;" d="M771.3,366.6h-25.2v4h25.2V366.6z"/>
+	
+		<path id="Layer0_0_MEMBER_35_MEMBER_71_1_STROKES" style="fill:none;stroke:#0000FF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" d="
+		M746.1,366.6h25.2v4h-25.2V366.6z"/>
+	<path style="fill:#1D1D1B;" d="M229.4,232.2c-9,0-16.4,7.3-16.4,16.4c0,9,7.3,16.4,16.4,16.4c9,0,16.4-7.3,16.4-16.4
+		S238.5,232.2,229.4,232.2z M229.4,262.7c-7.8,0-14.2-6.3-14.2-14.2c0-7.8,6.3-14.2,14.2-14.2c7.8,0,14.2,6.3,14.2,14.2
+		C243.6,256.4,237.3,262.7,229.4,262.7z"/>
+	<path style="fill:#1D1D1B;" d="M159.2,277.1c-9,0-16.4,7.3-16.4,16.4c0,9,7.3,16.4,16.4,16.4s16.4-7.3,16.4-16.4
+		S168.3,277.1,159.2,277.1z M168.7,283l-9.4,9.4l-9.5-9.5c2.5-2.2,5.8-3.6,9.4-3.6C162.9,279.3,166.2,280.7,168.7,283z M145.1,293.5
+		c0-3.6,1.4-7,3.7-9.5l9.4,9.5l-9.5,9.5C146.5,300.4,145.1,297.1,145.1,293.5z M149.8,304l9.4-9.5l9.4,9.4c-2.5,2.3-5.8,3.6-9.4,3.6
+		C155.6,307.6,152.3,306.3,149.8,304z M169.8,302.9l-9.4-9.4l9.4-9.4c2.2,2.5,3.6,5.8,3.6,9.4S172,300.4,169.8,302.9z"/>
+	<path style="fill:#1D1D1B;" d="M746.3,253.8c-9,0-16.4,7.3-16.4,16.4c0,9,7.3,16.4,16.4,16.4s16.4-7.3,16.4-16.4
+		S755.4,253.8,746.3,253.8z M755.8,259.6l-9.4,9.4l-9.5-9.5c2.5-2.2,5.8-3.6,9.4-3.6C750,256,753.3,257.4,755.8,259.6z M732.1,270.2
+		c0-3.6,1.4-7,3.7-9.5l9.4,9.5l-9.5,9.5C733.5,277.1,732.1,273.8,732.1,270.2z M736.9,280.7l9.4-9.5l9.4,9.4
+		c-2.5,2.3-5.8,3.6-9.4,3.6C742.7,284.3,739.4,283,736.9,280.7z M756.9,279.6l-9.4-9.4l9.4-9.4c2.2,2.5,3.6,5.8,3.6,9.4
+		C760.5,273.8,759.1,277.1,756.9,279.6z"/>
+	<path style="fill:#1D1D1B;" d="M456.4,346.4c-16,0-29,13-29,29s13,29,29,29s29-13,29-29S472.4,346.4,456.4,346.4z M456.4,400.6
+		c-13.9,0-25.1-11.2-25.1-25.1s11.2-25.1,25.1-25.1c13.9,0,25.1,11.2,25.1,25.1C481.5,389.3,470.2,400.6,456.4,400.6z"/>
+	<path style="fill:#1D1D1B;" d="M408.2,220.3c-16,0-29,13-29,29s13,29,29,29s29-13,29-29C437.3,233.3,424.3,220.3,408.2,220.3z
+		 M408.2,275.4c-13.9,0-26.1-12.2-26.1-26.1s12.2-26.1,26.1-26.1s26.1,12.2,26.1,26.1C434.3,263.2,422.1,275.4,408.2,275.4z"/>
+	<path style="fill:#1D1D1B;" d="M504.2,220.3c-16,0-29,13-29,29s13,29,29,29s29-13,29-29C533.3,233.3,520.3,220.3,504.2,220.3z
+		 M504.2,275.4c-13.9,0-26.1-12.2-26.1-26.1s12.2-26.1,26.1-26.1s26.1,12.2,26.1,26.1C530.3,263.2,518.1,275.4,504.2,275.4z"/>
+	<polygon style="fill:#FFCC00;stroke:#FFCC00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;" points="402.4,248.8 
+		390.2,242.8 390.2,246.8 367.7,246.8 362,246.8 338,246.8 338,250.8 362,250.8 367.7,250.8 390.2,250.8 390.2,254.9 	"/>
+	<path style="fill:#1D1D1B;" d="M716.9,108.6c-16,0-29,13-29,29s13,29,29,29s29-13,29-29S732.9,108.6,716.9,108.6z M716.9,163.8
+		c-13.9,0-26.1-12.2-26.1-26.1s12.2-26.1,26.1-26.1s26.1,12.2,26.1,26.1C743,151.5,730.7,163.8,716.9,163.8z"/>
+	<path style="fill:#1D1D1B;" d="M263.9,108.6c-16,0-29,13-29,29s13,29,29,29c16,0,29-13,29-29S279.9,108.6,263.9,108.6z
+		 M263.9,163.8c-13.9,0-26.1-12.2-26.1-26.1s12.2-26.1,26.1-26.1s26.1,12.2,26.1,26.1C290,151.5,277.7,163.8,263.9,163.8z"/>
+	<path style="fill:#1D1D1B;" d="M105.9,108.6c-16,0-29,13-29,29s13,29,29,29s29-13,29-29S121.9,108.6,105.9,108.6z M105.9,163.8
+		c-13.9,0-26.1-12.2-26.1-26.1s12.2-26.1,26.1-26.1s26.1,12.2,26.1,26.1C132,151.5,119.7,163.8,105.9,163.8z"/>
+	<path style="fill:#1D1D1B;" d="M322.7,232.3c-9,0-16.4,7.3-16.4,16.4c0,9,7.3,16.4,16.4,16.4s16.4-7.3,16.4-16.4
+		S331.8,232.3,322.7,232.3z M332.2,238.1l-9.4,9.4l-9.5-9.5c2.5-2.2,5.8-3.6,9.4-3.6C326.4,234.5,329.7,235.9,332.2,238.1z
+		 M308.6,248.7c0-3.6,1.4-7,3.7-9.5l9.4,9.5l-9.5,9.5C310,255.6,308.6,252.3,308.6,248.7z M313.3,259.2l9.4-9.5l9.4,9.4
+		c-2.5,2.3-5.8,3.6-9.4,3.6C319.1,262.8,315.8,261.5,313.3,259.2z M333.3,258.1l-9.4-9.4l9.4-9.4c2.2,2.5,3.6,5.8,3.6,9.4
+		S335.5,255.6,333.3,258.1z"/>
+	<path style="fill:#1D1D1B;" d="M338.2,673.1c-16,0-29,13-29,29s13,29,29,29s29-13,29-29S354.2,673.1,338.2,673.1z M338.2,727.2
+		c-13.9,0-25.1-11.2-25.1-25.1c0-13.9,11.2-25.1,25.1-25.1c13.9,0,25.1,11.2,25.1,25.1S352.1,727.2,338.2,727.2z"/>
+	<path style="fill:#FFCC00;" d="M10.2,351.9v49.5h128.2v-49.5H10.2z M136.3,399.4h-124V354h124V399.4z"/>
+	<path style="fill:#FFCC00;" d="M10.2,414.9v70.5h128.2v-70.5H10.2z M136.3,483.4h-124V417h124V483.4z"/>
+	<path style="fill:#FFCC00;" d="M19.2,589.9v49.5h148.2v-49.5H19.2z M165.3,637.4h-144V592h144V637.4z"/>
+	<path style="fill:#FFCC00;" d="M212.2,589.9v49.5h148.3v-49.5H212.2z M358.3,637.4h-144V592h144V637.4z"/>
+	<path style="fill:#FFCC00;" d="M144.4,667.3v49.5h90.2v-49.5H144.4z M232.5,714.8h-86v-45.4h86V714.8z"/>
+	<path style="fill:#0000FF;" d="M546.2,589.9v49.5h148.2v-49.5H546.2z M692.3,637.4h-144V592h144V637.4z"/>
+	<path style="fill:#0000FF;" d="M671.4,667.3v49.5h90.2v-49.5H671.4z M759.5,714.8h-86v-45.4h86V714.8z"/>
+	<path style="fill:#0000FF;" d="M769.8,286.9v49.5H930v-49.5H769.8z M928,334.4H772V289h156V334.4z"/>
+	<path style="fill:#0000FF;" d="M769.8,343.9v49.5H930v-49.5H769.8z M928,391.4H772V346h156V391.4z"/>
+	<path style="fill:#0000FF;" d="M769.8,401.9v49.5H930v-49.5H769.8z M928,449.4H772V404h156V449.4z"/>
+	<circle style="fill:#FFFFFF;" cx="746.2" cy="466.2" r="5.9"/>
+	<path style="fill:#1D1D1B;" d="M746.2,459.4c-3.7,0-6.8,3-6.8,6.8c0,3.7,3,6.8,6.8,6.8s6.8-3,6.8-6.8S750,459.4,746.2,459.4z
+		 M746.2,471.2c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5C751.3,469,749,471.2,746.2,471.2z"/>
+	<path style="fill:#993366;" d="M401.5,669.4v65.5h161.2v-65.5H401.5z M560.6,732.8h-157v-61.4h157V732.8z"/>
+	<path style="fill:#FF0000;" d="M297.2,513.6v46.5h141.2v-46.5H297.2z M436.3,558h-137v-42.4h137V558z"/>
+	<path style="fill:#FF0000;" d="M474.2,513.6v46.5h141.3v-46.5H474.2z M613.3,558h-137v-42.4h137V558z"/>
+	<path style="fill:#FF0000;" d="M297.2,427.6v46.5h141.2v-46.5H297.2z M436.3,472h-137v-42.4h137V472z"/>
+	<path style="fill:#FF0000;" d="M474.2,427.6v46.5h141.3v-46.5H474.2z M613.3,472h-137v-42.4h137V472z"/>
+	<path style="fill:#0000FF;" d="M739.2,589.9v49.5h148.2v-49.5H739.2z M885.3,637.4h-144V592h144V637.4z"/>
+	<path style="fill:#0000FF;" d="M769.8,479.9v49.5H930v-49.5L769.8,479.9L769.8,479.9z M928,527.4H772V482h156V527.4z"/>
+	<path style="fill:#FFCC00;" d="M221.7,272v37.5H328V272H221.7z M325.9,307.4h-102V274h102V307.4z"/>
+	<text transform="matrix(1 0 0 1 310.8 198.4)" style="font-family:'Tahoma-Bold'; font-size:12px;">PTU</text>
+	<text transform="matrix(1 0 0 1 304.5 211.9)" style="font-family:'Tahoma-Bold'; font-size:12px;">Select</text>
+	<text transform="matrix(1 0 0 1 306.4 226.4)" style="font-family:'Tahoma-Bold'; font-size:12px;">Valve</text>
+	<text transform="matrix(1 0 0 1 203.5 210.75)" style="font-family:'Tahoma-Bold'; font-size:14px;">Priority</text>
+	<text transform="matrix(1 0 0 1 206.8 226.65)" style="font-family:'Tahoma-Bold'; font-size:14px;">Valves</text>
+	<path style="fill:#FF0000;" d="M458.3,501.4h-4V538h4V501.4z"/>
+	<path style="fill:#1D1D1B;" d="M456.5,469.8c-9,0-16.4,7.3-16.4,16.4c0,9,7.3,16.4,16.4,16.4s16.4-7.3,16.4-16.4
+		C472.9,477.1,465.5,469.8,456.5,469.8z M465.9,475.7l-9.4,9.4l-9.5-9.5c2.5-2.2,5.8-3.6,9.4-3.6C460.1,472,463.4,473.4,465.9,475.7
+		z M442.3,486.2c0-3.6,1.4-7,3.7-9.5l9.4,9.5l-9.5,9.5C443.7,493.1,442.3,489.8,442.3,486.2z M447.1,496.7l9.4-9.5l9.4,9.4
+		c-2.5,2.3-5.8,3.6-9.4,3.6C452.9,500.3,449.6,499,447.1,496.7z M467,495.6l-9.4-9.4l9.4-9.4c2.2,2.5,3.6,5.8,3.6,9.4
+		C470.6,489.8,469.3,493.1,467,495.6z"/>
+	<text transform="matrix(1 0 0 1 768.5719 553.0094)" style="font-family:'ArialMT'; font-size:12px;">BRAKE</text>
+	<text transform="matrix(1 0 0 1 768.5719 567.4094)" style="font-family:'ArialMT'; font-size:12px;">ACCUMULATOR</text>
+</g>
+</svg>

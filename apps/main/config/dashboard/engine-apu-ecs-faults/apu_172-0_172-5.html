@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>START FUEL VALVE OPEN ( Status ) - (APU Fault Code 172-0 to 172-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 49-30-00-810-802</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+<br>
+
+	<p>This task is for the centralized diagnostic system (CDS) fault message 172–0/2/5 START FUEL VALVE OPEN. This fault is set when the full authority digital electronic controller (FADEC) senses an open in the 28 V DC circuit to the start fuel solenoid valve. <strong>This fault will not stop auxiliary power unit (APU) operation.</strong></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Start Fuel Solenoid Valve </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_start_fuel_vlv.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

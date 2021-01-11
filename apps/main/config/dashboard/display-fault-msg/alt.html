@@ -1,0 +1,117 @@
+<clp-card name="Description">
+	
+	<div>
+		<clp-info-red><strong><h4>ALT MESSAGE</h4></strong></clp-info-red>
+	</div>
+	
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td>ALT message on PFD</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-872</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>ALT message on ARCDU1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-54-00-810-810</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>ALT message on ARCDU2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-54-00-810-811</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		<clp-tr>
+			<clp-td>ALT message on ISI</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-12-16-810-802</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+
+	<div><b>ALT MESSAGE ON PFD</b></div>
+
+	<div>The fault isolation procedure is for when the primary flight display (PFD) altitude indicator shows the ALT mismatch flag.<br><br>The PFD shows the ALT mismatch flag when the flight data processing system (FDPS) senses and air data unit 1 (ADU1) and ADU2 altitude difference that is more than 60 feet at sea level to 180 feet at 27 00 feet.<br><br>The PFD flight mode annunciator (FMA) can also show an ALT MISMATCH message.</div>
+	<br>
+	<br>
+	<div><b>ALT, ATC MESSAGE ON ARCDU1/2</b></div>
+	<div>This fault isolation procedure is for when air traffic control (ATC) area of the audio and radio control display unit 1 (ARCDU1) shows a red ALT message. ARCDU1/2 shows a red ALT message when it does not receive valid ATC mode C data from the set ATC transponder.</div>
+	<br>
+
+	<div>The ATC1 or ATC2 (internally by an LED segment on the I/O processor board) can show a related fault that follows:</div>
+	<ul>
+		<li>F4H</li>
+		<li>F5H</li>
+		<li>F9H</li>
+		<li>FAH</li>
+	</ul>
+	<br>
+	<div><b>ALT MESSAGE on Integrated Standby Instrument</b></div>
+
+	<div>This fault isolation procedure is for when the integrated standby instrument (ISI) shows the ALT message.<br> The ISI shows the ALT message when the ISI senses an internal malfunction of the altitude (ALT) function.</div>
+
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<clp-info-blue><div><div><clp-text-blue><strong>NOTE:</strong></clp-text-blue></div>Message may be caused by unintended manual navigation mode change or pitch wheel input on FGCP by pilot.</div></clp-info-blue>
+	
+	<br>
+	<br>
+
+	<clp-table fullwidth="">
+		<clp-tr>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>A7</strong> ADU 1</div>
+				<div><strong>A6</strong> ADU 2</div>
+
+
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+</clp-card>
+
+<br />

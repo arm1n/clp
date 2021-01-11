@@ -1,0 +1,74 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Invalid FADEC RDC NP REMOTE COMMS (Modsum 4-113264) - (Engine Fault Code 456/457)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-10-810-810</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault code is generated as a result of an apparent loss of the remote power plant PEC s ability to enter the low rpm approach mode. For Post Modsum 4W113558, the fault code will only be annunciated when the propeller is rotating.</p><!-- !!!! -->
+
+    <p>The fault detection logic has determined that the RS422 databus input from the local FADEC is indicating a communication problem with the remote powerplant.</p><!-- !!!! -->
+
+    <p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Fuel control electrical wiring harness (local or remote powerplant) </li>
+        <li>Cross wing electrical harness </li>
+        <li>Remote PEC </li>
+        <li>Remote FADEC </li>
+        <li>Local FADEC </li>
+        <li>Local PEC </li>
+        <!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>

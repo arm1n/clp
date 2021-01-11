@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 967.9 309" style="enable-background:new 0 0 967.9 309;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st1{fill:#0099FF;}
+	.st2{fill:#FF9900;}
+	.st3{fill:#00CC00;}
+	.st4{fill:#FFFF00;}
+	.st5{fill:#CCCCCC;}
+	.st6{fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;}
+	.st7{fill:#ED1C24;}
+	.st8{fill:#FF0000;}
+	.st9{fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;}
+	.st10{fill:none;stroke:#231F20;stroke-width:0.55;stroke-miterlimit:5.9999;}
+	.st11{font-family:'Tahoma';}
+	.st12{font-size:16px;}
+	.st13{fill:#B3C8CE;}
+	.st14{fill:#D6D6D6;}
+	.st15{fill:#999999;}
+	.st16{fill:#78655C;}
+	.st17{fill:#0066FF;}
+	.st18{fill:#C0C0C0;}
+	.st19{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:5;}
+	.st20{fill:none;stroke:#999999;stroke-miterlimit:5;}
+	.st21{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st22{stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M725.3,277.7h-71.9c-4.2,0-7.6-3.4-7.6-7.6v-34c0-4.2,3.4-7.6,7.6-7.6h71.9c4.2,0,7.6,3.4,7.6,7.6v34
+	C732.9,274.3,729.5,277.7,725.3,277.7z"/>
+<path class="st0" d="M616,59.1h-72.2c-4.1,0-7.4-3.3-7.4-7.4V17.4c0-4.1,3.3-7.4,7.4-7.4H616c4.1,0,7.4,3.3,7.4,7.4v34.3
+	C623.4,55.7,620.1,59.1,616,59.1z"/>
+<path class="st0" d="M939.7,252.8H781.5c-4.1,0-7.4-3.3-7.4-7.4v-34.3c0-4.1,3.3-7.4,7.4-7.4h158.2c4.1,0,7.4,3.3,7.4,7.4v34.3
+	C947.1,249.5,943.8,252.8,939.7,252.8z"/>
+<path class="st0" d="M375.6,49.9h-92.3c-4.3,0-7.8-3.5-7.8-7.8V23.6c0-4.3,3.5-7.8,7.8-7.8h92.3c4.3,0,7.8,3.5,7.8,7.8v18.4
+	C383.4,46.4,379.9,49.9,375.6,49.9z"/>
+<path class="st0" d="M375.6,281.7H260.3c-4.3,0-7.8-3.5-7.8-7.8v-18.4c0-4.3,3.5-7.8,7.8-7.8h115.3c4.3,0,7.8,3.5,7.8,7.8v18.4
+	C383.4,278.2,379.9,281.7,375.6,281.7z"/>
+<path class="st1" d="M324.6,143.8l-0.1,0.4h-0.3l5.4,0.4l-0.3,0.6l21.8,15l0.3-0.7l-0.8-0.6l12,0.7l-11.8-0.9l-17.5-12.5l-3.2-2.3
+	l-3.9-0.3c0,0.1-0.1,0.1-0.1,0.1c-0.3,0.3-0.5,0.4-0.6,0.4C325.1,144.1,324.9,144,324.6,143.8 M390.8,214.3l0.4,0.6l0.6,0.5l0.7,0.4
+	l0.7,0.2l0.7,0l0.7-0.2l0.4-0.4l0.2-0.6l0.2-0.7l-0.6-1.3l-0.8-0.5l0.4-0.8l-0.8,1.4l-0.5,1.1h0l0.7,0.2l0.7-0.1l0,0.2l0,0.4
+	l-0.3,0.5l-0.5,0.2l-0.6,0.1l-0.5-0.2l-0.6-0.4l-0.3-0.4l-0.2-0.5l0.1-0.5l0.3-0.7l1.8,0.1l-0.8-0.8l-10.7-0.9l0.8,0.9l8,0.6
+	l-0.2,0.5l0,0.6L390.8,214.3 M388.6,200.8l-0.5-0.6l-0.5-0.5l-0.7-0.4l-0.8-0.1l-0.6,0.1l-0.7,0.2l-0.5,0.4l-0.2,0.5l-0.1,0.6
+	l0.2,0.7l0.4,0.6l0.5,0.6l0.7,0.3l0.8,0.2h0.7l1.1-0.8l0.3-0.4l0-0.1L388.6,200.8 M385.1,200.2l0.5-0.2l0,0.4l0.3,0.5l1.1,0.5
+	l0.9-0.1v0.1l-0.1,0.5l-0.2,0.4l-0.6,0.2l-0.5,0l-0.7-0.1l-0.5-0.3l-0.3-0.4l-0.2-0.6L385.1,200.2 M399.4,205.8l-0.7-0.6l0.9,6.1
+	l0.8-1.5v-0.1l0.2-1.2l-0.6-1.9L399.4,205.8 M395.6,167.5l-3.2,0.5l-2.8,1.6l-1,0.9l-1.8,2.4l-0.5,1.4l-0.2,1.5v1.6l0.7,3.1l1.1,2
+	l0.5,1.3l0.7,1.1l0.5,5.5h0.2l2.2,0.9l8.6,0.7l7,49.1l2-8.4l0.6,0.2l0,0.2l0.5,0.5l11.8-19.2l0.5,9.1l4-6.6l-1.2-13.6l-2.2-15.2
+	l-0.3-0.2l-1.8-12.3l-6,0.1l-0.5-0.3l-0.5-0.2l0.2,1.2v3.5l-1.6,4.4l-0.7,1.2l-1.9,2.8l-1.2,1.2l-2,1.2l-0.4-4l0.6-0.5l1-1.2
+	l0.7-1.2l0.8-3v-1.5l-0.2-1.5l-1.2-3.1l-2.1-2.7l-1.2-1.3l-1.5-1l-3.2-1.5l-1.7-0.5L395.6,167.5 M432.3,129.4l-0.5-0.7l-0.5-0.6
+	l-1.5-0.9l-0.7-0.1l-0.1-0.2l0.3,1.1l0,0.2l1.5,0.7l0.5,0.6l0.4,0.7l0.2,0.8l1.6,22.2v0.7l0.1-0.2l0.2-0.5v-0.1l0.1-0.7l-1.7-22.3
+	L432.3,129.4 M393.3,83.3h-0.5l-1,0.2l-15.3,5.9l-0.7,0.4l-0.6,0.6l-0.8,1.5l-0.5,1.4l-0.4,0.1l-5.1,2l7.5-2.2l4.2,4.1l0-0.1
+	l0.5-1.6l1.1-1.5l0.6-0.5l0.8-0.4l0.2-0.2l1-0.3v-1.2l0.9-1.6l0.7-0.8l0.6-0.4l1.6-0.6l0.2-0.1h1.2v-0.6h0l0.2-0.7l0.8-0.9l0.7-0.4
+	l0.9-0.1l0.9,0.1l0.8,0.3l0.8,0.4l0.5,0.6l0.5,0.7l0.2,0.9l0,0.7l-0.2,0.4v0.1l-0.3,0.7l-0.5,0.5l0.4,0.5l0.5,1l0.2,0.8v0.6l1,1.2
+	l1,1.4l-4.1-0.3l-6.4-0.6l-1.1,0.1l-0.6,0.3l-0.2-0.4l-0.3-0.5v0.1l0,0.2l0,0.2l-0.9,0.6h0l-0.2,0.1l-0.4,0.4l-3.8,1.4l-2.4,1
+	c-0.2,0-0.5,0.1-0.8,0.2c-0.9,0.2-1.4,0.4-1.7,0.6c0,0,0,0,0,0.1c-0.8,0.2-1.4,0.5-1.6,0.7c-0.1,0-0.2,0-0.2,0.1
+	c-0.7,0.2-1.2,0.4-1.5,0.6c-0.1,0-0.3,0.1-0.4,0.1c-1.2,0.2-1.8,0.5-1.8,1c0,0,0,0.1,0,0.2l-0.3,0.1l-1.2,2.4l0,0.8l0.1,0.8l1,1.6
+	l1.7,0.9l0.9,0.2l6.9,0.5l6.4,0.5l2.1,0.8l1.7,0.2l0.6,0.4l0.9,0.7l1.5,1.9l0.5,1.1l0.7,7.6v0.9l-0.2,11.9l-0.6,0.6l-0.3,0.2
+	l-0.2,0.2l-0.6,0.5l-1.8,0.7l-2,0.3h-1l-1.5-0.2l-2.3,14.8l9.8,3l0,4.2l-3.5,1.5l11.6,1l3.9,1.2l1.8,0.9l3.4,2.3l2.6,2.9l0.1,0.2
+	l0.2-0.7l-0.2-1.4l-0.2-0.4l-0.3-5.5l-0.4-2.3l0.2,0.6l0.7,1.1l1.9,1.6l1.2,0.6l0.2,0.1l0.5,0.6l0.4,0.2l1,0.4h1.2l4.2-0.6l-12-6.6
+	l-1.9-11.1v-0.2l0.5-0.8l1.9,0.5l2.8,8.9v0.1l0.7,1.1l0.9,0.9l1.6,0.7h0.1l0.8,0.1h0.2l0-1.4l1-0.7l1-0.9l0.7-1l0.5-1.2l0.2-1.2
+	l0-1.3l-0.2-1.2l-1-2.5l-0.9-1.2l-2.2-1.9l-0.6-0.3l-0.6-3.5l-0.7-0.2l-1.2-0.8l-1-1.6l0-1.5l-0.4-0.5l-0.3-0.9l-0.2-0.6v-0.4
+	l0.2-0.4l-0.6-0.6l-0.4-1.5v-0.4l0.1-0.4l-0.1-0.1l-0.6-1l-0.2-0.9l0.1-0.9l-0.5-0.4l-0.2-0.7l-0.2-0.3l0.2-0.8l-0.5-0.6l-0.3-0.9
+	l0.2-0.8l-0.2-0.2l-0.3-0.4l-0.4-0.9v-1.1l-0.3-0.4l-0.4-0.8l0-0.6l0-0.4l-0.3-0.4l-0.4-0.9l-0.1-0.5l0.1-0.5l-0.3-0.4l-0.5-1.4
+	l-0.2-1.3l-1.3-5.8l0.1-0.2l0.9-0.6l3.8-1.8l0.4-0.6l0.2-0.4h0.4l3-0.6l2.6-1.1l1-0.6l0.8-0.6l0.2-0.5l0.1-0.2h-0.2l-0.2-0.1
+	l-0.5-0.2l-0.3,0.2l-5.5,1.1l-0.5-0.1V100l-0.6-1.4l-0.2-0.4l-0.6-0.6l-0.7-0.4l-1-0.3l-0.4,0.1l-2.3-0.2l0-2l-0.1,1.9l-0.4-0.5
+	v-0.2l-0.3-0.8v-1.9l0.2-0.8l0.9-1.5l0.8-0.7l1.5-0.7l0.8-0.1h0.2l0.5-0.1v-0.5l0.1-0.1l0.8-1.2l0.8-0.3l0.8-0.2h0.8l1,0.4l0.7,0.4
+	l0.6,0.5l0,0.1l0.4,0.6l0,0.1l0.2,0.9l0,0.7V91l-0.4,0.8l-0.4,0.4l0.1,0.1l0.5-0.4l0.5-0.6l1.1-2.4l-0.1-1.6l-1-1.5l-0.8-0.6
+	l-0.8-0.4L393.3,83.3 M337.4,100.8l-0.2,0.6l-0.5,0.7l25.2,18.1l14.7,1.1l0.3-0.6h-0.1l-14.5-1.2l0.3-0.8l-14.2-10.1L337.4,100.8z"
+	/>
+<path class="st2" d="M384.2,194.5v0.3l-1.2,1l-2.2,2.9l-3.1,6.3l-0.5,1.5v0.2l-0.3,1.7l0,4.6l1,4.3v0.4l0.7,2.2l0.1,0.1l0.2,0.5
+	l2.6,3l3.5,2.7l3,1.6l1.5,1.5l0.4,0.9l0.2,0.9l-2.8,21.9l0.9,11.4l0.1,0.7l0.4,0.7l0.5,0.6l0.7,0.5l0.8,0.4l12.3,1h0.8l0.8-0.2
+	l0.6-0.3l0.4-0.6l25.4-49.6v-0.7l-1.2-13.7l-0.5-1.4l-1.5-2.2l0.4-0.9l-0.7-16.8l-0.2-0.2l0-0.4l-0.2-0.4l-0.2-7.2l-4.3,1.4
+	l-0.8,0.2l1.8,12.3l0.3,0.2l2.2,15.2l1.2,13.6l-4,6.6l-0.5-9.1l-11.8,19.2l-0.5-0.5l0-0.2l-0.6-0.2l-2,8.4l-7-49.1l-8.6-0.7
+	l-2.2-0.9h-0.2l-2,0.1l-1,0.5l-0.4,0.2l-0.5,0.4l-0.4,0.9v0.1l0,0.1l-0.7,1L384.2,194.5 M387.1,194.2l-0.2,0.4l0.4-0.6l0.7-0.3
+	l0.7-0.1l0.8,0l0.8,0.2l0.6,0.4l0.6,0.6l0.4,0.6l0.2,0.7l-0.2,0.6l0.1-0.5l-0.6-1.3l-0.5-0.6l-1.4-0.7h-0.9l-0.7,0.2L387.1,194.2
+	 M387.7,195l0.6-0.4h0l-0.5,0.4l-0.5,1l0-0.5L387.7,195 M388.9,194.6l0.7,0.2l0.5,0.4l0.4,0.4v0.1l0.2,0.6l-0.1,0.6l-0.2,0.3
+	l0.2-0.5l0-0.5l0-0.3h-0.6l-0.6-0.2l-0.5-0.4l-0.3-0.7H388.9 M398.8,205.2l0.7,0.6l0.6,0.8l0.6,1.9l-0.2,1.2v0.1l-0.8,1.5
+	L398.8,205.2 M388.1,200.2l0.5,0.6l0.1,1.3l0,0.1l-0.3,0.4l-1.1,0.8h-0.7l-0.8-0.2l-0.7-0.3l-0.5-0.6l-0.4-0.6l-0.2-0.7l0.1-0.6
+	l0.2-0.5l0.5-0.4l0.7-0.2l0.6-0.1l0.8,0.1l0.7,0.4L388.1,200.2 M388.6,200l0-1.6l0.2,0.5l1,1l-0.2,0.3L388.6,200 M382,198.6
+	l-0.2,0.5l1.2-1.1l-0.1,1.6l-1.2,0l0.1-0.5v-0.1L382,198.6 M391.2,215l-0.4-0.6l-0.2-0.6l0-0.6l0.2-0.5l-8-0.6l-0.8-0.9l10.7,0.9
+	l0.8,0.8l0.8-1.4l-0.4,0.8l0.8,0.5l0.6,1.3l-0.2,0.7l-0.2,0.6l-0.4,0.4l-0.7,0.2l-0.7,0l-0.7-0.2l-0.7-0.4L391.2,215z"/>
+<path class="st3" d="M379.6,152.7l-1,0.4l-0.7,0.6l-0.5,1.1l-0.2,0.1l-0.5,0.8l-0.3,1.8l0.2,0.4l-0.9,1.7l-0.6,0.2l-0.8,0.8l6.6,0.6
+	l1.2-0.2l0.4-0.2l5.9,0.5l3.5-1.5l0-4.2l-9.8-3l-1,6.6l-0.2,0.1h-0.8l-1.5-0.4l-0.1-0.1L379.6,152.7 M414,154.9L414,154.9l-2.8-9
+	l-1.9-0.5l-0.5,0.8v0.2l1.9,11.1l12,6.6l-4.2,0.6h-1.2l-1-0.4l-0.4-0.2l-0.5-0.6l-0.2-0.1l-1.2-0.6l-1.9-1.6l-0.7-1.1l-0.2-0.6
+	l0.4,2.3l0.3,5.5l0.2,0.4l0.2,1.4l-0.2,0.7l1.8,3.1l0.6,1.8l0.1,0.6l0.5,0.2l0.5,0.3l6-0.1l0.8-0.2l4.3-1.4l4.4-1.5l0.8-0.4l0.7-0.5
+	l0.5-0.8l0.6-1.2l0.3-1.1l1.9-3.6l0.7-0.8l0.6-1.2l0.2-0.9l0-0.9l-0.1-1l-0.5-0.9l-0.6-0.9l-0.9-0.7l-2-0.9h-1.1l-0.9-0.1l-1.5,0.2
+	l1.2,3.8l1,0.2l0.2,0.4l0,0.3l-0.3,0.5l-0.4,0.2l-0.8,0.4l-0.7,0.2l-1.2,0.1l0.1,0.2l-2.8,0.4l1.9-3.6l-0.9-2.9l-1.1,0.1l-5.3,0.7
+	l-1.9-0.3l-0.7,0.1H418l-0.8-0.1h-0.1l-1.6-0.7l-0.9-0.9L414,154.9 M430.9,159.5l0.8-0.4h0.9l0.4,0.2L430.9,159.5 M426.4,168.3
+	l0.1-0.6l0.3-0.6l0.5-0.4l0.5-0.2l1.5,0.1l0.7,0.3l0.8,1.1l0.2,0.7l0,0.6l-0.2,0.6l-0.5,0.4l-0.7,0.3h-0.8l-1.3-0.4l-1-1.2
+	L426.4,168.3 M434.7,160.5l0.5,0.7l0.2,0.8l0,0.6L434.7,160.5 M431.8,163.8l0.2,0.5l-0.7-0.4L431.8,163.8 M421.8,172.2l0.4,0.4
+	l0.1,0.5l-0.1,0.4l-0.3,0.3l-0.5,0.1h-0.6l-0.8-0.5l-0.2-0.6l0-0.4l0.4-0.4l0.5-0.1h0.5L421.8,172.2 M405.4,93.8l-0.3,0.9l0,2
+	l2.3,0.2l0.4-0.1l1,0.3l0.7,0.4l0.6,0.6l0.2,0.4l0.6,1.4l0.3-0.2l0.9-0.3l0.8-0.6l0.7-1.2l0.1-0.5l0.1-0.9l-0.2-0.9l-0.4-1l-1.6-1.5
+	l-2-0.8l-1-0.1l-1,0.1l-0.9,0.4l-0.8,0.6l-0.2,0.4L405.4,93.8 M411,87.4l-0.8,0.3l-0.8,1.2l-0.1,0.1v0.5l0.2-0.1l1,0.2l0.8,0.2
+	l0.9,0.4l1.4,0.8l1,1.2l0.1,0l0.4-0.4l0.4-0.8V91l0-0.7l-0.2-0.9l0-0.1l-0.4-0.6l0-0.1l-0.6-0.5l-0.7-0.4l-1-0.4h-0.8L411,87.4
+	 M385.1,93.2v0.9l0.2,0.9v0.2l0.2,0.4l0.6-0.3l1.1-0.1l6.4,0.6l0.1-0.6l0-0.5l-0.2-0.9l-0.5-0.9l-0.6-0.8l-0.9-0.8l-2-0.8l-1.1-0.1
+	l-1,0.2l-0.9,0.3l-0.8,0.6L385.1,93.2 M391,85.8l-0.5,0.2l-0.2,0.2l-0.5,0.5l-0.2,0.7h0V88l0.7,0l0.8,0.1l0.9,0.3l3.4,1.8l0.3-0.7
+	v-0.1l0-0.8l-0.2-0.8l-0.3-0.8l-0.7-0.6l-0.8-0.6l-1.2-0.3h-0.5L391,85.8z"/>
+<path class="st4" d="M434.4,169.6l-0.6,0.7l-0.7,0.4l-0.5,0.8l-0.7,0.5l-0.8,0.4l0.4,1.4l0.7,0.2h0.7l0.7-0.1l0.6-0.2l0.9-0.5
+	l0.2-0.8l-1-3.1L434.4,169.6 M428.7,167.1h-0.6l-0.5,0.3l-0.3,0.4l-0.2,0.5l0.2,0.6l1,0.8l0.5,0.2l0.7-0.1l0.5-0.2l0.3-0.6l0-0.4
+	l-0.2-0.6l-0.4-0.4l-0.5-0.3L428.7,167.1 M408.6,89.5l-0.8,0.1l-1.5,0.7l-0.8,0.7l-0.9,1.5l-0.2,0.8v1.9l0.3,0.8v0.2l0.4,0.5
+	l0.1-1.9l0.3-0.9l0.2-0.2l0.5-0.9l0.7-0.5l1-0.3l1-0.2l1.2,0.1l1,0.3l0.9,0.4l0.8,0.7l0.4,0.6l0.2,0.2l0.5,0.9l0.2,1v0.9l0,0.1
+	l-0.3,0.8l-0.7,1.2l-0.8,0.6l-0.9,0.3l-0.3,0.2v0.2l0.5,0.1l5.5-1.1l0.3-0.2l0.5,0.2l0.2,0.1h0.2l-0.1,0.2l-0.2,0.5l-0.8,0.6l-1,0.6
+	l-2.6,1.1l-3,0.6h-0.4l-0.2,0.4l-0.4,0.6l-3.8,1.8l-0.9,0.6l-0.1,0.2l1.3,5.8l0.1,0.4l0.3,0.4l-0.2,0.6l0.5,1.4l0.3,0.4l-0.1,0.5
+	l0.1,0.5l0.4,0.9l0.3,0.4l0,0.4l0,0.6l0.4,0.8l0.3,0.4v1.1l0.4,0.9l0.3,0.4l0.2,0.2l-0.2,0.8l0.3,0.9l0.5,0.6l-0.2,0.8l0.2,0.3
+	l0.2,0.7l0.5,0.4l-0.1,0.9l0.2,0.9l0.6,1l0.1,0.1l-0.1,0.4v0.4l0.4,1.5l0.6,0.6l-0.2,0.4v0.4l0.2,0.6l0.3,0.9l0.4,0.5l0,1.5l1,1.6
+	l1.2,0.8l0.7,0.2l2.1,0.5l2,0.1l2.2-0.2l3.8,12.8l1.2,4.4l0.9,2.9l0.8,2.9l1.2-0.1l0.7-0.2l0.8-0.4l-0.5-1.7l-1.2-3.8l-5.1-17.3
+	l0.6-0.2l2.7-1.2l1.4-1l1.1-1.4l0.4-0.9l0-0.4l0-0.8l-0.2-0.4l-0.2-0.5l-0.5-1.7L430,130l-0.4-0.6l-0.3-0.4V129l0.1-0.5V128
+	l-0.3-1.1l-0.7-0.8l0.1-0.5l0-0.8l-0.1-0.3l-0.3-0.5l-0.6-0.6l0.1-0.6V122l-0.1-0.4v-0.1l-0.2-0.3l-0.6-0.4l-0.3,0.8l-1,1.4
+	l-2.2,1.5l-4,1.5l-1,0.1l-0.1,0.1l-2.1,0.1l2.7-0.5h0l0.5-0.1l4.4-1.9h0l1.2-0.9l0.1-0.2l0.8-0.5l0.1-0.3l0.7-0.9l0.1-0.1l0.2-0.6
+	v-0.2l0.1-0.4v-0.4l-0.4-0.8l-0.3-0.3l0-0.4v-0.5l0-0.3l-0.4-0.8l-0.2-0.3l0-0.4l-0.1-0.8l-0.3-0.9l-0.3-0.2l0.1-0.4l-0.1-0.9
+	l-0.4-0.8l-0.3-0.2l0-0.4v-0.5l0-0.4l-0.2-0.3l-0.5-0.7l0-0.3v-0.5l0-0.4l-0.6-1l0.1-0.4l-0.1-0.5v-0.3l-0.4-0.8l-0.3-0.3l0.1-0.4
+	l-0.1-0.5v-0.3l-0.2-0.4l-0.2-0.4l-0.3-0.1l0.1-0.5l-0.1-0.5v-0.4l-0.5-0.9v-0.1l0-0.4l0-0.5l-1.2-2.6v-0.4l-0.2-0.7l-0.5-0.4
+	l-0.7-0.4h-0.4l-0.2,0.1l-1.6-0.6l-0.5,0.1l-0.2-0.6l-0.7-1.1l0,0l-4-2.6l-1-0.2l-0.2,0.1l-0.5,0.1H408.6 M414.1,96.9l0.4-0.3h1.2
+	l-0.8,0.3H414.1 M425.4,125.9l-1.1,1l-2.1,0.9l-2.3,0.8l-2.5,0.2l-1.7-0.1l3.2-0.2l2.1-0.4l3-1.2L425.4,125.9 M425.7,129.4l-1.5,0.9
+	l-1,0.4l-3.8,0.9l-1.7-0.1l2-0.2l4.2-1.2l2.3-1.3L425.7,129.4 M426.4,132.3l-1.4,0.9l-2.3,0.8l-3.8,0.6l-1.7-0.2l3.2-0.2l3.2-0.8
+	l3.4-1.6L426.4,132.3 M425.9,136l-3.5,1.2l-3.6,0.3l-1.1-0.2l2.6-0.1l2.2-0.3l3.1-1l1.8-0.9L425.9,136 M378.4,109.5l-0.1,1.7
+	l-0.3,0.9l-0.2,0.6l0.2,0.4v0.4l-0.4,0.8l-0.1,0.7v0.4l0,0.3l-0.2,0.9l0,1l0,0.4l-0.5,1.4v0.3l0.2,0.9l-0.1,0.1l-0.3,0.6l0,0.2
+	l-0.2,1l0.2,0.7l-0.5,1l0,0.7l-0.1,0.4l0.1,0.7l0.1,0.3l-0.5,1.4v0.3l0.1,1l-0.6,1.8l0.3,1.4l0.5,1l1.2,1.4l1.7,1.4l3,1.4l0.2,0.1
+	l-2.4,15.4l-1,6l0.1,0.1l1.5,0.4h0.8l0.2-0.1l1-6.6l2.3-14.8l1.5,0.2h1l2-0.3l1.8-0.7l0.6-0.5l0.2-0.2l0.3-0.2l0.6-0.6l0.2-11.9
+	l-0.9,0.4l-2.7,0.6l-3.3-0.2l-1-0.2l3.4,0.3l0.2-0.1h1l2.9-0.8h0.4v-0.9l-0.7-7.6l-0.5-1.1l-1.5-1.9l-0.9-0.7l-0.6-0.4l-1.7-0.2
+	l-2.1-0.8L378.4,109.5 M386.6,126.8h1l-0.3,0.1L386.6,126.8 M383.8,126.4l-0.4-0.2l3.1,0.6L383.8,126.4 M385.7,129.7l-2.3-0.6
+	l-0.4-0.2l3.2,0.6l1.1,0.1L385.7,129.7 M385.3,132.3l-0.9-0.2l-0.8-0.1l-0.6-0.2l1.4,0.4l1.5,0.2h0.5H385.3 M386.1,135.3l-2.4-0.3
+	l-1.1-0.3l-0.5-0.2l3.2,0.7l1.2,0.1L386.1,135.3 M382.4,93.6l-0.6,0.5l-1.1,1.5l-0.5,1.6l0,0.1l0.2,0.2l-0.6,0.2l3.8-1.4l0.4-0.4
+	l0.2-0.1h0l0.9-0.6l0-0.2l-0.5-0.9l-0.2-0.9l0-0.5l-1,0.3l-0.2,0.2L382.4,93.6 M387.4,88.5l-1.1,0.5l-1,0.9l-0.9,1.6l0.6,3.2
+	l0.3,0.5V95l-0.2-0.9v-0.9l0.9-1.6l0.2-0.4l0.5-0.2l0.3-0.4l0.9-0.3l0.8-0.1l1.2,0l0.1,0.1l0.9,0.2l1.4,0.8l0.5,0.4l0.6,0.9l0.2,0.7
+	l0.2,0.2l0.2,0.9l-0.2,0.9l-0.1,0.6l4.1,0.3l-1-1.4l-0.3-0.3l-0.9,0.5l-0.2,0.6l0.3-2.1l-0.2-0.9l-0.8-1.6l-3-2.6l-2.4-0.4
+	L387.4,88.5z"/>
+<path class="st5" d="M415.9,139.6l0.6,3.5l0.6,0.3l2.2,1.9l0.9,1.2l1,2.5l0.2,1.2l0,1.3l-0.2,1.2l-0.5,1.2l-0.7,1l-1,0.9l-1,0.7
+	l0,1.4l0.7-0.1l1.9,0.3l5.3-0.7l-0.2-4.6l-3.8-12.8l-2.2,0.2l-2-0.1L415.9,139.6 M432.1,131l-0.2-0.8l-0.4-0.7l-0.5-0.6l-1.5-0.7
+	l0.6,1.8l0.2,0.6v0.3l0.5,1.7l0.1,0.1l0,0.4l0.2,0.4l0,0.8l0,0.4l-0.4,0.9l-1.1,1.4l-1.4,1l-2.7,1.2l-0.6,0.2l5.1,17.3l1.5-0.2
+	l0.9,0.1l1.4-2.6v-0.7L432.1,131 M433.9,121.3l-0.8-0.4l-6-0.5l0.4,1.1v0.1l0.1,0.4v0.1l0.8,2.6l0.1,0.2v0.1l0.6,2.1l0.1,0.2
+	l0.7,0.1l1.5,0.9l0.5,0.6l0.5,0.7l0.1,0.7l1.7,22.3l-0.1,0.7v0.1l-0.2,0.5l1.2-2.3l0.1-0.4l-0.1,0.2l2-3.8l0.2-0.8l0.1-0.7
+	l-1.8-22.1l-0.1-0.8l-0.3-0.6l-0.5-0.7L433.9,121.3 M362.7,118.7l-0.3,0.8l14.5,1.2h0.1l0.1-0.1l-0.2-0.9v-0.3l0.5-1.4l0-0.4l0-1
+	l0.2-0.9l0-0.3l-13-1.4l-16.1-5.4L362.7,118.7 M332.8,99.7l-1.7,6.8l-0.2,6.1l2.5,33.1l-0.2,0.5l17.5,12.5l11.8,0.9l-12-0.7l0.8,0.6
+	l-0.3,0.7l-21.8-15l0.3-0.6l-5.4-0.4c0.1-0.1,0.3-0.2,0.4-0.4l0,0c0.3,0.2,0.5,0.4,0.7,0.4c0.1,0,0.3-0.1,0.6-0.4
+	c0,0,0.1-0.1,0.1-0.1c0.2-0.2,0.3-0.3,0.2-0.4c0-0.2-0.1-0.4-0.2-0.7c0,0,0-0.1,0-0.1c0,0,0-0.3,0-0.8c0-0.6-0.2-1-0.7-1.2
+	c-0.2-0.1-0.3-0.1-0.4-0.1c-0.5-0.4-1-0.4-1.5,0c-0.4,0.1-0.7,0.7-1.1,1.6c-0.3,0.8-0.4,1.3-0.4,1.5c0,0.2,0.1,0.4,0.2,0.5h-0.1
+	l-1,3.6l-0.5,4l0.5,10.4l0.3,0.1l0.3,0.4l0.9,4.2l1.4,18.2l-0.3,9.3l0.6,7.4l0.5,1.3l2.4,0l0.2,0l0.4-0.9l0.7-2.8l5,0.5l11.6-7
+	l6.6-1.8l22.4-0.4l1-0.3h0.6l10.5,0.9l0.4-0.2l1-0.5l2-0.1l-0.5-5.5l-0.7-1.1l-0.5-1.3l-1.1-2l-0.7-3.1v-1.6l0.2-1.5l0.5-1.4
+	l1.8-2.4l1-0.9l2.8-1.6l3.2-0.5l3.5,0.2l1.7,0.5l3.2,1.5l1.5,1l1.2,1.3l2.1,2.7l1.2,3.1l0.2,1.5v1.5l-0.8,3l-0.7,1.2l-1,1.2
+	l-0.6,0.5l0.4,4l2-1.2l1.2-1.2l1.9-2.8l0.7-1.2l1.6-4.4v-3.5l-0.2-1.2l-0.1-0.6l-0.6-1.8l-1.8-3.1l-0.1-0.2l-2.6-2.9l-3.4-2.3
+	l-1.8-0.9l-3.9-1.2l-11.6-1l-5.9-0.5l-0.4,0.2l-1.2,0.2l-6.6-0.6l0.8-0.8l0.6-0.2l0.9-1.7l-0.2-0.4l0.3-1.8l0.5-0.8l0.2-0.1l0.5-1.1
+	l0.7-0.6l1-0.4l2.4-15.4l-0.2-0.1l-3-1.4l-1.7-1.4l-1.2-1.4l-0.5-1l-0.3-1.4l0.6-1.8l-0.1-1v-0.3l0.5-1.4l-0.1-0.3l-0.1-0.7l0.1-0.4
+	l0-0.7l0.5-1l-0.2-0.7l0.2-1l0-0.2l-14.7-1.1l-25.2-18.1l0.5-0.7l0.2-0.6l-0.2-0.1l-2.2-0.2l0-0.6C334.3,99.9,333.5,99.8,332.8,99.7
+	 M333.9,109.9l0.2-0.9V109l0.2,0.1l0,0.3l0,1.6l-0.1,1.2v0.2l-0.2,0.2l0-0.1l-0.2-0.8V109.9 M414.2,177.4l0.1,0.8l-1-4.3
+	L414.2,177.4 M323.8,154.4l-0.1-0.3l0.1-1.9l0-0.3l0.2-0.1l0,0.1l0,0.2v0.2l0.1,0.2l-0.1,2.3l0,0.3l-0.2,0.2l-0.1-0.5V154.4
+	 M327.4,195.9l0.1,0.4l-0.1,2l-0.1,0.2l-0.2,0.1l0,0l0-0.3v-0.2l0-0.3V196l0-0.4l0.2-0.5v0.2l0.1,0.2V195.9z"/>
+<path id="Layer0_1_MEMBER_0_1_STROKES" class="st6" d="M51.7,185.7l-2-0.5h-1.8l-1.5,0.4l-1.2,0.9l-0.8,1.4l-0.4,1.8l0.1,2.3
+	l0.8,2.8l3.2,6.4l4.2,5l4.4,3.2l2.1,0.9l2,0.5h1.8l1.5-0.5l1.2-0.9l0.9-1.4l0.4-1.8l-0.2-2.3l-0.8-2.7l-1.4-3.2l-3.9-6l-2.1-2.3
+	l-2.1-1.8l-2.2-1.4L51.7,185.7z"/>
+<path id="Layer0_1_MEMBER_1_1_STROKES" class="st6" d="M93,108.8l-2.5,1.8l-2,2l-0.8,1l-0.5,1l-0.4,1l-0.2,0.8l0.1,0.8l0.2,0.7
+	l0.4,0.6l0.7,0.4l0.8,0.4l2.1,0.2l2.5-0.4l2.7-0.9l3.5-2"/>
+<path id="Layer0_1_MEMBER_2_1_STROKES" class="st6" d="M73.8,176l2-0.4l3.1-1.1l14.2-7.8"/>
+<path id="Layer0_1_MEMBER_3_1_STROKES" class="st6" d="M93.1,166.8l9.8-6.7l6-5.2"/>
+<path id="Layer0_1_MEMBER_4_1_STROKES" class="st6" d="M73.8,176l2-0.4l3.1-1.1l14.2-7.8"/>
+<path id="Layer0_1_MEMBER_5_1_STROKES" class="st6" d="M93.1,166.8l9.8-6.7l6-5.2"/>
+<path id="Layer0_1_MEMBER_6_1_STROKES" class="st6" d="M108.8,154.9l6.6-34.1"/>
+<path id="Layer0_1_MEMBER_7_1_STROKES" class="st6" d="M92.6,119.2l-13.1,38.4"/>
+<path id="Layer0_1_MEMBER_8_1_STROKES" class="st6" d="M102,173.2l-37.2,36.5"/>
+<path id="Layer0_1_MEMBER_9_1_STROKES" class="st6" d="M102,173.1l5.3-7.5l1.9-4.1"/>
+<path id="Layer0_1_MEMBER_10_1_STROKES" class="st6" d="M102,173.1l5.3-7.5l1.9-4.1"/>
+<path id="Layer0_1_MEMBER_11_1_STROKES" class="st6" d="M79.2,157.6l-27.8,22.6"/>
+<path id="Layer0_1_MEMBER_12_1_STROKES" class="st6" d="M46.5,185.7l3.5-1.9"/>
+<path id="Layer0_1_MEMBER_13_1_STROKES" class="st6" d="M120.3,100.6v-6.3"/>
+<path id="Layer0_1_MEMBER_14_1_STROKES" class="st6" d="M120.3,100.6l-4.5,3.3"/>
+<path id="Layer0_1_MEMBER_15_1_STROKES" class="st6" d="M107.1,100.7L93,108.6"/>
+<path id="Layer0_1_MEMBER_16_1_STROKES" class="st6" d="M107.1,100.7L93,108.6"/>
+<path id="Layer0_1_MEMBER_17_1_STROKES" class="st6" d="M100.1,114l38.2,16.8"/>
+<path id="Layer0_1_MEMBER_18_1_STROKES" class="st6" d="M109.1,100L77.9,81.9"/>
+<path id="Layer0_1_MEMBER_19_1_STROKES" class="st6" d="M150.3,123.9l-35.4-20.4"/>
+<path id="Layer0_1_MEMBER_20_1_STROKES" class="st6" d="M150.3,123.9l-3.2,2.4"/>
+<path id="Layer0_1_MEMBER_21_1_STROKES" class="st6" d="M147,126.2l-35.1-20.3"/>
+<path id="Layer0_1_MEMBER_22_1_STROKES" class="st6" d="M92.5,109.1L66.4,89.3"/>
+<path id="Layer0_1_MEMBER_23_1_STROKES" class="st6" d="M74,83.9l31.1,18"/>
+<path id="Layer0_1_MEMBER_24_1_STROKES" class="st6" d="M77.9,81.9l-3.8,1.9l-7.6,5"/>
+<path id="Layer0_1_MEMBER_25_1_STROKES" class="st6" d="M147,126.2l-0.4,0.3l-4.8,3l-2.8,1.2"/>
+<path id="Layer0_1_MEMBER_26_1_STROKES" class="st6" d="M100,112.6l-0.2,0.2l-0.1,0.2l0,0.2"/>
+<path id="Layer0_1_MEMBER_27_1_STROKES" class="st6" d="M99.6,113.3l0,0.3l0.2,0.2l0.3,0.2"/>
+<path id="Layer0_1_MEMBER_28_1_STROKES" class="st6" d="M100,112.6l-0.2,0.2l-0.1,0.2l0,0.2"/>
+<path id="Layer0_1_MEMBER_29_1_STROKES" class="st6" d="M99.6,113.3l0,0.3l0.2,0.2l0.3,0.2"/>
+<path id="Layer0_1_MEMBER_30_1_STROKES" class="st6" d="M112.2,119.4l-7.6,39.3"/>
+<path id="Layer0_1_MEMBER_31_1_STROKES" class="st6" d="M108.8,117.9l-8.5,44.1"/>
+<path id="Layer0_1_MEMBER_32_1_STROKES" class="st6" d="M73.7,176l6.1-18.1"/>
+<path id="Layer0_1_MEMBER_33_1_STROKES" class="st6" d="M52.2,181l-0.2-0.3"/>
+<path id="Layer0_1_MEMBER_34_1_STROKES" class="st6" d="M52.4,181.5l0.6,4.9"/>
+<path id="Layer0_1_MEMBER_35_1_STROKES" class="st6" d="M51.1,180.6l-0.7,4.9"/>
+<path id="Layer0_1_MEMBER_36_1_STROKES" class="st6" d="M73.7,176L53,186.4"/>
+<path id="Layer0_1_MEMBER_37_1_STROKES" class="st6" d="M107.1,100.9l13.2-6.7"/>
+<path id="Layer0_1_MEMBER_38_1_STROKES" class="st6" d="M99.9,112.7l1.4-1.2l5.1-3.8l8.5-4.2"/>
+<path id="Layer0_1_MEMBER_39_1_STROKES" class="st6" d="M109.3,161.5l0.3-0.8l0.2-1.6"/>
+<path id="Layer0_1_MEMBER_40_1_STROKES" class="st6" d="M109.8,159.1l-0.2-1.3l-0.5-1.2l-0.8-1"/>
+<path id="Layer0_1_MEMBER_41_1_STROKES" class="st6" d="M109.3,161.5l0.3-0.8l0.2-1.6"/>
+<path id="Layer0_1_MEMBER_42_1_STROKES" class="st6" d="M109.8,159.1l-0.2-1.3l-0.5-1.2l-0.8-1"/>
+<path id="Layer0_1_MEMBER_43_1_STROKES" class="st6" d="M106.8,128.7l-9.7-2.9"/>
+<path id="Layer0_1_MEMBER_44_1_STROKES" class="st6" d="M105.9,132.3l-9.6-3"/>
+<path id="Layer0_1_MEMBER_45_1_STROKES" class="st6" d="M97.5,125.9l-1,3.6"/>
+<path class="st7" d="M97.1,125.8l-1,3.6l11.2,3.4l1-3.6L97.1,125.8z"/>
+<path id="Layer0_1_MEMBER_46_1_STROKES" class="st6" d="M97.1,125.8l11.2,3.4l-1,3.6l-11.2-3.4L97.1,125.8z"/>
+<path class="st8" d="M380.3,97.4l-4.4-4.3l-7.5,2.2l-0.9,0.8l-2.6-0.4l-0.7-1.8l-2.1-0.3l-0.9,0.8l-1.9-0.3l-0.5-1l-30.9-3.5
+	c0.1-1.2-0.3-2-1.1-2.7l-47.2-4.7l1.4-3.6l-0.4-8.4l-2.4-2.4L251,64.9l-0.5-3.7l-13.1-1.2l-8.1,15.7l-10.3,1.3
+	c-2.6-0.4-4.8,0.5-6.8,2.6c-2.9,3.6-2.2,6.8,2.2,9.8l12.5,3.8l1.6,5.3l2,0.4l-0.3,1.7l0.8,14.1c0.3,1.3,0.9,1.9,1.7,1.7l53.1,5
+	c2.2,0.7,3.7,0.2,4.6-1.5l7-14.1l2.8-0.2l2.4-4.3c1.6,0.1,2.6-0.5,3-1.7c4.3,0.3,10.8,0.8,19.4,1.7c0.9,0,1.6-0.8,2-2.4l30.1,2.7
+	l2-1.2l1.3,0.1l0.9,1.3l2,0.1l1.1-2l1.9,0.1l2.7,2.1L380.3,97.4z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_0_1_STROKES" class="st9" d="M382.3,197.7l-0.4,0.8l-0.2,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_1_1_STROKES" class="st9" d="M381.9,198.5l0.2-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_2_1_STROKES" class="st9" d="M385.1,192.3l-0.6,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_3_1_STROKES" class="st9" d="M410.5,101.6l-0.9,1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_4_1_STROKES" class="st9" d="M415.5,93.7h0.5l1.5,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_5_1_STROKES" class="st9" d="M419.9,97.3l0.4,0.4l0.2,0.4l0.2,0.4v0.4l0.1,0.5l-0.1,0.5
+	l-0.4,0.9l-0.6,0.8l-1.2,1.1l-0.7,0.5l-1.7,0.9l-0.2,0.2l-2,0.7l-2,0.5h-0.1l-3.1,0.3l-1.9-0.2l-0.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_6_1_STROKES" class="st9" d="M420.9,99.9l0.2,0.4l0.2,0.4v0.4l0.1,0.5l-0.1,0.6
+	l-0.1,0.3L421,103l-0.2,0.3l-0.3,0.6l-1.2,1l-0.7,0.5l-2.9,1.4l-3,0.8h-0.1l-3.2,0.3l-0.9-0.1l-1.7-0.3l-0.7-0.2l-0.9-0.5l-0.5-0.5"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_7_1_STROKES" class="st9" d="M421.3,102l0.3,0.2l0.2,0.4l0.2,0.4v0.4l0.1,0.5l-0.2,0.9
+	l-0.2,0.5l-0.6,0.9l-1.1,1l-2.7,1.5l-3,1l-1,0.2l-3.2,0.2l-1.9-0.2l-1.6-0.5l-0.2-0.2l-0.6-0.3l-0.8-0.7l-0.6-0.8l-0.2-0.6v-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_8_1_STROKES" class="st9" d="M422,104.3l0.3,0.3l0.4,0.8v0.3l0.1,0.5l-0.2,0.9l-0.3,0.5
+	l-0.2,0.3l-0.4,0.6l-0.6,0.6l-1.3,1l-1.8,0.9L418,111l-3,1l-1,0.2l-2.2,0.2l-2.9-0.2l-1.6-0.5l-0.2-0.2l-0.7-0.3l-0.7-0.6l-0.4-0.6
+	l-0.4-0.9l-0.2-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_9_1_STROKES" class="st9" d="M422.7,106.6l0.5,0.7l0.2,0.4l0.1,0.4v0.5l-0.2,0.9
+	l-0.4,0.9l-0.9,1l-1.3,1l-2.8,1.3l-3.1,0.9l-2.2,0.2l-2.9-0.2l-1.5-0.5l-0.9-0.5l-0.7-0.6l-0.4-0.6l-0.4-0.8l-0.1-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_10_1_STROKES" class="st9" d="M423.4,108.8l0.5,0.7l0.2,0.4l0.1,0.4v0.5l-0.2,0.9
+	l-0.2,0.6l-1.1,1.3l-0.6,0.6l-1.6,0.9l-0.9,0.4l-0.2,0.2l-2,0.7l-3.1,0.6l-2.1,0.2l-1.9-0.2l-1.5-0.5l-0.3-0.1l-0.6-0.4l-0.8-0.6
+	l-0.4-0.6l-0.1-0.3l-0.2-0.5l-0.2-0.6V113"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_11_1_STROKES" class="st9" d="M424,111.2l0.3,0.2l0.3,0.8l0.2,0.9l-0.2,0.9l-0.4,0.9
+	l-0.4,0.6l-1.1,1l-2.7,1.5l-2,0.7l-3.2,0.6l-2.1,0.2l-1.8-0.2L410,119l-0.7-0.3l-0.3-0.1l-0.6-0.3l-0.8-0.7l-0.4-0.5l-0.4-0.9
+	l-0.1-0.6v-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_12_1_STROKES" class="st9" d="M424.8,113.5l0.3,0.2l0.3,0.9l0.2,0.8l-0.2,0.9l-0.2,0.5
+	l-0.6,0.9l-1.8,1.6l-1.8,0.9l-0.1,0.1l-0.9,0.4l-2,0.6l-1.1,0.2v0.1l-2.2,0.2l-2.9-0.2l-0.8-0.2L410,121l-0.3-0.1l-0.6-0.3l-0.8-0.7
+	l-0.4-0.5l-0.4-0.9l-0.1-0.6v-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_13_1_STROKES" class="st9" d="M425.5,115.8l0.2,0.3l0.4,0.8l0.1,0.3v0.5l-0.2,0.9
+	l-0.3,0.5l-0.2,0.3l-0.9,1.1l-2.2,1.5l-1.1,0.5l-2.9,1l-1.1,0.2v0.1l-2.2,0.2l-2.9-0.2l-0.8-0.2l-0.7-0.3l-0.3-0.1l-1.1-0.7
+	l-0.3-0.3l-0.3-0.5l-0.4-0.9l-0.2-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_14_1_STROKES" class="st9" d="M413.6,126.2l-0.6-0.1l-1.5-0.5l-0.9-0.5l-0.6-0.4
+	l-0.6-0.8l-0.4-0.8v-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_15_1_STROKES" class="st9" d="M426.1,118l0.3,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_16_1_STROKES" class="st9" d="M414,96.6l0.5-0.1h1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_17_1_STROKES" class="st9" d="M417.7,99.8l-0.8,0.7l-1,0.6l-2.7,1.1l-2.9,0.6h-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_18_1_STROKES" class="st9" d="M418.1,98.8l-0.2,0.6l-0.2,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_19_1_STROKES" class="st9" d="M418,98.8v0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_20_1_STROKES" class="st9" d="M416.7,99l1,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_21_1_STROKES" class="st9" d="M417.9,99.3l-1.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_22_1_STROKES" class="st9" d="M417,98.8l0.6,0.2l0.4,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_23_1_STROKES" class="st9" d="M413.8,96.9l1.1-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_24_1_STROKES" class="st9" d="M413.9,96.6l0.6-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_25_1_STROKES" class="st9" d="M412.8,102.3l2.8-1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_26_1_STROKES" class="st9" d="M412.6,102.4l1.6-1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_27_1_STROKES" class="st9" d="M414.9,99.5l3-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_28_1_STROKES" class="st9" d="M411.9,100l0.7-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_29_1_STROKES" class="st9" d="M410.7,100.5l1.7-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_30_1_STROKES" class="st9" d="M410.7,100.5l1.3-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_31_1_STROKES" class="st9" d="M411.3,99.9l-0.5,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_32_1_STROKES" class="st9" d="M406.3,96.6l0.7-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_33_1_STROKES" class="st9" d="M410.5,98.8l0.7-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_34_1_STROKES" class="st9" d="M411.4,99.9h-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_35_1_STROKES" class="st9" d="M415.8,95.6v-0.8l-0.2-0.8l-0.3-0.8l-0.5-0.9l-1.2-1.4
+	l-1.5-0.9l-0.8-0.3l-1.8-0.4l-0.8,0.1h-0.2l-0.8,0.2l-0.9,0.3l-0.7,0.4l-0.8,0.7l-0.9,1.4l-0.2,0.8v0.2l-0.1,0.8l0.1,0.9l0.3,0.8V96
+	l0.3,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_36_1_STROKES" class="st9" d="M413.6,97.6l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_37_1_STROKES" class="st9" d="M395.8,93.9l0.5,0.2l0.6,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_38_1_STROKES" class="st9" d="M380.2,97.1l0.5-1.7l0.6-0.9l0.6-0.6l0.6-0.5l0.8-0.4
+	l0.2-0.2l0.9-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_39_1_STROKES" class="st9" d="M388.6,111l-1.7-0.2l-2.1-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_40_1_STROKES" class="st9" d="M390.9,113.2h-2.2l-2.2-0.3l-3.1-1.1l-1.7-1l-0.9-0.8
+	l-0.5-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_41_1_STROKES" class="st9" d="M392.1,115.2l-0.6,0.2l-3.1,0.1l-1.1-0.1l-2.2-0.6
+	l-2.9-1.3l-1.5-1.1l-0.9-0.9l-0.5-0.6l-0.6-1l-0.1-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_42_1_STROKES" class="st9" d="M392.1,117.3l-0.9,0.2l-2,0.2l-2.2-0.2l-3.2-0.9l-2.8-1.5
+	l-0.7-0.6l-0.2-0.2l-0.6-0.6l-0.6-0.7l-0.5-1l-0.2-0.7v-1l0.1-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_43_1_STROKES" class="st9" d="M392.6,119.3l-0.9,0.3l-2.9,0.3l-2.2-0.2l-3.2-0.9
+	l-0.9-0.4l-0.9-0.6l-1.7-1.3l-1.1-1.3l-0.3-0.7l-0.2-0.2l-0.2-0.8V113l-0.1-0.4l0.1-0.6l0.3-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_44_1_STROKES" class="st9" d="M392.2,121.5l-0.9,0.3l-2.9,0.3l-2.2-0.2l-2.2-0.5l-2-0.8
+	l-1.7-1.1l-0.9-0.7l-0.6-0.6l-0.9-1.4l-0.3-0.9l-0.1-0.7v-0.4l0.1-0.6l0.3-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_45_1_STROKES" class="st9" d="M381.5,122.8l-0.6-0.3l-1.6-1.2l-0.8-0.8l-1-1.7l-0.2-1.4
+	v-0.3l0.1-0.7l0.2-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_46_1_STROKES" class="st9" d="M386.3,95.1l0.7-1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_47_1_STROKES" class="st9" d="M245.8,94l79.6,7.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_48_1_STROKES" class="st9" d="M383.4,96.2l0.7-0.6l0.9-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_49_1_STROKES" class="st9" d="M384.1,95.8l1-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_50_1_STROKES" class="st9" d="M384.1,95.9l0.8-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_51_1_STROKES" class="st9" d="M384.4,95.5l-0.6,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_52_1_STROKES" class="st9" d="M395.5,95.5l0.3-1v-1.6l-0.2-0.8l-0.5-0.9l-0.5-0.7
+	l-1.2-1.3l-1.6-0.9L391,88l-0.9-0.2l-1.8,0.1l-0.2,0.1l-1.7,0.6l-0.6,0.5l-0.2,0.2l-0.6,0.6l-0.7,1.4l-0.1,0.2l-0.1,1.7l0.2,0.9
+	l0.7,1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_53_1_STROKES" class="st9" d="M414.3,99.6l1.3-0.2l1.2-0.4l1.7-1l0.5-0.6l0.4-0.7
+	l0.1-0.4v-0.4l-0.1-0.3l-0.2-0.4l-0.5-0.5l-0.3-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_54_1_STROKES" class="st9" d="M385.6,91.8l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_55_1_STROKES" class="st9" d="M414.3,99.6l-2.9,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_56_1_STROKES" class="st9" d="M416.9,95.8l-0.5,0.4l-1.6,0.6l-0.9,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_57_1_STROKES" class="st9" d="M368.2,103.9l0.8-1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_58_1_STROKES" class="st9" d="M427,120.7l0.3,0.4l0.2,0.4l0.1,0.4v0.9l-0.1,0.5
+	l-0.2,0.4l-0.6,0.9l-0.2,0.3l-0.6,0.5l-2.1,1.4l-3,1.2l-2.1,0.5l-3.2,0.2l-1.9-0.2L412,128l-0.9-0.6l-0.5-0.4l-0.2-0.3l-0.4-0.4
+	l-0.2-0.6l-0.2-0.3l-0.1-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_59_1_STROKES" class="st9" d="M427.6,123.3l0.2,0.3l0.3,0.3l0.2,0.5l0.2,0.3v0.5
+	l0.1,0.4l-0.2,0.8l-0.3,0.6l-1.1,1.3l-0.6,0.6l-2.5,1.3l-2,0.7l-2.2,0.5l-2.1,0.2l-2-0.1l-1.7-0.3l-1-0.4l-0.6-0.4l-0.8-0.7l-0.6-1
+	l-0.2-0.4l-0.1-0.6v-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_60_1_STROKES" class="st9" d="M428.4,126.2l0.6,0.7l0.3,0.7v0.9l-0.1,0.5l-0.4,0.9
+	l-0.4,0.6l-1.3,1.3l-1.6,0.9l-1.9,0.8l-3.2,0.9l-2.1,0.2h-1l-2-0.2l-0.9-0.2l-1.6-0.8l-0.8-0.7l-0.4-0.5l-0.5-1.5v-0.4l0.1-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_61_1_STROKES" class="st9" d="M429.2,129l0.3,0.3l0.2,0.3l0.4,0.9v0.8l-0.2,0.5
+	l-0.1,0.4l-0.2,0.6l-1.1,1.3l-1.3,0.9l-1.7,0.9l-3.1,0.9l-2.2,0.4l-2.1,0.1l-0.9-0.1l-1.8-0.4l-0.7-0.3l-0.2-0.1l-0.7-0.4l-0.7-0.6
+	l-0.4-0.6l-0.4-0.9l-0.1-0.6V133l0.1-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_62_1_STROKES" class="st9" d="M430.3,132.2l0.4,0.3l0.1,0.5l0.2,0.3l0.1,0.5v0.4
+	l-0.1,0.5l-0.4,0.8l-0.4,0.6l-0.7,0.8l-1.4,1l-2.7,1.3l-3.2,0.8l-2.2,0.2l-2-0.1l-1.8-0.4l-0.7-0.2l-0.3-0.2l-1.2-0.8l-0.6-0.8
+	l-0.4-0.9l-0.1-0.6v-0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_63_1_STROKES" class="st9" d="M251.3,79.6l75.6,7.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_64_1_STROKES" class="st9" d="M426.8,119.2v0.4l0.1,0.5l-0.1,0.5l-0.4,0.9l-0.2,0.2
+	l-0.9,1.1l-2.2,1.5l-3,1.2l-1.1,0.3l-1,0.2L418,126l-2.1,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_65_1_STROKES" class="st9" d="M425.4,125.9l-1.2,0.9l-2,0.9l-2.4,0.7l-1.3,0.2l-1.3,0.1
+	l-2.2-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_66_1_STROKES" class="st9" d="M426.2,128.8l-0.6,0.6l-1.5,0.9l-1.1,0.5l-3.7,0.9
+	l-1.2,0.1l-2.2-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_67_1_STROKES" class="st9" d="M427,131.6l-0.6,0.6l-1.4,0.9l-2.3,0.9l-2.5,0.5l-1.2,0.1
+	l-2.2-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_68_1_STROKES" class="st9" d="M427.9,134.5l-1.1,0.9l-0.9,0.6l-3.5,1.2l-1.3,0.2
+	l-2.4,0.1l-1.1-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_69_1_STROKES" class="st9" d="M380.7,198.7l-2.4,4.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_70_1_STROKES" class="st9" d="M388.3,177.4l1.6-3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_71_1_STROKES" class="st9" d="M409.7,88.2l0.2-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_72_1_STROKES" class="st9" d="M397.8,95.9l-0.3-0.6l-0.4-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_73_1_STROKES" class="st9" d="M413.3,184l-0.6,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_74_1_STROKES" class="st9" d="M353.4,101.7L325.8,99"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_75_1_STROKES" class="st9" d="M416.6,89.7l-0.8,1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_76_1_STROKES" class="st9" d="M413.3,184l0.6-1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_77_1_STROKES" class="st9" d="M404.2,186.1l0.7-1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_78_1_STROKES" class="st9" d="M354.1,92.1l-27.6-2.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_79_1_STROKES" class="st9" d="M389.7,86.6l0.2-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_80_1_STROKES" class="st9" d="M408.8,182l-1.8,2.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_81_1_STROKES" class="st9" d="M392.5,125.8l-1.8,0.6l-0.9,0.2l-3.1,0.1l-3.2-0.6
+	l-2.9-1.3l-0.9-0.6l-1.5-1.5l-0.6-0.7l-0.3-0.7l-0.3-1l-0.1-0.7v-0.3l0.4-1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_82_1_STROKES" class="st9" d="M392.6,128.2l-0.6,0.4l-0.8,0.3H391l-0.8,0.3l-1.9,0.3
+	l-2.1-0.1l-3.2-0.6l-3-1.3l-1.5-1.2l-0.2-0.2l-1.1-1.4l-0.3-0.7l-0.5-1.7l0.1-0.3l0.1-0.7l0.2-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_83_1_STROKES" class="st9" d="M392.2,131l-1.7,0.8l-1.7,0.4l-2,0.2l-1-0.1l-2.2-0.4
+	l-4-1.6l-1.6-1.2l-0.2-0.2l-0.6-0.6l-0.9-1.4l-0.3-1l-0.1-0.7l0.1-0.3l0.1-0.7l0.4-1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_84_1_STROKES" class="st9" d="M391.9,133.7l-1.4,0.7l-2,0.5l-2,0.2l-1.1-0.1l-3.2-0.7
+	l-1-0.3l-1.9-0.9l-0.9-0.6l-0.7-0.6l-0.2-0.2l-0.6-0.6l-0.6-0.7l-0.3-0.7l-0.2-0.2l-0.2-1.5v-0.3l0.4-1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_85_1_STROKES" class="st9" d="M392.5,135.3l-0.3,0.5l-0.2,0.2l-0.3,0.2l-0.2,0.2
+	l-0.6,0.5l-0.7,0.3l-1.1,0.3l-1.9,0.3h-1l-2.2-0.2l-2.1-0.5l-3-1.3l-1.5-1.2l-0.2-0.2l-0.6-0.7l-0.5-0.7l-0.5-1l-0.3-1.4l0.1-0.3
+	l0.1-0.7l0.2-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_86_1_STROKES" class="st9" d="M395.2,90l0.2-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_87_1_STROKES" class="st9" d="M392.7,123.4l-0.6,0.2l-0.2,0.2l-2.8,0.6l-3.3-0.2l-1-0.2
+	"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_88_1_STROKES" class="st9" d="M357.8,101.8l-3.7-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_89_1_STROKES" class="st9" d="M387.7,126.8l-0.4,0.1l-3.5-0.6l-0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_90_1_STROKES" class="st9" d="M387.3,129.5h-1.7l-2.3-0.6l-0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_91_1_STROKES" class="st9" d="M386.8,132.3l-1.6-0.1l-2.4-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_92_1_STROKES" class="st9" d="M386.4,135.1l-0.4,0.1l-2.4-0.3l-1.2-0.3l-0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_93_1_STROKES" class="st9" d="M388.8,171.8l-0.9,2.2l-0.3,2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_94_1_STROKES" class="st9" d="M366.8,100.2l-3-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_95_1_STROKES" class="st9" d="M358,100.5l2.4,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_96_1_STROKES" class="st9" d="M353.6,101.7l0.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_97_1_STROKES" class="st9" d="M361,100.4l-0.3,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_98_1_STROKES" class="st9" d="M367.4,96.2l-3.1-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_99_1_STROKES" class="st9" d="M272.4,84.8l-22.1-2.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_100_1_STROKES" class="st9" d="M271.4,94.4l-28.5-2.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_101_1_STROKES" class="st9" d="M354.8,92.5l3.7,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_102_1_STROKES" class="st9" d="M358.6,94.1l2.4,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_103_1_STROKES" class="st9" d="M281.8,85.3l-8.7-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_104_1_STROKES" class="st9" d="M280.9,95.8l-8.7-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_105_1_STROKES" class="st9" d="M355,92.5l-0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_106_1_STROKES" class="st9" d="M364.1,93.7l0.2,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_107_1_STROKES" class="st9" d="M400,210.5l0.2-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_108_1_STROKES" class="st9" d="M428.9,162.8l-6.8-22.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_109_1_STROKES" class="st9" d="M424.8,139.4l6.8,22.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_110_1_STROKES" class="st9" d="M422.6,136.7l0.3,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_111_1_STROKES" class="st9" d="M374.3,91.9l0.9-1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_112_1_STROKES" class="st9" d="M272.2,84.9l0.6-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_113_1_STROKES" class="st9" d="M271.4,94.4l0.6,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_114_1_STROKES" class="st9" d="M401.2,149.4l-0.4,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_115_1_STROKES" class="st9" d="M433.7,169.4l-0.6,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_116_1_STROKES" class="st9" d="M323.3,140.3h2.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_117_1_STROKES" class="st9" d="M378.6,158.6l3.3-21.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_118_1_STROKES" class="st9" d="M381.2,159.1l3.3-21.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_119_1_STROKES" class="st9" d="M251.3,78.2l0.2,4.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_120_1_STROKES" class="st9" d="M231.2,115.7l-0.9-15.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_121_1_STROKES" class="st9" d="M437.1,162.6l-0.6,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_122_1_STROKES" class="st9" d="M434.3,169.1l0.9,3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_123_1_STROKES" class="st9" d="M431,172.3l0.5,1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_124_1_STROKES" class="st9" d="M245.2,94.1l0.6-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_125_1_STROKES" class="st9" d="M435,173l0.6,1.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_126_1_STROKES" class="st9" d="M405.4,267.1l7.1-13.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_127_1_STROKES" class="st9" d="M431.7,173.8l0.4,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_128_1_STROKES" class="st9" d="M431.9,173.9l0.6,2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_129_1_STROKES" class="st9" d="M251,65l27.1,2.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_130_1_STROKES" class="st9" d="M418.7,152.1l-0.9,1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_131_1_STROKES" class="st9" d="M228.3,98.8h0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_132_1_STROKES" class="st9" d="M229.1,98.8l1.5,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_133_1_STROKES" class="st9" d="M324.7,202.8l2.4,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_134_1_STROKES" class="st9" d="M300.9,101.4l3.8,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_135_1_STROKES" class="st9" d="M214.6,86.2l0.6,0.5l0.6,0.3l0.7,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_136_1_STROKES" class="st9" d="M376.8,155.5l0.6-1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_137_1_STROKES" class="st9" d="M296.6,105.9l2.2,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_138_1_STROKES" class="st9" d="M277.9,67.7l1.6,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_139_1_STROKES" class="st9" d="M250.6,61.3l-11.3-1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_140_1_STROKES" class="st9" d="M237.6,60.1l1.3,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_141_1_STROKES" class="st9" d="M420.7,153.8l2-3.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_142_1_STROKES" class="st9" d="M412.5,253.4l17.2-33.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_143_1_STROKES" class="st9" d="M435,151.3l-1.2,2.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_144_1_STROKES" class="st9" d="M437,147.3l-2,3.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_145_1_STROKES" class="st9" d="M430.4,218.2l-0.7,1.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_146_1_STROKES" class="st9" d="M432,130.9l-0.2-0.8l-0.3-0.7l-0.6-0.6l-0.7-0.5
+	l-0.7-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_147_1_STROKES" class="st9" d="M430.4,218.2l0.3-0.6v-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_148_1_STROKES" class="st9" d="M409.6,232.3l0.6,0.5l0.9,1.2l0.8,1.3l0.5,1.3l0.2,1.3"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_149_1_STROKES" class="st9" d="M395.2,198.7l-0.6-3.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_150_1_STROKES" class="st9" d="M394.1,196l0.7,5.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_151_1_STROKES" class="st9" d="M394.4,205.7l-0.6,1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_152_1_STROKES" class="st9" d="M391.9,200.2l0.7,5.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_153_1_STROKES" class="st9" d="M335,99.9l-0.1,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_154_1_STROKES" class="st9" d="M400,149l-0.1,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_155_1_STROKES" class="st9" d="M337.1,100.6l-2.2-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_156_1_STROKES" class="st9" d="M401.7,182.6l-0.8,0.5l-1.1,0.4l-1,0.1l-1.2-0.1
+	l-1.1-0.3l-1.1-0.5l-0.9-0.6l-0.9-0.9l-0.6-0.9l-0.5-1l-0.2-1v-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_157_1_STROKES" class="st9" d="M389.9,174.3l0.7-0.9l0.9-0.9l1.1-0.7l1.3-0.6l2.7-0.4
+	l2.9,0.5l1.3,0.5l1.3,0.7l2.3,1.9l0.9,1.2l0.6,1.2l0.5,1.3l0.2,1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_158_1_STROKES" class="st9" d="M413.3,184l0.9-3.2l0.1-2.6l-0.2-0.9l-0.9-3.5l-1.9-3.3
+	l-1.3-1.5l-3.1-2.6l-3.5-2l-3.8-1.2l-2-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_159_1_STROKES" class="st9" d="M407.4,190.5l0.7-0.3l1.4-0.9l1.3-1.2l1-1.3l0.9-1.5
+	l0.9-3.1v-3.5l-0.4-1.7l-0.6-1.7l-1.9-3.2l-2.7-2.9l-3.3-2.3l-3.8-1.6l-3.9-0.8l-23.6-1.8h-0.6l-0.6,0.1l-0.5,0.2l-22.4,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_160_1_STROKES" class="st9" d="M386.1,191.1l-10.5-0.9H375l-1,0.3l-22.4,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_161_1_STROKES" class="st9" d="M347.5,187.8l0.9-0.3l0.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_162_1_STROKES" class="st9" d="M351.7,182.5l-1.3-17.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_163_1_STROKES" class="st9" d="M382.9,187.2l-0.2,0.4l-0.7,0.6l-0.9,0.4l-0.9,0.2
+	l-1,0.1l-22.4-1.8l-1-0.2l-1-0.4l-0.9-0.6l-0.8-0.7l-1-1.8l-0.2-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_164_1_STROKES" class="st9" d="M387.8,182.4l-1-2l-0.5-1.5l-0.2-1.6v-1.5l0.2-1.5
+	l0.5-1.4l1.7-2.4l1.1-0.9l2.8-1.5l3.2-0.6h1.7l1.7,0.2l1.7,0.5l3.2,1.5l1.5,1l1.3,1.3l2,2.7l1.3,3.1l0.2,1.5v1.5l-0.8,2.9l-0.7,1.3
+	l-0.9,1.2l-0.6,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_165_1_STROKES" class="st9" d="M324.2,152.4v1.2l-0.2,1.1l-0.1,0.3l-0.1,0.2l-0.1-0.2
+	l-0.1-0.3v-0.5l-0.1-0.3v-0.9l0.1-0.6v-0.5l0.1-0.3l0.2-0.2l0.1,0.2l0.1,0.2v0.2L324.2,152.4z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_166_1_STROKES" class="st9" d="M327.2,195v0.2l0.2,0.2v0.5l0.1,0.4v0.9l-0.1,0.6v0.6
+	l-0.2,0.2l-0.1,0.2l-0.1-0.1l-0.1-0.3V198l-0.1-0.3v-1.8l0.1-0.5L327.2,195z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_167_1_STROKES" class="st9" d="M325.5,161.3l2.1,27.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_168_1_STROKES" class="st9" d="M336.5,161.4l6.9,1.6l1,0.3l0.9,0.5l0.7,0.6l0.6,0.8
+	l0.4,0.8l0.2,0.9l1.5,20.4v0.9l-0.3,0.9l-0.5,0.8l-1.5,1.2l-0.9,0.4l-6.7,1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_169_1_STROKES" class="st9" d="M373.9,189.4l-18.7,0.4l-2.1-0.4l-0.9-0.5l-0.9-0.7
+	l-0.6-0.8l-0.5-0.8l-0.2-0.9l-1.3-17.3l0.1-0.9l0.3-0.9l0.6-0.8l0.7-0.6l0.9-0.6l1-0.3l1.1-0.2l18.6-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_170_1_STROKES" class="st9" d="M371.9,162.8l0.1,1.1l1-0.3h0.6l3.3,0.2l1.1,0.2l1,0.4
+	l0.9,0.6l0.7,0.7l0.6,0.9l0.4,0.9l0.2,0.9l1.3,17.2l-0.1,0.9l-0.3,0.9l-0.5,0.7l-0.7,0.6l-0.8,0.4l-0.9,0.2l-1.1,0.1l-3.3-0.3h-0.6
+	l-0.9,0.3l0.1,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_171_1_STROKES" class="st9" d="M336.4,160.3l13,2.8l1.6-3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_172_1_STROKES" class="st9" d="M351,160.1l0.3-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_173_1_STROKES" class="st9" d="M329.5,144.5l21.8,15l46.3,3.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_174_1_STROKES" class="st9" d="M328.4,199.3l5,0.4l11.7-7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_175_1_STROKES" class="st9" d="M337.5,155.7l13.5,4.4l-21.8-15"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_176_1_STROKES" class="st9" d="M324.2,144.7l5,0.4l0.3-0.6l-7.5-0.6l-0.9,3.5l-0.5,4
+	l0.5,10.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_177_1_STROKES" class="st9" d="M323.5,161.9h-2.4l0.3,0.1l0.3,0.4l0.5,1.7l0.4,2.6
+	l1.3,18.2l-0.3,9.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_178_1_STROKES" class="st9" d="M326,194.2l0.4-7.5l-1.6-21.4l-0.6-2.7l-0.1-0.2
+	l-0.3-0.4l-0.2-0.2l-0.5-5.5l-0.1-3.7l0.2-3.5l0.2-0.9l0.9-3.5l0.9,10.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_179_1_STROKES" class="st9" d="M328,194.2l0.4,5l-0.7,2.7l-0.2,0.6l-0.2,0.2l-0.2,0.1
+	l-0.2-0.2l-0.2-0.4l-0.3-2.3v-0.2l-0.5-5.6l-2.4-0.1l0.6,7.5l0.3,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_180_1_STROKES" class="st9" d="M340.1,189.1l7.4-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_181_1_STROKES" class="st9" d="M339,194.3l12.6-3.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_182_1_STROKES" class="st9" d="M323.7,160.2l0.1,1.1l12.8,0.2l-0.1-1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_183_1_STROKES" class="st9" d="M324.8,155.5l-1.1,4.6l12.8,0.2l1.1-4.6L324.8,155.5z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_184_1_STROKES" class="st9" d="M339,193.1l1.1-4l-12.7-0.2l-1.2,4.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_185_1_STROKES" class="st9" d="M339,193.1l-12.8-0.1l0.1,1.1l12.7,0.2V193.1z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_186_1_STROKES" class="st9" d="M391.7,178.5l-0.6,0.9l-0.2,0.9l-0.1,1l0.2,1l0.5,0.9
+	l0.6,0.9l0.8,0.8l1,0.7l1,0.5l1.2,0.3l1.1,0.1l1.1-0.2l1-0.3l0.9-0.6l0.7-0.6l0.5-0.9l0.3-0.9v-1l-0.2-1l-0.4-0.9l-0.6-0.9l-1.8-1.5
+	l-1.1-0.5l-1.1-0.3l-1.2-0.1l-1,0.1l-1.1,0.4L391.7,178.5z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_187_1_STROKES" class="st9" d="M405.7,181.2l-0.3,2.4l-0.5,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_188_1_STROKES" class="st9" d="M412.6,218.6l-2.3-30.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_189_1_STROKES" class="st9" d="M405.7,181l3.4,44.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_190_1_STROKES" class="st9" d="M376.8,134.2l-13.1,25.4l-13.1-1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_191_1_STROKES" class="st9" d="M384.5,138.4l0.9,11.2l-1.7,3.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_192_1_STROKES" class="st9" d="M333.1,146.2l13.9-27.3l29.5,2.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_193_1_STROKES" class="st9" d="M412.6,219.6v-1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_194_1_STROKES" class="st9" d="M409.1,225.5v1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_195_1_STROKES" class="st9" d="M402.8,177.5l1.6,2.4l0.6,2.5l-0.3,2.5l-0.5,1.2
+	l-1.6,1.9l-1.1,0.7l-2.5,0.8h-2.9l-1.3-0.3l-2.8-1.3l-2.3-1.9l-1.5-2.4l-0.5-1.3l-0.2-1.3l0.3-2.5l0.5-1.1l0.7-0.9l0.9-0.9l1-0.7
+	l1.3-0.5l2.8-0.5l2.8,0.5l1.4,0.6l2.5,1.6L402.8,177.5z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_196_1_STROKES" class="st9" d="M433.3,154.5l0.6-1.4V153l0.2-0.7l-1.7-22.3l-0.2-0.7
+	l-0.4-0.7l-0.6-0.6l-0.9-0.6l-0.5-0.2l-0.8-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_197_1_STROKES" class="st9" d="M432.2,156.4l1.1-1.9l0.3-0.7v-0.7l-1.7-22.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_198_1_STROKES" class="st9" d="M435,151.3l0.2-0.6l0.1-0.7l-1.7-22.3l-0.2-0.7l-0.4-0.7
+	l-0.5-0.6l-0.7-0.5l-0.8-0.3l-0.8-0.2l-1.9-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_199_1_STROKES" class="st9" d="M337.1,101.3l25.2,18l14.6,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_200_1_STROKES" class="st9" d="M332.7,99.7l-0.4,1.3l4.4,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_201_1_STROKES" class="st9" d="M409.5,189.2l0.2,3.1v0.4l-0.1,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_202_1_STROKES" class="st9" d="M389.5,190.2l-0.6-5.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_203_1_STROKES" class="st9" d="M400.7,179.9l-1.2-0.1l-1.1-0.3l-1.1-0.6l-0.9-0.6
+	l-0.8-0.8l-0.5-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_204_1_STROKES" class="st9" d="M408.5,234.8l1.2-2.2l-1.9,8.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_205_1_STROKES" class="st9" d="M412,227.9l-1.1,2.3l-0.6,2.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_206_1_STROKES" class="st9" d="M412.6,219.6l-0.6,8.3l-1.3,5.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_207_1_STROKES" class="st9" d="M409.1,226.5l-0.6,8.3l-1,4.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_208_1_STROKES" class="st9" d="M427.9,163.2l-9.4,1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_209_1_STROKES" class="st9" d="M421.5,175.4l-6,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_210_1_STROKES" class="st9" d="M431,172.3l-8.7,2.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_211_1_STROKES" class="st9" d="M417.8,165.8l9.4-1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_212_1_STROKES" class="st9" d="M411.5,162.2l0.5,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_213_1_STROKES" class="st9" d="M429.8,204.5l-0.2-1.3l-0.5-1.3l-1.7-2.6l-1.5-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_214_1_STROKES" class="st9" d="M418.5,164.6h-1.2l-0.8-0.2l-0.3-0.2l-0.3-0.2l-0.5-0.6
+	l-0.2-0.2l-1.2-0.6l-1-0.8l-0.9-0.9l-0.7-1.1l-0.4-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_215_1_STROKES" class="st9" d="M433.7,169.4l0.2-0.9l0.1-0.9l-0.2-1l-0.4-0.9l-0.6-0.9
+	l-0.8-0.7l-0.9-0.6l-0.9-0.4l-1.1-0.2l-1,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_216_1_STROKES" class="st9" d="M422.3,175.2l-0.8,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_217_1_STROKES" class="st9" d="M427.3,164.3l1-0.1l2,0.6l1.8,1.3l0.6,0.8l0.5,0.9
+	l0.2,0.9l-0.1,0.9l-0.2,0.9l-0.6,0.8l-0.7,0.6l-0.8,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_218_1_STROKES" class="st9" d="M421.4,172.8l-0.4-0.2H421l-0.1-0.2l-0.3-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_219_1_STROKES" class="st9" d="M421.2,171.8h-0.6l-0.5,0.2l-0.3,0.4l-0.1,0.4l0.2,0.6
+	l0.9,0.6h0.6l0.5-0.2l0.3-0.3l0.1-0.5l-0.2-0.5l-0.4-0.4L421.2,171.8z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_220_1_STROKES" class="st9" d="M426.4,168.2l0.2,0.7l0.4,0.6l0.6,0.6l0.6,0.3l0.7,0.2
+	h0.8l0.6-0.3l0.5-0.4l0.2-0.6l0.1-0.6l-0.2-0.6l-0.4-0.6l-0.5-0.6l-0.7-0.3l-1.5-0.1l-0.6,0.2l-0.5,0.4l-0.3,0.6L426.4,168.2z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_221_1_STROKES" class="st9" d="M414.8,165.5l0.8,9.9l-0.5-0.3l-0.6-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_222_1_STROKES" class="st9" d="M411.9,162.8l2.4,2.2l0.4,0.6l0.6,0.2l1.3,0.2l1.2-0.1"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_223_1_STROKES" class="st9" d="M425.9,200.1l0.7,0.6l0.9,1.2l0.7,1.3l0.6,1.4l0.2,1.3"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_224_1_STROKES" class="st9" d="M411,226.8l-0.9,1.6l-0.2,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_225_1_STROKES" class="st9" d="M416.4,143l0.6,0.3l2.3,1.9l0.9,1.2l1.1,2.5l0.2,1.3
+	l-0.1,1.3l-0.2,1.2l-0.5,1.2l-0.7,1l-0.9,0.9l-1,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_226_1_STROKES" class="st9" d="M429.9,156.6l1.5-0.2l2,0.1l1,0.4l0.9,0.6l0.8,0.7
+	l0.6,0.9l0.5,0.9l0.2,1l-0.1,0.9l-0.2,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_227_1_STROKES" class="st9" d="M430.2,157.6l1.6-0.2l2.1,0.6l0.9,0.6l0.8,0.7l0.6,0.8
+	l0.5,0.9l0.2,0.9v0.9l-0.3,0.8l-0.6,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_228_1_STROKES" class="st9" d="M411.1,145.8l2.4,8l0.4,1l0.7,1.1l0.9,0.9l1.1,0.6
+	l0.5,0.2l0.9,0.2l0.9-0.2l0.6,0.2l1.2,0.2l1.3-0.1l5.2-0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_229_1_STROKES" class="st9" d="M417.4,159.5l0.8-0.2h0.4l0.5-0.1l1.9-0.2h0.3l6.2-0.9"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_230_1_STROKES" class="st9" d="M410.5,146.9l2.4,8l0.5,1.1l0.6,1l0.9,0.9l1.1,0.9
+	l1.1,0.6l0.3,0.1l0.1,1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_231_1_STROKES" class="st9" d="M408.8,146.2l0.5-0.9l1.9,0.5l-0.6,1.2L408.8,146.2z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_232_1_STROKES" class="st9" d="M427.5,199.4l0.4-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_233_1_STROKES" class="st9" d="M425.8,202.8l0.2-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_234_1_STROKES" class="st9" d="M427.9,198.7l-0.2,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_235_1_STROKES" class="st9" d="M426,202.4l-0.2,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_236_1_STROKES" class="st9" d="M400.7,154.3l-0.2,0.3l-0.1,0.4l0.1,0.6l0.4,0.4l0.6,0.2
+	l0.6,0.1l0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_237_1_STROKES" class="st9" d="M408.1,142.7l0.6,0.3l0.6,0.6l0.5,0.7l0.2,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_238_1_STROKES" class="st9" d="M424.8,186.8l0.4,12.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_239_1_STROKES" class="st9" d="M423.2,186.6l1.7,0.2l0.1-0.8l0.2-0.7v-1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_240_1_STROKES" class="st9" d="M426.8,180.3l0.1,0.6l0.2,0.5l0.1,0.4l0.2,0.1l0.6,16.8"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_241_1_STROKES" class="st9" d="M424.1,157.5l-0.2-8.1l-0.1-0.7v-0.2l-0.2-0.9v-0.1
+	l-0.1-0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_242_1_STROKES" class="st9" d="M424.8,174.4l0.3,9.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_243_1_STROKES" class="st9" d="M422.7,163.9l-12-6.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_244_1_STROKES" class="st9" d="M410.9,158.4l10.3,5.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_245_1_STROKES" class="st9" d="M391.9,159.6l-3.5,1.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_246_1_STROKES" class="st9" d="M389.7,161.2l2.2-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_247_1_STROKES" class="st9" d="M426,157.2l-0.2-4.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_248_1_STROKES" class="st9" d="M426.8,180.3l-0.2-6.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_249_1_STROKES" class="st9" d="M426,202.4l-0.3-8.6l0.2-0.6l0.9-1.7l0.1-0.1l0.1,0.4
+	l0.3,7.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_250_1_STROKES" class="st9" d="M379.1,159.3l-1-0.2h-1l-1,0.2l-0.8,0.3l-0.7,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_251_1_STROKES" class="st9" d="M375.5,160.6l0.9-0.2h1.1l1,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_252_1_STROKES" class="st9" d="M409.9,229.4l-0.2,3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_253_1_STROKES" class="st9" d="M412,169.6l0.2-0.8l-0.2-1.3l-0.2-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_254_1_STROKES" class="st9" d="M383.8,160.7l-4.7-1.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_255_1_STROKES" class="st9" d="M378.5,160.6l1.2,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_256_1_STROKES" class="st9" d="M372.3,100.4l-0.1-0.5l0.2-0.5l0.2-0.4l0.5-0.2l0.5-0.2
+	l0.5-0.1l0.6,0.2L375,99l0.3,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_257_1_STROKES" class="st9" d="M375.1,99.5l-0.5-0.4l-0.6-0.2l-0.6,0.1l-0.6,0.2
+	l-0.2,0.4l-0.2,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_258_1_STROKES" class="st9" d="M218,84.7l-0.3-0.4l-0.5-0.3l-0.5-0.2l-0.5-0.2l-0.6,0.1
+	l-0.5,0.2l-0.4,0.2l-0.2,0.4l-0.2,0.4v0.5l0.2,0.5l0.4,0.5l0.4,0.3l0.5,0.2l0.5,0.1h0.6l0.5-0.2l0.3-0.2l0.2-0.4l0.2-0.5v-0.5
+	L218,84.7z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_259_1_STROKES" class="st9" d="M216.8,84l0.6,0.4l0.3,0.5l0.2,0.6l-0.2,0.6l-0.3,0.4
+	l-0.5,0.2l-0.6,0.1l-0.6-0.2l-0.6-0.4l-0.3-0.5l-0.2-0.6l0.1-0.5l0.3-0.4l0.5-0.3h0.6L216.8,84z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_260_1_STROKES" class="st9" d="M214.6,86.2l-0.5-0.6l-0.2-0.6v-0.6l0.2-0.6l0.4-0.6
+	l0.6-0.3l0.6-0.2l1.5,0.1l0.6,0.4l0.6,0.5l0.5,0.6l0.3,1v0.3l-0.2,0.6l-0.4,0.5L218,87l-0.6,0.2h-0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_261_1_STROKES" class="st9" d="M217.6,81.8l0.9,0.5l0.7,0.6l0.6,0.8l0.3,0.8l0.2,0.9
+	v0.8l-0.3,0.7l-0.6,0.7l-0.6,0.5l-0.8,0.3l-0.9,0.1l-0.9-0.1l-0.9-0.3l-0.9-0.5l-0.8-0.6l-0.6-0.7l-0.6-1.7l0.1-0.8l0.3-0.8l0.5-0.6
+	l0.7-0.5l0.8-0.3l0.9-0.1l0.9,0.1L217.6,81.8z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_262_1_STROKES" class="st9" d="M410.9,230.1l0.2-3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_263_1_STROKES" class="st9" d="M409.6,193.4l-1.5,2.8l-0.1,0.1l-0.2-0.1V196l-1.3-16.6"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_264_1_STROKES" class="st9" d="M378.9,93.6l-0.6,0.1l-0.6-0.2l-0.5-0.3l-0.5-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_265_1_STROKES" class="st9" d="M378.7,94.8l0.2-0.3V94l-0.2-0.6l-0.3-0.5l-0.6-0.3
+	l-0.6-0.2l-0.6,0.1l-0.5,0.2l-0.3,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_266_1_STROKES" class="st9" d="M378.9,88.4l-2.4,0.9l-0.7,0.4l-0.6,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_267_1_STROKES" class="st9" d="M390.9,85.1L375.6,91l-0.7,0.4l-0.6,0.6l-0.3,0.8
+	l-0.1,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_268_1_STROKES" class="st9" d="M412.4,86.4l-19.9-1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_269_1_STROKES" class="st9" d="M378.9,88.4l12.8-5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_270_1_STROKES" class="st9" d="M393.3,83.2l19.9,1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_271_1_STROKES" class="st9" d="M393.3,83.2h-0.6l-0.5,0.1l-0.6,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_272_1_STROKES" class="st9" d="M390.9,85.1l0.5-0.2l0.6-0.1h0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_273_1_STROKES" class="st9" d="M407.7,139.5l0.3-0.4l0.1-0.6l-0.2-0.6l-0.4-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_274_1_STROKES" class="st9" d="M408,138.3h-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_275_1_STROKES" class="st9" d="M437,147.3l0.2-0.7l0.1-0.7l-1.7-22.2l-0.2-0.8l-0.3-0.6
+	l-0.6-0.6l-0.7-0.5l-0.8-0.4l-0.8-0.2l-5.5-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_276_1_STROKES" class="st9" d="M412.4,86.4l0.9,0.2l0.8,0.4l0.8,0.6l0.6,0.7l0.4,0.7
+	l0.2,0.9v0.8l-0.3,0.7l-0.5,0.6l-0.6,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_277_1_STROKES" class="st9" d="M416.6,89.7l0.3-0.8l-0.1-1.6l-1-1.5l-0.8-0.6l-0.9-0.4
+	l-0.9-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_278_1_STROKES" class="st9" d="M416.6,151.2l-2-12.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_279_1_STROKES" class="st9" d="M417.5,149.6l-1.7-10.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_280_1_STROKES" class="st9" d="M418.1,157.6l-0.6-8l-0.9,1.6l0.6,6.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_281_1_STROKES" class="st9" d="M348.5,108.4l16.1,5.4l0.5,0.1l12.5,1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_282_1_STROKES" class="st9" d="M428.3,169.6l0.6,0.2l0.6-0.1l0.5-0.2l0.3-0.5l0.1-0.5
+	l-0.2-0.6l-0.4-0.5l-0.6-0.3l-0.6-0.2h-0.6l-0.5,0.3l-0.3,0.4l-0.1,0.6l0.2,0.6l0.4,0.4L428.3,169.6z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_283_1_STROKES" class="st9" d="M365,114l-2.4,4.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_284_1_STROKES" class="st9" d="M384.2,157.9l-0.1,0.8l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_285_1_STROKES" class="st9" d="M383,155.8l-0.9-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_286_1_STROKES" class="st9" d="M337.4,100.6l25.3,18l-0.3,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_287_1_STROKES" class="st9" d="M337.4,100.6l-0.3,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_288_1_STROKES" class="st9" d="M434.7,160.4l0.5,0.7l0.2,0.8l-0.1,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_289_1_STROKES" class="st9" d="M432.9,159.1l-0.5-0.2h-0.9l-0.8,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_290_1_STROKES" class="st9" d="M387.7,179.4l-0.2-0.7l-0.2-1.5v-1.6l0.3-1.4l0.6-1.4
+	l0.8-1.2l1-1.1l1.3-0.9l2.9-1.1l1.7-0.2h1.7l3.5,0.7l1.7,0.7l2.9,2l1.2,1.3l1,1.4l1.3,3l0.3,1.5l-0.1,1.6l-0.3,1.4l-0.6,1.4
+	l-0.8,1.2L407,185"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_291_1_STROKES" class="st9" d="M387.8,182l-0.2-0.4l-0.7-1.5l-0.5-1.5l-0.2-1.5v-1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_292_1_STROKES" class="st9" d="M386.3,195.7v-0.6l0.3-0.6l0.5-0.5l0.6-0.3l0.7-0.2h0.8
+	l1.4,0.7l0.6,0.6l0.3,0.6l0.2,0.7l-0.1,0.7l-0.2,0.6l-0.5,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_293_1_STROKES" class="st9" d="M387.3,195.8l0.1-0.5l0.3-0.5l0.6-0.3h0.6l0.6,0.2
+	l0.6,0.3l0.4,0.6l0.2,0.6l-0.2,0.6l-0.3,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_294_1_STROKES" class="st9" d="M390.4,195.6l0.2,0.5l-0.1,0.6l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_295_1_STROKES" class="st9" d="M387.4,195.8l0.1-0.5l0.3-0.5l0.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_296_1_STROKES" class="st9" d="M390.4,195.7h-0.6l-0.6-0.2l-0.6-0.3l-0.3-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_297_1_STROKES" class="st9" d="M386.7,194.3l0.5-0.5l0.6-0.3l0.7-0.2l0.8,0.1l0.8,0.2
+	l0.6,0.4l0.6,0.6l0.4,0.6l0.2,0.7l-0.1,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_298_1_STROKES" class="st9" d="M385.5,200l0.1,0.4l0.3,0.5l0.6,0.3l0.6,0.2h0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_299_1_STROKES" class="st9" d="M388.5,200.7l-0.4-0.6l-0.6-0.6l-0.6-0.3l-0.8-0.2
+	l-0.6,0.1l-0.6,0.2l-0.6,0.4l-0.2,0.6L384,201l0.2,0.6l0.4,0.6l0.6,0.6l0.6,0.3l0.8,0.2h0.7l1.1-0.7l0.2-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_300_1_STROKES" class="st9" d="M384.8,200.6l-0.1,0.5l0.2,0.6l0.4,0.5l0.5,0.3l0.6,0.2
+	l0.6-0.1l0.6-0.2l0.2-0.4l0.2-0.6l-0.2-0.6l-0.4-0.5l-0.5-0.3l-0.6-0.2l-0.6,0.1l-0.6,0.2L384.8,200.6z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_301_1_STROKES" class="st9" d="M382.6,152.5l9.5,2.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_302_1_STROKES" class="st9" d="M391.2,201.3l1.5,10.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_303_1_STROKES" class="st9" d="M391.7,156.7l-9.6-2.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_304_1_STROKES" class="st9" d="M415.3,156.5l-1.3-1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_305_1_STROKES" class="st9" d="M379.5,152.6l-0.9,0.4l-0.7,0.6l-0.5,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_306_1_STROKES" class="st9" d="M376.6,157.7l-0.1-0.4l0.1-0.9l0.2-0.9l0.5-0.7l0.7-0.6
+	l0.9-0.4l0.6-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_307_1_STROKES" class="st9" d="M426.2,163.4l1.9-3.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_308_1_STROKES" class="st9" d="M428.4,161.2l-0.6,0.7l-0.2,0.3l0.2,0.3l0.4,0.2l0.6,0.1
+	l1.3-0.1l0.7-0.2l1.2-0.7l0.3-0.4l0.1-0.4l-0.2-0.3l-0.9-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_309_1_STROKES" class="st9" d="M434.2,159l-3.5,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_310_1_STROKES" class="st9" d="M431.8,163.7l2.4-4.7l1.7,5.5l-2,3.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_311_1_STROKES" class="st9" d="M431.2,163.7h0.6l0.2,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_312_1_STROKES" class="st9" d="M378.2,154.6l0.9,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_313_1_STROKES" class="st9" d="M384.4,156.1l-2.5-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_314_1_STROKES" class="st9" d="M382.3,160.3l2-4.2l-0.7,4.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_315_1_STROKES" class="st9" d="M420.8,175.4l1.8,12.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_316_1_STROKES" class="st9" d="M417.7,175.4l0.2,0.5l0.3,1.1l2.2,15.7l0.2,0.4l0.2,0.2
+	l0.2-0.2l1.6-3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_317_1_STROKES" class="st9" d="M381.7,199l-0.2,0.5 M381.7,199l0-0.2l0.2-0.3L381.7,199
+	z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_318_1_STROKES" class="st9" d="M411.9,239.5l-0.2-1.4l-1.3-2.7l-0.9-1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_319_1_STROKES" class="st9" d="M426.3,206.8l-2.7-18.9l-0.3-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_320_1_STROKES" class="st9" d="M417.7,178.2l-0.3-1.2l-0.6-1.1l-0.3-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_321_1_STROKES" class="st9" d="M422.6,214.2l-2.7-19l-8.7-7.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_322_1_STROKES" class="st9" d="M400.4,209.7l0.1-0.4l0.1-0.9l-0.2-0.9l-0.4-0.9
+	l-0.6-0.8l-0.7-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_323_1_STROKES" class="st9" d="M399.6,211.2l0.4-0.7l0.3-0.9l0.1-0.9l-0.2-0.9l-0.4-0.9
+	l-0.6-0.8l-0.4-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_324_1_STROKES" class="st9" d="M382.1,211l10.6,0.9l0.9,0.8l-10.8-0.8L382.1,211z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_325_1_STROKES" class="st9" d="M391.9,200.2l-0.3-1l-0.6-1l-0.8-0.9l-0.9-0.8l-1.1-0.6
+	l-1.2-0.2l-1.2-0.1l-1.1,0.2l-1,0.5l-0.8,0.6l-0.6,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_326_1_STROKES" class="st9" d="M384.1,196.1l-0.1-0.6l0.1-1l0.4-0.9l0.6-0.9l0.8-0.6
+	l1-0.4l1.1-0.2l1.2,0.1l1.1,0.3l1.2,0.6l0.9,0.7l0.8,0.9l0.6,1l0.3,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_327_1_STROKES" class="st9" d="M394.6,194.8l-0.3-1l-0.6-1l-0.8-0.9l-0.9-0.8l-2.3-0.9
+	h-1.2l-1.1,0.2l-0.9,0.5l-0.9,0.6l-0.6,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_328_1_STROKES" class="st9" d="M392.6,205.5l0.3,1.2l0.2,0.3l0.2,0.1l0.2-0.1l0.2-0.3"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_329_1_STROKES" class="st9" d="M394.4,205.7l0.4-1.2l0.1-0.8l-0.1-2.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_330_1_STROKES" class="st9" d="M395.2,198.7l0.3,1.2l0.2,0.3l0.2,0.2l0.2-0.2l0.2-0.3"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_331_1_STROKES" class="st9" d="M383,197.9l0.2-0.6h0.1l0.1-0.1l0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_332_1_STROKES" class="st9" d="M381.6,199.2l0.2-0.2l0.9-0.9l0.3-0.2l-0.2,1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_333_1_STROKES" class="st9" d="M389.7,199.8l0.3-0.7h0.2l0.6,1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_334_1_STROKES" class="st9" d="M388.5,198.3l0.2-0.5v-0.1h-0.1v-0.1l-0.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_335_1_STROKES" class="st9" d="M388.5,199.9l0.1-1.7l0.2,0.4l0.7,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_336_1_STROKES" class="st9" d="M390,205l0.6,1.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_337_1_STROKES" class="st9" d="M388.8,204.9l0.7,1.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_338_1_STROKES" class="st9" d="M383.2,204.4l0.6,1.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_339_1_STROKES" class="st9" d="M381.9,204.3l0.6,1.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_340_1_STROKES" class="st9" d="M389.6,200l0.4,5l-1.3-0.1l-0.3-5L389.6,200z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_341_1_STROKES" class="st9" d="M382.8,199.5l0.4,4.9l-1.3-0.1l-0.3-4.9L382.8,199.5z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_342_1_STROKES" class="st9" d="M387.8,178.8l-0.2-1.3l0.3-2.9l0.6-1.3l0.8-1.2l0.9-1
+	l1.2-0.9l1.3-0.6l3.1-0.6h1.6l1.7,0.2l1.6,0.5l3.1,1.6l2.4,2.3l0.9,1.3l1.3,2.9l0.2,1.5v1.4l-0.8,2.8l-0.9,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_343_1_STROKES" class="st9" d="M401.5,180.9H400l-1.3-0.2l-1.2-0.4l-1.2-0.6l-1.8-1.7
+	l-0.6-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_344_1_STROKES" class="st9" d="M394.2,212.2l0.6,0.5l0.6,1.3l-0.2,0.7l-0.2,0.6
+	l-0.5,0.4l-0.6,0.2l-0.7,0.1l-0.7-0.2l-0.7-0.4l-0.6-0.5l-0.4-0.6l-0.2-0.6l0.1-0.6l0.2-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_345_1_STROKES" class="st9" d="M388.5,202l-0.2,0.6l-1.1,0.7h-0.7l-0.8-0.2l-0.6-0.3
+	l-0.6-0.6l-0.4-0.6L384,201l0.1-0.6l0.2-0.6l0.6-0.4l0.6-0.2l0.6-0.1l0.8,0.2l0.6,0.4l0.6,0.5l0.4,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_346_1_STROKES" class="st9" d="M408.9,254l-0.2-0.5l-0.1-0.6l-0.1-0.2l-0.1-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_347_1_STROKES" class="st9" d="M412.2,247.4l0.2-1.7v-0.2l-0.1-0.4l-0.4-5.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_348_1_STROKES" class="st9" d="M381.4,199.8l-0.1,1.1l0.8,10.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_349_1_STROKES" class="st9" d="M383.7,197.1l0.4-0.2l1.1-0.2h1.2l1.8,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_350_1_STROKES" class="st9" d="M391,200.2l0.2,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_351_1_STROKES" class="st9" d="M380.7,198.7l2.2-2.9l1.3-1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_352_1_STROKES" class="st9" d="M423.5,188.1L423.5,188.1l-0.2-0.3l-1.8-12.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_353_1_STROKES" class="st9" d="M420,195.1l0.1-0.3v-0.4l-2.4-16.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_354_1_STROKES" class="st9" d="M429.1,205.9l0.4,5.6l0.1,0.5l-0.1,2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_355_1_STROKES" class="st9" d="M427.4,217.9l-0.2-1.1v-0.1l-0.1-0.5l-0.7-9.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_356_1_STROKES" class="st9" d="M422.6,214.2l0.7,11.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_357_1_STROKES" class="st9" d="M412.6,238l0.5,5.6v0.6l0.3,1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_358_1_STROKES" class="st9" d="M430.7,216.8l-0.9-12.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_359_1_STROKES" class="st9" d="M400.7,196.5l3.9,27.2v0.6l-0.1,0.6l-0.1,0.3l-2,3.7
+	l-0.1,0.1l-0.2-0.2L402,228l-3.8-26.1v-1.1l0.2-0.8l1.9-3.7l0.2-0.1l0.1,0.1L400.7,196.5z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_360_1_STROKES" class="st9" d="M422.6,188l0.1,0.6v0.6l-0.2,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_361_1_STROKES" class="st9" d="M407.8,241.7l0.8,10.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_362_1_STROKES" class="st9" d="M378.7,220.5l3-14.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_363_1_STROKES" class="st9" d="M404.4,248.3l-5.9-41.3l-0.2-0.6l-0.4-0.9l-0.2-0.1
+	l-0.3,0.1l-3.7,7.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_364_1_STROKES" class="st9" d="M400.6,191.8l7.2,49.9l-3.4,6.6l1.3,17.4l-0.1,0.8
+	l-0.2,0.6l-0.5,0.6l-0.6,0.4l-0.8,0.2h-0.8l-12.3-1l-0.8-0.4l-0.6-0.5l-0.6-0.6l-0.4-0.7l-0.2-0.7l-0.9-11.4l2.8-21.8l-0.2-0.9
+	l-0.4-0.9l-1.5-1.5l-2.9-1.7l-3.5-2.7l-2.6-3l-0.2-0.5l-0.1-0.2l-0.7-2.2v-0.3l-0.9-4.4l-0.1-4.5l0.3-1.7v-0.2l0.5-1.6l1.5-2.8
+	l1.1-1l1.3-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_365_1_STROKES" class="st9" d="M396.4,199.9l4.2-8.1l-8.6-0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_366_1_STROKES" class="st9" d="M378.2,154.6l-2.4,4.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_367_1_STROKES" class="st9" d="M378.9,156.5l-0.4,0.1l-0.8,0.6v0.3l0.2,0.5l0.3,0.4
+	l0.6,0.3l1.4,0.4h0.8l0.6-0.2l0.5-0.2l0.3-0.3l0.2-0.4l-0.2-0.5l-0.4-0.4l-0.3-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_368_1_STROKES" class="st9" d="M393.9,95.2l0.1-0.9l-0.2-0.9l-0.2-0.2l-0.3-0.7
+	l-0.6-0.9l-0.5-0.4l-1.3-0.8l-0.9-0.2l-0.1-0.1l-1.2-0.1l-0.9,0.2l-0.9,0.3l-0.3,0.3l-0.5,0.2l-0.3,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_369_1_STROKES" class="st9" d="M385.5,95.4l-0.2-0.5l-0.2-0.9v-0.9l0.4-0.9l0.5-0.7
+	l0.8-0.6l0.9-0.4l0.9-0.2l1.1,0.1l1,0.3l0.9,0.5l0.9,0.7l0.6,0.9l0.5,0.9l0.2,0.9l-0.2,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_370_1_STROKES" class="st9" d="M386.5,99.3l0.4,0.2l0.6,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_371_1_STROKES" class="st9" d="M413.6,97.6l0.2-0.7l0.1-0.1v-0.9l-0.2-0.9l-0.5-0.9
+	l-0.2-0.2l-0.4-0.6l-0.9-0.7l-0.9-0.5l-0.9-0.3l-1.2-0.1l-0.9,0.2l-0.2,0.1l-0.7,0.3l-0.7,0.5l-0.6,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_372_1_STROKES" class="st9" d="M405.2,96.5l-0.2-0.9l0.1-0.9l0.3-0.9l0.5-0.6l0.8-0.6
+	l0.9-0.3l1-0.2l1,0.1l1.1,0.3l0.9,0.5l0.9,0.7l0.7,0.8l0.4,0.9l0.2,0.9l-0.1,0.9l-0.3,0.9l-0.6,0.8l-0.7,0.6l-0.9,0.3l-0.4,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_373_1_STROKES" class="st9" d="M410.3,98.5l-0.2-0.4l-0.6-0.6l-0.7-0.5l-0.9-0.3
+	l-0.4-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_374_1_STROKES" class="st9" d="M406.4,100.8l0.4,0.3l0.6,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_375_1_STROKES" class="st9" d="M414.1,96.3l-0.2,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_376_1_STROKES" class="st9" d="M414.7,92.2l0.4-0.5l0.1-0.1l0.3-0.6v-0.1l0.1-0.7
+	l-0.2-0.9l-0.1-0.1l-0.4-0.6l-0.1-0.2l-0.6-0.5l-0.7-0.5l-0.9-0.4h-0.9l-0.8,0.2l-0.8,0.3l-0.4,0.5l-0.4,0.7l-0.1,0.1v0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_377_1_STROKES" class="st9" d="M409.9,87.8l0.6-0.6l0.7-0.4l0.9-0.2l0.9,0.1l0.9,0.2
+	l1.4,1.2l0.4,0.7l0.2,0.8l-0.2,0.8l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_378_1_STROKES" class="st9" d="M394.8,90.5l0.5-0.5l0.3-0.6v-0.1l0.1-0.8l-0.2-0.8
+	L395,87l-0.6-0.6l-0.8-0.6l-0.4-0.1l-0.5-0.2l-0.4-0.1h-0.5l-0.9,0.2l-0.5,0.2l-0.2,0.2l-0.6,0.6l-0.2,0.6h-0.1v0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_379_1_STROKES" class="st9" d="M390,86.2l0.6-0.6l0.7-0.4l0.9-0.2l0.9,0.1l0.9,0.3
+	l0.8,0.5l0.6,0.6l0.5,0.7l0.2,0.9l-0.1,0.7l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_380_1_STROKES" class="st9" d="M416.6,95.9l0.1-0.6l0.2-0.3l0.1-0.2l0.2-0.2l0.2-0.2
+	l0.4-0.1h0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_381_1_STROKES" class="st9" d="M414,96.2l0.5,0.1h0.4l0.4-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_382_1_STROKES" class="st9" d="M416.6,95.9l0.1-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_383_1_STROKES" class="st9" d="M426.4,118.4l0.2,0.6l0.1,0.1l0.1,0.5l-0.1,0.4v0.2
+	l-0.2,0.6l-0.1,0.1l-0.7,0.9l-0.1,0.2l-0.7,0.6l-0.2,0.2l-1.2,0.9h-0.1l-0.2,0.2l-2,1l-0.9,0.3l-0.2,0.1l-1.1,0.4l-0.5,0.1h-0.1
+	l-1.7,0.4l-1.7,0.2l-1.4-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_384_1_STROKES" class="st9" d="M435.5,175.2l-0.7,0.6l-0.6,0.2l-0.6,0.1H433"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_385_1_STROKES" class="st9" d="M434.5,173.5l-0.3,0.2H434l-0.6,0.2l-0.5,0.1h-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_386_1_STROKES" class="st9" d="M435.2,172.5l-0.2,0.4l-0.4,0.3l-0.6,0.3l-0.6,0.2
+	l-0.7,0.2h-0.6l-0.5-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_387_1_STROKES" class="st9" d="M433,170.6l0.7-0.4l0.4-0.4l0.2-0.3l-0.1-0.3l-0.3-0.2"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_388_1_STROKES" class="st9" d="M395.7,94.8l0.6-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_389_1_STROKES" class="st9" d="M392.7,123.2l-0.3,0.2l-3,0.8h-0.9l-0.2,0.1l-1.7-0.1
+	l-1.7-0.2l-1.7-0.5l-1.4-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_390_1_STROKES" class="st9" d="M372.1,98.4l-0.2,0.4l-0.2,0.5v0.9l0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_391_1_STROKES" class="st9" d="M375.9,98.4l-0.5-0.3l-0.5-0.2l-0.6-0.2h-1l-0.5,0.2
+	l-0.5,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_392_1_STROKES" class="st9" d="M368.4,95.4l-1.1,2.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_393_1_STROKES" class="st9" d="M366.7,97.6l1.1-2.2h0.6l5-2l0.9-0.1l1.1,0.1l1.1,0.2
+	l1.1,0.6l1,0.7l0.7,0.8l0.6,0.9l0.2,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_394_1_STROKES" class="st9" d="M378.4,97.8l-1.8-1.5l-1.1-0.6l-2.2-0.4l-1.8,0.4
+	l-4.2,1.8h-0.6l0.2,3.5h0.6l1.7,1.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_395_1_STROKES" class="st9" d="M358.4,94.2l-0.2,0.4l-0.2,0.6l-0.3,1.6l-0.2,1.8
+	l0.2,1.4l0.2,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_396_1_STROKES" class="st9" d="M360.8,94.4l-0.2,0.4l-0.2,0.6L360,97l-0.2,1.8l0.2,1.4
+	l0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_397_1_STROKES" class="st9" d="M359.3,94.1l-0.2-0.6l-0.2-0.3l-0.2-0.1l-0.2,0.2
+	l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_398_1_STROKES" class="st9" d="M354.5,92.7l-0.3,0.4l-0.7,2.4l-0.2,2.2l0.2,2.7l0.2,0.6
+	l0.2,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_399_1_STROKES" class="st9" d="M362.3,93.6h0.9l0.7,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_400_1_STROKES" class="st9" d="M364,93.7L364,93.7L364,93.7l0.1,0.2l0.2,0.3l0.2,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_401_1_STROKES" class="st9" d="M360.9,100.2l0.5,1.6l0.8,0.1l0.2-0.7l0.1-0.9v-0.4
+	l0.2,1.1l0.2,0.5l0.2,0.3l0.2,0.1h-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_402_1_STROKES" class="st9" d="M361.2,97.7l0.9,0.1l0.7-1.7l0.1-0.2l-0.2,0.6l-0.2,2
+	v0.9l-0.4-1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_403_1_STROKES" class="st9" d="M364.9,95.8l-0.1-0.5l-0.2-0.5l-0.2-0.2l-0.2,0.1
+	l-0.2,0.3l-0.5,1.3l-0.2,1.7v0.2v0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_404_1_STROKES" class="st9" d="M362.9,93.7l-0.8-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_405_1_STROKES" class="st9" d="M363.6,99.4l-0.3,0.6l0.1,0.5l0.2,0.4l0.2,0.2l0.2-0.1
+	l0.2-0.3l0.2-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_406_1_STROKES" class="st9" d="M363.6,94l-0.3,0.4l-0.2,0.6l-0.2,0.8l0.1-0.9l-0.1-1
+	l0.6,0.1h0.4L363.6,94z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_407_1_STROKES" class="st9" d="M363.7,101.3l-0.2,0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_408_1_STROKES" class="st9" d="M360.9,99.7v0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_409_1_STROKES" class="st9" d="M360.9,99.7v-0.5l0.2-2.8h0.1V96 M360.9,99.2l0.1-0.9
+	l0.2-0.6v-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_410_1_STROKES" class="st9" d="M362.1,93.6l-0.5,0.9l-0.3,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_411_1_STROKES" class="st9" d="M362.1,93.6l-0.3,0.6l-0.2,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_412_1_STROKES" class="st9" d="M357.3,100.2l-0.1-1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_413_1_STROKES" class="st9" d="M357.4,100.5l0.2,0.6l0.2,0.3l0.2,0.1l0.2-0.2l0.2-0.4"
+	/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_414_1_STROKES" class="st9" d="M357.5,96l0.7-2.3 M357.3,97.7l0.2-1.7 M357.3,97.7
+	l0,0.3v0.6l-0.1-0.5L357.3,97.7z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_415_1_STROKES" class="st9" d="M357.5,101.7l-0.2-0.3l-0.1-0.4l-3.2-0.2l-0.2-0.2
+	l-0.2-0.1l-0.2-0.5l-0.1-1.7l0.1-0.6l0.1-0.2l0.2-0.2l3.1,0.3l0.2-0.7l0.1-1l0.7-2.5l0.3-0.4l0.2-0.2l0.2,0.1l0.2,0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_416_1_STROKES" class="st9" d="M214.4,81.6l0.9-0.2l0.6-0.1l0.5,0.1h0.5l0.6,0.2
+	l0.4,0.1l1.4,0.9l0.2,0.2l0.5,0.6l0.1,0.1l0.4,0.7v0.2l0.2,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_417_1_STROKES" class="st9" d="M228.7,75.9l-1.2,0.2h-0.1l-0.4,0.2l-0.4,0.1l-7.2,0.8
+	h-0.7l-0.3-0.1h-1l-1.4,0.3l-0.1,0.1l-0.2,0.1l-0.7,0.2h-0.2l-0.9,0.5l-0.9,0.7l-0.7,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_418_1_STROKES" class="st9" d="M229.4,75.8L229.4,75.8l-0.2,0.1l-0.4,0.1h0.2
+	L229.4,75.8z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_419_1_STROKES" class="st9" d="M227.4,78.5l0.4-0.2h0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_420_1_STROKES" class="st9" d="M226.2,78.5h-0.7l-7.2,0.8l-0.4,0.1l-1.3,0.4h-0.4
+	l-0.3,0.2h-1l-0.5-0.2h-0.2l-0.4,0.2h-0.2l-0.9,0.5l-1.6,1.4l-0.4,1l-0.2,1v1L211,86l0.6,1l0.8,0.9l0.9,0.8l1.3,0.8l0.4,0.2l0.2,0.2
+	l0.2,0.1V90l0.2,0.2l1,0.5l0.4,0.1h0.4l0.4,0.1h0.4l0.2,0.1h0.2L219,91l7.3,2.2l0.4,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_421_1_STROKES" class="st9" d="M226.7,87l-0.5-8.5l0.7-0.1h0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_422_1_STROKES" class="st9" d="M218.5,89.2L218.5,89.2l-0.2,0.1l-0.2,0.1l-1.1,0.2h-0.4
+	l-0.8-0.2l-0.6-0.4L215,89l-0.5-0.3l1,0.4l1.1,0.2h1.1L218.5,89.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_423_1_STROKES" class="st9" d="M218.5,82l-0.2-0.8v-0.1h-0.2l-0.1-0.1l-0.2-0.1h-1
+	l-0.3-0.1H216l-0.7-0.1l-0.2-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_424_1_STROKES" class="st9" d="M218.8,88.3l-0.1,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_425_1_STROKES" class="st9" d="M216.2,81.2l0.9,0.2h0.2l0.7,0.3l0.2,0.2l0.2,0.1
+	l1.4,1.4l0.5,0.9l0.2,0.9l-0.2,0.9l-0.3,0.9l-0.6,0.7l-0.7,0.5h-0.2l-0.2,0.2l-0.7,0.2h-1l-0.9-0.2h-0.2l-0.7-0.4l-0.2-0.1l-0.9-0.7
+	l-0.8-1.1l-0.4-0.8l-0.2-0.9l0.1-0.8v-0.2l0.2-0.6l0.2-0.2l0.3-0.3l0.2-0.4l0.9-0.5l1-0.3H216.2z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_426_1_STROKES" class="st9" d="M228.7,98l-1.3-3.5l-0.4-1.6l-0.2-2.4l0.2-6.4l0.9-4.5
+	l0.7-2l8.7-17.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_427_1_STROKES" class="st9" d="M229.5,96l0.8,2.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_428_1_STROKES" class="st9" d="M228.4,85.3l0.2-2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_429_1_STROKES" class="st9" d="M228.3,91.1v-0.5l-0.1-0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_430_1_STROKES" class="st9" d="M228.8,94.4l-0.3-1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_431_1_STROKES" class="st9" d="M232.1,69.9l-0.2,0.3l-0.2,0.5l-0.2,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_432_1_STROKES" class="st9" d="M233.8,67.1l-0.5,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_433_1_STROKES" class="st9" d="M228.1,98.5l-0.2-0.9v-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_434_1_STROKES" class="st9" d="M392.2,150.1l-6.8-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_435_1_STROKES" class="st9" d="M338.9,134.9l-2.6-32.9h0.4l25.2,18l14.7,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_436_1_STROKES" class="st9" d="M300.4,103.6L300.4,103.6l-0.2,0.2l-0.1,0.2v0.3
+	l-0.1,0.3l0.1,0.2l0.1,0.1h0.1v-0.1l0.1-0.1l0.1-0.2v-0.9L300.4,103.6z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_437_1_STROKES" class="st9" d="M304.2,99.6l0.1,0.6l0.2,0.5l0.2,0.2l0.2,0.1h0.2
+	l0.2-0.2l0.1-0.2l0.2-0.2l0.2-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_438_1_STROKES" class="st9" d="M304.1,99.9l0.1,0.7l0.2,0.6l0.2,0.3l0.2,0.2h0.2
+	l0.2-0.1l0.2-0.2l0.3-0.5l0.1-0.5l0.2-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_439_1_STROKES" class="st9" d="M300.7,101.2l-0.2-0.4l-0.2-1.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_440_1_STROKES" class="st9" d="M298.6,105.1l1.3,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_441_1_STROKES" class="st9" d="M300.3,105.8l-1.2-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_442_1_STROKES" class="st9" d="M299.1,105.7l-0.6-0.6l-0.3-6.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_443_1_STROKES" class="st9" d="M302.6,101.5l-2.3,4.3l-0.5-0.6l-0.3-6.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_444_1_STROKES" class="st9" d="M331.4,104.7l-0.3,1.7l-0.2,6.1l2.5,33.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_445_1_STROKES" class="st9" d="M333.8,109.8v1.8l0.2,0.8l0.1,0.1l0.2-0.2v-0.2l0.2-1.1
+	v-0.6l-0.1-0.6v-0.5l-0.1-0.3l-0.2-0.2v0.2L333.8,109.8z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_446_1_STROKES" class="st9" d="M334.5,101.9l1.7,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_447_1_STROKES" class="st9" d="M335.5,141.5l-2.2-32.7l0.5-3.9l0.8-2.9l2.8,36.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_448_1_STROKES" class="st9" d="M298.6,105.2l-2.2-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_449_1_STROKES" class="st9" d="M231.3,98.4l-0.9,1.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_450_1_STROKES" class="st9" d="M299,84.2l-0.5-0.2l-18.4-1.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_451_1_STROKES" class="st9" d="M289.8,121l-0.8-15.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_452_1_STROKES" class="st9" d="M287.1,121.9l-0.8-15.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_453_1_STROKES" class="st9" d="M232.8,116.7l-0.8-15.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_454_1_STROKES" class="st9" d="M231.2,115.7l0.2,0.4l0.3,0.3l0.6,0.2l54.9,5.3l1.4-0.1
+	l0.6-0.2l0.5-0.3l0.2-0.3l7.7-15"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_455_1_STROKES" class="st9" d="M435,151.3l0.2-0.6l0.1-0.7l-1.7-22.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_456_1_STROKES" class="st9" d="M428.4,124.5l1.9,0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_457_1_STROKES" class="st9" d="M362.3,119.3l-0.4,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_458_1_STROKES" class="st9" d="M337.1,101.3l25.2,18l14.6,1.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_459_1_STROKES" class="st9" d="M331.4,104.7l0.9-3.8l4.4,0.3h0.3l-0.4,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_460_1_STROKES" class="st9" d="M241.7,99.3L240,95l-0.3-2l-0.2-4.3l0.9-6.5l1-3.4
+	l0.3-0.8l8.4-16.5l0.2-0.2l0.2-0.1l0.2,0.2l0.2,0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_461_1_STROKES" class="st9" d="M228.7,83.3l0.1-0.6l1.3-4.9l8.8-17.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_462_1_STROKES" class="st9" d="M228.3,91.1l0.2,1.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_463_1_STROKES" class="st9" d="M228.4,85.3l-0.1,0.6l-0.2,3.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_464_1_STROKES" class="st9" d="M327.9,89.6l-0.2-1.5l-0.2-0.6l-0.3-0.4l-0.3-0.2
+	l-0.3,0.1l-0.4,0.3l-0.3,0.6l-0.7,1.8l-0.6,2.4l-0.3,2.8v3.8l0.3,1.9l0.2,0.6l0.3,0.5l0.3,0.2l0.3-0.2l0.4-0.3l0.3-0.6l0.6-1.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_465_1_STROKES" class="st9" d="M281.3,95.6l0.5-0.8l0.2-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_466_1_STROKES" class="st9" d="M282.5,86.6l-0.1-0.6l-0.2-0.4l-0.2-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_467_1_STROKES" class="st9" d="M277.6,82.2l-0.2-1.3l-0.1,0.6l-0.2,0.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_468_1_STROKES" class="st9" d="M279,82.3l1.7-2l0.2-1l0.2-1.3v-0.6l-0.6-7.7l-0.5-1.3
+	l-0.2-0.3l-0.3-0.2l-0.3,0.1l-0.4,0.3l-1.7,2l-0.2,0.3l-0.2,0.5l-0.2,1.3l0.5,8.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_469_1_STROKES" class="st9" d="M228.8,94.4l1.6,4.1l0.8,0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_470_1_STROKES" class="st9" d="M277,68.5l-1.5,1.6l-0.2,0.3l-0.3,1.1l-0.2,1.3l0.1,0.6
+	l0.3,6.2l0.1,0.1v0.5l0.1,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_471_1_STROKES" class="st9" d="M278.3,67.7l-0.2-0.2l-0.2-0.1l-0.3,0.2l-0.6,0.8
+	l0.2-0.5l0.3-0.3h0"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_472_1_STROKES" class="st9" d="M244.2,75.9l-2,3.9l0.3-0.3l0.5-0.2l0.6-0.1h0.6l4,0.3
+	l1.5-0.1l0.7-0.2l0.5-0.2l0.3-0.4l0.1-0.4l-0.2-0.4l-0.3-0.3l-0.6-0.2l-0.7-0.2l-4.1-0.3l-0.6-0.2l-0.4-0.2l-0.2-0.3V75.9z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_473_1_STROKES" class="st9" d="M248.5,79h0.6l0.5-0.1l0.4-0.2l0.2-0.4l-0.2-0.2
+	l-0.3-0.2l-0.6-0.1h-0.6l-0.6,0.2l-0.3,0.2l-0.2,0.3l0.1,0.2l0.3,0.2L248.5,79z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_474_1_STROKES" class="st9" d="M282.5,86.6h0.5l-0.1,0.2l-0.6,5.3v2.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_475_1_STROKES" class="st9" d="M280.1,82.2l-0.9-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_476_1_STROKES" class="st9" d="M277.4,80.8l-26.1-2.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_477_1_STROKES" class="st9" d="M251.1,78l0.4,0.2l23.9,2.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_478_1_STROKES" class="st9" d="M275.3,79.6l-25.8-2.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_479_1_STROKES" class="st9" d="M250.9,62.4l0.2,2.7l-0.1,0.1l-0.6,0.9l-1.3,4l-0.4,3.9
+	l0.1,3.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_480_1_STROKES" class="st9" d="M272.2,84.9l-0.3,0.3l-0.5,1.2v0.1l-0.5,1.7l-0.2,2.4
+	v1.7l0.1,0.8l0.2,0.7l0.2,0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_481_1_STROKES" class="st9" d="M242.7,91.7l-0.2-0.3l-0.3-1.2l-0.1-2.4l0.4-3.1l0.5-1.5
+	l0.3-0.6l0.3-0.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_482_1_STROKES" class="st9" d="M243.5,82.2l0.2-0.5V81"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_483_1_STROKES" class="st9" d="M433.6,127.7l-0.2-0.7l-0.4-0.7l-0.5-0.6l-0.7-0.5
+	l-0.8-0.3l-0.8-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_484_1_STROKES" class="st9" d="M432.4,130l1.7,22.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_485_1_STROKES" class="st9" d="M431.3,128l-0.7-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_486_1_STROKES" class="st9" d="M432.4,130l-0.2-0.7l-0.2-0.4"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_487_1_STROKES" class="st9" d="M351.3,159.5l48.3,3.9l3.8,1.2l3.5,2l3.1,2.6l1.3,1.5
+	l1.9,3.3l1.1,4.3l-0.1,2.6l-0.9,3.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_488_1_STROKES" class="st9" d="M326.4,143.6l-0.3-2.5l-0.2-0.5l-0.2-0.2l-0.2,0.1
+	l-0.2,0.3l-0.2,0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_489_1_STROKES" class="st9" d="M322.7,141.3l0.2-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_490_1_STROKES" class="st9" d="M329.9,143.8l20.7,14.8l30.5,2.4l1.1-0.2l0.4-0.2
+	l15.6,1.2l2,0.3l3.9,1.2l1.8,0.9l3.4,2.3l2.7,2.9l1.9,3.2l0.6,1.7l0.4,1.7l0.1,0.9l-0.1,2.6l-0.9,3.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_491_1_STROKES" class="st9" d="M324.6,143.4l5.3,0.4l-0.3,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_492_1_STROKES" class="st9" d="M322.7,141.3l-0.7,2.6l2.4,0.2l0.7-2.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_493_1_STROKES" class="st9" d="M368.9,105.6l0.2,0.7l0.4,0.6l0.5,0.5l0.7,0.4l0.7,0.2
+	l0.7-0.1l0.7-0.2l0.5-0.4l0.2-0.6l0.1-0.6l-0.2-0.6l-0.4-0.6l-0.6-0.6l-0.6-0.3l-0.8-0.2h-0.7l-0.6,0.3l-0.5,0.4L369,105
+	L368.9,105.6z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_494_1_STROKES" class="st9" d="M373.6,105.9l-0.6,0.2l-0.7,0.1l-0.8-0.2l-0.6-0.3
+	l-0.6-0.6l-0.4-0.6l-0.2-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_495_1_STROKES" class="st9" d="M369,102.2l0.6-0.6l0.7-0.4l15.8-6.1l0.6-0.1h0.6
+	l19.9,1.6l0.9,0.2l0.9,0.4l0.7,0.6l0.6,0.7l0.4,0.8l0.2,0.8l-0.1,0.8l-0.2,0.7"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_496_1_STROKES" class="st9" d="M400.2,148.9l-0.6,0.2l-0.6,0.2l-0.3,0.5l-0.1,0.6
+	l0.2,0.6l0.4,0.5l0.6,0.4l0.6,0.2l0.6-0.1l0.6-0.3l0.3-0.4v-0.6l-0.1-0.6l-0.5-0.6l-0.5-0.3L400.2,148.9z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_497_1_STROKES" class="st9" d="M385.3,98.8l-0.3,0.5l-0.1,0.6l0.2,0.6l0.4,0.5l0.6,0.4
+	l0.7,0.2l0.6-0.1l0.5-0.3l0.4-0.4l0.1-0.6l-0.2-0.6l-0.3-0.5l-0.6-0.4l-0.6-0.2l-0.6,0.1L385.3,98.8z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_498_1_STROKES" class="st9" d="M399.2,155l-0.1,0.6l0.2,2l0.2,0.6l0.4,0.5l0.6,0.3
+	l0.6,0.2h0.6l0.6-0.3l0.3-0.5l-0.1-2.6l-0.2-0.6l-0.3-0.5l-1.2-0.6l-0.6,0.2l-0.6,0.2L399.2,155z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_499_1_STROKES" class="st9" d="M404.8,101.3l0.2,0.6l0.3,0.5l0.6,0.4l0.6,0.2l0.7-0.1
+	l0.5-0.2l0.3-0.5l0.1-0.6L408,101l-0.4-0.5l-0.6-0.3l-0.6-0.2h-0.6l-0.5,0.3l-0.4,0.5L404.8,101.3z"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_500_1_STROKES" class="st9" d="M401.8,150.2l-0.6,0.1l-0.6-0.2l-0.6-0.3l-0.3-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_501_1_STROKES" class="st9" d="M388.1,99.7h-0.6l-0.6-0.2l-0.6-0.3l-0.4-0.6"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_502_1_STROKES" class="st9" d="M400,154.4l0.1,1.7l0.2,0.6l0.4,0.5l0.6,0.3l0.6,0.2
+	l0.6-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_503_1_STROKES" class="st9" d="M408.1,101.2l-0.6,0.1l-0.6-0.2l-0.6-0.4l-0.4-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_504_1_STROKES" class="st9" d="M403.7,123.4l-1-13.1v-1l0.2-0.9l0.4-0.9l0.6-0.7
+	l0.7-0.6l0.9-0.6l3-1.3l0.7-0.4l0.5-0.6l0.3-0.8v-0.7l-0.2-0.9l-0.4-0.8l-1.3-1.3l-1.8-0.6l-19.9-1.5h-0.6l-0.5,0.1l-0.6,0.2
+	l-15.3,5.9l-0.8,0.4l-0.5,0.6l-0.4,0.7l-0.1,0.9l0.2,0.8l0.4,0.8l0.6,0.8l0.7,0.6l0.9,0.4l0.9,0.2l14.2,1.1l1.2,0.2l1.2,0.4l1.2,0.6
+	l0.9,0.7l0.9,0.9l0.6,0.9l0.5,1.1l0.2,1.1l0.4,6.5l-0.8,38.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_505_1_STROKES" class="st9" d="M404.5,121.8l-0.8,1.6l6.8,39.8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_506_1_STROKES" class="st9" d="M411.5,161.6l-0.9,1.6l0.4,5.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_507_1_STROKES" class="st9" d="M403.7,107l-0.2,0.6v0.9l0.9,13.2l6.9,39.8l0.6,8"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_508_1_STROKES" class="st9" d="M394.2,212.2l0.6,0.5l0.6,1.3l-0.2,0.7l-0.2,0.6
+	l-0.5,0.4l-0.6,0.2l-0.7,0.1l-0.7-0.2l-0.7-0.4l-0.6-0.5l-0.4-0.6l-0.2-0.6l0.1-0.6l0.2-0.5"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_509_1_STROKES" class="st9" d="M391.8,212.7l-0.3,0.4l-0.1,0.6l0.2,0.5l0.3,0.5l0.6,0.4
+	l0.6,0.2l0.6-0.1l0.5-0.2l0.3-0.5l0.1-0.5l-0.2-0.6l-0.4-0.5l-0.3-0.2"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_510_1_STROKES" class="st9" d="M392.2,212.9l0.4,0.5l0.5,0.3l0.6,0.2l0.6-0.1"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_511_1_STROKES" class="st9" d="M392.6,214.5l1.7-3.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_512_1_STROKES" class="st9" d="M394.5,210.7l0.5-0.9"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_0_MEMBER_513_1_STROKES" class="st9" d="M395.2,209.4l1.7-3.3"/>
+<path id="Layer0_2_MEMBER_1_MEMBER_1_1_STROKES" class="st10" d="M232.1,101.4l54.2,5.2l2.8-0.9l4-7.2"/>
+<g>
+	<text transform="matrix(1 0 0 1 258.2966 269.7606)" class="st11 st12">Rudder Feel Unit</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 280 37.7603)" class="st11 st12">Trim Actuator</text>
+</g>
+<path class="st13" d="M763.1,129.5l3.6,13.5l17.5-8l-3.4-8.3L763.1,129.5z"/>
+<path class="st5" d="M794.4,101.3l-5.2-0.4l-5.5-2.1l-2.3-4.5l-3.8-1.1l-2.1,5l-8.7,5.5l-6.5,1l-1.9,2.2l-15.7-1.9l-5.5,0.7
+	c-5.6,0.6-9.4,3.9-11.2,10l-5.2,0.6l-18.1,3.9l-2.3,1.1l-1.2,2.1l-0.3,6.2l8.9,0.3l2.6,1.7l55.1-2.3l1.2,2l4.6,0.1l2.2,2.9l2.5,1.2
+	l3.1,0.1l12.4-1.8l-0.2,2.1l2.1,1l7.2-0.5l0.7,1.4l-1.4,0.1c-1.9,0.5-3.3,1.4-4,2.8c-0.7,1.2-0.9,2.8-0.8,4.8l1.1,1.9
+	c0.9,4.5,3.1,8.1,6.6,10.8c3.2,2.4,5.8,3.2,7.8,2.2l4.5-4.6l1.7,1.1l4.2-0.8l2.1,0.4l0.7,1.4l1,3.1l2.4,1.5l3.8-3l1.1,0.3l3.8-3.1
+	l1.3,0.9l0.6,4.6l-1.4,1.2l0.3,2.6l4.3,2.8l0.2,2.8l1.7,1.9l2.8,0.7l3.7-1.8l1.2-2l-0.9-3.1l3.5-2.6v-2.8l-1.8-0.9l-0.9-4.8
+	c2-3,3.1-5.4,3.3-7.2c0.3-2.4-0.7-4.5-3-6.3l-2.9-1.9l-1.8-10l-8.5-5.8l-1.4-3.8l-10.8-6.2l2.4-7.8l-0.7-4.2l-1.2-1l-8-4.7
+	c-0.1-1.7-0.7-3.1-1.7-4.1s-2.3-1.7-3.9-1.9l-4,0.2l0.9,3.6l-4.4,3.6l-6.4-1.1L794.4,101.3z"/>
+<path class="st5" d="M843.9,42l-1.1-1l-8.1-4.7c-0.1-1.7-0.7-3.1-1.6-4.2c-1-1.1-2.3-1.7-3.9-1.9l-3.5,1.1c-0.1-1.8-0.7-3.3-1.7-4.3
+	c-1-1-2.2-1.5-3.8-1.6l-7.2,1.3l-2.4,1.1l-5.7,1.1l-2.9-0.7l-12.6,1.6l-2.8,0.7c-1.5,1.6-2.1,3.4-1.8,5.5c0.3,2,1.4,4.1,3.2,6.3
+	l-1.3,1.3c-1.6-1.9-3.6-3-6-3.2l-12.6,1.6l-2.7,0.7l-2.5,1.7l-3.5-0.6l-5.5,0.7c-5.6,0.6-9.4,4-11.2,10l-5.2,0.6l-18,3.9l-2.3,1.2
+	l-1.2,2.1l-0.3,6.2l9,0.3l2.6,1.7l27-0.1l37,3.1l2.6,1.2l15-1.7l-1.1,1.9l3,0.9l7.2-0.6l0.1,1.6l-1.4,0.1c-1.9,0.5-3.3,1.4-4,2.8
+	c-0.7,1.2-0.9,2.8-0.8,4.8l1.5,1c0.7,4.1,2.7,7.8,6,11c3.2,3.1,5.8,4.1,7.7,3.2l5.4-4.4l1.6,1l3.5-1.1l1.8,0.1l1.6,0.5l0.7,4.3
+	l2.4,1.5l3.8-3l1.1,0.4l3.8-3.2l1.3,0.9l0.6,4.7l-1.4,1.1l0.3,2.6l4.4,2.8l0.8,3l1.1,1.7l2.9,0.7l4.4-1.4l0.4-2.4l-0.8-3.2l3.4-2.6
+	l-0.1-2.7l-1.8-0.9l-0.9-4.9c2-3,3.1-5.4,3.3-7.2c0.3-2.4-0.7-4.5-3-6.3l-2.9-2l-1.8-10l-8.5-5.8l-1.4-3.8L842.2,54l2.4-7.8
+	L843.9,42z"/>
+<path class="st13" d="M791.2,73.5l-2.8-2.8l-4.5-0.8l-1.8-2.1l-26.8,2.4l-1,3.5c0.9,2.3,4.5,3.6,10.7,3.9l4.4,4.3l3.6-1.4l-1.8-1.8
+	l0.8-3l2.2-0.4l3.1,0.6l3.6,1.5L791.2,73.5z"/>
+<path class="st8" d="M628.7,115.5l1.7-1.3l1.2,1.4l2.2,0.9l3.2,0.6l-0.5-6.1c-0.9-0.2-1.6-0.5-2.2-0.9c-0.7-0.4-1-0.8-1-1.3l1.5-1.2
+	l-30.4,4.4l-1.5-0.6l-10.5,1.1l-16.8-14.1l-19.4,1.8l-16.7-3.1l-1.9,7.6l-11,15.5l-0.9,3.6l0,3.7l14.2,7.7l37.2-4.4l2.6-8.9
+	l24.5-3.1l2.1-0.8L628.7,115.5z"/>
+<path class="st14" d="M518.8,103.8l-3.9,6.2l-4,13.4l-0.2,2.2l0.3,1.8l1.2,0.9l1.3,0.6l1.4-0.6l5.1-2.8l5.8,3.5l5.4,1.9l1.9,0.3
+	l2.6-0.2l1.3-1.6l-0.3-0.8c-5.8,0.2-9.4-1.1-10.9-3.8l0.6-4.5c3.8,2.2,7.7,3.2,11.7,2.9l0.8-3.3l-4-3.8l2.8-11.4l-15.2-2.5l-1.6,0
+	L518.8,103.8z"/>
+<path class="st15" d="M645.7,160.6c-1.1-12.7-6.4-21-15.9-24.9c-6.4-4.5-14.3-5-23.7-1.6c-9.8,3.6-19.9,11.2-30.4,22.8
+	c-7.6,11.1-13.2,21.4-16.8,30.8c-4.1,10.5-5.8,20.4-5.2,29.6c1.9,14.3,6.3,22.6,13.2,24.9c7.5,6.9,17.1,8,29,3.1
+	c12.5-5,23.8-15.3,34-30.9c6.1-7.7,10.3-16.1,12.8-25.2C645,181,645.9,171.5,645.7,160.6z"/>
+<path class="st14" d="M646.8,180.3l-2.1-0.5l-4.3,14l-26.1-9.5l-2.8-0.5l-4.5-15.8l0.8-3.9l2-2.6l3.7-3.1l1.2-10.1l-13-2.5
+	l-4.4-16.7l2.4-2.8l-3.7-2.1l-10.2-38.6l-1.1-1.2l-2.3-1.9c-1.8,0-3.2,0.6-4.2,1.7c-1,1.1-1.5,2.6-1.6,4.6l0.8,4.1l-2.1,1.6
+	l4.6,20.4l-23.1-13.4l-10.3-38.3l-1-1.2l-2.3-1.7c-2.1,0.1-3.7,0.8-4.7,2.2c-1,1.3-1.3,2.9-0.9,4.8l0.3,3.3l-1.9,1.7l18.6,81.5
+	l-3.8,8.4l-21.5,0.8l-4.4,11.5l4.5,2l9.5,2.2l-56.1,36.8l-0.3,3.5l-5.1,4.1l-1.5,3.9l1.2,2l3.2,1.6l1.6-0.4l16-9.5l26.8,15.5l-3,2
+	v3.3l-3.5,2.4l-2.4,2.8l-0.6,3.2l1.3,1.8l2.3,1.4l2.4-0.3l16-9.2l2.5,1.4l1-3.8l7.3-4.4l2.4,1.8l0.5-1.8l-0.7-1.2l11-6.6l2.7-0.2
+	l10.2,3.6l7.8-8.6l0.1-4.6l1.3-2.8l15.8-10l4.9,0.3l5.2,1.3l37.8,2.4l-0.9-2.2l1.3-2.7l5.8,2.5l2.4-0.5l1.8-2.4l1.7-4.2l1.7-1.2
+	l1.8-8.7v-3.3l-1.8-1.9l-10.2-6L646.8,180.3 M572.7,160.7L561.8,120l22.3,13l10,43.3l-4.5,8.7l-20.1,1l-5.4,11l4.4,2.1l9.1,2
+	L537.3,228l-25.9-15.2l49.2-29.4C563.6,176.4,567.6,168.9,572.7,160.7z"/>
+<path class="st15" d="M727.8,55.6c-3.7-1.3-6-1.3-6.8-0.1l-0.3,1.8l0.8,0.8l8.9,4.8l-2.3,8.4l3.6,2.1l1.4,3l-0.5,2.5l38.7,8.5
+	l0.3-2.4l-6.2-6.9c-3.8-0.4-6.8-1.1-8.8-2.1c-1.8-0.8-2.6-1.6-2.4-2.5l0.7-2.4l-18-11L727.8,55.6z"/>
+<path class="st5" d="M770,141.6l-3.2,1.5l-11.6-5.9l-0.9,2.6l2.1,1.5l-1.9,6.6l0.7,7.4l-1.2,6.6l2.9,0.2l1.4-2.7l1.8-13.2l6.3,11.8
+	l2.9,2.5l7.1,1.8l2.1-0.3l2-3.4l7.8,1.1l0.3-2.1l3.2,0.2l0.9-2.2l-2.4-2.9l1.1-3.8l-2.4-2l-0.7-3.7l-7.2-3.6l-1.8-0.1l-2.7,1.1
+	l-2.4,3.2L770,141.6z"/>
+<path class="st16" d="M750.1,164.5l2-1.2l2.9-3.2l3.5-0.6l1.2-5.5l-31.9,4.2l-5.9-1.7l-12.2,1.7l-1,2.8l0.1,1.6l0.9,1.6l3.1,1.5
+	l28.4,2.1l1.8-1.9L750.1,164.5z"/>
+<path class="st13" d="M760.6,153.8l4.9,1.6l2.3,1.9l2.2,1.2l6.9,1.4l2.5,0.1l0.9-1.5l0.2-1.6l-2.8-4.4l-2.8-1.4l-3.4,1.1l-3-0.5
+	l-5.4-2.6l-4.7-0.9l-3.7,0.2l-35.2-7.6l-4.6-0.2l-1.2,1.4l-2.8,10.3l0.5,1.1l6.1,2.4l10.8,1.9L760.6,153.8z"/>
+<path class="st8" d="M722.3,68.1l-2.6-1l-2.5-0.2l-1.2,0.8l-2.5,12.5l6.2,3.6l-1.3,4.3l-1.8,1.5l-3.4,11l40.6,23.5l-12.5,44.1
+	l-19.3-11.8c-2.1,0.2-3.9,0.1-5.3-0.2c-1.5-0.4-3.2-1.2-5.1-2.6c-2,0-3.1,0.9-3.4,2.9l1.2,1.1l8.5,5.7v2.6c-1.6,0.3-3.4,0.2-5.3-0.3
+	c-1.9-0.6-3.5-1.5-4.9-2.7l-1,0.8l-1.3,2.4l1.4,1.4l23.7,14.1c2.3,2,2.5,4.2,0.7,6.6l-0.1,9.9l3.2,3.4l7.8,2.1l4.5-1.2l6.8-25.6
+	l-0.6-3l12.4-46.6l2-0.2l3.3-11.4l-0.2-1.8L741.3,97l-5.5-1.4c-3.4-0.5-6-1.8-7.8-3.9l5-15.4l-1.4-3L722.3,68.1z"/>
+<path class="st17" d="M703.8,100.7l-1.3,4.7l-6.5,16.3l-5.5,22.1l2,1.1l-3.9,14.3l-1.1,0.2l-2.4,7.6l0.8,1.4l-0.8,3l1.8,2
+	c1.3,0.5,4.2,1.2,8.7,2.1l37.4,21.6c7.6,3.9,13.2,4.4,17,1.7l1-3.5l-1.4-2.7l-5.1,1.5l-5.1-1.4l-8.2-4.5c0.6-2,0.9-3.4,0.8-4.1
+	c0-1.1-0.6-2.1-1.7-3l-29.9-15.8v-3.5l3.6-12.9l4.2-1.8l1.1-3.7l-0.5-1.8l3.5-13.8l1.9-1.5l0.7-2.2l25.2,14.8l0.2,1.5l9.9,5.8
+	l6.6,2.1l8.6-1.2l3.1-11.4l-2.1-2.7l-2.6-1.6l-0.7,2.6c-1.3,1-3.3,1.2-6.2,0.5c-3-0.7-4.9-1.9-5.5-3.8l1.3-4.4l-28.6-16.5l-1.4-3.6
+	l-10.2-6.1C708.2,98.7,705.3,98.9,703.8,100.7z"/>
+<path class="st14" d="M640.5,77.8l-12.5-7.3l-2.7-0.7l-8.8,1.1l-0.1,2.3l4,2.6l0.6,1.4l-6.3,24.5l-6.5,1.1l-0.4,2.1l12.1,7.6
+	l2.7,0.6l9.2-1.8l-0.2-1.8l-4.3-2.5l-0.5-1.8l6.7-24.3l6-0.9l0.8-0.8L640.5,77.8z"/>
+<path class="st18" d="M642.1,96.7l-5.8,15.3c-0.8,2.8-0.1,4.7,2,5.8l10.3,6.2l-6.8,23.1c4.6,8.5,5.5,18.8,2.6,31v2l6.5-0.7l9.5,5.5
+	c1.1,0.4,1.9,1.2,2.5,2.3c0.4,0.8,0.7,2,1,3.5l-2.1,7.5l23.9-4.8l1.3-0.9l11.4-1.6l2.5-0.6l2-1.5l1.8-7.8l-9-5.7
+	c-3.2,0.2-5.7-0.1-7.6-1c-1.6-0.8-2.6-1.8-2.8-3.1l0.5-3.4l-1.8-1.2l12.4-45.4l22.2-2.4l2.4-0.8l-18-10.9l-0.6-1.6l0.8-3.4l-2.5-0.1
+	l-16.3,2.1l-6-1l-7.1,1.4L659,96.8l-2.9-0.3l-7,0.2l-1.1-0.9C645.8,94.9,643.8,95.2,642.1,96.7z"/>
+<path class="st5" d="M738.7,127.5l-2,0.7h-3l-2.5-0.6l-6,0.2l-89.5,11.2l6.6,8.6L727,137l2-0.8h2.8l4.2-2.9l5.8,0.1l1.2-3.2
+	L738.7,127.5z"/>
+<path class="st5" d="M641.1,80.9l-6.9,0.6l-1,0.8l-1.2,4.2l-5.9,1.8c-1.8,0.8-3,2.1-3.8,4c-0.7,1.8-0.5,3.2,0.5,4.1l2.5,0.8l6.5-0.5
+	l0.8,1l3.6-0.1l8.8-2.5l8.5-1.6l18,10.8l36.5-6.9l4.4-16.9l3.1-0.4l5-0.1l0.9-1.3l0.8-2.9l-1-1.5l-6.1-4.1l1.8-6.9l-22.7-13.1
+	l-36.4,6.8l-5.6,22L641.1,80.9z"/>
+<path class="st5" d="M808.2,91.5l-0.1-3.6l-2.4-1.9l-0.7-3.7l-7.2-3.6l-1.8-0.1l-2.7,1.1l-2.4,3.2l-11.6-5.9l-5.2-1.5l-2.1,0.9
+	l-0.9,2.6l2,1.5l-1.8,6.6l0.7,7.4l-1.2,6.6l2.9,0.2l1.3-2.7l1.8-13.2l6.4,11.8l2.9,2.5l7.1,1.8l2.1-0.3l2.8-2.9l7,0.6l3.5-2l0.9-2.1
+	L808.2,91.5z"/>
+<path class="st16" d="M745.2,97.1l-2-0.3L743,98l15.5,8.7l1.8-1.9l7.1-1.2l2-1.2l2.9-3.3l3.4-0.8l1.1-4.6L745.2,97.1z"/>
+<path class="st13" d="M787,97.7l6.9,1.4l2.5,0.1l0.9-1.5l0.2-1.5l-2.8-4.4l-2.8-1.4l-3.4,1.1l-2.9-0.4l-5.5-2.6l-4.6-0.9l-3.8,0.2
+	l-35.2-7.7l-4.6-0.2l-3.8,11.8l0.9,1.6l5.3,2l10.9,1.9l32.2-4.1l5,1.6l2.3,2L787,97.7z"/>
+<path id="Layer0_5_MEMBER_21_1_STROKES" class="st19" d="M842.1,54l2.3-8.6 M842.8,40.6l-8.4-4.8 M840.2,41l-5.9-3.5 M839.8,53.5
+	l2.1-7.7 M825.9,101.7l-8.5-4.9 M823.3,102l-6-3.5 M823,114.4l2.1-7.6 M825.2,115.1l2.4-8.6 M620.3,75.8l-4.1-2.4l-0.1-0.9l0.4-1.4
+	l8.7-1.2l2.7,0.6l12.5,7.2l0.1,1l-0.4,1.4l-8.8,1.2l-2.7-0.6l-4.2-2.4 M628.2,86.3l-0.3,1.2l0.9-0.1 M627.9,87.6l-0.2,0.6l-1.7,0.2
+	 M627.5,107.2l4.2,2.4l0,1l-0.4,1.4l-8.7,1.2l-2.8-0.7l-12.5-7.2l-0.1-0.9l0.4-1.4l6.6-0.9l6.8-24.3 M625.2,97.1l-0.4,1.5l-1.6,0.2
+	 M626.8,105.3l2.3-8.4 M630.9,159.1l0.4-0.6l-0.1-0.1l-0.9-2.1l1.7-2.1l2.4-0.1l0.4,0.6l0.4,0.9l3.6,2l2.8,3.4l-1.5,1.9l1.1,1.3
+	 M633.7,159.7l-0.8-0.9l-1.3,0.1l-0.3-0.4 M636.1,157.8l-0.6-0.8l-1.3,1.8l-1.1,0 M635.2,155.5l0.5,1.1l-0.3,0.4 M631,159.9l4.2,2.4
+	l3.6-4.8 M638.9,166.1l-0.6-0.7l-0.3,0.4l-3.8-1.5l-1.6-0.9l-10.6,0.2 M638,165.8l-2.8-3.4 M640.2,162.9l-1.9,2.5 M632.7,163.4
+	l-7.1-8.6 M636.6,182.8l-15.4,4l4.2,1.5l4.2-1.7 M605,205.4l-0.2,0.5l1.3,0.8l0.5,0.2l2.8,0.9l0.7,0l37,2.3l0.2-0.6l-0.2-0.9
+	l-0.8-0.5l-40.8-2.5 M646.2,208.2l4.2-9.5l-32.5-11.9l-3.1-1.4l-0.9-0.5 M650.4,198.7l1.5,0.5l0.2-0.5l-0.3-0.5l-1.3-0.7l-25-9.1
+	 M537.8,72.7l-1.8-0.9l18.8,82 M536.1,71.8l2-1.8l-0.6-2.8 M538.1,70l0.4,1.8 M515.8,108.1l3.1-3.9 M529.4,117.4l-0.2,0.7
+	 M528.5,110.7l1.8-6.2 M530.3,114.3l7,4.3 M528.1,121.2l-5-3l-7.7,1 M516.4,114.2l6.7,4 M525,110.4l-7.3,1 M522.3,102.3l15.4,2.5
+	 M576.6,89.8l0.6,2.8l0.4,1.8 M577.2,92.6l-2,1.7l1.7,1 M615.5,106.8l2.6-9.6l2.4-8.6l2.7-9.6 M618.1,97.2l5-0.7 M614.3,102l-1,3.6
+	 M479.3,221.2l3.5-2.3l-0.1-3.3l56.4-36.9l-9.6-2.1l-3.2-1.3l-1.3-0.8l4.2-11.2l43.1-2.2l0.1,0.1l-14.6-55l-11.4-42.9 M584.7,84.6
+	l-2.6-1.5 M545.6,62l-2.5-1.5 M602.3,142.1l1.2-1.1l-0.1-0.4l-3.7-2.1 M598.5,127.5l1.2-1.1l-4-2.3l5.6,21.1 M585.3,181.5l3.8-13.1
+	l-0.9-6.4 M610,161.4l3.2-2.4l1.5-10.7 M567.4,199.6l1.5-0.4l-0.5-0.1l-3.2-1.3l-1.3-0.8l4.3-11.1l43.1-2.2l0.1,0.1l-4.2-16
+	l11.9-17.7 M602.1,146.1l4.4,0.6l3-1.6 M613.1,147.7l-6.7-1 M613.2,145.9l-1.6-0.9 M572.7,161.3l-0.2-0.1 M568.6,186.8l0.9,0.5
+	l3.3,0.9l39.9-2.1l0.2-0.5l-0.2-1.1l-1.2-0.7 M567.2,200.7l3.9-1l-2.1-0.5 M569.4,202.2l8.4-1l-6.7-1.5 M518.3,243.8l3.5-2.4
+	l-0.1-3.3l49.8-32.5l6.6-4.4 M621.2,186.7l-3.8-1.4l-3.7-1.3l-0.2,0.5 M598.1,208.3l2.5,6.1 M585.2,214.6l5.5-3.2l8.9-5.3l-21.8-4.8
+	 M607.6,220.2l-3.5-13.4L604,207l-4.4-1 M603.1,205.3l0.8,0.5l0.3,0.6l-0.2,0.3 M611.4,217.9l-1.3-10.1 M613.8,171.5l8.2-13.9
+	 M614,175.2l4.2-8.4 M611.7,170.2l11.2-19.2 M590.8,180.3l-1.6-11.8 M593.9,176.4l-13-56.9l-23-13.3 M539,120.7l-0.5,1.7
+	 M536.8,128.6l-0.4,1.7 M526,129.1l-5.9-3.5l-5.2,3 M511.6,128.1l1,0.7 M514.2,122.1l5.8,3.4 M571.1,163.7l-37.4,1.9l-3.3-0.9
+	l-0.8-0.4 M484.4,216.5l-1.7-1 M516.2,251.4l2.6,1.5 M540.2,243.1l0,1.5l-0.5,0.2l-2.8-1.5l-15.8,9.4 M523.4,239.1l-1.7-1
+	 M523.2,240.5l-1.4,0.9 M477.2,228.9l2.6,1.5 M600.8,237.6l4.9-1.2l1.2-5.2l-4.9,0.9L600.8,237.6l-2.8-1.7l-0.2,0.8 M603.5,227
+	l-9.8,1.8l1.7,0.9l1.2-0.2 M585.6,239.2l4.1-5.1 M598,235.9l0.4-1.9l-1.5-2.4l0.2-1.4 M594.1,232.1l-0.6,2.6l1.5,2.3l2.1-0.3
+	 M588.6,233.4l10.7-13.7 M587.2,240.1l8.1-10.4 M602.1,232.1l-3.8-2.2 M603,228.9l4,2.3 M603.2,228.3l1.9-0.4 M574.5,234.1l3.6-6.3
+	l-3.9,4.3l-10.8-3.7 M578.1,227.7l4-4.4v-3.1 M561.6,228.6l-11.6,6.9l-0.2,0.1l-1.9,1.1l2.6,1.6l0.5-0.2l0-1.5 M521,245.3l55.9-36.6
+	 M481.9,222.7l55.8-36.5 M482.8,218.9l1.4-0.9 M537,243.3l10.9-6.5 M606.6,206.8l4.9,19 M576.7,235.4l14-24.1 M482.2,230.1
+	l26.9-15.9l51.2-30.7l-21.2-4.8 M596.5,167.1l-17.3-75.8 M557.4,144.6l-17.3-75.8 M514.8,110.2l-3.9,14.4 M536.8,119.4l-0.2,0.7
+	 M595.7,124.1l-10.2-38.3 M581,119.5l-5.8-25.2 M626,106.5l-9.2,1.2 M622.2,155.8l2.2-3.9 M615,179.5l15.4-1.8 M635.2,180.7
+	l-17.8,4.6 M624.8,88l-4.2,0.6"/>
+<path id="Layer0_5_MEMBER_22_1_STROKES" class="st19" d="M795.6,88.1l-3.1,1.5l10.4,2.1l-2.9-5.5l-5.3-1.1l-2.5-0.4l2.9,1.2
+	 M792.5,89.6l-4.1,1.9 M796.2,86.8l-0.4,1.1 M802.9,91.7l-0.5,1.9l-2.9-0.6l-0.1,0.2l-0.1,0.4l1.2,2.1l5,0.9l1.8,0.3 M805,94.1
+	l0.8,1.6 M788.5,83.1l3.7,1.6 M797.4,96.2l-1.9-3.8l3.9,0.8 M771.7,76.1l-0.7,2.2 M775.9,93.8l-4,0.7 M776.5,87.7l1.7,0.4l-1.4-2.6
+	l-0.7,2.2 M785.5,91l-4.6-2.4l-2.8-0.5 M781.6,82.8l-2.1,2.9l-0.3,1.1l-4-7.6 M778.2,93.3l-1.2-0.2l-1.3,4.8 M777.1,93.1l-0.2-0.1
+	l-31.7,4l-1.5-0.2l-0.8,0.2 M784.3,93.4l1.1,0.9 M773,80.4l-1.9,6.9 M779.2,91.3l-3.6-0.6 M776.8,85.4l-2.2-4.1 M771.3,101.2l-1.1,4
+	 M774.5,98.6l-3.3,0.6 M717.3,88.9l-1.1,0.1l44.8,25.9l5,1.1l4.2-0.6l-0.2-1.8l-20.9-12.1l-9.4-5.4l-3.9-0.7l-0.1,0.3 M797.5,96.6
+	l-0.6,2.1 M793.8,99.1l-5.4-1.1 M796.2,99.1l-0.3,1.2 M805.5,96.6l-0.6,2.2l-5-1 M794.3,97l-5.3-1 M782.5,82.6l4.2,0.1 M783.2,97.6
+	l-1.8-3.4 M783.8,95.5l1,0.9 M779.4,76.8l15.3,8.3 M808.2,92.6l1.1,2.1 M658.1,92.7l-4.9,0.9l18.3,10.6l8.7-34.4l-22.4-13l-5.6,22.1
+	l3.3-0.7 M633.5,81l-0.2,0.7l4.2-0.8 M633.3,81.7l-1.3,4.7 M631.3,86.8l-3.5,0.9 M634.9,88.3l-6.6,1.7 M616.4,110.6l-12,1.4
+	 M634.6,97.6l5.9-1.1 M632.8,96.5l-6.4,0.7 M633.4,108.5l-0.4,0.3 M624.9,97l-1.5-0.4 M628.8,115.5l-23.6,2.8 M659.3,76.3l-4.2,0.8
+	 M658.9,74.2l2.2-0.4 M662.4,93.1l-4.2,0.8 M662.8,95.2l2.2-0.4 M642.6,95.5l10.6-1.9 M639.9,81.1l12.2-2.2 M657.7,56.8l36.6-6.8
+	l22.5,13l-1.7,6.6l0.8-2.2 M721.3,78.6l0.4-1.1 M732.2,79.8l0.8-3.1l-5.6,0.8L724,89.7l-0.2,0.7 M715.1,69.7l-2.7,10.6l1.7-0.2
+	l5.7,3.4l-1.1,4 M671.4,104.2l36.7-6.8l4.3-17.1 M767,126.9l-4.2,0.5l-5-1.1L713,100.5l3.2-11.5 M733,76.7L733,76.7l-1.5-3.4
+	l-5.6,0.8l1.5,3.4 M729.9,93.8l-0.1,0.4 M731.1,80.5L728,91.7 M735.8,95.5l-1.5-0.2 M743.8,96.8l-4-0.6 M749.5,99.6l2.8-0.4
+	 M749.2,101.6l1.1-0.2 M731.5,73.3l-8.6-5 M717.2,69.1l8.7,5 M716.8,63.1l-36.7,6.8 M737.1,128.9l-1.6,0.1l0.8,0.4l0.4,3.2l-0.6,0.7
+	l3.1-0.4 M736.7,132.7l-1.2,0.2 M740.4,130.1l-1-0.2 M635.7,139.1l87.6-11l2.5-0.4l0.8,0.4l4.7-0.6 M726.5,128.2l2.5,1.5l0.7,4.6
+	l-2.1,2.2l4.7-0.6 M733.7,128.2h0.3l1.5,0.9 M727.6,136.4L727,137l-2.5,0.3l-82.2,10.4 M734.5,134.7l0.4-0.1l1.2-1.2 M724.5,137.3
+	l2.7-2.7l-0.7-4.6l-3.2-1.9 M735,129.7l1.2-0.2 M731.8,162.7l1.5-0.2 M729.3,161.3l0.7-0.1 M732.6,160.7l2.8-0.4 M768.4,151.8
+	l-4.7-2.4l-2.8-0.5l-1.7-0.3 M761,148.8l-0.5-0.9 M761.2,154.1l-1-0.1l-1.4,5.1 M760.2,153.9l-0.4-0.1l-2,0.2 M762.1,152.1l-2.9-0.6
+	 M757.6,159.7l-1.4,0.2 M713.2,154.8l-0.1,0.4 M719.1,156.8l0.1-0.4l-2-0.4 M713.9,141.3l-3,11.1 M728.1,157.9l-8.9-1.6
+	 M618.8,150.6l-4.5,0.6 M608.2,230l-2,0.5 M608.9,233l-2.2,0.5 M766.6,143.4l2.9,0.1 M777.9,146.7l-2.9-1.2l-3.6-1.5 M779,147.6
+	l-0.3,1.1 M780.3,156.9l-1.9-3.8l4,0.8l0-0.1l2.8,0.6l0.6-1.9l-10.4-2.1l-4.1,1.9 M782.4,153.9l-0.2,0.5l1.1,2l5.1,1l1.8,0.3
+	 M785.8,152.4l-2.8-5.5l-5.2-1l-2.7-0.5 M766.6,156.3l1.1,0.9 M767.2,154.2l1.1,1 M779.1,159.9l-0.3,1.2 M776.7,159.9l-5.4-1.1
+	 M777.2,157.8l-5.3-1.1 M780.3,157.4l-0.6,2.1 M778.5,148.9l-3.2,1.5 M787.8,154.9l0.8,1.6 M791,153.4l1.2,2.1 M788.4,157.4
+	l-0.6,2.2l-4.9-1 M769.8,141.7l7.9,4.2 M760,104.8l6.5-1 M766,158.4l-1.8-3.4 M534.6,116.9l4.9-19.2l2.5-0.2 M542.5,99.6l-3-1.8
+	 M556.4,100.6l19.2-2.2l0.6,0.4 M556.7,101.5l7.4,4.3l13.3-1.6 M579.9,114.9l-15.8-9.2 M602.8,111.4l-10.1,1.1 M603.7,119.2l-9,1
+	 M584,132.9l-6.5-3.8l-0.4,1.7l-12.3,1.4 M539.1,120.7l3.5,2.1l-1.2,4.9l-6.4,0.7 M536.2,123.5l6.4-0.8 M550.3,134l-10.5,1.2l-6.8-4
+	 M550.9,162.3l4.2-9.2 M590,184.8l4.3-9.2 M594.1,232.1l0.7-0.2l2.1-0.2 M598.1,235.5l1.5-0.4 M597.1,236.8l0.7-0.1 M597.4,232.5
+	l1.5-0.4 M582.1,221l4-7 M524.7,236.1l-26.7-15.4 M527.6,234.3l-26.6-15.4 M537.3,228l-26.2-15.1 M526.6,120.3l-1.2,4.4 M545.6,113
+	l-5.7,22.2 M561.6,119.9l15.9,9.2"/>
+<path id="Layer0_5_MEMBER_23_1_STROKES" class="st19" d="M818.9,117.5l12.8,7.5l4.4-3.5l-12.8-7.4L818.9,117.5z M636.3,112.1
+	l2.5-6.9l2.6-7.2 M637.2,98.3l-2.9,10.7 M630.9,114.5l-0.8,2.8 M636.9,116.9l-0.8-0.1 M644.4,138.1l3.9-14.2l-7.1-4.1h-6
+	 M637.9,117.8l3.3,1.9 M655,96.5h-6.2l6.2,3.6l11.9,1.5 M671.7,108.3l7.1,4.2l7.8,1 M676.7,112.5l7,4.1 M673.5,104.3l3.6,2.1
+	l8.7-1.2 M678.8,112.4l-3-0.4l-1.8,0.1 M684.4,104.2l-0.4-0.2l-0.4-0.2l-5.6-0.8 M665.3,106.8l-6.6,0.9 M659.9,108.6l7.8,4.5
+	 M648.8,96.5l-1.4-0.8 M644.2,95.5l1.5-0.2 M693,114.2l11.3,1.5l0.4,0.2l1.1-0.2 M703.8,100.7l-1.3,4.7 M715.3,101.9l8.4,4.8
+	l-0.2,0.8 M714.1,108.8l0.2-0.7l-8.3-4.8 M704.8,115.9l0.4,0.2l0,0.3l11.5-1.5l-12.1-7 M722,125.8l-10.7-6.2l-1.9,0.2 M716.7,114.9
+	l7.2,4.1 M714.3,108.1l9.4-1.4 M718.7,118.6l-7.3,1.1 M718.1,99.8l1.3-4.8 M708.5,119.6l-5.5,0.8l6.8,3.9l0.2-0.7 M692,106.5
+	l13.4,7.8 M733.7,108.8l1.3-4.8 M744.4,101.4l-1.8,0.2 M758.7,109.7l-1.8,0.2 M742.8,103.2l9.9,5.7 M720.2,73.4l-3.7-2.2 M721.2,94
+	l13,7.5 M725.7,100.1l-5.9,0.8 M677.1,106.3l9.8,5.6 M698.2,101.9l-14.2,2 M765.2,127.2l-1.2,4.2l2.6,1.5l2,2.8l-3.2,11.4l-6.1,0.9
+	l-7.3,26.4l0.9,0.5l0.2,1.8l-4.6,16.7l-4.2,0.6l-4.9-1.2l-8.2-4.6l0.8-2.5 M764.1,131.4l-0.8,2.6 M753.5,123.9l-0.6,2.4l-1.2,4.4
+	 M732.2,123.7l11,6.5l0.3-1.1l9.9,5.8l6.7,2.1l8.5-1.2 M729.5,127.9l0.9-3.2 M718.9,140.8l28.2,6.1l0.6-2.1l-7.4-4.3l0.3-1.2
+	l-7.1-4.1 M740.7,139.3l0.7-2.5l-5.6-3.1 M741.4,136.8l1.8-6.6 M734.8,128.7l2.5-0.3 M721.2,156.7l20.1,11.5l3.4-12.4l-16.6,2.1
+	 M747.2,147l-0.7,2.4l-1.8,6.4 M759.4,148.1l-2.5,0.4l-6.7-2.2l-2.5-1.4 M760.2,137l-3.2,11.5 M750.3,146.3l3.2-11.4 M723.8,124.9
+	l0.9-3.4 M711.8,122.6l3.1,1.8l4.5,2.6l1.7,1l0.6,0.3 M719.3,127l-2.4,0.6l-2.5-1.5l0.4-1.6 M720.4,128.4l0.6-0.4 M712.5,127.6
+	l-0.2,1.1 M719.8,137.9l-3,2.4l-3.5,0.9l-1.7-1l-2.8,0.7l-0.6,2.1 M706.5,141.4l2.3-0.6 M703,120.3l-4.9,0.7l-1.4,0.2l-0.6,2
+	l1.3,0.9 M696.1,123.2l-1.8,6.6l2.7,0.2l2.8-0.2 M696.7,121.2l-7.9,1.1l0.4-1.4l-6.5,8.6l-1.4,4 M694.3,129.8l-0.6,2.1 M657.8,205.1
+	l1.9-5.3l1.4-0.2l0.5-1.5l3.5-10.4l12.6-1.8l1.6-1.9l1.7-6l1-3.4l8.5-30.9l0.1-0.4l0.5-1.9 M690.4,143.8l1.5,0.9 M706.4,144.2
+	l-8.5,0.5l-2.1-1.2l-2.7,0.2l-2.7-0.2 M698.6,141.3l-0.9-0.6 M704.2,148.3l-4.1,14.8 M687.4,159.5l-2,7.4 M730.6,181.7L713,171.6
+	l-0.3-0.2l-12.2-5.8l-0.4,1.3 M701.2,163.3l-0.7,2.4 M717.2,162.6l-7.5-4.8 M708.8,154.4l-0.5,1.5 M706,164.2l-0.4,1.6 M716.7,169.9
+	l1.4-4.9 M709.4,144l-0.8,2.8 M707,142.1l-7.2,0.4 M692.5,145l-4.1,14.8 M702.6,188.5l2.2-7.6l-3.2-1.9l-9.6,1.4l-0.7,2.4
+	 M698.7,190.7l-11.8,1.6 M686.8,168.8l11.4,8.3l3.4,1.9 M752.2,174.5l-0.4,1.2 M753.2,176.8l-4.2,0.6l-4.7,16.7 M739.4,192.9
+	l4.5-16.6L714.2,159 M735,198.2l-0.9,3.2l7.8,2.1l0.9-3.2 M732.9,197.1l-1.5-0.8l-0.5,1.8l3.2,3.4 M750.8,195.3l-1,3.6 M741.9,203.6
+	l4.5-1.2l0.5-1.9 M749,177.4l-5.1-1.2 M733.8,193.5l-34.6-20l-11.5-8.2 M686,168.3l-0.8,2.9 M740,172.5l1.2-4.3 M720.3,144.9
+	l26.2,4.4 M704.8,180.9l26.7,15.4 M712.8,171.4l-5.8-3.7 M648.3,123.8l19.6,11.3 M623.6,163.6l7.4,4.3 M661.2,185.4L657,183
+	l-6.1-3.6l-1.5,0.2 M654.9,207.6l-1.4,0.2l-1.7-0.4l-4.2-2.4 M662.8,191l-1.5,4.1 M667.7,144.5L657,183 M680.9,178.1l8.2,4.7
+	 M677.7,186l12.3-1.8 M685.6,193.6l-24.1,4.5 M692,180.4l-10.1-5.8 M682.7,129.4l2.6-7.2 M851.3,143.5l-3.8-2.2l-1.5-0.9l-4.8-2.8
+	 M850.3,156.4l0.7,4.6l2,1.2l0.2,1.1v1.4l-7.2,5.5l-2.2,0.2l-7.3-4.2l-0.2-1.1v-1.4l1.4-1.2l-0.8-4.8l-1.3-0.8l-3.8,2.9l-1.3-0.8
+	l-0.2-1.3 M851,161l0.2,1.7 M849.8,167.6l0.4,2.8 M843.6,132.7l2.3-1.8l-2.8-1.7 M842.9,128.1l-2.4,1.8l-0.3,1.2l-16.4,12.6
+	 M843,134.3l-0.4-2.6l-1.3-0.8 M827.8,141.3l0.3,2.6 M846,140.4l-0.8-5.2l-1.3-0.8 M817.3,154.3l-4.5,3.5 M817.5,155.3l1.1-0.8
+	 M810.5,160.6l1.1-0.9 M835.6,157l-4.2-2.4 M826.7,147.5l1.5,9.5l1.3,0.8 M838,164.6l-0.3-2.1 M841.5,160.4l-4.6-2.7 M838,129.9
+	l-16.4,12.6 M831.4,126.1l-14.2,10.8 M797.5,143.5l1-0.8 M804.4,138.2l1.1-0.8 M805.4,138.7l-4.6,3.5 M818.6,118.6l-16.8,12.8
+	l11.4,6.6 M840.8,169l0.5,2.9 M847.5,141.3l-1.6-10.4 M757.8,126.4l3.2-11.4 M762.9,127.5l3.1-11.4 M767.1,126.9l3.2-11.5
+	 M714.9,111.2l28.3,16.4 M752.9,126.4l-28.6-16.5 M681.2,129.7l-42.3-24.5"/>
+<path id="Layer0_5_MEMBER_24_1_STROKES" class="st19" d="M818.4,66.7l1.1,0.6L833.1,57l1.8,1.1l0.6-0.5l0.3-1.1l2.8-2.1l-2.2-1.3
+	 M827.2,51.7l0.9,0.3l3.8-0.6 M838.7,54.3l1.7-1.3l12.8,7.4l0.8,2.2 M853.2,60.4l-4.5,3.4l-0.3,1.2l-14.2,10.8 M857.3,66.1l-2,1.5
+	l-0.3,1.2l-16.2,12.3l-0.3,0.2l2.2,1.2L857.2,70l0.3-1.1l2.4-1.9l-2.2-1.2L857.3,66.1l-2-1.1 M859.9,67l0.2,1.1l2.8,1.7l1.6,10.4
+	l3.8,2.2 M848.7,63.8l-12.8-7.4 M812.9,26.4l7.7-1 M789.8,41.1l3.5-0.5 M788.3,29.8l12.8-1.8 M786.7,43.6l7.2-1 M793.4,41.1
+	l-3.1,0.4 M788,53l13.9-1.9 M793.1,54.2l13.2-1.9 M792.5,55.9l-0.9,0.1 M789.5,69.8l3.2-0.5 M788.2,60.7l3.2-0.5 M819.5,67.4
+	l1.9,1.1L834.9,58 M808.8,52.6l2.3,0.7l13.5-1.9 M811.3,44.5l-12.8,1.7 M809.7,32.9L797,34.6 M806,28.5l4.6-0.7 M815.3,72l4.1,2.4
+	l-0.6-4.1l2.5-1.9 M814.1,70.6l-0.5,0.1l-1.8,1.1l-1.2,4.1l6-0.8l0.5-2.1 M817.3,77.1l0.8,0.4l-0.7-4.2 M818.1,77.5l0.5,3
+	 M822.3,77.6l-2.2,1.7l-2.4,1.8 M821.8,76.8l0.7-0.5 M820.2,79.3l-0.7-4.9 M809.1,72.9l-0.3,0.1l-0.6,2.1L809,75 M812.2,91.3
+	l-4.7,0.6 M812.7,85.3l0.7,0.4 M811.6,84.6l0.3-0.2 M807,91.7l1.1-3.8l-2.4-1.9l-3.7,2.8l-0.2,0.7 M814.4,82.5l1.1-0.9 M795.8,74.8
+	l0.4-0.1l4.8-0.7l7.7-1.1 M794.9,73.3l-1,0.1 M805.7,86l-3.8-2.2l-2.8,2.1 M802,88.8l-0.7-0.4 M797.8,78.7l6.5,3.8l0.8-0.1l3.5-0.5
+	 M786.5,80.7l14.6-6.6 M791.8,113.7l2.3,0.7l13.5-1.9 M818.9,117.5l-0.3,1.1 M810.2,112.8l0.9,0.2l3.8-0.6 M819.4,114l2.2,1.3
+	 M801.5,127.8l1.1,0.6l13.6-10.4l1.8,1.1 M813.8,102.9l-12.7,1.8 M805,82.3l3.9,2.2 M862.9,69.8l-2.3,1.8l0.2,1.7l1.3,0.8l0.8,5.3
+	l1.5,0.8 M858.3,69.9l1.3,0.7l0.3,2.6 M863,79.3l-4.8-2.8 M844.7,80.2l0.4,2.6 M838.8,81.1l-4.1-2.5 M834.4,94.2l1.1-0.8 M833.7,96
+	l-1.8-1.1l-2.2,1.7 M843.7,86.4l1.4,9.5l1.3,0.7 M827.6,99.6l1-0.8 M847.9,98.4l-4.3,3.4l-2.2-1.3l-0.7-4.3l-1.7-0.9 M853.9,96.7
+	L853.9,96.7l4.7,2.7 M847.2,96.8l0.2,1.3l1.2,0.8l3.4-2.9 M853.9,96.7l0.7,4.7l0.3,2.1 M858.2,110.8l-0.3-3l-4.5-2.6l-0.2-1.2v-1.4
+	l1.4-1.1 M867.2,95.3l0.8,4.6l1.9,1.1l0.2,2.6l-7.2,5.6l-2.2,0.2l-2.8-1.6 M853.9,96.7l-5.5-3.2 M834.2,93.2l-2.3,1.8 M838.6,81.4
+	l2.3,14.8 M843.7,101.8l-2.9-19.2 M829.2,30.2l-12.6,1.7 M830.8,41.8l-12.7,1.7 M818.8,70.4l11.5,6.6 M860.6,71.6l-0.5-3.4
+	 M868.2,101.5l-0.2-1.6 M866.8,106.6l0.4,2.9 M757.1,70l2.8-0.4l1.2,0.1l21-1.9 M750.8,68.7l2.4-0.4 M752.7,48l-1.9,0.2 M752.2,44.9
+	l6.6-0.9 M766.8,42.3l13.9-1.9 M769.2,59.5l13.9-1.9 M722.7,58.7l-3.1,0.4l3.8,2.2l3.3-0.4 M736.2,56l-6.1,0.8 M789.4,71.9
+	l-10.6,1.4l-11.3,3.4l-0.5,0.4l-0.8-0.4l-0.7,0.4 M766.2,76.7l0.4-0.3 M788.3,70.7l-19.9,2.8l-1.2,0.6l-0.9,0.6 M768.9,82l1.9-0.5
+	l2.1-0.8 M755,70.9l-0.8,2.6 M763.3,107.3l-3,0.4 M775.5,116.9l-0.9,0.1 M771,114.1l13.9-1.9 M778.8,104l-9.9,1.3l-3.6,1.4
+	 M766.6,73.8l-7.5-3.8 M736.7,55.2l14.5-1.9 M772.5,130.9l3.2-0.4 M771.2,121.8l3.2-0.5 M768.7,131.4l2.6-0.4 M768.4,122.2l1.5-0.2
+	 M767.2,133.7l5.2-0.7 M768.5,136.8l5.8-2.2 M778.8,135.8l0.5-0.1l4.9-0.7l7.5-1l0.3-0.1 M777.9,134.4l-0.9,0.1 M784.2,135l-17.5,8
+	 M758,159.6l-0.5,2.2 M761.9,165.1l-7.5,1 M784.8,150.5l0.1-0.6l-0.6-0.4 M782.4,146.8l2.5-1.9l3.8,2.2l2.4,1.9l-1,3.5 M838.4,126.1
+	l2,1.1l0.4-0.3l2.1,1.2l1,6.2 M840.4,127.2l-2,1.6l-0.3,1.1 M836.2,121.5l0.8,2.3 M831.8,124.9l-0.3,1.1 M822.2,156.3l1.7,1
+	l-2.2-14.8l2.2,1.3l2.9,19l4.3-3.3 M817.8,139.8l4,2.3 M804.3,129.5l-1.8-1.1 M791.8,134l-0.6,2.1l0.8-0.1l1.7,1l1.1-3.9l0-0.2
+	l1.8-1.1l0.5-0.1 M780.8,139.8l6.5,3.7l4.2-0.6 M794.8,142.5h0.1 M800.4,138.2l0.8,0.4l-0.7-4.2l-0.3-0.2l-0.5,2l-6.1,0.9
+	 M801.2,138.6l0.4,2.9 M803.2,140.3l-0.7-4.8l-2-1.2 M798.3,133.1l1.9,1.1 M802.5,135.5l-0.6-4.1 M795.7,146.4l0.7,0.4 M814.9,156
+	l1.8,1 M823.8,157.3l0.7,4.3l2.2,1.2 M791.8,145.6l-3.8-2.2 M776.1,115.3l13.2-1.9 M794.3,105.5l-12.8,1.8 M784.4,61.3l2.5-0.4
+	 M785.7,70.3l2.5-0.3 M786,42.7l1.4-0.2 M788.7,147.1l-3.8,2.8"/>
+<path id="Layer0_5_MEMBER_25_1_STROKES" class="st19" d="M844.4,45.5c0.2-1,0.2-1.8-0.1-2.6c-0.1-0.4-0.3-0.8-0.6-1.3
+	c-0.3-0.5-0.7-0.8-1-1 M838.2,44.6c0.2,1,0.7,1.4,1.6,1.2c0.6-0.3,0.8-0.9,0.6-1.8c-0.2-0.9-0.6-1.3-1.3-1.2
+	C838.3,42.9,838,43.5,838.2,44.6z M841.9,45.8c0.2-0.9,0.2-1.8-0.1-2.7c-0.3-0.9-0.8-1.6-1.6-2.1 M832.5,57.4l-0.5-0.9l-0.2-1
+	l0.2-1.1l0.7-1l1.7-0.9l1.4,0.3c-0.2-2.4-0.9-4.5-2-6.4c-1.2-2-2.7-3.5-4.6-4.5 M836.4,53l-0.6-0.1 M818.4,66.7l-0.7-0.2l-0.7-0.1
+	 M813.8,70l0.3,0.8l0.8,0.9l0.3,0.2 M810.7,75.9L809,75 M808.4,91.6h-0.2l-0.1-0.1h-0.1l0-0.1h-0.2c0,0-0.1-0.1-0.4-0.1h-0.3
+	 M825.1,106.8c0.2-0.9,0.2-1.8-0.1-2.7c-0.3-0.9-0.8-1.6-1.6-2.1 M822.9,106.8c0.6-0.3,0.8-0.8,0.6-1.7c-0.2-0.9-0.6-1.3-1.3-1.2
+	c-0.8,0.2-1.1,0.8-0.8,1.9C821.7,106.7,822.2,107.1,822.9,106.8z M819.4,114l-0.4-0.1l-1.6-0.3l-1.8,0.9l-0.7,1l-0.2,1.1l0.2,1
+	l0.5,0.9 M812.4,103.1c1.9,1,3.5,2.5,4.7,4.6c1.1,1.8,1.7,3.9,2,6.3 M827.6,106.5c0.2-0.9,0.2-1.8-0.1-2.7c-0.3-0.9-0.8-1.6-1.6-2.1
+	 M624.5,78.2L624.5,78.2l-0.2-0.1l0-0.1c0,0-0.2,0-0.5,0.1h0l-0.1,0.1h0l-0.1,0.1v0.1h0 M626.1,88.3c-0.2-0.1-0.4-0.2-0.8-0.2h-0.1
+	l-0.1,0H625l-0.1-0.1h-0.1 M628.5,84.9c-0.3,0.4-0.5,0.7-0.5,0.9 M626.8,105.3l-0.1,0.5v0.2l0.1,0.1v0.2l0,0v0.1l0.1,0.1v0.1
+	l0.1,0.1v0.1l0.1,0.1v0l0,0.1h0.1l0,0.1l0.1,0 M633,108.8c-0.2,0.2-0.2,0.4-0.2,0.6c0,0.1,0.2,0.3,0.4,0.5c0.3,0.1,0.7,0.3,1.1,0.6
+	l1.3,0.4l0.1,0.1h0.2l0.1,0.1l0.1,0.1h0.4 M634.7,107.6c-1.2-0.2-2.1-0.2-2.6-0.1c-0.4,0-0.8,0.1-1.3,0.2c-0.3,0.1-0.4,0.2-0.5,0.3
+	c0,0-0.1,0.1-0.1,0.1c0,0.1,0,0.2,0,0.4l-0.1-0.2l0.1-0.1 M628.8,115.5c0.7-0.1,1.2-0.5,1.5-1.3c0.3-0.6,0.4-1.3,0.4-2.1 M728,71.3
+	l2.3-8.4l-8.1-4.4 M722.7,56.8l8.2,4.4l6.3-1l-9.5-4.6 M721.2,55.1l-0.5,1.7 M726.9,97.3l-1,1.7l-0.3,1.8l0.2,1.3 M735.2,79.8
+	l-2.7-1.1l6.6-1.1l1.9-6.9l-5.4-4l-2.6,9.6 M764.8,77.5l6.1,6.9l0.8,0.8 M754.7,71.8l-7.1,1.1l6.2,3.4l2.8-0.4 M741,70.7l6,4.4
+	l6.2,3.4l7.6,6.8l0,0.1l4.5,1l-1.2-0.8l-10.2-9.2 M736.1,80l13.3,2.9l3.9-0.6l-14.2-4.7 M760.7,85.4L759,85l-9.6-2.1 M759,85
+	l-5.7-2.7 M775,98.5l-0.6,2.1 M771.7,87.8l-6.5-1.4 M764,85.5l7-1.2 M747.6,72.9l-16.8-11.8 M779.2,91.3l-41.8-7.2 M755,71.2
+	l-17.9-11.1 M739.5,129.8l-0.6-0.2l-0.3-0.1l-0.3-0.2c0,0-0.2-0.1-0.5-0.3h0l0-0.1h-0.3l0,0h-0.1l0,0h-0.1l0.3-0.9l0.3-0.7v-0.1
+	l0.1,0v-0.1h0l0,0.1l-0.1,0.1v0.4l0.1,0v0.1l0,0.1 M738.2,128.8l-0.3,0h-0.2l-0.4,0.1l0,0l0,0l-0.1,0 M740.4,130.1l0.7,0.2l0.3,0
+	l0.4,0.1l0.1,0.1h0l0.2,0.1l0,0.1h0.2l0.1,0.1l0,0.1 M732.3,135.8c2-0.3,2.8-1.8,2.5-4.4c-0.3-2.6-1.5-3.9-3.6-3.8 M739.2,133
+	l0.3-0.1l0.6,0.1l2.2,0.8 M722.1,137.6c2.3-0.4,3.2-2.1,2.8-5.1c-0.4-3-1.8-4.3-4-4.1 M710.1,158.2l-1,1.7l-0.4,1.9l0,0.7l0.2,0.6
+	 M627.5,140.6c0.7-1.4,0.7-2.4-0.1-3c-1.1-0.5-2.1,0.1-3,1.9c-0.9,1.8-0.7,2.8,0.6,3C626,142.6,626.8,142,627.5,140.6z M627,155.3
+	c-0.7-0.7-1.7-0.8-2.8-0.1c-0.9,0.6-1.6,1.3-2.1,2.3 M624.5,151.9c0.6-0.9,0.9-1.9,1-2.9c0.1-1.3-0.3-2.1-1.2-2.5
+	c-0.3-0.1-0.5-0.2-0.8-0.2c0.4,0.6,0.5,1.4,0.3,2.4c-0.1,0.8-0.4,1.6-0.8,2.3 M630.2,159.3l0.2,0.2h0l0.1,0.1 M638.9,166.1
+	c0.2,0.3,0.5,0.4,0.8,0.4c0.1,0,0.1,0,0.2,0c0.4,0,0.7-0.2,1-0.5c0.1-0.1,0.2-0.2,0.3-0.3c0.1-0.2,0.2-0.4,0.2-0.6
+	c0.1-0.3,0-0.6-0.2-0.9 M636.8,181.7c1-0.3,1.9-0.9,2.7-2c0.8-1,1.2-2.1,1.4-3.2c0.4-2.9,0.6-6.2,0.5-10.1V166h0v-0.2h-0.1v-0.1
+	 M639.8,166.5c0.1,2.2-0.1,5.2-0.5,9.1c-0.2,1.1-0.7,2.1-1.4,3.1c-0.8,1.1-1.6,1.8-2.6,2 M630.3,177.7c1.1-0.1,2.1-0.8,3-2.1
+	c0.9-1.2,1.3-2.4,1.3-3.5c0.1-2.4,0.1-4.9-0.2-7.8 M632,190.7c0.2-0.7,0.3-1.2,0.4-1.5v-0.2l0-0.1v-0.1c0-0.3,0-0.6-0.1-0.9
+	c-0.1-0.6-0.5-1.1-1-1.3s-1-0.2-1.6,0 M637.1,185.5l0.2-1.5l-0.1-0.6v-0.1l0-0.1v-0.1l0-0.1V183l-0.1-0.1v-0.1l0-0.1l0-0.1
+	c-0.1,0-0.3,0-0.4,0.1 M637,182.7c0.8-0.1,1.4,0.3,1.7,1.1c0.3,0.8,0.3,1.6,0,2.6 M646,203.6l0.3-0.2c0.2-0.4,0.4-0.6,0.4-0.9
+	c0.1-0.7,0-0.9-0.5-0.8c-0.5,0.1-0.8,0.4-1,1c-0.1,0.3-0.2,0.5-0.1,0.8c0.1,0.3,0.3,0.4,0.6,0.4L646,203.6z M801.5,127.8l-0.8-0.3
+	l-0.7-0.1 M796.9,131.1l0.3,0.9l0.5,0.7l0.3,0.3l0.3,0.2 M780.8,77.6l10.4-4.1 M543,60.5c-0.7-0.4-1.5-0.3-2.3,0.2
+	c-0.7,0.4-1.4,1-1.9,1.8c-1.2,1.6-1.6,3.2-1.3,4.8 M542.3,66l0.2-0.4c0.2-0.4,0.5-0.6,0.8-0.8c0.4-0.2,0.7-0.2,1,0.1l0.1,0.2v0.7
+	l-0.4,0.9l-0.2,0.2l-0.6,0.5c-0.2,0.1-0.4,0.1-0.6,0l-0.2-0.2l-0.1-0.4v-0.2L542.3,66z M546.5,63.2c-0.9-2.1-2.3-2.1-4.2-0.1
+	s-2.7,3.9-2.2,5.7 M538,72.8L538,72.8l0.1,0.1h0.1l0-0.1h0l0.1,0l0.1-0.1v-0.1l0-0.1v-0.1c0.1,0,0.1-0.1,0-0.3 M522.3,102.3
+	c-0.2,0-0.5,0-1,0.1c-0.3,0-0.6,0.2-0.9,0.4c-0.3,0.2-0.8,0.6-1.5,1.4 M515.5,108.6l-0.3,0.5l0,0.1v0.1l0,0l-0.1,0.1v0.1l-0.1,0.1
+	v0.1l0,0.1v0.1l0,0.1v0.2 M516,114.1l-0.5,0.1h-0.1v0.1h0l-0.1,0.1v0.1l-0.1,0v0.1h0l-0.3,0.4 M528.5,110.7c-0.7,0.5-0.8,1.1-0.1,2
+	c0.5,0.6,1.1,1.1,1.9,1.6 M525.6,110.4H525 M529.4,117.4l0.4-0.4l0.5-0.2l0.5,0l1,0l1.6,0.3l1,0.4l1.4,0.7l0.4,0.3l0.3,0.4l0.2,0.5
+	 M583.1,87.3c-0.5-0.3-1,0-1.5,1c-0.5,1-0.4,1.5,0.3,1.7c0.3,0,0.6-0.1,0.9-0.4c0.3-0.2,0.4-0.5,0.5-0.8c0.1-0.2,0.2-0.5,0.2-0.8
+	C583.5,87.7,583.3,87.4,583.1,87.3z M585.6,85.8c-0.9-2-2.3-2.1-4.2-0.1c-1.9,1.9-2.6,3.8-2.2,5.6 M582.1,83.1
+	c-1.3-0.6-2.7,0-4.1,1.9c-1.4,1.8-1.8,3.4-1.4,4.8 M576.9,95.3l0.4,0.1h0.1l0.1-0.1h0.1v0l0-0.1v-0.1l0.1-0.1v-0.8 M621.1,77.5
+	L621.1,77.5l0-0.5l0-0.1v-0.2l-0.1-0.1l0-0.1v-0.1 M623.2,98.8c-0.1-0.1-0.2-0.1-0.4-0.1c-0.2,0-0.4,0-0.4,0.1h-0.1l-0.1,0.1h0
+	l-0.1,0.1h0l-0.1,0.1h0l-0.1,0.1l-0.1,0.1v0.1 M612.1,106.4h0.4c0.2,0,0.3,0,0.3-0.1l0.1-0.1l0.1,0h0l0-0.1v-0.1l0.1-0.1V106
+	 M615.5,106.8l0,0.5v0.2l0,0.1v0.2c0,0.1,0,0.2,0.1,0.4v0.1l0.1,0.1l0,0.1l0,0.1v0.1l0.1,0.1l0,0.1h0.1 M603.7,119.2
+	c1.8-0.3,2.6-1.7,2.3-4.1c-0.3-2.4-1.3-3.6-3.2-3.6 M621.5,136.8c0.2,0.4,0.3,0.9,0.2,1.5c-0.2,1.7-1,2.9-2.3,3.6
+	c-0.8,0.4-1.4,0.3-1.8-0.2c-0.3-0.5-0.4-1.1-0.2-2c0.2-0.7,0.5-1.4,1-2.1c0.6-0.7,1.2-1.1,1.8-1.3
+	C620.8,136.2,621.2,136.4,621.5,136.8z M613.5,147.6L613.5,147.6c0.1-0.7,0-1.2-0.2-1.8c0,0-0.1,0-0.1,0c0.4-0.9,0.5-1.9,0.2-2.9
+	c-0.3-1.1-1-1.6-2.2-1.4c-3.1,0.9-6.3,2.4-9.7,4.3c0,0.1,0.1,0.1,0.1,0.2h0l0.1,0.1l0,0.1h0l0.1,0.1h0l0.1,0v0.1h0.1l0,0.1h0.2
+	l0.1,0.1 M598.5,127.5c-0.1,0.1-0.3,0.2-0.5,0.5l-0.3,0.6c-0.2,0.3-0.3,0.7-0.5,1.2 M600.8,142.6L600.8,142.6L600.8,142.6l0.2,0.1
+	l0,0.1h0.1c0.3,0,0.5,0,0.6-0.1l0,0h0.1v-0.1h0l0.1-0.1h0l0.1-0.1 M601.7,145.9c-0.1-0.1-0.1-0.2-0.2-0.2 M589.2,155.7l-0.5,0.3
+	l-0.2,0.2l-0.1,0v0.1l-0.1,0.1c-8.3,8.4-14.8,18.2-19.5,29.4 M588.2,162c-0.1-0.2-0.1-0.4-0.1-0.6l-0.3-0.5c-0.1,0-0.3,0-0.5,0
+	c-0.9,0.1-1.8,0.6-2.6,1.6c-5.9,6.9-10.8,14.7-14.5,23.3 M589.3,162.7c-0.2-1.1-0.7-1.7-1.5-1.8 M623.5,146.2c-1-0.3-2-0.5-3.1-0.6
+	c0.4,1.3,0,2.8-1.1,4.5 M611.6,145l-0.9,0.2c-0.4,0.1-0.7,0.2-0.9,0.2 M613.6,147.6v0.2h-0.4 M610.1,161.4c-1,0.7-1.7,1.6-2.2,2.8
+	c-0.6,1.2-0.7,2.4-0.5,3.5 M622.1,163.6c-0.8,0-1.5,0.4-2.3,1.1c-0.7,0.6-1.2,1.3-1.6,2.1 M620.3,145.6c-2.1-0.2-4.5-0.2-7,0.2
+	 M633.1,137.3c-4.5-2.7-9.7-3.7-15.6-2.9c-5.1,0.6-10.2,2.4-15.3,5.4 M629.1,135c-4.3-2.6-9.2-3.5-14.9-2.9
+	c-4.8,0.5-9.7,2.1-14.7,4.8 M555.2,153.1c0.7-1.4,1.1-2.8,1.5-4.3c0.4-1.7,0.4-3.2,0.1-4.5 M568.5,192.3c0-0.2,0.1-0.5,0.3-0.8
+	c0.2-0.3,0.4-0.5,0.6-0.6c0.6-0.2,0.9,0.1,0.8,0.7c-0.1,0.6-0.4,1-0.8,1.2c-0.3,0.2-0.5,0.2-0.7,0.1
+	C568.6,192.8,568.5,192.6,568.5,192.3z M567.2,200.7c-1,0.3-1.9,1-2.7,2.1c-0.7,1-1.2,2-1.3,3.1l-0.3,2.7c-0.1,1.1-0.1,2-0.1,2.7
+	 M576.2,208.3c2.3-1.4,4.2-3.5,5.7-6.2 M569.3,202.2c-1.1,0.1-2.1,0.9-3,2.2c-0.8,1.2-1.3,2.4-1.3,3.5c0,0.5,0,1.1,0,2 M565.1,197.7
+	c0,0.7,0.2,1.2,0.6,1.6c0.4,0.4,1,0.5,1.7,0.4 M613.8,171.5c-0.4,0.7-0.7,1.5-0.8,2.4c-0.1,1,0,1.9,0.4,2.4c0,0,0,0,0,0
+	c1.6,1.9,2.2,4.5,2,7.8v0.5 M609.3,173.9c0.7,0.1,1.4-0.1,2.3-0.8c0.8-0.6,1.4-1.3,1.7-2 M606.1,180.1l0.1-0.2
+	c0-0.2,0.2-0.5,0.5-0.8l0.1-0.1l0.4-0.1l0.3,0.2l0.1,0.2v0.1l0.1,0.1c-0.1,0.5-0.3,0.9-0.6,1.2c-0.2,0.2-0.5,0.3-0.7,0.3
+	c-0.2,0-0.4-0.2-0.4-0.5v-0.2L606.1,180.1z M614,175.2l-0.2,0.6l0,0.1v0.1l0,0.1l-0.1,0.1l0,0.1v0.1v0.1l-0.1,0.1 M608.7,172.9
+	c1.2-0.3,2.2-1.2,3-2.7 M613,185.5L613,185.5l0.1-0.1l0-0.1l0.1-0.1v-0.1 M610,192.3c0.5,0.2,0.7,0.7,0.8,1.5c0,1.2-0.5,2.2-1.5,3.2
+	c-0.6,0.6-1.2,0.8-1.8,0.8c-0.6-0.1-1-0.5-1-1.4c0-0.7,0.1-1.4,0.5-2.1c0.4-0.7,0.8-1.2,1.4-1.6C608.9,192.2,609.5,192.1,610,192.3z
+	 M590.3,177.3c-0.9,0.3-1.7,0.9-2.6,1.7c-0.8,0.7-1.4,1.5-1.9,2.4 M589.2,184.9c1.2-1.5,1.7-3.1,1.5-4.6 M599.2,219.7
+	c1.2-1.6,1.7-3.2,1.5-4.7l-0.2-0.5 M595.3,208.6c2.1,0.2,4.4-0.5,6.9-1.9 M605,205.4c0.1-0.3,0.2-0.7,0.2-1c0-0.3-0.1-0.5-0.2-0.6
+	c-0.2,0-0.5,0-0.9,0.2c-0.5,0.4-0.8,0.8-0.9,1.3 M605,203.8c0.2,0,0.4,0.2,0.5,0.4 M614.9,217.4c1.9-2.1,4.1-5,6.7-8.8 M585.2,214.6
+	c-0.9,0.6-1.7,1.4-2.2,2.5c-0.6,1-0.9,2.1-0.9,3.2 M594.3,175.6c1.5-3.3,2-6.3,1.5-8.9 M539,120.5c0-0.4-0.2-0.8-0.6-1.1
+	c-0.1-0.1-0.5-0.4-1.1-0.8 M528.1,121.2c1.1,0.8,2.9,1.4,5.4,1.9c2.8,0.6,4.5,0.3,5-0.7 M525.5,124.7v0.4l0.1,0.2l0.4,0.5l0.5,0.5
+	l0.3,0.2l0.3,0.1c1.1,0.5,1.9,0.9,2.5,1.1c1.9,0.6,3.7,0.9,5.2,0.7 M526,129.1c1.1,0.8,2.9,1.5,5.4,2c2.8,0.5,4.5,0.3,5.1-0.8
+	 M529.2,118c-0.1,0.8,1,1.6,3.3,2.2c2.3,0.7,3.7,0.6,4-0.2 M514,122h-0.2c-0.3,0-0.5,0-0.5,0.1h0l0,0h-0.1v0.1H513v0.1l-0.1,0.1
+	l-0.1,0.1l-0.1,0.1v0.1 M512.3,128.5c0.3,0.3,0.7,0.4,1.2,0.4c0.4,0,0.8-0.1,1.2-0.3 M510.9,124.7c0,0.1-0.1,0.4-0.2,0.9v0.9
+	c0.1,0.8,0.4,1.3,0.9,1.5 M484.2,218c0.2-0.1,0.3-0.1,0.3-0.2v-0.1h0l0.1-0.1v-0.1h0.1l0,0v0 M530.3,170.3c-0.6,0.4-0.9,0.3-0.9-0.4
+	c0.1-0.7,0.4-1.2,0.9-1.4c0.5-0.2,0.8,0,0.8,0.6C531.1,169.5,530.8,170,530.3,170.3z M537.1,185.8c2.2-1.5,4.1-3.6,5.7-6.3
+	 M523.5,240.3l0-0.1h0l0.1,0v0l0-0.1v0l0.1-0.1v-0.4l0-0.1c-0.1-0.1-0.2-0.2-0.3-0.3 M541.5,240.8c-0.3,0.1-0.4,0.2-0.5,0.5l-0.1,0
+	l0,0.1l0,0.1l-0.2,0.2l0,0.1v0.1l-0.1,0.1v0.1l0,0.1v0.1l-0.1,0.1l0,0.1v0.1c-0.1,0.1-0.1,0.3-0.1,0.6 M522.1,247.7
+	c0.3,0.4,0.2,1-0.2,1.8c-0.5,0.7-0.9,1-1.4,0.8c-0.4-0.3-0.4-0.9,0-1.8c0.2-0.3,0.4-0.6,0.8-0.8
+	C521.5,247.4,521.8,247.4,522.1,247.7z M521,245.3c-1.8,1-2.9,2.7-3,5.2c-0.2,2.5,0.9,3.2,3.3,2.1 M518.4,243.8
+	c-1.2,0.6-2.1,1.8-2.8,3.6c-0.7,1.9-0.5,3.2,0.6,4 M482.4,225c0.7,0,0.9,0.4,0.7,1.2c-0.2,0.8-0.6,1.3-1.1,1.4c-0.8,0.3-1.1,0-1-0.9
+	C481.2,225.7,481.6,225.2,482.4,225z M481.9,222.7c-1.9,1.1-2.9,2.9-3.1,5.4c-0.2,2.5,0.9,3.1,3.3,2 M479.3,221.2
+	c-1.2,0.7-2.1,1.9-2.7,3.6c-0.7,1.9-0.6,3.2,0.6,4.1 M614.8,217.4c-1.1,1.1-2.1,1.7-3,1.6c0.4,0.5,0.9,0.7,1.6,0.6
+	c0.9-0.1,1.8-0.7,2.5-1.6 M603.5,227c1.3-0.3,2.3-1.1,3.2-2.6c0.9-1.5,1.2-2.9,0.9-4.1 M608.9,233c0.7-0.2,0.9-0.7,0.8-1.6l-0.1-0.1
+	v-0.1l0-0.1l-0.1-0.1l-0.1-0.2l-0.1-0.1l-0.1-0.1l-0.2-0.2l-0.1,0l-0.1-0.1c-0.3-0.1-0.5-0.1-0.6-0.1 M605.1,227.9
+	c1.2-0.2,2.3-1.1,3.2-2.6c0.9-1.5,1.2-2.9,0.9-4.1 M611.5,225.8c0,0.2,0.1,0.3,0.2,0.5c0.3,0,0.8-0.2,1.3-0.4l0-0.1h0.1l0.1-0.1l0,0
+	l0.1,0h0l0.1-0.1h0.1c0.1-0.2,0.3-0.3,0.6-0.5c4.8-4.9,9-10.3,12.6-16.2 M628.8,209c-3.9,6.4-8.3,12.1-13.2,16.9
+	c-0.7,0.8-1.5,1.2-2.3,1.3c-0.8,0.1-1.4-0.2-1.7-0.9 M598.1,229.8L598.1,229.8l-0.2-0.1h-0.1l-0.1,0h-0.1l-0.2-0.1h-0.1l-0.1,0h-0.1
+	l-0.1-0.1h-0.5 M584.1,242c1.1,0,2.1-0.7,3.1-1.9 M580.4,229.8c-0.7,0.9-1.1,2-1.2,3.2c-0.1,0.9,0.1,1.6,0.5,2.1c2,0.3,4,0.4,6,0.2
+	c1-0.1,2-0.8,2.9-1.9 M570.7,236.8c0.7,0,1.5-0.3,2.1-0.9c0.6-0.5,1.2-1.1,1.6-1.9 M576.7,235.4c-0.6,0.8-0.9,1.7-1,2.8
+	c-0.1,0.8,0.1,1.4,0.4,1.9c2.1,0.7,4.2,1,6.4,1c1.1,0,2.1-0.6,3.1-1.9 M576.1,240.1c0.2,0.3,0.4,0.5,0.8,0.6 M571.3,237.4
+	c0.7,0.6,1.6,0.5,2.7-0.2c0.8-0.6,1.5-1.3,2.1-2.2 M580.6,235.7c-0.4-0.1-0.7-0.3-0.9-0.6 M563.1,228.3h-0.6l0,0h-0.1l0,0.1h-0.2
+	l-0.1,0.1h-0.2l0,0.1l-0.1,0l0,0.1 M551,236.3c-0.1-0.1-0.1-0.2,0-0.3l-0.1-0.1v0l0,0h0l0-0.1v0l-0.1-0.1c0-0.1-0.1-0.1-0.3-0.1
+	 M611.4,217.9c0.1,0.5,0.2,0.9,0.4,1.1"/>
+<path id="Layer0_5_MEMBER_26_1_STROKES" class="st19" d="M807.2,97c0.8,0.2,1.4-0.1,2-0.8c0.5-0.7,0.4-1.3-0.1-1.9
+	c-0.5-0.6-1.1-0.7-1.9-0.4c-0.8,0.2-1.2,0.8-1.2,1.6 M796,87c0.2-0.1,0.2-0.3,0-0.6c-0.4-0.3-0.7-0.4-1-0.6 M787.6,82.8l-0.9-0.1
+	 M786.5,86.5l-1.4-0.5l-1-0.2l-1.4-0.1l-1,0.1l-0.3,0.4l0.1,0.5l0.7,0.6l1.3,0.7l1,0.3l1.5,0.3h1.4l0.5-0.2l0.3-0.3v-0.1l-0.2-0.4
+	l-0.2-0.3l-0.4-0.3L786.5,86.5z M785.6,91l0.7,0.3h0.2l0,0.1l0.1,0.1h0.2l0.1,0.1l0,0.1l0.8,0c0.4,0,0.6,0,0.8-0.1 M788.4,93.8
+	c0.1,0.4,0.6,0.8,1.7,1.1c1,0.3,1.6,0.2,1.9-0.1v0l0-0.2l-0.2-0.2l-0.2-0.1l-0.5-0.2l-0.5-0.2l-1-0.2h-0.8l-0.2,0.1L788.4,93.8z
+	 M795.5,92.6c-0.3-0.5-0.9-1-1.9-1.5c-0.7-0.3-1.1-0.5-1.2-0.5c-0.5-0.2-0.9-0.3-1.2-0.4 M804.7,93.9l0.1-0.1l0.1-0.2v-0.1
+	c-0.1-0.7,0.2-1.2,1-1.6c1-0.5,1.8-0.3,2.3,0.6 M804.8,93.5c0,0.2,0.1,0.4,0.2,0.6 M800.6,95.7c-1.5-0.3-2.6-0.3-3.5-0.1 M800,97.9
+	c-0.7-0.1-1.2-0.2-1.7-0.2c-0.3,0-0.7,0-1,0 M794.3,97c0.9,0.2,1.6,0.2,2,0.1c0.3,0,0.6-0.1,0.9-0.2c0.3-0.2,0.4-0.4,0.2-0.7
+	 M783.2,97.6c0.7,1.2,2.7,2.3,6,3.3c1.4,0.3,2.5,0.5,3.5,0.5l1.8-0.1l0.5-0.1l0.4-0.2l0.3-0.2l0.2-0.4 M784.8,96.5
+	c0.6,0.5,1.2,0.8,1.7,0.9l1,0.4l1,0.2 M793.8,99.1c1.9,0.3,2.9,0.1,3.1-0.4 M654.9,93.2c1,0.5,2,0.8,2.9,0.8c1.3,0,2.5-0.7,3.5-1.9
+	c1.5-1.9,2.1-4.2,1.8-6.8c-0.2-3-1.5-5.4-3.8-7.2c-1.6-1.2-3.1-1.5-4.6-1c-0.8,0.3-1.6,0.9-2.4,1.8 M657.8,94c3.2,2.1,6,1.9,8.4-0.7
+	c2.2-2.3,3-5.3,2.6-8.8c-0.3-4.1-2-7.1-5.2-9.2c-3.4-2.2-6.3-1.6-8.9,1.8 M631.4,86.8h0.2l0.1-0.1l0.3-0.2c0.5-0.3,0.8-0.6,1.1-0.9
+	l0.1-0.1v-0.1l0-0.1c0.1-0.2,0.2-0.4,0.2-0.5v-0.3l-0.1-0.1l-0.2-0.2l-0.4-0.3 M633.4,84.5v-0.1h-0.1 M628.3,90
+	c-1.1,0.3-2.1,1.1-2.9,2.6c-0.8,1.5-1,2.7-0.6,3.8 M626.6,93.6c-0.3,1-0.1,1.4,0.6,1.3c0.5-0.1,0.9-0.5,1.2-1.2
+	c0.3-0.8,0.2-1.3-0.4-1.4C627.4,92.2,626.9,92.6,626.6,93.6z M635,88.3l0.7-0.1l0.7,0.1l0.7,0.2l0.7,0.5l0,0.1h0.1l0,0.1v0.1h0.1
+	v0.1l0.1,0.1 M631.7,97.1c1.6,0.7,3.1,0.7,4.2,0.1c0.3-0.2,0.7-0.4,0.9-0.6c1.2-1.1,2-2.7,2.2-4.9c0.2-2.2-0.2-4.1-1.2-5.9
+	c-1-2-2.6-3.2-4.6-3.6 M640.5,96.5c1.8-0.4,3-1.6,3.8-3.4c0.7-1.6,0.8-3.5,0.4-5.5c-0.4-2-1.2-3.7-2.4-5c-1.4-1.4-3-2-4.8-1.8
+	 M632.8,96.5l3-0.7h0.1l0-0.1h0.2v0 M641,99.2c-0.8,0-1.7-0.1-2.7-0.4c-1.1-0.4-1.9-0.9-2.3-1.6 M644.2,95.5c-1.3,0.1-2.2,1-2.8,2.5
+	 M626.5,97.2l-0.4,0.1l-0.8-0.2L625,97 M631.1,114.3c-0.3,0.4-0.1,0.8,0.5,1.2c0.5,0.3,1,0.6,1.5,0.7c0.1,0.1,0.6,0.3,1.4,0.4
+	c0.8,0.1,1.3,0.2,1.6,0.1 M630.2,117.3c0,0.6,0.7,1.2,2.1,1.7c1.3,0.5,2.3,0.7,3,0.6 M636.3,112.1c-0.4,1-0.4,2.1-0.2,3.2
+	c0.3,1.1,0.9,2,1.8,2.5 M655.7,101.4c0.2,1.5,0.6,2.9,1.3,4.1c0.8,1.3,1.8,2.4,3,3.1 M659.5,97.3c-0.9-0.3-1.6-0.5-2.2-0.6
+	c-1.1-0.2-1.9-0.3-2.4-0.2 M647.2,95.6L647.2,95.6l-0.2-0.1l-0.1-0.1h0l0-0.1h-0.1l-0.1-0.1h0l0-0.1h-0.4l0,0l-0.5,0 M665.1,94.8
+	c2.4-0.6,4.1-2.1,5.1-4.5c0.9-2.2,1.2-4.7,0.7-7.4c-0.5-2.7-1.6-4.9-3.2-6.6c-1.8-1.9-3.9-2.7-6.4-2.4 M673.2,104L673.2,104
+	L673.2,104L673.2,104l0.2,0.1h0l0.1,0.1 M667.7,113.1c0.9,0.5,1.9,0.8,3.1,0.9c1.2-0.3,2.2-0.9,3.1-1.9 M666.2,113.2
+	c1.3,0.8,2.6,1,4.1,0.8c0.2,0,0.3-0.1,0.5-0.1 M671.7,108.3c-0.9-0.5-1.9-0.9-3.1-1.2c-1.3-0.3-2.4-0.4-3.2-0.3 M703.4,101.9
+	c-1.1-0.1-2.4-0.2-4-0.1h-0.2c-0.2,0.1-0.5,0.1-1,0.1 M702.5,105.4c-0.1,0.2,0,0.5,0.2,0.9l0,0l0,0.1l0.1,0.1l0.1,0.2l0.2,0.1v0.1
+	l0.7,0.6l0.8,0.4 M703.1,103.3c-3.4-0.1-5.2,0.5-5.4,1.8c-0.2,1.3,1.1,2.8,4,4.4c3.5,1.8,7.4,3,11.7,3.5 M692.1,106.5
+	c-0.8-0.5-1.9-0.9-3.1-1.2c-1.3-0.3-2.4-0.4-3.2-0.2 M686.6,113.4c0.3,0,0.6,0,0.9,0l0.1-0.1l0.1-0.1v-0.1l0-0.1l-0.1-0.2
+	c-0.3-0.2-0.5-0.3-0.6-0.5l-0.8-0.5 M687,112c2,1.1,4,1.9,6.1,2.2 M685.2,122.3c0.4-1,0.5-2,0.2-3.2c-0.3-1.2-0.9-2.1-1.8-2.6
+	 M722.9,68.3c-1.4-0.8-3-1.3-4.6-1.4c-1.2-0.1-1.9,0-2.2,0.4c-0.4,0.5,0,1.1,1.1,1.8 M737.5,81.9c0.3,0.1,0.4,0.3,0.3,0.4
+	c0,0.2-0.2,0.3-0.5,0.2c-0.2,0-0.7,0-1.5-0.2l-0.5-0.3l-0.2-0.1l-0.1-0.1l-0.1-0.2l0.2-0.1l0.2-0.1h0.6l0.2,0.1
+	C736.8,81.5,737.2,81.7,737.5,81.9z M728,91.7c-0.1,0.8,0.8,1.6,2.6,2.4c1.4,0.6,2.6,1,3.8,1.2 M736.1,80c-4.3-0.7-5.9-0.3-4.7,1.3
+	c1.3,1.6,3.3,2.5,6,2.8 M714.4,72.5L716,73l0.1,0h0.3l0.1,0.1h0.1l0.1,0.1h0.3l0,0c0.6,0,1.3,0.1,1.9,0.2c0.4,0.1,1,0.3,1.9,0.4
+	c-0.1-0.1-0.3-0.2-0.4-0.3 M721.7,77.4c0.2-0.7,0.2-1.5-0.1-2.2c-0.2-0.6-0.5-1.1-0.8-1.4 M715.3,69.8v0.3l0,0.1v0.1h0.1v0.1
+	l0.2,0.2v0.1l0.1,0h0v0.1h0.1v0.1l0,0.1h0.1l0.1,0.1c0.3,0.1,0.5,0.2,0.6,0.4 M714.5,80l1.3-0.1l2.9,0.4l0.9-0.1l0.8-0.2
+	c0.4-0.3,0.7-0.8,0.9-1.4 M720.5,80C720.4,80,720.4,80,720.5,80c-0.6,0.4-1.1,0.5-1.7,0.3 M716.3,79c0.9-1.1,1.2-2.5,1-4.4
+	 M717.3,88.9c0.1,0,0.2,0,0.4-0.1l0.3-0.3h0l0.1-0.1l0,0h0v-0.1h0.1v-0.1 M721.2,94L721.2,94l-0.2-0.1h-0.2l-0.1-0.1h-0.2l-0.1,0.1
+	h-0.1l-0.1,0.1l0,0.1h-0.1c-0.3,0.2-0.5,0.5-0.6,0.9 M722.6,91.9L722.6,91.9L722.6,91.9l0.2-0.1v0c0.3-0.1,0.4-0.2,0.3-0.2v-0.1
+	l0.4-0.5v-0.1l0.1-0.1v-0.1l0-0.1c0.1-0.2,0.1-0.3,0.1-0.3 M718.1,99.8c0,0.1,0,0.3,0,0.7v0.4l0,0.1l0.1,0v0.2
+	c0.2,0.5,0.5,0.9,0.8,1 M709,102c0.3-0.2,0.6-0.2,1.1-0.2c1.2,0.3,1.9,0.6,2.1,0.9l0.1,0.1l0.1,0.2l-0.2,0.2l-0.2,0h-0.8
+	c-0.9-0.2-1.6-0.4-1.9-0.6C708.8,102.4,708.7,102.1,709,102z M714.1,109.5c0,0.3,0,0.5,0.1,0.6c0.1,0.3,0.2,0.5,0.3,0.6
+	 M706.7,115.4L706.7,115.4L706.7,115.4l-0.1-0.2h0v-0.1l-0.1-0.1h0l0-0.1v-0.1l-0.1-0.1l-0.2-0.2c-0.2-0.2-0.4-0.3-0.6-0.3
+	 M723.4,107.9v0.3l0,0.1v0.3l0,0.1v0.1c0.1,0.3,0.2,0.5,0.3,0.6l0.1,0.1l0.2,0.1 M718.8,118.5c0.3,0,0.7-0.1,1.4-0.2l0.6-0.2
+	l0.7-0.3 M715.3,101.9c-2.4-1.3-4.9-2-7.5-2.3c-2-0.2-3.3,0.1-3.9,0.8c-0.6,0.7,0.1,1.7,2,2.9 M743.5,98.3c-0.2-0.8-0.5-1.3-0.8-1.7
+	 M742.7,101.7c-0.3,0-0.5,0.1-0.6,0.2c-0.1,0-0.2,0.1-0.2,0.2c0,0.1,0,0.2,0.1,0.2c0.1,0.2,0.2,0.4,0.4,0.5c0.1,0.1,0.2,0.2,0.4,0.4
+	 M725.9,101.9c0.3,1,1.6,1.8,3.9,2.6c2.2,0.6,3.9,0.7,4.9,0.3 M735,103.9l0.1-0.6c0-0.3,0-0.5-0.1-0.7v-0.1l0-0.1v-0.1l-0.1-0.1
+	l0-0.1l-0.1-0.1v-0.1l0-0.1l-0.5-0.6 M731.9,109.7l0.5,0.1c0.2,0,0.4,0,0.6-0.1c0.4-0.4,0.6-0.7,0.6-0.9 M777.8,77.6l0,0.2l-0.1,0.2
+	l-0.2,0.1h-0.7l-0.2,0c-0.6-0.2-0.9-0.3-1-0.4c-0.4-0.2-0.7-0.4-0.8-0.6l0.2-0.2l0.4-0.1h0.2l0.1,0h0.2c0.5,0.1,0.9,0.2,1.2,0.4
+	l0.2,0.1L777.8,77.6z M775.2,79.1L775.2,79.1l-0.3-0.3l-0.1-0.1l0-0.1l-0.1-0.1l0-0.1h-0.1l-0.1,0l0-0.1h-0.1l0-0.1l-0.1-0.1
+	c-1.3-0.6-2-1.1-2.3-1.8c-0.4-0.8,0.3-1.2,2.1-1.2c1.9,0.1,3.8,0.6,5.6,1.4 M771.5,79.4L771.5,79.4l0.4,0.4c0.7,0.4,1.2,0.7,1.5,0.8
+	c0.1,0.1,0.4,0.2,0.8,0.4l0.3,0.3h0l0.1,0 M766.5,103.8c2.1-0.4,3.5-1.7,4.5-3.9c0.7-1.7,1-3.5,0.7-5.4c0-0.2-0.1-0.5-0.1-0.8
+	 M771.8,94.4L771.8,94.4l-0.1,0.1v0.1h-0.1 M782.5,82.6c-0.5-0.1-0.8,0-0.9,0.2 M779.2,86.7c-0.1,0.1-0.1,0.3,0,0.5l0,0.1v0l0.1,0.1
+	l0,0.1h0.1l0,0.1l0.3,0.3h0.1l0.1,0.1l0.5,0.3 M784.3,93.4c-1.2-1-2.9-1.7-5.1-2.1 M783.8,95.5c-0.6-0.6-1.5-1.1-2.6-1.5
+	c-1-0.4-2-0.6-2.9-0.8 M776,93.8c0.3-0.1,0.6-0.2,0.9-0.3 M756.5,105.8c1-1.4,1.7-3,2-5c0.2-1.8,0.2-3.6-0.2-5.3 M758.3,106.9
+	c1.5-1.4,2.5-3.2,3-5.4c0.5-2.1,0.5-4.2,0-6.4 M750.2,101.4c1-0.2,1.7-0.9,2.1-2.1c0.3-1.1,0.3-2.2-0.2-3.1 M748.6,101.3
+	c0.6-0.6,1-1.3,1.1-2.2c0.1-0.9,0-1.7-0.4-2.5 M764.8,112.4l0.7,0.4l0.3,0.3l0.1,0.4l-0.3,0.3l-0.8,0.1h-0.5l-1.2-0.1l-1.7-0.6
+	l-0.8-0.4l-0.6-0.6l-0.1-0.4l0.2-0.3l0.4-0.1l0.5,0l0.8,0c0.3,0,1,0.2,2.1,0.5L764.8,112.4z M758.8,109.7L758.8,109.7l0.1-0.1
+	l0.1-0.1h0l0.1,0h0l0.1-0.1h0l0.1-0.1l0,0V109l0-0.1l-0.1-0.1l0-0.1l-0.2-0.2h-0.1l0-0.1H759l0-0.1h-0.1l0-0.1l-0.1-0.1 M752.8,109
+	c1.4,0.8,2.8,1.1,4.2,0.9 M774.8,98.6L774.8,98.6l0.2-0.1h0.2c0.1-0.1,0.2-0.2,0.3-0.2h0.1 M748.6,102.4c-1.6-0.8-3-1.1-4.2-0.9
+	 M771.4,143.9c-0.7-0.3-1.3-0.4-1.8-0.4 M751.7,130.8c-0.2,1.3,1.6,2.5,5.3,3.6c3.7,1,5.8,0.9,6.3-0.3 M762.1,148L762.1,148
+	L762.1,148l0.3,0.4l0.1,0.1l0.1,0v0.1l0.1,0.1h0c0.2,0.1,0.5,0.3,0.7,0.4 M758.5,152L758.5,152l0.2-0.1l0.1-0.1h0.1v-0.1h0.1
+	l0.1-0.1 M766.6,156.3c-0.6-0.5-1.4-1-2.5-1.4c-1.1-0.4-2-0.6-2.9-0.8 M757.6,159.7l0.8-0.2h0l0-0.1v-0.1l0.2-0.1l0.1-0.1
+	 M778.6,148.8L778.6,148.8l0.1-0.1 M778.8,147.8c0.3-0.1,0.3-0.3,0-0.6c-0.3-0.3-0.6-0.5-1-0.6 M778.3,153.4c-0.2-0.5-0.9-1-1.9-1.5
+	c-0.9-0.4-1.7-0.7-2.3-0.8 M783.5,156.5c-1.4-0.3-2.6-0.4-3.5-0.2 M764.2,147.4c0.5,0.7,1.4,1.3,2.9,1.7c1.4,0.4,2.5,0.4,3.4,0.2
+	l0.3-0.2l0.2-0.4l-0.2-0.4l-0.6-0.5l-0.8-0.4c-1-0.5-2.2-0.8-3.7-0.9 M769.1,152.1l0.8,0.2c0.7,0.1,1.2,0.1,1.5,0 M772.8,154.4
+	c0.4,0.1,0.9,0.2,1.5,0.4l0.1,0.2l0.2,0.1l0.2,0.1l0.1,0.2l-0.2,0.2l-0.2,0h-1.1l-0.2,0l-0.2-0.1l-0.2-0.1l-1-0.4l-0.4-0.4l0-0.2
+	l0.1-0.2l0.5-0.1h0.2L772.8,154.4z M767.7,157.2c0.6,0.5,1.8,1.1,3.7,1.6 M766.1,158.4c0.6,1.3,2.7,2.4,6.2,3.3
+	c3.6,0.9,5.8,0.8,6.5-0.5 M777.2,157.8l1,0.1c0.5,0.1,0.8,0.1,1,0h0.3l0.1-0.1h0.1l0.1,0l0.2-0.1l0-0.1l0.1-0.1l0.1-0.1v-0.1l0-0.1
+	c0-0.2,0-0.3-0.1-0.4 M776.7,159.9c1.8,0.3,2.8,0.1,3-0.4 M782.8,158.7c-0.8-0.2-1.8-0.2-2.8-0.2 M768.2,155.2
+	c0.6,0.6,1.8,1.1,3.7,1.6 M767.2,154.2c-1.3-1-3-1.7-5.1-2.1 M744.2,124.5l0.1,0h0.1c0.2,0,0.5,0.1,0.9,0.4l0.1,0.1v0.1l0,0.1
+	l-0.2,0h-0.5l-0.1,0l-0.1-0.1c-0.5-0.1-0.8-0.3-0.9-0.6l0.1-0.1l0.1,0H744.2z M743.5,129.1c0.2,0,0.3-0.1,0.6-0.2l0.1-0.1l0,0v-0.1
+	l0-0.1v-0.1l0-0.1c-0.1-0.2-0.2-0.4-0.4-0.4l0-0.1h-0.1l0-0.1h-0.1l-0.3-0.2 M732.2,123.7c-0.4-0.2-0.8-0.2-1.1,0
+	c-0.2,0.1-0.3,0.2-0.5,0.4c-0.1,0.2-0.2,0.4-0.2,0.6 M740.5,139.2L740.5,139.2 M724.7,121.4l0-0.1v-0.4c0-0.3,0-0.5-0.1-0.6
+	l-0.2-0.7 M722,125.8c0.2,0,0.4,0.1,0.6,0.1c0,0,0.2,0,0.5-0.1l0.2-0.2l0.1,0v-0.1l0-0.1c0.2-0.2,0.2-0.4,0.2-0.6 M715.6,129h0.1
+	l0.1-0.2l0.1,0v-0.1l0.1-0.1c0.1,0,0.3-0.2,0.5-0.5c0.2-0.3,0.4-0.4,0.4-0.6 M711.7,122.6l-0.1-0.1h-0.2l0-0.1h-0.1
+	c-0.3,0.1-0.5,0.1-0.6,0.1l-0.1,0.1h0l-0.1,0.1h0l0,0.1l-0.2,0.2l-0.2,0.5 M708.3,129.9h0.6 M711.5,129.5l0.1-0.1h0l0.1-0.1h0l0,0
+	l0.1-0.1 M698.2,121.3c1.9,1.4,4.5,2.4,8,3.2c3.9,0.9,6.6,0.8,8.4-0.2 M697.4,124.1c1.5,1.3,4.4,2.4,8.7,3.3
+	c4.7,0.9,7.4,0.5,8.2-1.1 M704.3,144.3c0.8,0,1.5-0.1,2.2-0.2c0.5-0.1,0.8-0.2,1-0.3c0.3-0.2,0.5-0.4,0.7-0.8 M713.2,141v-0.1
+	l-0.1-0.1v-0.1l0-0.1H713v-0.1h0l0-0.1h-0.1l-0.1-0.1h0l-0.1-0.1h0l-0.1-0.1h0l0-0.1h-0.5 M718.9,140.8c-0.5-0.1-1.1-0.2-1.7-0.3
+	h-0.5l-0.1-0.1h-0.4 M714.2,140.9c-0.8,0.8-0.1,1.7,2,2.7c1.8,0.9,3.2,1.3,4.1,1.3 M710.9,152.4c0,0.4,0.1,0.7,0.4,1.1
+	c0.4,0.5,1.1,0.9,2.1,1.3c1.5,0.7,2.7,1,3.8,1.1 M711.3,153.5c-0.5,0-1,0-1.5,0.1c-0.7,0.2-1.1,0.5-1.1,0.9 M699.2,144.6
+	c2.8,0.7,5.1,1,6.9,0.9c1.4-0.1,2.4-0.4,2.9-0.9c0.7-0.6,0.5-1.5-0.5-2.6 M708.3,156c-0.1,0.3,0,0.6,0.3,1.1l0.4,0.4h0l0.2,0.1
+	l0.1,0.1l0.2,0.2 M708.9,163c0,0.1,0.1,0.2,0.1,0.3c0.4,0.9,1.7,1.6,3.9,2.2c2.3,0.7,3.9,0.8,4.8,0.3 M705.6,165.8l0,0.1v0.1l0,0
+	v0.2l0.1,0.1l0,0.1v0.1l0,0.1l0.2,0.2c0.1,0.1,0.2,0.2,0.4,0.4l0.1,0.1l0.1,0l0.1,0.1l0.1,0.1v0.1l0,0.1h0.1 M709,163.3
+	c-1.7,0-2.7,0.3-3,0.9 M718.1,165l0-0.6l-0.1-0.7l0-0.1v-0.2l-0.1-0.1v-0.1l0,0l-0.1-0.1l0-0.1v-0.1l-0.1-0.1v-0.1l-0.1-0.1
+	c0,0-0.1-0.1-0.2-0.2 M744.5,156.4L744.5,156.4l0-0.1l-0.1-0.1v-0.2 M729.8,161.6c0.2-0.6,0.3-1.2,0.2-1.8c0-0.8-0.2-1.5-0.6-2
+	 M733.2,162.5c1.1-0.2,1.8-1,2.1-2.2c0.3-1.1,0.2-2.2-0.3-3.2 M739.5,167.1c1.1-1.5,1.8-3.2,2-5.2c0.3-1.9,0.1-3.8-0.3-5.6
+	 M714.9,170.8c0.4,0.2,0.7,0.2,1.1,0c0.4-0.2,0.6-0.6,0.7-0.9 M732,185.7c0.2-0.8,0.1-1.5-0.1-2.2c-0.2-0.8-0.7-1.4-1.3-1.8
+	 M732.9,197.1c1.7,1.3,4.7,2.3,8.8,3c4.6,0.8,7.3,0.4,8.1-1.2 M733.8,193.5c3,1.7,6.7,2.9,11.1,3.4c2.3,0.2,4,0,5.2-0.6
+	c1.4-0.8,1-2.1-1.2-3.9 M699.8,129.8c1.1-0.1,1.9-0.6,2.6-1.6 M697.9,144.6L697.9,144.6l-0.1-0.1v-0.1l-0.1-0.1v-0.1l0-0.1l0-0.1
+	c-0.1-0.2-0.3-0.3-0.5-0.4l-0.1-0.1H697l-0.1-0.1h-0.2l-0.1-0.1h-0.1l-0.1-0.1h-0.4 M698.6,141.3c0.3,0.5,0.6,0.8,0.8,0.9l0.1,0.1
+	l0.2,0.1l0.1,0.1h0.1l0.1,0.1h0.4 M688,165.3c1.2,1,3.2,1.8,6.2,2.4c3.2,0.7,5.2,0.4,5.9-0.8 M688.8,158.6c-1.2,0.3-1.6,0.8-1.2,1.6
+	c0.3,0.6,0.8,1.1,1.8,1.6c1.5,0.9,3.1,1.6,5,2c1.7,0.5,3.3,0.7,4.7,0.5l0.6,0l0.6-0.2l0.5-0.3l0.3-0.3l0.2-0.5l0-0.1v-0.1l-0.3-0.5
+	l-0.4-0.5 M685.4,166.8c-0.1,0.4,0,0.8,0.4,1.2c0.3,0.3,0.7,0.6,1.1,0.9 M691.9,144.7c1.6,1.3,4.5,2.3,8.7,3.1
+	c4.5,0.9,7.2,0.6,8.1-1 M685.5,166.5l-1.3-0.1 M640.4,193.8c1.9-4.8,3.3-9.5,4.2-14.2c1.1-5.4,1.5-10.8,1.3-16.1
+	c-0.5-12.5-4.7-21.2-12.8-26.2 M649.4,179.6c-1.6,0.7-3.2,0.7-4.8,0 M662.8,191c0.4-1,0.4-2.1,0.2-3.1c-0.3-1.1-0.9-2-1.8-2.5
+	 M635,191.8c0.5-1.4,1.2-3.5,2.1-6.3 M636.8,192.4c0.6-1.5,1.2-3.5,2-6 M661.3,195.3v0.2l-0.1,0v0.5c0,0.2,0,0.4,0.2,0.6l0,0.1
+	 M655,207.6c1.3-0.2,2.2-1.1,2.8-2.6 M685.2,171.2c-0.1,1.2,1.3,2.2,4.3,3.2c2.8,1,4.8,1.2,6,0.9 M690,184.2c0.3,0,0.6-0.2,0.8-0.5
+	l0.1-0.1v0l0.2-0.2v-0.1 M686.6,192.4L686.6,192.4l-0.2,0.1v0l-0.1,0.1l-0.1,0l-0.2,0.1l-0.1,0.1v0l0,0v0.1l-0.1,0.1v0l0,0v0.1
+	 M698.7,190.7c2.3-0.4,3.6-1.1,4-2.2 M682.3,173.3c2.1,1.4,4.8,2.6,8.1,3.4c3.4,0.9,6.3,1.2,8.8,0.9 M631,167.9
+	c0.7,2.3,1.9,3.9,3.6,4.9 M791.1,153.4c-0.5-1-1.2-1.2-2.3-0.7c-0.9,0.4-1.2,1-1.1,1.8c0,0.1,0.1,0.3,0.2,0.4 M787.5,154.7l0.1-0.2
+	l0.1-0.1 M790.1,157.8c0.8,0.2,1.4-0.1,1.9-0.8c0.5-0.7,0.5-1.3,0-1.9c-0.5-0.6-1.1-0.7-1.9-0.5c-0.8,0.3-1.2,0.8-1.2,1.6l-0.2,0.6
+	l-0.2,0.1 M785.4,94.4c0.7,0.7,1.9,1.2,3.6,1.6 M625.8,88.2c-1.5,0.5-2.6,1.8-3.4,4.1c-0.8,2.3-0.5,3.8,1,4.3 M586.9,145.7
+	c-9.9,8.5-17.9,19.3-24.2,32.4c-6.6,13.7-9.6,26.7-9,39.1 M588,150.3c-8.6,8.1-15.7,18-21.2,29.5c-5.8,12-8.9,23.7-9.2,35
+	 M612.3,184.2c0-3.2-0.8-5.5-2.5-7 M617.2,169c0.8,1.8,1.6,1.9,2.4,0.3c0.8-1.5,0.5-2.5-1-2.8 M615.9,179.4c0.1-0.5-0.1-1-0.3-1.4
+	c-0.4-0.5-0.9-0.7-1.4-0.6 M559.8,229.7c2.8,9.2,8,15,15.7,17.2c7.1,2.1,15,1,23.6-3.4c6.8-3.4,13.2-8.3,19.4-14.7
+	c5.4-5.7,10.3-12.2,14.6-19.5 M557,231.4c1,2.4,2.3,4.5,4,6.5c1.7,2.1,3.7,3.7,5.8,4.8 M565.3,229c1.4,3.3,3.4,6.1,6,8.4"/>
+<path id="Layer0_5_MEMBER_27_1_STROKES" class="st19" d="M830.8,41.8c2.8-0.6,4-2.8,3.5-6.4c-0.5-3.7-2.2-5.4-5.1-5.2 M817.9,31.8
+	c-0.1-1.1-0.4-2.1-0.9-3c-0.6-1-1.4-1.7-2.3-2.1 M825.6,30.7c-0.1-1.5-0.6-2.7-1.5-3.8c-1-1.2-2.1-1.7-3.5-1.6 M801.1,28
+	c1.2-0.2,2.3,0.2,3.2,1.2c1.3-1.1,2.5-1.1,3.8-0.1c1.2,0.9,1.8,2.2,1.9,3.8c1.5,0,2.7,0.5,3.5,1.6c0.4-0.9,0.9-1.6,1.5-2
+	c0-1-0.3-1.8-0.7-2.6c-0.5-0.9-1.2-1.6-1.9-1.9 M810,32.9c-0.1,0-0.2,0-0.3,0 M812.9,26.4c-0.9,0.2-1.6,0.6-2.3,1.4 M811.3,44.5
+	c0.5-0.1,1-0.3,1.5-0.5c0.9-0.5,1.5-1.2,1.8-2.1c0.4-1,0.5-2.3,0.2-3.8c-0.2-1.5-0.7-2.7-1.2-3.6 M814.5,41.9c1.6,1.9,3.3,2.2,5,1.1
+	c1.7-1.2,2.4-2.9,2.2-5.3c-0.1-2.6-1.1-4.4-3.2-5.4c-1.4-0.6-2.5-0.5-3.5,0.2 M823.8,51.5c1.3-0.9,2.3-2.3,2.8-4.1
+	c0.5-1.6,0.5-3.3,0.2-5 M827.2,51.7l-0.7-0.2l-0.6-0.1h-1.2 M810.3,53c1.2-1,2-2.4,2.5-4.2c0.4-1.6,0.4-3.2,0-4.8 M808.8,52.6
+	l-0.6-0.1h-0.2l0-0.1h-0.2l-0.1-0.1l-1.4,0.1 M812.8,71c2-2.1,2.9-4.9,2.7-8.3c-0.2-3.3-1.3-6-3.4-8.1 M832.2,57.8
+	c-0.6-2.1-1.6-3.7-2.9-4.8 M835.7,52.6c-1.1-1-2.4-1.4-3.9-1.2 M805.6,49.7c0.5-0.5,0.8-1.2,0.9-2.2s0.2-1.7,0-2.4 M806.1,33.4
+	c-0.1-1.4-0.6-2.7-1.5-3.8c-0.1-0.1-0.2-0.3-0.3-0.4 M794.4,36.2c2.3-2.4,4.3-2.3,6.2,0.2c1.9,2.5,2.2,5,0.8,7.3
+	c-1.1,1.7-2.3,2.5-3.6,2.5c-1.1,0-2.2-0.7-3.1-1.8c-0.9-1.2-1.4-2.6-1.5-4.1C793.1,38.6,793.5,37.3,794.4,36.2z M788,39.3
+	c-2.1-0.5-2.9-2-2.6-4.6c0.3-2.6,1.5-3.5,3.5-2.7c1.5,0.7,2.2,2.2,2.1,4.2C790.8,38.4,789.8,39.4,788,39.3z M790.3,41.5
+	c-0.4,0.1-0.9,0.2-1.5,0.4c-0.3,0.1-0.6,0.2-0.7,0.3 M787.2,42.5c0.3-0.7,0.6-1.2,0.9-1.6c-0.7-0.3-1.4-0.8-2-1.5
+	c-0.8-1.1-1.3-2.4-1.4-4c-0.1-1.6,0.3-2.9,1-4c0.8-1.2,2-1.7,3.5-1.6c2.5,0.5,3.8,2.3,4.1,5.7c0.2,3.3-1,5.2-3.5,5.7
+	c-0.6,0-1.2,0-1.7-0.2 M797.8,37.5c-1.7-0.1-2.4,0.9-2.3,2.9c0.2,2.1,1,3,2.6,2.9c1.3-0.2,1.9-1.2,1.8-2.9
+	C799.8,38.7,799.1,37.7,797.8,37.5z M758.8,44c0.8-0.1,1.6-0.1,2.3,0l1.2,0.2l0.1,0l0.3,0.1h0.2l0.1,0.1h0.2l0.1,0.1
+	c1.6-1.7,3.2-2.5,4.9-2.3c1.5,0.2,2.9,1.1,4.1,2.7c1.1,1.6,1.8,3.3,2.1,5.3c0.3,2.1,0,4-0.9,5.5c-1.5,2.5-3.3,3.8-5.2,3.8
+	c-0.8,0-1.6-0.2-2.3-0.7c0.5,3.8,0.1,7.3-1.3,10.4 M783.1,57.6c2-0.4,3.5-1.6,4.4-3.5c0.8-1.7,1.1-3.7,0.8-5.9
+	c-0.3-2.2-1.1-4.1-2.4-5.5c-1.4-1.6-3.2-2.3-5.2-2.2 M771,68.8c1.4-2.9,1.9-6.1,1.6-9.8 M785.6,70.3c-2.2,0.1-3.5-1.2-3.9-4.1
+	c-0.1-1.1-0.1-1.9,0.1-2.6c0.4-1.2,1.2-2,2.6-2.3 M781.8,63.6c0.3-1,1.1-1.6,2.4-1.9c1.9-0.1,3.1,1,3.7,3.3c0.5,2.4-0.1,4-1.8,4.8
+	c-2.2,0.9-3.6-0.1-4.3-3.1c0-0.2-0.1-0.3-0.1-0.5 M775.8,68.4c1.8-2.8,2.6-6.1,2.3-10.1 M801.8,51.1c0.4,0.6,0.8,1.1,1.5,1.7
+	 M792,56c-1.3,0-2.4,0.6-3.5,1.6c-0.3,0.3-0.5,0.6-0.7,0.9h-0.1c-0.6,0.7-1,1.6-1.2,2.5 M792.8,69.3c2.2-0.4,3.1-2.1,2.8-4.9
+	c-0.4-2.9-1.7-4.3-4-4.2 M788.2,70c0.1,0,0.2,0,0.3,0c0.1,0,0.2-0.1,0.3-0.1c0.2-0.1,0.3-0.1,0.4-0.2c1.4-0.8,2-2.3,1.7-4.7
+	c-0.4-2.6-1.5-3.9-3.3-4.1c-0.1,0-0.3,0-0.4,0c-0.1,0-0.1,0-0.2,0 M788.2,60.7H788v0.1h-0.2v0.1h0l-0.1,0.1h-0.1 M794.8,73.3
+	c2-0.4,3.5-1.6,4.5-3.5c0.9-1.8,1.1-3.8,0.8-6.1c-0.3-2.3-1.1-4.1-2.4-5.6c-1.4-1.6-3.2-2.4-5.2-2.2 M788.5,69.9
+	c2.3,2.8,4.6,3.4,6.9,1.8c2.3-1.5,3.2-3.9,2.9-7.1c-0.1-3.5-1.6-5.9-4.4-7.2c-2.9-1.4-5.1-0.2-6.8,3.4 M787.8,58.4
+	c2.4-4.3,5.3-5.4,8.9-3.5c3.5,1.9,5.3,5,5.4,9.4c0.4,4-0.8,7.1-3.5,9.2c-2.9,2.2-5.8,1.7-8.9-1.4c-0.7-0.6-1.3-1.3-1.9-2.1
+	 M805.7,86c0.1-1.1-0.1-2-0.6-2.8c-0.6-0.9-1.4-1.3-2.4-1.2c-0.9,0-1.9,0.4-3,1.2c-0.9,0.7-1.6,1.5-2.2,2.4 M797.8,78.7
+	c-1.2-0.6-2.6-0.4-4.2,0.8c-1.2,0.9-2.2,2-3,3.4 M789.8,72.1c0.3,0.2,0.6,0.4,0.9,0.6c1.2,0.7,2.4,0.9,3.8,0.6 M803.7,93.2
+	c1.1-0.4,1.8-1.1,2.2-2c0.4-0.8,0.4-1.5,0.1-2.2c-0.3-0.6-0.8-0.8-1.3-0.6c-0.7,0.3-1.4,1.1-2.1,2.5 M767,77.1v-0.4
+	c0-0.3-0.1-0.4-0.3-0.2 M776.5,87.7c-0.5-0.1-0.9-0.1-1.2-0.1l-0.3,0.1l0,0.1h-0.1l-0.1,0h-0.1v0.1c-0.6,0.3-1.6,0.3-3,0
+	 M777.1,104.3c1.7,3,3.6,3.8,5.8,2.4c2.2-1.4,2.8-3.6,1.9-6.6c-1.6,2.3-3.5,3.5-5.9,3.8 M784.8,100.1c0.2-0.2,0.3-0.5,0.5-0.8
+	 M770.3,101.1c0.7,0.2,1.4,0.2,2.2,0.2c1.1,0,1.7-0.2,1.8-0.6 M775,117c-1.3,0-2.5,0.6-3.5,1.6c-0.2,0.2-0.4,0.5-0.6,0.7l0,0.1
+	c-0.6,0.7-1,1.6-1.3,2.6 M770.2,115.8c0.9-1.6,1.3-3.3,1.3-5.2c0-1.9-0.5-3.6-1.3-5.2 M777.9,134.4c2-0.4,3.5-1.6,4.4-3.5
+	c0.9-1.8,1.2-3.8,0.8-6.1c-0.3-2.3-1.1-4.2-2.4-5.6c-1.4-1.6-3.2-2.4-5.3-2.2 M770.9,119.3c2.4-4.2,5.3-5.3,8.9-3.3
+	c3.5,1.9,5.2,5,5.3,9.4c0.4,4-0.8,7.1-3.5,9.2c-2.8,2.2-5.8,1.8-8.8-1.2c-0.1-0.1-0.1-0.1-0.2-0.2c-0.7-0.6-1.3-1.3-1.8-2.1
+	 M797.5,97.7c0.6,1.5,0.6,3.1,0,4.8c0,0.1-0.1,0.3-0.1,0.4c1.7,2,3.4,2.4,5.1,1.2c1.7-1.1,2.4-2.8,2.2-5.2 M793.3,114.1
+	c1.2-1,2-2.4,2.5-4.1c0.4-1.6,0.4-3.3,0-5c-0.4,0.3-0.9,0.4-1.5,0.6 M791.2,113.5l-0.7-0.1h-1.3 M788.7,110.8c1-1.2,1.3-2.7,0.9-4.6
+	 M797.4,102.8c-0.4,1-1,1.7-1.7,2.1 M784.8,112.2c0.3,0.5,0.8,1.1,1.5,1.7 M843.7,86.4c0.5-0.6,0.9-1.1,1.1-1.6
+	c0.2-0.4,0.2-0.7,0.2-0.8l0-0.1l0.1-0.1v-0.6l0.1-0.1l-0.1-0.1v-0.3 M834.2,78.4l-0.7-0.3 M833.7,96c1.3,0.1,2.3,0,3.1-0.3h0.1
+	c2.1-1,2.5-3.5,1-7.8c-0.8-2.2-1.9-4.4-3.4-6.6c-1.5-2.1-2.8-3.6-4-4.3 M835.5,93.4c1.2-1.1,1.5-2.8,0.9-5.2
+	c-0.5-2.1-1.6-4.3-3.3-6.5c-1.7-2.2-3.5-3.9-5.4-4.9c-2.1-1.2-3.8-1.4-5.2-0.6 M832.7,94.5l0.9-0.1l0.8-0.3 M839.2,95.2
+	c-0.8,0-1.5,0.1-2.3,0.5 M821.8,76.8l-0.1,0.2l-0.2,0.2l-0.5,0.8l-0.2,0.9 M809.1,72.9h0.3l0.2-0.1h0.1l0.1-0.1h0.2l0.1,0l0.1-0.1
+	l0-0.1h0.2l0.1-0.1c0.5-0.2,1-0.5,1.3-0.7 M808.3,82.2l0,0.1v0.1l-0.1,0.1v0.2c0,0.5,0,0.9,0.1,1.1c0.3,0.7,0.9,0.9,1.7,0.6l0-0.1
+	h0.2l0.2-0.1h0.3 M814.4,82.5l-0.9,1.4l-0.1,0.6l-0.2,0.9l0.2,1.6l1,3.1l1.6,2.8l0.2,0.4l1.7,2.2l2.3,2.2l2.7,1.8l1.4,0.6l1.6,0.1
+	l1.5-0.5 M816,92.8c-0.9-1.1-2.1-1.6-3.8-1.5 M817.3,77.1c-1.6-0.8-3.2,0.1-4.7,2.7s-1.5,4.5,0,5.5 M828.6,98.7
+	c1.2-1.1,1.5-2.8,0.9-5.1c-0.5-2.1-1.7-4.2-3.3-6.4c-1.7-2.2-3.5-3.9-5.4-4.9c-2.1-1.2-3.8-1.4-5.2-0.6 M813.4,84.4
+	c-0.2-1.3,0.2-2.7,1.2-4.1c1-1.5,2.2-2.3,3.5-2.4 M809.9,112.7L809.9,112.7l-0.2-0.1l-0.1-0.1h-0.1l-0.1-0.1h0l-0.1-0.1H809
+	c-0.4,0-0.9,0-1.3,0 M806.8,112.6c1.3-0.9,2.3-2.2,2.8-4.1c0.5-1.7,0.6-3.3,0.2-5 M815.1,118.8c-0.5-1.8-1.4-3.4-2.8-4.8
+	 M818.7,113.7c-0.5-0.4-1.1-0.8-1.8-1c-0.8-0.3-1.5-0.3-2.1-0.2 M816.2,93.2c0.5,0.8,0.8,1.9,1,3.3c0.5,3.6-0.6,5.8-3.5,6.4
+	 M853.9,62.6l0.2,0.7v0.1l0.1,0.2l0,0.1l0.1,0.1l0.1,0.1v0.1l0.1,0.1c0,0.1,0.1,0.3,0.3,0.6l0.1,0.1l0.1,0l0.1,0.1 M870.3,87.9
+	c-0.2,2-0.8,3.9-1.9,5.8c-1.1,1.9-2.5,3.5-4.1,4.6c-2.6,1.9-4.7,2.1-6.2,0.6c-1.5-1.4-1.9-3.6-1.2-6.6c0.4-1.9,1.2-3.8,2.5-5.6
+	c1.3-1.8,2.8-3.2,4.5-4.1c2.2-1,3.9-0.9,5.1,0.2C870.1,84,870.6,85.7,870.3,87.9z M860.4,73.5h-0.2l-0.1,0.1h0v0.1l0,0.1l0.1,0.1
+	v0.1c0.1,0,0.1,0.1,0.2,0.2c0,0.1,0.2,0.1,0.3,0.2 M860.2,73.6L860.2,73.6 M848.4,93.6c-1.5-1-2.1-2.7-2-4.9c0.1-2.1,0.8-4.2,2-6.4
+	c1.3-2.2,2.8-3.9,4.5-5c1.9-1.2,3.7-1.5,5.2-0.7 M847.9,96.5c-0.2-0.1-0.5-0.1-0.8-0.1h0l0,0.1 M847.2,96.4l-0.2,0.1l-0.1,0h-0.1
+	c-0.1,0.1-0.3,0.2-0.4,0.2 M858.2,110.8c0.4,2,2.1,2.8,4.9,2.4c2.9-0.5,4.2-1.7,4.1-3.7 M743,54.4c1.2-4.8,3.7-7.8,7.6-9.1
+	c3.9-1.3,7.5-0.2,10.8,3.5c0.2-1.6,0.7-3,1.7-4.1c0,0,0.1-0.1,0.1-0.1 M725.4,55.9l-0.4-0.1h-0.6l-0.2,0.1l-0.1,0.1l0,0.2l0.1,0.1
+	l0.2,0.2l0.2,0l0.1,0.1l0.2,0.1h0.2l0.5,0.1h0.5l0.1-0.1l0.1-0.1l-0.1-0.1l-0.2-0.2l-0.6-0.3H725.4z M726.6,70.4l0.6-0.2l0.6-0.4
+	c0.3-0.3,0.6-0.6,0.9-1 M729.8,64.8c0-0.1,0-0.6-0.1-1.2 M743.4,64.1c0.3-2.7-0.5-5.1-2.4-7.2c-2-2.2-4.2-2.4-6.6-0.7 M766,59
+	c-0.8-0.5-1.5-1.2-2.2-2.1c-1.3-1.8-2.1-3.8-2.3-6.1c-0.1-0.7-0.1-1.4,0-2 M759.7,69.6c1.9-2.5,2.7-5.5,2.2-9.2
+	c-0.4-3.3-1.6-6.2-3.7-8.8c-1.8-2.1-3.7-3.3-5.7-3.6c-0.4-0.1-0.8-0.1-1.2-0.1c-2.9,0.2-5.3,2.3-7.5,6.2 M753.2,68.4
+	c1.8-0.3,3.1-1.4,3.9-3.1c0.7-1.5,1-3.3,0.7-5.2c-0.2-2-0.9-3.6-2-4.9c-1.3-1.4-2.8-2.1-4.6-1.9 M761.3,69.7
+	c2.9-3.7,3.3-8.3,1.4-13.8c-2-5.6-5.4-8.2-10.2-7.8 M720.7,56.8v0.2l0.2,0.4l0.1,0.2l0.1,0.1h0.1l0.2,0.2 M727.5,55.6
+	c-1.4-0.7-2.8-1-4.4-1.1c-1.2,0-1.8,0.2-2,0.7c-0.1,0.5,0.4,1,1.5,1.6 M723.9,68.9c0.6-1.2,0.8-2.5,0.7-3.9
+	c-0.1-1.4-0.5-2.7-1.2-3.8 M719.5,59.1c-0.9,0-1.7,0.4-2.4,1.1c-0.6,0.6-1.1,1.3-1.4,2.2 M715.9,67L715.9,67 M762.6,72.8l0.1,0.2
+	l-0.2,0.2l-0.4,0.1h-0.3l-0.3-0.1h-0.2l-0.2-0.1l-0.5-0.1l-0.2-0.1l-0.2-0.1l-0.9-0.6l-0.1-0.2l0.2-0.2l0.5-0.1h0.2l0.3,0.1h0.2
+	l0.2,0.1c0.9,0.3,1.4,0.5,1.7,0.8L762.6,72.8z M754.2,73.5c-0.1,1.3,1.5,2.5,4.9,3.5c3.4,1,5.5,1.1,6.5,0.2 M757,70
+	c-2.2,0.2-2.7,0.9-1.7,2c0.9,1,2.1,1.7,3.5,2.1c1.2,0.5,2.5,0.8,3.8,0.9c1.7,0.2,2.9,0.1,3.8-0.3 M763.3,107.3
+	c1-0.2,1.7-0.4,1.9-0.6 M755.5,162.4h0.8l0.1-0.1h0.2l0.4-0.2 M851.3,143.5c-1.8-0.8-3.8-0.5-5.8,1c-1.8,1.4-3.3,3.3-4.5,5.8
+	c-1.2,2.5-1.7,4.7-1.5,6.7c0.3,2.2,1.4,3.5,3.5,3.9c3.4,0.3,6.3-2.1,8.8-6.9C854.3,149,854.1,145.5,851.3,143.5z M836.9,123.7
+	c0.5,1.3,1,2.1,1.5,2.4 M841.2,137.7c-1.6-0.8-3.4-0.5-5.2,0.7c-1.7,1.1-3.2,2.8-4.5,4.9c-1.3,2.2-2,4.4-2.1,6.4
+	c-0.1,2.3,0.6,3.9,2,4.9 M843,134.3c0.1,0.6,0.3,0.9,0.8,1.1l0.1,0.1h0.2l0,0.1l0.1-0.1h0.2c0.3,0,0.5-0.1,0.7-0.2 M843.3,134.6
+	L843.3,134.6 M818.6,154.5c1.2-1.1,1.5-2.8,0.9-5.1c-0.6-2.1-1.7-4.2-3.4-6.4c-1.7-2.2-3.5-3.9-5.4-5c-2.1-1.2-3.8-1.3-5.2-0.5
+	 M817.2,139.5L817.2,139.5L817.2,139.5 M816.8,157.1c1.3,0.1,2.3,0,3-0.4c0,0,0.1,0,0.1,0c2.1-0.9,2.4-3.5,0.9-7.7
+	c-0.8-2.2-1.9-4.4-3.4-6.6c-1.5-2.1-2.8-3.6-4.1-4.4 M822.2,156.3c-0.8,0-1.6,0.1-2.3,0.4 M815.6,155.6l1-0.1l0.9-0.2 M811.7,159.8
+	c1.2-1.1,1.4-2.8,0.8-5.1c-0.5-2.1-1.7-4.3-3.3-6.5c-1.7-2.2-3.5-3.8-5.4-4.9c-2.1-1.2-3.8-1.4-5.2-0.5 M810.5,160.6l-1.4,0.6
+	l-1.6-0.2l-1.5-0.5l-2.7-1.7c-2-1.8-3.7-3.9-5.1-6.2l-1.3-2.9l-0.4-1.5l-0.2-1.7l0.2-0.9c-0.1-1.3,0.3-2.7,1.3-4.1
+	c1.1-1.5,2.2-2.3,3.4-2.4 M826.7,147.5c0.5-0.4,0.8-1,1.1-1.6c0.3-0.7,0.4-1.4,0.3-1.9 M830.9,157.6c-0.2-0.1-0.4-0.1-0.7-0.1h-0.1
+	l0.1,0.1v0.2 M830.2,157.5H830l-0.1,0.1l0,0.1c-0.1,0-0.2,0.1-0.4,0.1 M793.3,145.5h-0.2v0.1h-0.1l-0.1,0.1c-0.5,0.1-0.8,0.1-1,0.1
+	c-0.3-0.1-0.5-0.4-0.7-0.8c-0.2-0.6-0.2-1.3,0.1-2.1 M792.1,134l0.8-0.1h0.2l0.1-0.1h0.1l0,0h0.1l1.4-0.8 M804.4,138.2l-0.5,0.9
+	l-0.2,0.9 M796.4,145.5l0.1-0.6l1-1.4 M795.8,132c2-2.1,2.8-4.9,2.7-8.3c-0.2-3.4-1.3-6.1-3.4-8.1 M800.4,138.2
+	c-1.6-0.8-3.2,0.1-4.8,2.8c-1.5,2.6-1.5,4.4,0,5.4 M771.5,131c2.2,2.8,4.5,3.4,6.9,1.9c2.3-1.5,3.3-3.9,2.9-7.2
+	c-0.1-3.5-1.5-5.9-4.3-7.2c-2.9-1.4-5.2-0.2-6.8,3.4c2.1,0,3.3,1.4,3.7,4.1c0.3,2.3-0.2,3.9-1.6,4.6l-0.2,0.2h-0.3
+	C771.8,130.9,771.6,130.9,771.5,131c-0.1,0-0.2,0-0.3,0.1 M771.2,121.8h-0.3 M768.7,131.4c-0.8,0.1-1.6-0.2-2.4-0.8
+	c-0.6-0.6-1.1-1.3-1.4-2.2c0.9,1.8,2,2.7,3.1,2.8c1,0,1.8-0.6,2.4-1.8c0.6-1.2,0.7-2.4,0.4-3.7c-0.3-1.4-1.2-2.4-2.6-3 M770.2,122
+	c-0.1,0-0.2,0-0.3,0 M771.9,130.9c0.2-0.1,0.3-0.1,0.4-0.2 M780.8,139.8c-1.1-0.7-2.5-0.4-4.1,0.7c-1.3,0.9-2.3,2.1-3,3.3
+	 M775.8,130.4c2.2-0.4,3.1-2.1,2.8-5c-0.4-2.9-1.7-4.3-4-4.1 M772.9,133.4c1.3,1,2.8,1.3,4.5,1 M788.7,152.7c1-2,0.8-3.1-0.4-3.2
+	c-1.2-0.1-2.1,0.7-2.7,2.5 M788.7,147.1c0-2.8-1-4.1-3-3.9c-1.9,0.2-3.5,1.3-5,3.3 M841.2,171.9c0.5,2,2.1,2.7,5,2.3
+	c2.9-0.4,4.2-1.7,4-3.7 M760.3,107.7c2.5-0.3,4.5-1.6,6.2-3.9 M761.9,165.1c2.8-0.5,4.9-2.1,6.4-4.8"/>
+<path class="st1" d="M182.6,112.2l0.2,5.4l9.6-9.9l-10-9.6l0.1,5.4c-21.7-0.2-41.3,4.5-58.8,14.1c-5.6,3.1-10.3,6.1-14.2,9.2
+	c3.3-2.5,7.5-4.9,12.5-7.2C138.8,111.9,159,109.4,182.6,112.2z"/>
+<path id="Layer0_6_1_STROKES" class="st20" d="M109.5,126.9c3.3-2.5,7.5-4.9,12.5-7.2c16.8-7.7,37-10.2,60.6-7.5l0.2,5.4l9.6-9.9
+	l-10-9.6l0.1,5.4c-21.7-0.2-41.3,4.5-58.8,14.1C118,120.7,113.3,123.8,109.5,126.9c-2.1,1.7-3.9,3.4-5.5,5.1"/>
+<path class="st1" d="M339.1,239.1l4.8,4.8v-18.6l-18.5,0l4.7,4.7l-10.8,10.8l9.1,9.1L339.1,239.1z"/>
+<path class="st1" d="M310,58l-11.1-6.5l-7.6,13.2l-5.8-3.4l4.9,18l17.9-4.8l-5.8-3.4L310,58z"/>
+<path class="st1" d="M554.4,75.5l4.8,17.9l17.9-4.8l-5.8-3.4l7.6-13.2l-11.1-6.4l-7.6,13.2L554.4,75.5z"/>
+<g>
+	<text transform="matrix(1 0 0 1 564.0034 30.4852)" class="st11 st12">Trim</text>
+	<text transform="matrix(1 0 0 1 550.4181 47.9852)" class="st11 st12">Actuator</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 663.1014 249.9614)" class="st11 st12">Rudder</text>
+	<text transform="matrix(1 0 0 1 658.8514 264.4614)" class="st11 st12">Feel Unit</text>
+</g>
+<path class="st1" d="M721.5,199.2l-17.4,6.5l6,2.8l-6.3,13.8l11.7,5.4l6.3-13.8l6.1,2.8L721.5,199.2z"/>
+<g>
+	<text transform="matrix(1 0 0 1 780.6121 225.3104)" class="st11 st12">Rudder Power Control</text>
+	<text transform="matrix(1 0 0 1 780.6121 241.8104)" class="st11 st12">Units (PCUs)</text>
+</g>
+<line class="st21" x1="864.5" y1="91.6" x2="878.7" y2="203.2"/>
+<line class="st21" x1="846.8" y1="151.9" x2="878.7" y2="203.2"/>
+<circle class="st22" cx="864.5" cy="91.6" r="2.8"/>
+<circle class="st22" cx="846.8" cy="151.9" r="2.8"/>
+</svg>

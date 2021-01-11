@@ -1,0 +1,65 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>CLA sum out of range - (Engine Fault Code 180/181)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-816</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent out of range voltage problem from the CLA to the PEC.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that VA+VB is outside the valid range of 5.0V to 12.0V for a confirmation time of 1 second (Pre Modsum 4W113558) or 5 seconds (Post Modsum 4W113558).</p><!-- !!!! -->
+	
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. For Pre Modsum 4W113558, this fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display. For Post Modsum 4W113558, this fault code is designated as unlimited despatch for TLD purposes, provided that repairs to correct and clear the fault are completed within 10 days of fault detection or within 150 flight hours of fault occurrence, whichever occurs later. Refer to the Continued Airworthiness Maintenance Tasks section of PMM 1096 Part 1.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>CLA condition quadrant </li><!-- !!!! -->
+		<li>Fuel control electrical wiring harness </li>
+		<li>PEC </li>
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/cla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+    
+<br>
+</clp-card>

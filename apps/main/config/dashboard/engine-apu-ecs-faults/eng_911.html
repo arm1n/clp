@@ -1,0 +1,85 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Low Fuel Pressure Detected - (Engine Fault Code 911)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-868</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>Fuel pressure is monitored through a dual channel electrical pressure switch (activated by a single mechanical plunger inside) mounted on the Fuel Control Unit. The switch is connected through the Instrumentation Harness and an Airframe Harness to the FADEC.</p><!-- !!!! -->
+
+    <p>The flow divider divides the fuel flow between primary and secondary fuel manifold for starting and steady state operation.</p><!-- !!!! -->
+
+    <p>The Low Fuel Pressure Switch is normally closed and is open when fuel pressure is higher than 5.5 psi.</p><!-- !!!! -->
+
+    <p>The FADEC supplies discrete data through the Engine Cockpit Interface Unit (ECIU) to the CAWP for the ENG FUEL PRESS caution indication. The CAUTION lamp is illuminated whenever either of the two switches are closed.</p><!-- !!!! -->
+
+    <p><strong>Fault code 911 is set when the following conditions are met:
+        - The engine is running
+        - Channel A and/or B of the Low Fuel Pressure switch is closed circuit for more than 1 second</strong>
+    </p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Flow Divider Valve </li>
+        <li>Low Fuel Pressure Switch </li>
+        <li>Fuel Metering Unit (FMU) </li>
+        <li>Airframe Motive Flow Tubing </li>
+        <li>Defective engine feed primary ejector pump </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/fmu.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/fuel_lowpx_sw.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/fuel_flowm.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+    </clp-grid>
+
+
+
+    <br>
+
+    <br>
+</clp-card>

@@ -1,0 +1,221 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>ENG ADPT HEAT 2</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 30-20-00-810-803</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/c3_d3_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<!-- General Start -->
+			<br>
+			<div>The CAWP ENG ADPT HEAT 2 caution light comes on when the timer and monitor unit (TMU) senses that the right engine intake adapter main and back-up heater elements have failed.</div>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> If the ENG ADPT HEAT 2 caution light comes on, the right HTR advisory light on the ICE PROTECTION panel will not come on.</clp-text-blue>
+			</div>
+			<br>
+			<div>The central diagnostic system (CDS) can show the related messages that follow:</div>
+
+			<br>
+			<div><strong>R ENG ADAPT HEATER 1 FAIL</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-20-00-810-805</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+			<div><strong>ENG ADAPT SWITCHING FAIL</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-20-00-810-802</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+			<div><strong>MONITOR 2 FAIL</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-00-00-810-812</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+
+
+			<div>The engine intake adapters are located on each engine inlet front case. The engine adapter heater has two 1000 W heating elements (one main and one spare). Each heater has an individual power and ground connection. Each heated adapter is controlled from the ENGINE INTAKE switch lights on the ICE PROTECTION panel.</div>
+			<br>
+			<div>If one heater element is u/s this is only logged in the CDS without any affect to the aeroplane operation. As you start engines with Bypass Doors open, the secondary heating element is automatically used as the system assumes that the primary element is u/s due to lack of AC power before props are unfeathered.</div>
+			<br>
+
+			<div>Power is supplied to the heater through a relay when all of the conditions that follow are met:</div>
+			<ul>
+				<li>Temperature measured by a thermostat in the fuselage is below +60 °F (+15.6 °C)</li>
+				<li>Related engine oil pressure switch is closed</li>
+				<li>ENGINE INTAKE switchlight has been pushed</li>
+				<li>115 Vac power is available</li>
+			</ul>
+
+			<br>
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card name="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the engine air intake anti-icing</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-21-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card name="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>M5</strong> DE-ICE CONT</div>
+						<div><strong>A7</strong> DE-ICE CONT</div>
+					</clp-td>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>A8</strong> AIRFRAME DEICE - AUTO DIST VLV</div>
+						<div><strong>S5</strong> DE-ICE CONT</div>
+					</clp-td>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>115V AC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div>INTK LIP HTR ENG 2</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card name="Quick reference reset guide">
+			<!-- Ref Start -->
+			
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
+			<br>
+			<div>
+				<clp-info-grey>
+					<strong>RESET CONDITION:<br></strong> Engines running at flight idle and the propellers unfeathered (115V AC)
+					<br>
+					<br>
+					<strong>CYCLE ENG ADAPTER Switch</strong> to <clp-text-blue><strong> "closed" and back to "open"</strong></clp-text-blue>
+				</clp-info-grey>
+			</div>
+
+			<br>
+			<br>
+			<clp-info-blue>
+				
+				<div><clp-img src="./units/icons/caution.svg" width="25" icon > </clp-img><strong> NOTE:</strong><br></div><br>
+				<div>IF "ENG ADPT HEAT" light goes out spare heater is burned. Messure spare and main heater resistance at next opportunity and replace heater as necessary to avoid A.O.G situation during icing condition.</div>
+				<br><br>
+				<div><strong>Background:</strong>
+					<br>Normally the system always starts with the primary heater. If the primary heater is not working, the relay 3000-K3 will switch to the spare heater.<br><br>
+					But if the bypass door is  in open position without running engines the system will start to heat but because of a lack of 115 V AC power the system will immediately switch over to the spare heater and stays on the spare heater.
+					<br><br>
+					Now if you start the engines and the spare heater gets damaged the system will not switch back to the primary heater.
+					<br><br>
+					The only way to use the primary heater in this situation is to close and open the bypass door again.</div>
+			</clp-info-blue>
+
+			<br>
+			<br>
+			<clp-info-border>
+				<div>The thermostat is a thermal and mechanical switch which is:</div>
+				<ul>
+					<li>energized <b>CLOSED</b> when the Outside Air Temp. (OAT) is <clp-text-red>60 ±4 °F (15 ±2 °C)</clp-text-red>
+					</li><br>
+					<li>and <b>OPENS</b> when the Outside Air Temp. (OAT) is <clp-text-red>2 to 5 °F (1 to 3 °C) above 60 ±4 °F (15 ±2 °C)</clp-text-red>. </li>
+				</ul>
+			</clp-info-border>
+			<br>
+
+
+			<clp-grid>
+				<clp-grid-column>
+					<clp-img src="./units/deice/desc/pic/int_heater.svg"></clp-img>
+				</clp-grid-column>
+				<clp-grid-column><br><br><br>
+					<p>
+						<clp-text-blue>NOTE:</clp-text-blue><br>RESISTANCE VALUE <clp-text-red>(A-B and C-D)</clp-text-red> SHALL BE BETWEEN <clp-text-red>10 TO 12 OHMS!</clp-text-red>
+					</p>
+				</clp-grid-column>
+			</clp-grid>
+
+			<div>SEE ALSO System Description ENGINE AIR INTAKE ANTI−ICING <clp-link-pdf>SDS TASK 30-21-00-001-001</clp-link-pdf>
+			</div>
+			<br>
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

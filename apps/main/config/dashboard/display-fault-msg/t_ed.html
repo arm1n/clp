@@ -1,0 +1,93 @@
+<clp-card name="Description">
+		<div><clp-info-red><strong><h4>T, the ED shows this message in green (Advisory)</h4></strong></clp-info-red></div>
+
+	<br>
+	<clp-table>
+		<clp-tr>
+		
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-842</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	
+	<p>The green T is shown on ED during the power−on self−test (POST) mode and stays in view for more than one minute, if the POST mode senses a discrepancy. The ED POST mode starts automatically after a long electrical power interruption while the aircraft is on the ground.</p>
+	
+	<p>An ED WARMING UP message is shown after the POST indication if the ED has sensed a low internal temperature and an internal heater has automatically come on.</p>
+	
+	<clp-text-blue><strong>NOTE:</strong> The EFCP2 PFD OFF, BRT knob is set to the BRT position to energize primary flight display 2 (PFD2) and control its brightness.The engine and system integrated display (ESID) system has a mono mode to view the system page with a composite permanent system data indication when the two multi-function displays (MFDs) malfunction or are set to show PFD, ED or navigation page indications. </clp-text-blue>
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			
+			<ul>
+				<li>Reset display unit circuit breakers PFD 1 or PFD 2 on avionics CB panel</li>
+				<ul><b>(A2)</b> PFD 1</ul>
+				<ul><b>(A5)</b> PFD 2</ul>
+				<br>
+				
+				<li>Reset display unit circuit breakers MFD 1 or MFD 2 on Avionics CB panel</li>
+				<ul><b>(B7)</b> MFD 1</ul>
+				<ul><b>(B6)</b> MFD 2</ul>
+				<br>
+				
+				<li>Reset display unit circuit breakers ESID on Avionics CB panel</li>
+				<ul><b>(B5)</b> ESID</ul>
+				<ul><b>(B11)</b> ESID</ul>
+				<br>
+				
+			</ul>
+			
+			<p></p>
+			
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+	
+	<br>
+
+	
+	<br>
+
+
+	<br>
+
+
+
+
+
+
+</clp-card>

@@ -1,0 +1,67 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>BLEED VLV STUCK OPEN ( Status ) - (APU Fault Code 047-0 to 047-5)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-50-00-810-801</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>The CDS shows the message when the Auxiliary Power Unit (APU) Full Authority Digital Electronic Controller (FADEC) senses that the bleed valve is stuck in an open condition during the watch, start, run, and shutdown modes.</p><!-- !!!! -->
+
+	<p>This is a Class 2 fault. The Caution and Warning Panel (CAWP) APU and APU CONTROL panel FAIL caution lights do not illuminate and the APU continues to operate.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Bleed Valve Filter </li><!-- UNIT -->
+        <li>Bleed Valve </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/bleed/units/apu_bl_vlv.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

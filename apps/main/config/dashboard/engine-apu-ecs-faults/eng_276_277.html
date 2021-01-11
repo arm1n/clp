@@ -1,0 +1,78 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>PEC, channel deselect discrete - (Engine Fault Code 276/277)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<div>
+		POST SB84-61-01
+		<clp-link-pdf>FIM TASK 61-20-06-810-827</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+	<br>
+	<div>
+		PRE SB84-61-01
+		<clp-link-pdf>FIM TASK 61-20-06-810-822</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br>
+<div><b>POST SB84-61-01</b></div>
+	<p>This task is for the Propeller Electronic Control Unit (PEC) fault code 276/277 − Channel deselect discrete.</p><!-- !!!! -->
+	
+	<p>This fault code is generated as a result of an apparent deselection of an input used only for software overlay purposes. This is an internal PEC fault.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that the software is trying to download or select overlay data.</p><!-- !!!! -->
+	
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	<br>
+	<div><b>PRE SB84-61-01</b></div>
+	<p>This fault code is generated as a result of an apparent mismatch in the PEC permissions required to unfeather the propeller in maintenance mode. This is an internal PEC fault.</p>
+	<p>The fault isolation logic has determined that (MANUAL UNFEATHER = on) and (MANUAL FEATHER = off) and (AF FET MON = off).</p>
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p>
+	
+	<br>
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+<br>
+</clp-card>

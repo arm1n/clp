@@ -1,0 +1,114 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>CHECK ED</h4></strong></clp-info-red></div>
+
+	<br>
+
+	<clp-table>
+
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-807</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+	<br>
+	<br>
+
+	<p>This fault isolation procedure is for when the engine display (ED) or multifunction displays (MFDs) show the [CHECK ED] message.</p>
+
+	<p>The ED or MFDs (system or navigation pages) show this message when an MFD senses a primary ED indication discrepancy for one or more of the parameters that follow:</p>
+
+	<ul>
+		<li>Torque</li>
+		<li>High pressure rotor speed (NH) </li>
+		<li>NH red limit </li>
+		<li>Propeller speed (NP) </li>
+		<li>Internal turbine temperature (ITT)</li>
+	</ul>
+
+	<div>
+		<clp-text-blue><strong>NOTE:</strong> If MFD 1 or MFD 2 is set to show ED indications, it will be monitored by the other MFD.</clp-text-blue>
+	</div>
+
+
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<!-- blaues feld -->
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			<ul>
+				
+				<br>
+				<p><b>Reset Display Unit circuit breakers MFD 1 (B7), MFD 2 (B6), ESID (B5) and ESID (B11) on avionics CB panel</b></p>
+				<li><b>AVIONICS CB PANEL:</b></li>
+				<ul><strong>B7</strong> MFD 1</ul>
+				<ul><strong>B6</strong> MFD 2</ul>
+				<ul><strong>B5</strong> ESID</ul>
+				<ul><strong>B11</strong> ESID</ul>
+			</ul>
+
+			
+
+
+		</div>
+	</clp-info-blue>
+	<br>
+	
+	<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>A2</strong> PFD 1</div>
+						<div><strong>A5</strong> PFD 2</div>
+						<div><strong>B7</strong> MFD 1</div>
+						<div><strong>B6</strong> MFD 2</div>
+						<div><strong>B5</strong> ESID</div>
+						<div><strong>B11</strong> ESID</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+	<!-- blaues feld -->
+
+
+
+	<br />
+
+
+</clp-card>

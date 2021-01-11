@@ -1,0 +1,98 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>DU BAD CONF (ground only)</h4></strong></clp-info-red></div>
+
+	<br>
+
+
+
+	<clp-table>
+
+		<clp-tr>
+			<clp-td>FAULT</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-806</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+
+	<br>
+	<br>
+
+	<p>The set ED shows this message when a display unit (primary flight display 1 [PFD1], multifunction display 1 [MFD1], ED, MFD2, or PFD2) senses that it does not receive valid aircraft configuration data from the two aircraft configuration modules (ACM1 and ACM2), or that the data is different.</p>
+
+	<p></p>
+
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong><br>The DU BAD CONF message can come into view only after a display unit (DU) power-on self-test (POST).</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong><br>The caution and warning panel (CAWP) AVIONICS caution light will also come on.</clp-text-blue>
+	</p>
+
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<!-- blaues feld -->
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<br>
+
+			<p><b>DU BAD CONFIG</b> Message on ED appears after Power-up of Displays.</p>
+			<ul>
+				<li>Turn <b>PFD 1 and 2</b>, <b>MFD 1 and 2</b> and <b>ED</b> Off then On one at a time</li>
+				<ul><clp-text-blue><strong>NOTE:</strong> Wait 30 seconds for self-test to complete on each
+          individual display before selecting the next display On.</clp-text-blue></ul>
+				<br>
+				<li>Reset <b>IOP 1</b> and <b>IOP 2</b> circuit breakers on Avionics CB pane</li>
+				<ul>IOP 1 (F7)</ul>
+				<ul>IOP 2 (F6)</ul>
+				<br>
+				<li>Check WOW Sensors</li>
+				<br>
+				
+			</ul>
+			<clp-text-red><strong>IF caution light remain on: - Maintenance action is required prior to flight.</strong></clp-text-red>
+
+
+
+		</div>
+	</clp-info-blue>
+	<!-- blaues feld -->
+
+
+
+	<br />
+
+
+</clp-card>

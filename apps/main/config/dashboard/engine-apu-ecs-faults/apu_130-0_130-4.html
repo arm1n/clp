@@ -1,0 +1,69 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>EGT T/C 1 AND 2 FAULT ( Status ) - (APU Fault Code 130-0 to 130-4)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-70-00-810-811</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>The CDS shows a 130-4 EGT T/C 1 AND 2 FAULT message when the auxiliary power unit (APU) full authority digital electronic controller (FADEC) senses an open or short in the thermocouple 1 and thermocouple 2 circuits.</p><!-- !!!! -->
+
+	<p>The CDS can also show the messages that follow:</p><!-- !!!! -->
+
+	<p>126−5 EGT T/C 1 SHORT/127−5 EGT T/C 2 SHORT/128−5 EGT T/C 1 OPEN/129−5 EGT T/C 2 OPEN</p><!-- !!!! -->
+
+	<p>The caution and warning panel (CAWP) APU and APU CONTROL panel FAIL caution lights can come on.</p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>APU FADEC </li><!-- UNIT -->
+        <li>Thermocouple </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_fadec.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_thermo_couple.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

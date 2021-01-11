@@ -1,0 +1,73 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>FADEC Rx Checksum error - (Engine Fault Code 24)</strong>
+	</div></clp-info-red>
+	
+	<br>
+	
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-01-810-811</clp-link-pdf>
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br />
+
+	<div>
+		This fault code is generated as a result of an apparent error in the data being received from the FADEC on the RS422 databus, indicated by an error in the checksum bit. For Post Modsum 4W113558, this fault will only be annunciated when the propeller is rotating.
+	</div>
+	<br>
+	<div>The fault isolation logic has determined that there is a checksum error on the RS422 databus.</div>
+		<br>
+	<div>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</div>
+	<br>
+	
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	<br />
+
+
+</clp-card>
+
+<br />
+
+
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>FADEC </li>
+		<li>Fuel control electrical wiring harness </li>
+		<li>PEC </li>
+
+
+
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+<br>
+</clp-card>

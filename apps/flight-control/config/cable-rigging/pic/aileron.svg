@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="aileron" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1035px" height="637.8px" viewBox="0 0 1035 637.8" style="enable-background:new 0 0 1035 637.8;" xml:space="preserve">
+<g id="clp-ail-lvdt">
+	<path id="clp-ail-lvdt-hl" style="fill:none;" d="M240,137.1H114.4c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h125.5
+		c2.5,0,4.5,2,4.5,4.5v18C244.4,135.1,242.4,137.1,240,137.1z"/>
+</g>
+<g id="clp-ail-split-quad">
+	<path id="clp-ail-split-quad-hl" style="fill:none;" d="M427.4,365.8H207.8c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h219.5
+		c2.5,0,4.5,2,4.5,4.5v18C431.8,363.8,429.8,365.8,427.4,365.8L427.4,365.8z"/>
+</g>
+<g id="clp-ail-term-quad">
+	<path id="clp-ail-term-quad-hl" style="fill:none;" d="M1010.4,549.4H778.8c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h231.5
+		c2.5,0,4.5,2,4.5,4.5v18C1014.8,547.4,1012.8,549.4,1010.4,549.4z M245.3,216.9H10.7c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5
+		h234.5c2.5,0,4.5,2,4.5,4.5v18C249.7,214.9,247.7,216.9,245.3,216.9L245.3,216.9z"/>
+</g>
+<g id="clp-ail-surface">
+	<path id="clp-ail-surface-hl" style="fill:none;" d="M1025.4,414.4h-77.6c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h77.5
+		c2.5,0,4.5,2,4.5,4.5v18C1029.8,412.4,1027.8,414.4,1025.4,414.4z M427.8,67.3h-69.6c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5
+		h69.5c2.5,0,4.5,2,4.5,4.5v18C432.2,65.3,430.2,67.3,427.8,67.3L427.8,67.3z"/>
+</g>
+<g id="clp-gustlock-mech">
+	<path id="clp-gustlock-mech-hl" style="fill:none;" d="M947.4,208.8H685.8c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h261.5
+		c2.5,0,4.5,2,4.5,4.5v18C951.8,206.8,949.8,208.8,947.4,208.8z"/>
+</g>
+<g id="clp-ail-fwd-quad">
+	<path id="clp-ail-fwd-quad-hl" style="fill:none;" d="M261,472.2H32.4c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h228.5
+		c2.5,0,4.5,2,4.5,4.5v18C265.4,470.2,263.4,472.2,261,472.2z"/>
+</g>
+<g id="clp-system">
+	<path id="Layer8_333_1_STROKES_25_" style="fill:#868686;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M601.8,290.3c0.9-0.5,1.8-0.5,2.8,0c0.9,0.4,1.6,1.1,2,2.2s0.4,2.1,0.1,3.2c-0.4,1.1-1,1.8-1.8,2.3c-0.9,0.4-1.8,0.5-2.7,0
+		c-0.9-0.4-1.6-1.2-2-2.2c-0.4-1.1-0.4-2.1-0.1-3.1C600.3,291.5,600.9,290.8,601.8,290.3z"/>
+	<path id="Layer8_333_1_STROKES_24_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M602.8,293.2c0.2-0.1,0.4-0.1,0.7,0c0.2,0.1,0.4,0.3,0.5,0.5c0.1,0.3,0.1,0.5,0,0.8s-0.2,0.4-0.4,0.6c-0.2,0.1-0.4,0.1-0.7,0
+		c-0.2-0.1-0.4-0.3-0.5-0.5c-0.1-0.3-0.1-0.5,0-0.8C602.4,293.5,602.6,293.3,602.8,293.2z"/>
+	<path id="Layer8_333_1_STROKES_9_" style="fill:#868686;stroke:#00A651;stroke-linecap:square;stroke-linejoin:round;" d="
+		M884.4,461.5c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6s-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5C884.2,459.6,884.6,460.5,884.4,461.5z"/>
+	<path id="Layer8_333_1_STROKES_8_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M880.3,460.8c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C880.2,460.3,880.3,460.6,880.3,460.8z"/>
+	<path id="Layer8_333_1_STROKES_2_" style="fill:#868686;stroke:#00A651;stroke-linecap:square;stroke-linejoin:round;" d="
+		M884.9,459c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6s-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5C884.7,457.1,885.1,458,884.9,459z"/>
+	<path id="Layer8_333_1_STROKES_1_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M880.8,458.3c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C880.7,457.9,880.8,458.1,880.8,458.3z"/>
+	<path id="Layer8_333_1_STROKES_17_" style="fill:#868686;stroke:#00AEEF;stroke-linecap:square;stroke-linejoin:round;" d="
+		M551.3,283.5c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6s-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5C551,281.6,551.4,282.5,551.3,283.5z"/>
+	<path id="Layer8_333_1_STROKES_16_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M547.1,282.8c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C547.1,282.4,547.2,282.6,547.1,282.8z"/>
+	
+		<path id="Layer8_333_1_STROKES_20_" style="fill:#868686;stroke:#00AEEF;stroke-width:0.75;stroke-linecap:square;stroke-linejoin:round;" d="
+		M553,279.6c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6s-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5C552.7,277.7,553.1,278.6,553,279.6z"/>
+	<path id="Layer8_333_1_STROKES_19_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M548.8,278.9c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C548.7,278.4,548.8,278.7,548.8,278.9z"/>
+	<path id="Layer8_333_1_STROKES_15_" style="fill:#868686;stroke:#00A651;stroke-linecap:square;stroke-linejoin:round;" d="
+		M621.1,318.7c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6s-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5S621.2,317.6,621.1,318.7z"/>
+	<path id="Layer8_333_1_STROKES_13_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M616.9,318c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C616.8,317.5,616.9,317.7,616.9,318z"/>
+	<path id="Layer8_333_1_STROKES_7_" style="fill:#868686;stroke:#00A651;stroke-linecap:square;stroke-linejoin:round;" d="
+		M621.2,314.8c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6s-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5C620.9,312.9,621.3,313.8,621.2,314.8z"/>
+	<path id="Layer8_333_1_STROKES_6_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M617,314.1c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C617,313.7,617,313.9,617,314.1z"/>
+	<path id="Layer8_333_1_STROKES_12_" style="fill:#868686;stroke:#00AEEF;stroke-linecap:square;stroke-linejoin:round;" d="
+		M352.7,154.7c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6c-1-0.9-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5S352.8,153.7,352.7,154.7L352.7,154.7z"/>
+	<path id="Layer8_333_1_STROKES_11_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M348.5,154c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4c-0.2-0.2-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4S348.5,153.7,348.5,154z"/>
+	<path id="Layer8_351_1_STROKES_3_" style="fill:#B1B1B1;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M565.8,298.7c1.8,1.1,4.1,1.6,6.7,1.6c2.6,0,4.9-0.5,6.8-1.6c1.9-1.1,2.8-2.4,2.8-3.9s-0.9-2.8-2.8-3.9s-4.1-1.6-6.8-1.6
+		c-2.6,0-4.9,0.5-6.7,1.6c-1.9,1.1-2.8,2.4-2.8,3.9C563,296.4,563.9,297.7,565.8,298.7z"/>
+	<path style="fill:#77C045;" d="M906,447.9l-6.7,4.3L946,483l-3.7,1.5l19.7,11.4l11.8-4.5L906,447.9L906,447.9z"/>
+	<path style="fill:#00AEEF;" d="M289.9,98.6l-8.1,6.8l14.6,7.8l3.8-3.5l41.2,22.2l4.7-3.9L289.9,98.6L289.9,98.6z"/>
+	
+		<path id="Layer8_2_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M280.7,530.4L222,472.3"/>
+	
+		<path id="Layer8_3_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M312.2,112.5l41.5-58.8"/>
+	
+		<path id="Layer8_4_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M905.5,469.5l-59,52.3"/>
+	
+		<path id="Layer8_5_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M935,471.4l51.4-57.1"/>
+	
+		<path id="Layer8_6_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M594.6,290.9l86.5-93.3"/>
+	
+		<path id="Layer8_8_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M244.3,123.7l70.5,6"/>
+	
+		<path id="Layer8_9_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M325.6,138.9l-75.8,63.8"/>
+	
+		<path id="Layer8_10_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M322.1,498.6h4.4c7.8,0,15.8-1.1,23.9-3.3"/>
+	
+		<path id="Layer8_11_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M661.1,374.7l-286,165.2"/>
+	
+		<path id="Layer8_12_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M786.9,302l-53.3,30.7"/>
+	
+		<path id="Layer8_13_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M659.6,262.2l78.8-45.5"/>
+	
+		<path id="Layer8_14_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M321.2,457.6L533.5,335"/>
+	
+		<path id="Layer8_15_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M249.6,587.4h3.9c4.1,0,9.4-0.6,15.7-1.8"/>
+	
+		<path id="Layer8_16_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M245.3,580.9c0,1.6,0.5,3,1.6,4.3s2.4,2,3.9,2.2"/>
+	
+		<path id="Layer8_17_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M321.2,457.6c-7.4,4.5-14.2,9.9-20.4,16c-6.4,6.4-11.7,13.3-15.9,20.6"/>
+	
+		<path id="Layer8_18_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M299.4,475.1c-1.6,2.3-2.4,4.8-2.4,7.5l0.1,1"/>
+	
+		<path id="Layer8_19_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M317,522.6c2.6,0.3,4.8,0.5,6.8,0.5c5.7,0,11.2-0.8,16.4-2.4"/>
+	
+		<path id="Layer8_20_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M339.7,520.4c8.8-2.3,17.4-5.9,25.7-11"/>
+	
+		<path id="Layer8_21_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M363.2,493.2c-1.6,0-3.6,0.2-5.9,0.6c-2.6,0.6-4.5,1-5.7,1.2"/>
+	
+		<path id="Layer8_22_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M365.6,509.3l2.2-1.5"/>
+	
+		<path id="Layer8_23_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M334.1,498.2l-6.8,24.7"/>
+	
+		<path id="Layer8_24_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M322.4,498.5l-20.5-0.4"/>
+	
+		<path id="Layer8_25_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M301.9,498.1l-4.8-14.2"/>
+	
+		<path id="Layer8_26_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M301.9,498.1l-13.3,21.4"/>
+	
+		<path id="Layer8_27_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M317.4,522.7l-28.8-3.1"/>
+	
+		<path id="Layer8_28_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M288.6,519.5l-7.7-17.2"/>
+	
+		<path id="Layer8_29_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M281,502.3l0.1-1.5l0.2-0.7l0.7-1.3"/>
+	
+		<path id="Layer8_30_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M562,234.1l66.5,38"/>
+	
+		<path id="Layer8_31_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M527.3,220.8L289.5,99"/>
+	
+		<path id="Layer8_32_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M282,105.2l7.5-6.2"/>
+	
+		<path id="Layer8_32_2_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M267.6,117.1l14.4-11.9"/>
+	
+		<path id="Layer8_33_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M270.8,121.7l-1-0.6l-1.5-1.5l-0.4-0.8l-0.2-0.8v-0.8"/>
+	
+		<path id="Layer8_34_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M722.6,362.4l1.6,0.6l3.5,0.5h1.8l3.6-0.5l3.1-1.2"/>
+	
+		<path id="Layer8_35_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M666.6,377.3l-60.2-29.2"/>
+	
+		<path id="Layer8_36_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M741.3,337.1l-69.4-39.8"/>
+	
+		<path id="Layer8_37_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M760.1,354.2l213.7,137.2"/>
+	
+		<path id="Layer8_38_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M961.9,496.2l11.8-4.8"/>
+	
+		<path id="Layer8_38_2_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M942.4,504.1l19.5-7.9"/>
+	
+		<path id="Layer8_39_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M934.4,502.4l2.3,1l2.7,0.6l3,0.1"/>
+	
+		<path id="Layer8_40_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M624.8,410.9l-7.5,8.2l-4.4,6l-1.4,3l-0.6,2.3v1.5l0.1,0.4l0.2,0.3l0.2,0.5l1,0.6l0.6,0.2l0.8,0.2l1,0.1l3.1-0.1l4.7-0.8l9.7-3.2
+		l2.7-1.1"/>
+	
+		<path id="Layer8_41_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M677.2,372.2l-30.9,20l-8.8,6.8L625,410.5l-0.2,0.3l-0.1,0.1l-0.2,0.3l-0.3,0.3"/>
+	
+		<path id="Layer8_42_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M636.9,445.9l0.6,0.1h0.7l0.6-0.1h0.5l2.1-0.7l7.1-3.1"/>
+	
+		<path id="Layer8_43_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M692.4,382.7l-1,1.5l-0.2,0.5l-0.2,1.2v0.9l0.2,0.7l0.1,0.2l0.1,0.4l0.3,0.6l0.6,0.9l0.4,0.2l0.8,0.3l0.4,0.1"/>
+	
+		<path id="Layer8_44_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M648.5,442l54.1-28.8"/>
+	
+		<path id="Layer8_45_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M798.3,349.3l8.1-7.5l3.4-4.4l1-1.9l0.7-2.4l0.1-0.7l0.2-0.7l0.2-1.4l-0.2-1.7l-0.2-0.5l-1-1.5l-1.6-1.5l-1.2-0.6l-0.6-0.1"/>
+	
+		<path id="Layer8_46_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M634.9,428.9l1-0.6l0.9-1l0.6-1.5l0.2-1.6l-0.6-3.9l-0.8-2l-2.3-3.8l-1.5-1.6l-1.6-1.2l-1.5-0.9l-1.6-0.5h-1.4l-1.2,0.4l-0.5,0.3"
+		/>
+	
+		<path id="Layer8_47_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M632.4,433l4,2.3"/>
+	
+		<path id="Layer8_48_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M636.4,442.3l0.7,0.2l0.6,0.1l0.6-0.1l0.5-0.3l0.3-0.6l0.2-0.6v-0.9l-0.2-0.9l-0.3-1l-0.5-0.9l-0.6-0.9l-0.6-0.6l-0.7-0.5"/>
+	
+		<path id="Layer8_49_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M636.7,445.8l-9.3-5.5"/>
+	
+		<path id="Layer8_50_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M807.8,325.5l-0.1-0.4l-0.2-0.3l-0.3-0.3l-0.3-0.2l-3.7-0.5l-9.7,0.5l-5.4,1.4l-5.2,0.4l-0.5,0.1l1.6,0.9l0.6,0.2l0.6,0.5l1.1,0.7
+		l0.5,0.2l1.5,1.5l1.7,2.3l0.6,0.6l0.2,0.1l0.4,0.2l0.7,0.2h0.3l1.9-0.2l6.5-1.9l3.6-1.5l1-0.6l1.8-1.6l0.3-0.5l0.2-0.5l0.2-0.5
+		l0.1-0.6L807.8,325.5L807.8,325.5z M774.9,324.7h1.4l0.9,0.2h0.6l0.5,0.2h0.5l0.6,0.1l2.8,1h0.1"/>
+	
+		<path id="Layer8_51_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M702.6,413.2l16-9.3"/>
+	
+		<path id="Layer8_52_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M935.6,502.9L694,390.6"/>
+	
+		<path id="Layer8_53_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M759.1,354.2l-8.5,1.8l-7.8,2.6l-6.9,3.2"/>
+	
+		<path id="Layer8_54_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M798.3,349.3l-19.4,14.2"/>
+	
+		<path id="Layer8_55_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M516.2,243.3l3.1,1l1.7,0.3l3.6,0.2l3.5-0.5l1.7-0.5l1.5-0.6"/>
+	
+		<path id="Layer8_56_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M561.9,234l-16.1,3.4l-7.7,2.5l-6.9,3.3"/>
+	
+		<path id="Layer8_58_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M659.6,262.2l-52,16.6"/>
+	
+		<path id="Layer8_59_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M485.3,272.4l56.2,38.3"/>
+	
+		<path id="Layer8_60_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M485.4,266l-0.2,0.3l-0.2,0.3l-0.2,0.2l-0.5,1.3l-0.1,0.3v1.7l0.1,0.3l0.5,1l0.1,0.3l0.5,0.8"/>
+	
+		<path id="Layer8_61_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M460.5,256.7l-189.7-135"/>
+	
+		<path id="Layer8_62_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M671.9,297.3l-0.8-1.2l-0.4-1.4l-0.1-0.8l0.1-0.7l0.2-0.7"/>
+	
+		<path id="Layer8_63_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M634.9,428.9l2.1-0.4l2.1,0.4l2.7,1"/>
+	
+		<path id="Layer8_64_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M623.9,435.9l0.2,0.6l1,1.9l1.4,1.5l0.8,0.4"/>
+	
+		<path id="Layer8_65_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M417.5,291.4L406.6,304l-1.6,2.7l-0.8,1.9l-0.6,2.3l-0.1,0.6v0.4l0.2,0.9l0.2,0.6l0.2,0.2l0.2,0.2l0.7,0.4l0.7,0.2l1.7,0.2l3.1-0.1
+		l7.8-1.6l9.3-3.5"/>
+	
+		<path id="Layer8_66_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M470.1,252.6l-28.1,18l-17.8,14.3l-6.1,5.8l-0.3,0.2l-0.1,0.3l-0.1,0.2l-0.2,0.2l-0.3,0.3"/>
+	
+		<path id="Layer8_67_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M429.7,326.2l0.5,0.2h1.4l0.5-0.2l1-0.2l0.5-0.2l0.7-0.2l7.1-3.1"/>
+	
+		<path id="Layer8_68_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M441.3,322.5l54.1-28.8"/>
+	
+		<path id="Layer8_69_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M591.1,229.6l8-7.5l3.4-4.4l1.1-1.9l1-3.1l0.2-2.1l-0.2-1.7l-0.2-0.5l-1-1.5l-1-1l-0.6-0.4l-1.2-0.6l-0.5-0.1"/>
+	
+		<path id="Layer8_70_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M427.7,309.3l1.1-0.6l0.9-1l0.5-1.4l0.2-1.7l-0.1-1.9l-0.5-2l-1.8-4l-2.8-3.4l-1.5-1.2l-1.5-0.9l-1.5-0.5l-1.5-0.1l-1.3,0.5
+		l-0.4,0.3"/>
+	
+		<path id="Layer8_71_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M424.9,313.2l4.3,2.5"/>
+	
+		<path id="Layer8_72_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M429.2,322.6l0.7,0.3l0.6,0.2l1.1-0.5l0.3-0.6l0.2-0.7v-0.7l-0.2-1l-0.3-1l-1.1-1.8l-0.6-0.6l-0.7-0.5"/>
+	
+		<path id="Layer8_73_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M429.5,326.2l-9.4-5.5"/>
+	
+		<path id="Layer8_74_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M599.8,208.2l0.6-1l0.2-0.5l0.1-0.5v-0.4l-0.1-0.5l-0.2-0.2l-0.2-0.3l-0.4-0.2l-2.4-0.4l-11,0.4l-4.3,1.1l-5.3,0.6l-1.2,0.4
+		l0.8,0.3l2.3,1.5l0.6,0.3l0.4,0.3l0.5,0.5l0.6,0.4l1.9,2.5l0.4,0.3l0.2,0.3l0.3,0.3l0.3,0.1l0.3,0.2l0.7,0.2h0.4l0.4-0.1h0.6
+		l0.8-0.2l7.9-2.3l2.3-1l2.2-1.7L599.8,208.2L599.8,208.2z M567.7,205l0.5,0.1h0.8l0.5,0.1h0.6l0.6,0.2h0.5l1,0.2l1.5,0.5l0.3,0.2
+		l0.5,0.2l0.9,0.5"/>
+	
+		<path id="Layer8_75_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M495.4,293.6l9.3-5.3"/>
+	
+		<path id="Layer8_76_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M591.1,229.6l-14.6,10.7"/>
+	
+		<path id="Layer8_77_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M427.7,309.3l1-0.3l1-0.1l1.1,0.1l1,0.2l2.3,0.8"/>
+	
+		<path id="Layer8_78_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M416.6,315.5l0.1,0.5l0.3,1l1,1.9l0.6,0.8l0.7,0.6l0.7,0.4"/>
+	
+		<path id="Layer8_79_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M567.6,204.9l-8.4,1.8l-2.9,1l-50,24.5"/>
+	
+		<path id="Layer8_80_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M775.4,324.7l-3.5,0.6l-7.8,2.2l-20.9,9.1l-29,15.4"/>
+	
+		<path id="Layer8_81_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M271.8,585.1c23.7-6.2,48-15.7,72.9-28.4c8.9-4.5,19.3-10.3,31.3-17.6"/>
+	
+		<path id="Layer8_82_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M284,495.8c-3,4.5-6,9.1-8.9,13.9c-9.5,15.6-17,30.2-22.6,43.7c-5.6,13.6-8,23.2-7.2,28.8"/>
+	
+		<path id="Layer8_83_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M527.3,410.1l-0.2,0.1L527.3,410.1z M527.3,410.1h0.2l0.2-0.1h0.1l0.1-0.1"/>
+	
+		<path id="Layer8_84_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M525.7,421.8h-0.6l-0.1-0.1h-0.1l-0.1-0.1h-0.1"/>
+	
+		<path id="Layer8_85_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M527.1,410.2l-1.8,0.9l-0.8,0.6"/>
+	
+		<path id="Layer8_86_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M526.1,421.6l0.9-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_87_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M524.1,420l-0.2-1.6l-1-3"/>
+	
+		<path id="Layer8_88_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M530.4,416.3l-1.5-5.6"/>
+	
+		<path id="Layer8_89_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M523.2,413.2l-0.2,0.2v0.4l-0.1,0.1v0.4l-0.1,0.2v0.8"/>
+	
+		<path id="Layer8_90_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M530.4,416.3l0.2,0.6v0.5l-0.2,0.9l-0.5,0.9l-0.7,0.6"/>
+	
+		<path id="Layer8_91_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M515.3,417.1l0.4-0.1l0.2,0.1h0.1"/>
+	
+		<path id="Layer8_92_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M513.7,428.8l0.2-0.1L513.7,428.8z M513.7,428.8l-1,0.1v-0.1h-0.1l-0.2-0.2h-0.1v-0.1"/>
+	
+		<path id="Layer8_93_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M514.8,417.4l-0.9,0.4l-1.8,1"/>
+	
+		<path id="Layer8_94_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M513.7,428.8l3.3-1.9"/>
+	
+		<path id="Layer8_95_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M511.8,427.2l-1.2-4.7"/>
+	
+		<path id="Layer8_96_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M518.1,423.5l-0.2-1.5l-1.3-4.2"/>
+	
+		<path id="Layer8_97_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M518.1,423.5l0.2,1l-0.1,0.5l-0.3,0.9l-0.2,0.4l-0.3,0.4l-0.3,0.2"/>
+	
+		<path id="Layer8_98_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M502.5,424.4h0.7l0.1,0.1h0.1l0.2,0.2"/>
+	
+		<path id="Layer8_99_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M499.9,436l0.2,0.2h0.8l0.2-0.2h0.1l0.1-0.1l-0.1,0.1"/>
+	
+		<path id="Layer8_100_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M502.1,424.6l-2.6,1.5"/>
+	
+		<path id="Layer8_101_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M501.1,436l1-0.5l2.3-1.5"/>
+	
+		<path id="Layer8_102_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M499.1,434.4l-0.2-1.5l-1-3.1"/>
+	
+		<path id="Layer8_103_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M505.4,430.8l-0.2-1.6l-1.3-4.1"/>
+	
+		<path id="Layer8_104_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M499.1,426.5l-0.5,0.5l-0.1,0.2l-0.2,0.5l-0.1,0.2l-0.1,0.2l-0.1,0.1v0.5"/>
+	
+		<path id="Layer8_105_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M505.4,430.8l0.2,0.4v0.6l-0.2,0.8l-0.5,0.9l-0.3,0.4l-0.3,0.2"/>
+	
+		<path id="Layer8_106_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M490,431.6l-0.2,0.1h-0.1L490,431.6z M490,431.6l0.2-0.1h0.1l0.2-0.1h0.4"/>
+	
+		<path id="Layer8_107_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M488.7,443.1l0.2-0.1L488.7,443.1z M488.7,443.1l-0.2,0.2h-0.7v-0.1h-0.1l-0.1-0.1h-0.1l-0.1-0.1h-0.1l-0.2-0.2v-0.2l-0.1-0.1
+		l-0.1-0.2v-0.1l-0.1-0.2v-0.1l-0.1-0.2v-0.5"/>
+	
+		<path id="Layer8_108_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M489.8,431.7l-1.8,0.9l-0.8,0.6"/>
+	
+		<path id="Layer8_109_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M488.8,443.1l1-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_110_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M486.9,441.6l-1.2-4.7"/>
+	
+		<path id="Layer8_111_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M493.2,437.8l-1.5-5.7"/>
+	
+		<path id="Layer8_112_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M486.2,434.4l-0.2,0.2l-0.1,0.2l-0.1,0.1l-0.1,0.2l-0.1,0.2v1.1"/>
+	
+		<path id="Layer8_113_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M493.2,437.8v0.6l0.1,0.4l-0.2,1l-0.2,0.4l-0.6,0.8l-0.4,0.3"/>
+	
+		<path id="Layer8_114_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M477.5,438.9l-0.2,0.1L477.5,438.9z M477.5,438.9l0.2-0.1l0.2-0.1h0.5l0.1,0.1h0.1l0.1,0.1h0.1l0.2,0.2h0.1"/>
+	
+		<path id="Layer8_115_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M474.4,449v0.4l0.1,0.1v0.3h0.1v0.2h0.1l0.1,0.2l0.2,0.2h0.1v0.1h0.1l0.1,0.1h0.8v-0.1h0.2l0.1-0.1h0.1l-0.2,0.1"/>
+	
+		<path id="Layer8_116_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M477.2,438.9l-0.8,0.4l-1.8,1.1"/>
+	
+		<path id="Layer8_117_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M476.2,450.5l1-0.5l2.3-1.5"/>
+	
+		<path id="Layer8_118_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M474.3,448.8l-1.3-4.7"/>
+	
+		<path id="Layer8_119_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M480.5,445.2l-0.2-1.5l-1.3-4.3"/>
+	
+		<path id="Layer8_120_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M473.3,442.3l-0.1,0.2l-0.1,0.2v0.2L473,443v0.9"/>
+	
+		<path id="Layer8_121_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M480.5,445.2l0.2,0.9l-0.1,0.6l-0.2,0.4l-0.1,0.5l-0.6,0.8l-0.3,0.2"/>
+	
+		<path id="Layer8_122_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M465.4,445.9h0.6l0.1,0.1h0.1l0.1,0.1h0.1"/>
+	
+		<path id="Layer8_123_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M463.9,457.6l0.2-0.1L463.9,457.6z M463.9,457.6l-0.2,0.1h-0.2l-0.1,0.1h-0.3l-0.1-0.1h-0.2l-0.1-0.1h-0.1v-0.1l-0.1-0.1v-0.1h-0.1
+		l-0.1-0.1v-0.1l-0.2-0.2"/>
+	
+		<path id="Layer8_124_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M464.9,446l-2.5,1.5"/>
+	
+		<path id="Layer8_125_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M463.9,457.5l0.9-0.3l2.3-1.5"/>
+	
+		<path id="Layer8_126_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M461.9,455.9l-0.2-1.5l-0.9-3.1"/>
+	
+		<path id="Layer8_127_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M468.3,452.2l-1.6-5.7"/>
+	
+		<path id="Layer8_128_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M460.9,449.7v0.2l-0.1,0.1v1.4"/>
+	
+		<path id="Layer8_129_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M468.3,452.2l0.1,0.5v1l-0.3,0.9l-0.2,0.4l-0.7,0.7"/>
+	
+		<path id="Layer8_130_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M452.5,453.3l-0.2,0.1L452.5,453.3z M452.5,453.3l0.2-0.1h0.1l0.1-0.1h0.6"/>
+	
+		<path id="Layer8_131_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M449.9,464.7l0.2,0.1l0.1,0.1h0.1l0.1,0.1h0.5l0.1-0.1h0.1l0.1-0.1h0.1l0.2-0.1v0.1h-0.2"/>
+	
+		<path id="Layer8_132_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M452.3,453.4l-1.7,0.9l-0.8,0.6"/>
+	
+		<path id="Layer8_133_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M451.3,464.8l1.8-0.9l1.5-1"/>
+	
+		<path id="Layer8_134_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M449.4,463.3l-1.2-4.7"/>
+	
+		<path id="Layer8_135_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M455.6,459.5l-1.5-5.7"/>
+	
+		<path id="Layer8_136_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M455.6,459.5l0.2,1l-0.1,0.6l-0.3,0.8l-0.6,0.8l-0.4,0.3"/>
+	
+		<path id="Layer8_137_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M440.2,460.4l-0.2,0.1L440.2,460.4z M440.2,460.4l1-0.1l0.1,0.1h0.1l0.1,0.1v0.1h0.1l0.1,0.1v0.2"/>
+	
+		<path id="Layer8_138_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M438.9,472l0.2-0.2l-0.1,0.1L438.9,472L438.9,472z M438.9,472l-0.2,0.1h-0.1l-0.2,0.1H438l-0.1-0.1h-0.1V472h-0.1l-0.2-0.2h-0.1
+		v-0.1l-0.2-0.2v-0.1h-0.1l-0.1-0.1v-0.2l-0.1-0.2l-0.1-0.1v-0.6"/>
+	
+		<path id="Layer8_139_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M440,460.5l-2.6,1.5"/>
+	
+		<path id="Layer8_140_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M439,471.9l3.3-1.9"/>
+	
+		<path id="Layer8_141_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M437,470.3l-1.2-4.7"/>
+	
+		<path id="Layer8_142_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M443.3,466.7l-0.2-1.6l-1.3-4.1"/>
+	
+		<path id="Layer8_143_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M436.5,462.8l-0.2,0.5l-0.1,0.1l-0.1,0.2l-0.1,0.2l-0.1,0.2v0.1l-0.2,0.3v0.6"/>
+	
+		<path id="Layer8_144_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M443.3,466.7l0.1,0.4v1l-0.2,0.5l-0.1,0.5l-0.3,0.3l-0.3,0.5l-0.3,0.2"/>
+	
+		<path id="Layer8_145_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M427.9,467.5l-0.2,0.1L427.9,467.5z M427.9,467.5l0.3-0.1l0.1-0.1h0.4l0.1,0.1h0.2l0.4,0.4"/>
+	
+		<path id="Layer8_146_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M425.3,478.8l-0.2-0.5"/>
+	
+		<path id="Layer8_147_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M427.8,467.6l-0.9,0.4l-1.7,1.1"/>
+	
+		<path id="Layer8_148_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M426.7,479l1.8-0.9l1.5-1"/>
+	
+		<path id="Layer8_149_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M424.8,477.4l-1.2-4.6"/>
+	
+		<path id="Layer8_150_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M431.1,473.8l-1.5-5.8"/>
+	
+		<path id="Layer8_151_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M423.7,471.1v0.6l-0.1,0.2v0.9"/>
+	
+		<path id="Layer8_152_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M431.1,473.8l0.1,0.5v1l-0.1,0.4l-0.5,0.9l-0.7,0.6"/>
+	
+		<path id="Layer8_153_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M626,363.9l0.2-0.1L626,363.9z M626,363.9l-0.2,0.1h-0.2l-0.1,0.1h-0.2l-0.1-0.1H625l-0.1-0.1h-0.1l-0.3-0.3l-0.1-0.2v-0.1"/>
+	
+		<path id="Layer8_154_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M626,363.9l1.8-0.8l1.5-1"/>
+	
+		<path id="Layer8_155_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M624,362.3l-0.2-1.5l-0.9-3.1"/>
+	
+		<path id="Layer8_156_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M602.4,366.8l-0.2,0.1L602.4,366.8z M602.4,366.8h0.2l0.2-0.1h0.5l0.1,0.1h0.1l0.2,0.1h0.1l0.1,0.1v0.1h0.1"/>
+	
+		<path id="Layer8_157_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M601,378.4h0.2H601z M601,378.4l-0.2,0.1h-0.2l-0.1,0.1h-0.2l-0.2-0.1H600l-0.1-0.1h-0.1l-0.1-0.1h-0.1v-0.1l-0.4-0.4v-0.2
+		l-0.1-0.1v-0.4"/>
+	
+		<path id="Layer8_158_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M602.1,366.8l-2.6,1.5"/>
+	
+		<path id="Layer8_159_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M601.1,378.3l1-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_160_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M599.2,376.7l-1.3-4.6"/>
+	
+		<path id="Layer8_161_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M605.4,373l-0.2-1.6l-1.3-4.1"/>
+	
+		<path id="Layer8_162_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M598.4,369.7l-0.3,0.6v0.2l-0.1,0.1l-0.1,0.2v0.9"/>
+	
+		<path id="Layer8_163_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M605.4,373l0.2,1l-0.3,1.4l-1,1.1"/>
+	
+		<path id="Layer8_164_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M589.7,374l-0.1,0.2L589.7,374z M589.7,374h0.2l0.1-0.1h0.2l0.1-0.1h0.2l0.1,0.1h0.2l0.1,0.1h0.2l0.1,0.1v0.1"/>
+	
+		<path id="Layer8_165_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M588.4,385.6l0.2-0.1L588.4,385.6z M588.4,385.6h-0.2l-0.1,0.1h-0.6l-0.1-0.1h-0.1v-0.1h-0.1l-0.1-0.1H587"/>
+	
+		<path id="Layer8_166_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M589.6,374.2l-0.9,0.4l-1.8,1"/>
+	
+		<path id="Layer8_167_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M588.6,385.5l0.9-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_168_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M586.6,384l-0.3-1.6l-1-3.1"/>
+	
+		<path id="Layer8_169_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M592.9,380.3l-0.3-1.5l-1.3-4.2"/>
+	
+		<path id="Layer8_170_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M585.4,378.4v0.6"/>
+	
+		<path id="Layer8_171_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M592.9,380.3l0.1,0.5v0.5l-0.2,0.9l-0.2,0.4l-0.2,0.5l-0.7,0.6"/>
+	
+		<path id="Layer8_172_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M577.5,381.1l-0.2,0.2l0.1-0.1L577.5,381.1L577.5,381.1z M577.5,381.1h0.2V381h0.8v0.1h0.1l0.3,0.3"/>
+	
+		<path id="Layer8_173_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M575.9,392.9h-0.7l-0.2-0.2l-0.3-0.3"/>
+	
+		<path id="Layer8_174_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M577.2,381.3l-2.6,1.5"/>
+	
+		<path id="Layer8_175_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M576.2,392.7l3.3-1.9"/>
+	
+		<path id="Layer8_176_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M574.2,391.1l-1.1-4.7"/>
+	
+		<path id="Layer8_177_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M580.6,387.4l-1.5-5.6"/>
+	
+		<path id="Layer8_178_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M574.3,383l-0.3,0.3l-0.1,0.2l-0.2,0.2l-0.1,0.2l-0.2,0.2l-0.3,0.6v0.3l-0.1,0.2v0.6"/>
+	
+		<path id="Layer8_179_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M580.6,387.4v1.5l-0.1,0.4l-0.7,1.3l-0.4,0.2"/>
+	
+		<path id="Layer8_180_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M566.1,388.5h-0.2l-0.1-0.1h-0.1l-0.1-0.1h-0.2l-0.1-0.1h-0.1l-0.1,0.1H565v0.1h-0.2l-0.1,0.1h-0.2l0.2-0.1"/>
+	
+		<path id="Layer8_181_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M563.6,400l-0.2,0.2h-0.8l-0.2-0.2"/>
+	
+		<path id="Layer8_182_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M564.6,388.5l-1.7,0.9L562,390"/>
+	
+		<path id="Layer8_183_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M563.5,400l1-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_184_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M561.7,398.3l-1.2-4.6"/>
+	
+		<path id="Layer8_185_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M568,394.7l-0.3-1.6l-1.2-4.1"/>
+	
+		<path id="Layer8_186_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M560.7,391.6l-0.1,0.2l-0.1,0.2v0.2l-0.1,0.1v0.6"/>
+	
+		<path id="Layer8_187_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M568,394.7l0.1,0.5v0.5l-0.2,0.9l-0.2,0.4l-0.6,0.8l-0.4,0.3"/>
+	
+		<path id="Layer8_188_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M553,395.4l-0.2,0.1h-0.2l-0.1,0.1h-0.1l-0.2,0.2l0.1-0.1l0.2-0.1"/>
+	
+		<path id="Layer8_189_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M551.2,407.1l0.2-0.1l-0.1,0.1H551.2L551.2,407.1z M551.2,407.1l-1,0.1l-0.1-0.1H550V407h-0.1l-0.2-0.2v-0.1l-0.1-0.1v-0.1
+		l-0.2-0.2v-0.2l-0.1-0.2v0.1l-0.1-0.2v-0.5"/>
+	
+		<path id="Layer8_190_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M552.2,395.7l-0.7,0.3l-1.8,1.1"/>
+	
+		<path id="Layer8_191_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M551.3,407.1l1-0.5l2.3-1.5"/>
+	
+		<path id="Layer8_192_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M549.3,405.5l-1.2-4.7"/>
+	
+		<path id="Layer8_193_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M555.6,401.8l-1.5-5.8"/>
+	
+		<path id="Layer8_194_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M548.7,398.3l-0.2,0.3l-0.2,0.3l-0.1,0.1l-0.1,0.2v0.3l-0.1,0.1v0.8"/>
+	
+		<path id="Layer8_195_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M555.6,401.8l0.2,0.9l-0.1,0.6l-0.3,0.9l-0.2,0.4l-0.3,0.4l-0.3,0.2"/>
+	
+		<path id="Layer8_196_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M538.1,414.3l0.3,0.1l0.1-0.1h0.2l0.1-0.1h0.2l0.1-0.1l0.2-0.1l-0.2,0.2"/>
+	
+		<path id="Layer8_197_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M540.1,402.7l-2.7,1.5"/>
+	
+		<path id="Layer8_198_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M539,414.1l0.9-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_199_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M537.1,412.5l-0.3-1.6l-1-3"/>
+	
+		<path id="Layer8_200_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M543.3,408.9l-0.2-1.6l-1.3-4.1"/>
+	
+		<path id="Layer8_201_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M535.9,406.5v0.7l-0.1,0.2v0.4"/>
+	
+		<path id="Layer8_202_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M543.3,408.9l0.2,0.5v0.9l-0.3,1l-0.2,0.4l-0.7,0.7"/>
+	
+		<path id="Layer8_203_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M755.2,278.5l-0.2,0.1h-0.1L755.2,278.5z M755.2,278.5l0.2-0.1h0.2l0.1-0.1h0.1"/>
+	
+		<path id="Layer8_204_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M753.6,290.1H753l-0.2-0.2h-0.1l-0.1-0.1h-0.1v-0.1l-0.2-0.2v-0.1l-0.1-0.1v-0.1l-0.1-0.1v-0.2l-0.1-0.1v0.2l-0.1-0.1v-0.4"/>
+	
+		<path id="Layer8_205_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M754.9,278.5l-0.9,0.4l-1.7,1.1"/>
+	
+		<path id="Layer8_206_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M754,290l1.8-0.9l1.5-1"/>
+	
+		<path id="Layer8_207_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M752,288.4l-0.2-1.5l-1-3.1"/>
+	
+		<path id="Layer8_208_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M758.3,284.7l-0.3-1.6l-1.3-4.2"/>
+	
+		<path id="Layer8_209_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M750.8,282.4v0.4"/>
+	
+		<path id="Layer8_210_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M758.3,284.7l0.1,0.5v0.9l-0.2,0.5l-0.5,0.9l-0.2,0.3l-0.4,0.4"/>
+	
+		<path id="Layer8_211_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M742.9,285.6l-0.2,0.1L742.9,285.6z M742.9,285.6l0.4-0.1l0.1-0.1h0.2v0.1h0.2"/>
+	
+		<path id="Layer8_212_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M741.7,297.2h-0.2l-0.1,0.1h-0.1l-0.1,0.1h-0.6"/>
+	
+		<path id="Layer8_213_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M742.6,285.6l-2.6,1.5"/>
+	
+		<path id="Layer8_214_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M741.6,297.2l1.9-1l1.5-1"/>
+	
+		<path id="Layer8_215_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M739.7,295.5l-1.3-4.7"/>
+	
+		<path id="Layer8_216_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M745.9,291.9l-0.2-1.6l-1.3-4.2"/>
+	
+		<path id="Layer8_217_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M738.8,288.6l-0.2,0.5v0.2l-0.1,0.2v0.1l-0.1,0.2v1"/>
+	
+		<path id="Layer8_218_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M745.9,291.9l0.2,0.9l-0.1,0.5l-0.2,0.4l-0.1,0.5l-0.6,0.8l-0.3,0.2"/>
+	
+		<path id="Layer8_219_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M730.2,292.9L730,293L730.2,292.9z M730.2,292.9l0.2-0.1h0.8"/>
+	
+		<path id="Layer8_220_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M730.1,293l-2.7,1.5"/>
+	
+		<path id="Layer8_221_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M729,304.4l0.9-0.4l2.3-1.5"/>
+	
+		<path id="Layer8_222_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M727.1,302.8l-0.3-1.6l-1-3.1"/>
+	
+		<path id="Layer8_223_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M733.4,299.2l-0.3-1.6l-1.3-4.1"/>
+	
+		<path id="Layer8_224_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M733.4,299.2l0.1,0.4v0.6l-0.2,1l-0.2,0.4l-0.2,0.3l-0.4,0.4l-0.2,0.3"/>
+	
+		<path id="Layer8_225_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M717.9,300l-0.2,0.1L717.9,300z M717.9,300l0.2-0.1h0.2l0.1-0.1h0.2l0.1,0.1h0.2v0.1l0.1,0.1"/>
+	
+		<path id="Layer8_226_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M716.6,311.6l0.2-0.1L716.6,311.6z M716.6,311.6h-0.2l-0.1,0.1h-0.5"/>
+	
+		<path id="Layer8_227_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M717.7,300.1l-0.9,0.4l-1.7,1.1"/>
+	
+		<path id="Layer8_228_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M716.7,311.6l1.8-1l1.5-1"/>
+	
+		<path id="Layer8_229_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M714.7,310l-1.2-4.7"/>
+	
+		<path id="Layer8_230_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M721.1,306.3l-1.6-5.8"/>
+	
+		<path id="Layer8_231_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M714.1,302.6l-0.2,0.5"/>
+	
+		<path id="Layer8_232_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M721.1,306.3l0.1,0.5v0.4l-0.2,1l-0.5,0.9l-0.7,0.6"/>
+	
+		<path id="Layer8_233_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M705.2,307.3l-2.7,1.5"/>
+	
+		<path id="Layer8_234_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M708.5,313.5l-0.3-1.6l-1.2-4.1"/>
+	
+		<path id="Layer8_235_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M702.5,308.8l-0.1,0.2l-0.2,0.2l-0.2,0.2l-0.2,0.1l-0.2,0.2v0.2l-0.1,0.2l-0.2,0.2l-0.1,0.2l-0.1,0.2l-0.2,0.3l-0.1,0.1l0.2-0.1
+		v0.8"/>
+	
+		<path id="Layer8_236_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M708.5,313.5l0.1,0.5v0.9l-0.1,0.5l-0.7,1.3l-0.4,0.2"/>
+	
+		<path id="Layer8_237_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M767.5,270.8h0.7"/>
+	
+		<path id="Layer8_238_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M766,282.5l0.2-0.1h0.1L766,282.5z M766,282.5l-0.2,0.1h-0.1l-0.2,0.1h-0.3v-0.1H765l-0.1-0.1h-0.1l-0.1-0.1h-0.2v-0.1l-0.2-0.2
+		V282l-0.1-0.1v-0.2l-0.2-0.2v-0.4"/>
+	
+		<path id="Layer8_239_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M767.1,271l-0.9,0.4l-1.7,1"/>
+	
+		<path id="Layer8_240_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M766.1,282.4l1.9-0.9l1.5-1"/>
+	
+		<path id="Layer8_241_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M764.1,280.9l-1.1-4.7"/>
+	
+		<path id="Layer8_242_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M770.5,277.2l-1.5-5.7"/>
+	
+		<path id="Layer8_243_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M763.4,273.8l-0.2,0.3l-0.1,0.1l-0.1,0.2l-0.1,0.2v1.1"/>
+	
+		<path id="Layer8_244_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M770.5,277.2v0.5l0.1,0.5l-0.2,1l-0.7,1.1l-0.4,0.4"/>
+	
+		<path id="Layer8_245_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M391.7,520.2l0.6-5.6l-0.2-6.8l-1.3-7.2l-5.2-14.9l-5.3-9.7"/>
+	
+		<path id="Layer8_246_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M411.4,509.4l0.6-6.2l-0.3-6.8l-1.2-7.2l-2.1-7.4l-6.8-14.7l-1.8-2.7"/>
+	
+		<path id="Layer8_247_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M381.2,468.6l11.8-6.8"/>
+	
+		<path id="Layer8_248_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M399.9,464.5l-0.3-0.6l-1.4-1.4l-1.6-0.8l-1.6-0.3l-0.8,0.1l-1.5,0.5"/>
+	
+		<path id="Layer8_249_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M381.2,468.6l-0.9,0.9l-0.5,0.6l-0.5,1.6l-0.1,0.9l0.1,0.9l0.5,1.7l0.5,0.8"/>
+	
+		<path id="Layer8_250_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M409.6,512.6l-15.8,9.2"/>
+	
+		<path id="Layer8_251_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M409.6,512.6l1.3-1.5l0.6-1.7"/>
+	
+		<path id="Layer8_252_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M362.4,493.2l5.3,14.6"/>
+	
+		<path id="Layer8_253_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M347.7,535.5c-0.5-0.4-0.8-1-0.8-1.9c0-1,0.3-2,0.9-3s1.3-1.7,2.1-2.2c0.9-0.5,1.6-0.5,2.1-0.2s0.8,1,0.8,1.9
+		c-0.1,0.9-0.3,1.9-0.9,2.9s-1.3,1.7-2.1,2.2S348.3,535.8,347.7,535.5z"/>
+	
+		<path id="Layer8_254_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M349.6,528.6v-0.8l-0.2-0.9l-0.5-0.6l-0.7-0.3l-0.9,0.2l-1,0.6l-0.9,0.8l-0.8,1l-0.6,1.2l-0.3,1.2l-0.1,1l0.2,0.9l0.6,0.6l0.6,0.2
+		l0.9-0.2l0.9-0.4"/>
+	
+		<path id="Layer8_258_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M322.8,539c1.2,0.8,1.9,2.1,1.9,4s-0.6,3.9-1.9,6c-1.2,2-2.7,3.5-4.4,4.5c-1.8,1-3.2,1.1-4.4,0.4s-1.8-2-1.8-3.9c0-2,0.6-4,1.9-6
+		c1.2-2.1,2.7-3.6,4.4-4.6S321.6,538.3,322.8,539z"/>
+	
+		<path id="Layer8_259_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M321.7,538.7l26.6-3"/>
+	
+		<path id="Layer8_260_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M350.1,535.1l34.2-19.5"/>
+	
+		<path id="Layer8_261_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M345.4,527.6l-25.6,24.9"/>
+	
+		<path id="Layer8_262_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M347.3,526.2l34.5-19.7"/>
+	
+		<path id="Layer8_263_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M317.8,464.9l279.7-161.2"/>
+	
+		<path id="Layer8_264_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M319.1,472.3l-1.3,44.4"/>
+	
+		<path id="Layer8_265_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M314.7,514.8l0.6-45.1"/>
+	
+		<path id="Layer8_266_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M315.3,522l-31.6,17"/>
+	
+		<path id="Layer8_267_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M310.1,520.7l-23.1,3.4"/>
+	
+		<path id="Layer8_268_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M285.6,522.4l23,10.6"/>
+	
+		<path id="Layer8_269_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M308.8,522.2l-0.2,17.8l-18.1-8.3"/>
+	
+		<path id="Layer8_270_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M286.9,504.6l0.2,1.6l0.9,2.5l1.3,2l0.6,0.5l0.5,0.5l1,0.5l0.6,0.2h0.6l0.4-0.2l0.9-0.5l0.4-0.6l0.2-0.5l0.3-1.2l0.1-0.7l-0.1-1.7"
+		/>
+	
+		<path id="Layer8_271_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M305.7,515.5l0.2,1.6l0.2,0.7l0.2,0.8l0.7,1.5l0.9,1.4l1,0.9l1,0.6l0.6,0.1h0.5l0.5-0.2l0.4-0.2l0.7-0.8l0.2-0.6l0.2-1.3v-1.5"/>
+	
+		<path id="Layer8_272_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M321.4,545.9l0.1,0.4v0.5l-0.1,0.6l-0.2,0.5l-0.2,0.4l-0.5,0.3l-0.4,0.4l-1.6,1.2l-0.7,0.5l-1,0.8l-0.2,0.1l0.2-1.2v-0.5l0.6-2.2
+		l0.1-0.4l0.6-0.8l0.7-0.9l1.1-0.6h0.3l0.2,0.1l0.3,0.2l0.2,0.2l0.2,0.2L321.4,545.9z"/>
+	
+		<path id="Layer8_273_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M284.2,537.3l0.5-0.3l1.2-1.2l0.5-0.2l1.3-0.8l0.9-0.3l1.1-0.2h0.5l0.5,0.1l0.4,0.2l0.2,0.2l0.2,0.2l0.1,0.2l0.1,0.3v0.3l-0.3,0.7
+		l-0.6,0.7l-0.5,0.2l-0.5,0.2l-0.6,0.1l-0.6-0.1H288l-3-0.2h-0.6L284.2,537.3L284.2,537.3z"/>
+	
+		<path id="Layer8_274_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M290.6,511.9l-0.2,22.4"/>
+	
+		<path id="Layer8_275_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M316.6,551.6L304.9,540l3.7-6.9"/>
+	
+		<path id="Layer8_277_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M285.6,522.4l-1.5,14.9"/>
+	
+		<path id="Layer8_280_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M322.8,466.9l278.6-159.8"/>
+	
+		<path id="Layer8_283_1_STROKES" style="fill:none;stroke:#00A651;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M565.5,294l44.9,25.1"/>
+	
+		<path id="Layer8_285_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M576.8,287.5l21.6-8.8"/>
+	
+		<path id="Layer8_286_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M604.5,304.1c0.7-1.2,1-2.4,1-3.6c-0.1-1.2-0.4-2-1.1-2.3c-0.8-0.4-1.6-0.2-2.6,0.4s-1.9,1.5-2.6,2.7c-0.6,1.3-1,2.5-1,3.6
+		c0.1,1.1,0.4,1.9,1.1,2.3c0.7,0.4,1.6,0.3,2.6-0.3C603.1,306.2,603.9,305.3,604.5,304.1L604.5,304.1z"/>
+	
+		<path id="Layer8_287_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M598.4,287.4l5.6,2.7"/>
+	
+		<path id="Layer8_288_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M600,300.3l0.5-1.7v-1.4l-0.3-1.1l-0.6-0.6l-0.9-0.3l-1,0.2l-1.1,0.6l-1,1l-0.9,1.3l-0.7,1.5l-0.3,1.5l-0.1,1.4l0.4,1l0.6,0.7
+		l1,0.3l1-0.2l1.2-0.6l1-1l0.4-0.5"/>
+	
+		<path id="Layer8_291_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M381.1,505.1l0.2,0.2v0.1l0.2,0.2v0.2h0.1v0.2h0.1"/>
+	
+		<path id="Layer8_292_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M383.1,508.2l-0.2-0.1V508h-0.2l-0.1-0.1v-0.1h-0.1l-0.2-0.2h-0.1v-0.1l-0.2-0.2v-0.1l-0.1-0.1h-0.1v-0.4l-0.1-0.1"/>
+	
+		<path id="Layer8_295_1_STROKES" style="fill:none;stroke:#ED1C24;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M598.2,288.5l-18.7,10.1"/>
+	
+		<path id="Layer8_296_1_STROKES" style="fill:none;stroke:#00AEEF;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M570.8,280.7l-21.8,1.7"/>
+	
+		<path id="Layer8_298_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M383.9,513.3l0.2,0.1v0.1h0.1l0.1,0.1h0.2v0.1l0.1,0.1h0.1l0.1,0.1v0.1h0.1l0.1,0.1v0.2h0.1v0.1l0.1,0.1v0.2h0.1v0.2l0.1,0.1"/>
+	
+		<path id="Layer8_299_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M386.4,516.9l-0.2-0.1l-0.1-0.1H386l-0.1-0.1v-0.1h-0.1l-0.1-0.1h-0.1l-0.1-0.1v-0.1l-0.1-0.1V516h-0.1l-0.1-0.1v-0.2l-0.1-0.1
+		l-0.1-0.2"/>
+	
+		<path id="Layer8_301_1_STROKES" style="fill:none;stroke:#00AEEF;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M541.5,285L346,157.6"/>
+	
+		<path id="Layer8_316_1_STROKES" style="fill:none;stroke:#00AEEF;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M325.6,138.9l16,15.5"/>
+	
+		<path id="Layer8_320_1_STROKES_1_" style="fill:none;stroke:#00A651;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M615.6,317.7l258.9,141.9"/>
+	
+		<path id="Layer8_321_1_STROKES" style="fill:none;stroke:#00A651;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M615.5,321.6l160.9,86.1l98.3,55.2"/>
+	<path id="Layer8_333_1_STROKES" style="fill:#868686;stroke:#00A651;stroke-linecap:square;stroke-linejoin:round;" d="M917,470
+		c-0.2,1.8-1.4,3.1-3.5,4.1c-2,1-4.4,1.3-7.1,1c-2.7-0.4-4.9-1.3-6.6-2.8c-1.7-1.5-2.5-3.1-2.3-4.8c0.3-1.7,1.4-3.1,3.5-4
+		c2.1-1,4.5-1.3,7.1-1c2.7,0.4,4.9,1.3,6.6,2.7C916.5,466.6,917.2,468.2,917,470L917,470z"/>
+	
+		<path id="Layer8_335_1_STROKES" style="fill:none;stroke:#00A651;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M880.9,461.8l25.7,0.6"/>
+	
+		<path id="Layer8_336_1_STROKES" style="fill:none;stroke:#00A651;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M879.1,464.5l21.1,8.2"/>
+	
+		<path id="Layer8_341_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M905.8,448.1l-6.4,4.1"/>
+	
+		<path id="Layer8_342_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M899.3,452.2l47.1,30.6"/>
+	
+		<path id="Layer8_343_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M946.5,482.9l-4.1,1.7"/>
+	
+		<path id="Layer8_344_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M942.3,484.5l19.7,11.4"/>
+	
+		<path id="Layer8_345_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M281.5,105.2l14.8,8"/>
+	
+		<path id="Layer8_346_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M296.4,113.2l3.8-3.5"/>
+	
+		<path id="Layer8_347_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M300.1,109.7l41.2,22.2"/>
+	
+		<path id="Layer8_348_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M341.3,131.8l4.7-3.9"/>
+	
+		<path id="Layer8_349_1_STROKES" style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M786.9,301.9c6-4.5,8.8-12,8.5-22.7s-3.7-21.7-10.2-32.9c-6.3-11-14.1-19.4-23.2-25.1c-9.1-5.7-17-7.2-23.8-4.4"/>
+	
+		<path id="Layer8_350_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M733.4,219.5l-0.3,0.4"/>
+	<path id="Layer8_352_1_STROKES" style="fill:#868686;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="M278,540.2
+		c-1.3-0.7-1.9-2.1-1.9-4.3c0-2.1,0.6-4.2,1.9-6.4s2.8-3.8,4.7-4.9c1.8-1,3.4-1.2,4.7-0.5c1.3,0.8,1.9,2.2,1.9,4.3s-0.6,4.3-1.9,6.5
+		s-2.8,3.8-4.7,4.9C280.8,540.8,279.3,541,278,540.2z"/>
+	
+		<path id="Layer8_362_1_STROKES" style="fill:none;stroke:#00A651;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M581.9,289.9l28.6,25.1"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" d="M1025.4,414.4h-77.6c-2.5,0-4.5-2-4.5-4.5v-18
+		c0-2.5,2-4.5,4.5-4.5h77.5c2.5,0,4.5,2,4.5,4.5v18C1029.8,412.4,1027.8,414.4,1025.4,414.4z M1010.4,549.4H778.8
+		c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h231.5c2.5,0,4.5,2,4.5,4.5v18C1014.8,547.4,1012.8,549.4,1010.4,549.4z M261,472.2
+		H32.4c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h228.5c2.5,0,4.5,2,4.5,4.5v18C265.4,470.2,263.4,472.2,261,472.2z
+		 M427.4,365.8H207.8c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h219.5c2.5,0,4.5,2,4.5,4.5v18
+		C431.8,363.8,429.8,365.8,427.4,365.8L427.4,365.8z M245.3,216.9H10.7c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h234.5
+		c2.5,0,4.5,2,4.5,4.5v18C249.7,214.9,247.7,216.9,245.3,216.9L245.3,216.9z M240,137.1H114.4c-2.5,0-4.5-2-4.5-4.5v-18
+		c0-2.5,2-4.5,4.5-4.5h125.5c2.5,0,4.5,2,4.5,4.5v18C244.4,135.1,242.4,137.1,240,137.1z M427.8,67.3h-69.6c-2.5,0-4.5-2-4.5-4.5
+		v-18c0-2.5,2-4.5,4.5-4.5h69.5c2.5,0,4.5,2,4.5,4.5v18C432.2,65.3,430.2,67.3,427.8,67.3L427.8,67.3z M947.4,208.8H685.8
+		c-2.5,0-4.5-2-4.5-4.5v-18c0-2.5,2-4.5,4.5-4.5h261.5c2.5,0,4.5,2,4.5,4.5v18C951.8,206.8,949.8,208.8,947.4,208.8L947.4,208.8z"/>
+	<text transform="matrix(1 0 0 1 783.019 542.446)" style="font-family:'ArialMT'; font-size:19px;">Aileron Terminal Quadrant</text>
+	<text transform="matrix(1 0 0 1 957.047 406.644)" style="font-family:'ArialMT'; font-size:19px;">Aileron</text>
+	<text transform="matrix(1 0 0 1 690.944 201.305)" style="font-family:'ArialMT'; font-size:19px;">Aileron Gust Lock Mechanism</text>
+	<text transform="matrix(1 0 0 1 363.27 59.743)" style="font-family:'ArialMT'; font-size:19px;">Aileron</text>
+	<text transform="matrix(1 0 0 1 125.114 129.941)" style="font-family:'ArialMT'; font-size:19px;">Aileron LVDT</text>
+	<text transform="matrix(1 0 0 1 19.09 209.556)" style="font-family:'ArialMT'; font-size:19px;">Aileron Terminal Quadrant</text>
+	<text transform="matrix(1 0 0 1 213.717 359.022)" style="font-family:'ArialMT'; font-size:19px;">Aileron Splitter Quadrant</text>
+	<text transform="matrix(1 0 0 1 37.141 464.748)" style="font-family:'ArialMT'; font-size:19px;">Aileron Forward Quadrant</text>
+	<path id="Layer8_351_1_STROKES_1_" style="fill:#868686;stroke:#00A651;stroke-linecap:square;stroke-linejoin:round;" d="
+		M566,294.4c1.8,1.1,4.1,1.6,6.7,1.6c2.6,0,4.9-0.5,6.8-1.6c1.9-1.1,2.8-2.4,2.8-3.9s-0.9-2.8-2.8-3.9s-4.1-1.6-6.8-1.6
+		c-2.6,0-4.9,0.5-6.7,1.6c-1.9,1.1-2.8,2.4-2.8,3.9C563.2,292.1,564.1,293.4,566,294.4z"/>
+	<path id="Layer8_351_1_STROKES_7_" style="fill:#868686;stroke:#00AEEF;stroke-linecap:square;stroke-linejoin:round;" d="
+		M324.7,138c1.5,1.4,3.6,2.3,6.1,2.8s4.7,0.4,6.7-0.4s3.1-1.9,3.4-3.4s-0.3-2.9-1.9-4.4c-1.6-1.4-3.6-2.3-6.2-2.8
+		c-2.5-0.5-4.7-0.4-6.7,0.4s-3.1,1.9-3.4,3.4C322.5,135.3,323.1,136.7,324.7,138z"/>
+	
+		<path id="Layer8_300_1_STROKES" style="fill:none;stroke:#00AEEF;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M542.7,280.7L348.4,152.5"/>
+	
+		<path id="Layer8_318_1_STROKES" style="fill:none;stroke:#00AEEF;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M345.5,150.6l-5.2-15.5"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0001;" d="
+		M415.7,198.1l1.1-1.8l6.4,4.1l-1.1,1.8L415.7,198.1z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0001;" d="
+		M422.3,202l0.6-1l4.1,2.6l-0.6,1L422.3,202z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0001;" d="
+		M411.8,195.1l0.6-1l4.1,2.6l-0.6,1L411.8,195.1z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0001;" d="
+		M422.3,208.4l1.1-1.8l6.4,4.1l-1.1,1.8L422.3,208.4z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0001;" d="
+		M429,212.2l0.6-1l4.1,2.6l-0.6,1L429,212.2z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0001;" d="
+		M418.3,205.5l0.6-1l4.1,2.6l-0.6,1L418.3,205.5z"/>
+	<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="M780.3,408.7l1-1.8
+		l6.7,3.7l-1,1.8L780.3,408.7z"/>
+	<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="M787.2,412.2
+		l0.6-1.1l4.3,2.4l-0.6,1.1L787.2,412.2z"/>
+	<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="M776.1,406.1
+		l0.6-1.1l4.3,2.4l-0.6,1.1L776.1,406.1z"/>
+	<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="M794.5,419l1-1.8
+		l6.7,3.7l-1,1.8L794.5,419z"/>
+	<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="M801.4,422.3
+		l0.6-1.1l4.3,2.4l-0.6,1.1L801.4,422.3z"/>
+	<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="M790.3,416.2
+		l0.6-1.1l4.3,2.4l-0.6,1.1L790.3,416.2z"/>
+	<path id="Layer8_351_1_STROKES" style="fill:#B1B1B1;stroke:#00AEEF;stroke-linecap:square;stroke-linejoin:round;" d="M566,290.1
+		c1.8,1.1,4.1,1.6,6.7,1.6c2.6,0,4.9-0.5,6.8-1.6c1.9-1.1,2.8-2.4,2.8-3.9s-0.9-2.8-2.8-3.9s-4.1-1.6-6.8-1.6
+		c-2.6,0-4.9,0.5-6.7,1.6c-1.9,1.1-2.8,2.4-2.8,3.9C563.2,287.8,564.1,289.1,566,290.1z"/>
+	
+		<path id="Layer8_361_1_STROKES" style="fill:none;stroke:#00AEEF;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="
+		M570.3,291.5l-24.5-4.9"/>
+	<path style="fill:none;stroke:#B1B1B1;stroke-width:0.55;stroke-linecap:square;stroke-linejoin:round;" d="M533.5,335
+		c5.9-3.7,9.2-9.4,8.5-20.4 M549.2,303.2c-4.3,2.3-7,5.8-7.2,11.4"/>
+	<path id="Layer8_255_1_STROKES_1_" style="fill:#B1B1B1;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M316.1,471.7c-0.6-0.4-0.9-1-0.9-1.9c0-1,0.3-2,0.9-3s1.3-1.7,2.2-2.2c0.9-0.5,1.6-0.6,2.2-0.2s0.9,1,0.9,2c0,0.9-0.3,1.9-0.9,2.9
+		s-1.3,1.7-2.2,2.2C317.5,472,316.7,472,316.1,471.7z"/>
+	<path id="Layer8_255_1_STROKES_6_" style="fill:#B1B1B1;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M319.6,473.9c-0.6-0.4-0.9-1-0.9-1.9c0-1,0.3-2,0.9-3s1.3-1.7,2.2-2.2c0.9-0.5,1.6-0.6,2.2-0.2s0.9,1,0.9,2c0,0.9-0.3,1.9-0.9,2.9
+		s-1.3,1.7-2.2,2.2C321,474.2,320.2,474.2,319.6,473.9z"/>
+	
+		<path id="Layer8_255_1_STROKES" style="fill:#B1B1B1;stroke:#ED1C24;stroke-width:0.75;stroke-linecap:square;stroke-linejoin:round;" d="
+		M309.6,520.6c-0.6-0.4-0.9-1-0.9-1.9c0-1,0.3-2,0.9-3s1.3-1.7,2.2-2.2c0.9-0.5,1.6-0.6,2.2-0.2c0.6,0.4,0.9,1,0.9,2
+		c0,0.9-0.3,1.9-0.9,2.9s-1.3,1.7-2.2,2.2C311,520.9,310.2,520.9,309.6,520.6z"/>
+	<path id="Layer8_255_1_STROKES_2_" d="M311.2,518.1c-0.2-0.1-0.3-0.3-0.3-0.5c0-0.3,0.1-0.6,0.3-0.9c0.2-0.3,0.4-0.5,0.6-0.6
+		c0.3-0.1,0.5-0.2,0.6-0.1c0.2,0.1,0.3,0.3,0.3,0.6s-0.1,0.5-0.3,0.8c-0.2,0.3-0.4,0.5-0.6,0.6C311.7,518.2,311.4,518.2,311.2,518.1
+		L311.2,518.1z"/>
+	
+		<path id="Layer8_255_1_STROKES_5_" style="fill:#B1B1B1;stroke:#ED1C24;stroke-width:0.75;stroke-linecap:square;stroke-linejoin:round;" d="
+		M313,522.4c-0.6-0.4-0.9-1-0.9-1.9c0-1,0.3-2,0.9-3s1.3-1.7,2.2-2.2c0.9-0.5,1.6-0.6,2.2-0.2c0.6,0.4,0.9,1,0.9,2
+		c0,0.9-0.3,1.9-0.9,2.9s-1.3,1.7-2.2,2.2C314.4,522.7,313.6,522.7,313,522.4z"/>
+	<path id="Layer8_255_1_STROKES_4_" d="M314.6,519.9c-0.2-0.1-0.3-0.3-0.3-0.5c0-0.3,0.1-0.6,0.3-0.9c0.2-0.3,0.4-0.5,0.6-0.6
+		c0.3-0.1,0.5-0.2,0.6-0.1c0.2,0.1,0.3,0.3,0.3,0.6s-0.1,0.5-0.3,0.8c-0.2,0.3-0.4,0.5-0.6,0.6S314.8,519.9,314.6,519.9L314.6,519.9
+		z"/>
+	<path id="Layer8_255_1_STROKES_3_" d="M317.8,469.3c-0.2-0.1-0.3-0.3-0.3-0.5c0-0.3,0.1-0.6,0.3-0.9c0.2-0.3,0.4-0.5,0.6-0.6
+		c0.3-0.1,0.5-0.2,0.6-0.1c0.2,0.1,0.3,0.3,0.3,0.6s-0.1,0.5-0.3,0.8c-0.2,0.3-0.4,0.5-0.6,0.6S318,469.3,317.8,469.3z"/>
+	<path id="Layer8_255_1_STROKES_7_" d="M321.2,471.3c-0.2-0.1-0.3-0.3-0.3-0.5c0-0.3,0.1-0.6,0.3-0.9c0.2-0.3,0.4-0.5,0.6-0.6
+		c0.3-0.1,0.5-0.2,0.6-0.1c0.2,0.1,0.3,0.3,0.3,0.6s-0.1,0.5-0.3,0.8c-0.2,0.3-0.4,0.5-0.6,0.6S321.4,471.3,321.2,471.3z"/>
+	<path id="Layer8_333_1_STROKES_10_" style="fill:#868686;stroke:#00AEEF;stroke-linecap:square;stroke-linejoin:round;" d="
+		M356.2,149.7c-0.1,1-0.8,1.8-2,2.4c-1.1,0.6-2.5,0.7-4.1,0.6c-1.5-0.2-2.8-0.7-3.8-1.6c-1-0.9-1.4-1.8-1.3-2.8c0.2-1,0.8-1.8,2-2.3
+		c1.2-0.6,2.6-0.7,4.1-0.6c1.5,0.2,2.8,0.7,3.8,1.5S356.3,148.6,356.2,149.7L356.2,149.7z"/>
+	<path id="Layer8_333_1_STROKES_14_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M352,149c0,0.3-0.2,0.4-0.5,0.6c-0.3,0.1-0.6,0.2-1,0.1s-0.7-0.2-0.9-0.4s-0.4-0.4-0.3-0.7c0-0.2,0.2-0.4,0.5-0.6
+		c0.3-0.1,0.6-0.2,1-0.1s0.7,0.2,0.9,0.4C352,148.5,352.1,148.7,352,149z"/>
+	<path id="Layer8_333_1_STROKES_3_" d="M910.2,469c-0.1,0.5-0.4,0.8-0.9,1.1c-0.5,0.3-1.2,0.3-1.9,0.3c-0.7-0.1-1.3-0.3-1.8-0.7
+		s-0.7-0.8-0.6-1.3c0.1-0.5,0.4-0.8,0.9-1.1c0.6-0.3,1.2-0.3,1.9-0.3c0.7,0.1,1.3,0.3,1.8,0.7C910.1,468.1,910.3,468.5,910.2,469z"
+		/>
+	<path id="Layer8_351_1_STROKES_4_" d="M330.4,135.8c0.3,0.3,0.8,0.5,1.4,0.6s1.1,0.1,1.5-0.1c0.4-0.2,0.7-0.4,0.8-0.8
+		c0.1-0.3-0.1-0.7-0.4-1s-0.8-0.5-1.4-0.6s-1.1-0.1-1.5,0.1c-0.4,0.2-0.7,0.4-0.8,0.8C329.9,135.2,330,135.5,330.4,135.8z"/>
+	<path id="Layer8_351_1_STROKES_2_" d="M570.9,286.9c0.5,0.3,1.1,0.4,1.8,0.4s1.3-0.1,1.9-0.4c0.5-0.3,0.8-0.7,0.8-1.1
+		s-0.2-0.8-0.8-1.1c-0.5-0.3-1.1-0.4-1.9-0.4c-0.7,0-1.3,0.1-1.8,0.4s-0.8,0.7-0.8,1.1C570.2,286.2,570.4,286.6,570.9,286.9z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;" d="
+		M317.6,494.7l0.2-7.6l2.1,0.1l-0.2,7.6L317.6,494.7z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;" d="
+		M317.8,499.8l0.1-4.9l1.2,0l-0.1,4.9L317.8,499.8z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;" d="
+		M318.1,487l0.1-4.9l1.2,0l-0.1,4.9L318.1,487z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0002;" d="
+		M314,498.6l0-7.6l2.1,0l0,7.6L314,498.6z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0002;" d="
+		M314.3,503.7l0-4.9l1.2,0l0,4.9L314.3,503.7z"/>
+	
+		<path style="fill:#ED1C24;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0002;" d="
+		M314.3,491l0-4.9l1.2,0l0,4.9L314.3,491z"/>
+	<path id="Layer8_352_1_STROKES_1_" d="M281.6,534.5c-0.4-0.2-0.6-0.6-0.6-1.3c0-0.6,0.2-1.3,0.6-1.9s0.8-1.1,1.4-1.5
+		c0.5-0.3,1-0.4,1.4-0.1c0.4,0.2,0.6,0.7,0.6,1.3s-0.2,1.3-0.6,1.9s-0.8,1.1-1.4,1.5C282.5,534.7,282,534.8,281.6,534.5z"/>
+	<path d="M316.8,125.9l-0.6-0.5l-5.4,6.5l2.4,2l5.4-6.5l-0.6-0.5l3.3-4l-1.2-1L316.8,125.9z"/>
+	<path id="Layer8_333_1_STROKES_5_" style="fill:#868686;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M599.2,294.7c1,0.4,1.5,1.2,1.8,2.4c0.3,1.2,0.1,2.5-0.5,3.8s-1.4,2.3-2.5,2.9s-2.1,0.8-3,0.4s-1.5-1.2-1.7-2.4
+		c-0.2-1.2-0.1-2.5,0.5-3.8s1.4-2.3,2.4-3C597.2,294.4,598.2,294.3,599.2,294.7z"/>
+	<path id="Layer8_333_1_STROKES_4_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M597.4,298.2c0.2,0.1,0.4,0.3,0.4,0.6c0.1,0.3,0,0.6-0.1,0.9s-0.3,0.6-0.6,0.7c-0.3,0.2-0.5,0.2-0.7,0.1s-0.4-0.3-0.4-0.6
+		c-0.1-0.3,0-0.6,0.1-0.9s0.3-0.6,0.6-0.7S597.2,298.1,597.4,298.2z"/>
+	<path id="Layer8_333_1_STROKES_21_" style="fill:#868686;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M603.7,297.8c1,0.4,1.5,1.2,1.8,2.4c0.3,1.2,0.1,2.5-0.5,3.8s-1.4,2.3-2.5,2.9s-2.1,0.8-3,0.4s-1.5-1.2-1.7-2.4
+		c-0.2-1.2-0.1-2.5,0.5-3.8s1.4-2.3,2.4-3C601.8,297.6,602.8,297.4,603.7,297.8z"/>
+	<path id="Layer8_333_1_STROKES_18_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M602,301.4c0.2,0.1,0.4,0.3,0.4,0.6c0.1,0.3,0,0.6-0.1,0.9s-0.3,0.6-0.6,0.7c-0.3,0.2-0.5,0.2-0.7,0.1s-0.4-0.3-0.4-0.6
+		c-0.1-0.3,0-0.6,0.1-0.9s0.3-0.6,0.6-0.7C601.5,301.3,601.8,301.3,602,301.4z"/>
+	<path id="Layer8_333_1_STROKES_23_" style="fill:#868686;stroke:#ED1C24;stroke-linecap:square;stroke-linejoin:round;" d="
+		M599.8,278.9c1,0.3,1.6,1,2,2.1s0.3,2.2-0.1,3.5c-0.5,1.2-1.2,2.2-2.2,2.9c-1,0.6-2,0.9-2.9,0.6s-1.6-1-1.9-2.1
+		c-0.4-1.1-0.3-2.3,0.1-3.5c0.5-1.2,1.2-2.2,2.1-2.9C597.9,278.8,598.9,278.6,599.8,278.9L599.8,278.9z"/>
+	<path id="Layer8_333_1_STROKES_22_" style="stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M598.5,282.3c0.2,0.1,0.4,0.2,0.5,0.5s0.1,0.5,0,0.9c-0.1,0.3-0.3,0.5-0.5,0.7s-0.5,0.2-0.7,0.1s-0.4-0.2-0.5-0.5s-0.1-0.6,0-0.9
+		s0.3-0.5,0.5-0.7S598.2,282.2,598.5,282.3z"/>
+	
+		<path id="Layer8_7_1_STROKES" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;" d="
+		M572.7,285.9l-141.1,67.6"/>
+</g>
+</svg>

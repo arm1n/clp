@@ -1,0 +1,65 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>I − BIT aborted: Lane change occured - (Engine Fault Code 74/75)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	<br>
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-02-810-837</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br />
+
+	<div>This fault code is generated as a result of the failure of the propeller system to successfully complete an autofeather test (Pre Modsum 4W113558), or an autofeather, OSG or automated flight fine stop test (Post Modsum 4W113558), resulting from the PEC changing lanes during the test. This can only be assumed to be as a result of a non−related problem arising during the test process.</div><!-- !!!! -->
+	<br>
+	<div>The fault isolation logic has detected that the control lane within the PEC has changed from B to A, or A to B.</div><!-- !!!! -->
+	<br>
+	<div>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes. This fault code does NOT change the previous status of the autofeather test pass/fail and is a diagnostic fault code to show the AF test was aborted. This fault code only shows for 5 seconds and then self clears.</div><!-- !!!! -->
+	<br>
+	<div>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken.</div><!-- !!!! -->
+	<br>
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	<br />
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Unrelated fault (in conjunction with other fault codes) </li><!-- !!!! -->
+		<li>Local PEC fault </li>
+		
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	
+<br>
+</clp-card>

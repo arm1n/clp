@@ -1,0 +1,69 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Local NP MPU extra/missing pulses - (Engine Fault Code 160/161)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-813</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of a loss of local NP MPU (dual pulse probe) signal. The fault code can also be generated as a result of a loss of synchrophasing and results in NQa being used for speed control.</p><!-- !!!! -->
+	
+	<p>The fault accommodation logic has determined that there is an inconsistency in the speed signals between the NP MPU and the gearbox torque shaft.</p><!-- !!!! -->
+	
+	<p>This fault code is designated as No Dispatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display and the PEC caution light may also come on.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Slip ring assembly target screws </li><!-- !!!! -->
+		<li>Contact between the busbar and the MPU bracket </li>
+		<li>MPU installation </li>
+        <li>MPU adjustment </li>
+        <li>PEC wiring harness </li>
+        <li>MPU </li>
+		<li>PEC </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/prop_osg.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pulse_probe.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+    
+<br>
+</clp-card>

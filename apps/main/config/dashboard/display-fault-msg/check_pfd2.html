@@ -1,0 +1,123 @@
+<clp-card name="Description">
+	
+	<div><clp-info-red><strong><h4>[CHECK PFD2] message on PFD1 or PFD2 and the MFD2</h4></strong></clp-info-red></div>
+
+	<br>
+
+
+
+	<clp-table>
+
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-805</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+
+	<br>
+	<br>
+
+
+	<p><b>BOLD</b></p>
+
+	<p>The PFDs and MFDs (system or navigation pages) show this message when the MFD1/2 or PFD2/1 senses a difference in PFD1/2 indication for one or more of these parameters:</p>
+	<ul>
+		<li>Altitude</li>
+		<li>Airspeed</li>
+		<li>Pitch</li>
+		<li>Roll</li>
+		<li>Heading</li>
+	</ul>
+	<p></p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong><br>If the MFD1 is set to show PFD1/2 messages, or if it fails, it will not monitor PFD1/2 parameters.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong><br> If the PFD2 fails, the MFD2 monitors the PFD1. The MFD1 continues to monitor the PFD1.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong><br> If the MFD1 is set to show PFD1 messages, it is monitored by the PFD2, or by the MFD2 if the PFD2 fails.</clp-text-blue>
+	</p>
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<!-- blaues feld -->
+	<clp-info-blue>
+		<div>
+
+			<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+			<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+			<clp-table>
+				
+				<clp-tr>
+					<clp-td><strong> A2 </strong></clp-td>
+					<clp-td>PFD 1 </clp-td>
+				</clp-tr>
+				<clp-tr>
+					<clp-td><strong>A5</strong></clp-td>
+					<clp-td> PFD 2 </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td><strong> B7 </strong></clp-td>
+					<clp-td> MFD 1 </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td><strong> B6 </strong></clp-td>
+					<clp-td> MFD 2 </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td><strong> B5 </strong></clp-td>
+					<clp-td> ESID </clp-td>
+				</clp-tr>
+
+				<clp-tr>
+					<clp-td><strong> B11 </strong></clp-td>
+					<clp-td> ESID </clp-td>
+				</clp-tr>
+			</clp-table>
+
+			
+
+		</div>
+	</clp-info-blue>
+	<!-- blaues feld -->
+
+
+
+	<br />
+
+
+</clp-card>

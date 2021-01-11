@@ -1,0 +1,247 @@
+<svg id="fuel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1078.5 590.8">
+  <style>
+    .st0,.st1,.st2{fill:#0ff;fill-opacity:.102}.st1,.st2{fill:red}.st2{fill-opacity:5.098039e-2}.st3{fill:none}.st4,.st5{fill:none;stroke:#000;stroke-width:.6683;stroke-miterlimit:6.0754}.st5{stroke:#1a181b;stroke-width:.3645}.st6,.st7{fill:none;stroke:#999;stroke-width:1.2151;stroke-miterlimit:7.2905}.st7{stroke:#ccc;stroke-miterlimit:6.0754}.st8{fill:#1a181b}.st9{fill:none;stroke:#1a181b;stroke-width:.3645;stroke-miterlimit:6.0753}.st10,.st11,.st12{fill:none;stroke:#000;stroke-width:1.2151;stroke-miterlimit:6.0754}.st11,.st12{stroke:#1a181b;stroke-width:.1823}.st12{stroke-width:.6683}.st13{font-family:&apos;ArialMT&apos;}.st14{font-size:12px}.st15{font-size:13px}.st16{fill:#009fde}.st17{fill:#1673b2;stroke-width:.5;stroke-miterlimit:10}.st17,.st18,.st19{stroke:#1a181b}.st18{fill:none;stroke-width:1.2758;stroke-miterlimit:6.0754}.st19{fill:#87888a;stroke-width:.5;stroke-miterlimit:10}.st20{fill:#1d1d1b}.st21{fill:#09f}.st22{fill:#0ff}
+  </style>
+  <g id="clp-hintergrund">
+    <path class="st0" d="M21 455.4h66.8V231L21 244.4v211z"/>
+    <path class="st1" d="M466 280.1c0-1.6-.8-2.4-2.4-2.4h-67.4c-1.6 0-2.4.8-2.4 2.4v172.8c0 1.6.8 2.4 2.4 2.4h67.4c1.6 0 2.4-.8 2.4-2.4V280.1z"/>
+    <path class="st2" d="M466 455.4V203.3H230.8l-143 27.6v224.4l378.2.1z"/>
+    <path class="st0" d="M994.1 455.4h66.8v-211L994.1 231v224.4z"/>
+    <path class="st1" d="M688.2 280.1c0-1.6-.8-2.4-2.4-2.4h-67.4c-1.6 0-2.4.8-2.4 2.4v172.8c0 1.6.8 2.4 2.4 2.4h67.3c1.6 0 2.4-.8 2.4-2.4l.1-172.8z"/>
+    <path class="st2" d="M994.1 455.4V231l-143-27.6H615.9v252h378.2z"/>
+  </g>
+  <g id="clp-surge-tank">
+    <path id="clp-surge-tank-hl" class="st3" d="M66.9 334H26.5c-2 0-3.6-1.6-3.6-3.6v-25.3c0-2 1.6-3.6 3.6-3.6h40.4c2 0 3.6 1.6 3.6 3.6v25.3c.1 2-1.6 3.6-3.6 3.6zm988.9 2.2h-40.4c-2 0-3.6-1.6-3.6-3.6v-25.3c0-2 1.6-3.6 3.6-3.6h40.4c2 0 3.6 1.6 3.6 3.6v25.3c.1 2-1.6 3.6-3.6 3.6z"/>
+  </g>
+  <g id="clp-fuel-flapper-cvlv">
+    <path id="clp-fuel-flapper-cvlv-hl" class="st3" d="M402.1 346.5l-11.9-6.5c-1-.6-1.4-1.8-.8-2.9l2.3-4.2c.6-1 1.8-1.4 2.9-.8l11.9 6.5c1 .6 1.4 1.8.8 2.9l-2.3 4.2c-.6.9-1.9 1.3-2.9.8zm453.3 22l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.6.9 1.9 1.3 2.9.8zm50-.8l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.6.9 1.9 1.3 2.9.8zM681 346.8l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.6.9 1.9 1.3 2.9.8zm223.6-70.5l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.6 1 1.9 1.4 2.9.8zm-49 .7l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.5 1 1.8 1.4 2.9.8zm-.4 139l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.6 1 1.9 1.4 2.9.8zm50.2-.7l11.9-6.5c1-.6 1.4-1.8.8-2.9l-2.3-4.2c-.6-1-1.8-1.4-2.9-.8l-11.9 6.5c-1 .6-1.4 1.8-.8 2.9l2.3 4.2c.6 1 1.9 1.4 2.9.8zm-724.5-47.5l2.3-4.2c.6-1 .2-2.3-.8-2.9l-11.9-6.5c-1-.6-2.3-.2-2.9.8l-2.3 4.2c-.6 1-.2 2.3.8 2.9l11.9 6.5c1 .6 2.3.2 2.9-.8zm49.7-.2l2.3-4.2c.6-1 .2-2.3-.8-2.9l-11.9-6.5c-1-.6-2.3-.2-2.9.8L215 359c-.6 1-.2 2.3.8 2.9l11.9 6.5c1 .6 2.3.2 2.9-.8zm-49.7-91.1l2.3-4.2c.6-1 .2-2.3-.8-2.9l-11.9-6.5c-1-.6-2.3-.2-2.9.8l-2.3 4.2c-.6 1-.2 2.3.8 2.9l11.9 6.5c1.1.6 2.4.2 2.9-.8zm50.1 0l2.3-4.2c.6-1 .2-2.3-.8-2.9l-11.9-6.5c-1-.6-2.3-.2-2.9.8l-2.3 4.2c-.6 1-.2 2.3.8 2.9l11.9 6.5c1 .6 2.3.2 2.9-.8zm-2.2 143.1l2.3-4.2c.6-1 .2-2.3-.8-2.9l-11.9-6.5c-1-.6-2.3-.2-2.9.8l-2.3 4.2c-.6 1-.2 2.3.8 2.9l11.9 6.5c1 .6 2.3.2 2.9-.8zm-47.9.1l2.3-4.2c.6-1 .2-2.3-.8-2.9l-11.9-6.5c-1-.6-2.3-.2-2.9.8l-2.3 4.2c-.6 1-.2 2.3.8 2.9l11.9 6.5c1.1.6 2.4.2 2.9-.8z"/>
+  </g>
+  <g id="clp-fuel-vent-float-vlv">
+    <path id="clp-fuel-vent-float-vlv-hl" class="st3" d="M1012.4 308.9h-19.7v-7.7l-32.4.3v-9l15.2-14h23.3c4.5 0 9.6 4 11.7 9 2.1 4.5 2.1 18.3 2.1 13.1s-.2 8.3-.2 8.3zm0 135h-19.7v-7.7l-32.4.3v-9l15.2-14h23.3c4.5 0 9.6 4 11.7 9 2.1 4.5 2.1 18.3 2.1 13.1s-.2 8.3-.2 8.3zM72.7 431c0 5.2 0-8.6 2.1-13.1 2.1-5 7.2-9 11.7-9h23.3l15.2 14v9l-32.4-.3v7.7H72.9s-.2-13.5-.2-8.3zM72 296.1c0 5.2 0-8.6 2.1-13.1 2.1-5 7.2-9 11.7-9h23.3l15.2 14v9l-32.4-.3v7.7H72.2s-.2-13.5-.2-8.3z"/>
+  </g>
+  <g id="clp-coll-bay">
+    <path id="clp-coll-bay-hl" class="st3" d="M585 493.1h-87.6c-2.7 0-4.9-2.2-4.9-4.9V461c0-2.7 2.2-4.9 4.9-4.9H585c2.7 0 4.9 2.2 4.9 4.9v27.2c0 2.7-2.2 4.9-4.9 4.9z"/>
+  </g>
+  <g id="clp-line-vent">
+    <path id="clp-line-vent-hl" class="st3" d="M1046.1 202.3h-40.4c-2 0-3.6-1.6-3.6-3.6v-25.3c0-2 1.6-3.6 3.6-3.6h40.4c2 0 3.6 1.6 3.6 3.6v25.3c.1 2-1.6 3.6-3.6 3.6zM58.3 233.7H17.9c-2 0-3.6-1.6-3.6-3.6v-25.3c0-2 1.6-3.6 3.6-3.6h40.4c2 0 3.6 1.6 3.6 3.6v25.3c.1 2-1.6 3.6-3.6 3.6z"/>
+  </g>
+  <g id="clp-fuel-ref-vent-vlv">
+    <path id="clp-fuel-ref-vent-vlv-hl" class="st3" d="M969.5 347.6h5.1v-6.4c0-2 1.6-3.7 3.6-3.6h18.3c2 0 3.6 1.6 3.6 3.6V365h3c2 0 3.6 1.6 3.6 3.6v6.4c0 2-1.6 3.6-3.6 3.6h-20.3c-2 0-3.6-1.6-3.6-3.6v-4.7h-9.8c-2 0-3.6-1.6-3.6-3.6v-15.4c.1-2.1 1.7-3.8 3.7-3.7zm-855.5.9h-5.1V342c0-2-1.6-3.7-3.6-3.6H87c-2 0-3.6 1.6-3.6 3.6v23.8h-3c-2 0-3.6 1.6-3.6 3.6v6.4c0 2 1.6 3.6 3.6 3.6h20.3c2 0 3.6-1.6 3.6-3.6v-4.7h9.8c2 0 3.6-1.6 3.6-3.6v-15.4c-.2-2-1.7-3.7-3.7-3.6z"/>
+  </g>
+  <g id="clp-fuel-naca-vent">
+    <path id="clp-fuel-naca-vent-hl" class="st3" d="M1055.7 412.9h-48c-2.6 0-4.7-2.1-4.7-4.7l2-26c.2-2.9 2.1-4.7 4.7-4.7h44c2.6 0 4.3 1.7 4.7 4.7l2 26c0 2.6-2.2 4.7-4.7 4.7zm-975.5-5.1l-2-26c-.4-2.9-2.1-4.7-4.7-4.7h-44c-2.6 0-4.4 1.8-4.7 4.7l-2 26c0 2.6 2.1 4.7 4.7 4.7h48c2.6-.1 4.7-2.2 4.7-4.7z"/>
+  </g>
+  <g id="clp-system">
+    <g id="scem">
+      <path id="fuelsys_0_Layer17_0_1_STROKES" class="st4" d="M88.2 455.4V231l-66.8 13.4v211.1h66.8v-.1z"/>
+      <path id="fuelsys_0_Layer17_1_1_STROKES" class="st4" d="M1061.2 455.4h-66.8V231l66.8 13.4v211z"/>
+      <path id="fuelsys_0_Layer17_1_MEMBER_1_1_STROKES" class="st4" d="M994.4 453V231l-143-27.6H616.2V453"/>
+      <path id="system_0_Layer0_0_MEMBER_5_1_STROKES" class="st5" d="M839.8 203.5h-23m45.8 48.2v-46.1l-10.7-2.1h-8.7m69.3 48.2v-36.5l-49.8-9.7m49.8 83.5v-33.8M862.6 289v-33.8m0 160.5v-33.5m-31.2 73.2h31.3v-37.3m49.8-2.4v-33.5m0 35.9v37.3h148.8V243.9l-148.8-28.6m0 240.1h-49.8m-.1-76.8v-86m49.9 86v-86M616.8 215v-11.4h196.4m-51.8 11.5v-11.6m0 33.4v-11.7m0-3.6v-3.1M466.3 215v-11.4H321.5v5.7m64 245.9h80.7v-60.9M761.4 289v-18.8m0 77.7v-55.3m-144.6-74.1v236.8H698m2.2.1h61.2v-10m0-3.7v-90.1m0-84.9v-26.4M466.3 390.9V218.5m-246.1-6.6v-6.3l-49.8 9.7v6.4m49.8-16.1l10.7-2.1h9.5m3.6 0h23.1m54.4 33.4v-11.2m0-3.8v-11m-51-7.4h51m62.1 251.7h-362V243.9l148.8-28.6m0 74.1v-34.3m0 200.1v-72.6m0-3.5v-86m151.1-3.7v-19.3m0 78.3v-55.3m-101.3-3.7v-34.3m0 200.1v-72.6m101.3 72.6v-9.9m-101.3-66.2v-86m101.3 148.6V352M170.4 251.7v-28.4m49.8 28.4v-38.2m101.3 53.2v-26.4m-43.6 264.6c0 .3.1.6.2.8M828 455.4h-66.5"/>
+      <path id="system_0_Layer0_0_MEMBER_5_MEMBER_0_1_STROKES" class="st6" d="M812.1 26.6h1.2c3.8 0 8.8 1 15 2.8 7.2 2.1 12.3 3.3 15.4 3.7 1.2.2 2.4.3 3.6.3m-575.1-1.5c-2.6-.6-5.7-1.5-9.4-2.5-6.2-1.8-11.2-2.8-15-2.8h-1.2c-3.4.1-6.7.7-10.1 2"/>
+      <path id="system_0_Layer0_0_MEMBER_5_MEMBER_0_2_STROKES" class="st7" d="M847.3 33.4c1.3 4 2.3 8.5 3.2 13.4l84.5 3.4-83.2 6c.5 4 .9 8.3 1.1 12.7 0 1 .1 2 .1 3v17.9c0 11-.1 25.9-.2 44.7-.2 25.8-.1 46.5.3 62l89.6 7.7 95.3 7.4M844.3 51.2h-31.5c.2 1.3 1.7 2.4 4.5 3.4 3 1 6.7 1.5 11.1 1.5 4.3 0 8.1-.5 11.2-1.5 2.8-1 4.4-2.1 4.7-3.4v-.4c0-1.5-1.5-2.7-4.6-3.7-3.2-1.1-6.9-1.6-11.2-1.6-4.4 0-8.1.5-11.1 1.6-3.1 1-4.6 2.2-4.6 3.7 0 .2 0 .3.1.4m38.9 4.9c-.4-3.3-.9-6.4-1.3-9.4m-2.7 489.8l2.9-10.3c1.2-2.1 2-6.1 2.5-11.8.1-1 .2-2.1.3-3.2v-18.7h168.4M812.1 26.6c-2.4 5.6-4.2 12.2-5.5 19.9-.5 2.9-.9 5.9-1.2 8.9-.4 4.2-.7 8.7-.8 13.4h48.3m-48.3 0c0 1 0 2-.1 3v17.9c0 11.4 0 25.4.1 42.1 0 23.5-.2 43.2-.7 58.9l-176.2-10.1-10.9-5.7v28.6M806.6 46.4l-86.9 4 85.7 4.9M616.8 32.6v142.3m-150.5 28.6v-28.7l-11.1 5.7L279 190.6c-.5-19.1-.6-57.2-.4-114.2v-3.9c-.1-.3-.1-.5-.1-.7v-.7c0-.8-.1-1.5-.1-2.2H230c0 1 0 2-.1 3v4.6c0 9.9.1 29.3.3 58.3.1 25.4 0 45.9-.3 61.5L67.5 209.4m398.8-34.6V32.6m-188 36.1c-.2-4.6-.6-9-1.1-13.2-.3-3.1-.7-6-1.2-8.9-1-5.4-2.3-10.3-3.8-14.7m-35.5-3.4c-2 5.1-3.5 10.8-4.6 17.3-.5 3-.9 6.2-1.2 9.5-.5 4.2-.8 8.6-1 13.3m38.7-17.9c0-1.5-1.5-2.7-4.6-3.7-3.1-1.1-6.8-1.6-11.1-1.6s-8 .5-11.1 1.6c-3.1 1-4.6 2.2-4.6 3.7 0 .2.1.4.2.6h31.3c-.1-.2-.1-.4-.1-.6zm-31.3.6c.3 1.3 1.8 2.3 4.4 3.2 3.1 1 6.8 1.5 11.1 1.5s8-.5 11.1-1.5c2.7-1 4.2-2 4.6-3.2m-38.6 20.3h-.7m49.2-.7c.1.3.1.5.1.7v.7m-.1-.7h.1m-2.5-25l87 3.9-85.8 4.9m-45.1-9.6l-84.3 3.5 83.2 6.1m47.1 450.3c.1 3-.1 5.9-.5 8.7-.5 5.9-1.3 9.9-2.5 12l-2.8 10.1m194-28.2V498l-4-2.2-2.4-1-9.6-1.2H277.9V505m-42.2 31.5l-3.4-9.7c-.8-.9-1.5-2.7-1.9-5.3-.1-.2-.1-.5-.1-.8-.3-1.7-.6-3.8-.9-6.3-.3-2.9-.3-5.8-.1-8.6V494H48.9m567.9-38.6v42l3.8-3.4 4.1-.7 179.8-.6V506c-.1 2.2 0 5 .3 8.5.2 2.3.5 4.4.9 6.1 0 .3.1.5.2.7v.3c.5 2.6 1.1 4.4 1.9 5.3l3.5 9.7m-194.5-28.3v-10.9m-150.5.5v-42.7"/>
+      <path id="system_0_Layer0_0_MEMBER_6_1_STROKES" class="st5" d="M124.1 232l.1.4"/>
+      <path class="st8" d="M402 340.1l-7.1-4.2v3.3l7.1 4v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_10_1_STROKES" class="st9" d="M394.8 335.8v3.3l7.1 4V340l-7.1-4.2z"/>
+      <path class="st8" d="M687.3 336.7l-7 3.9-.1 3.1 7.1-3.9v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_14_1_STROKES" class="st9" d="M687.3 336.6v3.1l-7.1 3.9.1-3.1 7-3.9z"/>
+      <path class="st8" d="M404 278.4l-4.2 7h3.1l4.2-7H404z"/>
+      <path id="system_0_Layer0_0_MEMBER_16_1_STROKES" class="st9" d="M399.9 285.2h3.1l4.2-7H404l-4.1 7z"/>
+      <path class="st8" d="M415.6 278.4l-4 7h3.1l4-7h-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_18_1_STROKES" class="st9" d="M411.6 285.2h3.1l4-7h-3.1l-4 7z"/>
+      <path class="st8" d="M450 278.4l-4.2 7h3.3l4-7H450z"/>
+      <path id="system_0_Layer0_0_MEMBER_20_1_STROKES" class="st9" d="M445.8 285.2h3.3l4-7H450l-4.2 7z"/>
+      <path class="st8" d="M461.7 278.4l-4.2 7h3.1l4.2-7h-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_22_1_STROKES" class="st9" d="M457.5 285.2h3.1l4.2-7h-3.1l-4.2 7z"/>
+      <path class="st8" d="M684.2 285.4l-4.2-7h-3.1l4.2 7h3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_24_1_STROKES" class="st9" d="M684.2 285.2H681l-4.2-7h3.1l4.3 7z"/>
+      <path class="st8" d="M672.5 285.4l-4.2-7h-3.1l4.2 7h3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_26_1_STROKES" class="st9" d="M672.4 285.2h-3.1l-4.2-7h3.1l4.2 7z"/>
+      <path class="st8" d="M638.1 285.4l-4-7H631l4 7h3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_28_1_STROKES" class="st9" d="M638.1 285.2H635l-4-7h3.1l4 7z"/>
+      <path class="st8" d="M626.4 285.4l-4-7h-3.1l4 7h3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_30_1_STROKES" class="st9" d="M626.4 285.2h-3.1l-4-7h3.1l4 7z"/>
+      <path class="st8" d="M227.4 413.9l-7-4v3.1l7 4v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_32_1_STROKES" class="st9" d="M220.4 409.7v3.1l7 4v-3.1l-7-4z"/>
+      <path class="st8" d="M227.4 362.4l-7-4v3.1l7 4v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_34_1_STROKES" class="st9" d="M220.4 358.3v3.1l7 4v-3.1l-7-4z"/>
+      <path class="st8" d="M227.4 270.7l-7-4v3.1l7 4.2v-3.3z"/>
+      <path id="system_0_Layer0_0_MEMBER_36_1_STROKES" class="st9" d="M220.4 266.6v3.1l7 4.2v-3.3l-7-4z"/>
+      <path class="st8" d="M177.8 413.9l-7.1-4v3.1l7.1 4v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_38_1_STROKES" class="st9" d="M170.7 409.7v3.1l7.1 4v-3.1l-7.1-4z"/>
+      <path class="st8" d="M177.8 362.4l-7.1-4v3.1l7.1 4v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_40_1_STROKES" class="st9" d="M170.7 358.3v3.1l7.1 4v-3.1l-7.1-4z"/>
+      <path class="st8" d="M177.8 270.7l-7.1-4v3.1l7.1 4.2v-3.3z"/>
+      <path id="system_0_Layer0_0_MEMBER_42_1_STROKES" class="st9" d="M170.7 266.6v3.1l7.1 4.2v-3.3l-7.1-4z"/>
+      <path class="st8" d="M862.7 405.1l-7 4.2v3.1l7-4.2v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_44_1_STROKES" class="st9" d="M862.6 405v3.1l-7 4.2v-3.1l7-4.2z"/>
+      <path class="st8" d="M862.7 358.1l-7 4.2v3.1l7-4.2v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_46_1_STROKES" class="st9" d="M862.6 358v3.1l-7 4.2v-3.1l7-4.2z"/>
+      <path class="st8" d="M862.8 266.2l-7 4.2.1 3.1 6.8-4.2v-3.1h.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_48_1_STROKES" class="st9" d="M862.8 266.1v3.1l-6.8 4.2-.1-3.1 6.9-4.2z"/>
+      <path class="st8" d="M912.2 404.2l-6.8 4.2v3.1l7-4.2-.2-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_50_1_STROKES" class="st9" d="M912.1 404.1l.1 3.1-7 4.2v-3.1l6.9-4.2z"/>
+      <path class="st8" d="M912.3 357.2l-7 4.2v3.1l7-4.2v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_52_1_STROKES" class="st9" d="M912.3 357.1v3.1l-7 4.2v-3.1l7-4.2z"/>
+      <path class="st8" d="M912.5 265.4l-7 4.2v3.1l7-4.2v-3.1z"/>
+      <path id="system_0_Layer0_0_MEMBER_54_1_STROKES" class="st9" d="M912.4 265.2v3.1l-7 4.2v-3.1l7-4.2z"/>
+      <path id="system_0_Layer0_0_MEMBER_55_1_STROKES" class="st5" d="M994.6 341.1v114.3m.9-114.3v114.3m-.9-223.9v94.2m.9-94.2v94.2M88.3 255.1v70.6m0 15.4v114m0-224v20.6"/>
+      <path id="fuelsys_0_Layer14_4_1_STROKES" class="st10" d="M687.6 278v177.1h-71.1V278h71.1z"/>
+      <path id="fuelsys_0_Layer14_5_1_STROKES" class="st10" d="M466.1 455.1H395V278h71.1v177.1z"/>
+      <path id="fuelsys_0_Layer14_24_1_STROKES" class="st11" d="M622.7 437.6l-48.6 23.2m-114.3-23.5l45.9 23.6"/>
+      <path id="fuelsys_0_Layer14_25_MEMBER_0_MEMBER_0_1_STROKES" class="st12" d="M462.6 342.9V376H441v-33.1h21.6z"/>
+      <path id="fuelsys_0_Layer14_25_MEMBER_0_MEMBER_1_1_STROKES" class="st5" d="M442.3 347.1l-1 .6v7.4l3.9-2.4m4.4-9.9l-4.7 2.8m4.7-2.8h-8.3v4.9m15.9 5.9l5.7-3.3v-7.5h-8.1m-.1 33.2h3.3l4.9-3v-7.5l-5.7 3.3m.8 7.2h4.9v-3m0-7.6v-7.5l-1.7 1m-9.9 17.1h-10.1v-20.9m7.1 18.8l-3.5 2m-.3-14.9l-3.3 1.8m.1 7.7l4.2-2.4m17.4-10.2v-7.6"/>
+      <path id="fuelsys_0_Layer14_25_MEMBER_1_MEMBER_0_1_STROKES" class="st12" d="M643 342.9V376h-21.6v-33.1H643z"/>
+      <path id="fuelsys_0_Layer14_25_MEMBER_1_MEMBER_1_1_STROKES" class="st5" d="M637.7 353.6l5.7-3.3v-7.5h-8.1m-12.2 4.1l-1.4.8v7.4l4.5-2.7m5.4-9.6H630l-3.9 2.3m3.9-2.3h-8.3v4.9m21.7 10.2v-7.6m-5.7 18.4l5.7-3.3v-7.5m-8.2 18.1h3.3l4.9-3v-7.5m-4.9 10.5h4.9v-3m-17.4-5l-4.3 2.4v5.5h3.6l3.7-2.2m-7.3-18.6v7.7l3.3-1.8m-3.3 1.8v7.7m3.6 5.5h6.5"/>
+      <text transform="translate(25.665 316.184)" class="st8 st13 st14">
+        SURGE
+      </text>
+      <text transform="translate(31.464 330.184)" class="st8 st13 st14">
+        TANK
+      </text>
+      <text transform="translate(1014.404 317.742)" class="st8 st13 st14">
+        SURGE
+      </text>
+      <text transform="translate(1020.205 331.742)" class="st8 st13 st14">
+        TANK
+      </text>
+      <text transform="translate(499.275 474.226)" class="st13 st15">
+        COLLECTOR
+      </text>
+      <text transform="translate(525.975 487.226)" class="st13 st15">
+        BAY
+      </text>
+    </g>
+    <g id="unit-fuel_x5F_vent_x5F_float_x5F_vlv">
+      <path class="st16" d="M97 288.1l1.5-2.3.4-1.9v-1.6l-12.1-.1-3.6.5-2.6 1.5-1.9 2.1-1.6 2.9v9h7.3l-.1-7.5 1.3-1.1 8.2.1 3.2-1.6z"/>
+      <path class="st17" d="M116 288l-9.7-8.7-4.1-.1-.1 4.6 3.5 10.7H116V288z"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_0_1_STROKES" class="st12" d="M77.1 298.2h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_1_1_STROKES" class="st12" d="M86.2 282.3c-2.5 0-4.7.9-6.4 2.7-1.8 1.8-2.7 3.9-2.7 6.5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_4_1_STROKES" class="st12" d="M84.4 298.2v-7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_5_1_STROKES" class="st12" d="M86 289.6h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_6_1_STROKES" class="st12" d="M89.8 289.6h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_7_1_STROKES" class="st12" d="M93.4 289.6c1.9-.2 3.3-1 4.3-2.4.9-1.3 1.3-3 1.2-5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_10_1_STROKES" class="st12" d="M86.2 282.3h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_11_1_STROKES" class="st12" d="M89.8 282.3h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_12_1_STROKES" class="st12" d="M77.1 298.2v-6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_13_1_STROKES" class="st18" d="M93 281.4h9.2m-2.1 4.2c.1-.5.2-1.2.2-2 0-.9 0-1.6.1-2.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_1_1_STROKES" class="st12" d="M77.1 298.2h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_2_1_STROKES" class="st12" d="M86.2 282.3c-2.5 0-4.7.9-6.4 2.7-1.8 1.8-2.7 3.9-2.7 6.5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_5_1_STROKES" class="st12" d="M84.4 298.2v-7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_6_1_STROKES" class="st12" d="M86 289.6h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_7_1_STROKES" class="st12" d="M89.8 289.6h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_8_1_STROKES" class="st12" d="M93.4 289.6c1.9-.2 3.3-1 4.3-2.4.9-1.3 1.3-3 1.2-5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_11_1_STROKES" class="st12" d="M86.2 282.3h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_12_1_STROKES" class="st12" d="M89.8 282.3h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_13_1_STROKES" class="st12" d="M77.1 298.2v-6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_14_1_STROKES" class="st18" d="M93 281.4h9.2m-2.1 4.2c.1-.5.2-1.2.2-2 0-.9 0-1.6.1-2.2"/>
+      <path class="st12" d="M84.4 291.3c0-1.4.9-1.6 1.6-1.6"/>
+      <path class="st19" d="M86.9 280.4h2.9v11.1h-2.9z"/>
+      <path class="st16" d="M97 421.1l1.5-2.3.4-1.9v-1.6l-12.1-.1-3.6.5-2.6 1.5-1.9 2.1-1.6 2.9v9h7.3l-.1-7.5 1.3-1.1 8.2.1 3.2-1.6z"/>
+      <path class="st17" d="M116 421l-9.7-8.7-4.1-.1-.1 4.6 3.5 10.7H116V421z"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_0_1_STROKES_1_" class="st12" d="M77.1 431.2h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_1_1_STROKES_1_" class="st12" d="M86.2 415.3c-2.5 0-4.7.9-6.4 2.7-1.8 1.8-2.7 3.9-2.7 6.5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_4_1_STROKES_1_" class="st12" d="M84.4 431.2v-7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_5_1_STROKES_1_" class="st12" d="M86 422.6h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_6_1_STROKES_1_" class="st12" d="M89.8 422.6h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_7_1_STROKES_1_" class="st12" d="M93.4 422.6c1.9-.2 3.3-1 4.3-2.4.9-1.3 1.3-3 1.2-5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_10_1_STROKES_1_" class="st12" d="M86.2 415.3h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_11_1_STROKES_1_" class="st12" d="M89.8 415.3h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_12_1_STROKES_1_" class="st12" d="M77.1 431.2v-6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_13_1_STROKES_1_" class="st18" d="M93 414.4h9.2m-2.1 4.2c.1-.5.2-1.2.2-2 0-.9 0-1.6.1-2.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_1_1_STROKES_1_" class="st12" d="M77.1 431.2h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_2_1_STROKES_1_" class="st12" d="M86.2 415.3c-2.5 0-4.7.9-6.4 2.7-1.8 1.8-2.7 3.9-2.7 6.5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_5_1_STROKES_1_" class="st12" d="M84.4 431.2v-7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_6_1_STROKES_1_" class="st12" d="M86 422.6h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_7_1_STROKES_1_" class="st12" d="M89.8 422.6h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_8_1_STROKES_1_" class="st12" d="M93.4 422.6c1.9-.2 3.3-1 4.3-2.4.9-1.3 1.3-3 1.2-5"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_11_1_STROKES_1_" class="st12" d="M86.2 415.3h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_12_1_STROKES_1_" class="st12" d="M89.8 415.3h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_13_1_STROKES_1_" class="st12" d="M77.1 431.2v-6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_14_1_STROKES_1_" class="st18" d="M93 414.4h9.2m-2.1 4.2c.1-.5.2-1.2.2-2 0-.9 0-1.6.1-2.2"/>
+      <path class="st12" d="M84.4 424.3c0-1.4.9-1.6 1.6-1.6"/>
+      <path class="st19" d="M86.9 413.4h2.9v11.1h-2.9z"/>
+      <path class="st16" d="M989.1 294.3l8.2-.1 1.3 1.1-.1 7.5h7.3v-9l-1.6-2.9-1.9-2.1-2.6-1.5-3.6-.5-12.1.1v1.6l.4 1.9 1.5 2.3 3.2 1.6z"/>
+      <path class="st17" d="M967 299.2h10.4l3.5-10.7-.1-4.6-4.1.1-9.7 8.7v6.5z"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_0_1_STROKES_3_" class="st12" d="M998.7 303h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_1_1_STROKES_3_" class="st12" d="M1006 296.2c0-2.6-.9-4.7-2.7-6.5s-3.9-2.7-6.4-2.7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_4_1_STROKES_3_" class="st12" d="M998.7 296v7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_5_1_STROKES_3_" class="st12" d="M995.9 294.3h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_6_1_STROKES_3_" class="st12" d="M989.7 294.3h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_7_1_STROKES_3_" class="st12" d="M984.2 287c-.1 2 .3 3.6 1.2 5 1 1.4 2.5 2.2 4.3 2.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_10_1_STROKES_3_" class="st12" d="M996 287h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_11_1_STROKES_3_" class="st12" d="M984.2 287h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_12_1_STROKES_3_" class="st12" d="M1006 296.2v6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_13_1_STROKES_3_" class="st18" d="M981 286.1h9.2m-7.5 0c.1.6.2 1.4.1 2.2 0 .8.1 1.5.2 2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_1_1_STROKES_3_" class="st12" d="M998.7 303h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_2_1_STROKES_3_" class="st12" d="M1006 296.2c0-2.6-.9-4.7-2.7-6.5s-3.9-2.7-6.4-2.7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_5_1_STROKES_3_" class="st12" d="M998.7 296v7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_6_1_STROKES_3_" class="st12" d="M995.9 294.3h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_7_1_STROKES_3_" class="st12" d="M989.7 294.3h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_8_1_STROKES_3_" class="st12" d="M984.2 287c-.1 2 .3 3.6 1.2 5 1 1.4 2.5 2.2 4.3 2.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_11_1_STROKES_3_" class="st12" d="M996 287h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_12_1_STROKES_3_" class="st12" d="M984.2 287h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_13_1_STROKES_3_" class="st12" d="M1006 296.2v6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_14_1_STROKES_3_" class="st18" d="M981 286.1h9.2m-7.5 0c.1.6.2 1.4.1 2.2 0 .8.1 1.5.2 2"/>
+      <path class="st12" d="M998.7 296c0-1.4-.9-1.6-1.6-1.6"/>
+      <path class="st19" d="M993.3 285.1h2.9v11.1h-2.9z"/>
+      <path class="st16" d="M989.1 427.3l8.2-.1 1.3 1.1-.1 7.5h7.3v-9l-1.6-2.9-1.9-2.1-2.6-1.5-3.6-.5-12.1.1v1.6l.4 1.9 1.5 2.3 3.2 1.6z"/>
+      <path class="st17" d="M967 432.2h10.4l3.5-10.7-.1-4.6-4.1.1-9.7 8.7v6.5z"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_0_1_STROKES_2_" class="st12" d="M998.7 436h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_1_1_STROKES_2_" class="st12" d="M1006 429.2c0-2.6-.9-4.7-2.7-6.5s-3.9-2.7-6.4-2.7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_4_1_STROKES_2_" class="st12" d="M998.7 429v7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_5_1_STROKES_2_" class="st12" d="M995.9 427.3h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_6_1_STROKES_2_" class="st12" d="M989.7 427.3h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_7_1_STROKES_2_" class="st12" d="M984.2 420c-.1 2 .3 3.6 1.2 5 1 1.4 2.5 2.2 4.3 2.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_10_1_STROKES_2_" class="st12" d="M996 420h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_11_1_STROKES_2_" class="st12" d="M984.2 420h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_12_1_STROKES_2_" class="st12" d="M1006 429.2v6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_0_MEMBER_13_1_STROKES_2_" class="st18" d="M981 419.1h9.2m-7.5 0c.1.6.2 1.4.1 2.2 0 .8.1 1.5.2 2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_1_1_STROKES_2_" class="st12" d="M998.7 436h7.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_2_1_STROKES_2_" class="st12" d="M1006 429.2c0-2.6-.9-4.7-2.7-6.5s-3.9-2.7-6.4-2.7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_5_1_STROKES_2_" class="st12" d="M998.7 429v7"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_6_1_STROKES_2_" class="st12" d="M995.9 427.3h1.2"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_7_1_STROKES_2_" class="st12" d="M989.7 427.3h3.6"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_8_1_STROKES_2_" class="st12" d="M984.2 420c-.1 2 .3 3.6 1.2 5 1 1.4 2.5 2.2 4.3 2.4"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_11_1_STROKES_2_" class="st12" d="M996 420h.9"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_12_1_STROKES_2_" class="st12" d="M984.2 420h9.1"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_13_1_STROKES_2_" class="st12" d="M1006 429.2v6.8"/>
+      <path id="fuelsys_0_Layer5_10_MEMBER_3_MEMBER_14_1_STROKES_2_" class="st18" d="M981 419.1h9.2m-7.5 0c.1.6.2 1.4.1 2.2 0 .8.1 1.5.2 2"/>
+      <path class="st12" d="M998.7 429c0-1.4-.9-1.6-1.6-1.6"/>
+      <path class="st19" d="M993.3 418.1h2.9v11.1h-2.9z"/>
+    </g>
+    <g id="unit-high-level-sensor">
+      <path class="st20" d="M112.8 368.1h-7.6c-.6 0-1.1-.5-1.1-1.1v-14.9c0-.6.5-1.1 1.1-1.1h7.6c.6 0 1.1.5 1.1 1.1V367c0 .6-.5 1.1-1.1 1.1z"/>
+      <path class="st21" d="M112.1 367.4h-6.2c-.6 0-1.1-.5-1.1-1.1v-13.6c0-.6.5-1.1 1.1-1.1h6.2c.6 0 1.1.5 1.1 1.1v13.6c0 .7-.5 1.1-1.1 1.1z"/>
+      <path class="st20" d="M104.8 347.3l-2.1-3.7H90.8l-2.2 3.7v11.9l2.2 3.7h11.9l2.1-3.7z"/>
+      <path class="st21" d="M104 347.9l-2-3.3H91.4l-1.9 3.3v10.7l1.9 3.3H102l2-3.3z"/>
+      <path class="st8" d="M102.7 351.3l-6 5.9-5.9-6 11.9.1z"/>
+      <path class="st20" d="M92.7 342.7h8v1.4h-8zm0 19.3h8v1.4h-8z"/>
+      <path class="st21" d="M93.7 369.9H79.2v6h14.5v.1h6v-14.5h-6v8.4z"/>
+      <path class="st20" d="M970.2 366.9h7.6c.6 0 1.1-.5 1.1-1.1v-14.9c0-.6-.5-1.1-1.1-1.1h-7.6c-.6 0-1.1.5-1.1 1.1v14.9c0 .6.5 1.1 1.1 1.1z"/>
+      <path class="st21" d="M970.9 366.3h6.2c.6 0 1.1-.5 1.1-1.1v-13.6c0-.6-.5-1.1-1.1-1.1h-6.2c-.6 0-1.1.5-1.1 1.1v13.6c.1.6.5 1.1 1.1 1.1z"/>
+      <path class="st20" d="M978.2 346.2l2.2-3.8h11.8l2.2 3.8V358l-2.2 3.8h-11.8l-2.2-3.8z"/>
+      <path class="st21" d="M979.1 346.8l1.9-3.4h10.6l2 3.4v10.6l-2 3.4H981l-1.9-3.4z"/>
+      <path class="st8" d="M992.2 350.1l-5.9 6-6-5.9 11.9-.1z"/>
+      <path class="st20" d="M982.3 341.6h8v1.4h-8zm0 19.3h8v1.4h-8z"/>
+      <path class="st21" d="M1003.8 373.9v-6h-14.5v-8.4h-6V374h6v-.1h14.5z"/>
+    </g>
+    <path id="unit-naca-vents" class="st5" d="M1039.8 382.3c-.5 2.6-.7 5.9-.6 10.1-.3 3.6-1.5 6.8-3.7 9.6l.4 3.9h16.3V402c-2.2-2.9-3.4-6.1-3.6-9.6-.4-6.4-.6-9.7-.7-10.1m-25.7 0c.5 2.6.7 5.9.5 10.1.3 3.6 1.6 6.8 3.7 9.6v3.9h-16.9V402c2.2-2.8 3.4-6 3.7-9.6-.1-4.2.1-7.5.6-10.1m-953.7 1c-.5 2.5-.7 5.8-.7 10.1-.2 3.7-1.4 6.9-3.6 9.6v3.9h16.9V403c-2.2-2.7-3.4-5.9-3.7-9.6.1-4.3-.1-7.6-.6-10.1m-34.3 0c0 .1-.2 3.4-.6 10.1-.2 3.5-1.4 6.7-3.6 9.6v3.9h16.8V403c-2.3-2.9-3.5-6.1-3.7-9.6.1-4.2-.1-7.5-.6-10.1"/>
+    <g id="unit-line-vent">
+      <path class="st22" d="M294 237h-11c-.4 0-.8.1-1.1.4-.3.3-.5.7-.5 1.2v13.2H71.7c-.2-.1-.4-.2-.7-.2-.4 0-.8.1-1.2.4-.3.3-.4.7-.4 1.2v15.2h3.2V255H283c.4 0 .8-.1 1.1-.4.3-.3.5-.7.5-1.2v-13.2h116.5V237H294zm489.6 0h11.1c.4 0 .8.1 1.1.4.3.3.5.7.5 1.2v13.2H1006c.2-.1.4-.2.7-.2.4 0 .8.1 1.2.4.3.3.4.7.4 1.2v15.2h-3.2V255H794.6c-.4 0-.8-.1-1.1-.4-.3-.3-.5-.7-.5-1.2v-13.2H676.5V237h107.1z"/>
+      <path id="fuelsys_0_Layer14_12_1_STROKES_1_" class="st11" d="M75 252.4l-18.8-32.1"/>
+      <path id="fuelsys_0_Layer14_16_1_STROKES_1_" class="st11" d="M957.5 253.1l50.4-67.1"/>
+      <text transform="translate(1009.708 183.604)" class="st8 st13 st15">
+        VENT
+      </text>
+      <text transform="translate(1009.708 196.604)" class="st8 st13 st15">
+        LINE
+      </text>
+      <text transform="translate(21.323 215.291)" class="st8 st13 st15">
+        VENT
+      </text>
+      <text transform="translate(21.323 229.291)" class="st8 st13 st15">
+        LINE
+      </text>
+    </g>
+  </g>
+</svg>

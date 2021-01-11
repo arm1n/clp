@@ -1,0 +1,40 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100.5 80.7" xml:space="preserve">
+  <path stroke="#000" stroke-miterlimit="10" d="M5.1 5.9h89.3v69H5.1z"/>
+  <path id="Layer2_0_MEMBER_0_MEMBER_4_MEMBER_1_MEMBER_0_MEMBER_7_1_STROKES" d="M88.8 29.4H47.2v41.1h41.6V29.4zm-41.6 0H20.8v41.1h26.8" fill="none" stroke="#fff" stroke-width=".4" stroke-miterlimit="5"/>
+  <text transform="translate(25.385 19.757)" font-size="11.3" font-family="ArialMT" fill="#fff">
+    AC GEN 1
+  </text>
+  <text transform="translate(25.165 27.528)" font-size="7.854" fill="#448ecc" font-family="ArialMT">
+    VOL
+  </text>
+  <text transform="translate(61.308 27.528)" font-size="7.854" fill="#448ecc" font-family="ArialMT">
+    LOAD
+  </text>
+  <text transform="translate(21.814 42.638)" font-size="10.178" font-family="ArialMT" fill="#fff">
+    1 1 5
+  </text>
+  <text transform="translate(21.814 54.976)" font-size="10.178" font-family="ArialMT" fill="#fff">
+    1 1 5
+  </text>
+  <text transform="translate(21.814 68.403)" font-size="10.178" font-family="ArialMT" fill="#fff">
+    1 1 5
+  </text>
+  <text transform="translate(10.231 42.838)" font-size="9.056" font-family="ArialMT" fill="#fff">
+    A
+  </text>
+  <text transform="translate(10.231 55.176)" font-size="9.056" font-family="ArialMT" fill="#fff">
+    B
+  </text>
+  <text transform="translate(10.231 68.165)" font-size="9.056" font-family="ArialMT" fill="#fff">
+    C
+  </text>
+  <text transform="translate(63.774 42.533)" font-size="11.3" font-family="ArialMT" fill="#fff">
+    . 06
+  </text>
+  <text transform="translate(63.774 55.094)" font-size="11.3" font-family="ArialMT" fill="#fff">
+    . 06
+  </text>
+  <text transform="translate(63.774 68.083)" font-size="11.3" font-family="ArialMT" fill="#fff">
+    . 06
+  </text>
+</svg>

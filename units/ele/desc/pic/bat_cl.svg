@@ -1,0 +1,23 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 150 71.3" xml:space="preserve">
+  <path fill="#343434" d="M81.1 7.4h57.8v26.3H81.1z"/>
+  <text transform="translate(98.442 19.247)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    STBY
+  </text>
+  <text transform="translate(89.863 29.547)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    BATTERY
+  </text>
+  <path fill="#343434" d="M11.1 7.4h57.8v26.3H11.1z"/>
+  <text transform="translate(27.48 19.247)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    MAIN
+  </text>
+  <text transform="translate(19.844 29.547)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    BATTERY
+  </text>
+  <path fill="#343434" d="M10.7 40h57.8v26.3H10.7z"/>
+  <text transform="translate(29.08 51.836)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    AUX
+  </text>
+  <text transform="translate(18.364 62.136)" font-size="8.555" font-family="Tahoma-Bold" fill="#f49739">
+    BATTERY
+  </text>
+</svg>

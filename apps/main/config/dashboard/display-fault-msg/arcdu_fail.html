@@ -1,0 +1,90 @@
+<clp-card name="Description">
+	<div>
+		<clp-info-red><strong><h4>FAIL displayed in interphone display area of ARCDU</h4></strong></clp-info-red>
+	</div>
+
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<br>
+	<p>Message appears on #1 ARCDU after selection of selection of emergency lights to On or power transient on Left Main DC bus.</p>
+	
+	<clp-table border hover nowrap="1">
+	<clp-tr>
+		<clp-td><strong>Emergency Lights..</strong></clp-td>
+		<clp-td><b>ARM</b></clp-td>
+	</clp-tr>
+		<clp-tr>
+		<clp-td><strong>ARCDU 1..</strong></clp-td>
+		<clp-td><b>Off then On</b></clp-td>
+	</clp-tr>
+</clp-table>
+
+	<br>
+	<p>IF display remains in self-test: <clp-text-red>Maintenance action is required prior to flight.</clp-text-red></p>
+	<br>
+	
+	
+	<br>
+
+	<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>AVIONICS DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>C11</strong> COPLT SPKR</div>
+						<div><strong>C10</strong> COPLT AUDIO</div>
+						<div><strong>C3</strong> COPLT AUDIO</div>
+						<div><strong>C9</strong> PLT SPKR</div>
+						<div><strong>D4</strong> PLT AUDIO</div>
+						<div><strong>C4</strong> OBS AUDIO</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>M1</strong> PA EMER PWR</div>
+						
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>M1</strong> PA EMER PWR</div>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+	<br />
+
+
+</clp-card>

@@ -1,0 +1,74 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Invalid FADEC RIGGING TRIM bit - (Engine Fault Code 480/481)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-10-810-817</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault code is generated as a result of an apparent indication from the FADEC to the PEC that FADEC RIGGING TRIM is invalid. The signal is a permissive for various rigging operations and if it is invalid it may prevent certain maintenance activities from being successfully completed. For Post Modsum 4W113558, the fault code will only be annunciated when the propeller is rotating.</p><!-- !!!! -->
+
+    <p>The fault isolation has determined that FADEC RIGGING TRIM is invalid, as supplied by the RS422 databus from the FADEC to the PEC.</p><!-- !!!! -->
+
+    <p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>ECIU </li>
+        <li>Airframe wiring </li>
+        <li>FADEC </li>
+        <li>Fuel control electrical wiring harness </li>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/eciu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>

@@ -1,0 +1,161 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>OUTBD ANTISKID</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 32-40-00-810-802</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<br>
+			<!-- General Start -->
+
+			<div>Outboard antiskid control unit malfunction or toggle switch is OFF.</div>
+			<br>
+			<div>The CAWP shows the OUTBD ANTISKID light on when there is a loss of ability to command or control the outboard antiskid system.</div>
+			<br>
+
+			<div>The audio and radio control display unit (ARCDU) can show one or more of the related central diagnostic system (CDS) messages that follow:</div>
+			<ul>
+				<li>CONTROL UNIT → <clp-link-pdf>FIM TASK 32-46-01-810-801</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+				<br>
+				<li>LT OUTBRD WST → <clp-link-pdf>FIM TASK 32-46-11-810-801</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+				<br>
+				<li>RT OUTBRD WST → <clp-link-pdf>FIM TASK 32-46-11-810-802</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+				<br>
+				<li>LT OUTBRD VLV → <clp-link-pdf>FIM TASK 32-46-06-810-801</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+				<br>
+				<li>RT OUTBRD VLV → <clp-link-pdf>FIM TASK 32-46-06-810-802</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+				<br>
+				<li>PSEU AIR/GND → <clp-link-pdf>FIM TASK 32-46-00-810-801</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+				<br>
+				<li>PSEU GEAR UP → <clp-link-pdf>FIM TASK 32-46-00-810-802</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr></li>
+			</ul>
+
+			<br>
+			<p>The proximity sensor electronics unit (PSEU) can show one or more of the related status messages.</p>
+			<p>
+				<clp-text-blue><strong>NOTE:</strong> The fault isolation procedures for the PSEU messages are equivalent to those for the related CDS PSEU AIR/GND or PSEU GEAR UP messages. </clp-text-blue>
+			</p>
+			
+			<br>
+			<br>
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card name="Quick links">
+			<!-- links Start -->
+
+
+			<div>Functional test of the antiskid system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 32-46-00-720-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card name="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+						<br>
+						<div><strong>Q5</strong> ANTISKID INBD</div>
+						<div><strong>R5</strong> ANTISKID OUTBD</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			
+			<br>
+			<br>
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card name="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<div><strong>ANTI SKID SWITCH</strong></div>
+<br>
+			<div><clp-text-blue><strong>TEST</strong></clp-text-blue> - held in position and released to ON position</div>
+			<ul>
+				<li>if airborne with gear down and locked, INBD ANTISKID and OUTBD ANTISKID caution lights come on for 3 seconds then go off to show serviceable anti skid system</li>
+				<li>if on the ground, INBD ANTISKID and OUTBD ANTISKID caution lights come on for 6 seconds and then go off to show serviceable anti skid system</li>
+				<li>if antiskid test fails, INBD ANTISKID or OUTBD ANTISKID caution lights will stay on</li>
+			</ul>
+<br>
+			<div><clp-text-blue><strong>ON</strong></clp-text-blue> - anti skid system activated</div>
+			<ul>
+				<li>anti skid self test is made when switch is first moved to position and if wheel speed is not more than 17 knots</li>
+				<li>INBD ANTISKID and OUTBD ANTISKID caution lights go out</li>
+			</ul>
+			<br>
+			<div><clp-text-blue><strong>OFF</strong></clp-text-blue> - anti skid system deactivated</div>
+			<ul>
+				<li>INBD ANTISKID and OUTBD ANTISKID caution lights come on</li>
+			</ul>
+			
+			<br>
+			<br>
+			<clp-card name="Units">
+				<clp-file path="./units/uf/units/anti_skid_unit.html"></clp-file>
+				<!-- <clp-card-button path="/units/uf/units/anti_skid_unit_loc.html" icon="INFO" mode="POPUP" name="">SPM</clp-card-button> -->
+			</clp-card>
+			<br>
+			<clp-card name="Units">
+				<clp-file path="./units/gear/units/wheel_speed_tx.html"></clp-file>
+				
+			</clp-card>
+			<br>
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

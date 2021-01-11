@@ -1,0 +1,63 @@
+<clp-card name="GENERAL">
+  
+	<clp-info-red><div>
+		<strong>Other lane. Erroneous data - (Engine Fault Code 16/17)</strong>
+	</div></clp-info-red>
+	
+	<br>
+	
+	<div>
+  <clp-link-pdf>FIM TASK 61-20-01-810-807</clp-link-pdf> <clp-link-tr>(TR-FIM)</clp-link-tr>
+  </div>
+
+  <br />
+
+  <div>
+    This fault code is generated as a result of the control lane of the PEC indicating that no data is being received from the other lane of the PEC. This is an internal PEC fault. For Post Modsum 4W113558, this fault will only be annunciated when the propeller is rotating. The fault isolation logic has determined that for a period of 10 seconds it is not receiving data from the other lane.<br> The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.
+
+  </div>
+	<br>
+	
+	<!-- Zentrale Link  -->
+  <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+  <br />
+
+  
+</clp-card>
+
+<br />
+
+
+<clp-card name="POSSIBLE LRU">
+  <div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+  <ul>
+	<li>PEC </li>
+	
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+	
+	
+	<br>
+	
+</clp-card>
+
+

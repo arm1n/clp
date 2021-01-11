@@ -1,0 +1,63 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Stack bound violation - (Engine Fault Code 98/99)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-02-810-831</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of key data within the PEC software having been overwritten. This is an internal PEC fault.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that following the watchdog being serviced, the password set up on the stack has been overwritten</p><!-- !!!! -->
+	
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	
+<br>
+</clp-card>

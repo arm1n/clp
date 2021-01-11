@@ -1,0 +1,64 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Q1 valid fault - (Engine Fault Code 250/251)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-06-810-808</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent torque processing problem within the PEC. This is an internal PEC fault.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that either Q1 is valid when NQA larger 120 rpm, or that Q1 is invalid when NQA > 120 rpm.</p><!-- !!!! -->
+	
+	<p>This fault code will inhibit the autofeather advisory when PLA goes into the take−off range. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+	
+<br>
+</clp-card>

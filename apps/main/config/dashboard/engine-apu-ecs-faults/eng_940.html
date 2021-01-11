@@ -1,0 +1,72 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> FADEC Power Supply not available to PEC (Status) - (Engine Fault Code 940)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-890</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault is flagged when the FADEC detects an overcurrent condition on the power supply circuit to the PEC.</p><!-- !!!! -->
+
+    <p>Only one of the two channels of the FADEC provides power to the PEC at a time.</p><!-- !!!! -->
+
+    <p>During the power−up of the FADEC and the initialization testing, the output current driver to the PEC is tested. Therefore, a FADEC fault code clear will indicate if the fault is still present, with no engine run necessary.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Control Wiring Harness </li>
+        <li>Full Authority Digital Electronic Control (FADEC) </li>
+        <li>Propeller Electronic Control (PEC) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

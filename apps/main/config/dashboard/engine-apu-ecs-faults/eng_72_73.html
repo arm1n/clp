@@ -1,0 +1,68 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>AF test aborted: loss of remote torque high in AF I−BIT - (Engine Fault Code 72/73)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	<br>
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-02-810-836</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br />
+
+	<div>This fault code is generated as a result of the failure of the propeller system to successfully complete an autofeather test, resulting from the apparent loss of the opposite powerplant torque signal indicating that the opposite powerplant is producing useful power.</div><!-- !!!! -->
+	<br>
+	<div>The fault detection logic has determined that REMOTE TORQUE HI = 0 at some stage during the test.</div><!-- !!!! -->
+	<br>
+	<div>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</div><!-- !!!! -->
+	<br>
+	<div>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</div><!-- !!!! -->
+	<br>
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Remote powerplant PEC fault </li><!-- !!!! -->
+		<li>Local PEC fault </li>
+		<li>Fuel control electrical wiring harness (LH or RH) </li>
+		<li>Airframe wiring (cross−wing) </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	<br>
+	
+<br>
+</clp-card>

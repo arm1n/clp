@@ -1,0 +1,152 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>PITOT HEAT 2</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 30-30-00-810-807</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/c2_d2_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<br>
+			<!-- General Start -->
+
+			<div>The CAWP PITOT HEAT 2 caution light comes on when the timer and monitor unit (TMU) senses that the right pitot/static probe heater has failed.</div>
+			<br><br>
+			<div>The central diagnostic system (CDS) can show the related messages that follow:</div>
+
+			<br>
+			<div><strong>PITOT 2 FAIL</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-30-00-810-806</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+			<div><strong>MONITOR 2 FAIL</strong></div>
+			<div>
+				<clp-link-pdf>FIM TASK 30-00-00-810-812</clp-link-pdf>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</div>
+			<br>
+
+
+			<clp-info-border>
+				<clp-text-blue>NOTE: The CDS can also show a PITOT STATIC HEATER (ADU2) message.</clp-text-blue>
+			</clp-info-border>
+			<br>
+			<div>The heaters of the Pitot-Static probes and the angle of attack trans- ducer are monitored by the TMU. This function is performed by the three independent modules of the TMU for each of the left, right and standby Pitot-Static probes, and two different modules for the left and right angle of attack vanes.</div>
+			<br>
+			<div>These monitoring modules have an independent power supply. The probe and AOA transducer heaters are automatically on as soon as their power supply is available.The heater power is supplied through the TMU.</div>
+			<br>
+			<div>Power sources to the left and right Pitot-Static probes are connected directly through the control switches. The standby probe is connected through a relay, activated closed by the selection of the related control switch. The angle of attack vanes heaters are directly connected to their power supply through the TMU. The TMU checks for failure by monitoring current through the heaters.</div>
+			<br>
+			<div>The Left and Right 115 Vac power is routed through the TMU to the Left and Right Pitot-Static probe respectively. Nominal power supply range is within 98 Vac and 132 Vac. The Right Essential 28 Vdc electrical power supply is routed through the TMU to the Standby Pitot-Static probe.</div>
+
+
+
+
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card name="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the pitot and static ant-icing system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 30-30-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card name="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>L7</strong> PITOT HTR STBY</div>
+					</clp-td>
+
+					<clp-td>
+						<div>
+							<clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue>
+						</div>
+						<div>
+							<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						</div>
+
+						<br />
+
+						<div><strong>PITOT HEAT 1</strong> </div>
+						<div><strong>PITOT HEAT 2</strong> </div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card name="Quick reference reset guide">
+			<!-- Ref Start -->
+
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

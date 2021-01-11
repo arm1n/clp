@@ -1,0 +1,93 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>CAB BYP VLV - (ECS Fault Code 3606)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b> CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-806</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b> CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 21-60-00-810-806</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>The CDS shows this message when there is a cabin pack bypass valve malfunction.</li>
+		<li>The caution and warning panel (CAWP) can show one or more of the related caution lights that follow on:CABIN PACK HOT or CABIN DUCT HOT</li>
+		
+
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Pack Bypass Valve</li>
+		<li>Environmental Control System Electronic Control Unit (ECU)</li>
+		<li>ECU</li>
+
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/uf/units/ecsecu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/bleed/units/pack_byp_vlv.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

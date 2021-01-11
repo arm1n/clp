@@ -1,0 +1,83 @@
+<clp-card name="Description">
+			<div><clp-info-red><strong><h4>WX FAIL</h4></strong></clp-info-red></div>
+
+	
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>WX FAIL on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-41-00-810-807</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>WX FAIL on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-41-00-810-808</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	
+	<p>This fault isolation procedure is for when multifunction display 1 (MFD1) shows a WX FAIL message.</p>
+	<p>MFD1 shows a WX FAIL message when it does not receive valid weather radar data. The WX FAIL message is shown in the conditions that follow:</p>
+  
+  <ul>
+	<li>Defective weather radar receiver/transmitter</li>
+	<li>Defective weather radar antenna</li>
+	<li>Defective weather radar control panel</li>
+	<li>Defective antenna receiver/transmitter (ART) A453 data bus</li>
+	<li>Range discrepancy</li>
+</ul>
+
+</clp-card>
+
+<br>
+
+
+<clp-card name="POSSIBLE ACTION">
+
+	<p><strong>ON both MFDs</strong></p>
+	<ul>
+	<li>Switch WXR OFF and then to TEST on WXR control panel</li>
+	<li>WAIT should be displayed in WHITE on left upper corner of MFD</li>
+	<li>after approx. 100 sec WXR TEST and WXR test pattern shall be displayed on MFD</li>
+	<li>After several sweeps RADAR OK message shall be displayed in test pattern -> WXR serviceable</li>
+	<li>or Reset WX CP (H1) and WX RDR (H2) circuit breakers on avionics CB panel, then see Action 1</li>
+</ul>
+	<br>
+	
+	<p><strong>ON MFD 1 ONLY</strong></p>
+	<ul>
+	<li>Check, if EGPWS TERRAIN information can be displayed on MFD 1 (one FMS has to be on with GNSS in NAV mode!)</li>
+	<li>If not, check picture bus connection on MFD 1</li>
+	<li>If yes, replace relay 3443-K7 Reset <clp-text-red>WX CP (H1)</clp-text-red> and <clp-text-red>WX RDR (H2)</clp-text-red> circuit breakers on avionics CB panel</li>
+</ul>
+<br>
+	
+	<p><strong>ON MFD 2 ONLY</strong></p>
+	<ul>
+	<li>Check, if EGPWS TERRAIN information can be displayed on MFD 2 (one FMS has to be on with GNSS in NAV mode!)</li>
+	<li>If not, check picture bus connection on MFD 2</li>
+	<li>If yes, replace relay 3443-K8 Reset <clp-text-red>WX CP (H1)</clp-text-red> and <clp-text-red>WX RDR (H2)</clp-text-red> circuit breakers on avionics CB panel</li>
+</ul>
+	
+	
+	
+</clp-card>
+
+<br/>
+
+<clp-card name="ASSOCIATED CB's">
+  <div><b>AVIONICS CB PANEL</b></div>
+	<br>
+  <div><b>H1</b> -  WX CP</div>
+  <div><b>H2</b> -  WX RDR</div>
+</clp-card>

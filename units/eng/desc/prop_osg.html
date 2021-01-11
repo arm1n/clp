@@ -1,0 +1,25 @@
+<p><strong>Overspeed Governor and High Pressure Pump (OSG)</strong></p>
+
+<div>The purpose of the OSG is to:</div>
+<ul>
+	<li>Increase the pressure of engine supplied oil, to a pressure suitable for propeller actuation</li>
+	<li>Control the supply of oil to the propeller during flight</li>
+</ul>
+
+
+<p>If an overspeed occurs, at approximately 1040 Np, the oil supply to the second stage of the PCU servo valve will be vented to drain. This lets the propeller move towards coarse pitch by action of the blade counterweights, reducing Np. The unit has a reset solenoid which sets the governor to a lower value, approximately 860 Np, when doing functional checks. The OSG has a gear pump and fly weight governor driven by the reduction gearbox. The governor controls the position of a spring loaded spool.<br> When an overspeed condition occurs the spool will move against the spring, to vent the PCU supply line to drain. The governor/spool body houses the reset solenoid valve and a pressure relief valve which limits pump 
+maximum output pressure to 1100 psi (758.4 kPa).</p>
+
+
+<p>The OSG spool spring is installed on a piston in a cylinder that is normally connected to high pressure 
+oil through a solenoid operated pilot valve.The single wound solenoid is energized by operating the OSG 
+Test Switch on the pilot's side console.</p>
+
+<p>An interlock to prevent operation in flight is provided by the WOW 
+input to a low side switch in the PEC. This provides a low-side switching from the local secondary 28 Vdc 
+bus to ground through the OSG reset solenoid and the OSG Test Switch. The switching logic occurs in 
+PEC control lanes that signal a transistor, on the Autofeather module to ground the OSG reset circuit.
+The cylinder is then vented to drain so that the piston bottoms under spring force.</p>
+
+<p><clp-text-blue>The resultant lower spring load on the OSG governor spool causes the OSG to isolate HP supply at the lower NP (860+/- 10).</clp-text-blue></p>
+

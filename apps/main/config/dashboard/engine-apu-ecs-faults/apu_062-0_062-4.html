@@ -1,0 +1,69 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>LOW OIL PRESS SW FLT ( Status ) - (APU Fault Code 062-0 to 062-4)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-70-00-810-813</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>The CDS shows a 62-4 LOW OIL PRESSURE SW FLT message when the auxiliary power unit (APU) full authority digital electronic controller (FADEC) senses a fault in the low oil pressure switch circuit during the watch mode.</p><!-- !!!! -->
+
+	<p>The caution and warning panel (CAWP) APU and APU CONTROL panel FAIL caution lights can come on.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>APU FADEC </li><!-- UNIT -->
+        <li>Low Oil Pressure Switch </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_fadec.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_lowoil_px_sw.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

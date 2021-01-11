@@ -1,0 +1,73 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>LOW ACCELERATION ( Status ) - (APU Fault Code 104-0 to 104-3)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-20-00-810-802</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+
+	<p>The CDS shows a 104−3 LOW ACCELERATION message when the auxiliary power unit (APU) full authority digital electronic control (FADEC) senses a low APU speed increase during the start mode.</p><!-- !!!! -->
+
+	<p>The caution and warning panel (CAWP) APU and the APU CONTROL panel FAIL caution lights can come on.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>APU DC Generator </li><!-- UNIT -->
+        <li>Fuel Control Assembly </li><!-- UNIT -->
+        <li>Fuel Filter Element </li><!-- UNIT -->
+        <li>APU FADEC </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_fuel_cont_unit_all.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_fuel_filter_all.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_fadec.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

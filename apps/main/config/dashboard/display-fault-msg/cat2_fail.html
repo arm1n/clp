@@ -1,0 +1,119 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>CAT 2 FAIL</h4></strong></clp-info-red></div>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td>CAT2 FAIL message on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-864</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	
+	<clp-table>
+		<clp-tr>
+			<clp-td>CAT2 FAIL message on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-865</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	
+	<clp-table>
+		<clp-tr>
+			<clp-td>CAT2 FAIL message on PFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-802</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	
+	<clp-table>
+		<clp-tr>
+			<clp-td>CAT2 FAIL message on PFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-863</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+
+
+	<br>
+	<br>
+
+
+	<p><b>CAT 2 FAIL MESSAGE ON MFD1/2</b></p>
+
+	<p>This fault isolation procedure is for when multifunction display 1/2 (MFD1/2) shows the CAT 2 FAIL message.</p>
+
+	<p>MFD1/2 shows a CAT 2 FAIL message when it is set to show a primary flight display (PFD) reversion and the display unit (DU) senses a dual flight director (FD) mode malfunction during a category 2 instrument landing system (ILS) approach. This message is shown when dual FD approach mode is cancelled while the decision height (DH) is set less than 200 feet and more than 50 feet.</p>
+
+	
+	<p><b>CAT 2 FAIL MESSAGE ON PFD1/2</b></p>
+
+	<p>This fault isolation procedure is for when the flight mode annunciator (FMA) in primary flight display 1/2 (PFD1/2) shows the CAT 2 FAIL message.</p>
+
+	<p>The FMA shows a CAT 2 FAIL message when the display unit (DU) senses a dual flight director (FD) mode malfunction during a category 2 instrument landing system (ILS) approach. This message is shown when dual FD approach mode is cancelled while the decision height (DH) is set less than 200 feet and more than 50 feet.</p>
+
+	
+
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+	<!-- blaues feld -->
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+			
+			<p>Check, if both VHF NAVs and RAD/ALTs serviceable.</p>
+			<p>No CAT II approach possible, due to operational parameters out of CAT II limits (LOC or GS fluctuation, Rad/Alt, ….).</p>
+			<p>Clean RAD/ALT antennas, if necessary.</p>
+
+		</div>
+	</clp-info-blue>
+	<!-- blaues feld -->
+
+
+
+	<br />
+
+
+</clp-card>

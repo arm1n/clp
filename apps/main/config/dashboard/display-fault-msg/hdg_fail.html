@@ -1,0 +1,117 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>HDG FAIL</h4></strong></clp-info-red></div>
+
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>HDG FAIL ON MFD 1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-21-00-810-857</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>HDG FAIL ON MFD 2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-21-00-810-858</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>HDG FAIL ON PFD 1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-21-00-810-859</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>HDG FAIL ON PFD 2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-21-00-810-860</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+
+	<p><b>HDG FAIL, MFD1/2 (Warning) </b></p>
+
+	<p>MFD1 shows a HDG FAIL message when it is set to show a primary flight display (PFD) reversion and does not receive valid heading data from the set attitude and heading reference unit (AHRU).</p>
+
+	<p>A related AHCP1 or AHCP2 SLAVE warning light also can possibly come on</p>
+	<br>
+	<br>
+	<p><b>HDG FAIL, PFD1/2</b></p>
+
+	<p>PFD1 shows a HDG FAIL message when it does not receive valid heading data from the set attitude and heading reference unit (AHRU).</p>
+
+	<p>A related AHCP1 or AHCP2 SLAVE warning light also can possibly come on.</p>
+
+
+
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<ul>
+				<li>Re-align <b>AHRU 1</b> (push ALIGN on AHCP 1)</li>
+				<li>Reset AHRU 1</li>
+				<ul><b>(A4) & (A9)</b> Avionics CB</ul>
+				<br>
+				<br>
+				<li>Re-align <b>AHRU 2</b> (push ALIGN on AHCP 2)</li>
+				<li>Reset AHRU 2</li>
+				<ul><b>(A3) & (A10)</b> Avionics CB</ul>
+				
+				
+			</ul>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+
+
+
+	<br />
+
+
+</clp-card>

@@ -1,0 +1,140 @@
+<clp-card name="Description">
+	<div><clp-info-red><strong><h4>ED MON FAIL</h4></strong></clp-info-red></div>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>ED MON FAIL on ED</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-808</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>ED MON FAIL on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-854</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		<clp-tr>
+			<clp-td>ED MON FAIL on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 31-61-01-810-855</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+	<p><b>ED MON FAIL, ED (Advisory) </b></p>
+	<p>The ED MON FAIL message is usually out of view and comes into view when the set ED senses that its very important parameters are not monitored by a different Display Unit (DU) for more than 30 seconds. The Caution and Warning Panel (CAWP) AVIONICS caution light will also come on.</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The ED is monitored by Multi - Function Display 1 (MFD1) and MFD2.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> Each DU has a feed back output bus that supplies the status of its monitoring function to the set ED as follows:</clp-text-blue>
+	</p>
+	<ul>
+		<li>Operating correctly or fail</li>
+		<li>Indication format (PFD1, PFD2, or ED)</li>
+	</ul>
+
+	<br>
+	<br>
+	<p><b>FADEC1/DU FAIL, MFD1 (Advisory)</b></p>
+	<p>The ED MON FAIL message is usually out of view and comes into view when the set engine display (ED) senses that its very important parameters are not monitored by a different display unit (DU) for more than 30 seconds. The Caution and Warning Panel (CAWP) AVIONICS caution light will also come on.</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> When the MFD1 is set to show ED indications, it is monitored by MFD2.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> Each display unit (DU) has a feedback output bus that supplies the status of its monitoring function to the set ED as follows:</clp-text-blue>
+	</p>
+	<ul>
+		<li>Operating correctly or fail</li>
+		<li>Indication format (PFD1, PFD2, or ED).</li>
+	</ul>
+
+
+	<br>
+	<br>
+	<p><b>FADEC1/DU FAIL, MFD2 (Advisory)</b></p>
+	<p>The ED MON FAIL message is usually out of view and comes into view when the set engine display (ED) senses that its very important parameters are not monitored by a different display unit (DU) for more than 30 seconds. The Caution and Warning Panel (CAWP) AVIONICS caution light will also come on.</p>
+	<br>
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> If the MFD2 is set to show ED indications, it is monitored by MFD1.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> Each display unit (DU) has a feedback output bus that supplies the status of its monitoring function to the set ED as follows:</clp-text-blue>
+	</p>
+	<ul>
+		<li>If the MFD2 is set to show ED indications, it is monitored by MFD1.</li>
+		<li>Indication format (PFD1, PFD2, or ED).</li>
+	</ul>
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-table fullwidth="">
+		<clp-tr>
+
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>A2</strong> PFD #1</div>
+				<div><strong>A5</strong> PFD #2</div>
+				<div><strong>B7</strong> MFD #1</div>
+				<div><strong>B6</strong> MFD #2</div>
+				<div><strong>B5</strong> ESID/</div>
+				<div><strong>B11</strong> ESID</div>
+
+
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+
+	<br />
+
+
+</clp-card>

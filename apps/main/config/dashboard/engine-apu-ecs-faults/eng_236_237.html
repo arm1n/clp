@@ -1,0 +1,70 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>AUPC active - (Engine Fault Code 236/237)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-822</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of the AUPC having been activated. This may not be indicative of a fault in the propeller system, but may be as a result of incorrect flight deck procedures. This fault forces the propeller to operate on the overspeed governor, and the AFM requires the pilot to shut down the powerplant under normal circumstances.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that the conditions for AUPC to be activated were true.</p><!-- !!!! -->
+	
+	<p>This fault code will be annunciated as a PEC caution on the ACWS. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+	<p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br/>
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Flight deck mishandling </li><!-- !!!! -->
+		<li>PCU (in conjunction with fault code 260 only) </li>
+		<li>PEC </li>
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+    
+
+	
+	
+<br>
+</clp-card>

@@ -1,0 +1,65 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Software error. Task overrun - Fault Isolation - (Engine Fault Code 92/93)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	<br>
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-02-810-828</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br />
+
+	<div>This fault code is generated as a result of too slow execution times for the PEC software. This is an internal PEC fault.</div><!-- !!!! -->
+	<br>
+	<div>The fault isolation logic has determined that the processor execution time is too long.</div><!-- !!!! -->
+	<br>
+	<div>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</div><!-- !!!! -->
+	<br>
+	<div></div><!-- !!!! -->
+	<br>
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	
+<br>
+</clp-card>

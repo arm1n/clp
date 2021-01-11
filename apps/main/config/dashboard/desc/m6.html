@@ -1,0 +1,143 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>NOSE STEERING</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 32-50-00-810-801</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<br>
+			<!-- General Start -->
+
+			<div>The NOSE STEERING caution light comes on when the Steering Control Unit (SCU) senses a discrepancy and the Nose Wheel Steering (NWS) system is set to operate in the castor mode.</div>
+			<br>
+			<div>The NOSE STEERING caution light goes off when the STEERING toggle switch is set to the OFF position. If the Solenoid-Operated hydraulic sequence Valve (SOV) or Mode Selector Valve (MSV) stays open, the NOSE STEERING caution light will stay on.</div>
+			<br>
+			<div>The SCU will make the NOSE STEERING caution light come on and a fault code will beregistered in the SCU when it senses a condition that follows:</div>
+			<ul>
+				<li>SCU Built-in Test (BIT) failure, Power-up Built-in Test (PBIT) or Continuous Built - in Test (CBIT)</li>
+				<li>Pilot Hand Control (PHC) input is more than ±64 degrees</li>
+				<li>Rudder pedal input is more than ±8 degrees</li>
+				<li>Electro-Hydraulic Servo Valve (EHVS) coil is open or short circuit</li>
+				<li>SCU servo amplifier failure</li>
+				<li>Difference between the commanded EHVS nose wheel angle and the Linear Difference Transducers (LVDTs) feedback sensor</li>
+				<li>SOV coil is open or short circuit</li>
+				<li>SOV stays open</li>
+				<li>SOV stays closed</li>
+				<li>MSV stays open</li>
+				<li>MSV stays closed</li>
+				<li>One of the Rotary Variable Differential Transducer (RVDT) has failed or has a fault</li>
+			</ul>
+			<br>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong> Foreign material can restrict hydraulic fluid flow. This will cause the nose steering to be partially or completely inoperative.</clp-text-blue>
+			</div>
+			<br>
+			<br>
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card name="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the nosewheel steering system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 32-51-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card name="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>C6</strong> NLG STEER CONT 1</div>
+						
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>P5</strong> NLG STEER CONT 2</div>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card name="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<br>
+			<clp-card name="Units">
+				<clp-file path="./units/gear/units/steer_cont_unit.html"></clp-file>
+				
+			</clp-card>
+			<br>
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

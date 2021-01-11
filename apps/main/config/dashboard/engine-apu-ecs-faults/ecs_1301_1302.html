@@ -1,0 +1,98 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>L HP BLD SW or R HP BLD SW - (ECS Fault Code 1301 or 1302)</strong>
+		</div>
+	</clp-info-red>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b> CH 1 (LH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 36-10-00-810-804</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td><b> CH 2 (RH)</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 36-10-00-810-801</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+
+	</clp-table>
+
+	<br />
+
+	<div>Possible Causes:</div>
+
+	<ul>
+		<li>The CDS shows the L or R HP BLD SW message when the ARINC 429 discrete to the environmental control unit (ECU) indicates the HP pressure is low and you have all of the conditions that follow:</li>
+		<li>- The de-ice system is on</li>
+		<li>- The received P3 pressure indicates there is adequate bleed pressure (>92 psig)</li>
+		<li> The CDS shows the 1302 - L HP BLD SW message when the #1 Bleed switch is in the OFF position, the left engine’s HP pressure is below 70 psig, and the relay box is not commanding the HPSOV open.</li>
+		<li>The CDS shows the 1302 - R HP BLD SW message when the #2 Bleed switch is in the OFF position, the right engine’s HP pressure is below 70 psig, and the relay box is not commanding the HPSOV open.</li>
+		<li>Unserviceable wiring harness connector 2121-P29.</li>
+
+
+	</ul>
+	<br>
+
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+	<br />
+	<!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li> Relay Junction Box 1, 2, 3</li>
+		<li> Ice and Rain Protection Panel</li>
+		<li> Bleed Stage Pressure Switch</li>
+
+
+
+	</ul>
+	<br>
+	<br>
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/ice_prot_panel.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/bleed/units/bl_stage_px_sw.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+
+		<clp-grid-column>
+            
+
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

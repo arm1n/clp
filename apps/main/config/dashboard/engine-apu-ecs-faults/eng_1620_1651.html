@@ -1,0 +1,68 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Internal EMU Fault - (Engine Fault Code 1620 thru 1651 and 1657)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 77-31-00-810-810</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+	<br>
+
+
+    <p>The fault isolation procedure that follows is to correct the engine monitoring unit (EMU) fault code. The registered fault codes are 1620 thru 1651 and 1657.</p><!-- !!!! -->
+
+    <p>These fault codes occur when there is an internal fault in the EMU. This could be caused by a hardware problem or memory corruption.</p><!-- !!!! -->
+
+    <p>Do an EMU memory clear</p><!-- !!!! -->
+
+    <p>If the fault occurs again, replace the EMU at a convenient time</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>EMU </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/emu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

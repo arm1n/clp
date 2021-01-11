@@ -1,0 +1,64 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>PHASETRIM out of range (on aircraft without Modsum 4W113558 only) - (Engine Fault Code 140/141)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-03-810-819</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated on the #2 PEC only as a result of the phasetrim input to the PEC being outside of a predetermined range.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that PHASETRIM input to the PEC is less than 0.7V or greater than 8.5V.</p><!-- !!!! -->
+	
+	<p>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>ANVS </li><!-- !!!! -->
+		<li>PEC </li>
+		
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+	
+	
+<br>
+</clp-card>

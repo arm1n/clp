@@ -1,0 +1,68 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Beta feedback not available (propeller stationary ) - (Engine Fault Code 134)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-03-810-822</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of the apparent loss of the blade angle feedback signal from the Beta Feedback Transducer (BFT) located on the PCU, on the active or standby PEC control lane, when the propeller is not rotating. If PEC has multiple BFT related faults, Fault 134 should be rectified first.</p><!-- !!!! -->
+	
+	<p>The fault detection logic has determined that there is no valid value of propeller blade angle (Beta) on the active or standby PEC lane (channel) for a period longer than 2 seconds.</p><!-- !!!! -->
+	
+	<p>This fault code will clear by itself as soon as valid blade angle is detected by the PEC and it does not require fault clear.</p><!-- !!!! -->
+	
+	<p>The fault detection logic for fault code 134 is identical to the fault detection logic for fault code 130. However, fault code 130 can only occur with propeller rotating and does not clear by itself (it requires a fault clear).</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Loose or dirty connectors on BFT or PEC </li><!-- !!!! -->
+		<li>Worn BFT connector pin and sockets </li>
+        <li>PEC wiring harness (wiring fault) </li>
+		<li>PCU (BFT fault) </li>
+		<li>PEC (internal fault) </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+    
+	
+<br>
+</clp-card>

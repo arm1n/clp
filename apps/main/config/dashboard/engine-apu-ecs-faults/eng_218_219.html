@@ -1,0 +1,68 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>AUPC threshold fault - (Engine Fault Code 218/219)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-05-810-841</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+   
+
+    <p>This fault code is generated as a result of an apparent failure to signal the AUPC trigger logic with the correct speed status. This is an indication of an internal PEC fault.</p><!-- !!!! -->
+    
+    <p>The fault isolation logic has determined that either of the following is true:
+        AUPC THRESHOLD MONITOR is inactive (no AUPC drive signal) with NQA/NQB smaller 77% (785 rpm) or
+        AUPC THRESHOLD MONITOR is active (AUPC drive signal) with NQA/NQB larger 83% (845 rpm).</p><!-- !!!! -->
+    
+    <p>This fault code will be annunciated as a PEC caution in the ACWS. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+    
+    <p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+    
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+    
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>PEC </li><!-- !!!! -->
+        
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>

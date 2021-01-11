@@ -1,0 +1,88 @@
+<clp-card name="Description">
+	<div>
+		<clp-info-red><strong><h4>AP/YD FAIL</h4></strong></clp-info-red>
+	</div>
+	
+	
+	<br>
+	<clp-link-pdf>FIM TASK 22-11-00-810-805</clp-link-pdf>
+	<clp-link-tr> (TR-FIM)</clp-link-tr>
+	
+	<br>
+	<br>
+
+	<div>The FMA shows the AP/YD FAIL message for one of the conditions that follow:</div>
+	<ul>
+		<li>A Flight Guidance Module (FGM1 or FGM2) senses an internal or Yaw Damper Actuator Unit (YDAU) fault that prevents Yaw Damper (YD) operation</li>
+		<li>Input/Output Processor module 1 (IOP1) does not receive a valid status from FGM1 or FGM2.</li>
+	</ul>
+
+
+	<br>
+	<div>
+		<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+	</div>
+
+
+
+	<ul>
+		<li> If the Autopilot (AP) or YD was engaged, an AP/YD DISENGAGED message is shown
+			until cancelled before this message is shown.</li>
+		<br>
+		<li> If the YD was engaged, an YD DISENGAGED message is shown until cancelled before this message is shown.</li>
+		<br>
+		<li>The FMA in the PFD can also show the YD NOT CENTERED message.</li>
+		<br>
+		<li>If the message is AP FAIL, do the fault isolation for the AP FAIL (Refer to <clp-link-pdf>FIM TASK 22-11-00-810-808</clp-link-pdf>
+			<clp-link-tr> (TR-FIM)</clp-link-tr>).
+		</li>
+
+	</ul>
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+
+	<br>
+	<clp-info-blue><div><div><clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+		</div>
+		<ul>
+		<li>Check AP disengage pushbuttons on control wheels for stuck condition.</li>
+		<br>
+		<li>Reset following circuit breakers on <b>AVIONICS CB PANEL:</b>:</li>
+			
+		<div><strong>F7</strong> IOM/IOP/FGM1</div>
+		<div><strong>F6</strong> IOM/IOP/FGM2</div>
+		<br>
+		<div><strong>E1</strong> APAU PITCH</div>
+		<div><strong>E2</strong> APAU ROLL</div>
+		<div><strong>E3</strong> YDAU</div>
+	</ul>
+		
+		</div></clp-info-blue>
+
+	
+
+
+	<br />
+
+
+</clp-card>
+

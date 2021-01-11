@@ -1,0 +1,29 @@
+<p><strong>APU Control Panel</strong></p>
+
+
+
+<clp-tabs>
+  <clp-tab name="Descr.">
+		<p>Selecting the power (PWR) switch applies 28 Vdc power to the FADEC, enabling APU functions and the control panel advisory lights. Pressing the START switch starts the auto start sequence. FADEC signals the Generator Control Unit to begin the start sequence.
+</p>
+
+<p>After the APU has started and the RUN advisory light on the PWR switch has come on, the GEN ON switch
+	selects the generator and BL AIR selects bleed air on.</p>
+
+<p>Pushing the PWR switch, when the APU is operating, will close the fuel valves and shut down the APU.
+	This is a normal shut down and will not turn on the advisory or caution lights.</p>
+
+<p>GEN OHT turns on when the generator is hot.</p>
+
+<p>FAIL turns on for any detected failure of the APU or APU control functions.</p>
+<br>
+	</clp-tab>
+	
+  <clp-tab name="More">
+	<clp-file path="./units/cockpit/desc/apu_cont_panel_info.html"></clp-file>
+	</clp-tab>
+	
+  <clp-tab name="Faults">
+	<clp-file path="./units/cockpit/desc/apu_cont_panel_faults.html"></clp-file>
+	</clp-tab>
+</clp-tabs>

@@ -1,0 +1,76 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>FAIL TO LIGHT ( Status ) - (APU Fault Code 133-0 to 133-2)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 49-20-00-810-803</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+    <p>Operational Test of the APU Igniter Plugs</p>
+    <p>
+		<clp-link-pdf>AMM TASK 49-40-04-710-801</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-AMM)</clp-link-tr>
+	</p>
+
+
+	<p>The CDS shows this message when the auxiliary power unit (APU) full authority digital electronic controller (FADEC) senses that APU EGT does not increase after 3% speed during the start mode.</p><!-- !!!! -->
+
+	<p>The caution and warning panel (CAWP) APU and APU CONTROL panel FAIL caution lights can come on.</p><!-- !!!! -->
+
+	<p>NOTE: If one start fuel nozzle is blocked, or one igniter has malfunctioned, the APU should start with the other start fuel nozzle or igniter. This discrepancy may not be seen until two of the components malfunction. The start fuel nozzles and the igniters can be swapped as part of the troubleshooting process.</p><!-- !!!! -->
+
+	<p></p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/apu_fault_links.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>APU Shut−Off Valve </li><!-- UNIT -->
+        <li>APU FADEC </li><!-- UNIT -->
+        <li>Start Fuel Solenoid Valve </li><!-- UNIT -->
+        <li>Start Fuel Nozzle </li><!-- UNIT -->
+        <li>Exciter </li><!-- UNIT -->
+        <li>Igniter </li><!-- UNIT -->
+
+	</ul>
+	<br>
+	<br>
+
+	<clp-grid>
+
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/apu/units/apu_fadec.html"></clp-file><!-- UNIT -->
+			</clp-card>
+		</clp-grid-column>
+ 
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+
+		
+		<clp-grid-column>
+			<!-- UNIT -->
+		</clp-grid-column>
+	</clp-grid>
+
+	<br>
+</clp-card>

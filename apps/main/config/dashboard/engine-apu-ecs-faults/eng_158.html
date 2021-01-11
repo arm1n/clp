@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Speed tracking error - (Engine Fault Code 158)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-04-810-812</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent error between the demand propeller speed and the actual propeller speed of more than 1 rpm (Pre Modsum 4W113558) or 5 rpm (Post Modsum 4W113558) for a period of more than 30 seconds with the propeller operating in speed control in flight. This is not an indication of an MPU fault.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that NP REQ and NP differs by more than 1 prpm (Pre Modsum 4W113558) or 5 prpm (Post Modsum 4W113558) for 30 seconds.</p><!-- !!!! -->
+	
+	<p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. For Pre Modsum 4W113558, this fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display. For Post Modsum 4W113558, this fault code is designated as unlimited despatch for TLD purposes, provided that repairs to correct and clear the fault are completed within 10 days of fault detection or within 150 flight hours of fault occurrence, whichever occurs later. Refer to the Continued Airworthiness Maintenance Tasks section of PMM 1096 Part 1.</p><!-- !!!! -->
+	
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Propeller piston seal </li><!-- !!!! -->
+		<li>PCU servovalve </li>
+		<li>OSG </li>
+        <li>PEC </li>
+        <li>Propeller </li>
+		<li>Feathering Pump </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pcu.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/prop_osg.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+    
+	
+<br>
+</clp-card>

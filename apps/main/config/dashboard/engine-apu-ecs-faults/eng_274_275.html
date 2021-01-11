@@ -1,0 +1,69 @@
+<clp-card name="GENERAL">
+
+	<clp-info-red>
+		<div>
+			<strong>Post SB84-61-01-A PEC Maintenance mode mismatch / - (Engine Fault Code 274-275)</strong><!-- !!!! -->
+		</div>
+	</clp-info-red>
+
+	<br>
+	<div>
+		<strong>Post SB84-61-01-A PEC</strong>
+		<clp-link-pdf>FIM TASK 61-20-06-810-826</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br>
+	<p>This fault code is generated as a result of a difference in the maintenance mode status of the PEC and FADEC.</p><!-- !!!! -->
+
+	<p>The fault isolation logic has determined that PEC MAINT disagrees with FADEC MAINT for more than 2 seconds. For Post Modsum 4W113558, this fault code will not be annunciated when the propeller is rotating.</p><!-- !!!! -->
+
+	<p>This fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes.</p><!-- !!!! -->
+
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Maintenance discrete switch </li><!-- !!!! -->
+		<li>Aircraft wiring </li>
+		<li>PEC </li>
+		<li>Fuel Control electrical wiring harness </li>
+		<li>FADEC </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	<br>
+</clp-card>

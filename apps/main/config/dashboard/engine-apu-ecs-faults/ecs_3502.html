@@ -1,0 +1,98 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong>SEC HX PERF - (ECS Fault Code 3502)</strong>
+        </div>
+    </clp-info-red>
+
+    <br>
+
+    <clp-table>
+        <clp-tr>
+            <clp-td><b> CH 1 (LH)</b></clp-td>
+            <clp-td>
+                <clp-link-pdf>FIM TASK 21-60-00-810-846</clp-link-pdf>
+            </clp-td>
+            <clp-td>
+                <clp-link-tr>(TR-FIM)</clp-link-tr>
+            </clp-td>
+        </clp-tr>
+
+        <clp-tr>
+            <clp-td><b> CH 2 (RH)</b></clp-td>
+            <clp-td>
+                <clp-link-pdf>FIM TASK 21-60-00-810-846</clp-link-pdf>
+            </clp-td>
+            <clp-td>
+                <clp-link-tr>(TR-FIM)</clp-link-tr>
+            </clp-td>
+        </clp-tr>
+
+
+    </clp-table>
+
+    <br />
+
+    <div>Possible Causes:</div>
+
+    <ul>
+        <li>The CDS shows this message when the environmental control system (ECS) electronic control unit (ECU) senses a difference between the performance of the heat exchanger and the specified performance limits of the heat exchanger.</li>
+        <li>NOTE:The level of performance of the heat exchanger is found when the temperatures from the compressor outlet, the secondary heat−exchanger outlet, and the static air temperature are compared.</li>
+        <li>NOTE:
+            This test is possible only if the packs are on and the static air temperature is more than 15 °C. The pack air flow must be between the limits specified in the software. The altitude and the level of performance of the heat exchanger must be in a steady state for a minimum of five minutes.</li>
+        <li>This is a Class 2 fault. There is no related alert message. NOTE:It is recommended that you do the Fault Isolation, if necessary, after not more than 250 flight hours.</li>
+        
+
+    </ul>
+    <br>
+
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link_ecs.html"></clp-file>
+
+    <br />
+    <!-- Zentrale Link  ende -->
+
+</clp-card>
+
+<br />
+
+
+<clp-card name="POSSIBLE LRU">
+    <div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+    <ul>
+        <li>Dual Heat Exchanger</li>
+        <li>Secondary Heat Exchanger Outlet Temperature Sensor</li>
+        <li>Environmental Control System Electronic Control Unit (ECU)</li>
+
+
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/uf/units/ecsecu.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/bleed/units/heat_exch.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/bleed/units/sec_hexch_sensor.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+    </clp-grid>
+
+    <br>
+</clp-card>

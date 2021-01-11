@@ -1,0 +1,39 @@
+<p><strong>EXTERNAL DC POWER</strong></p>
+
+<p>When the DC external power toggle switch located on 
+the DC control panel is set to EXT PWR, the DC external power source is connected to the main, essential, and secondary DC busses.</p>
+
+
+<br>
+<div>The DC external power condition is sensed by the EPCU and it operates as follows:</div>
+
+<ul>
+	<li>The external power contactor <b>K9</b> connects the dc external power source to the left main bus</li>
+	<li>The main bus tie contactor <b>K21</b> connects the left main feeder bus to the right main feeder bus</li>
+	<li>The secondary/main feeder bus contactors, <b>K5</b> and <b>K6</b> connect the secondary feeder busses to the main feeder busses.</li>
+	<li>An inhibit signal is sent from the EPCU to the DC GCUs to open the bus contactors <b>K1, K2</b> and to de-energize the DC starter/generator while external power is selected</li>
+	
+</ul>
+<br>
+<div>The EPCU checks the external power source for the parameters that follow:</div>
+
+<clp-table hover border>
+	<clp-tr>
+		<clp-td><strong> Parameter  </strong></clp-td>
+		<clp-td><strong> Trip Point </strong></clp-td>
+	</clp-tr>
+	<clp-tr>
+		<clp-td>Over Voltage  </clp-td>
+		<clp-td><strong>31 Vdc</strong></clp-td>
+	</clp-tr>
+	
+	<clp-tr>
+		<clp-td>Under Voltage </clp-td>
+		<clp-td><strong>22 Vdc</strong></clp-td>
+	</clp-tr>
+	
+	<clp-tr>
+		<clp-td>Polarity </clp-td>
+		<clp-td><strong>Reversed</strong></clp-td>
+	</clp-tr>
+</clp-table>

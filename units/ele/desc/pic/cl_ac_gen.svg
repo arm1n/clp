@@ -1,0 +1,28 @@
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 483 35" xml:space="preserve">
+  <path d="M63.8 31.5V4.4H4.3v27.1h59.5z" fill="#333" id="Layer0_0_MEMBER_5_MEMBER_0_FILL"/>
+  <path id="Layer0_0_MEMBER_5_MEMBER_0_1_STROKES" d="M63.8 31.5H4.3V4.4h59.5v27.1z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(613.45 100.25) scale(.62848)">
+    <defs>
+      <path id="SVGID_1_" d="M-948.6-138.7h51.1v13.1h-51.1z"/>
+    </defs>
+    <clipPath id="SVGID_2_">
+      <use xlink:href="#SVGID_1_" overflow="visible"/>
+    </clipPath>
+    <text transform="translate(-961.695 -126.537) scale(1.5911)" font-size="8.799" font-family="Arial-BoldMT" fill="#f93">
+      #1 AC GEN
+    </text>
+  </g>
+  <path d="M127.8 31.7V4.6H68.3v27.1h59.5z" fill="#333" id="Layer0_0_MEMBER_7_MEMBER_0_FILL"/>
+  <path id="Layer0_0_MEMBER_7_MEMBER_0_1_STROKES" d="M127.8 31.7H68.3V4.6h59.5v27.1z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(613.45 131.4) scale(.62848)">
+    <defs>
+      <path id="SVGID_3_" d="M-846.8-188h51.1v13.1h-51.1z"/>
+    </defs>
+    <clipPath id="SVGID_4_">
+      <use xlink:href="#SVGID_3_" overflow="visible"/>
+    </clipPath>
+    <text transform="translate(-859.862 -175.863) scale(1.5911)" font-size="8.799" font-family="Arial-BoldMT" fill="#f93">
+      #2 AC GEN
+    </text>
+  </g>
+</svg>

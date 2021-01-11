@@ -1,0 +1,69 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Qa inconsistent - (Engine Fault Code 240/241)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-823</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent difference in Qa when compared with Qb and FADEC TORQUE.</p><!-- !!!! -->
+	
+	<p>The fault isolation logic has determined that Qa differs by more than 20% rated torque when compared to Qb and FADEC TORQUE. Qb and FADEC TORQUE must be within 10% rated torque of each other. This check is completed only when propeller speed is greater than 400 rpm, NP is valid and FADEC TORQUE is valid. There is a first order lag of 5 seconds before any comparison test is completed.</p><!-- !!!! -->
+	
+	<p>This fault code will inhibit the autofeather advisory when PLA goes into the take−off range. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+	<p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>Loose/Dirty connectors </li><!-- !!!! -->
+		<li>Torque probe A </li>
+		<li>PEC </li>
+		<li>Fuel control electrical wiring harness </li>
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/tq_sensor.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+  
+
+	
+<br>
+</clp-card>

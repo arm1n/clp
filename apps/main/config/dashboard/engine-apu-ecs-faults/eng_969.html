@@ -1,0 +1,77 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> No Light Up with Igniter No. 1  - (Engine Fault Code 969)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-822</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>The FADEC commands ignition either from channel A or channel B in successive turns during normal operation mode.</p><!-- !!!! -->
+    
+    
+
+    <p>The fault detection logic uses a counter. The FADEC gives points to each channel separately based on the ignition results. Each successful start will decrease the counter by 1 point. Each ignition command that resulted in no engine light−up will attribute 3 points to the channel. The minimum number of points is 0 and the maximun is 9. The FADEC does not count points outside those limits.</p><!-- !!!! -->
+    <p>The fault code will be triggered for a specific channel when it accumulates 9 points.</p><!-- !!!! -->
+    <p>After a channel has reached 9 points, it will then be used systematically by the FADEC to light the engine. It will use this channelto light the engine until it reaches 0 point.</p><!-- !!!! -->
+    <p>For Pre−SB35140, if you replace the ignition cables or if there is damage, then you must replace the igniter plugs also. This is because an internal leak in the plug can damage the cables. The leak in the plug is not necessarily visible or detectable.</p><!-- !!!! -->
+    <p>Detachment of the igniter floating collar from the combustion chamber can result in the inability to light the engine with active igniter plug. It is recommended to inspect the igniter ports (both) to validate the presence of the igniter floating collar prior to igniter plug installation.</p><!-- !!!! -->
+
+    <p>In order to differentiate ignition system channels A and B from FADEC channels A and B, this procedure refers to ignition system channel A as channel No. 1 and ignition system channel B as channel No. 2.</p><!-- !!!! -->
+
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Igniter Plugs </li>
+        <li>Ignition Exciter </li>
+        <li>Ignition cables </li>
+        <li>Combustion Chamber Liner Igniter Floating Collar(s) </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/ign_exciter.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+    
+    <br>
+
+    <br>
+</clp-card>

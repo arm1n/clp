@@ -1,0 +1,64 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>The GBE switch stays in the off position - (Engine Fault Code 224/225)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-826</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of a discrepancy between the voltages being recorded on either side of the Ground Beta Enable switch internal to the PEC. This is not an indication of a Ground Beta Enable Solenoid problem on the PCU. The fault is an internal PEC problem.</p><!-- !!!! -->
+	
+	<p>The fault detection logic has determined that, on the active lane, PLA BETA = 1, GROUND BETA ENABLE SOL MON = 1 and GROUND BETA ENABLE SOL = Switch Closed (demanded closed) for a confirmation time of 2.5 seconds.</p><!-- !!!! -->
+	
+	<p>This fault code will be annunciated as a PEC caution on the ACWS. This fault code is designated as No Despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+	
+	
+<br>
+</clp-card>

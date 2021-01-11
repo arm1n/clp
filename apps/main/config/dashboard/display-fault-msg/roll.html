@@ -1,0 +1,81 @@
+<clp-card name="Description">
+		<div><clp-info-red><strong><h4>ROLL on PFD</h4></strong></clp-info-red></div>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-20-00-810-807</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<p>The EADI shows the ROLL mismatch flag when the flight data processing system (FDPS) senses an attitude and heading reference unit 1 (AHRU1) and AHRU2 roll difference that is more than three degrees.</p>
+
+	<p> The flight mode annunciator (FMA) in the primary flight display (PFD) can show a ROLL MISMATCH message.</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The FMAs will show only the most important mismatch message and this is the primary mismatch indication.</clp-text-blue>
+	</p>
+
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<p>Reset AHRU 1 and AHRU 2 on Avionics CB Panel</p>
+
+			<ul>
+				<li><b>(A4)</b> AHRU 1</li>
+				<li><b>(A9)</b> AHRU 1</li>
+				<li><b>(A3)</b> AHRU 2</li>
+				<li><b>(A10)</b> AHRU 2</li>
+				
+			</ul>
+
+		</div>
+	</clp-info-blue>
+
+	
+	<br>
+
+
+	<br>
+
+
+
+
+
+
+</clp-card>

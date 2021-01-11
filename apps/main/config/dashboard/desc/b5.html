@@ -1,0 +1,112 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>R TRU</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 24-30-00-810-818</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/b4_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<br>
+			<!-- General Start -->
+
+			<div>The CAWP R TRU caution light comes on when the left (R) transformer rectifier unit
+				(TRU) is not energizing the left or right secondary feeder buses because of a source
+				or bus fault condition (output is less than 15 Vdc) or the AC Generator toggle
+				switches are set to the off psoition.</div>
+			<br>
+			<div>There are no related Central Diagnostic System (CDS) or Electrical Power Control Unit (EPCU) fault code status messages.
+			</div>
+			<br>
+			<div>Each TRU energizes its own secondary feeder bus. The EPCU (Elec- trical Power Control Unit) checks the voltage on each secondary feeder bus. If the voltage is less than 15 Vdc for more than 7 seconds, the EPCU considers this to be a TRU malfunction. </div>
+			<br>
+			<div>The EPCU will close the secondary bus tie contactor K22 to connect the right and left secondary buses. In this reconfigured condition, all aircraft loads stay energized.</div>
+			<br>
+
+
+		</clp-card>
+
+		<br>
+
+		<clp-card name="Quick links">
+
+			<div>Operational test of the left TRU</div>
+			<div>
+				<clp-link-pdf>AMM TASK 24-31-21-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+
+			<!-- Left CB LOCATION -->
+		</clp-card>
+
+		<br>
+
+		<clp-card name="Associated CBs">
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<clp-text-blue><strong>115V AC CB Panel </strong></clp-text-blue><br>
+						<clp-text-blue><em>(Copilot side)</em></clp-text-blue>
+						<br>
+						<br>
+						<div><strong>L TRU</strong> </div>
+						<div><strong>R TRU</strong> </div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+		</clp-card>
+	</clp-grid-column>
+
+	<!-- RIGHT -->
+	<clp-grid-column>
+		<!-- Start -->
+
+		<clp-card name="Quick reference reset guide">
+
+			<br>
+			<clp-card name="Units">
+				<clp-file path="./units/ele/units/tru.html"></clp-file>
+
+			</clp-card>
+
+
+
+
+		</clp-card>
+	</clp-grid-column>
+</clp-grid><!-- Ende -->

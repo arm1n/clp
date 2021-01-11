@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 107.7 99.2" style="enable-background:new 0 0 107.7 99.2;" xml:space="preserve">
+<rect x="2.3" y="0.9" style="fill:#1D1D1B;" width="103.1" height="68.2"/>
+<g>
+	
+		<path id="Layer2_0_MEMBER_0_MEMBER_4_MEMBER_1_MEMBER_0_MEMBER_6_1_STROKES_2_" style="fill:none;stroke:#FFFFFF;stroke-width:0.4;stroke-miterlimit:5;" d="
+		M74.7,21.1v40.3h25.2V21.1C99.9,21.1,74.7,21.1,74.7,21.1z M74.7,21.1H36.1v40.3h38.6"/>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_1_" x="36.1" y="33.2" width="16.5" height="20"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_2_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 39.3826 47.7747)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:11.3216px;">-</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_3_" x="36.1" y="45.8" width="16.5" height="20"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_4_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 39.3826 60.3558)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:11.3216px;">-</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_5_" x="7.5" y="22.4" width="28.6" height="17.4"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_6_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 10.7527 34.4632)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0733px;">MAIN</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_7_" x="11" y="35.8" width="23.4" height="17.4"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_8_);enable-background:new    ;">
+						<text transform="matrix(1 0 0 1 14.2215 47.9105)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0733px;">AUX</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<polyline style="fill:none;" points="6.2,66.2 6.2,48.8 33.5,48.8 33.5,66.2 	"/>
+	<text transform="matrix(1 0 0 1 9.4568 60.9242)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:9.0733px;">STBY</text>
+	<text transform="matrix(1 0 0 1 56.0857 11.5158)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:10.1972px;">BATT</text>
+	<text transform="matrix(1 0 0 1 46.2761 19.1272)" style="fill:#438CCB; font-family:'ArialMT'; font-size:7.8687px;">LOAD</text>
+	<text transform="matrix(1 0 0 1 82.8113 19.1253)" style="fill:#438CCB; font-family:'ArialMT'; font-size:7.8687px;">&#xB0;C</text>
+	<text transform="matrix(1 0 0 1 40.8416 32.6146)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">+1. 00</text>
+	<text transform="matrix(1 0 0 1 56.8875 46.7132)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">.34</text>
+	<text transform="matrix(1 0 0 1 56.8875 59.2923)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">.34</text>
+	<text transform="matrix(1 0 0 1 78.7058 32.4359)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">+22</text>
+	<text transform="matrix(1 0 0 1 78.532 45.7533)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">+22</text>
+	<text transform="matrix(1 0 0 1 78.7058 59.2591)" style="fill:#FFFFFF; font-family:'ArialMT'; font-size:11.3216px;">+22</text>
+</g>
+<polygon style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" points="57.9,77.7 47.7,77.7 48,71.9 44.1,71.9 52.9,63.5 
+	61.8,71.9 57.9,71.9 "/>
+<g>
+	<circle style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" cx="52.9" cy="82.7" r="7.9"/>
+	<text transform="matrix(1 0 0 1 49.6943 86.1407)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:9.9417px;">1.</text>
+</g>
+<polygon style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" points="93.9,77.7 83.7,77.7 84,71.9 80.1,71.9 88.9,63.5 
+	97.8,71.9 93.9,71.9 "/>
+<g>
+	<circle style="fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;" cx="88.9" cy="82.7" r="7.9"/>
+	<text transform="matrix(1 0 0 1 85.6943 86.1407)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:9.9417px;">2.</text>
+</g>
+</svg>

@@ -1,0 +1,134 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-red><strong>#1 FADEC FAIL</strong></clp-text-red>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 77-31-00-810-827</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<br>
+			<!-- General Start -->
+
+			<div>These faults can cause complete loss of critical control operations such as PLA, torque and NH. Thus, the FADEC automatically reduces fuel flow or shuts down the engine.</div>
+			<br>
+
+			<div>The #1 ENG FADEC FAIL warning light also comes on when FADEC 1 has automatically set the engine speed to flight idle or ground idle.</div>
+			<br>
+
+			<div>The FADEC 1 will automatically stop engine operation and make the #1 ENG FADEC FAIL warning light come on when it senses a condition that follows:</div>
+			<ul>
+				<li>The two fuel flow feedback channels have malfunctioned for more than 0.5 seconds during run mode, or more than 0.1 seconds when not in run mode</li>
+				<li>The two ambient pressure channels have malfunctioned for more than 56 seconds</li>
+				<li>The two T1.5/T1.8 inlet temperature channels have malfunctioned for more than five seconds</li>
+				<li>The two high pressure rotor speed (NH) channels have malfunctioned for more than two seconds.</li>
+				<li>A fuel flow wraparound and track malfunction occurs on the channel in control for more than two seconds</li>
+				<li>A malfunction is sensed during normal engine shutdown</li>
+				<li>Metering valve malfunctioned during shutdown</li>
+				<li>An NL de-couple event has been sensed and accommodated</li>
+				<li>The output driver test is enabled</li>
+				<li>A critical fault indication by remote channel while cross-link is healthy</li>
+			</ul>
+			<br>
+
+			<div>The FADEC 1 will automatically set the engine speed to flight idle or ground idle and make the #1 ENG FADEC FAIL warning light come on when it senses a condition that follows:</div>
+			<ul>
+				<li>The two Q/NPT channels have malfunctioned</li>
+				<li>The two PLA channels have malfunctioned</li>
+			</ul>
+			
+			<br>
+			<br>
+
+
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card name="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test for engine fault code indications</div>
+			<div>
+				<clp-link-pdf>AMM TASK 77-31-00-710-802</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card name="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>LEFT DC CB Panel</strong></clp-text-blue></div>						
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						
+						<br/>
+
+						<div><strong>J6</strong> PROP 1 PEC A</div>
+						<div><strong>J4</strong> ENG 1 FADEC A</div>
+					</clp-td>
+					<clp-td>
+						<div><clp-text-blue><strong>RIGHT DC CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Copilot side)</em></clp-text-blue></div>
+
+						<br/>
+
+						<div><strong>J6</strong> PROP 1 PEC B</div>
+						<div><strong>J4</strong> JENG 1 FADEC B</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card name="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<br>
+			<clp-card name="Units">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+			<br>
+
+
+
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

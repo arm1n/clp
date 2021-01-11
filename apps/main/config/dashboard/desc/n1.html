@@ -1,0 +1,138 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+			<!-- General Start -->
+			<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>FLIGHT DATA RECORDER</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 31-32-00-810-802</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+
+			<!-- note -->
+			<clp-table bg-transparent="" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+						<clp-file path="./apps/main/config/dashboard/desc/mel.html"></clp-file>
+					</clp-td>
+
+					<clp-td>
+						<clp-link-popup path="./apps/main/config/dashboard/desc/n1_info.html" name="GND ENG STOPPED" size="size-2">
+							<clp-img src="./units/icons/eng_stopped.svg" width="150"></clp-img>
+						</clp-link-popup>
+					</clp-td>
+					<clp-td>
+						
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- note end -->
+			<br>
+			<!-- General Start -->
+
+			<div>The CAWP FLT DATA RECORDER caution light comes on for the conditions that follow:</div>
+			<ul>
+				<li>Solid state flight data recorder (SSFDR) is not energized</li>
+				<li>SSFDR is defective</li>
+				<li>SSFDR ARINC 717 input data bus is defective</li>
+				<li>SSFDR data rate miscompare wiring is defective</li>
+			</ul>
+
+			<br>
+
+			<div>The FLT DATA RECORDER caution light comes on for conditions that are not malfunctions as follows:</div>
+			<ul>
+				<li>Testing with the automated test unit (ATU)</li>
+				<li>Downloading with the download unit (DLU)</li>
+			</ul>
+
+
+		</clp-card> <!-- General Ende -->
+
+		<br>
+
+		<clp-card name="Quick links">
+			<!-- links Start -->
+
+
+			<div>Operational test of the flight data recorder</div>
+			<div>
+				<clp-link-pdf>AMM TASK 31-32-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+			<br>
+			<br>
+
+
+
+		</clp-card> <!-- links Ende -->
+
+		<br>
+
+		<clp-card name="Associated CBs">
+			<!-- CB Start -->
+
+			<clp-table fullwidth="">
+				<clp-tr>
+					<clp-td>
+						<div><clp-text-blue><strong>AVIONICS CB Panel</strong></clp-text-blue></div>
+						<div><clp-text-blue><em>(Pilot side)</em></clp-text-blue></div>
+						<br>
+						<div><strong>F3</strong> FDR</div>
+						<div><strong>E10</strong> FDR (Universal)</div>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<br>
+			<br>
+
+		</clp-card> <!-- CB Ende -->
+	</clp-grid-column><!-- Ende Left Cards -->
+
+	<!--Start  RIGHT -->
+	<clp-grid-column>
+
+
+		<clp-card name="Quick reference reset guide">
+			<!-- Ref Start -->
+
+			<div><strong>Do the operational test of the FDR system as follows:</strong></div>
+			<ul>
+				<li>1. Hold the switch in the GND TEST position for 1 or 2 seconds.</li>
+				<li>2. Make sure that the FLIGHT DATA RECORDER annunciator goes out.</li>
+				<li>3. Release switch, make sure caution light comes on.</li>
+			</ul>
+			
+			<br>
+			<clp-card name="Units">
+				<clp-file path="./units/cockpit/units/fdr_panel.html"></clp-file>
+
+			</clp-card>
+			<br>
+			
+			<clp-card name="Units">
+				<clp-file path="./units/uf/units/fdr.html"></clp-file>
+
+			</clp-card>
+			<br>
+
+
+
+		</clp-card><!-- RefEnde -->
+	</clp-grid-column>
+</clp-grid>

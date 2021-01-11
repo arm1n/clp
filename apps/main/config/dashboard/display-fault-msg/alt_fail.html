@@ -1,0 +1,171 @@
+<clp-card name="Description">
+	
+	<div>
+		<clp-info-red><strong><h4>ALT FAIL</h4></strong></clp-info-red>
+	</div>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td>ALT FAIL on ISI</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-12-16-810-802</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>ALT FAIL on PFD</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-872</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+		<clp-tr>
+			<clp-td>ALT FAIL on MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-846</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>ALT FAIL on MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-849</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>ALT FAIL on PFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-852</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>ALT FAIL on PFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-853</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>ALT FAIL on ARCDU1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-54-00-810-810</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		
+		<clp-tr>
+			<clp-td>ALT FAIL on ARCDU2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-54-00-810-811</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+	<div><b>ALT FAIL ON Integrated Standby Instrument</b></div>
+	<div>
+		 This fault isolation procedure is for when the integrated standby instrument (ISI) shows the ALT message.The ISI shows the ALT message when the ISI senses an internal malfunction of the altitude (ALT) function.
+	</div>
+	<br>
+	<div><b>ALT FAIL ON PFD</b></div>
+	<div>he fault isolation procedure is for when the primary flight display (PFD) altitude indicator shows the ALT mismatch flag. The PFD shows the ALT mismatch flag when the flight data processing system (FDPS) senses and air data unit 1 (ADU1) and ADU2 altitude difference that is more than 60 feet at sea level to 180 feet at 27 00 feet. The PFD flight mode annunciator (FMA) can also show an ALT MISMATCH message.</div>
+	<div><clp-text-blue><strong>NOTE:</strong> The FMAs will show only the most important mismatch message and this is the primary mismatch indication.</clp-text-blue></div>
+	<br>
+	<div><b>ALT FAIL ON MFD1/2</b></div>
+	<div>This fault isolation procedure is for when the multi-function display 1 (MFD1) shows an ALT FAIL message.MFD1/2 shows an ALT FAIL message when it is set to show a primary flight display (PFD) reversion and does not receive valid altitude data from the set air data unit (ADU). </div>
+	<br>
+	<div><b>ALT FAIL ON PFD1/2</b></div>
+	<div>This fault isolation procedure is for when the primary flight display 1 (PFD1) shows an ALT FAIL message. PFD1 shows an ALT FAIL message when it does not receive valid altitude data from the set air data unit (ADU). </div>
+	<br>
+	<div><b>ALT FAIL ON ARCDU1/2</b></div>
+	<div>This fault isolation procedure is for when air traffic control (ATC) area of the audio and radio control display unit 1/2 (ARCDU1/2) shows a red ALT message. ARCDU1/2 shows a red ALT message when it does not receive valid ATC mode C data from the set ATC transponder.</div>
+	<div><clp-text-blue><strong>NOTE:</strong> A related FAIL indication is shown adjacent to the ALT1 or ALT2 indication in the ATC particular page.</clp-text-blue></div><br>
+	<div>The ATC1 or ATC2 (internally by an LED segment on the I/O processor board) can show a related fault that follows:</div>
+	<ul>
+	<li>F4H</li>
+	<li>F5H</li>
+	<li>F9H</li>
+	<li>FAH</li>
+</ul>
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="Description Information">
+
+
+	<br />
+
+<clp-info-blue><div>
+	<ul>
+	<li>Check BARO setting on PFD 1 and Reset ADU 1 (A7) and ICP 1 (C7) on avionics CB panel</li>
+		<br>
+	<li>Check BARO setting on PFD 2 and Reset ADU 2 (A6) and ICP 2 (C6) on avionics CB panel</li>
+	
+</ul>
+	
+	</div></clp-info-blue>
+
+	<br />
+<clp-table fullwidth="">
+		<clp-tr>
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>A7</strong> ADU 1</div>
+				<div><strong>C7</strong> ICP 1</div>
+				<div><strong>A6</strong> ADU 2</div>
+				<div><strong>C6</strong> ICP 2</div>
+
+
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+
+</clp-card>
+
+

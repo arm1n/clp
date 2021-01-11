@@ -1,0 +1,98 @@
+<clp-grid>
+
+	<!-- LEFT -->
+	<clp-grid-column>
+		<clp-card name="General">
+
+						<!-- header -->
+			<clp-table bg-transparent="" nowrap="1" vertical-align="middle">
+				<clp-tr>
+					<clp-td>
+
+						<clp-text-x-large>
+							<clp-text-orange><strong>LEFT AC BUS</strong></clp-text-orange>
+						</clp-text-x-large>
+					</clp-td>
+
+					<clp-td>
+						<clp-text-large>
+							<clp-link-pdf>FIM TASK 24-20-00-810-803</clp-link-pdf>
+							<clp-link-tr>(TR-FIM)</clp-link-tr>
+						</clp-text-large>
+					</clp-td>
+				</clp-tr>
+			</clp-table>
+			<!-- header end-->
+			<br>
+			<!-- General Start -->
+			<div>The L AC BUS caution light on the CAWP comes on for the conditions that follow:</div>
+
+			<ul>
+				<li> If the related AC Generator Control Unit (GCU) senses an overcurrent condition for more than seven seconds.</li>
+				<ul><clp-text-blue><strong>NOTE: </strong> The L AC BUS caution light on the CAWP will go off if the AC GEN 1 toggle switch is set to the OFF position.</clp-text-blue></ul><br>
+				<li>If the generator line contactor K1 is in the center position while the generator switch is in the ON position, the generator frequency is not less than 300 Hz and the engine rpm value is more than 600 rpm.</li>
+			</ul>
+
+
+			
+
+			<br>
+		</clp-card>
+
+		<br>
+
+		<clp-card name="Quick links">
+
+			<div>Operational test of the AC variable frequency generation system</div>
+			<div>
+				<clp-link-pdf>AMM TASK 24-21-00-710-801</clp-link-pdf>
+				<clp-link-tr>(TR-AMM)</clp-link-tr>
+			</div>
+
+			<br>
+
+
+
+		</clp-card>
+<!-- Associated CBs 
+		<br>
+		
+		<clp-card name="Associated CBs">
+
+
+
+		</clp-card>
+	-->
+	</clp-grid-column>
+
+	<!-- RIGHT -->
+	<clp-grid-column>
+
+		<clp-card name="Quick reference reset guide">
+			
+			<!-- FOR REFERENCE USE ONLY! -->
+			<clp-file path="./apps/main/config/dashboard/desc/fruo_info.html"></clp-file>
+
+			<br>
+
+			<div>
+				<clp-text-blue>NOTE: Engines running and make sure that engines are at flight idle and the propellers in unfeathered.</clp-text-blue>
+			</div>
+
+			<br>
+
+			<ul>
+				<li>On the AC CONTROL panel, set the <strong>GEN1</strong> and <strong>GEN2</strong> switches to the <clp-text-blue><strong>"OFF"</strong></clp-text-blue> position. </li><br>
+				<li>On the AC CONTROL panel, set the <strong>GEN1</strong> and <strong>GEN2</strong> switches to the <clp-text-blue><strong>"ON"</strong></clp-text-blue> position.</li><br>
+				<li>On the caution and warning panel, make sure that the #1 AC GEN and the #2 AC GEN lights <clp-text-blue><strong>"go off"</strong></clp-text-blue>.</li><br>
+				<li>On the caution and warning panel, make sure that the L AC BUS light <clp-text-blue><strong>"go off"</strong></clp-text-blue>.</li> <br>
+				<li>On the MFD, make sure that the voltage indication for phases A, B and C are 115±3V AC for the left and the right buses. </li>
+			</ul>
+
+
+
+
+
+		</clp-card>
+	</clp-grid-column>
+</clp-grid>

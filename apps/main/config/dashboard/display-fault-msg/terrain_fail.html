@@ -1,0 +1,116 @@
+<clp-card name="Description">
+		<div><clp-info-red><strong><h4>TERR FAIL</h4></strong></clp-info-red></div>
+
+
+	<br>
+	<clp-table>
+		<clp-tr>
+			<clp-td>TERRAIN FAIL on both MFD1</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-42-00-810-811</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+		<clp-tr>
+			<clp-td>TERRAIN FAIL on both MFD2</clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-42-00-810-812</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> MFD1/2 will only show a TERR FAIL message if it does not show a [CHECK ED] message.</clp-text-blue>
+	</p>
+
+	<p>
+		<clp-text-blue><strong>NOTE:</strong> The enhanced ground proximity warning system (EGPWS) level 1 short or long self−test preamble also generates a “TERR INOP” voice message.</clp-text-blue>
+	</p>
+
+	<p> The MFD1/2 TERR FAIL message comes into view for the malfunction conditions that follow:</p>
+
+	<ul>
+		<li>The flight management system (FMS) is not energized, accurate latitude and longitude position data is not supplied.</li>
+		<li>The condition that caused the caution and warning panel (CAWP) GPWS caution light to come on.</li>
+		<li>The attitude and heading reference system (AHRS1 and AHRS2) data is not supplied.</li>
+		<li>The MFD does not receive valid terrain image data through a relay from the enhanced ground proximity warning computer (EGPWC) A453 data bus (terrain data bus) while the terrain MFD is not set off.</li>
+		<li>The range data received from the terrain data bus output is not the same as the calculation made by the MFD while not in the terrain alert mode.</li>
+	</ul>
+	<br>
+	<br>
+
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+</clp-card>
+
+<br>
+
+
+
+<br />
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+	<br>
+
+	<clp-info-blue>
+		<div>
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+			<clp-text-blue><b>MSG on both MFDs</b></clp-text-blue>
+			
+			<ul>
+				<li>MSG on both MFDs</li>
+				<ul><b>1.</b> Switch on at least one FMS, check GNSS status on page DATA 2/4 (should be NAV). If one GNSS is NAV then refer to Action 2. </ul>
+				<ul><b>2.</b> <b>GPWS (A1)</b> circuit breaker on avionics CB pane</ul>
+				<br>
+
+				<li>MSG on MFD 1 only</li>
+				<ul><b>1.</b> Check, if WXR information can be displayed on MFD 1. If not, check picture bus connection on MFD 1. If yes, replace relay 3443-K7</ul>
+				<ul><b>2.</b> Reset <b>GPWS (A1)</b> circuit breaker on avionics CB panel</ul>
+				<br>
+
+				<li>MSG on MFD 2 only</li>
+				<ul><b>1.</b> Check, if WXR information can be displayed on MFD 2. If not, check picture bus connection on MFD 2. If yes, replace relay 3443-K8</ul>
+				<ul><b>2.</b> Reset <b>GPWS (A1)</b> circuit breaker on avionics CB panel </ul>
+				<br>
+
+			</ul>
+
+			<p></p>
+
+			<p></p>
+
+		</div>
+	</clp-info-blue>
+
+	<br>
+
+
+	<br>
+
+
+	<br>
+
+
+
+
+
+
+</clp-card>

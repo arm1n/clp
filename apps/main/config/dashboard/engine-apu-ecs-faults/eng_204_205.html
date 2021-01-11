@@ -1,0 +1,66 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>PLAhigh stuck low - (Engine Fault Code 204/205)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br>
+	<p>
+		<clp-link-pdf>FIM TASK 61-20-05-810-819</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>This fault code is generated as a result of an apparent mismatch between the PLA HIGH discrete signal and the PLA position in the flight range, as indicated by the PLA RVDT.</p><!-- !!!! -->
+	
+	<p>The fault detection logic has determined that PLA > 70° and PLAHIGH = 0 for a period of 11 seconds.</p><!-- !!!! -->
+	
+	<p>This fault code will inhibit the autofeather advisory when PLA goes into the flight range. There is no impact on TLD. This fault is typically annunciated during the take−off roll, which will result in a rejected take−off.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PLA microswitch </li><!-- !!!! -->
+		<li>PEC </li>
+		<li>Fuel control electrical wiring harness </li>
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/pla.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+   
+	
+<br>
+</clp-card>

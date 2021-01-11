@@ -1,0 +1,67 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>AF test aborted: loss of AF select permissive - (Engine Fault Code 64/65)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	<br>
+	<br>
+	<div>
+		<clp-link-pdf>FIM TASK 61-20-02-810-834</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</div>
+
+	<br />
+
+	<div>This fault code is generated as a result of the failure of the propeller system to successfully complete an autofeather test, directly resulting from the loss of the autofeather select signal during the test.</div><!-- !!!! -->
+	<br>
+	<div>The fault detection logic has determined that AF select = 0 at some stage during the test.</div><!-- !!!! -->
+	<br>
+	<div>The fault code is advisory and will not be annunciated to the flight crew. This fault code is designated as unlimited despatch for TLD purposes. This fault code does NOT change the previous status of the autofeather test pass/fail and is a diagnostic fault code to show the AF test was aborted. This fault code only shows for 5 seconds and then self clears.</div><!-- !!!! -->
+	<br>
+	<div>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken.</div><!-- !!!! -->
+	
+	<br>
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	<br />
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<div>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</div>
+
+	<ul>
+		<li>Incorrect test procedure followed </li><!-- !!!! -->
+		<li>AF select switch </li>
+		<li>PEC </li>
+		<li>Fuel control electrical wiring harness </li>
+        <li>Aircraft wiring (AF select discrete to PEC) </li>
+	</ul>
+	<br>
+	<br>
+    <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/cockpit/units/eng_cont_panel.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+	
+<br>
+</clp-card>

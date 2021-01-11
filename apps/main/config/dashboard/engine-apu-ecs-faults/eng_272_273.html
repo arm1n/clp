@@ -1,0 +1,67 @@
+<clp-card name="GENERAL">
+	
+	<clp-info-red><div>
+		<strong>Post SB84-61-01-A Feather Monitor / Pre SB84-61-01-A PEC Feather Logic Fault (Status) - (Engine Fault Code 272/273)</strong><!-- !!!! -->
+	</div></clp-info-red>
+	
+	<br/>
+	<p>
+		<clp-link-pdf>Post SB84-61-01-A FIM TASK 61-20-06-810-825</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+    <p>
+		<clp-link-pdf>Pre SB84-61-01-A FIM TASK 61-20-06-810-835</clp-link-pdf><!-- !!!! -->
+		<clp-link-tr>(TR-FIM)</clp-link-tr>
+	</p>
+
+	
+
+	<p>Post SB84-61-01-A:
+	This task is for the Propeller Electronic Control Unit (written as the "PEC" in this procedure) fault code 272/273 − Feather Monitor. During fault isolation if any corrective action is performed a PEC fault clear must be completed. This will make sure that the problem has been fixed and the fault code does not reappear.</p><!-- !!!! -->
+	
+	<p>Pre SB84-61-01-A:
+	This fault code is generated as a result of an apparent mismatch between the pilot autofeather switch state and the monitor within the PEC. This is an internal PEC fault.</p><!-- !!!! -->
+    <p>The fault isolation logic has determined that AFSELECT = OFF (no requirement for autofeather arm selected) and AF FET MON = ON (autofeather arm selected).</p><!-- !!!! -->
+    <p>The fault code is advisory but will not be annunciated to the flight crew as a PEC caution. This fault code is designated as no despatch for TLD purposes and therefore will also illuminate the powerplant message on the engine display.</p><!-- !!!! -->
+	
+
+	<!-- Zentrale Link  -->
+	<clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+	
+
+
+</clp-card>
+
+<br/>
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+	<p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+	<ul>
+		<li>PEC </li><!-- !!!! -->
+		
+	</ul>
+	<br>
+	<br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+	
+<br>
+</clp-card>

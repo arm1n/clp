@@ -1,0 +1,64 @@
+<p><strong>System Status Menu Item</strong></p>
+
+
+<p>Use this Menu to check the inductance values of the proximity sensors in acc. with <clp-link-pdf>AMM TASK 52-51-11-000-801</clp-link-pdf> - <clp-link-tr>(TR-AMM)</clp-link-tr>.<br> There are 20 landing-gear proximity sensors and 11 fuselage door proximity sensors.</p>
+
+
+
+<clp-table border>
+	<clp-tr>
+		<clp-td>
+
+			<clp-img src="./apps/pseu/config/pseu-simulator/system_status/system_status_display_help.svg" width="400"></clp-img>
+			<br>
+			<div>
+				<clp-link-popup path="./apps/pseu/config/pseu-simulator/system_status/system_status_psc_card.html" name="PSC STATUS CARDS" size="size-2">
+					<clp-img src="./units/icons/info.svg" width="30" icon></clp-img> SHOW PSC STATUS CARDS →
+				</clp-link-popup>
+			</div>
+			<br>
+		</clp-td>
+		<hr>
+
+		<clp-td>
+
+			<clp-img src="./units/icons/step1.svg" width="25" icon></clp-img> <strong>PROXIMITY SENSOR ABBREVIATION</strong>
+			<ul>
+				<li><strong>LGWOW2</strong> (Left Gear Weight On Wheels #2)</li>
+
+			</ul>
+			<hr>
+			<div>
+				<clp-img src="./units/icons/step2.svg" width="25" icon></clp-img><strong>TARGET CONDITION</strong>
+			</div>
+			<ul>
+				<li><strong>TARGET NEAR</strong> (Valid TARGET NEAR condition)</li>
+				<li><strong>TARGET FAR</strong> (Valid TARGET FAR condition)</li>
+				<li><strong>TOO CLOSE</strong> (TARGET NEAR condition with sensor/target gap too small)</li>
+				<li><strong>TOO FAR</strong> (TARGET NEAR condition with sensor/target gap too large)</li>
+			</ul>
+
+
+			<hr>
+			<clp-img src="./units/icons/step3.svg" width="25" icon></clp-img> <strong>INDUCTANCE VALUE</strong>
+			<ul>
+				<li><strong>08.367</strong> (Inductance values of this Proximity Sensor)</li>
+				<p>Nominal Near 8.617 (9.037 to 8.456 Rigging Gap Tolerance) <strong>THESE VALUES ARE NOT UNDER REVISION</strong></p>
+			</ul>
+
+			<hr>
+
+		</clp-td>
+
+
+	</clp-tr>
+</clp-table>
+
+<br>
+
+<clp-text-blue><strong>NOTE:</strong></clp-text-blue> An inductance value for a correctly adjusted proximity sensor that is nearer to the Nominal Near value (that is not in the parenthesis) is preferred.
+<br><br>
+
+<clp-text-blue><strong>NOTE:</strong> A rigging fault is also recorded in the PSEU by the RIGGING HISTORY function. The PSEU records the rigging fault by the flight leg in which the fault occurred.</clp-text-blue>
+<br>
+<br>

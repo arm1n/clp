@@ -1,0 +1,109 @@
+<clp-card name="Description">
+	<div>
+		<clp-info-red><strong><h4>AP INHIBIT</h4></strong></clp-info-red>
+	</div>
+	
+	
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 22-11-00-810-842</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+
+	</clp-table>
+	<br>
+
+	<div>The FMA shows this message for an Autopilot (AP) selection when an external condition prevents autopilot operation.</div>
+	<br>
+
+
+
+	<div>
+		<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+	</div>
+
+	<ul>
+		<li>If an Attitude and Heading Reference Unit (AHRU) does not supply valid or the same attitude data to the two Flight Guidance Module (FGM), the FMA will show a FD ATT DATA INVLD message.</li>
+		<li>If an Air Data Computer (ADC) does not supply valid or the same altitude data to the two FGMs, the FMA will show a FD ADC DATA INVLD message.</li>
+		<li>The PFD 1 and PFD 2 also show this message when the FGM 1 or FGM 2 senses different Weight on Wheels 1 (WOW1) and WOW2 inputs from the Proximity Sensor Electronics Unit (PSEU).</li>
+		<li>The WOW/IOP1 FAIL or WOW/IOP2 FAIL message on the Engine Display (ED) can also come in view.</li>
+		
+	</ul>
+<br>
+	<div>The AP INHIBIT FMA message will also come into view for the conditions that are not malfunctions as follows:</div>
+	<ul>
+		<li>Aircraft is not airborne</li>
+		<li>Aircraft attitude is not in the engagement limits</li>
+		<li> Manual pitch trim selection</li>
+		<li>AP DISENGAGE message is in view</li>
+		<li>Tactile Control Steering (TCS) mode is active</li>
+		<li>Stick shaker or pusher is in operation</li>
+	</ul>
+
+
+
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+</clp-card>
+
+<br>
+<clp-card name="POSSIBLE ACTION">
+  
+
+  <br />
+
+	<clp-info-blue><div>
+		<ul>
+		<li>Check elevator trim, TCS and AP disengage switches on control columns for stuck condition</li>
+		<br>
+		<li>Check, if all air data information is valid (altitude, IAS and SAT)</li>
+		
+	</ul>
+		</div></clp-info-blue>
+	
+  
+
+  <br />
+
+  
+</clp-card>
+
+
+<clp-card name="ASSOCIATED CB's">
+
+
+	
+	<br>
+	<clp-table fullwidth="">
+		<clp-tr>
+
+			<clp-td>
+				<div>
+					<clp-text-blue><strong>AVIONICS CB PANEL</strong></clp-text-blue>
+				</div>
+				<div>
+					<clp-text-blue><em>(Pilot side)</em></clp-text-blue>
+				</div>
+
+				<br />
+
+				<div><strong>F7</strong> IOM/IOP/FGM1</div> 
+				<div><strong>F6</strong> IOM/IOP/FGM2</div>
+			</clp-td>
+
+		</clp-tr>
+	</clp-table>
+
+
+
+</clp-card>

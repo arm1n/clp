@@ -1,0 +1,91 @@
+<clp-card name="Description">
+
+<div>
+	<clp-info-red><strong><h4>ALT MISMATCH</h4></strong></clp-info-red>
+</div>
+
+	<br>
+
+	<clp-table>
+		<clp-tr>
+			<clp-td><b>ALT MISMATCH displayed on PFD</b></clp-td>
+			<clp-td>
+				<clp-link-pdf>FIM TASK 34-11-00-810-850</clp-link-pdf>
+			</clp-td>
+			<clp-td>
+				<clp-link-tr>(TR-FIM)</clp-link-tr>
+			</clp-td>
+		</clp-tr>
+	</clp-table>
+	<br>
+	<br>
+
+	<div>
+		The FMA shows an ALT MISMATCH flag when the Flight Data Processing System (FDPS) senses an Air Data Unit 1 (ADU 1) and ADU 2 altitude difference that is more than 60 ft. (18.23 m) at sea level to 180 ft. (54.86 m) at 27000 ft. (8.23 Km).
+	</div>
+
+	<br>
+	
+	<div>The PFD altitude indicators can show an altitude difference that is more than 60 ft. (18.23 m) at sea level to 180 ft. (54.86 m) at 27000 ft. (8.23 Km) between ADU 1 and ADU 2.</div>
+	<br>
+	
+	<div>
+		<clp-text-blue><b>NOTE:</b> <br> The FMAs will show only the most important mismatch message and it is the primary mismatch indication.</clp-text-blue>
+	</div>
+	<br>
+	<div>
+		<clp-text-blue><b>NOTE:</b> <br> The Air Data Computer (ADC) data must be valid and the Electronic Flight Instrument System (EFIS) ADC SOURCE reversion selector must be set to the NORM position.</clp-text-blue>
+	</div>
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/link.html"></clp-file>
+	<br>
+
+
+</clp-card>
+
+<br>
+
+<clp-card name="POSSIBLE ACTION">
+	<br>
+	<!-- Zentrale Link -->
+	<clp-file path="./apps/main/config/dashboard/display-fault-msg/fruo.html"></clp-file>
+	<br>
+	<!-- Zentrale Link -->
+
+<clp-info-blue>
+	
+			<div>
+				<clp-text-blue><strong>NOTE:</strong></clp-text-blue>
+			</div>
+
+	<br />
+	<ul>
+		<li>1. Reset <clp-text-red>ADU CB´s <b>(A6)</b> and <b>(A7)</b></clp-text-red> on avionics circuit breaker panel </li><br>
+		<li>2. Reset <clp-text-red>ADU, AHRS and IOP</clp-text-red> CB´s on avionics circuit breaker panel:<br> </li>
+		<div><strong>A7</strong> ADU 1</div>
+		<div><strong>A6</strong> ADU 2</div>
+		<div><strong>A4</strong> AHRS1</div>
+		<div><strong>A9</strong> AHRS1</div>
+		<div><strong>A3</strong> AHRS2</div>
+		<div><strong>A10</strong> AHRS2</div>
+		<div><strong>F7</strong> IOM/IOP/FGM1</div>
+		<div><strong>F6</strong> IOM/IOP/FGM2</div>
+		<br>
+		<li>3. Check pitot/static system for water ingress, clean drain holes on pitot/static probes, drain pitot/static system.</li><br>
+
+	</ul>
+
+
+	<br />
+
+	</clp-info-blue>
+</clp-card>
+
+
+
+
+
+
+
+

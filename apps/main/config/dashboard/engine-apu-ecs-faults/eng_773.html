@@ -1,0 +1,78 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Low Fuel Pressure Switch - (Engine Fault Code 773)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 73-20-00-810-841</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>The fault isolation procedure that follows is to correct the full authority digital electronic control (FADEC) fault codes. The registered fault code is 773.</p><!-- !!!! -->
+
+    <p>Fuel pressure is monitored through a dual channel electrical pressure switch (activated by a single mechanical plunger inside) mounted on the Fuel Control Unit (FCU). The switch is connected through the instrumentation harness and an airframe harness to the FADEC.</p><!-- !!!! -->
+
+    <p>The low−fuel pressure switch is normally closed and is open when fuel pressure is higher than 5.5 psi (37.9 kPa).</p><!-- !!!! -->
+
+    <p>The FADEC supplies discrete data through the Engine Cockpit Interface Unit (ECIU) to the CAWP for the ENG FUEL PRESS caution indication. The CAUTION lamp is illuminated whenever either of the two switches is closed.</p><!-- !!!! -->
+    <p>Fault code 773 is set when channel A and B of the low−fuel pressure switch do not agree for more than 15 seconds. The switch mismatch fault code could be set because one of the reasons that follow:
+        - One of the switch circuits was not open while the engine was operating. One of the switch circuits was not closed when the engine was shut down. Fuel flow pressure is necessary to replicate the fault.</p><!-- !!!! -->
+    <p>To reproduce the fault, an engine run with high fuel pressure is necessary.</p><!-- !!!! -->
+    <p></p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        
+        <li>Low Fuel Pressure Switch </li>
+        <li>Instrumentation Wiring Harness (low fuel pressure switch lead) </li>
+        <li>Airframe Wiring Harness </li>
+        <li>FADEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+    <clp-grid>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/fadec.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            <clp-card name="UNIT">
+                <clp-file path="./units/eng/units/fuel_lowpx_sw.html"></clp-file>
+            </clp-card>
+        </clp-grid-column>
+
+        <clp-grid-column>
+            
+        </clp-grid-column>
+    </clp-grid>
+
+
+
+    <br>
+
+    <br>
+</clp-card>

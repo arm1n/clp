@@ -1,0 +1,69 @@
+<clp-card name="GENERAL">
+
+    <clp-info-red>
+        <div>
+            <strong> Last A/F Test Failed (Status) - (Engine Fault Code 494/495)</strong><!-- !!!! -->
+        </div>
+    </clp-info-red>
+
+    <br>
+    <div>
+        <clp-link-pdf>FIM TASK 61-20-10-810-826</clp-link-pdf><!-- !!!! -->
+        <clp-link-tr>(TR-FIM)</clp-link-tr>
+    </div>
+<br>
+
+
+    <p>This fault code is generated as a result of the failure of the propeller system to successfully complete an autofeather test. This fault will usually have other fault codes associated with it.</p><!-- !!!! -->
+
+    <p>The fault detection logic has determined that either the PEC servo valve drive coarse signal was not present, or that the opposite powerplant FADEC had not confirmed that an uptrim signal had been received.</p><!-- !!!! -->
+
+    <p>This fault code will inhibit the autofeather lamp when PLA goes into the flight range. There is no impact on TLD. This fault is typically annunciated during the take−off roll, which will result in an aborted take−off.</p><!-- !!!! -->
+
+    <p>During fault isolation for OSG and AF test faults, the tests must be done again after corrective action has been taken. If the tests pass, a fault clear will be necessary to clear the fault in question.</p><!-- !!!! -->
+
+
+    <!-- Zentrale Link  -->
+    <clp-file path="./apps/main/config/dashboard/engine-apu-ecs-faults/link.html"></clp-file>
+
+
+
+
+</clp-card>
+
+<br />
+
+<!-- Parts  -->
+<clp-card name="POSSIBLE LRU">
+    <p>The list that follows shows the possible malfunctioned systems and/or line replaceable units (LRU):</p>
+
+    <ul>
+        <li>Aircraft wiring (PEC to opposite FADEC) </li>
+        <li>PEC </li><!-- !!!! -->
+
+    </ul>
+    <br>
+    <br>
+     <clp-grid>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/pec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			<clp-card name="UNIT">
+				<clp-file path="./units/eng/units/fadec.html"></clp-file>
+			</clp-card>
+		</clp-grid-column>
+		
+		<clp-grid-column>
+			
+		</clp-grid-column>
+	</clp-grid>
+
+
+
+    <br>
+</clp-card>
