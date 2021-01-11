@@ -18,15 +18,15 @@ const PATH_APPS = "apps";
 const VALID_ASSETS = [".svg", ".html"];
 
 // transpile all apps and shared library before build
-fs.readdirSync(PATH_APPS).forEach(function(app) {
-	if (!util.isDirectory(path.join(PATH_APPS, app))) {
-		return;
-	}
+// fs.readdirSync(PATH_APPS).forEach(function(app) {
+// 	if (!util.isDirectory(path.join(PATH_APPS, app))) {
+// 		return;
+// 	}
 
-	execSync(`yarn workspace @clp/${app} transpile`, { stdio: "inherit" });
-});
+// 	execSync(`yarn workspace @clp/${app} transpile`, { stdio: "inherit" });
+// });
 
-execSync(`yarn workspace @clp/shared transpile`, { stdio: "inherit" })
+// execSync(`yarn workspace @clp/shared transpile`, { stdio: "inherit" })
 
 // cleanup potential build output directory
 util.removeFile(PATH_BUILD_TARGET);
@@ -76,15 +76,15 @@ fs.readdirSync(PATH_APPS).forEach((file) => {
 util.copyFile("units", PATH_UNITS);
 
 // finally, run svgo and html minifier for config and unit folders
-execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
-	stdio: "inherit",
-});
-execSync(`yarn run html-minifier ${PATH_UNITS}`, {
-	stdio: "inherit",
-});
-execSync(`yarn run svgo ${PATH_UNITS}`, {
-	stdio: "inherit",
-});
-execSync(`yarn run svgo ${PATH_CONFIG}`, {
-	stdio: "inherit",
-});
+// execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
+// 	stdio: "inherit",
+// });
+// execSync(`yarn run html-minifier ${PATH_UNITS}`, {
+// 	stdio: "inherit",
+// });
+// execSync(`yarn run svgo ${PATH_UNITS}`, {
+// 	stdio: "inherit",
+// });
+// execSync(`yarn run svgo ${PATH_CONFIG}`, {
+// 	stdio: "inherit",
+// });

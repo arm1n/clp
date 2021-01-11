@@ -1564,7 +1564,7 @@ export const DATA_SET = [
           },
           {
             id: "clp-422ar",
-            text: "422AR",
+            text: "",
             unit: "./units/access/units/422ar.html",
             desc: "./units/access/desc/422ar.html",
             info: {},
@@ -3616,7 +3616,7 @@ export const DATA_SET = [
         intro: "./apps/access/config/external-view/desc/stab-horiz.html",
         refs: [
           {
-            id: "clp-32bb",
+            id: "clp-332bb",
             text: "332BB",
             unit: "./units/access/units/332bb.html",
             desc: "./units/access/desc/332bb.html",

@@ -26,9 +26,9 @@ export const DATA_SET = [
     desc: "./units/cockpit/desc/dc_cont_panel.html",
   },
 	{
-    id: "clp-ac-cont-panel",
-    unit: "./units/cockpit/units/ac_cont_panel.html",
-    desc: "./units/cockpit/desc/ac_cont_panel.html",
+    id: "clp-apu-cont-panel",
+    unit: "./units/cockpit/units/apu_cont_panel.html",
+    desc: "./units/cockpit/desc/apu_cont_panel.html",
   },
 	{
     id: "clp-dc-stby-cont-box",

@@ -13,7 +13,7 @@
  */
 export const SIDE_NAV = [
   { name: "Help", path: "/help", mode: "INTERNAL" },
-  { name: "v. 20-01a7" },
+  { name: "v. 20-01a-9" },
 	{ name: "Legal Notice", path: "/legal", mode: "INTERNAL" },
 	
 	/** 
@@ -10761,6 +10761,9 @@ export const MAIN_NAV = [
   },
 
   /* LINKS   { name: "Help", path: "/help", mode: "INTERNAL" }, */
+	/* MEL LINKS   "http://www.infotools.at/clp/Standalone/MEL_test_document.pdf" */
+	/* MEL LINKS   "../Standalone/MEL_test_document.pdf" */
+	
   {
     name: "LINKS",
     nodes: [
