@@ -13,7 +13,7 @@
  */
 export const SIDE_NAV = [
   { name: "Help", path: "/help", mode: "INTERNAL" },
-  { name: "v. 20-01a-11" },
+  { name: "v. 20-01a-20" },
 	{ name: "Legal Notice", path: "/legal", mode: "INTERNAL" },
 	
 	/** 
