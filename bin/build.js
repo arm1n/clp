@@ -19,15 +19,15 @@ const VALID_ASSETS = [".svg", ".html"];
 const MANIFEST_FILE = "site.webmanifest";
 
 // transpile all apps and shared library before build
-// fs.readdirSync(PATH_APPS).forEach(function(app) {
-// 	if (!util.isDirectory(path.join(PATH_APPS, app))) {
-// 		return;
-// 	}
+fs.readdirSync(PATH_APPS).forEach(function(app) {
+	if (!util.isDirectory(path.join(PATH_APPS, app))) {
+		return;
+	}
 
-// 	execSync(`yarn workspace @clp/${app} transpile`, { stdio: "inherit" });
-// });
+	execSync(`yarn workspace @clp/${app} transpile`, { stdio: "inherit" });
+});
 
-// execSync(`yarn workspace @clp/shared transpile`, { stdio: "inherit" })
+execSync(`yarn workspace @clp/shared transpile`, { stdio: "inherit" });
 
 // cleanup potential build output directory
 util.removeFile(PATH_BUILD_TARGET);
@@ -41,12 +41,6 @@ execSync(`yarn workspace @clp/main build`, {
 fs.mkdirSync(PATH_BUILD_TARGET);
 util.setIgnored(PATH_BUILD_TARGET);
 util.moveFile(PATH_BUILD_SOURCE, PATH_BUILD_TARGET);
-
-// replace the version placeholder in index.html file
-const index = path.join(PATH_BUILD_TARGET, MANIFEST_FILE);
-util.writeContent(index, (content) =>
-	content.replace(/VERSION/g, new Date().toISOString())
-);
 
 // copy all `config` folders from app workspaces to
 // final build output to be available on async calls
@@ -83,15 +77,15 @@ fs.readdirSync(PATH_APPS).forEach((file) => {
 util.copyFile("units", PATH_UNITS);
 
 // finally, run svgo and html minifier for config and unit folders
-// execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
-// 	stdio: "inherit",
-// });
-// execSync(`yarn run html-minifier ${PATH_UNITS}`, {
-// 	stdio: "inherit",
-// });
-// execSync(`yarn run svgo ${PATH_UNITS}`, {
-// 	stdio: "inherit",
-// });
-// execSync(`yarn run svgo ${PATH_CONFIG}`, {
-// 	stdio: "inherit",
-// });
+execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
+	stdio: "inherit",
+});
+execSync(`yarn run html-minifier ${PATH_UNITS}`, {
+	stdio: "inherit",
+});
+execSync(`yarn run svgo ${PATH_UNITS}`, {
+	stdio: "inherit",
+});
+execSync(`yarn run svgo ${PATH_CONFIG}`, {
+	stdio: "inherit",
+});
