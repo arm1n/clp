@@ -16,6 +16,7 @@ const PATH_CONFIG = path.join(PATH_BUILD_TARGET, "apps");
 const PATH_UNITS = path.join(PATH_BUILD_TARGET, "units");
 const PATH_APPS = "apps";
 const VALID_ASSETS = [".svg", ".html"];
+const MANIFEST_FILE = "site.webmanifest";
 
 // transpile all apps and shared library before build
 // fs.readdirSync(PATH_APPS).forEach(function(app) {
@@ -42,7 +43,7 @@ util.setIgnored(PATH_BUILD_TARGET);
 util.moveFile(PATH_BUILD_SOURCE, PATH_BUILD_TARGET);
 
 // replace the version placeholder in index.html file
-const index = path.join(PATH_BUILD_TARGET, "index.html");
+const index = path.join(PATH_BUILD_TARGET, MANIFEST_FILE);
 util.writeContent(index, (content) =>
 	content.replace(/VERSION/g, new Date().toISOString())
 );
