@@ -45,6 +45,7 @@ Example: `npx yarn svgo apps/ele`
 ### Creating a production build
 
 To create an optimized build to be shipped on web servers use: `npx yarn build`
+To avoid optimizations for HTML and SVG files use: `npx yarn build --no-opt`.
 
 This will create a build in the folder `/build` which can be shipped on web servers.
 

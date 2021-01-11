@@ -10,13 +10,14 @@ const path = require("path");
 const util = require("@clp/util");
 const { execSync } = require("child_process");
 
+const FLAG_NO_OPT = !process.argv.includes(`--no-opt`);
+
 const PATH_BUILD_SOURCE = path.join("apps", "main", "build");
 const PATH_BUILD_TARGET = "build";
 const PATH_CONFIG = path.join(PATH_BUILD_TARGET, "apps");
 const PATH_UNITS = path.join(PATH_BUILD_TARGET, "units");
 const PATH_APPS = "apps";
 const VALID_ASSETS = [".svg", ".html"];
-const MANIFEST_FILE = "site.webmanifest";
 
 // transpile all apps and shared library before build
 fs.readdirSync(PATH_APPS).forEach(function(app) {
@@ -77,15 +78,17 @@ fs.readdirSync(PATH_APPS).forEach((file) => {
 util.copyFile("units", PATH_UNITS);
 
 // finally, run svgo and html minifier for config and unit folders
-execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
-	stdio: "inherit",
-});
-execSync(`yarn run html-minifier ${PATH_UNITS}`, {
-	stdio: "inherit",
-});
-execSync(`yarn run svgo ${PATH_UNITS}`, {
-	stdio: "inherit",
-});
-execSync(`yarn run svgo ${PATH_CONFIG}`, {
-	stdio: "inherit",
-});
+if (!FLAG_NO_OPT) {
+	execSync(`yarn run html-minifier ${PATH_CONFIG}`, {
+		stdio: "inherit",
+	});
+	execSync(`yarn run html-minifier ${PATH_UNITS}`, {
+		stdio: "inherit",
+	});
+	execSync(`yarn run svgo ${PATH_UNITS}`, {
+		stdio: "inherit",
+	});
+	execSync(`yarn run svgo ${PATH_CONFIG}`, {
+		stdio: "inherit",
+	});
+}
