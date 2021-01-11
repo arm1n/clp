@@ -41,6 +41,12 @@ fs.mkdirSync(PATH_BUILD_TARGET);
 util.setIgnored(PATH_BUILD_TARGET);
 util.moveFile(PATH_BUILD_SOURCE, PATH_BUILD_TARGET);
 
+// replace the version placeholder in index.html file
+const index = path.join(PATH_BUILD_TARGET, "index.html");
+util.writeContent(index, (content) =>
+	content.replace(/VERSION/g, new Date().toISOString())
+);
+
 // copy all `config` folders from app workspaces to
 // final build output to be available on async calls
 // but exclude all invalid files (like .DS_Store etc)
@@ -65,7 +71,7 @@ fs.readdirSync(PATH_APPS).forEach((file) => {
 			if (VALID_ASSETS.includes(extension)) {
 				return;
 			}
-			
+
 			util.removeFile(file);
 		},
 		util.MODE_FILE
