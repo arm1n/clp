@@ -60,6 +60,10 @@ class SVG extends Base {
     this.$intros = childrenMatches(this.$template, "clp-svg-intro");
   }
 
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+
   render() {
     const svgPath = this.getAttribute("path");
     const svgWidth = this.getAttribute("width");
@@ -69,7 +73,6 @@ class SVG extends Base {
       .filter((config) => config !== null);
     const introPath = this.$intros[0] ? this.$intros[0].getAttribute("path") : null;
 
-    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <Router>
         <SVGWithConfig

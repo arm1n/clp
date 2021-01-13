@@ -15,8 +15,11 @@ import { Base } from "./clp-base";
 // <clp-link-ref id="refId">Text</clp-link-ref>
 // ----------------------------------------------------------------------------------------------------
 class LinkRef extends Base {
-  render() {
+  teardown() {
     ReactDOM.unmountComponentAtNode(this);
+  }
+
+  render() {
     ReactDOM.render(
       <button className="clp-link-ref">
         <span className="clp-link-ref-text">

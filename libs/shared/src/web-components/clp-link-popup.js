@@ -29,16 +29,15 @@ class LinkPopup extends Base {
     this.$container = this.querySelector(".clp-link-popup-container");
   }
 
-  disconnectedCallback() {
-    super.disconnectedCallback();
-
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this.$container);
     this.$link.removeEventListener("click", this._clickListener);
   }
 
   render() {
-    const path = this.getAttribute("path") || "";
-    const name = this.getAttribute("name") || "";
-    const size = this.getAttribute("size") || "";
+    const path = this.getAttribute("path") || "";
+    const name = this.getAttribute("name") || "";
+    const size = this.getAttribute("size") || "";
 
     this.innerHTML = `
       <a 
@@ -55,7 +54,7 @@ class LinkPopup extends Base {
   }
 
   _closeCallback() {
-    ReactDOM.unmountComponentAtNode(this.$container);
+    this.teardown();
   }
 
   _clickCallback(event) {
@@ -68,7 +67,7 @@ class LinkPopup extends Base {
     } = event;
 
     ReactDOM.render(
-      <Modal title={name} size={size} onClose={this._closeListener} domNode={this.$container}>
+      <Modal title={name} size={size} onClose={this._closeListener} domNode={this.$container}>
         <File path={path} />
       </Modal>,
       this.$container

@@ -13,8 +13,11 @@ import { Base } from "../clp-base";
 // <clp-arcdu-simulator></clp-arcdu-simulator>
 // ----------------------------------------------------------------------------------------------------
 class ARCDUSimulator extends Base {
-  render() {
+  teardown() {
     ReactDOM.unmountComponentAtNode(this);
+  }
+
+  render() {
     ReactDOM.render(<ARCDUSimulatorComponent />, this);
   }
 

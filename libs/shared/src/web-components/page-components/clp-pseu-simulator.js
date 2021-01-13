@@ -13,8 +13,11 @@ import { Base } from "../clp-base";
 // <clp-pseu-simulator></clp-pseu-simulator>
 // ----------------------------------------------------------------------------------------------------
 class PSEUSimulator extends Base {
-  render() {
+  teardown() {
     ReactDOM.unmountComponentAtNode(this);
+  }
+
+  render() {
     ReactDOM.render(<PSEUSimulatorComponent />, this);
   }
 

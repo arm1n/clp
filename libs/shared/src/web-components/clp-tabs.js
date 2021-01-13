@@ -38,10 +38,13 @@ class Tabs extends Base {
     this.$tabs = childrenMatches(this.$template, "clp-tab");
   }
 
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+
   render() {
     const tabs = this.$tabs.map((tab, index) => this._createTab(tab, index));
 
-    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(<TabsComponent>{tabs}</TabsComponent>, this);
   }
 

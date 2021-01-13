@@ -64,8 +64,8 @@ export const DATA_SET = [
   },
   {
     id: "clp-sec-hexch-sensor",
-    unit: "./units/bleed/units/zonesup_indic_sensor.html",
-    desc: "./units/bleed/desc/zonesup_indic_sensor.html",
+    unit: "./units/bleed/units/sec_hexch_sensor.html",
+    desc: "./units/bleed/desc/sec_hexch_sensor.html",
     info: {},
     access: {},
   },

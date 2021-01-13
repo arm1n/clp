@@ -23,6 +23,10 @@ import { Base } from "./clp-base";
 // name: text for expandable name
 // ----------------------------------------------------------------------------------------------------
 class Expandable extends Base {
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+
   render() {
     if (!this._isStandalone()) {
       return;
@@ -30,7 +34,6 @@ class Expandable extends Base {
 
     const name = this.getAttribute("name");
 
-    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <ExpandableComponent name={name}>
         <HTML html={this.template} />

@@ -12,6 +12,7 @@ class Base extends HTMLElement {
 
   disconnectedCallback() {
     this._connected = false;
+    this.teardown();
   }
 
   get componentId() {
@@ -46,6 +47,11 @@ class Base extends HTMLElement {
   setup() {
     // template method for dom setup based on connected nodes
     // e.g. query for certain dom nodes from `this.$template`
+  }
+
+  teardown() {
+    // template method for dom teardown on disconnected nodes
+    // e.g. remove event listeners for custom dom nodes
   }
 
   render() {

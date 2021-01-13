@@ -26,7 +26,7 @@ export const App = (props) => (
     <Page path="/alternate" name="Alternate">
       <Alternate />
     </Page>
-
+    
     <Page name="Indication Logic" type={PAGE_TYPE_POPUP} path="/indication-logic">
       <IndicationLogic />
     </Page>

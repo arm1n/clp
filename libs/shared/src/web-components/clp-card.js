@@ -47,13 +47,16 @@ class Card extends Base {
     this.$buttons = childrenMatches(this.$template, "clp-card-button");
   }
 
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+
   render() {
     const name = this.getAttribute("name");
 
     const stretch = this.getAttribute("stretch") === "false" ? false : true;
     const buttons = this.$buttons.map((button, index) => this._createButton(button, index));
 
-    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <Router>
         <CardWithConfigButtons title={name} stretch={stretch} buttons={buttons}>

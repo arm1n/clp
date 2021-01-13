@@ -14,8 +14,11 @@ import { Base } from "../clp-base";
 // <clp-antenna></clp-antenna>
 // ----------------------------------------------------------------------------------------------------
 class Antenna extends Base {
-  render() {
+  teardown() {
     ReactDOM.unmountComponentAtNode(this);
+  }
+
+  render() {
     ReactDOM.render(
       <Router>
         <AntennaComponent />

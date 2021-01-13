@@ -29,7 +29,7 @@ export const DATA_SET = [
   },
   {
     id: "clp-slip-ring",
-    unit: "./units/eng/units/prop_all.html",
+    unit: "./units/eng/units/prop_slip_ring.html",
     desc: "./units/eng/desc/prop_assy.html",
     info: {},
     access: {},

@@ -13,10 +13,12 @@ import { Base } from "./clp-base";
 // <clp-file path="/path/to/html.file">Text</clp-file>
 // ----------------------------------------------------------------------------------------------------
 class File extends Base {
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+
   render() {
     const path = this.getAttribute("path");
-
-    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(<FileComponent path={path} />, this);
   }
 

@@ -13,10 +13,13 @@ import { Base } from "./clp-base";
 // <clp-a href="./path/to/file.pdf">My PDF</clp-a>
 // ----------------------------------------------------------------------------------------------------
 class LinkNav extends Base {
+  teardown() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+
   render() {
     const path = this.getAttribute("path");
 
-    ReactDOM.unmountComponentAtNode(this);
     ReactDOM.render(
       <Router>
         <Link path={path}>

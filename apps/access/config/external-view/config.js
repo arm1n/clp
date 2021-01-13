@@ -1614,7 +1614,7 @@ export const DATA_SET = [
             id: "clp-423at",
             text: "423AT",
             unit: "./units/access/units/423at.html",
-            desc: "./units/access/descv/423at.html",
+            desc: "./units/access/desc/423at.html",
             info: {},
             access: {},
           },

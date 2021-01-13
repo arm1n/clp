@@ -9,8 +9,7 @@ const fs = require("fs");
 const path = require("path");
 const util = require("@clp/util");
 const { execSync } = require("child_process");
-
-const FLAG_NO_OPT = !process.argv.includes(`--no-opt`);
+const FLAG_NO_OPT = process.argv.includes(`--no-opt`);
 
 const PATH_BUILD_SOURCE = path.join("apps", "main", "build");
 const PATH_BUILD_TARGET = "build";
